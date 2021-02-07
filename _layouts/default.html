@@ -53,7 +53,7 @@
           <footer class="footer">
             {% include svg-icons.html %}
             <img src="/images/dante_certified_logo_level1.png" alt="Dante Level One Certified Logo" style="width:62.5px;height:50px;"/>
-            <p>&copy; Copyright Joshua Brunning {{page.last_modified_at | date: '%Y' }}</p>
+            <p>&copy; Copyright Joshua Brunning {% if page.last_modified_at %}{{page.last_modified_at | date: '%Y' }}{% else %}{{page.date | date: '%Y' }}{% endif %}</p>
           </footer>
         </div>
       </div>
