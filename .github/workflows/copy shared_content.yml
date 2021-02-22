@@ -26,6 +26,11 @@ jobs:
       - uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
-      - name: Push directory to another repository
+      - name: Copy
         uses: cpina/github-action-push-to-another-repository@v1.2
-
+        with:
+          personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+          src_path: '/_pages/Shared Content/'
+          dst_owner: 'josh-justjosh'
+          dst_repo_name: 'blog'
+          dst_path: '/test/'
