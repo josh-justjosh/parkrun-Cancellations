@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Copy
-        uses: cpina/github-action-push-to-another-repository@v1.2
+        uses: andstor/copycat-action@v3
         with:
           personal_token: ${{ secrets.API_TOKEN_GITHUB }}
           src_path: '/_pages/Shared Content/'
