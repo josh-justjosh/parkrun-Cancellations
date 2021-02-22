@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Get In Touch
-permalink: /contact/
+permalink: /contact
 date: 2021-12-31
 ---
 
