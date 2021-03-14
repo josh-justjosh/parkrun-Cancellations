@@ -19,3 +19,16 @@ jobs:
           dst_owner: 'josh-justjosh'
           dst_repo_name: 'blog'
           dst_path: '/'
+
+  Copy_sass:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Copy _sass
+        uses: andstor/copycat-action@v3
+        with:
+          personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+          src_path: '/_sass/'
+          dst_owner: 'josh-justjosh'
+          dst_repo_name: 'blog'
+          dst_path: '/'
