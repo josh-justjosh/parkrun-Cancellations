@@ -110,3 +110,69 @@ jobs:
           dst_owner: 'josh-justjosh'
           dst_repo_name: 'blog'
           dst_path: '/_posts/'
+
+  Copy_404:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Copy 404
+        uses: andstor/copycat-action@v3
+        with:
+          personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+          src_path: '/404.md'
+          dst_owner: 'josh-justjosh'
+          dst_repo_name: 'blog'
+          dst_path: '/'
+
+  Copy_Favicon:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Copy favicon
+        uses: andstor/copycat-action@v3
+        with:
+          personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+          src_path: '/favicon.ico'
+          dst_owner: 'josh-justjosh'
+          dst_repo_name: 'blog'
+          dst_path: '/'
+
+  Copy_License:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Copy LICENSE
+        uses: andstor/copycat-action@v3
+        with:
+          personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+          src_path: '/LICENSE'
+          dst_owner: 'josh-justjosh'
+          dst_repo_name: 'blog'
+          dst_path: '/'
+
+  Copy_Readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Copy readme
+        uses: andstor/copycat-action@v3
+        with:
+          personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+          src_path: '/README.md'
+          dst_owner: 'josh-justjosh'
+          dst_repo_name: 'blog'
+          dst_path: '/'
+
+  Copy_Search:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Copy search.json
+        uses: andstor/copycat-action@v3
+        with:
+          personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+          src_path: '/search.json'
+          dst_owner: 'josh-justjosh'
+          dst_repo_name: 'blog'
+          dst_path: '/'
+          
