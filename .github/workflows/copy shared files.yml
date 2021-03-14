@@ -1,0 +1,178 @@
+name: Copy Shared Files
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  workflow_dispatch:
+
+jobs:
+  Copy_includes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Copy _includes
+        uses: andstor/copycat-action@v3
+        with:
+          personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+          src_path: '/_includes/'
+          dst_owner: 'josh-justjosh'
+          dst_repo_name: 'blog'
+          dst_path: '/'
+
+  Copy_sass:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Copy _sass
+        uses: andstor/copycat-action@v3
+        with:
+          personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+          src_path: '/_sass/'
+          dst_owner: 'josh-justjosh'
+          dst_repo_name: 'blog'
+          dst_path: '/'
+
+  Copy_assets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Copy assets
+        uses: andstor/copycat-action@v3
+        with:
+          personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+          src_path: '/assets/'
+          dst_owner: 'josh-justjosh'
+          dst_repo_name: 'blog'
+          dst_path: '/'
+
+  Copy_fonts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Copy fonts
+        uses: andstor/copycat-action@v3
+        with:
+          personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+          src_path: '/fonts/'
+          dst_owner: 'josh-justjosh'
+          dst_repo_name: 'blog'
+          dst_path: '/'
+
+  Copy_Post_Layout:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Copy Post Layout
+        uses: andstor/copycat-action@v3
+        with:
+          personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+          src_path: '/_layouts/post.html'
+          dst_owner: 'josh-justjosh'
+          dst_repo_name: 'blog'
+          dst_path: '/_layouts/'
+
+  Copy_Page_Layout:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Copy Page Layout
+        uses: andstor/copycat-action@v3
+        with:
+          personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+          src_path: '/_layouts/page.html'
+          dst_owner: 'josh-justjosh'
+          dst_repo_name: 'blog'
+          dst_path: '/_layouts/'
+
+  Copy_Shared_Pages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Copy Shared Pages
+        uses: andstor/copycat-action@v3
+        with:
+          personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+          src_path: '/_pages/Shared Content/'
+          dst_owner: 'josh-justjosh'
+          dst_repo_name: 'blog'
+          dst_path: '/_pages/'
+
+  Copy_Shared_Posts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Copy Shared Posts
+        uses: andstor/copycat-action@v3
+        with:
+          personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+          src_path: '/_posts/Shared Content/'
+          dst_owner: 'josh-justjosh'
+          dst_repo_name: 'blog'
+          dst_path: '/_posts/'
+
+  Copy_404:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Copy 404
+        uses: andstor/copycat-action@v3
+        with:
+          personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+          src_path: '/404.md'
+          dst_owner: 'josh-justjosh'
+          dst_repo_name: 'blog'
+          dst_path: '/'
+
+  Copy_Favicon:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Copy favicon
+        uses: andstor/copycat-action@v3
+        with:
+          personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+          src_path: '/favicon.ico'
+          dst_owner: 'josh-justjosh'
+          dst_repo_name: 'blog'
+          dst_path: '/'
+
+  Copy_License:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Copy LICENSE
+        uses: andstor/copycat-action@v3
+        with:
+          personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+          src_path: '/LICENSE'
+          dst_owner: 'josh-justjosh'
+          dst_repo_name: 'blog'
+          dst_path: '/'
+
+  Copy_Readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Copy readme
+        uses: andstor/copycat-action@v3
+        with:
+          personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+          src_path: '/README.md'
+          dst_owner: 'josh-justjosh'
+          dst_repo_name: 'blog'
+          dst_path: '/'
+
+  Copy_Search:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Copy search.json
+        uses: andstor/copycat-action@v3
+        with:
+          personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+          src_path: '/search.json'
+          dst_owner: 'josh-justjosh'
+          dst_repo_name: 'blog'
+          dst_path: '/'
+          
