@@ -1,0 +1,21 @@
+name: Copy Shared Files
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  workflow_dispatch:
+
+jobs:
+  Copy _includes:
+    runs-on: ubuntu-latest
+    steps:
+     - uses: actions/checkout@v2
+      - name: Copy _includes
+        uses: andstor/copycat-action@v3
+        with:
+          personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+          src_path: '/_includes/'
+          dst_owner: 'josh-justjosh'
+          dst_repo_name: 'blog'
+          dst_path: '/'
