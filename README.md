@@ -1,1 +1,5 @@
+Hey there! 👋
 
+Thanks for taking the time to read this, there's nothing much else to look at here.
+
+You can visit the webpage that this git produces at [www.josh.me.uk]
