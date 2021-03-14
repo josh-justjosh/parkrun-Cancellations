@@ -87,7 +87,7 @@ jobs:
         uses: andstor/copycat-action@v3
         with:
           personal_token: ${{ secrets.API_TOKEN_GITHUB }}
-          src_path: '/readme.md'
+          src_path: '/README.md'
           dst_owner: 'josh-justjosh'
           dst_repo_name: 'blog'
           dst_path: '/'
