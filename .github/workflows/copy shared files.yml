@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  Copy _includes:
+  Copy_includes:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
