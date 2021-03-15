@@ -21,4 +21,4 @@ And some of my past projects include:
 
 
 
-This site is hosted on [GitHub Pages](https://pages.github.com/) and is based on the [Reverie](https://reverie-jekyll.netlify.app/about/) [Jekyll](https://jekyllrb.com/) theme. <!--Read more about how this website came to be *here*-->
+This site is hosted on [GitHub Pages](https://pages.github.com/) and is based on the [Reverie](https://reverie-jekyll.netlify.app/about/) [Jekyll](https://jekyllrb.com/) theme. The dark theme and toggle is based on [this PR](https://github.com/amitmerchant1990/reverie/pull/44/) by [Ong Yong Xin](https://ongyx.github.io/).<!--Read more about how this website came to be *here*-->
