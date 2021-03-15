@@ -23,15 +23,11 @@ html {
 // Poor man's dark mode
 // dev.to/pqina/poor-man-s-dark-mode-using-css-filter221n
 
-.dark-mode {
-  filter: invert(100%) hue-rotate(180deg);
-}
-
 .dark-mode img {
   filter: hue-rotate(180deg) invert(100%);
 }
 
-.dark-mode iframe {
+.dark-mode {
   filter: invert(100%) hue-rotate(180deg);
 }
 
@@ -51,12 +47,20 @@ html {
   left: 20px;
 }
 
+.top-right-corner {
+  display: flex;
+  position: relative;
+  margin: 0;
+  vertical-align: top;
+  padding: 1rem;
+}
+
 .btn-toggle {
     width: 1rem;
     height: 1rem;
     border-radius: 20px;
     background-color: white;
-    transition: transform .5s;
+    transition: transform .1s;
 }
 
 .dark-mode .btn-toggle {
