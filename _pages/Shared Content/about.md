@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-last_modified_at: 2021-03-15 22:15 +0000
+last_modified_at: 2021-02-19 23:50 +0000
 ---
 
 My name is Josh Brunning and I'm a Human who Does Stuff on The Internet.
@@ -10,7 +10,6 @@ My name is Josh Brunning and I'm a Human who Does Stuff on The Internet.
 My projects currently include:
 
 * This Site
-* Working part-time at Morrisons
 * Being a Sound, Light and Live Event Technology student at Derby Uni
 * Vision Mixing [St Werburgh's](https://stwderby.org/) live services here in Derby
 
@@ -22,4 +21,4 @@ And some of my past projects include:
 
 
 
-This site is hosted on [GitHub Pages](https://pages.github.com/) and is based on the [Reverie](https://reverie-jekyll.netlify.app/about/) [Jekyll](https://jekyllrb.com/) theme. The dark theme and toggle is based on [this PR](https://github.com/amitmerchant1990/reverie/pull/44/) by [Ong Yong Xin](https://ongyx.github.io/).<!--Read more about how this website came to be *here*-->
+This site is hosted on [GitHub Pages](https://pages.github.com/) and is based on the [Reverie](https://reverie-jekyll.netlify.app/about/) [Jekyll](https://jekyllrb.com/) theme. <!--Read more about how this website came to be *here*-->
