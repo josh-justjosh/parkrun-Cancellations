@@ -7,7 +7,16 @@ on:
   workflow_dispatch:
 
 jobs:
+  wait:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait 5 minutes before running
+        uses: jakejarvis/wait-action@master
+        with:
+          time: '300s'
+
   Copy_includes:
+    needs: wait
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
