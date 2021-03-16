@@ -2,6 +2,7 @@ name: Cancelling Duplicates
 on:
   workflow_run:
     workflows: ['Copy Shared Files']
+    types: ['requested']
   workflow_dispatch:
 
 jobs:
