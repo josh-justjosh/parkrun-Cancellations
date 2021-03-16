@@ -10,10 +10,10 @@ jobs:
   wait:
     runs-on: ubuntu-latest
     steps:
-      - name: Wait 5 minutes before running
+      - name: Wait 30 secs before running
         uses: jakejarvis/wait-action@master
         with:
-          time: '300s'
+          time: '30s'
 
   Copy_includes:
     needs: wait
@@ -30,7 +30,7 @@ jobs:
           dst_path: '/'
 
   Copy_sass:
-    needs: Copy_includes
+    needs: wait
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -44,7 +44,7 @@ jobs:
           dst_path: '/'
 
   Copy_assets:
-    needs: Copy_sass
+    needs: wait
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -58,7 +58,7 @@ jobs:
           dst_path: '/'
 
   Copy_fonts:
-    needs: Copy_assets
+    needs: wait
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -72,7 +72,7 @@ jobs:
           dst_path: '/'
 
   Copy_Post_Layout:
-    needs: Copy_fonts
+    needs: wait
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -86,7 +86,7 @@ jobs:
           dst_path: '/_layouts/'
 
   Copy_Page_Layout:
-    needs: Copy_Post_Layout
+    needs: wait
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -100,7 +100,7 @@ jobs:
           dst_path: '/_layouts/'
 
   Copy_Shared_Pages:
-    needs: Copy_Page_Layout
+    needs: wait
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -114,7 +114,7 @@ jobs:
           dst_path: '/_pages/'
 
   Copy_Shared_Posts:
-    needs: Copy_Shared_Pages
+    needs: wait
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -128,7 +128,7 @@ jobs:
           dst_path: '/_posts/'
 
   Copy_404:
-    needs: Copy_Shared_Posts
+    needs: wait
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -142,7 +142,7 @@ jobs:
           dst_path: '/'
 
   Copy_Favicon:
-    needs: Copy_404
+    needs: wait
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -156,7 +156,7 @@ jobs:
           dst_path: '/'
 
   Copy_License:
-    needs: Copy_Favicon
+    needs: wait
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -170,7 +170,7 @@ jobs:
           dst_path: '/'
 
   Copy_Readme:
-    needs: Copy_License
+    needs: wait
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -184,7 +184,7 @@ jobs:
           dst_path: '/'
 
   Copy_Search:
-    needs: Copy_Readme
+    needs: wait
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
