@@ -136,7 +136,7 @@ layout: default
     {% for category in categories %}
       {% if category == "video" %}
       <a style="text-transform: capitalize;" href="{{site.baseurl}}/categories/videos">{{category}}</a>
-      {% elslif category == "live" %}
+      {% elsif category == "live" %}
       <a style="text-transform: capitalize;" href="{{site.baseurl}}/live">{{category}}</a>
       {% else %}
       <a style="text-transform: capitalize;" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
