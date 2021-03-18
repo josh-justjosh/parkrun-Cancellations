@@ -1,4 +1,4 @@
-name: Cancelling Duplicates
+name: Cancel Duplicates
 on:
   workflow_run:
     workflows: ['Copy Shared Files']
