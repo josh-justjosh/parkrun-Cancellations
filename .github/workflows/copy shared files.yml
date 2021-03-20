@@ -197,3 +197,18 @@ jobs:
           dst_repo_name: 'blog'
           dst_path: '/'
           
+  Copy_Funding:
+    needs: wait
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Copy funding.yml
+        uses: andstor/copycat-action@v3
+        with:
+          personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+          src_path: '/.github/FUNDING.yml'
+          dst_owner: 'josh-justjosh'
+          dst_repo_name: 'blog'
+          dst_path: '/.github/'
+          
+          
