@@ -127,6 +127,21 @@ layout: default
     {{ content }}
   </div>
 
+  <div class="post-roles">
+    {% if post %}
+      {% assign roles = post.roles %}
+    {% else %}
+      {% assign roles = page.roles %}
+    {% endif %}
+    {% for role in roles %}
+    {% if forloop.first == true %}
+        <p>Role{% if forloop.length > 1 %}s{% endif %}:&nbsp;
+    {% endif %}
+      <a href="{{site.baseurl}}/roles/#{{role|slugize}}">{{role}}</a>
+      {% if forloop.last %}</p>{% else %}&nbsp;{% endif %}
+    {% endfor %}
+  </div>
+
   <div class="post-categories">
     {% if post %}
       {% assign categories = post.categories %}
@@ -134,6 +149,9 @@ layout: default
       {% assign categories = page.categories %}
     {% endif %}
     {% for category in categories %}
+    {% if forloop.first == true %}
+        <p>Categor{% if forloop.length > 1 %}ies{% else %}y{% endif %}:&nbsp;
+    {% endif %}
       {% if category == "video" %}
       <a style="text-transform: capitalize;" href="{{site.baseurl}}/videos">{{category}}</a>
       {% elsif category == "live" %}
@@ -143,7 +161,7 @@ layout: default
       {% else %}
       <a style="text-transform: capitalize;" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
       {% endif %}
-      {% unless forloop.last %}&nbsp;{% endunless %}
+      {% if forloop.last %}</p>{% else %}&nbsp;{% endif %}
     {% endfor %}
   </div>
 
