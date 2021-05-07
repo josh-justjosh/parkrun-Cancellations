@@ -3,7 +3,7 @@ layout: page
 title: parkrun Cancellations
 permalink: /parkrun-cancellations/
 date: 2019-08-20 10:39 +0100
-last_modified_at: 2021-04-23 18:35 +0100
+last_modified_at: 2021-05-07 16:48 +0100
 tag: parkrun
 ---
 
