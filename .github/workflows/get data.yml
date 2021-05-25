@@ -1,5 +1,6 @@
 name: Fetch Data
 on:
+  push:
   workflow_dispatch:
 
 jobs:
