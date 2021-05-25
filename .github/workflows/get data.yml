@@ -1,4 +1,4 @@
-name: Fetch DAta
+name: Fetch Data
 on:
   workflow_dispatch:
 
@@ -6,10 +6,13 @@ jobs:
   deployment:
     runs-on: ubuntu-latest
     steps:
-    - name: Deploy Stage
+    - name: RTT Sandy Request
+      id: rttRequest
       uses: fjogeleit/http-request-action@master
       with:
-        url: 'https://ansible.io/api/v2/job_templates/84/launch/'
+        url: 'https://api.rtt.io/api/v1/json/search/SDY'
         method: 'POST'
-        username: ${{ secrets.AWX_USER }}
-        password: ${{ secrets.AWX_PASSWORD }}
+        username: ${{ secrets.RTT_Username }}
+        password: ${{ secrets.RTT_Password }}
+    - name: Show Response
+      run: echo ${{ steps.rttRequest.outputs.response }}
