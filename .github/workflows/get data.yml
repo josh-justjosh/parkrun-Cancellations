@@ -1,3 +1,7 @@
+name: Fetch DAta
+on:
+  workflow_dispatch:
+
 jobs:
   deployment:
     runs-on: ubuntu-latest
