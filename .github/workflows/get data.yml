@@ -15,5 +15,6 @@ jobs:
         method: 'POST'
         username: ${{ secrets.RTT_Username }}
         password: ${{ secrets.RTT_Password }}
+        customHeaders: '{Referer: josh.me.uk}'
     - name: Show Response
       run: echo ${{ steps.rttRequest.outputs.response }}
