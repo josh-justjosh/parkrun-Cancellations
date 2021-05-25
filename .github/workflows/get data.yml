@@ -17,3 +17,14 @@ jobs:
         password: ${{ secrets.RTT_Password }}
     - name: Show Response
       run: echo ${{ steps.rttRequest.outputs.response }}
+
+  writeToFile:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Write to File
+      uses: DamianReeves/write-file-action@master
+      with:
+        path: ${{ env.home}}/.bashrc
+        contents: |
+          echo "Hello World!"
+        write-mode: append
