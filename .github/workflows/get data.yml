@@ -24,7 +24,7 @@ jobs:
     - name: Write to File
       uses: DamianReeves/write-file-action@master
       with:
-        path: '/_data/test.txt'
+        path: '_data/test.txt'
         contents: |
           echo "Hello World!"
         write-mode: append
