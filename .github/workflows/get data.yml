@@ -19,18 +19,24 @@ jobs:
     - name: Show Response
       run: echo ${{ steps.rttRequest.outputs.response }}
 
-    # If you need to, you can check out your repo to a different location
-    - uses: actions/checkout@v2
-      with:
-        path: './pathToRepo/_data/'
-
-    # You can make whatever type of change to the repo...
-    - run: echo "123" > ./pathToRepo/_data/file.txt
-
-    # ...and then use the action as you would normally do, but providing the path to the repo
-    - uses: EndBug/add-and-commit@v7
-      with:
-        message: 'Add the very useful text file'
-        add: '*.txt --force'
-        cwd: './pathToRepo/_data/'
+saveData:
+  runs-on: ubuntu-latest
+      steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+          fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+      - name: Create local changes
+        run: |
+          echo "Test" > "text.txt"
+      - name: Commit files
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -m "Add changes" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.API_TOKEN_GITHUB }}
+          branch: ${{ github.ref }}
 
