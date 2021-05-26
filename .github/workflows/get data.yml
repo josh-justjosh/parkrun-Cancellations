@@ -51,7 +51,9 @@ jobs:
       id: current-time
     
     - name: Write Time to File
-      run: echo ${{ steps.current-time.outputs.time }} > _data/raw/time.txt
+      run: |
+        echo 'Time' > _data/raw/time.csv
+        echo ${{ steps.current-time.outputs.time }} >> _data/raw/time.csv
 
     - name: Commit files
       run: |
@@ -62,7 +64,7 @@ jobs:
         git add _data/raw/events.json
         git add _data/raw/technical-event-info.html
         git add _data/raw/cancellations.html
-        git add _data/raw/time.txt
+        git add _data/raw/time.csv
         git commit -m "Update Data [Bot]" -a
         
     - name: Push changes
