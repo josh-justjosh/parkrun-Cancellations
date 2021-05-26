@@ -22,5 +22,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Display the path
-      run: echo $PATH
+      run: |
+        echo "some text" > aNewFile
       shell: bash
