@@ -2,9 +2,8 @@ from html.parser import HTMLParser
 
 parkruns = []
 
-
 try:
-    ptr_file = str(open('_data/PtR.html', "rb").read())
+    ptr_file = str(open('../_data/PtR.html', "rb").read())
 
     class MyHTMLParser(HTMLParser):
 
@@ -14,8 +13,9 @@ try:
                 parkruns.append(data)
 
     MyHTMLParser().feed(ptr_file)
+    
 finally:
-    open('_data/PtR.html', "rb").close()
+    open('../_data/PtR.html', "rb").close()
 
 del parkruns[:5]
 del parkruns[-4:]
@@ -26,12 +26,12 @@ for i in range(len(parkruns)):
 for i in parkruns:
     print(i)
 
-with open('_data/PtR.csv','w') as f:
+with open('../_data/PtR.csv','w') as f:
     f.write("Event\n")
     for i in parkruns:
         f.write(i+"\n")
 
-with open('_data/PtRtable.csv','w') as f:
+with open('../_data/PtRtable.csv','w') as f:
     f.write("Event\n")
     for i in range(0,len(parkruns),2):
         try:

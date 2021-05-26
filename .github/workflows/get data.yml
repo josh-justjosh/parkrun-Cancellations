@@ -75,7 +75,7 @@ jobs:
         
     - name: execute py script # run the run.py to get the latest data
       run: |
-        python 'PtR Script.py'
+        python scripts/PtR.py
         
     - name: Commit files
       run: |
