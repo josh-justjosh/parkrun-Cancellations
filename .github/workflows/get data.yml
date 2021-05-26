@@ -24,6 +24,13 @@ jobs:
         url: 'https://blog.parkrun.com/uk/2021/04/30/current-landowner-permissions/'
         method: 'GET'
         
+    - name: events.json
+      id: eventsjson
+      uses: fjogeleit/http-request-action@master
+      with:
+        url: 'https://images.parkrun.com/events.json'
+        method: 'GET'
+        
     - uses: actions/checkout@v2
       with:
         persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
@@ -33,6 +40,7 @@ jobs:
       run: |
         echo ${{ steps.rttRequest.outputs.response }} > _data/SDY.json
         echo ${{ steps.PtR.outputs.response }} > _data/PtR.html
+        echo ${{ steps.eventsjson.outputs.response }} > _data/events.json
 
     - name: Commit files
       run: |
@@ -40,6 +48,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add _data/SDY.json
         git add _data/PtR.html
+        git add _data/events.json
         git commit -m "Update Data [Bot]" -a
         
     - name: Push changes
