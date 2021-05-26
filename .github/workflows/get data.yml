@@ -3,10 +3,10 @@ on:
   push:
   workflow_dispatch:
   
-if: "!contains(github.event.head_commit.message, '[Bot]')"
 jobs:
-  getData:
+  Get_Data:
     runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[Bot]')"
     steps:
     - name: RTT Sandy Request
       id: rttRequest
@@ -47,9 +47,9 @@ jobs:
         github_token: ${{ secrets.API_TOKEN_GITHUB }}
         branch: ${{ github.ref }}
         
-  python:
+  PtR_Script:
     runs-on: ubuntu-latest
-    needs: getData
+    needs: Get_Data
     steps:
     - uses: actions/checkout@v2
       with:
@@ -63,7 +63,7 @@ jobs:
         
     - name: execute py script # run the run.py to get the latest data
       run: |
-        python parser.py
+        python 'PtR Script.py'
         
     - name: Commit files
       run: |
