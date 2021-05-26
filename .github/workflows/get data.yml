@@ -6,6 +6,7 @@ on:
 jobs:
   getData:
     runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[Bot]')"
     steps:
     - name: RTT Sandy Request
       id: rttRequest
@@ -41,7 +42,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add _data/SDY.json
         git add _data/PtR.html
-        git commit -m "Add changes" -a
+        git commit -m "Add changes [Bot]" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
