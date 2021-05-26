@@ -15,6 +15,12 @@ jobs:
         method: 'GET'
         username: ${{ secrets.RTT_Username }}
         password: ${{ secrets.RTT_Password }}
+        
+    - uses: actions/checkout@v2
+      with:
+        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+        fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+        
     - name: Format json
       uses: jsdaniell/create-json@1.1.2
       with:
@@ -22,13 +28,10 @@ jobs:
         json: ${{ steps.rttRequest.outputs.response }}
         dir: '_data/'
 
-    - uses: actions/checkout@v2
-      with:
-        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
-        fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
     - name: Create local changes
       run: |
         echo ${{ steps.rttRequest.outputs.response }} > _data/SDY.json
+
     - name: Commit files
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
