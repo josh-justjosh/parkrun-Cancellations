@@ -34,4 +34,11 @@ jobs:
       with:
         github_token: ${{ secrets.API_TOKEN_GITHUB }}
         branch: ${{ github.ref }}
+        
+    - name: Format json
+      uses: jsdaniell/create-json@1.1.2
+      with:
+        name: "SDY Formatted.json"
+        json: ${{ steps.rttRequest.outputs.response }}
+        dir: '_data/'
 
