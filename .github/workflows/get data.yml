@@ -21,9 +21,9 @@ jobs:
     
     - name: Save Response
       run: |
-        FILE=./_data/`date +"%Y%m%d %H%M%S"`.txt
-        echo ${{ steps.rttRequest.outputs.response }} > $FILE
-        echo "$FILE saved."
+        FILEADD=./_data/`date +"%Y%m%d %H%M%S"`.txt
+        echo ${{ steps.rttRequest.outputs.response }} > $FILEADD
+        echo "$FILEADD saved."
         fi
         
     - name: git check in
