@@ -35,14 +35,13 @@ jobs:
         echo ${{ steps.rttRequest.outputs.response }} > _data/raw/SDY.json
         echo ${{ steps.PtR.outputs.response }} > _data/raw/PtR.html
 
-      - name: setup python
+    - name: setup python
       uses: actions/setup-python@v2
       with:
         python-version: 3.8 #install the python needed
         
     - name: execute py script # run the run.py to get the latest data
-      run: |
-        python scripts/'parkrun data.py'
+      run: python scripts/'parkrun data.py'
 
     - name: Commit files
       run: |
@@ -77,8 +76,7 @@ jobs:
         python-version: 3.8 #install the python needed
         
     - name: execute py script # run the run.py to get the latest data
-      run: |
-        python scripts/PtR.py
+      run: python scripts/PtR.py
         
     - name: Commit files
       run: |
