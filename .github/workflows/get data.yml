@@ -28,6 +28,7 @@ jobs:
       with:
         path: text.txt
 
+    - name: Print text
     - run: echo $TEXT
       env:
         TEXT: ${{ steps.hello.outputs.text }}
