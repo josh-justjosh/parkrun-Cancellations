@@ -2,11 +2,11 @@ name: Fetch Data
 on:
   push:
   workflow_dispatch:
-
+  
+if: "!contains(github.event.head_commit.message, '[Bot]')"
 jobs:
   getData:
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, '[Bot]')"
     steps:
     - name: RTT Sandy Request
       id: rttRequest
@@ -24,21 +24,10 @@ jobs:
         url: 'https://blog.parkrun.com/uk/2021/04/30/current-landowner-permissions/'
         method: 'GET'
         
-    - run: echo ${{ steps.PtR.outputs.response }}
-        
     - uses: actions/checkout@v2
       with:
         persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
         fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
-   
-    - name: setup python
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.8 #install the python needed
-        
-    - name: execute py script # run the run.py to get the latest data
-      run: |
-        python parser.py
         
     - name: Create local changes
       run: |
@@ -51,11 +40,40 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add _data/SDY.json
         git add _data/PtR.html
-        git add _data/PtR.txt
-        git commit -m "Add changes [Bot]" -a
+        git commit -m "Update Data [Bot]" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.API_TOKEN_GITHUB }}
         branch: ${{ github.ref }}
-
+        
+  python:
+    runs-on: ubuntu-latest
+    needs: getData
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+        fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+        
+    - name: setup python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8 #install the python needed
+        
+    - name: execute py script # run the run.py to get the latest data
+      run: |
+        python parser.py
+        
+    - name: Commit files
+      run: |
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add _data/PtR.csv
+        git add _data/PtRtable.csv
+        git commit -m "Run PtR Script [Bot]" -a
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.API_TOKEN_GITHUB }}
+        branch: ${{ github.ref }}
