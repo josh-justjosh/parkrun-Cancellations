@@ -30,7 +30,16 @@ jobs:
       with:
         persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
         fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
-
+   
+    - name: setup python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8 #install the python needed
+        
+    - name: execute py script # run the run.py to get the latest data
+      run: |
+        python parser.py
+        
     - name: Create local changes
       run: |
         echo ${{ steps.rttRequest.outputs.response }} > _data/SDY.json
