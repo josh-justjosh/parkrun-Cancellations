@@ -52,7 +52,7 @@ jobs:
     
     - name: Write Time to File
       run: |
-        echo 'Time' > _data/raw/time.csv
+        echo 'time' > _data/raw/time.csv
         echo ${{ steps.current-time.outputs.time }} >> _data/raw/time.csv
 
     - name: Commit files

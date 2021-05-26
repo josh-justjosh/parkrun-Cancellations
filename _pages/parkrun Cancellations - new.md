@@ -3,17 +3,18 @@ layout: page
 title: parkrun Cancellations
 permalink: /parkrun-cancellations-new/
 date: 2019-08-20 10:39 +0100
-last_modified_at: 
 tag: parkrun
 location:
   latitude: 51.5285582
   longitude: -0.2416807
 ---
-<!--{% assign page.last_modified_at = site.data.time %}-->
-{{ site.data.time.Time }}
 
-{% assign time = page.last_modified_at | date: "%R" %}
-{% assign tz = page.last_modified_at | date: "%z" %}
+{% for stuff in site.data.raw.time %}
+{% assign last_modified_at = stuff.time %}
+{% endfor %}
+
+{% assign time = last_modified_at | date: "%R" %}
+{% assign tz = last_modified_at | date: "%z" %}
 {% if tz == "+0000" %}{% assign tzn = "UTC" %}
 {% elsif tz == "+0100" %}{% assign tzn = "UTC+1" %}
 {% elsif tz == "-1200" %}{% assign tzn = "UTC-12" %}
@@ -57,9 +58,9 @@ location:
 {% else %}{% assign tzn = "UTC" | append: tz %}
 {% endif %}
 {% if time contains "00:00" %}
-  <p class="author_title" datetime="{{ page.last_modified_at | date_to_xmlschema }}">Last Updated: {{ page.last_modified_at | date: "%A, %e&nbsp;%B&nbsp;%Y" }}</p>
+  <p class="author_title" datetime="{{ last_modified_at | date_to_xmlschema }}">Last Updated: {{ last_modified_at | date: "%A, %e&nbsp;%B&nbsp;%Y" }}</p>
 {% else %}
-  <p class="author_title" datetime="{{ page.last_modified_at | date_to_xmlschema }}">Last Updated: {{ page.last_modified_at | date: "%R %A, %e&nbsp;%B&nbsp;%Y" }} {{ tzn }}</p>
+  <p class="author_title" datetime="{{ last_modified_at | date_to_xmlschema }}">Last Updated: {{ last_modified_at | date: "%R %A, %e&nbsp;%B&nbsp;%Y" }} {{ tzn }}</p>
 {% endif %}
 
 <div style="text-align: center; display: block;">
