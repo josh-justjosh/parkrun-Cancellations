@@ -15,9 +15,6 @@ jobs:
         method: 'GET'
         username: ${{ secrets.RTT_Username }}
         password: ${{ secrets.RTT_Password }}
-        
-    - name: Show Response
-      run: echo ${{ steps.rttRequest.outputs.response }}
 
     - uses: actions/checkout@v2
       with:
@@ -25,12 +22,12 @@ jobs:
         fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
     - name: Create local changes
       run: |
-        echo ${{ steps.rttRequest.outputs.response }} > "_data/text.txt"
+        echo ${{ steps.rttRequest.outputs.response }} > _data/SDY.json
     - name: Commit files
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add _data/text.txt
+        git add _data/SDY.json
         git commit -m "Add changes" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
