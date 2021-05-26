@@ -4,9 +4,6 @@ title: parkrun Cancellations
 permalink: /parkrun-cancellations-new/
 date: 2019-08-20 10:39 +0100
 tag: parkrun
-location:
-  latitude: 51.5285582
-  longitude: -0.2416807
 ---
 
 {% for stuff in site.data.raw.time %}
@@ -64,7 +61,7 @@ location:
 {% endif %}
 
 <div style="text-align: center; display: block;">
-{% google_map %}
+{% google_map src="_data/events" %}
 </div>
 
 <div style="text-align: center;">
