@@ -42,8 +42,9 @@ jobs:
         
     - name: execute py script # run the run.py to get the latest data
       run: |
+        python -m pip install --upgrade pip
         pip install requests
-        python scripts/'parkrun data.py'
+        python 'parkrun data.py'
 
     - name: Commit files
       run: |
@@ -76,9 +77,11 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: 3.8 #install the python needed
-        
+    - name: Pull request
+      run: git pull
+      
     - name: execute py script # run the run.py to get the latest data
-      run: python scripts/PtR.py
+      run: python PtR.py
         
     - name: Commit files
       run: |
