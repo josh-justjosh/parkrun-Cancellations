@@ -19,6 +19,7 @@ jobs:
       run: echo ${{ steps.rttRequest.outputs.response }}
 
   writeToFile:
+    runs-on: ubuntu-latest
     steps:
     - name: Display the path
       run: echo $PATH
