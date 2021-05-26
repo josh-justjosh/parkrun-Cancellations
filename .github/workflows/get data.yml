@@ -22,6 +22,7 @@ jobs:
     - name: Save Response
     - run: echo -n -e "HELLO\n !\n World!" > text.txt
     
+    - name: Write Response
     - uses: pCYSl5EDgo/cat@master
       id: hello
       with:
