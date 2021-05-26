@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  deployment:
+  getData:
     runs-on: ubuntu-latest
     steps:
     - name: RTT Sandy Request
@@ -19,11 +19,22 @@ jobs:
     - name: Show Response
       run: echo ${{ steps.rttRequest.outputs.response }}
     
-    - name: Save Response
-      run: echo -n -e "HELLO\n !\n World!" >> './_data/text.txt'
-    
-    - uses: actions/upload-artifact@v2
-      with:
-        name: my-artifact
-        path: './_data/text.txt'
+jobs2:
+  saveData:
+    runs-on: ubuntu-latest
+    steps:
+          # If you need to, you can check out your repo to a different location
+          - uses: actions/checkout@v2
+            with:
+              path: './pathToRepo/'
+
+          # You can make whatever type of change to the repo...
+          - run: echo "123" > ./pathToRepo/file.txt
+
+          # ...and then use the action as you would normally do, but providing the path to the repo
+          - uses: EndBug/add-and-commit@v7
+            with:
+              message: 'Add the very useful text file'
+              add: '*.txt --force'
+              cwd: './pathToRepo/'
     
