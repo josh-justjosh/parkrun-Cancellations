@@ -20,7 +20,7 @@ jobs:
       run: echo ${{ steps.rttRequest.outputs.response }}
     
     - name: Save Response
-    - run: echo -n -e "HELLO\n !\n World!" > _data/text.txt
+      run: echo -n -e "HELLO\n !\n World!" > _data/text.txt
     
     - uses: actions/upload-artifact@v2
       with:
