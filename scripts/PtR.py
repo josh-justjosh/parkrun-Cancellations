@@ -3,7 +3,7 @@ from html.parser import HTMLParser
 parkruns = []
 
 try:
-    ptr_file = str(open('../_data/PtR.html', "rb").read())
+    ptr_file = str(open('../_data/raw/PtR.html', "rb").read())
 
     class MyHTMLParser(HTMLParser):
 
@@ -15,7 +15,7 @@ try:
     MyHTMLParser().feed(ptr_file)
     
 finally:
-    open('../_data/PtR.html', "rb").close()
+    open('../_data/raw/PtR.html', "rb").close()
 
 del parkruns[:5]
 del parkruns[-4:]

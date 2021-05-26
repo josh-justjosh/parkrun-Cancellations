@@ -25,13 +25,6 @@ jobs:
         url: 'https://blog.parkrun.com/uk/2021/04/30/current-landowner-permissions/'
         method: 'GET'
         
-    - name: events.json
-      id: eventsjson
-      uses: fjogeleit/http-request-action@master
-      with:
-        url: 'https://images.parkrun.com/events.json'
-        method: 'GET'
-        
     - uses: actions/checkout@v2
       with:
         persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
@@ -39,17 +32,27 @@ jobs:
         
     - name: Create local changes
       run: |
-        echo ${{ steps.rttRequest.outputs.response }} > _data/SDY.json
-        echo ${{ steps.PtR.outputs.response }} > _data/PtR.html
-        echo ${{ steps.eventsjson.outputs.response }} > _data/events.json
+        echo ${{ steps.rttRequest.outputs.response }} > _data/raw/SDY.json
+        echo ${{ steps.PtR.outputs.response }} > _data/raw/PtR.html
+
+      - name: setup python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8 #install the python needed
+        
+    - name: execute py script # run the run.py to get the latest data
+      run: |
+        python scripts/'parkrun data.py'
 
     - name: Commit files
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add _data/SDY.json
-        git add _data/PtR.html
-        git add _data/events.json
+        git add _data/raw/SDY.json
+        git add _data/raw/PtR.html
+        git add _data/raw/events.json
+        git add _data/raw/technical-event-info.html
+        git add _data/raw/cancellations.html
         git commit -m "Update Data [Bot]" -a
         
     - name: Push changes
