@@ -21,10 +21,12 @@ jobs:
   writeToFile:
     runs-on: ubuntu-latest
     steps:
-    - name: Write to File
-      uses: DamianReeves/write-file-action@master
+    - name: Write to file
+      # You may pin to the exact commit or the version.
+      # uses: frdrwrt/write-to-file@89c5761ba721d62b757edeefe02028e388885ab5
+      uses: frdrwrt/write-to-file@v1.3
       with:
-        path: '_data/test.txt'
-        contents: |
-          echo "Hello World!"
-        write-mode: append
+        # Where to create the file
+        filepath: '/_data/test.txt'# default is file
+        # What to write to file
+        content: "Test"
