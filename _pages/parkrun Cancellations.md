@@ -14,3 +14,15 @@ tag: parkrun
 </div>
 
 <p style="text-align: center;">* Dependent on a substantial number of events returning. You can read more about that <a href="https://blog.josh.me.uk/2021/05/12/update-to-the-parkrun-cancellations-map/">here</a>.
+
+<h2> The following events have been granted permission to return </h2>
+
+<table style="margin-left:auto; margin-right:auto;">
+  {% for row in site.data.PtRtable %}
+    {% unless forloop.first %}
+    {% tablerow pair in row %}
+      {{ pair[1] }}
+    {% endtablerow %}
+    {% endunless %}
+  {% endfor %}
+</table>
