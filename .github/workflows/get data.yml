@@ -21,8 +21,8 @@ jobs:
     
     - name: Save Response
       run: |
-        FILE='./_data/`date +"%Y%m%d%k%M%S"`.txt'
-        echo ${{ steps.rttRequest.outputs.response }} > $FILE
+        FILE='./_data/`date +"%Y%m%d %H%M%S"`.txt'
+        echo ${{ steps.rttRequest.outputs.response }} > "$FILE"
         echo "$FILE saved."
         fi
         
