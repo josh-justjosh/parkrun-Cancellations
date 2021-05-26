@@ -20,16 +20,10 @@ jobs:
       run: echo ${{ steps.rttRequest.outputs.response }}
     
     - name: Save Response
-    - run: echo -n -e "HELLO\n !\n World!" > text.txt
+    - run: echo -n -e "HELLO\n !\n World!" > _data/text.txt
     
-    - name: Write Response
-    - uses: pCYSl5EDgo/cat@master
-      id: hello
+    - uses: actions/upload-artifact@v2
       with:
-        path: text.txt
-
-    - name: Print text
-    - run: echo $TEXT
-      env:
-        TEXT: ${{ steps.hello.outputs.text }}
+        name: my-artifact
+        path: _data/text.txt
     
