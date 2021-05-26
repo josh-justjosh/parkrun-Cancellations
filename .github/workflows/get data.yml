@@ -27,6 +27,6 @@ jobs:
       uses: frdrwrt/write-to-file@v1.3
       with:
         # Where to create the file
-        filepath: ''# default is file
+        filepath: '/_data/'# default is file
         # What to write to file
         content: "Test"
