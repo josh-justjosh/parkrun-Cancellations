@@ -45,6 +45,13 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests
         python 'parkrun data.py'
+    
+    - name: Get Current Time
+      uses: gerred/actions/current-time@master
+      id: current-time
+    
+    - name: Write Time to File
+      run: echo ${{ steps.current-time.outputs.time }} > _data/raw/time.txt
 
     - name: Commit files
       run: |
@@ -55,6 +62,7 @@ jobs:
         git add _data/raw/events.json
         git add _data/raw/technical-event-info.html
         git add _data/raw/cancellations.html
+        git add _data/raw/time.txt
         git commit -m "Update Data [Bot]" -a
         
     - name: Push changes
