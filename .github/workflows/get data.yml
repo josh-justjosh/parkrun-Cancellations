@@ -20,25 +20,14 @@ jobs:
       run: echo ${{ steps.rttRequest.outputs.response }}
     
     - name: Save Response
-      run: |
-        FILE='./_data/`date +"%Y%m%d %H%M%S"`.txt'
-        echo ${{ steps.rttRequest.outputs.response }} > "$FILE"
-        echo "$FILE saved."
-        fi
-        
-    - name: git check in
+    - run: echo -n -e "HELLO\n !\n World!" > text.txt
+    
+    - uses: pCYSl5EDgo/cat@master
+      id: hello
+      with:
+        path: text.txt
+
+    - run: echo $TEXT
       env:
-        GIT_OWNER_EMAIL: ${{ secrets.GIT_OWNER_EMAIL }} 
-        PUSH_TOKEN: ${{ secrets.API_TOKEN_GITHUB }}
-      run: |
-        git config user.email "$GIT_OWNER_EMAIL"
-        git config user.name "changhuixu"
-        if [[ `git status --porcelain` ]]; then
-          git add .
-          git commit -a -m "add weather data"
-          git remote rm origin
-          git remote add origin https://changhuixu:$API_TOKEN_GITHUB@github.com/changhuixu/historical-weather-data.git
-          git push origin HEAD:master
-        else
-          echo 'unable to detect changes'
-        fi  
+        TEXT: ${{ steps.hello.outputs.text }}
+    
