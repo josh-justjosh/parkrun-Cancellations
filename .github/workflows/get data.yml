@@ -15,6 +15,12 @@ jobs:
         method: 'GET'
         username: ${{ secrets.RTT_Username }}
         password: ${{ secrets.RTT_Password }}
+    - name: Format json
+      uses: jsdaniell/create-json@1.1.2
+      with:
+        name: "SDY Formatted.json"
+        json: ${{ steps.rttRequest.outputs.response }}
+        dir: '_data/'
 
     - uses: actions/checkout@v2
       with:
@@ -28,17 +34,11 @@ jobs:
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add _data/SDY.json
+        git add '_data/SDY Formatted.json'
         git commit -m "Add changes" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.API_TOKEN_GITHUB }}
         branch: ${{ github.ref }}
-        
-    - name: Format json
-      uses: jsdaniell/create-json@1.1.2
-      with:
-        name: "SDY Formatted.json"
-        json: ${{ steps.rttRequest.outputs.response }}
-        dir: '_data/'
 
