@@ -2,6 +2,8 @@ name: Fetch Data
 on:
   push:
   workflow_dispatch:
+  schedule:
+  - cron: "0 * * * *"
   
 jobs:
   Get_Data:
