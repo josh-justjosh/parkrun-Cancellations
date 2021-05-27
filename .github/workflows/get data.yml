@@ -3,7 +3,7 @@ on:
   push:
   workflow_dispatch:
   schedule:
-  - cron: "*/15 * * * *"
+  - cron: "0 * * * *"
   
 jobs:
   parkrun_data:
