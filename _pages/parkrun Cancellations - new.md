@@ -60,9 +60,7 @@ tag: parkrun
   <p class="author_title" datetime="{{ last_modified_at | date_to_xmlschema }}">Last Updated: {{ last_modified_at | date: "%R %A, %e&nbsp;%B&nbsp;%Y" }} {{ tzn }}</p>
 {% endif %}
 
-<div style="text-align: center; display: block;">
-{% google_map src="_data/events" %}
-</div>
+{% google_map src="_data/events" width="100%" %}
 
 <div style="text-align: center;">
     <iframe src="https://free.timeanddate.com/countdown/i7q1ask7/n1325/cf100/cm0/cu4/ct0/cs0/ca0/cr0/ss0/cacfff/cpcfff/pc2b233d/tc66c/fs200/szw448/szh189/tatparkrun%20Returns%2a/tacfff/tptparkrun%20is%20Back!/tpcfff/mat(in%20England)/macfff/mpt%20(in%20England)/mpcfff/iso2021-06-26T09:00:00" allowtransparency="true" frameborder="0" width="448" height="189"></iframe>
