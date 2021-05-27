@@ -67,7 +67,7 @@ permalink: /parkrun-cancellations/
 <link href="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css" rel="stylesheet">
 <script src="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js"></script>
 <style>
-#map { width: 100%; height: 400pt }
+#map { width: 100%; height: 60em; margin: 0 auto}
 .mapboxgl-popup-content {width: fit-content}
 </style>
 </head>
@@ -87,8 +87,8 @@ permalink: /parkrun-cancellations/
 	mapboxgl.accessToken = 'pk.eyJ1Ijoiam9zaC1qdXN0am9zaCIsImEiOiJja3A2eHdmajIwNGFvMndtcmNsbnZycm44In0.SvsoxpdU7NRLYLVRFIu2kw';
     var map = new mapboxgl.Map({
         container: 'map',
-        zoom: 0.3,
-        center: [0, 20],
+        zoom: 1.5,
+        center: [10, 20],
         style: 'mapbox://styles/mapbox/streets-v11'
     });
 
@@ -340,6 +340,8 @@ permalink: /parkrun-cancellations/
 
 </body>
 </html>
+
+<br />
 
 <div style="text-align: center;">
     <iframe src="https://free.timeanddate.com/countdown/i7q1ask7/n1325/cf100/cm0/cu4/ct0/cs0/ca0/cr0/ss0/cacfff/cpcfff/pc2b233d/tc66c/fs200/szw448/szh189/tatparkrun%20Returns%2a/tacfff/tptparkrun%20is%20Back!/tpcfff/mat(in%20England)/macfff/mpt%20(in%20England)/mpcfff/iso2021-06-26T09:00:00" allowtransparency="true" frameborder="0" width="448" height="189"></iframe>
