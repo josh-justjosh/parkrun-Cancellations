@@ -103,6 +103,7 @@ jobs:
         git add _data/PtR.csv
         git add _data/PtRtable.csv
         git commit -m "Run PtR Script [Bot]" -a
+      continue-on-error: true
         
     - name: Push changes
       uses: ad-m/github-push-action@master
