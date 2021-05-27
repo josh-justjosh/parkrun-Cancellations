@@ -4,6 +4,8 @@ on:
   workflow_dispatch:
   schedule:
   - cron: "0 0/3 * * *"
+  - cron: '0 18-23 * * 5'
+  - cron: '0 0-9 * * 6'
   
 jobs:
   parkrun_data:
