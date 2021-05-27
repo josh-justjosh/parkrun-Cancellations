@@ -35,6 +35,10 @@ html {
   filter: invert(100%) hue-rotate(180deg);
 }
 
+.dark-mode .mapboxgl-map {
+  filter: hue-rotate(180deg) invert(100%);
+}
+
 // Toggle
 // https://codepen.io/coralcat/pen/qBayzVX
 .switch {

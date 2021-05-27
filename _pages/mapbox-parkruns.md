@@ -1,0 +1,285 @@
+---
+title: Mapbox parkruns
+layout: page
+---
+
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+<link href="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js"></script>
+<style>
+#map { width: 100%; height: 400pt }
+.mapboxgl-popup-content {width: fit-content}
+</style>
+</head>
+<body>
+<!-- Load the `mapbox-gl-geocoder` plugin. -->
+<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.min.js"></script>
+<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.css" type="text/css">
+ 
+<!-- Promise polyfill script is required -->
+<!-- to use Mapbox GL Geocoder in IE 11. -->
+<script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
+
+<div id="map"></div>
+
+<script>
+	mapboxgl.accessToken = 'pk.eyJ1Ijoiam9zaC1qdXN0am9zaCIsImEiOiJja3A2eHdmajIwNGFvMndtcmNsbnZycm44In0.SvsoxpdU7NRLYLVRFIu2kw';
+    var map = new mapboxgl.Map({
+        container: 'map',
+        zoom: 0.3,
+        center: [0, 20],
+        style: 'mapbox://styles/mapbox/streets-v11'
+    });
+
+    // filters for classifying parkruns into five categories based on magnitude
+    var parkrunning = ['==', ['get', 'Status'], 'parkrunning'];
+    var juniorrunning = ['==', ['get', 'Status'], 'junior parkrunning'];
+    var cancelled5k = ['==', ['get', 'Status'], '5k Cancellation'];
+    var cancelled2k = ['==', ['get', 'Status'], 'junior Cancellation'];
+    var ptr = ['==', ['get', 'Status'], 'PtR'];
+
+    // colors to use for the categories
+    var colors = ['#7CB342', '#0288D1', '#A52714', '#1A237E', '#F9A825'];
+
+    map.on('load', function () {
+        // add a clustered GeoJSON source for a sample set of parkruns
+        map.addSource('parkruns', {
+            'type': 'geojson',
+            'data': {{ site.data.raw.events | jsonify}},
+            'cluster': true,
+            'clusterRadius': 50,
+            'clusterProperties': {
+                // keep separate counts for each magnitude category in a cluster
+                'parkrunning': ['+', ['case', parkrunning, 1, 0]],
+                'juniorrunning': ['+', ['case', juniorrunning, 1, 0]],
+                'cancelled5k': ['+', ['case', cancelled5k, 1, 0]],
+                'cancelled2k': ['+', ['case', cancelled2k, 1, 0]],
+                'ptr': ['+', ['case', ptr, 1, 0]]
+            }
+        });
+        // circle and symbol layers for rendering individual parkruns (unclustered points)
+        map.addLayer({
+            'id': 'parkrun_circle',
+            'type': 'circle',
+            'source': 'parkruns',
+            'filter': ['!=', 'cluster', true],
+            'paint': {
+                'circle-color': [
+                    'case',
+                    parkrunning,
+                    colors[0],
+                    juniorrunning,
+                    colors[1],
+                    cancelled5k,
+                    colors[2],
+                    cancelled2k,
+                    colors[3],
+                    colors[4]
+                ],
+                'circle-opacity': 0.6,
+                'circle-radius': 12
+            }
+        });
+        map.addLayer({
+            'id': 'parkrun_label',
+            'type': 'symbol',
+            'source': 'parkruns',
+            'filter': ['!=', 'cluster', true],
+            'layout': {
+                'text-field': ['get', 'EventShortName'],
+                'text-font': ['Open Sans Semibold', 'Arial Unicode MS Bold'],
+                'text-size': 12
+            },
+            'paint': {
+                'text-color': '#000000'
+            }
+        });
+
+        // objects for caching and keeping track of HTML marker objects (for performance)
+        var markers = {};
+        var markersOnScreen = {};
+
+        function updateMarkers() {
+            var newMarkers = {};
+            var features = map.querySourceFeatures('parkruns');
+
+            // for every cluster on the screen, create an HTML marker for it (if we didn't yet),
+            // and add it to the map if it's not there already
+            for (var i = 0; i < features.length; i++) {
+                var coords = features[i].geometry.coordinates;
+                var props = features[i].properties;
+                if (!props.cluster) continue;
+                var id = props.cluster_id;
+
+                var marker = markers[id];
+                if (!marker) {
+                    var el = createDonutChart(props);
+                    marker = markers[id] = new mapboxgl.Marker({
+                        element: el
+                    }).setLngLat(coords);
+                }
+                newMarkers[id] = marker;
+
+                if (!markersOnScreen[id]) marker.addTo(map);
+            }
+            // for every marker we've added previously, remove those that are no longer visible
+            for (id in markersOnScreen) {
+                if (!newMarkers[id]) markersOnScreen[id].remove();
+            }
+            markersOnScreen = newMarkers;
+        }
+
+        // after the GeoJSON data is loaded, update markers on the screen on every frame
+        map.on('render', function () {
+            if (!map.isSourceLoaded('parkruns')) return;
+            updateMarkers();
+        });
+        // When a click event occurs on a feature in the places layer, open a popup at the
+        // location of the feature, with description HTML from its properties.
+        map.on('click', 'parkrun_circle', function (e) {
+            var coordinates = e.features[0].geometry.coordinates.slice();
+            var description = e.features[0].properties.description;
+            
+            // Ensure that if the map is zoomed out such that multiple
+            // copies of the feature are visible, the popup appears
+            // over the copy being pointed to.
+            while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+                coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+        }
+        
+        new mapboxgl.Popup()
+            .setLngLat(coordinates)
+            .setHTML(description)
+            .addTo(map);
+        });
+        
+        // Change the cursor to a pointer when the mouse is over the places layer.
+        map.on('mouseenter', 'parkrun_circle', function () {
+            map.getCanvas().style.cursor = 'pointer';
+        });
+        
+        // Change it back to a pointer when it leaves.
+        map.on('mouseleave', 'parkrun_circle', function () {
+            map.getCanvas().style.cursor = '';
+        });
+    });
+
+    // code for creating an SVG donut chart from feature properties
+    function createDonutChart(props) {
+        var offsets = [];
+        var counts = [
+            props.parkrunning,
+            props.juniorrunning,
+            props.cancelled5k,
+            props.cancelled2k,
+            props.ptr
+        ];
+        var total = 0;
+        for (var i = 0; i < counts.length; i++) {
+            offsets.push(total);
+            total += counts[i];
+        }
+        var fontSize =
+            total >= 1000 ? 22 : total >= 100 ? 20 : total >= 10 ? 18 : 16;
+        var r = total >= 1000 ? 50 : total >= 100 ? 32 : total >= 10 ? 24 : 18;
+        var r0 = Math.round(r * 0.6);
+        var w = r * 2;
+
+        var html =
+            '<div><svg width="' +
+            w +
+            '" height="' +
+            w +
+            '" viewbox="0 0 ' +
+            w +
+            ' ' +
+            w +
+            '" text-anchor="middle" style="font: ' +
+            fontSize +
+            'px sans-serif; display: block">';
+
+        for (i = 0; i < counts.length; i++) {
+            html += donutSegment(
+                offsets[i] / total,
+                (offsets[i] + counts[i]) / total,
+                r,
+                r0,
+                colors[i]
+            );
+        }
+        html +=
+            '<circle cx="' +
+            r +
+            '" cy="' +
+            r +
+            '" r="' +
+            r0 +
+            '" fill="white" /><text dominant-baseline="central" transform="translate(' +
+            r +
+            ', ' +
+            r +
+            ')">' +
+            total.toLocaleString() +
+            '</text></svg></div>';
+
+        var el = document.createElement('div');
+        el.innerHTML = html;
+        return el.firstChild;
+    }
+
+    function donutSegment(start, end, r, r0, color) {
+        if (end - start === 1) end -= 0.00001;
+        var a0 = 2 * Math.PI * (start - 0.25);
+        var a1 = 2 * Math.PI * (end - 0.25);
+        var x0 = Math.cos(a0),
+            y0 = Math.sin(a0);
+        var x1 = Math.cos(a1),
+            y1 = Math.sin(a1);
+        var largeArc = end - start > 0.5 ? 1 : 0;
+
+        return [
+            '<path d="M',
+            r + r0 * x0,
+            r + r0 * y0,
+            'L',
+            r + r * x0,
+            r + r * y0,
+            'A',
+            r,
+            r,
+            0,
+            largeArc,
+            1,
+            r + r * x1,
+            r + r * y1,
+            'L',
+            r + r0 * x1,
+            r + r0 * y1,
+            'A',
+            r0,
+            r0,
+            0,
+            largeArc,
+            0,
+            r + r0 * x0,
+            r + r0 * y0,
+            '" fill="' + color + '" />'
+        ].join(' ');
+    }
+    // Add the control to the map.
+    map.addControl(
+        new MapboxGeocoder({
+            accessToken: mapboxgl.accessToken,
+            mapboxgl: mapboxgl
+        })
+    );
+    map.addControl(new mapboxgl.NavigationControl());
+    map.addControl(new mapboxgl.FullscreenControl());
+</script>
+
+</body>
+</html>
