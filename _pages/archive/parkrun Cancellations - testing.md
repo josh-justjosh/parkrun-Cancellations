@@ -1,9 +1,10 @@
 ---
 layout: page
 title: parkrun Cancellations
-permalink: /parkrun-cancellations-new/
-date: 2019-08-20 10:39 +0100
+permalink: /parkrun-cancellations-may2021-testing/
+date: 2021-05-27 22:06 +0100
 tag: parkrun
+published: false
 ---
 
 {% for stuff in site.data.raw.time %}

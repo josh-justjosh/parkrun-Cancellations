@@ -53,7 +53,7 @@ layout: default
   {%if time contains "00:00" %}
     <p class="author_title" datetime="{{ page.last_modified_at | date_to_xmlschema }}">Last Updated: {{ page.last_modified_at | date: "%A, %e&nbsp;%B&nbsp;%Y" }}</p>
   {% else %}
-    <p class="author_title" datetime="{{ page.last_modified_at | date_to_xmlschema }}">Last Updated: {{ page.last_modified_at | date: "%R %A, %e&nbsp;%B&nbsp;%Y" }} {{ tzn }}</p>
+    <p class="author_title" datetime="{{ page.last_modified_at | date_to_xmlschema }}">Last Updated: {{ page.last_modified_at | date: "%R" }} {{ tzn }} {{ page.last_modified_at | date: "%A, %e&nbsp;%B&nbsp;%Y" }}</p>
   {% endif %}{% endif %}
   <div class="post-tags">
     {% if post %}

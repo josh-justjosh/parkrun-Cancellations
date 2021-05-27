@@ -1,6 +1,7 @@
 ---
-title: Mapbox parkruns
+title: Mapbox Earthquake example
 layout: page
+published: false
 ---
 
 <html>
@@ -11,19 +12,9 @@ layout: page
 <script src="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js"></script>
 <style>
 #map { width: 100%; height: 400pt }
-.mapboxgl-popup-content {width: fit-content}
 </style>
 </head>
 <body>
-<!-- Load the `mapbox-gl-geocoder` plugin. -->
-<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.min.js"></script>
-<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.css" type="text/css">
- 
-<!-- Promise polyfill script is required -->
-<!-- to use Mapbox GL Geocoder in IE 11. -->
-<script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
-
 <div id="map"></div>
 
 <script>
@@ -32,51 +23,53 @@ layout: page
         container: 'map',
         zoom: 0.3,
         center: [0, 20],
-        style: 'mapbox://styles/mapbox/streets-v11'
+        style: 'mapbox://styles/mapbox/light-v10'
     });
 
-    // filters for classifying parkruns into five categories based on magnitude
-    var parkrunning = ['==', ['get', 'Status'], 'parkrunning'];
-    var juniorrunning = ['==', ['get', 'Status'], 'junior parkrunning'];
-    var cancelled5k = ['==', ['get', 'Status'], '5k Cancellation'];
-    var cancelled2k = ['==', ['get', 'Status'], 'junior Cancellation'];
-    var ptr = ['==', ['get', 'Status'], 'PtR'];
+    map.addControl(new mapboxgl.NavigationControl());
+
+    // filters for classifying earthquakes into five categories based on magnitude
+    var mag1 = ['<', ['get', 'mag'], 2];
+    var mag2 = ['all', ['>=', ['get', 'mag'], 2], ['<', ['get', 'mag'], 3]];
+    var mag3 = ['all', ['>=', ['get', 'mag'], 3], ['<', ['get', 'mag'], 4]];
+    var mag4 = ['all', ['>=', ['get', 'mag'], 4], ['<', ['get', 'mag'], 5]];
+    var mag5 = ['>=', ['get', 'mag'], 5];
 
     // colors to use for the categories
-    var colors = ['#7CB342', '#0288D1', '#A52714', '#1A237E', '#F9A825'];
+    var colors = ['#fed976', '#feb24c', '#fd8d3c', '#fc4e2a', '#e31a1c'];
 
     map.on('load', function () {
-        // add a clustered GeoJSON source for a sample set of parkruns
-        map.addSource('parkruns', {
+        // add a clustered GeoJSON source for a sample set of earthquakes
+        map.addSource('earthquakes', {
             'type': 'geojson',
-            'data': {{ site.data.raw.events | jsonify}},
+            'data': 'https://docs.mapbox.com/mapbox-gl-js/assets/earthquakes.geojson',
             'cluster': true,
-            'clusterRadius': 50,
+            'clusterRadius': 80,
             'clusterProperties': {
                 // keep separate counts for each magnitude category in a cluster
-                'parkrunning': ['+', ['case', parkrunning, 1, 0]],
-                'juniorrunning': ['+', ['case', juniorrunning, 1, 0]],
-                'cancelled5k': ['+', ['case', cancelled5k, 1, 0]],
-                'cancelled2k': ['+', ['case', cancelled2k, 1, 0]],
-                'ptr': ['+', ['case', ptr, 1, 0]]
+                'mag1': ['+', ['case', mag1, 1, 0]],
+                'mag2': ['+', ['case', mag2, 1, 0]],
+                'mag3': ['+', ['case', mag3, 1, 0]],
+                'mag4': ['+', ['case', mag4, 1, 0]],
+                'mag5': ['+', ['case', mag5, 1, 0]]
             }
         });
-        // circle and symbol layers for rendering individual parkruns (unclustered points)
+        // circle and symbol layers for rendering individual earthquakes (unclustered points)
         map.addLayer({
-            'id': 'parkrun_circle',
+            'id': 'earthquake_circle',
             'type': 'circle',
-            'source': 'parkruns',
+            'source': 'earthquakes',
             'filter': ['!=', 'cluster', true],
             'paint': {
                 'circle-color': [
                     'case',
-                    parkrunning,
+                    mag1,
                     colors[0],
-                    juniorrunning,
+                    mag2,
                     colors[1],
-                    cancelled5k,
+                    mag3,
                     colors[2],
-                    cancelled2k,
+                    mag4,
                     colors[3],
                     colors[4]
                 ],
@@ -85,17 +78,26 @@ layout: page
             }
         });
         map.addLayer({
-            'id': 'parkrun_label',
+            'id': 'earthquake_label',
             'type': 'symbol',
-            'source': 'parkruns',
+            'source': 'earthquakes',
             'filter': ['!=', 'cluster', true],
             'layout': {
-                'text-field': ['get', 'EventShortName'],
+                'text-field': [
+                    'number-format',
+                    ['get', 'mag'],
+                    { 'min-fraction-digits': 1, 'max-fraction-digits': 1 }
+                ],
                 'text-font': ['Open Sans Semibold', 'Arial Unicode MS Bold'],
-                'text-size': 12
+                'text-size': 10
             },
             'paint': {
-                'text-color': '#000000'
+                'text-color': [
+                    'case',
+                    ['<', ['get', 'mag'], 3],
+                    'black',
+                    'white'
+                ]
             }
         });
 
@@ -105,7 +107,7 @@ layout: page
 
         function updateMarkers() {
             var newMarkers = {};
-            var features = map.querySourceFeatures('parkruns');
+            var features = map.querySourceFeatures('earthquakes');
 
             // for every cluster on the screen, create an HTML marker for it (if we didn't yet),
             // and add it to the map if it's not there already
@@ -135,36 +137,8 @@ layout: page
 
         // after the GeoJSON data is loaded, update markers on the screen on every frame
         map.on('render', function () {
-            if (!map.isSourceLoaded('parkruns')) return;
+            if (!map.isSourceLoaded('earthquakes')) return;
             updateMarkers();
-        });
-        // When a click event occurs on a feature in the places layer, open a popup at the
-        // location of the feature, with description HTML from its properties.
-        map.on('click', 'parkrun_circle', function (e) {
-            var coordinates = e.features[0].geometry.coordinates.slice();
-            var description = e.features[0].properties.description;
-            
-            // Ensure that if the map is zoomed out such that multiple
-            // copies of the feature are visible, the popup appears
-            // over the copy being pointed to.
-            while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-                coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-        }
-        
-        new mapboxgl.Popup()
-            .setLngLat(coordinates)
-            .setHTML(description)
-            .addTo(map);
-        });
-        
-        // Change the cursor to a pointer when the mouse is over the places layer.
-        map.on('mouseenter', 'parkrun_circle', function () {
-            map.getCanvas().style.cursor = 'pointer';
-        });
-        
-        // Change it back to a pointer when it leaves.
-        map.on('mouseleave', 'parkrun_circle', function () {
-            map.getCanvas().style.cursor = '';
         });
     });
 
@@ -172,11 +146,11 @@ layout: page
     function createDonutChart(props) {
         var offsets = [];
         var counts = [
-            props.parkrunning,
-            props.juniorrunning,
-            props.cancelled5k,
-            props.cancelled2k,
-            props.ptr
+            props.mag1,
+            props.mag2,
+            props.mag3,
+            props.mag4,
+            props.mag5
         ];
         var total = 0;
         for (var i = 0; i < counts.length; i++) {
@@ -270,15 +244,6 @@ layout: page
             '" fill="' + color + '" />'
         ].join(' ');
     }
-    // Add the control to the map.
-    map.addControl(
-        new MapboxGeocoder({
-            accessToken: mapboxgl.accessToken,
-            mapboxgl: mapboxgl
-        })
-    );
-    map.addControl(new mapboxgl.NavigationControl());
-    map.addControl(new mapboxgl.FullscreenControl());
 </script>
 
 </body>
