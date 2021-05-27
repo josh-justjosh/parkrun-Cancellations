@@ -1,0 +1,67 @@
+name: Fetch & Manipulate parkrun Data 
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+  - cron: "0 * * * *"
+  
+jobs:
+  parkrun_data:
+    name: Fetch & Manipulate parkrun Data
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[Bot]')"
+    steps:
+        
+    - name: parkruns with Permission to Return
+      id: PtR
+      uses: fjogeleit/http-request-action@master
+      with:
+        url: 'https://blog.parkrun.com/uk/2021/04/30/current-landowner-permissions/'
+        method: 'GET'
+        
+    - uses: actions/checkout@v2
+      with:
+        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+        fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+        
+    - name: Create local changes
+      run: echo ${{ steps.PtR.outputs.response }} > _data/raw/PtR.html
+
+    - name: setup python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8 #install the python needed
+        
+    - name: execute py script # run the run.py to get the latest data
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+        pip install beautifulsoup4
+        pip install html-table-extractor
+        python 'parkrun data.py'
+    
+    - name: Get Current Time
+      uses: gerred/actions/current-time@master
+      id: current-time
+    
+    - name: Write Time to File
+      run: |
+        echo 'time' > _data/raw/time.csv
+        echo ${{ steps.current-time.outputs.time }} >> _data/raw/time.csv
+
+    - name: Commit files
+      run: |
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add _data/raw/PtR.html
+        git add _data/raw/events.json
+        git add _data/raw/technical-event-info.html
+        git add _data/raw/cancellations.html
+        git add _data/raw/time.csv
+        git commit -m "Update Data [Bot]" -a
+        
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.API_TOKEN_GITHUB }}
+        branch: ${{ github.ref }}
