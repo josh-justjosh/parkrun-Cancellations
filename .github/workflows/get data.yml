@@ -11,14 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, '[Bot]')"
     steps:
-    #- name: RTT Sandy Request
-    #  id: rttRequest
-    #  uses: fjogeleit/http-request-action@master
-    #  with:
-    #    url: 'https://api.rtt.io/api/v1/json/search/SDY'
-    #    method: 'GET'
-    #    username: ${{ secrets.RTT_Username }}
-    #    password: ${{ secrets.RTT_Password }}
         
     - name: parkruns with Permission to Return
       id: PtR
@@ -33,9 +25,7 @@ jobs:
         fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
         
     - name: Create local changes
-      run: |
-#       echo ${{ steps.rttRequest.outputs.response }} > _data/raw/SDY.json
-        echo ${{ steps.PtR.outputs.response }} > _data/raw/PtR.html
+      run: echo ${{ steps.PtR.outputs.response }} > _data/raw/PtR.html
 
     - name: setup python
       uses: actions/setup-python@v2
@@ -63,7 +53,6 @@ jobs:
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-#       git add _data/raw/SDY.json
         git add _data/raw/PtR.html
         git add _data/raw/events.json
         git add _data/raw/technical-event-info.html
