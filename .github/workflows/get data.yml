@@ -58,6 +58,8 @@ jobs:
         git add _data/raw/technical-event-info.html
         git add _data/raw/cancellations.html
         git add _data/raw/time.csv
+        git add _data/PtR.csv
+        git add _data/PtRtable.csv
         git commit -m "Update Data [Bot]" -a
         
     - name: Push changes
