@@ -113,12 +113,12 @@ jobs:
         github_token: ${{ secrets.API_TOKEN_GITHUB }}
         branch: ${{ github.ref }}
 
-  Events_Script:
-    name: Events Script
-    runs-on: ubuntu-latest
-    needs: Get_Data
-    steps:
-    - run: echo "Hi there"
+#  Events_Script:
+#    name: Events Script
+#    runs-on: ubuntu-latest
+#    needs: Get_Data
+#    steps:
+#    - run: echo "Hi there"
 
 #  converter:
 #    name: Run converter
