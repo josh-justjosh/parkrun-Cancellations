@@ -46,6 +46,8 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install requests
+        pip install beautifulsoup4
+        pip install html-table-extractor
         python 'parkrun data.py'
     
     - name: Get Current Time
