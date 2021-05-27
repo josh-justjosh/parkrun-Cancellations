@@ -1,0 +1,10 @@
+name: Cron Test
+on:
+  schedule:
+  - cron: '*/15 * * * *'
+  
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo 'Hi There'
