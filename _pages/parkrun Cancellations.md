@@ -363,7 +363,7 @@ permalink: /parkrun-cancellations/
             map.addControl(new mapboxgl.FullscreenControl());
         </script>
         <br />
-        <h1>parkrun returns in:</h1>
+        <h2>parkrun returns in:</h2>
         <script>let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZoneName: 'short', hour:'2-digit', minute:'2-digit'};</script>
         <div class="flex-container">
             <div class="cell">
@@ -594,7 +594,7 @@ permalink: /parkrun-cancellations/
             </div>
         </div>
 
-        <h2> The following English events have been granted permission to return </h2>
+        <h3> The following English events have been granted permission to return </h3>
 
         <table style="margin-left:auto; margin-right:auto;">
             {% for row in site.data.PtRtable %}
