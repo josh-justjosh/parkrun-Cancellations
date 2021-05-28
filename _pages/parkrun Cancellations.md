@@ -399,7 +399,7 @@ permalink: /parkrun-cancellations/
                         // If the count down is finished, write some text
                         if (distance < 0) {
                             clearInterval(x);
-                            document.getElementById("timer2").innerHTML = "EXPIRED";
+                            document.getElementById("timer2").innerHTML = "parkrun's Back!";
                         }
                         }, 1000);
 
@@ -444,7 +444,7 @@ permalink: /parkrun-cancellations/
                         // If the count down is finished, write some text
                         if (distance < 0) {
                             clearInterval(x);
-                            document.getElementById("timer3").innerHTML = "EXPIRED";
+                            document.getElementById("timer3").innerHTML = "parkrun's Back!";
                         }
                         }, 1000);
 
@@ -489,7 +489,7 @@ permalink: /parkrun-cancellations/
                         // If the count down is finished, write some text
                         if (distance < 0) {
                             clearInterval(x);
-                            document.getElementById("timer4").innerHTML = "EXPIRED";
+                            document.getElementById("timer4").innerHTML = "parkrun's Back!";
                         }
                         }, 1000);
 
@@ -533,7 +533,7 @@ permalink: /parkrun-cancellations/
                         // If the count down is finished, write some text
                         if (distance < 0) {
                             clearInterval(x);
-                            document.getElementById("timer1").innerHTML = "EXPIRED";
+                            document.getElementById("timer1").innerHTML = "parkrun's Back!";
                         }
                         }, 1000);
 
@@ -580,7 +580,7 @@ permalink: /parkrun-cancellations/
                         // If the count down is finished, write some text
                         if (distance < 0) {
                             clearInterval(x);
-                            document.getElementById("timer5").innerHTML = "EXPIRED";
+                            document.getElementById("timer5").innerHTML = "parkrun's Back!";
                         }
                         }, 1000);
 
