@@ -69,3 +69,10 @@ jobs:
       with:
         github_token: ${{ secrets.API_TOKEN_GITHUB }}
         branch: ${{ github.ref }}
+        
+    - name: Flash Lights
+      uses: fjogeleit/http-request-action@master
+      with:
+        url: 'https://sequematic.com/trigger-custom-webhook/85A7210D14/66006'
+        method: 'GET'
+
