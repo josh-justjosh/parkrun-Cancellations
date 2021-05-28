@@ -62,7 +62,7 @@ jobs:
         git add _data/raw/time.csv
         git add _data/PtR.csv
         git add _data/PtRtable.csv
-        git commit -m "Update Data [Bot]" -a
+        git commit -m "Update parkrun Data [Bot]" -a
         
     - name: Push changes
       uses: ad-m/github-push-action@master
