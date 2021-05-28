@@ -11,7 +11,9 @@ jobs:
   parkrun_data:
     name: Fetch & Manipulate parkrun Data
     runs-on: ubuntu-latest
-    if: ${{!contains(github.event.head_commit.message, '[Bot]') or !contains(github.event.head_commit.message, '[No Data Refresh]')}}
+    if: |
+      "!contains(github.event.head_commit.message, '[Bot]')" ||
+      "!contains(github.event.head_commit.message, '[No Data Refresh]')"
     steps:
         
     - name: get Current Landowner Permissions page
