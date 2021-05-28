@@ -100,11 +100,31 @@ permalink: /parkrun-cancellations/
             flex-wrap: wrap;
             text-align: center;
         }
+        
         .ptr-cell {
             margin: 5px;
             flex-grow: 1;
             flex-basis: 20%;
         }
+        @media (max-width: 700px) {
+            .ptr-cell {
+                margin: 5px;
+                flex-grow: 1;
+                flex-basis: 30%;
+            }
+            }
+        @media (max-width: 600px) {
+            .ptr-cell {
+                margin: 5px;
+                flex-grow: 1;
+                flex-basis: 40%;
+            }
+            }
+        @media (max-width: 400px) {
+            .ptr-flex {
+                flex-direction: column;
+            }
+            }
         </style>
     </head>
     <body>
