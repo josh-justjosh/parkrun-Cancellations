@@ -14,7 +14,8 @@ jobs:
     if: "!contains(github.event.head_commit.message, '[Bot]')"
     steps:
         
-    - name: parkruns with Permission to Return
+    - name: get Current Landowner Permissions page
+      continue-on-error: true
       id: PtR
       uses: fjogeleit/http-request-action@master
       with:
@@ -52,10 +53,22 @@ jobs:
         echo ${{ steps.current-time.outputs.time }} >> _data/raw/time.csv
 
     - name: Commit files
+      if: ${{ steps.PtR.outcome == 'success'}}
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add _data/raw/PtR.html
+        git add _data/raw/events.json
+        git add _data/raw/time.csv
+        git add _data/PtR.csv
+        git add _data/PtRtable.csv
+        git commit -m "Update parkrun Data [Bot]" -a
+      
+    - name: Commit files (if PtR Failed)
+      if: ${{ steps.PtR.outcome != 'success'}}
+      run: |
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
         git add _data/raw/events.json
         git add _data/raw/time.csv
         git add _data/PtR.csv
