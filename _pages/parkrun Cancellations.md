@@ -88,12 +88,23 @@ permalink: /parkrun-cancellations/
         .flex-container {
             display:flex;
             flex-wrap: wrap;
+            text-align: center;
         }
         @media (max-width: 800px) {
             .flex-container {
                 flex-direction: column;
             }
             }
+        .ptr-flex {
+            display:flex;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        .ptr-cell {
+            margin: 5px;
+            flex-grow: 1;
+            flex-basis: 20%;
+        }
         </style>
     </head>
     <body>
@@ -596,14 +607,14 @@ permalink: /parkrun-cancellations/
 
         <h3> The following English events have been granted permission to return </h3>
 
-        <table style="margin-left:auto; margin-right:auto;">
-            {% for row in site.data.PtRtable %}
+        <div class="ptr-flex">
+            {% for row in site.data.PtR %}
                 {% unless forloop.first %}
                     {% tablerow pair in row %}
-                        {{ pair[1] }}
+                       <div class="ptr-cell">{{ pair[1] }}</div>
                     {% endtablerow %}
                 {% endunless %}
             {% endfor %}
-        </table>
+        </div>
     </body>
 </html>
