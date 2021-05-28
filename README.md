@@ -1,4 +1,4 @@
-[![Fetch & Manipulate parkrun Data](https://github.com/josh-justjosh/homepage/actions/workflows/get%20data.yml/badge.svg)](https://github.com/josh-justjosh/homepage/actions/workflows/get%20data.yml)[![Sync Blog & Homepage Repos](https://github.com/josh-justjosh/homepage/actions/workflows/copy%20shared%20files.yml/badge.svg)](https://github.com/josh-justjosh/homepage/actions/workflows/copy%20shared%20files.yml)
+[![Fetch & Manipulate parkrun Data](https://github.com/josh-justjosh/homepage/actions/workflows/data-handling.yml/badge.svg)](https://github.com/josh-justjosh/homepage/actions/workflows/data-handling.yml) [![Sync Blog & Homepage Repos](https://github.com/josh-justjosh/homepage/actions/workflows/copy%20shared%20files.yml/badge.svg)](https://github.com/josh-justjosh/homepage/actions/workflows/copy%20shared%20files.yml)
 
 Hey there! 👋
 
