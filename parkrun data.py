@@ -58,13 +58,13 @@ cancellations = requests.get('https://wiki.parkrun.com/index.php/Cancellations/G
 
 events = json.loads(events)['events']
 
-with open('_data/raw/technical-event-info.html','w', encoding='utf-8') as f:
-    f.write(technical_event_info)
-print('technical-event-info.html saved')
+#with open('_data/raw/technical-event-info.html','w', encoding='utf-8') as f:
+#    f.write(technical_event_info)
+#print('technical-event-info.html saved')
 
-with open('_data/raw/cancellations.html','w', encoding='utf-8') as f:
-    f.write(cancellations)
-print('cancellations.html saved')
+#with open('_data/raw/cancellations.html','w', encoding='utf-8') as f:
+#    f.write(cancellations)
+#print('cancellations.html saved')
 
 PtR = []
 with open('_data/PtR.csv') as f:
