@@ -29,8 +29,8 @@ del parkruns[-4:]
 for i in range(len(parkruns)):
     parkruns[i] = parkruns[i].replace("\\\\n","").replace('\\xe2\\x80\\x99', "'").replace('\\xc3\\xa9', 'e').replace('\\xe2\\x80\\x90', '-').replace('\\xe2\\x80\\x91', '-').replace('\\xe2\\x80\\x92', '-').replace('\\xe2\\x80\\x93', '-').replace('\\xe2\\x80\\x94', '-').replace('\\xe2\\x80\\x94', '-').replace('\\xe2\\x80\\x98', "'").replace('\\xe2\\x80\\x9b', "'").replace('\\xe2\\x80\\x9c', '"').replace('\\xe2\\x80\\x9c', '"').replace('\\xe2\\x80\\x9d', '"').replace('\\xe2\\x80\\x9e', '"').replace('\\xe2\\x80\\x9f', '"').replace('\\xe2\\x80\\xa6', '...').replace('\\xe2\\x80\\xb2', "'").replace('\\xe2\\x80\\xb3', "'").replace('\\xe2\\x80\\xb4', "'").replace('\\xe2\\x80\\xb5', "'").replace('\\xe2\\x80\\xb6', "'").replace('\\xe2\\x80\\xb7', "'").replace('\\xe2\\x81\\xba', "+").replace('\\xe2\\x81\\xbb', "-").replace('\\xe2\\x81\\xbc', "=").replace('\\xe2\\x81\\xbd', "(").replace('\\xe2\\x81\\xbe', ")")
 
-for i in parkruns:
-    print(i)
+#for i in parkruns:
+    #print(i)
 
 with open('_data/PtR.csv','w') as f:
     f.write("Event\n")
@@ -93,6 +93,8 @@ for i in range(len(cancellation_table)):
         #print(cancellation_table[i])
         cancellations_list.append(cancellation_table[i][1])
 
+cancellation_dates = []
+
 for parkrun in events['features']:
     if 'junior' in parkrun['properties']['EventLongName']:
         if parkrun['properties']['EventLongName'] in cancellations_list:
@@ -108,6 +110,7 @@ for parkrun in events['features']:
     for cancellation in cancellation_table:
         if parkrun['properties']['EventLongName'] == cancellation[1] and same_week(cancellation[0]) == True:
             parkrun['properties']['DateCancelled'] = cancellation[0]
+            cancellation_dates.append(cancellation[0])
             parkrun['properties']['ReasonCancelled'] = cancellation[4]
             break
         else:
@@ -158,3 +161,9 @@ for parkrun in events['features']:
 with open('_data/raw/events.json','w', encoding='utf-8') as f:
     f.write(json.dumps(events))
 print('events.json saved')
+
+cancellation_dates = list(dict.fromkeys(cancellation_dates))
+with open('_data/cancellation-dates.csv','w', encoding='utf-8') as f:
+    for date in cancellation_dates:
+        f.write(date+"\n")
+print("cancellation-dates.csv saved")

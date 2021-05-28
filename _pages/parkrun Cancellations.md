@@ -393,6 +393,18 @@ permalink: /parkrun-cancellations/
             map.addControl(new mapboxgl.NavigationControl());
             map.addControl(new mapboxgl.FullscreenControl());
         </script>
+        <p>Showing data for 
+        {% for row in site.data.cancellation-dates %}
+            {% for pair in row %}
+                {% for item in pair %}
+                    {% if forloop.last %}
+                        and 
+                    {% endif %}
+                    {{ item | date: "%A, %e&nbsp;%B&nbsp;%Y" }}
+                {% endfor %}
+            {% endfor %}
+        {% endfor %}
+        </p>
         <br />
         <h2>parkrun returns in:</h2>
         <script>let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZoneName: 'short', hour:'2-digit', minute:'2-digit'};</script>
@@ -636,5 +648,8 @@ permalink: /parkrun-cancellations/
                 {% endunless %}
             {% endfor %}
         </div>
+        <br />
     </body>
 </html>
+
+This page is automatically updated throughout the week with data for the upcoming weekend. The data is refreshed approximately every three hours except on Friday evenings an Saturday mornings when the page is updated hourly (6pm Friday to 9am Saturday). Please be aware that due to the unreliabity of GitHub actions triggered by a schedule, data is unlikely to be refreshed excatly on the hour. You should always check the event's website and social media channels before setting out.
