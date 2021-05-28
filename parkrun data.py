@@ -117,7 +117,7 @@ for parkrun in events['features']:
     if parkrun['properties']['EventLongName'] in PtR:
         parkrun['properties']['Status'] = 'PtR'
 
-    if parkrun['properties']['countrycode'] == 3 : parkrun['properties']['Website'] = 'https://www.parkrun.au/'+parkrun['properties']['eventname']
+    if parkrun['properties']['countrycode'] == 3 : parkrun['properties']['Website'] = 'https://www.parkrun.com.au/'+parkrun['properties']['eventname']
     elif parkrun['properties']['countrycode'] == 14 : parkrun['properties']['Website'] = 'https://www.parkrun.ca/'+parkrun['properties']['eventname']
     elif parkrun['properties']['countrycode'] == 23 : parkrun['properties']['Website'] = 'https://www.parkrun.dk/'+parkrun['properties']['eventname']
     elif parkrun['properties']['countrycode'] == 30 : parkrun['properties']['Website'] = 'https://www.parkrun.fi/'+parkrun['properties']['eventname']
