@@ -169,7 +169,7 @@ with open('_data/cancellation-dates.csv','w', encoding='utf-8') as f:
 print("cancellation-dates.csv saved")
 
 cancellations_list.sort()
-with open('_data/cancellations.csv','w', encoding='utf-8') as f:
+with open('_data/cancellations.txt','w', encoding='utf-8') as f:
     for event in cancellations_list:
         f.write(event+"\n")
-print("cancellations.csv saved")
+print("cancellations.txt saved")
