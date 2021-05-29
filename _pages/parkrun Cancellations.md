@@ -83,7 +83,7 @@ permalink: /parkrun-cancellations/
         .cell {
             margin: 5px;
             flex-grow: 1;
-            flex-basis: 30%;
+            flex-basis: 40%;
         }
         .flex-container {
             display:flex;
@@ -409,51 +409,6 @@ permalink: /parkrun-cancellations/
         <h2>parkrun returns in:</h2>
         <script>let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZoneName: 'short', hour:'2-digit', minute:'2-digit'};</script>
         <div class="flex-container">
-            <div class="cell">
-                <div class="countdown">
-                    <!-- Display the timer timer in an element -->
-                    <h3 style="margin:inherit; color:inherit">South Africa</h3>
-                    <h2 id="timer2" style="margin:inherit; color:inherit;"></h2>
-                    <p id="endDate2" style="margin:inherit;"></p>
-
-                    <script>
-                        // Set the date we're counting down to
-                        var countDownDate2 = new Date( "2021/05/29 09:00:00 GMT+02:00").getTime();
-
-                        // Update the count down every 1 second
-                        var x = setInterval(function() {
-
-                        // Get today's date and time
-                        var now = new Date().getTime();
-
-                        // Find the distance between now and the count down date
-                        var distance = countDownDate2 - now;
-
-                        // Time calculations for days, hours, minutes and seconds
-                        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-                        // Display the result in the element with id="timer"
-                        document.getElementById("timer2").innerHTML = days + "d " + hours + "h "
-                        + minutes + "m " + seconds + "s ";
-
-                        // If the count down is finished, write some text
-                        if (distance < 0) {
-                            clearInterval(x);
-                            document.getElementById("timer2").innerHTML = "parkrun's Back!";
-                        }
-                        }, 1000);
-
-                        var cdinput2 = new Date(countDownDate2)
-
-                        var cdoutput2 = cdinput2.toLocaleString('default', options);
-
-                        document.getElementById("endDate2").innerHTML = cdoutput2
-                    </script>
-                </div>
-            </div>
             <div class="cell">
                 <div class="countdown">
                     <!-- Display the timer timer in an element -->
