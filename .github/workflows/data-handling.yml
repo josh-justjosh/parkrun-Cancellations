@@ -49,8 +49,8 @@ jobs:
     
     - name: Write Time to File
       run: |
-        echo 'time' > _data/raw/time.csv
-        echo ${{ steps.current-time.outputs.time }} >> _data/raw/time.csv
+        echo 'time' > _data/raw/time.tsv
+        echo ${{ steps.current-time.outputs.time }} >> _data/raw/time.tsv
 
     - name: Commit files
       if: ${{ steps.PtR.outcome == 'success'}}
@@ -59,9 +59,10 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add _data/raw/PtR.html
         git add _data/raw/events.json
-        git add _data/raw/time.csv
-        git add _data/PtR.csv
-        git add _data/PtRtable.csv
+        git add _data/raw/time.tsv
+        git add _data/PtR.tsv
+        git add _data/cancellations.tsv
+        git add _data/cancellation-dates.tsv
         git commit -m "Update parkrun Data [Bot]" -a
       
     - name: Commit files (if PtR Failed)
@@ -70,9 +71,10 @@ jobs:
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add _data/raw/events.json
-        git add _data/raw/time.csv
-        git add _data/PtR.csv
-        git add _data/PtRtable.csv
+        git add _data/raw/time.tsv
+        git add _data/PtR.tsv
+        git add _data/cancellations.tsv
+        git add _data/cancellation-dates.tsv
         git commit -m "Update parkrun Data [Bot]" -a
         
     - name: Push changes
