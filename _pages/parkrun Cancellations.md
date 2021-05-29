@@ -543,7 +543,7 @@ permalink: /parkrun-cancellations/
                     </script>
                 </div>
 
-                <p style="text-align: center;">* Dependent on a substantial number of events returning. You can read more about that <a href="https://blog.josh.me.uk/2021/05/12/update-to-the-parkrun-cancellations-map/">here</a>.</p>
+                <p style="text-align: center;">* Dependent on a substantial number of events returning. You can read more about that <a href="https://blog.josh.me.uk/2021/05/12/update-to-the-parkrun-cancellations-map/">here</a>. So far, {{site.data.PtR.size}} of 589 events ({{site.data.PtR.size | divided_by: 589.0 | times: 100 | round }}%) have Permission to Return.</p>
             </div>
             <div class="cell">
                 <div class="countdown">
