@@ -596,11 +596,9 @@ permalink: /parkrun-cancellations/
 
         <div class="ptr-flex">
             {% for row in site.data.PtR %}
-                {% unless forloop.first %}
-                    {% tablerow pair in row %}
-                       <div class="ptr-cell">{{ pair[1] }}</div>
-                    {% endtablerow %}
-                {% endunless %}
+                {% for pair in row %}
+                <div class="ptr-cell">{{ pair[1] }}</div>
+                {% endfor %}
             {% endfor %}
         </div>
         <br />

@@ -32,18 +32,19 @@ for i in range(len(parkruns)):
 #for i in parkruns:
     #print(i)
 
-with open('_data/PtR.csv','w') as f:
+with open('_data/PtR.tsv','w') as f:
     f.write("Event\n")
     for i in parkruns:
         f.write(i+"\n")
+print("PtR.tsv saved")
 
-with open('_data/PtRtable.csv','w') as f:
-    f.write("Event\n")
-    for i in range(0,len(parkruns),2):
-        try:
-            f.write(parkruns[i]+", "+parkruns[i+1]+"\n")
-        except IndexError:
-            f.write(parkruns[i])
+#with open('_data/PtRtable.csv','w') as f:
+#    f.write("Event\n")
+#    for i in range(0,len(parkruns),2):
+#        try:
+#            f.write(parkruns[i]+", "+parkruns[i+1]+"\n")
+#        except IndexError:
+#            f.write(parkruns[i])
 
 def same_week(dateString):
     '''returns true if a dateString in %Y%m%d format is part of the current week'''
@@ -67,11 +68,9 @@ events = json.loads(events)['events']
 #print('cancellations.html saved')
 
 PtR = []
-with open('_data/PtR.csv') as f:
-    reader = csv.reader(f)
-    for row in reader:
-        for cell in row:
-            PtR.append(cell)
+with open('_data/PtR.tsv') as f:
+    for row in f:
+        PtR.append(row.replace("\n",""))
 PtR.remove("Event")
 
 soup = BeautifulSoup(cancellations, 'html.parser')
@@ -163,13 +162,13 @@ with open('_data/raw/events.json','w', encoding='utf-8') as f:
 print('events.json saved')
 
 cancellation_dates = list(dict.fromkeys(cancellation_dates))
-with open('_data/cancellation-dates.csv','w', encoding='utf-8') as f:
+with open('_data/cancellation-dates.tsv','w', encoding='utf-8') as f:
     for date in cancellation_dates:
         f.write(date+"\n")
-print("cancellation-dates.csv saved")
+print("cancellation-dates.tsv saved")
 
 cancellations_list.sort()
-with open('_data/cancellations.txt','w', encoding='utf-8') as f:
+with open('_data/cancellations.tsv','w', encoding='utf-8') as f:
     for event in cancellations_list:
         f.write(event+"\n")
-print("cancellations.txt saved")
+print("cancellations.tsv saved")
