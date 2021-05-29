@@ -3,9 +3,10 @@ on:
   push:
   workflow_dispatch:
   schedule:
-  - cron: '0 */3 * * SUN-THU'
-  - cron: '0 0,3,6,9,12,15,18-23 * * 5'
-  - cron: '0 0-9,12,15,18,21 * * 6'
+  - cron: '0 */3 * * MON-THU'
+  - cron: '0 0-15/3,18-23 * * FRI'
+  - cron: '0 0-9,12/3 * * SAT'
+  - cron: '0 0,3-8,9/3 * * SUN'
   
 jobs:
   parkrun_data:
