@@ -76,6 +76,7 @@ jobs:
         git add _data/PtR.tsv
         git add _data/cancellations.tsv
         git add _data/cancellation-dates.tsv
+        git add _data/countries-data.tsv
         git commit -m "Update parkrun Data [Bot]" -a
         
     - name: Push changes
