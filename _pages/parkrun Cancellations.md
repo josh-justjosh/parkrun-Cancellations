@@ -647,6 +647,22 @@ permalink: /parkrun-cancellations/
             {% endfor %}
         </div>
         <br />
+        <table>
+        {% for row in site.data.countries-data %}
+            <tr>
+            {% if forloop.first %}
+            
+            {% for pair in row %}
+                <th>{{ pair[0] }}</th>
+            {% endfor %}
+            {% else %}
+            {% for pair in row %}
+            <td>{{ pair[1] }}</td>
+            {% endfor %}
+            {% endif %}
+            </tr>
+        {% endfor %}
+        </table>
     </body>
 </html>
 
