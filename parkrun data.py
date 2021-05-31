@@ -375,7 +375,23 @@ countries = {
         'junior Cancellations':0,
         'Permission to Return':0,
         },
+    'Total': {
+        'parkrunning': 0,
+        'junior parkrunning':0,
+        '5k Cancellations':0,
+        'junior Cancellations':0,
+        'Permission to Return':0,
+        },
     }
+
+totals= {
+        'parkrunning': 0,
+        'junior parkrunning':0,
+        '5k Cancellations':0,
+        'junior Cancellations':0,
+        'Permission to Return':0
+        }
+        
 
 for parkrun in events['features']:
     if parkrun['properties']['Status'] == 'parkrunning':
@@ -391,7 +407,15 @@ for parkrun in events['features']:
     else:
         print("Error:",parkrun['properties']['EventLongName'])
 #print(countries)
-        
+
+for country,data in countries.items():
+    totals['parkrunning'] += data['parkrunning']
+    totals['junior parkrunning'] += data['junior parkrunning']
+    totals['5k Cancellations'] += data['5k Cancellations']
+    totals['junior Cancellations'] += data['junior Cancellations']
+    totals['Permission to Return'] += data['Permission to Return']
+
+countries['Total'] = totals
 
 with open('_data/countries-data.tsv','wt', encoding='utf-8', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
