@@ -660,7 +660,6 @@ permalink: /parkrun-cancellations/
                             <td>{{ pair[1] }}</td>
                         {% endfor %}
                     {% elsif forloop.last %}
-                        <tr>
                         {% for pair in row %}
                             <th>{{ pair[1] }}</th>
                         {% endfor %}
