@@ -54,9 +54,9 @@ def same_week(dateString):
     return d1.isocalendar()[1] == d2.isocalendar()[1] \
               and d1.year == d2.year  
 
-events = requests.get('https://images.parkrun.com/events.json').text
+events = requests.get('https://images.parkrun.com/events.json').text.replace("\\u2019","'")
 technical_event_info = requests.get('https://wiki.parkrun.com/index.php/Technical_Event_Information').text
-cancellations = requests.get('https://wiki.parkrun.com/index.php/Cancellations/Global').text
+cancellations = requests.get('https://wiki.parkrun.com/index.php/Cancellations/Global').text.replace("’","'")
 
 events = json.loads(events)['events']
 
@@ -93,6 +93,7 @@ cancellation_dates = []
 
 
 for parkrun in events['features']:
+    #print(parkrun['properties']['EventLongName'])
     if 'junior' in parkrun['properties']['EventLongName']:
         if parkrun['properties']['EventLongName'] in cancellations_list:
             parkrun['properties']['Status'] = 'junior Cancellation'
