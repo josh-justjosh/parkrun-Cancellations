@@ -666,7 +666,7 @@ permalink: /parkrun-cancellations/
             {% endfor %}
         </div>
         <br />
-        <table>
+        <table style="width: 100%">
             {% for row in site.data.countries-data %}
                 <tr>
                     {% if forloop.first %}
