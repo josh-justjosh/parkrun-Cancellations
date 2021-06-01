@@ -90,6 +90,11 @@ permalink: /parkrun-cancellations/
             flex-wrap: wrap;
             text-align: center;
         }
+
+        .flex-key {
+            margin: 10px 5px;
+            flex-grow: 1;
+        }
         @media (max-width: 800px) {
             .flex-container {
                 flex-direction: column;
@@ -392,6 +397,20 @@ permalink: /parkrun-cancellations/
             );
             map.addControl(new mapboxgl.NavigationControl());
             map.addControl(new mapboxgl.FullscreenControl());
+        </script>
+        <div class="flex-container" style="color: #FFFFFF">
+            <div class="flex-key" id="key1">parkrunning</div>
+            <div class="flex-key" id="key2">junior parkrunning</div>
+            <div class="flex-key" id="key3">5k Cancellations</div>
+            <div class="flex-key" id="key4">junior Cancellations</div>
+            <div class="flex-key" id="key5">Permission to Return Received</div>
+        </div>
+        <script>
+            document.getElementById('key1').style.backgroundColor = colors[0] ;
+            document.getElementById('key2').style.backgroundColor = colors[1] ;
+            document.getElementById('key3').style.backgroundColor = colors[2] ;
+            document.getElementById('key4').style.backgroundColor = colors[3] ;
+            document.getElementById('key5').style.backgroundColor = colors[4] ;
         </script>
         <p>Showing data for 
         {% for row in site.data.cancellation-dates %}
