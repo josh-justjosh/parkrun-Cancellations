@@ -220,6 +220,22 @@ with open('_data/cancellations.tsv','wt', encoding='utf-8', newline='') as f:
         tsv_writer.writerow(event)
 print("cancellations.tsv saved")
 
+with open('_data/events.tsv','wt', encoding='utf-8', newline='') as f:
+    tsv_writer = csv.writer(f, delimiter='\t')
+    tsv_writer.writerow(['Event','Latitude','Longitude','Country','Status','DateCancelled','ReasonCancelled','Website'])
+    for event in events['features']:
+        out = []
+        out.append(event['properties']['EventLongName'])
+        out.append(event['geometry']['coordinates'][1])
+        out.append(event['geometry']['coordinates'][0])
+        out.append(event['properties']['Country'])
+        out.append(event['properties']['Status'])
+        out.append(event['properties']['DateCancelled'])
+        out.append(event['properties']['ReasonCancelled'])
+        out.append(event['properties']['Website'])
+        tsv_writer.writerow(out)
+print("events.tsv saved")
+
 countries = {
     'Australia': {
         'parkrunning': 0,
