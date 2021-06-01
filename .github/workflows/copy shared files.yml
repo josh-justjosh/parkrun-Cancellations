@@ -28,6 +28,8 @@ jobs:
           dst_owner: 'josh-justjosh'
           dst_repo_name: 'blog'
           dst_path: '/'
+          email: '41898282+github-actions[bot]@users.noreply.github.com'
+          name: 'github-actions[bot]'
 
   Copy_sass:
     needs: wait
@@ -42,6 +44,8 @@ jobs:
           dst_owner: 'josh-justjosh'
           dst_repo_name: 'blog'
           dst_path: '/'
+          email: '41898282+github-actions[bot]@users.noreply.github.com'
+          name: 'github-actions[bot]'
 
   Copy_assets:
     needs: wait
@@ -56,6 +60,8 @@ jobs:
           dst_owner: 'josh-justjosh'
           dst_repo_name: 'blog'
           dst_path: '/'
+          email: '41898282+github-actions[bot]@users.noreply.github.com'
+          name: 'github-actions[bot]'
 
   Copy_fonts:
     needs: wait
@@ -70,6 +76,8 @@ jobs:
           dst_owner: 'josh-justjosh'
           dst_repo_name: 'blog'
           dst_path: '/'
+          email: '41898282+github-actions[bot]@users.noreply.github.com'
+          name: 'github-actions[bot]'
 
   Copy_Post_Layout:
     needs: wait
@@ -84,6 +92,8 @@ jobs:
           dst_owner: 'josh-justjosh'
           dst_repo_name: 'blog'
           dst_path: '/_layouts/'
+          email: '41898282+github-actions[bot]@users.noreply.github.com'
+          name: 'github-actions[bot]'
 
   Copy_Page_Layout:
     needs: wait
@@ -98,6 +108,8 @@ jobs:
           dst_owner: 'josh-justjosh'
           dst_repo_name: 'blog'
           dst_path: '/_layouts/'
+          email: '41898282+github-actions[bot]@users.noreply.github.com'
+          name: 'github-actions[bot]'
 
   Copy_Shared_Pages:
     needs: wait
@@ -112,6 +124,8 @@ jobs:
           dst_owner: 'josh-justjosh'
           dst_repo_name: 'blog'
           dst_path: '/_pages/'
+          email: '41898282+github-actions[bot]@users.noreply.github.com'
+          name: 'github-actions[bot]'
 
   Copy_Shared_Posts:
     needs: wait
@@ -126,6 +140,8 @@ jobs:
           dst_owner: 'josh-justjosh'
           dst_repo_name: 'blog'
           dst_path: '/_posts/'
+          email: '41898282+github-actions[bot]@users.noreply.github.com'
+          name: 'github-actions[bot]'
 
   Copy_Shared_Images:
     needs: wait
@@ -140,6 +156,8 @@ jobs:
           dst_owner: 'josh-justjosh'
           dst_repo_name: 'blog'
           dst_path: '/images/'
+          email: '41898282+github-actions[bot]@users.noreply.github.com'
+          name: 'github-actions[bot]'
 
   Copy_404:
     needs: wait
@@ -154,6 +172,8 @@ jobs:
           dst_owner: 'josh-justjosh'
           dst_repo_name: 'blog'
           dst_path: '/'
+          email: '41898282+github-actions[bot]@users.noreply.github.com'
+          name: 'github-actions[bot]'
 
   Copy_Favicon:
     needs: wait
@@ -168,6 +188,8 @@ jobs:
           dst_owner: 'josh-justjosh'
           dst_repo_name: 'blog'
           dst_path: '/'
+          email: '41898282+github-actions[bot]@users.noreply.github.com'
+          name: 'github-actions[bot]'
 
   Copy_License:
     needs: wait
@@ -182,6 +204,8 @@ jobs:
           dst_owner: 'josh-justjosh'
           dst_repo_name: 'blog'
           dst_path: '/'
+          email: '41898282+github-actions[bot]@users.noreply.github.com'
+          name: 'github-actions[bot]'
 
   Copy_Readme:
     needs: wait
@@ -196,6 +220,8 @@ jobs:
           dst_owner: 'josh-justjosh'
           dst_repo_name: 'blog'
           dst_path: '/'
+          email: '41898282+github-actions[bot]@users.noreply.github.com'
+          name: 'github-actions[bot]'
 
   Copy_Search:
     needs: wait
@@ -210,6 +236,8 @@ jobs:
           dst_owner: 'josh-justjosh'
           dst_repo_name: 'blog'
           dst_path: '/'
+          email: '41898282+github-actions[bot]@users.noreply.github.com'
+          name: 'github-actions[bot]'
           
   Copy_Funding:
     needs: wait
@@ -224,5 +252,7 @@ jobs:
           dst_owner: 'josh-justjosh'
           dst_repo_name: 'blog'
           dst_path: '/.github/'
+          email: '41898282+github-actions[bot]@users.noreply.github.com'
+          name: 'github-actions[bot]'
           
           
