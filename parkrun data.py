@@ -220,20 +220,25 @@ with open('_data/cancellations.tsv','wt', encoding='utf-8', newline='') as f:
         tsv_writer.writerow(event)
 print("cancellations.tsv saved")
 
+events_data  = []
+for event in events['features']:
+    out = []
+    out.append(event['properties']['EventLongName'])
+    out.append(event['geometry']['coordinates'][1])
+    out.append(event['geometry']['coordinates'][0])
+    out.append(event['properties']['Country'])
+    out.append(event['properties']['Status'])
+    out.append(event['properties']['DateCancelled'])
+    out.append(event['properties']['ReasonCancelled'])
+    out.append(event['properties']['Website'])
+    events_data.append(out)
+events_data.sort()
+
 with open('_data/events.tsv','wt', encoding='utf-8', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
     tsv_writer.writerow(['Event','Latitude','Longitude','Country','Status','DateCancelled','ReasonCancelled','Website'])
-    for event in events['features']:
-        out = []
-        out.append(event['properties']['EventLongName'])
-        out.append(event['geometry']['coordinates'][1])
-        out.append(event['geometry']['coordinates'][0])
-        out.append(event['properties']['Country'])
-        out.append(event['properties']['Status'])
-        out.append(event['properties']['DateCancelled'])
-        out.append(event['properties']['ReasonCancelled'])
-        out.append(event['properties']['Website'])
-        tsv_writer.writerow(out)
+    for event in events_data:
+        tsv_writer.writerow(event)
 print("events.tsv saved")
 
 countries = {
@@ -474,5 +479,4 @@ with open('_data/countries-data.tsv','wt', encoding='utf-8', newline='') as f:
             else:
                 out.append('')
         tsv_writer.writerow(out)
-
 print("countries-data.tsv saved")
