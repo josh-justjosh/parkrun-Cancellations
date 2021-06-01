@@ -758,3 +758,5 @@ permalink: /parkrun-cancellations/
 </html>
 
 This page is automatically updated throughout the week with data for the upcoming weekend. The data is refreshed approximately every three hours except on Friday evenings an Saturday mornings when the page is updated hourly (6pm Friday to 9am Saturday). Please be aware that due to the unreliabity of GitHub actions triggered by a schedule, data is unlikely to be refreshed excatly on the hour. You should always check the event's website and social media channels before setting out.
+
+The methods for collecting and parsing the data are not perfect. If you notice something that doesn't look right - please let me know by [opening an issue](https://github.com/josh-justjosh/homepage/issues/new) in the GitHub repo, [on twitter](https://twitter.com/intent/tweet?text=@_Josh_justJosh) or [by email](mailto:hello@josh.me.uk?subject=Issue with parkrun Cancellations page). 
