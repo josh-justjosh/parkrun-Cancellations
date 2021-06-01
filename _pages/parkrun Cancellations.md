@@ -395,7 +395,26 @@ permalink: /parkrun-cancellations/
                     mapboxgl: mapboxgl
                 })
             );
-            map.addControl(new mapboxgl.NavigationControl());
+            var ourGeoLocator = new mapboxgl.GeolocateControl({
+                positionOptions: {
+                enableHighAccuracy: false
+                },
+                fitBoundsOptions: {
+                maxZoom: 10
+                }
+            })
+
+            map.addControl(ourGeoLocator);
+
+            ourGeoLocator.on('geolocate', function(e) {
+                    console.log(e);
+                    console.log(map.queryRenderedFeatures(
+                        null,
+                        { layers: ['parkrun_circle'] }
+                    ));
+                } 
+            );
+            map.addControl(new mapboxgl.NavigationControl({showCompass: false}));
             map.addControl(new mapboxgl.FullscreenControl());
         </script>
         <div class="flex-container" style="color: #FFFFFF">
