@@ -227,6 +227,7 @@ countries = {
         '5k Cancellations':0,
         'junior Cancellations':0,
         'Permission to Return':0,
+        'Total':0
         },
     'Canada': {
         'parkrunning': 0,
@@ -234,6 +235,7 @@ countries = {
         '5k Cancellations':0,
         'junior Cancellations':0,
         'Permission to Return':0,
+        'Total':0
         },
     'Denmark': {
         'parkrunning': 0,
@@ -241,6 +243,7 @@ countries = {
         '5k Cancellations':0,
         'junior Cancellations':0,
         'Permission to Return':0,
+        'Total':0
         },
     'Eswatini': {
         'parkrunning': 0,
@@ -248,6 +251,7 @@ countries = {
         '5k Cancellations':0,
         'junior Cancellations':0,
         'Permission to Return':0,
+        'Total':0
         },
     'Finland': {
         'parkrunning': 0,
@@ -255,6 +259,7 @@ countries = {
         '5k Cancellations':0,
         'junior Cancellations':0,
         'Permission to Return':0,
+        'Total':0
         },
     'France': {
         'parkrunning': 0,
@@ -262,6 +267,7 @@ countries = {
         '5k Cancellations':0,
         'junior Cancellations':0,
         'Permission to Return':0,
+        'Total':0
         },
     'Germany': {
         'parkrunning': 0,
@@ -269,6 +275,7 @@ countries = {
         '5k Cancellations':0,
         'junior Cancellations':0,
         'Permission to Return':0,
+        'Total':0
         },
     'Ireland': {
         'parkrunning': 0,
@@ -276,6 +283,7 @@ countries = {
         '5k Cancellations':0,
         'junior Cancellations':0,
         'Permission to Return':0,
+        'Total':0
         },
     'Italy': {
         'parkrunning': 0,
@@ -283,6 +291,7 @@ countries = {
         '5k Cancellations':0,
         'junior Cancellations':0,
         'Permission to Return':0,
+        'Total':0
         },
     'Japan': {
         'parkrunning': 0,
@@ -290,6 +299,7 @@ countries = {
         '5k Cancellations':0,
         'junior Cancellations':0,
         'Permission to Return':0,
+        'Total':0
         },
     'Malaysia': {
         'parkrunning': 0,
@@ -297,6 +307,7 @@ countries = {
         '5k Cancellations':0,
         'junior Cancellations':0,
         'Permission to Return':0,
+        'Total':0
         },
     'Namibia': {
         'parkrunning': 0,
@@ -304,6 +315,7 @@ countries = {
         '5k Cancellations':0,
         'junior Cancellations':0,
         'Permission to Return':0,
+        'Total':0
         },
     'Netherlands': {
         'parkrunning': 0,
@@ -311,6 +323,7 @@ countries = {
         '5k Cancellations':0,
         'junior Cancellations':0,
         'Permission to Return':0,
+        'Total':0
         },
     'New Zealand': {
         'parkrunning': 0,
@@ -318,6 +331,7 @@ countries = {
         '5k Cancellations':0,
         'junior Cancellations':0,
         'Permission to Return':0,
+        'Total':0
         },
     'Norway': {
         'parkrunning': 0,
@@ -325,6 +339,7 @@ countries = {
         '5k Cancellations':0,
         'junior Cancellations':0,
         'Permission to Return':0,
+        'Total':0
         },
     'Poland': {
         'parkrunning': 0,
@@ -332,6 +347,7 @@ countries = {
         '5k Cancellations':0,
         'junior Cancellations':0,
         'Permission to Return':0,
+        'Total':0
         },
     'Russia': {
         'parkrunning': 0,
@@ -339,6 +355,7 @@ countries = {
         '5k Cancellations':0,
         'junior Cancellations':0,
         'Permission to Return':0,
+        'Total':0
         },
     'Singapore': {
         'parkrunning': 0,
@@ -346,6 +363,7 @@ countries = {
         '5k Cancellations':0,
         'junior Cancellations':0,
         'Permission to Return':0,
+        'Total':0
         },
     'South Africa': {
         'parkrunning': 0,
@@ -353,6 +371,7 @@ countries = {
         '5k Cancellations':0,
         'junior Cancellations':0,
         'Permission to Return':0,
+        'Total':0
         },
     'Sweeden': {
         'parkrunning': 0,
@@ -360,6 +379,7 @@ countries = {
         '5k Cancellations':0,
         'junior Cancellations':0,
         'Permission to Return':0,
+        'Total':0
         },
     'United Kingdom': {
         'parkrunning': 0,
@@ -367,6 +387,7 @@ countries = {
         '5k Cancellations':0,
         'junior Cancellations':0,
         'Permission to Return':0,
+        'Total':0
         },
     'USA': {
         'parkrunning': 0,
@@ -374,6 +395,7 @@ countries = {
         '5k Cancellations':0,
         'junior Cancellations':0,
         'Permission to Return':0,
+        'Total':0
         },
     'Total': {
         'parkrunning': 0,
@@ -381,6 +403,7 @@ countries = {
         '5k Cancellations':0,
         'junior Cancellations':0,
         'Permission to Return':0,
+        'Total':0
         },
     }
 
@@ -389,21 +412,27 @@ totals= {
         'junior parkrunning':0,
         '5k Cancellations':0,
         'junior Cancellations':0,
-        'Permission to Return':0
+        'Permission to Return':0,
+        'Total':0
         }
         
 
 for parkrun in events['features']:
     if parkrun['properties']['Status'] == 'parkrunning':
         countries[parkrun['properties']['Country']]['parkrunning'] += 1
+        countries[parkrun['properties']['Country']]['Total'] += 1
     elif parkrun['properties']['Status'] == 'junior parkrunning':
         countries[parkrun['properties']['Country']]['junior parkrunning'] += 1
+        countries[parkrun['properties']['Country']]['Total'] += 1
     elif parkrun['properties']['Status'] == '5k Cancellation':
         countries[parkrun['properties']['Country']]['5k Cancellations'] += 1
+        countries[parkrun['properties']['Country']]['Total'] += 1
     elif parkrun['properties']['Status'] == 'junior Cancellation':
         countries[parkrun['properties']['Country']]['junior Cancellations'] += 1
+        countries[parkrun['properties']['Country']]['Total'] += 1
     elif parkrun['properties']['Status'] == 'PtR':
         countries[parkrun['properties']['Country']]['Permission to Return'] += 1
+        countries[parkrun['properties']['Country']]['Total'] += 1
     else:
         print("Error:",parkrun['properties']['EventLongName'])
 #print(countries)
@@ -414,12 +443,13 @@ for country,data in countries.items():
     totals['5k Cancellations'] += data['5k Cancellations']
     totals['junior Cancellations'] += data['junior Cancellations']
     totals['Permission to Return'] += data['Permission to Return']
+    totals['Total'] += data['Total']
 
 countries['Total'] = totals
 
 with open('_data/countries-data.tsv','wt', encoding='utf-8', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
-    tsv_writer.writerow(['Country','parkrunning','junior parkrunning','5k Cancellations','junior Cancellations','Permission to Return'])
+    tsv_writer.writerow(['Country','parkrunning','junior parkrunning','5k Cancellations','junior Cancellations','Permission to Return','Total'])
     for i,j in countries.items():
         out = [i]
         for k,l in j.items():

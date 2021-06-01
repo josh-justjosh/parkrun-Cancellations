@@ -143,8 +143,8 @@ permalink: /parkrun-cancellations/
             mapboxgl.accessToken = 'pk.eyJ1Ijoiam9zaC1qdXN0am9zaCIsImEiOiJja3A2eHdmajIwNGFvMndtcmNsbnZycm44In0.SvsoxpdU7NRLYLVRFIu2kw';
             var map = new mapboxgl.Map({
                 container: 'map',
-                zoom: 0.3,
-                center: [0, 20],
+                zoom: 0.9,
+                center: [10, 20],
                 style: 'mapbox://styles/mapbox/streets-v11'
             });
 
