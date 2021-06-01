@@ -83,7 +83,7 @@ permalink: /parkrun-cancellations/
         .flex-item {
             margin: 5px;
             flex-grow: 1;
-            flex-basis: 30%;
+            flex-basis: 35%;
         }
         .flex-container {
             display:flex;
@@ -584,7 +584,7 @@ permalink: /parkrun-cancellations/
             </div> 
             <div class="flex-item">
                 <div class="countdown">
-                    <h3 style="margin:inherit; color:inherit">England* and Northern Ireland</h3>
+                    <h3 style="margin:inherit; color:inherit">England* and Northern&nbsp;Ireland</h3>
                     <h2 id="timer1" style="margin:inherit; color:inherit;"></h2>
                     <p id="endDate1" style="margin:inherit;"></p>
 
@@ -627,6 +627,51 @@ permalink: /parkrun-cancellations/
                 </div>
 
                 <p style="text-align: center;">* Dependent on a substantial number of events returning. You can read more about that <a href="https://blog.josh.me.uk/2021/05/12/update-to-the-parkrun-cancellations-map/">here</a>. So far, {{site.data.PtR.size}} of 589 events ({{site.data.PtR.size | divided_by: 589.0 | times: 100 | round }}%) have Permission to Return.</p>
+            </div>
+            <div class="flex-item">
+                <div class="countdown">
+                    <!-- Display the timer timer in an element -->
+                    <h3 style="margin:inherit; color:inherit">France</h3>
+                    <h2 id="timer6" style="margin:inherit; color:inherit;"></h2>
+                    <p id="endDate6" style="margin:inherit;"></p>
+
+                    <script>
+                        // Set the date we're counting down to
+                        var countDownDate6 = new Date( "2021/07/03 09:00:00 GMT+02:00").getTime();
+
+                        // Update the count down every 1 second
+                        var x = setInterval(function() {
+
+                        // Get today's date and time
+                        var now = new Date().getTime();
+
+                        // Find the distance between now and the count down date
+                        var distance = countDownDate6 - now;
+
+                        // Time calculations for days, hours, minutes and seconds
+                        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                        // Display the result in the element with id="timer"
+                        document.getElementById("timer6").innerHTML = days + "d " + hours + "h "
+                        + minutes + "m " + seconds + "s ";
+
+                        // If the count down is finished, write some text
+                        if (distance < 0) {
+                            clearInterval(x);
+                            document.getElementById("timer6").innerHTML = "parkrun's Back!";
+                        }
+                        }, 1000);
+
+                        var cdinput6 = new Date(countDownDate6)
+
+                        var cdoutput6 = cdinput6.toLocaleString('default', options);
+
+                        document.getElementById("endDate6").innerHTML = cdoutput6
+                    </script>
+                </div>
             </div>
             <div class="flex-item">
                 <div class="countdown">
