@@ -505,9 +505,9 @@ for i in cancellations_data:
 #print(cancellations_changes)
 cancellations_changes.sort()
 
-with open('_data/cancellations-changes.tsv','wt', encoding='utf-8', newline='') as f:
+with open('_data/cancellation-changes.tsv','wt', encoding='utf-8', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
     tsv_writer.writerow(['Event','Country','Cancellation Note','Added or<br />Removed'])
     for event in cancellations_changes:
         tsv_writer.writerow(event)
-print("cancellations-changes.tsv saved")
+print("cancellation-changes.tsv saved")
