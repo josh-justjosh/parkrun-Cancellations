@@ -9,14 +9,14 @@ from html.parser import HTMLParser
 PtR_Events = []
 
 old_cancellations_data = []
-with open('_data/cancellations.tsv','r', encoding='utf-8', newline='') as f:
+with open('_data/parkrun/cancellations.tsv','r', encoding='utf-8', newline='') as f:
     tsv_reader = csv.reader(f, delimiter="\t")
     for row in tsv_reader:
         old_cancellations_data.append(row)
 old_cancellations_data.remove(['Event','Country','Cancellation Note'])
 
 try:
-    ptr_file = str(open('_data/raw/PtR.html', "rb").read())
+    ptr_file = str(open('_data/parkrun/raw/PtR.html', "rb").read())
 
     class MyHTMLParser(HTMLParser):
 
@@ -28,7 +28,7 @@ try:
     MyHTMLParser().feed(ptr_file)
     
 finally:
-    open('_data/raw/PtR.html', "rb").close()
+    open('_data/parkrun/raw/PtR.html', "rb").close()
 
 del PtR_Events[:5]
 del PtR_Events[-5:]
@@ -39,14 +39,14 @@ for i in range(len(PtR_Events)):
 #for i in PtR_Events:
     #print(i)
 
-with open('_data/PtR.tsv','wt', newline='') as f:
+with open('_data/parkrun/PtR.tsv','wt', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
     tsv_writer.writerow(['Event'])
     for i in PtR_Events:
         tsv_writer.writerow([i])
 print("PtR.tsv saved")
 
-#with open('_data/PtRtable.csv','w') as f:
+#with open('_data/parkrun/PtRtable.csv','w') as f:
 #    f.write("Event\n")
 #    for i in range(0,len(PtR_Events),2):
 #        try:
@@ -67,11 +67,11 @@ cancellations = requests.get('https://wiki.parkrun.com/index.php/Cancellations/G
 
 events = json.loads(events)['events']
 
-#with open('_data/raw/technical-event-info.html','w', encoding='utf-8') as f:
+#with open('_data/parkrun/raw/technical-event-info.html','w', encoding='utf-8') as f:
 #    f.write(technical_event_info)
 #print('technical-event-info.html saved')
 
-#with open('_data/raw/cancellations.html','w', encoding='utf-8') as f:
+#with open('_data/parkrun/raw/cancellations.html','w', encoding='utf-8') as f:
 #    f.write(cancellations)
 #print('cancellations.html saved')
 
@@ -208,19 +208,19 @@ for parkrun in events['features']:
     else: print(parkrun['properties']['EventShortName'],'- Website   Not Generated')    
     parkrun['properties']['description']+='</table>'
     
-with open('_data/raw/events.json','w', encoding='utf-8') as f:
+with open('_data/parkrun/raw/events.json','w', encoding='utf-8') as f:
     f.write(json.dumps(events))
 print('events.json saved')
 
 cancellation_dates = list(dict.fromkeys(cancellation_dates))
-with open('_data/cancellation-dates.tsv','wt', encoding='utf-8', newline='') as f:
+with open('_data/parkrun/cancellation-dates.tsv','wt', encoding='utf-8', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
     for date in cancellation_dates:
         tsv_writer.writerow([date])
 print("cancellation-dates.tsv saved")
 
 cancellations_data.sort()
-with open('_data/cancellations.tsv','wt', encoding='utf-8', newline='') as f:
+with open('_data/parkrun/cancellations.tsv','wt', encoding='utf-8', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
     tsv_writer.writerow(['Event','Country','Cancellation Note'])
     for event in cancellations_data:
@@ -241,7 +241,7 @@ for event in events['features']:
     events_data.append(out)
 events_data.sort()
 
-with open('_data/events.tsv','wt', encoding='utf-8', newline='') as f:
+with open('_data/parkrun/events.tsv','wt', encoding='utf-8', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
     tsv_writer.writerow(['Event','Latitude','Longitude','Country','Status','DateCancelled','ReasonCancelled','Website'])
     for event in events_data:
@@ -475,7 +475,7 @@ for country,data in countries.items():
 
 countries['Total'] = totals
 
-with open('_data/countries-data.tsv','wt', encoding='utf-8', newline='') as f:
+with open('_data/parkrun/countries-data.tsv','wt', encoding='utf-8', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
     tsv_writer.writerow(['Country','parkrunning','junior parkrunning','5k Cancellations','junior Cancellations','Permission to Return','Total'])
     for i,j in countries.items():
@@ -505,7 +505,7 @@ for i in cancellations_data:
 #print(cancellations_changes)
 cancellations_changes.sort()
 
-with open('_data/cancellation-changes.tsv','wt', encoding='utf-8', newline='') as f:
+with open('_data/parkrun/cancellation-changes.tsv','wt', encoding='utf-8', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
     tsv_writer.writerow(['Event','Country','Cancellation Note','Added or<br />Removed'])
     for event in cancellations_changes:

@@ -6,7 +6,7 @@ date: 2021-05-27
 permalink: /parkrun-cancellations/
 ---
 
-{% for stuff in site.data.raw.time %}
+{% for stuff in site.data.parkrun.raw.time %}
 {% assign last_modified_at = stuff.time %}
 {% endfor %}
 
@@ -167,7 +167,7 @@ permalink: /parkrun-cancellations/
                 // add a clustered GeoJSON source for a sample set of parkruns
                 map.addSource('parkruns', {
                     'type': 'geojson',
-                    'data': {{ site.data.raw.events | jsonify}},
+                    'data': {{ site.data.parkrun.raw.events | jsonify}},
                     'cluster': true,
                     'clusterRadius': 50,
                     'clusterProperties': {
@@ -432,7 +432,7 @@ permalink: /parkrun-cancellations/
             document.getElementById('key5').style.backgroundColor = colors[4] ;
         </script>
         <p>Showing data for 
-        {% for row in site.data.cancellation-dates %}
+        {% for row in site.data.parkrun.cancellation-dates %}
             {% for pair in row %}
                 {% for item in pair %}
                     {% if forloop.last %}
@@ -443,10 +443,10 @@ permalink: /parkrun-cancellations/
             {% endfor %}
         {% endfor %}
         </p>
-        {% if site.data.cancellation-changes.size > 0 %}
+        {% if site.data.parkrun.cancellation-changes.size > 0 %}
         <h2>Most Recent Updates</h2>
         <table style="width: 100%">
-            {% for row in site.data.cancellation-changes %}
+            {% for row in site.data.parkrun.cancellation-changes %}
                 <tr>
                     {% if forloop.first %}
                         {% for pair in row %}
@@ -649,7 +649,7 @@ permalink: /parkrun-cancellations/
                     </script>
                 </div>
 
-                <p style="text-align: center;">* Dependent on a substantial number of events returning. You can read more about that <a href="https://blog.josh.me.uk/2021/05/12/update-to-the-parkrun-cancellations-map/">here</a>. So far, {{site.data.PtR.size}} of 589 events ({{site.data.PtR.size | divided_by: 589.0 | times: 100 | round }}%) have Permission to Return.</p>
+                <p style="text-align: center;">* Dependent on a substantial number of events returning. You can read more about that <a href="https://blog.josh.me.uk/2021/05/12/update-to-the-parkrun-cancellations-map/">here</a>. So far, {{site.data.parkrun.PtR.size}} of 589 events ({{site.data.parkrun.PtR.size | divided_by: 589.0 | times: 100 | round }}%) have Permission to Return.</p>
             </div>
             <div class="flex-item">
                 <div class="countdown">
@@ -746,7 +746,7 @@ permalink: /parkrun-cancellations/
         <h3> The following English events have been granted permission to return </h3>
 
         <div class="ptr-flex">
-            {% for row in site.data.PtR %}
+            {% for row in site.data.parkrun.PtR %}
                 {% for pair in row %}
                 <div class="ptr-cell">{{ pair[1] }}</div>
                 {% endfor %}
@@ -754,7 +754,7 @@ permalink: /parkrun-cancellations/
         </div>
         <br />
         <table style="width: 100%">
-            {% for row in site.data.countries-data %}
+            {% for row in site.data.parkrun.countries-data %}
                 <tr>
                     {% if forloop.first %}
                         {% for pair in row %}

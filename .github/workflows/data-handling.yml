@@ -29,7 +29,7 @@ jobs:
         fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
         
     - name: Create local changes
-      run: echo ${{ steps.PtR.outputs.response }} > _data/raw/PtR.html
+      run: echo ${{ steps.PtR.outputs.response }} > _data/parkrun/raw/PtR.html
 
     - name: setup python
       uses: actions/setup-python@v2
@@ -50,23 +50,23 @@ jobs:
     
     - name: Write Time to File
       run: |
-        echo 'time' > _data/raw/time.tsv
-        echo ${{ steps.current-time.outputs.time }} >> _data/raw/time.tsv
+        echo 'time' > _data/parkrun/raw/time.tsv
+        echo ${{ steps.current-time.outputs.time }} >> _data/parkrun/raw/time.tsv
 
     - name: Commit files
       if: ${{ steps.PtR.outcome == 'success'}}
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add _data/raw/PtR.html
-        git add _data/raw/events.json
-        git add _data/raw/time.tsv
-        git add _data/PtR.tsv
-        git add _data/cancellations.tsv
-        git add _data/cancellation-dates.tsv
-        git add _data/countries-data.tsv
-        git add _data/events.tsv
-        git add _data/cancellation-changes.tsv
+        git add _data/parkrun/raw/PtR.html
+        git add _data/parkrun/raw/events.json
+        git add _data/parkrun/raw/time.tsv
+        git add _data/parkrun/PtR.tsv
+        git add _data/parkrun/cancellations.tsv
+        git add _data/parkrun/cancellation-dates.tsv
+        git add _data/parkrun/countries-data.tsv
+        git add _data/parkrun/events.tsv
+        git add _data/parkrun/cancellation-changes.tsv
         git commit -m "Update parkrun Data [Bot]" -a
       
     - name: Commit files (if PtR Failed)
@@ -74,14 +74,14 @@ jobs:
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add _data/raw/events.json
-        git add _data/raw/time.tsv
-        git add _data/PtR.tsv
-        git add _data/cancellations.tsv
-        git add _data/cancellation-dates.tsv
-        git add _data/countries-data.tsv
-        git add _data/events.tsv
-        git add _data/cancellation-changes.tsv
+        git add _data/parkrun/raw/events.json
+        git add _data/parkrun/raw/time.tsv
+        git add _data/parkrun/PtR.tsv
+        git add _data/parkrun/cancellations.tsv
+        git add _data/parkrun/cancellation-dates.tsv
+        git add _data/parkrun/countries-data.tsv
+        git add _data/parkrun/events.tsv
+        git add _data/parkrun/cancellation-changes.tsv
         git commit -m "Update parkrun Data [Bot]" -a
         
     - name: Push changes
