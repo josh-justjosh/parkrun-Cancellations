@@ -443,10 +443,10 @@ permalink: /parkrun-cancellations/
             {% endfor %}
         {% endfor %}
         </p>
-        {% if site.data.cancellations-changes.size > 0 %}
+        {% if site.data.cancellation-changes.size > 0 %}
         <h2>Most Recent Updates</h2>
         <table style="width: 100%">
-            {% for row in site.data.cancellations-changes %}
+            {% for row in site.data.cancellation-changes %}
                 <tr>
                     {% if forloop.first %}
                         {% for pair in row %}
