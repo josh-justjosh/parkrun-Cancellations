@@ -8,6 +8,13 @@ from html.parser import HTMLParser
 
 PtR_Events = []
 
+old_cancellations_data = []
+with open('_data/cancellations.tsv','r', encoding='utf-8', newline='') as f:
+    tsv_reader = csv.reader(f, delimiter="\t")
+    for row in tsv_reader:
+        old_cancellations_data.append(row)
+old_cancellations_data.remove(['Event','Country','Cancellation Note'])
+
 try:
     ptr_file = str(open('_data/raw/PtR.html', "rb").read())
 
@@ -480,3 +487,27 @@ with open('_data/countries-data.tsv','wt', encoding='utf-8', newline='') as f:
                 out.append('')
         tsv_writer.writerow(out)
 print("countries-data.tsv saved")
+
+cancellations_changes = []
+
+for i in old_cancellations_data:
+    if i not in cancellations_data:
+        i.append('Removed')
+        #print(i)
+        cancellations_changes.append(i)
+
+for i in cancellations_data:
+    if i not in old_cancellations_data:
+        i.append('Added')
+        #print(i)
+        cancellations_changes.append(i)
+
+#print(cancellations_changes)
+cancellations_changes.sort()
+
+with open('_data/cancellations-changes.tsv','wt', encoding='utf-8', newline='') as f:
+    tsv_writer = csv.writer(f, delimiter='\t')
+    tsv_writer.writerow(['Event','Country','Cancellation Note','Added or<br />Removed'])
+    for event in cancellations_changes:
+        tsv_writer.writerow(event)
+print("cancellations-changes.tsv saved")

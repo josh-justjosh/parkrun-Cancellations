@@ -443,6 +443,29 @@ permalink: /parkrun-cancellations/
             {% endfor %}
         {% endfor %}
         </p>
+        {% if site.data.cancellations-changes.size > 0 %}
+        <h2>Most Recent Updates</h2>
+        <table style="width: 100%">
+            {% for row in site.data.cancellations-changes %}
+                <tr>
+                    {% if forloop.first %}
+                        {% for pair in row %}
+                            <th>{{ pair[0] }}</th>
+                        {% endfor %}
+                        </tr>
+                        <tr>
+                        {% for pair in row %}
+                            <td>{{ pair[1] }}</td>
+                        {% endfor %}
+                    {% else %}
+                        {% for pair in row %}
+                            <td>{{ pair[1] }}</td>
+                        {% endfor %}
+                    {% endif %}
+                </tr>
+            {% endfor %}
+        </table>
+        {% endif %}
         <br />
         <h2>parkrun returns in:</h2>
         <script>let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZoneName: 'short', hour:'2-digit', minute:'2-digit'};</script>
