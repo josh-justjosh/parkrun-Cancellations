@@ -134,6 +134,28 @@ permalink: /parkrun-cancellations/
                 flex-direction: column;
             }
             }
+        .collapsible {
+            background-color: #2B233D;
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: -webkit-fill-available;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            }
+
+        .active, .collapsible:hover {
+            background-color: #14101d;
+            }
+
+        .expcontent {
+            padding: 0 18px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease-out;
+            }
         </style>
     </head>
     <body>
@@ -751,16 +773,35 @@ permalink: /parkrun-cancellations/
                 </div>
             </div>
         </div>
-
-        <h3> The following English events have been granted permission to return </h3>
-
-        <div class="ptr-flex">
-            {% for row in site.data.parkrun.PtR %}
-                {% for pair in row %}
-                <div class="ptr-cell">{{ pair[1] }}</div>
+        <br />
+        <button type="button" class="collapsible" style="margin: 5px;">Click to view the english events with permission to return</button>
+        <div class="expcontent">
+            <h3> The following English events have been granted permission to return </h3>
+            <div class="ptr-flex">
+                {% for row in site.data.parkrun.PtR %}
+                    {% for pair in row %}
+                    <div class="ptr-cell">{{ pair[1] }}</div>
+                    {% endfor %}
                 {% endfor %}
-            {% endfor %}
+            </div>
         </div>
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var expcontent = this.nextElementSibling;
+                if (expcontent.style.maxHeight){
+                expcontent.style.maxHeight = null;
+                } else {
+                expcontent.style.maxHeight = expcontent.scrollHeight + "px";
+                } 
+            });
+            }
+        </script>
+
         <br />
         <table style="width: 100%">
             {% for row in site.data.parkrun.countries-data %}
