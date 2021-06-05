@@ -416,6 +416,11 @@ permalink: /parkrun-cancellations/
             );
             map.addControl(new mapboxgl.NavigationControl({showCompass: false}));
             map.addControl(new mapboxgl.FullscreenControl());
+            // disable map rotation using right click + drag
+            map.dragRotate.disable();
+
+            // disable map rotation using touch rotation gesture
+            map.touchZoomRotate.disableRotation();
         </script>
         <div class="flex-container" style="color: #FFFFFF">
             <div class="flex-key" id="key1">parkrunning</div>
