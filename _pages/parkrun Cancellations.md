@@ -60,6 +60,10 @@ permalink: /parkrun-cancellations/
   <p class="author_title" datetime="{{ last_modified_at | date_to_xmlschema }}">Last Updated: {{ last_modified_at | date: "%R" }} {{ tzn }} {{ last_modified_at | date: "%A, %e&nbsp;%B&nbsp;%Y" }}</p>
 {% endif %}
 
+<div style="background-color: rgba(255,128,0,0.25); margin: 25px; padding: 10px; text-align: center">
+    <p>This page is in beta, please see <a href="#contact">the information at the bottom of the page</a> for how to report errors.<br />You should always check the event's website and social media channels before setting out.</p>
+</div>
+
 <html>
     <head>
         <meta charset="utf-8">
@@ -787,4 +791,4 @@ permalink: /parkrun-cancellations/
 
 This page is automatically updated throughout the week with data for the upcoming weekend. The data are refreshed approximately every three hours except on Friday evenings an Saturday mornings when the page is updated hourly (6pm Friday to 9am Saturday). Please be aware that due to the unreliabity of GitHub actions triggered by a schedule, data are unlikely to be refreshed excatly on the hour. You should always check the event's website and social media channels before setting out.
 
-The methods for collecting and parsing the data are not perfect. If you notice something that doesn't look right - please let me know by [opening an issue](https://github.com/josh-justjosh/homepage/issues/new) in the GitHub repo, [on twitter](https://twitter.com/intent/tweet?text=@_Josh_justJosh) or [by email](mailto:hello@josh.me.uk?subject=Issue with parkrun Cancellations page). 
+<p id="contact">The methods for collecting and parsing the data are not perfect. If you notice something that doesn't look right - please let me know by <a href="https://github.com/josh-justjosh/homepage/issues/new">opening an issue</a> in the GitHub repo, <a href="https://twitter.com/intent/tweet?text=@_Josh_justJosh">on twitter</a> or <a href="mailto:hello@josh.me.uk?subject=Issue with parkrun Cancellations page">by email</a>.</p>
