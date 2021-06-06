@@ -183,7 +183,7 @@ for parkrun in events['features']:
             parkrun['properties']['Country'] = 'South Africa'
     elif parkrun['properties']['countrycode'] == 88 :
         parkrun['properties']['Website'] = 'https://www.parkrun.se/'+parkrun['properties']['eventname']
-        parkrun['properties']['Country'] = 'Sweeden'
+        parkrun['properties']['Country'] = 'Sweden'
     elif parkrun['properties']['countrycode'] == 97 :
         parkrun['properties']['Website'] = 'https://www.parkrun.org.uk/'+parkrun['properties']['eventname']
         parkrun['properties']['Country'] = 'United Kingdom'
@@ -404,7 +404,7 @@ countries = {
         'Permission to Return':0,
         'Total':0
         },
-    'Sweeden': {
+    'Sweden': {
         'parkrunning': 0,
         'junior parkrunning':0,
         '5k Cancellations':0,
