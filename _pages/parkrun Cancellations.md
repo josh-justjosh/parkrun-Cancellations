@@ -638,7 +638,7 @@ permalink: /parkrun-cancellations/
             </div> 
             <div class="flex-item">
                 <div class="countdown">
-                    <h3 style="margin:inherit; color:inherit">England* and Northern&nbsp;Ireland</h3>
+                    <h3 style="margin:inherit; color:inherit">England* and Northern&nbsp;Ireland <a href="https://blog.parkrun.com/uk/2021/06/01/covid-19-coronavirus-update-1-june/">(tbc)</a></h3>
                     <h2 id="timer1" style="margin:inherit; color:inherit;"></h2>
                     <p id="endDate1" style="margin:inherit;"></p>
 
@@ -730,7 +730,7 @@ permalink: /parkrun-cancellations/
             <div class="flex-item">
                 <div class="countdown">
                     <!-- Display the timer timer in an element -->
-                    <h3 style="margin:inherit; color:inherit">Scotland</h3>
+                    <h3 style="margin:inherit; color:inherit">Scotland <a href="https://blog.parkrun.com/uk/2021/06/01/covid-19-coronavirus-update-1-june/">(tbc)</a></h3>
                     <h2 id="timer5" style="margin:inherit; color:inherit;"></h2>
                     <p id="endDate5" style="margin:inherit;"></p>
 
