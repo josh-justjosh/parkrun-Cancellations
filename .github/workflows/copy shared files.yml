@@ -11,7 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Wait 30 secs before running
-        continue-on-error: true
         uses: jakejarvis/wait-action@master
         with:
           time: '30s'
