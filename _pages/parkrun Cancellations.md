@@ -156,6 +156,52 @@ permalink: /parkrun-cancellations/
             overflow: hidden;
             transition: max-height 0.5s ease-out;
             }
+
+        .collapsiblecan {
+            background-color: #2B233D;
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: -webkit-fill-available;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            }
+
+        .active, .collapsiblecan:hover {
+            background-color: #14101d;
+            }
+
+        .expcontentcan {
+            padding: 0 18px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease-out;
+            }
+
+        .collapsiblerein {
+            background-color: #2B233D;
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: -webkit-fill-available;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            }
+
+        .active, .collapsiblerein:hover {
+            background-color: #14101d;
+            }
+
+        .expcontentrein {
+            padding: 0 18px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease-out;
+            }
         </style>
     </head>
     <body>
@@ -476,54 +522,94 @@ permalink: /parkrun-cancellations/
         </p>
         {% if site.data.parkrun.cancellation-changes.size > 0 %}
         <h2>Most Recent Changes</h2>
-            {% if site.data.parkrun.cancellation-additions.size > 0 %}
-            <h3 style="text-align: left;">Cancellations</h3><p>Last Change: {{site.data.parkrun.cancellation-additions.last.Event | date: "%R UTC %A, %e&nbsp;%B&nbsp;%Y" }}</p>
-            <table style="width: 100%">
-                {% for row in site.data.parkrun.cancellation-additions %}
-                    <tr>
-                        {% if forloop.first %}
-                            {% for pair in row %}
-                                <th>{{ pair[0] }}</th>
+            <div>
+                {% if site.data.parkrun.cancellation-additions.size > 0 %}
+                    <button type="button" class="collapsiblecan" style="margin: 5px;">Click to view the most recent Cancellations - Last Change: {{site.data.parkrun.cancellation-additions.last.Event | date: "%R UTC %A, %e&nbsp;%B&nbsp;%Y" }}</button>
+                    <div class="expcontentcan">
+                        <table style="width: 100%">
+                            {% for row in site.data.parkrun.cancellation-additions %}
+                                <tr>
+                                    {% if forloop.first %}
+                                        {% for pair in row %}
+                                            <th>{{ pair[0] }}</th>
+                                        {% endfor %}
+                                        </tr>
+                                        <tr>
+                                        {% for pair in row %}
+                                            <td>{{ pair[1] }}</td>
+                                        {% endfor %}
+                                    {% elsif forloop.last %}
+                                    {% else %}
+                                        {% for pair in row %}
+                                            <td>{{ pair[1] }}</td>
+                                        {% endfor %}
+                                    {% endif %}
+                                </tr>
                             {% endfor %}
-                            </tr>
-                            <tr>
-                            {% for pair in row %}
-                                <td>{{ pair[1] }}</td>
+                        </table>
+                    </div>
+                    <script>
+                        var coll = document.getElementsByClassName("collapsiblecan");
+                        var i;
+
+                        for (i = 0; i < coll.length; i++) {
+                        coll[i].addEventListener("click", function() {
+                            this.classList.toggle("active");
+                            var expcontentcan = this.nextElementSibling;
+                            if (expcontentcan.style.maxHeight){
+                            expcontentcan.style.maxHeight = null;
+                            } else {
+                            expcontentcan.style.maxHeight = expcontentcan.scrollHeight + "px";
+                            } 
+                        });
+                        }
+                    </script>
+                {% endif %}
+            </div>
+            <div>
+                {% if site.data.parkrun.cancellation-removals.size > 0 %}
+                    <button type="button" class="collapsiblerein" style="margin: 5px;">Click to view the most recent Reinstatements - Last Change: {{site.data.parkrun.cancellation-removals.last.Event | date: "%R UTC %A, %e&nbsp;%B&nbsp;%Y" }}</button>
+                    <div class="expcontentrein">
+                        <table style="width: 100%">
+                            {% for row in site.data.parkrun.cancellation-removals %}
+                                <tr>
+                                    {% if forloop.first %}
+                                        {% for pair in row %}
+                                            <th>{{ pair[0] }}</th>
+                                        {% endfor %}
+                                        </tr>
+                                        <tr>
+                                        {% for pair in row %}
+                                            <td>{{ pair[1] }}</td>
+                                        {% endfor %}
+                                    {% elsif forloop.last %}
+                                    {% else %}
+                                        {% for pair in row %}
+                                            <td>{{ pair[1] }}</td>
+                                        {% endfor %}
+                                    {% endif %}
+                                </tr>
                             {% endfor %}
-                        {% elsif forloop.last %}
-                        {% else %}
-                            {% for pair in row %}
-                                <td>{{ pair[1] }}</td>
-                            {% endfor %}
-                        {% endif %}
-                    </tr>
-                {% endfor %}
-            </table>
-            {% endif %}
-            {% if site.data.parkrun.cancellation-removals.size > 0 %}
-            <h3 style="text-align: left;">Reinstatemnts</h3><p>Last Change: {{site.data.parkrun.cancellation-removals.last.Event | date: "%R UTC %A, %e&nbsp;%B&nbsp;%Y" }}</p>
-            <table style="width: 100%">
-                {% for row in site.data.parkrun.cancellation-removals %}
-                    <tr>
-                        {% if forloop.first %}
-                            {% for pair in row %}
-                                <th>{{ pair[0] }}</th>
-                            {% endfor %}
-                            </tr>
-                            <tr>
-                            {% for pair in row %}
-                                <td>{{ pair[1] }}</td>
-                            {% endfor %}
-                        {% elsif forloop.last %}
-                        {% else %}
-                            {% for pair in row %}
-                                <td>{{ pair[1] }}</td>
-                            {% endfor %}
-                        {% endif %}
-                    </tr>
-                {% endfor %}
-            </table>
-            {% endif %}
+                        </table>
+                    </div>
+                    <script>
+                        var coll = document.getElementsByClassName("collapsiblerein");
+                        var i;
+
+                        for (i = 0; i < coll.length; i++) {
+                        coll[i].addEventListener("click", function() {
+                            this.classList.toggle("active");
+                            var expcontentrein = this.nextElementSibling;
+                            if (expcontentrein.style.maxHeight){
+                            expcontentrein.style.maxHeight = null;
+                            } else {
+                            expcontentrein.style.maxHeight = expcontentrein.scrollHeight + "px";
+                            } 
+                        });
+                        }
+                    </script>
+                {% endif %}
+            </div>
         {% endif %}
         <br />
         <h2>parkrun returns in:</h2>
