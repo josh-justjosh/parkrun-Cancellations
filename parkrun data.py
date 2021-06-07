@@ -492,25 +492,55 @@ with open('_data/parkrun/countries-data.tsv','wt', encoding='utf-8', newline='')
 print("countries-data.tsv saved")
 
 cancellations_changes = []
+cancellations_additions = []
+cancellations_removals = []
 
 for i in old_cancellations_data:
     if i not in cancellations_data:
-        i.append('Removed')
+        #i.append('Removed')
         #print(i)
-        cancellations_changes.append(i)
+        cancellations_removals.append(i)
 
 for i in cancellations_data:
     if i not in old_cancellations_data:
-        i.append('Added')
+        #i.append('Added')
         #print(i)
-        cancellations_changes.append(i)
+        cancellations_additions.append(i)
 
 #print(cancellations_changes)
+cancellations_additions.sort()
+cancellations_removals.sort()
+
+if cancellations_additions != []:
+    with open('_data/parkrun/cancellation-additions.tsv','wt', encoding='utf-8', newline='') as f:
+        tsv_writer = csv.writer(f, delimiter='\t')
+        tsv_writer.writerow(['Event','Country','Cancellation Note'])
+        for event in cancellations_additions:
+            tsv_writer.writerow(event)
+            event.append('Added')
+            cancellations_changes.append(event)
+        tsv_writer.writerow([datetime.datetime.now(),'',''])
+    print("cancellation-additions.tsv saved")
+    
+
+if cancellations_removals != []:
+    with open('_data/parkrun/cancellation-removals.tsv','wt', encoding='utf-8', newline='') as f:
+        tsv_writer = csv.writer(f, delimiter='\t')
+        tsv_writer.writerow(['Event','Country','Previous Cancellation Note'])
+        for event in cancellations_removals:
+            tsv_writer.writerow(event)
+            event.append('Removed')
+            cancellations_changes.append(event)
+        tsv_writer.writerow([datetime.datetime.now(),'',''])
+    print("cancellation-removals.tsv saved")
+
 cancellations_changes.sort()
-#if cancellations_changes != []:
-with open('_data/parkrun/cancellation-changes.tsv','wt', encoding='utf-8', newline='') as f:
-    tsv_writer = csv.writer(f, delimiter='\t')
-    tsv_writer.writerow(['Event','Country','Cancellation Note','Added or<br />Removed'])
-    for event in cancellations_changes:
-        tsv_writer.writerow(event)
-print("cancellation-changes.tsv saved")
+
+if cancellations_changes != []:
+    with open('_data/parkrun/cancellation-changes.tsv','wt', encoding='utf-8', newline='') as f:
+        tsv_writer = csv.writer(f, delimiter='\t')
+        tsv_writer.writerow(['Event','Country','Cancellation Note','Added or<br />Removed'])
+        for event in cancellations_changes:
+            tsv_writer.writerow(event)
+        tsv_writer.writerow([datetime.datetime.now(),'',''])
+    print("cancellation-changes.tsv saved")

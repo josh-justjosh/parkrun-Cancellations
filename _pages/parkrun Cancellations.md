@@ -475,27 +475,55 @@ permalink: /parkrun-cancellations/
         {% endfor %}
         </p>
         {% if site.data.parkrun.cancellation-changes.size > 0 %}
-        <h2>Most Recent Updates</h2>
-        <table style="width: 100%">
-            {% for row in site.data.parkrun.cancellation-changes %}
-                <tr>
-                    {% if forloop.first %}
-                        {% for pair in row %}
-                            <th>{{ pair[0] }}</th>
-                        {% endfor %}
-                        </tr>
-                        <tr>
-                        {% for pair in row %}
-                            <td>{{ pair[1] }}</td>
-                        {% endfor %}
-                    {% else %}
-                        {% for pair in row %}
-                            <td>{{ pair[1] }}</td>
-                        {% endfor %}
-                    {% endif %}
-                </tr>
-            {% endfor %}
-        </table>
+        <h2>Most Recent Changes</h2>
+            {% if site.data.parkrun.cancellation-additions.size > 0 %}
+            <h3 style="text-align: left;">Cancellations</h3><p>Last Change: {{site.data.parkrun.cancellation-removals.last.Event | date: "%R UTC %A, %e&nbsp;%B&nbsp;%Y" }}</p>
+            <table style="width: 100%">
+                {% for row in site.data.parkrun.cancellation-additions %}
+                    <tr>
+                        {% if forloop.first %}
+                            {% for pair in row %}
+                                <th>{{ pair[0] }}</th>
+                            {% endfor %}
+                            </tr>
+                            <tr>
+                            {% for pair in row %}
+                                <td>{{ pair[1] }}</td>
+                            {% endfor %}
+                        {% elsif forloop.last %}
+                        {% else %}
+                            {% for pair in row %}
+                                <td>{{ pair[1] }}</td>
+                            {% endfor %}
+                        {% endif %}
+                    </tr>
+                {% endfor %}
+            </table>
+            {% endif %}
+            {% if site.data.parkrun.cancellation-removals.size > 0 %}
+            <h3 style="text-align: left;">Reinstatemnts</h3><p>Last Change: {{site.data.parkrun.cancellation-removals.last.Event | date: "%R UTC %A, %e&nbsp;%B&nbsp;%Y" }}</p>
+            <table style="width: 100%">
+                {% for row in site.data.parkrun.cancellation-removals %}
+                    <tr>
+                        {% if forloop.first %}
+                            {% for pair in row %}
+                                <th>{{ pair[0] }}</th>
+                            {% endfor %}
+                            </tr>
+                            <tr>
+                            {% for pair in row %}
+                                <td>{{ pair[1] }}</td>
+                            {% endfor %}
+                        {% elsif forloop.last %}
+                        {% else %}
+                            {% for pair in row %}
+                                <td>{{ pair[1] }}</td>
+                            {% endfor %}
+                        {% endif %}
+                    </tr>
+                {% endfor %}
+            </table>
+            {% endif %}
         {% endif %}
         <br />
         <h2>parkrun returns in:</h2>
