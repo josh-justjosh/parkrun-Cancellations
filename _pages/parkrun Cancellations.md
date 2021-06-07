@@ -477,7 +477,7 @@ permalink: /parkrun-cancellations/
         {% if site.data.parkrun.cancellation-changes.size > 0 %}
         <h2>Most Recent Changes</h2>
             {% if site.data.parkrun.cancellation-additions.size > 0 %}
-            <h3 style="text-align: left;">Cancellations</h3><p>Last Change: {{site.data.parkrun.cancellation-removals.last.Event | date: "%R UTC %A, %e&nbsp;%B&nbsp;%Y" }}</p>
+            <h3 style="text-align: left;">Cancellations</h3><p>Last Change: {{site.data.parkrun.cancellation-additions.last.Event | date: "%R UTC %A, %e&nbsp;%B&nbsp;%Y" }}</p>
             <table style="width: 100%">
                 {% for row in site.data.parkrun.cancellation-additions %}
                     <tr>
