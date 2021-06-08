@@ -75,12 +75,33 @@ events = json.loads(events)['events']
 #    f.write(cancellations)
 #print('cancellations.html saved')
 
+soup = BeautifulSoup(technical_event_info, 'html.parser')
+
+extractor = Extractor(soup)
+extractor.parse()
+tei_table = extractor.return_list()
+#print(tei_table)
+
+upcoming_events_table = []
+upcoming_events = []
+
+for i in tei_table:
+    out = []
+    for j in i:
+        j = j.strip()
+        out.append(j)
+    #print(out)
+    if 'AcceptingRegistrations' in out:
+        upcoming_events.append(out[0])
+        upcoming_events_table.append(out)
+#print(upcoming_events)
+
+    
 soup = BeautifulSoup(cancellations, 'html.parser')
 
 extractor = Extractor(soup)
 extractor.parse()
 cancellation_table = extractor.return_list()
-#print(cancellation_table)
 
 cancellations_data = []
 cancellations_list = []
@@ -98,6 +119,10 @@ for i in range(len(cancellation_table)):
 
 cancellation_dates = []
 
+for parkrun in events['features']:
+    if parkrun['properties']['EventLongName'] in upcoming_events:
+        #print(parkrun)
+        events['features'].remove(parkrun)
 
 for parkrun in events['features']:
     #print(parkrun['properties']['EventLongName'])
