@@ -592,13 +592,14 @@ permalink: /parkrun-cancellations/
                         var distance = countDownDate3 - now;
 
                         // Time calculations for days, hours, minutes and seconds
-                        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
+                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
                         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
                         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
                         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
                         // Display the result in the element with id="timer"
-                        document.getElementById("timer3").innerHTML = days + "d " + hours + "h "
+                        document.getElementById("timer3").innerHTML = weeks + "w " + days + "d " + hours + "h "
                         + minutes + "m " + seconds + "s ";
 
                         // If the count down is finished, write some text
@@ -637,13 +638,14 @@ permalink: /parkrun-cancellations/
                         var distance = countDownDate2 - now;
 
                         // Time calculations for days, hours, minutes and seconds
-                        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
+                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
                         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
                         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
                         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
                         // Display the result in the element with id="timer"
-                        document.getElementById("timer2").innerHTML = days + "d " + hours + "h "
+                        document.getElementById("timer2").innerHTML = weeks + "w " + days + "d " + hours + "h "
                         + minutes + "m " + seconds + "s ";
 
                         // If the count down is finished, write some text
@@ -682,13 +684,14 @@ permalink: /parkrun-cancellations/
                         var distance = countDownDate4 - now;
 
                         // Time calculations for days, hours, minutes and seconds
-                        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
+                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
                         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
                         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
                         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
                         // Display the result in the element with id="timer"
-                        document.getElementById("timer4").innerHTML = days + "d " + hours + "h "
+                        document.getElementById("timer4").innerHTML = weeks + "w " + days + "d " + hours + "h "
                         + minutes + "m " + seconds + "s ";
 
                         // If the count down is finished, write some text
@@ -726,13 +729,14 @@ permalink: /parkrun-cancellations/
                         var distance = countDownDate1 - now;
 
                         // Time calculations for days, hours, minutes and seconds
-                        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
+                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
                         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
                         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
                         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-                        // Display the result in the element with id="timer1"
-                        document.getElementById("timer1").innerHTML = days + "d " + hours + "h "
+                        // Display the result in the element with id="timer"
+                        document.getElementById("timer1").innerHTML = weeks + "w " + days + "d " + hours + "h "
                         + minutes + "m " + seconds + "s ";
 
                         // If the count down is finished, write some text
@@ -773,13 +777,14 @@ permalink: /parkrun-cancellations/
                         var distance = countDownDate7 - now;
 
                         // Time calculations for days, hours, minutes and seconds
-                        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
+                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
                         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
                         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
                         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
                         // Display the result in the element with id="timer"
-                        document.getElementById("timer7").innerHTML = days + "d " + hours + "h "
+                        document.getElementById("timer7").innerHTML = weeks + "w " + days + "d " + hours + "h "
                         + minutes + "m " + seconds + "s ";
 
                         // If the count down is finished, write some text
@@ -818,13 +823,14 @@ permalink: /parkrun-cancellations/
                         var distance = countDownDate6 - now;
 
                         // Time calculations for days, hours, minutes and seconds
-                        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
+                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
                         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
                         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
                         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
                         // Display the result in the element with id="timer"
-                        document.getElementById("timer6").innerHTML = days + "d " + hours + "h "
+                        document.getElementById("timer6").innerHTML = weeks + "w " + days + "d " + hours + "h "
                         + minutes + "m " + seconds + "s ";
 
                         // If the count down is finished, write some text
@@ -863,13 +869,14 @@ permalink: /parkrun-cancellations/
                         var distance = countDownDate5 - now;
 
                         // Time calculations for days, hours, minutes and seconds
-                        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
+                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
                         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
                         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
                         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
                         // Display the result in the element with id="timer"
-                        document.getElementById("timer5").innerHTML = days + "d " + hours + "h "
+                        document.getElementById("timer5").innerHTML = weeks + "w " + days + "d " + hours + "h "
                         + minutes + "m " + seconds + "s ";
 
                         // If the count down is finished, write some text
@@ -908,13 +915,14 @@ permalink: /parkrun-cancellations/
                         var distance = countDownDate8 - now;
 
                         // Time calculations for days, hours, minutes and seconds
-                        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
+                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
                         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
                         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
                         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
                         // Display the result in the element with id="timer"
-                        document.getElementById("timer8").innerHTML = days + "d " + hours + "h "
+                        document.getElementById("timer8").innerHTML = weeks + "w " + days + "d " + hours + "h "
                         + minutes + "m " + seconds + "s ";
 
                         // If the count down is finished, write some text
@@ -953,13 +961,14 @@ permalink: /parkrun-cancellations/
                         var distance = countDownDate9 - now;
 
                         // Time calculations for days, hours, minutes and seconds
-                        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
+                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
                         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
                         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
                         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
                         // Display the result in the element with id="timer"
-                        document.getElementById("timer9").innerHTML = days + "d " + hours + "h "
+                        document.getElementById("timer9").innerHTML = weeks + "w " + days + "d " + hours + "h "
                         + minutes + "m " + seconds + "s ";
 
                         // If the count down is finished, write some text
