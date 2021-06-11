@@ -599,8 +599,17 @@ permalink: /parkrun-cancellations/
                         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
                         // Display the result in the element with id="timer"
-                        document.getElementById("timer3").innerHTML = weeks + "w " + days + "d " + hours + "h "
-                        + minutes + "m " + seconds + "s ";
+                        if (weeks == 0) {
+                            if (days == 0) {
+                                document.getElementById("timer3").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                            else {
+                                document.getElementById("timer3").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                        }
+                        else {
+                            document.getElementById("timer3").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                        }
 
                         // If the count down is finished, write some text
                         if (distance < 0) {
@@ -645,8 +654,17 @@ permalink: /parkrun-cancellations/
                         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
                         // Display the result in the element with id="timer"
-                        document.getElementById("timer2").innerHTML = weeks + "w " + days + "d " + hours + "h "
-                        + minutes + "m " + seconds + "s ";
+                        if (weeks == 0) {
+                            if (days == 0) {
+                                document.getElementById("timer2").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                            else {
+                                document.getElementById("timer2").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                        }
+                        else {
+                            document.getElementById("timer2").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                        }
 
                         // If the count down is finished, write some text
                         if (distance < 0) {
@@ -691,8 +709,17 @@ permalink: /parkrun-cancellations/
                         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
                         // Display the result in the element with id="timer"
-                        document.getElementById("timer4").innerHTML = weeks + "w " + days + "d " + hours + "h "
-                        + minutes + "m " + seconds + "s ";
+                        if (weeks == 0) {
+                            if (days == 0) {
+                                document.getElementById("timer4").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                            else {
+                                document.getElementById("timer4").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                        }
+                        else {
+                            document.getElementById("timer4").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                        }
 
                         // If the count down is finished, write some text
                         if (distance < 0) {
@@ -736,8 +763,17 @@ permalink: /parkrun-cancellations/
                         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
                         // Display the result in the element with id="timer"
-                        document.getElementById("timer1").innerHTML = weeks + "w " + days + "d " + hours + "h "
-                        + minutes + "m " + seconds + "s ";
+                        if (weeks == 0) {
+                            if (days == 0) {
+                                document.getElementById("timer1").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                            else {
+                                document.getElementById("timer1").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                        }
+                        else {
+                            document.getElementById("timer1").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                        }
 
                         // If the count down is finished, write some text
                         if (distance < 0) {
@@ -784,8 +820,17 @@ permalink: /parkrun-cancellations/
                         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
                         // Display the result in the element with id="timer"
-                        document.getElementById("timer7").innerHTML = weeks + "w " + days + "d " + hours + "h "
-                        + minutes + "m " + seconds + "s ";
+                        if (weeks == 0) {
+                            if (days == 0) {
+                                document.getElementById("timer7").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                            else {
+                                document.getElementById("timer7").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                        }
+                        else {
+                            document.getElementById("timer7").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                        }
 
                         // If the count down is finished, write some text
                         if (distance < 0) {
@@ -830,8 +875,17 @@ permalink: /parkrun-cancellations/
                         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
                         // Display the result in the element with id="timer"
-                        document.getElementById("timer6").innerHTML = weeks + "w " + days + "d " + hours + "h "
-                        + minutes + "m " + seconds + "s ";
+                        if (weeks == 0) {
+                            if (days == 0) {
+                                document.getElementById("timer6").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                            else {
+                                document.getElementById("timer6").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                        }
+                        else {
+                            document.getElementById("timer6").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                        }
 
                         // If the count down is finished, write some text
                         if (distance < 0) {
@@ -876,8 +930,17 @@ permalink: /parkrun-cancellations/
                         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
                         // Display the result in the element with id="timer"
-                        document.getElementById("timer5").innerHTML = weeks + "w " + days + "d " + hours + "h "
-                        + minutes + "m " + seconds + "s ";
+                        if (weeks == 0) {
+                            if (days == 0) {
+                                document.getElementById("timer5").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                            else {
+                                document.getElementById("timer5").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                        }
+                        else {
+                            document.getElementById("timer5").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                        }
 
                         // If the count down is finished, write some text
                         if (distance < 0) {
@@ -922,8 +985,17 @@ permalink: /parkrun-cancellations/
                         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
                         // Display the result in the element with id="timer"
-                        document.getElementById("timer8").innerHTML = weeks + "w " + days + "d " + hours + "h "
-                        + minutes + "m " + seconds + "s ";
+                        if (weeks == 0) {
+                            if (days == 0) {
+                                document.getElementById("timer8").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                            else {
+                                document.getElementById("timer8").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                        }
+                        else {
+                            document.getElementById("timer8").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                        }
 
                         // If the count down is finished, write some text
                         if (distance < 0) {
@@ -968,8 +1040,17 @@ permalink: /parkrun-cancellations/
                         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
                         // Display the result in the element with id="timer"
-                        document.getElementById("timer9").innerHTML = weeks + "w " + days + "d " + hours + "h "
-                        + minutes + "m " + seconds + "s ";
+                        if (weeks == 0) {
+                            if (days == 0) {
+                                document.getElementById("timer9").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                            else {
+                                document.getElementById("timer9").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                        }
+                        else {
+                            document.getElementById("timer9").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                        }
 
                         // If the count down is finished, write some text
                         if (distance < 0) {
