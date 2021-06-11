@@ -790,12 +790,12 @@ permalink: /parkrun-cancellations/
                     </script>
                 </div>
 
-                <p style="text-align: center;">* Dependent on a substantial number of events returning. You can read more about that <a href="https://blog.josh.me.uk/2021/05/12/update-to-the-parkrun-cancellations-map/">here</a>. So far, {{site.data.parkrun.PtR.size}} of 564 events ({{site.data.parkrun.PtR.size | divided_by: 564.0 | times: 100 | round }}%) have Permission to Return.</p>
+                <p style="text-align: center;">* {{site.data.parkrun.PtR.size}} of 564 events ({{site.data.parkrun.PtR.size | divided_by: 564.0 | times: 100 | round }}%) have Permission to Return. Dependent on the confirmation of step 4 on Monday.</p>
             </div>
             <div class="flex-item">
                 <div class="countdown">
                     <!-- Display the timer timer in an element -->
-                    <h3 style="margin:inherit; color:inherit">Northern&nbsp;Ireland (<a href="https://blog.parkrun.com/uk/2021/06/01/covid-19-coronavirus-update-1-june/">tbc</a>)</h3>
+                    <h3 style="margin:inherit; color:inherit">Northern&nbsp;Ireland</h3>
                     <h2 id="timer7" style="margin:inherit; color:inherit;"></h2>
                     <p id="endDate7" style="margin:inherit;"></p>
 
