@@ -574,61 +574,6 @@ permalink: /parkrun-cancellations/
             <div class="flex-item">
                 <div class="countdown">
                     <!-- Display the timer timer in an element -->
-                    <h3 style="margin:inherit; color:inherit">Poland</h3>
-                    <h2 id="timer3" style="margin:inherit; color:inherit;"></h2>
-                    <p id="endDate3" style="margin:inherit;"></p>
-
-                    <script>
-                        // Set the date we're counting down to
-                        var countDownDate3 = new Date( "2021/06/12 09:00:00 GMT+02:00").getTime();
-
-                        // Update the count down every 1 second
-                        var x = setInterval(function() {
-
-                        // Get today's date and time
-                        var now = new Date().getTime();
-
-                        // Find the distance between now and the count down date
-                        var distance = countDownDate3 - now;
-
-                        // Time calculations for days, hours, minutes and seconds
-                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
-                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
-                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-                        // Display the result in the element with id="timer"
-                        if (weeks == 0) {
-                            if (days == 0) {
-                                document.getElementById("timer3").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                            else {
-                                document.getElementById("timer3").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                        }
-                        else {
-                            document.getElementById("timer3").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                        }
-
-                        // If the count down is finished, write some text
-                        if (distance < 0) {
-                            clearInterval(x);
-                            document.getElementById("timer3").innerHTML = "parkrun's Back!";
-                        }
-                        }, 1000);
-
-                        var cdinput3 = new Date(countDownDate3)
-
-                        var cdoutput3 = cdinput3.toLocaleString('default', options);
-
-                        document.getElementById("endDate3").innerHTML = cdoutput3
-                    </script>
-                </div>
-            </div>
-            <div class="flex-item">
-                <div class="countdown">
-                    <!-- Display the timer timer in an element -->
                     <h3 style="margin:inherit; color:inherit">Denmark</h3>
                     <h2 id="timer2" style="margin:inherit; color:inherit;"></h2>
                     <p id="endDate2" style="margin:inherit;"></p>
