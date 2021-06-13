@@ -780,6 +780,20 @@ Modules - reusable parts of our design
   color: #fff;
 }
 
+.post-published {
+  text-align: center;
+  line-height: 35px;
+}
+
+.post-published p {
+  font-size: 14.5px;
+  padding: 2px 13px;
+  border: none;
+  background-color: #ab0000;
+  border-radius: 50px;
+  color: #fff;
+}
+
 .post-categories {
   text-align: center;
   line-height: 35px;
