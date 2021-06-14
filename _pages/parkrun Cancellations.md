@@ -683,62 +683,6 @@ permalink: /parkrun-cancellations/
             </div> 
             <div class="flex-item">
                 <div class="countdown">
-                    <h3 style="margin:inherit; color:inherit">England*</h3>
-                    <h2 id="timer1" style="margin:inherit; color:inherit;"></h2>
-                    <p id="endDate1" style="margin:inherit;"></p>
-
-                    <script>
-                        // Set the date we're counting down to
-                        var countDownDate1 = new Date("Jun 26, 2021 09:00:00 GMT+01:00").getTime();
-
-                        // Update the count down every 1 second
-                        var x = setInterval(function() {
-
-                        // Get today's date and time
-                        var now = new Date().getTime();
-
-                        // Find the distance between now and the count down date
-                        var distance = countDownDate1 - now;
-
-                        // Time calculations for days, hours, minutes and seconds
-                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
-                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
-                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-                        // Display the result in the element with id="timer"
-                        if (weeks == 0) {
-                            if (days == 0) {
-                                document.getElementById("timer1").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                            else {
-                                document.getElementById("timer1").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                        }
-                        else {
-                            document.getElementById("timer1").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                        }
-
-                        // If the count down is finished, write some text
-                        if (distance < 0) {
-                            clearInterval(x);
-                            document.getElementById("timer1").innerHTML = "parkrun's Back!";
-                        }
-                        }, 1000);
-
-                        var cdinput1 = new Date(countDownDate1)
-
-                        var cdoutput1 = cdinput1.toLocaleString('default', options);
-
-                        document.getElementById("endDate1").innerHTML = cdoutput1
-                    </script>
-                </div>
-
-                <p style="text-align: center;">* {{site.data.parkrun.PtR.size}} of 564 events ({{site.data.parkrun.PtR.size | divided_by: 564.0 | times: 100 | round }}%) have Permission to Return. Dependent on the confirmation of step 4 on Monday.</p>
-            </div>
-            <div class="flex-item">
-                <div class="countdown">
                     <!-- Display the timer timer in an element -->
                     <h3 style="margin:inherit; color:inherit">Northern&nbsp;Ireland</h3>
                     <h2 id="timer7" style="margin:inherit; color:inherit;"></h2>
@@ -956,6 +900,62 @@ permalink: /parkrun-cancellations/
                         document.getElementById("endDate8").innerHTML = cdoutput8
                     </script>
                 </div>
+            </div>
+            <div class="flex-item">
+                <div class="countdown">
+                    <h3 style="margin:inherit; color:inherit">England</h3>
+                    <h2 id="timer1" style="margin:inherit; color:inherit;"></h2>
+                    <p id="endDate1" style="margin:inherit;"></p>
+
+                    <script>
+                        // Set the date we're counting down to
+                        var countDownDate1 = new Date("Jul 24, 2021 09:00:00 GMT+01:00").getTime();
+
+                        // Update the count down every 1 second
+                        var x = setInterval(function() {
+
+                        // Get today's date and time
+                        var now = new Date().getTime();
+
+                        // Find the distance between now and the count down date
+                        var distance = countDownDate1 - now;
+
+                        // Time calculations for days, hours, minutes and seconds
+                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
+                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
+                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                        // Display the result in the element with id="timer"
+                        if (weeks == 0) {
+                            if (days == 0) {
+                                document.getElementById("timer1").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                            else {
+                                document.getElementById("timer1").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                        }
+                        else {
+                            document.getElementById("timer1").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                        }
+
+                        // If the count down is finished, write some text
+                        if (distance < 0) {
+                            clearInterval(x);
+                            document.getElementById("timer1").innerHTML = "parkrun's Back!";
+                        }
+                        }, 1000);
+
+                        var cdinput1 = new Date(countDownDate1)
+
+                        var cdoutput1 = cdinput1.toLocaleString('default', options);
+
+                        document.getElementById("endDate1").innerHTML = cdoutput1
+                    </script>
+                </div>
+
+                <p style="text-align: center;">{{site.data.parkrun.PtR.size}} of 564 events ({{site.data.parkrun.PtR.size | divided_by: 564.0 | times: 100 | round }}%) have Permission to Return.</p>
             </div>
             <div class="flex-item">
                 <div class="countdown">
