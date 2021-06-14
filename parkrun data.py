@@ -244,7 +244,7 @@ for parkrun in events['features']:
 
     if new == True:
         #print(parkrun['properties']['EventShortName'],'not saved state')
-        GEONAME_USERNAME = '_josh_justjosh'
+        GEONAME_USERNAME = ${{ secrets.GEONAME_USERNAME }}
         url = "http://api.geonames.org/countrySubdivision?lat="+str(parkrun['geometry']['coordinates'][1])+"&lng="+str(parkrun['geometry']['coordinates'][0])+"&radius=1.5&maxRows=1&level=2&username="+GEONAME_USERNAME
         root = ET.fromstring(requests.get(url).text.strip())
         try:
