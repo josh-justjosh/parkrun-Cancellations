@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 from html_table_extractor.extractor import Extractor
 import datetime
 from html.parser import HTMLParser
+import xml.etree.ElementTree as ET
 
 PtR_Events = []
 
@@ -14,6 +15,13 @@ with open('_data/parkrun/cancellations.tsv','r', encoding='utf-8', newline='') a
     for row in tsv_reader:
         old_cancellations_data.append(row)
 old_cancellations_data.remove(['Event','Country','Cancellation Note'])
+
+states_list = []
+with open('_data/parkrun/raw/states.tsv','r', encoding='utf-8', newline='') as f:
+    tsv_reader = csv.reader(f, delimiter="\t")
+    for row in tsv_reader:
+        states_list.append(row)
+states_list.remove(['Event','State'])
 
 try:
     ptr_file = str(open('_data/parkrun/raw/PtR.html', "rb").read())
@@ -122,7 +130,9 @@ for i in range(len(cancellation_table)):
         cancellations_list.append(cancellation_table[i][1])
 
 cancellation_dates = []
+new_states_list = []
 
+x = 0
 for parkrun in events['features']:
     if parkrun['properties']['EventLongName'] in upcoming_events:
         #print(parkrun)
@@ -223,7 +233,30 @@ for parkrun in events['features']:
         parkrun['properties']['Website'] = 'https://www.parkrun.co.nl/'+parkrun['properties']['eventname']
         parkrun['properties']['Country'] = 'Netherlands'
     else: parkrun['properties']['Website'] = 'Unavailable'
-    
+
+    new = True
+    for event in states_list:
+        if event[0] == parkrun['properties']['EventLongName']:
+            #print(parkrun['properties']['EventShortName'],'already saved state')
+            new_states_list.append(event)
+            parkrun['properties']['State'] = event[1]
+            new = False
+
+    if new == True:
+        #print(parkrun['properties']['EventShortName'],'not saved state')
+        GEONAME_USERNAME = '_josh_justjosh'
+        url = "http://api.geonames.org/countrySubdivision?lat="+str(parkrun['geometry']['coordinates'][1])+"&lng="+str(parkrun['geometry']['coordinates'][0])+"&radius=1.5&maxRows=1&level=2&username="+GEONAME_USERNAME
+        root = ET.fromstring(requests.get(url).text.strip())
+        try:
+            state = root.find('countrySubdivision').find('adminName1').text
+        except:
+            state = "Unknown"
+            print(url)
+        parkrun['properties']['State'] = state
+        add = [parkrun['properties']['EventLongName'],state]
+        new_states_list.append(add)
+        
+        
     parkrun['properties']['description']='<h4 style="margin: 0 0 8px;">'+parkrun['properties']['EventLongName']+'</h4><table><tr><th>Status:</th>'
     if parkrun['properties']['Status'] == 'PtR':
         parkrun['properties']['description']+='<td>Permission to Return Received</td>'
@@ -239,6 +272,9 @@ for parkrun in events['features']:
         parkrun['properties']['description']+='<tr><th>Website:</th><td><a href="'+parkrun['properties']['Website']+'">'+parkrun['properties']['Website'].replace('https://www.','')+'</a></td></tr>'
     else: print(parkrun['properties']['EventShortName'],'- Website   Not Generated')    
     parkrun['properties']['description']+='</table>'
+
+    x += 1
+    #print(x,"/",len(events['features']),'-',parkrun['properties']['EventShortName'],"processed")
     
 with open('_data/parkrun/raw/events.json','w', encoding='utf-8') as f:
     f.write(json.dumps(events))
@@ -270,12 +306,13 @@ for event in events['features']:
     out.append(event['properties']['DateCancelled'])
     out.append(event['properties']['ReasonCancelled'])
     out.append(event['properties']['Website'])
+    out.append(event['properties']['State'])
     events_data.append(out)
 events_data.sort()
 
 with open('_data/parkrun/events.tsv','wt', encoding='utf-8', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
-    tsv_writer.writerow(['Event','Latitude','Longitude','Country','Status','DateCancelled','ReasonCancelled','Website'])
+    tsv_writer.writerow(['Event','Latitude','Longitude','Country','Status','DateCancelled','ReasonCancelled','Website','State'])
     for event in events_data:
         tsv_writer.writerow(event)
 print("events.tsv saved")
@@ -573,3 +610,10 @@ if cancellations_changes != []:
             tsv_writer.writerow(event)
         tsv_writer.writerow([datetime.datetime.now(),'',''])
     print("cancellation-changes.tsv saved")
+
+with open('_data/parkrun/raw/states.tsv','wt', encoding='utf-8', newline='') as f:
+        tsv_writer = csv.writer(f, delimiter='\t')
+        tsv_writer.writerow(['Event','State'])
+        for event in new_states_list:
+            tsv_writer.writerow(event)
+print("states.tsv saved")
