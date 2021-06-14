@@ -67,6 +67,7 @@ jobs:
         git add _data/parkrun/countries-data.tsv
         git add _data/parkrun/events.tsv
         git add _data/parkrun/cancellation-changes.tsv
+        git add _data/parkrun/raw/states.tsv
         git commit -m "Update parkrun Data [Bot]" -a
       
     - name: Commit files (if PtR Failed)
@@ -82,6 +83,7 @@ jobs:
         git add _data/parkrun/countries-data.tsv
         git add _data/parkrun/events.tsv
         git add _data/parkrun/cancellation-changes.tsv
+        git add _data/parkrun/raw/states.tsv
         git commit -m "Update parkrun Data [Bot]" -a
         
     - name: Push changes
