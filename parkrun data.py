@@ -21,7 +21,7 @@ with open('_data/parkrun/raw/states.tsv','r', encoding='utf-8', newline='') as f
     tsv_reader = csv.reader(f, delimiter="\t")
     for row in tsv_reader:
         states_list.append(row)
-states_list.remove(['Event','State'])
+states_list.remove(['Event','State','Country'])
 
 try:
     ptr_file = str(open('_data/parkrun/raw/PtR.html', "rb").read())
@@ -253,7 +253,7 @@ for parkrun in events['features']:
             state = "Unknown"
             print(url)
         parkrun['properties']['State'] = state
-        add = [parkrun['properties']['EventLongName'],state]
+        add = [parkrun['properties']['EventLongName'],state,[parkrun['properties']['Country']]]
         new_states_list.append(add)
         
         
@@ -613,7 +613,7 @@ if cancellations_changes != []:
 
 with open('_data/parkrun/raw/states.tsv','wt', encoding='utf-8', newline='') as f:
         tsv_writer = csv.writer(f, delimiter='\t')
-        tsv_writer.writerow(['Event','State'])
+        tsv_writer.writerow(['Event','State','Country'])
         for event in new_states_list:
             tsv_writer.writerow(event)
 print("states.tsv saved")
