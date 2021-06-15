@@ -281,6 +281,7 @@ with open('_data/parkrun/raw/events.json','w', encoding='utf-8') as f:
 print('events.json saved')
 
 cancellation_dates = list(dict.fromkeys(cancellation_dates))
+cancellation_dates.sort()
 with open('_data/parkrun/cancellation-dates.tsv','wt', encoding='utf-8', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
     for date in cancellation_dates:

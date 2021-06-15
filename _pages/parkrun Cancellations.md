@@ -794,7 +794,7 @@ permalink: /parkrun-cancellations/
             <div class="flex-item">
                 <div class="countdown">
                     <!-- Display the timer timer in an element -->
-                    <h3 style="margin:inherit; color:inherit">Scotland (<a href="https://blog.parkrun.com/uk/2021/06/01/covid-19-coronavirus-update-1-june/">tbc</a>)</h3>
+                    <h3 style="margin:inherit; color:inherit">Scotland (tbc)</h3>
                     <h2 id="timer5" style="margin:inherit; color:inherit;"></h2>
                     <p id="endDate5" style="margin:inherit;"></p>
 
@@ -845,11 +845,12 @@ permalink: /parkrun-cancellations/
                         document.getElementById("endDate5").innerHTML = cdoutput5
                     </script>
                 </div>
+                <p style="text-align: center;">A provisional date was first included in the <a href="https://blog.parkrun.com/uk/2021/06/01/covid-19-coronavirus-update-1-june/">1st June Update</a> but was not in the confirmed list in the <a href="https://blog.parkrun.com/uk/2021/06/15/covid-19-coronavirus-update-15-june/">15th June Update</a>. See the <a href="https://blog.parkrun.com/uk/tag/covid-19/">latest update</a> for more info.</p>
             </div>
             <div class="flex-item">
                 <div class="countdown">
                     <!-- Display the timer timer in an element -->
-                    <h3 style="margin:inherit; color:inherit">Wales (<a href="https://blog.parkrun.com/uk/2021/06/08/covid-19-coronavirus-update-8-june/">tbc</a>)</h3>
+                    <h3 style="margin:inherit; color:inherit">Wales (tbc)</h3>
                     <h2 id="timer8" style="margin:inherit; color:inherit;"></h2>
                     <p id="endDate8" style="margin:inherit;"></p>
 
@@ -900,6 +901,7 @@ permalink: /parkrun-cancellations/
                         document.getElementById("endDate8").innerHTML = cdoutput8
                     </script>
                 </div>
+                <p style="text-align: center;">A provisional date was first included in the <a href="https://blog.parkrun.com/uk/2021/06/08/covid-19-coronavirus-update-8-june/">8th June Update</a> but was not in the confirmed list in the <a href="https://blog.parkrun.com/uk/2021/06/15/covid-19-coronavirus-update-15-june/">15th June Update</a>. See the <a href="https://blog.parkrun.com/uk/tag/covid-19/">latest update</a> for more info.</p>
             </div>
             <div class="flex-item">
                 <div class="countdown">
@@ -954,13 +956,12 @@ permalink: /parkrun-cancellations/
                         document.getElementById("endDate1").innerHTML = cdoutput1
                     </script>
                 </div>
-
                 <p style="text-align: center;">{{site.data.parkrun.PtR.size}} of 564 events ({{site.data.parkrun.PtR.size | divided_by: 564.0 | times: 100 | round }}%) have Permission to Return.</p>
             </div>
             <div class="flex-item">
                 <div class="countdown">
                     <!-- Display the timer timer in an element -->
-                    <h3 style="margin:inherit; color:inherit">Sweden (<a href="https://blog.parkrun.com/uk/2021/06/08/covid-19-coronavirus-update-8-june/">tbc</a>)</h3>
+                    <h3 style="margin:inherit; color:inherit">Sweden</h3>
                     <h2 id="timer9" style="margin:inherit; color:inherit;"></h2>
                     <p id="endDate9" style="margin:inherit;"></p>
 
