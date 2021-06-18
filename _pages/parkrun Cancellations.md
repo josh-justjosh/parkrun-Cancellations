@@ -791,9 +791,9 @@ permalink: /parkrun-cancellations/
                     </script>
                 </div>
             </div>
-            <div class="flex-item">
+            <!--<div class="flex-item">
                 <div class="countdown">
-                    <!-- Display the timer timer in an element -->
+                    <!-- Display the timer timer in an element --
                     <h3 style="margin:inherit; color:inherit">Scotland (tbc)</h3>
                     <h2 id="timer5" style="margin:inherit; color:inherit;"></h2>
                     <p id="endDate5" style="margin:inherit;"></p>
@@ -849,7 +849,7 @@ permalink: /parkrun-cancellations/
             </div>
             <div class="flex-item">
                 <div class="countdown">
-                    <!-- Display the timer timer in an element -->
+                    <!-- Display the timer timer in an element --
                     <h3 style="margin:inherit; color:inherit">Wales (tbc)</h3>
                     <h2 id="timer8" style="margin:inherit; color:inherit;"></h2>
                     <p id="endDate8" style="margin:inherit;"></p>
@@ -902,7 +902,7 @@ permalink: /parkrun-cancellations/
                     </script>
                 </div>
                 <p style="text-align: center;">A provisional date was first included in the <a href="https://blog.parkrun.com/uk/2021/06/08/covid-19-coronavirus-update-8-june/">8th June Update</a> but was not in the confirmed list in the <a href="https://blog.parkrun.com/uk/2021/06/15/covid-19-coronavirus-update-15-june/">15th June Update</a>. See the <a href="https://blog.parkrun.com/uk/tag/covid-19/">latest update</a> for more info.</p>
-            </div>
+            </div>-->
             <div class="flex-item">
                 <div class="countdown">
                     <h3 style="margin:inherit; color:inherit">England</h3>
