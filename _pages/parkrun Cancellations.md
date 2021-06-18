@@ -522,7 +522,7 @@ permalink: /parkrun-cancellations/
                     </script>
                 {% endif %}
             </div>
-            <div>
+            <!--<div>
                 {% if site.data.parkrun.cancellation-removals.size > 0 %}
                     <button type="button" class="collapsiblerein" style="margin: 5px;"><p style="float:left; margin: 0">Click to view the most recent Reinstatements</p><p style="float:right; margin: 0">Last Change: {{site.data.parkrun.cancellation-removals.last.Event | date: "%R UTC %A, %e&nbsp;%B&nbsp;%Y" }}</p></button>
                     <div class="expcontentrein">
@@ -565,7 +565,7 @@ permalink: /parkrun-cancellations/
                         }
                     </script>
                 {% endif %}
-            </div>
+            </div>-->
         {% endif %}
         <br />
         <h2>parkrun returns in:</h2>
