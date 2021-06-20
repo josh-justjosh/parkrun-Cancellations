@@ -1096,7 +1096,7 @@ permalink: /parkrun-cancellations/
                 </tr>
             {% endfor %}
         </table>
-        <h2>Australia Events</h2>
+        <h2>Australian Events</h2>
         <table style="width: 100%">
             {% for row in site.data.parkrun.aus-data %}
                 <tr>
