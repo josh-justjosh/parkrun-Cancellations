@@ -1046,9 +1046,59 @@ permalink: /parkrun-cancellations/
             }
         </script>
 
-        <br />
+        <h2>Events</h2>
         <table style="width: 100%">
             {% for row in site.data.parkrun.countries-data %}
+                <tr>
+                    {% if forloop.first %}
+                        {% for pair in row %}
+                            <th>{{ pair[0] }}</th>
+                        {% endfor %}
+                        </tr>
+                        <tr>
+                        {% for pair in row %}
+                            <td>{{ pair[1] }}</td>
+                        {% endfor %}
+                    {% elsif forloop.last %}
+                        {% for pair in row %}
+                            <th>{{ pair[1] }}</th>
+                        {% endfor %}
+                    {% else %}
+                        {% for pair in row %}
+                            <td>{{ pair[1] }}</td>
+                        {% endfor %}
+                    {% endif %}
+                </tr>
+            {% endfor %}
+        </table>
+        <h2>UK Events</h2>
+        <table style="width: 100%">
+            {% for row in site.data.parkrun.uk-data %}
+                <tr>
+                    {% if forloop.first %}
+                        {% for pair in row %}
+                            <th>{{ pair[0] }}</th>
+                        {% endfor %}
+                        </tr>
+                        <tr>
+                        {% for pair in row %}
+                            <td>{{ pair[1] }}</td>
+                        {% endfor %}
+                    {% elsif forloop.last %}
+                        {% for pair in row %}
+                            <th>{{ pair[1] }}</th>
+                        {% endfor %}
+                    {% else %}
+                        {% for pair in row %}
+                            <td>{{ pair[1] }}</td>
+                        {% endfor %}
+                    {% endif %}
+                </tr>
+            {% endfor %}
+        </table>
+        <h2>Australia Events</h2>
+        <table style="width: 100%">
+            {% for row in site.data.parkrun.aus-data %}
                 <tr>
                     {% if forloop.first %}
                         {% for pair in row %}
