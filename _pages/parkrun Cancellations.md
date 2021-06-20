@@ -55,6 +55,11 @@ permalink: /parkrun-cancellations/
             margin: 10px 5px;
             flex-grow: 1;
         }
+
+        .flex-key p {
+            margin: 0;
+        }
+        
         @media (max-width: 800px) {
             .flex-container {
                 flex-direction: column;
@@ -181,7 +186,7 @@ permalink: /parkrun-cancellations/
                 style: 'mapbox://styles/mapbox/streets-v11'
             });
 
-            // filters for classifying parkruns into five categories based on magnitude
+            // filters for classifying parkruns into five categories based on value
             var parkrunning = ['==', ['get', 'Status'], 'parkrunning'];
             var juniorrunning = ['==', ['get', 'Status'], 'junior parkrunning'];
             var cancelled5k = ['==', ['get', 'Status'], '5k Cancellation'];
@@ -449,13 +454,112 @@ permalink: /parkrun-cancellations/
 
             // disable map rotation using touch rotation gesture
             map.touchZoomRotate.disableRotation();
+
+            // Center the map on the coordinates of any clicked circle from the 'parkrun_circle' layer.
+            map.on('click', 'parkrun_circle', function (e) {
+                map.flyTo({
+                center: e.features[0].geometry.coordinates
+                });
+            });
         </script>
+        <style>
+                /* The switch - the box around the slider */
+        .switch {
+            position: sticky;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+        }
+
+        /* Hide default HTML checkbox */
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        /* The slider */
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 26px;
+            width: 26px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+        
+        input:checked + .slider#switch1 {
+            background-color: #7CB342;
+        }
+        input:checked + .slider#switch2 {
+            background-color: #0288D1;
+        }
+        input:checked + .slider#switch3 {
+            background-color: #A52714;
+        }
+        input:checked + .slider#switch4 {
+            background-color: #1A237E;
+        }
+        input:checked + .slider#switch5 {
+            background-color: #F9A825;
+        }
+
+        input:focus + .slider {
+            box-shadow: 0 0 1px #2196F3;
+        }
+
+        input:checked + .slider:before {
+            -webkit-transform: translateX(26px);
+            -ms-transform: translateX(26px);
+            transform: translateX(26px);
+        }
+
+        /* Rounded sliders */
+        .slider.round {
+            border-radius: 34px;
+        }
+
+        .slider.round:before {
+            border-radius: 50%;
+        }
+        </style>
         <div class="flex-container" style="color: #FFFFFF">
-            <div class="flex-key" id="key1">parkrunning</div>
-            <div class="flex-key" id="key2">junior parkrunning</div>
-            <div class="flex-key" id="key3">5k Cancellations</div>
-            <div class="flex-key" id="key4">junior Cancellations</div>
-            <div class="flex-key" id="key5">Permission to Return Received</div>
+            <div class="flex-key">
+                <p id="key1">parkrunning</p>
+                <!--<label class="switch"><input type="checkbox" id="check1" checked onclick="toggleparkruns()"><span class="slider round" id="switch1"></span></label>
+                <p id="text" style="display:block; color: #000000">CHECKED!</p>-->
+            </div>
+            <div class="flex-key">
+                <p id="key2">junior parkrunning</p>
+                <!--<label class="switch"><input type="checkbox" id="check2" checked><span class="slider round" id="switch2"></span></label>-->
+            </div>
+            <div class="flex-key">
+                <p id="key3">5k Cancellations</p>
+                <!--<label class="switch"><input type="checkbox" id="check3" checked><span class="slider round" id="switch3"></span></label>-->
+            </div>
+            <div class="flex-key">
+                <p id="key4">junior Cancellations</p>
+                <!--<label class="switch"><input type="checkbox" id="check4" checked><span class="slider round" id="switch4"></span></label>-->
+            </div>
+            <div class="flex-key">
+                <p id="key5">Permission to Return Received</p>
+                <!--<label class="switch"><input type="checkbox" id="check5" checked><span class="slider round" id="switch5"></span></label>-->
+            </div>
         </div>
         <script>
             document.getElementById('key1').style.backgroundColor = colors[0] ;
@@ -463,6 +567,15 @@ permalink: /parkrun-cancellations/
             document.getElementById('key3').style.backgroundColor = colors[2] ;
             document.getElementById('key4').style.backgroundColor = colors[3] ;
             document.getElementById('key5').style.backgroundColor = colors[4] ;
+            function toggleparkruns() {
+                var checkBox = document.getElementById("check1");
+                var text = document.getElementById("text");
+                if (checkBox.checked == true){
+                    text.style.display = "block";
+                } else {
+                    text.style.display = "none";
+                }
+            }
         </script>
         <p>Showing data for 
         {% for row in site.data.parkrun.cancellation-dates %}
@@ -571,116 +684,6 @@ permalink: /parkrun-cancellations/
         <h2>parkrun returns in:</h2>
         <script>let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZoneName: 'short', hour:'2-digit', minute:'2-digit'};</script>
         <div class="flex-container">
-            <div class="flex-item">
-                <div class="countdown">
-                    <!-- Display the timer timer in an element -->
-                    <h3 style="margin:inherit; color:inherit">Denmark</h3>
-                    <h2 id="timer2" style="margin:inherit; color:inherit;"></h2>
-                    <p id="endDate2" style="margin:inherit;"></p>
-
-                    <script>
-                        // Set the date we're counting down to
-                        var countDownDate2 = new Date( "2021/06/19 09:00:00 GMT+02:00").getTime();
-
-                        // Update the count down every 1 second
-                        var x = setInterval(function() {
-
-                        // Get today's date and time
-                        var now = new Date().getTime();
-
-                        // Find the distance between now and the count down date
-                        var distance = countDownDate2 - now;
-
-                        // Time calculations for days, hours, minutes and seconds
-                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
-                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
-                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-                        // Display the result in the element with id="timer"
-                        if (weeks == 0) {
-                            if (days == 0) {
-                                document.getElementById("timer2").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                            else {
-                                document.getElementById("timer2").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                        }
-                        else {
-                            document.getElementById("timer2").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                        }
-
-                        // If the count down is finished, write some text
-                        if (distance < 0) {
-                            clearInterval(x);
-                            document.getElementById("timer2").innerHTML = "parkrun's Back!";
-                        }
-                        }, 1000);
-
-                        var cdinput2 = new Date(countDownDate2)
-
-                        var cdoutput2 = cdinput2.toLocaleString('default', options);
-
-                        document.getElementById("endDate2").innerHTML = cdoutput2
-                    </script>
-                </div>
-            </div>
-            <div class="flex-item">
-                <div class="countdown" style="background-color:#00ceae">
-                    <!-- Display the timer timer in an element -->
-                    <h3 style="margin:inherit; color:inherit">Scotland (juniors)</h3>
-                    <h2 id="timer4" style="margin:inherit; color:inherit;"></h2>
-                    <p id="endDate4" style="margin:inherit;"></p>
-
-                    <script>
-                        // Set the date we're counting down to
-                        var countDownDate4 = new Date( "2021/06/20 09:30:00 GMT+01:00").getTime();
-
-                        // Update the count down every 1 second
-                        var x = setInterval(function() {
-
-                        // Get today's date and time
-                        var now = new Date().getTime();
-
-                        // Find the distance between now and the count down date
-                        var distance = countDownDate4 - now;
-
-                        // Time calculations for days, hours, minutes and seconds
-                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
-                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
-                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-                        // Display the result in the element with id="timer"
-                        if (weeks == 0) {
-                            if (days == 0) {
-                                document.getElementById("timer4").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                            else {
-                                document.getElementById("timer4").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                        }
-                        else {
-                            document.getElementById("timer4").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                        }
-
-                        // If the count down is finished, write some text
-                        if (distance < 0) {
-                            clearInterval(x);
-                            document.getElementById("timer4").innerHTML = "parkrun's Back!";
-                        }
-                        }, 1000);
-
-                        var cdinput4 = new Date(countDownDate4)
-
-                        var cdoutput4 = cdinput4.toLocaleString('default', options);
-
-                        document.getElementById("endDate4").innerHTML = cdoutput4
-                    </script>
-                </div>
-            </div> 
             <div class="flex-item">
                 <div class="countdown">
                     <!-- Display the timer timer in an element -->

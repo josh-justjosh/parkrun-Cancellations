@@ -452,23 +452,7 @@ nav {
 }
 
 .wrapper-main {
-  padding-bottom: 290px; //194
-}
-@media (max-width: 800px) {
-  .wrapper-main {
-    padding-bottom: 350px; //194
-  }
-}
-@media (max-width: 400px) {
-  .wrapper-main {
-    padding-bottom: 400px; //194
-  }
-}
-
-@media (max-width: 250px) {
-  .wrapper-main {
-    padding-bottom: 450px; //194
-  }
+  padding-bottom: 194px;
 }
 
 .wrapper-footer {
