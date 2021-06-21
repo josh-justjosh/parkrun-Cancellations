@@ -166,6 +166,18 @@ permalink: /parkrun-cancellations/
         </style>
     </head>
     <body>
+        <script>
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+            const zoom = urlParams.get('zoom')
+            console.log(zoom);
+            const lat = urlParams.get('lat')
+            console.log(lat);
+            const long = urlParams.get('long')
+            console.log(long);
+            const center = [long,lat]
+            console.log(center);
+        </script>
         <!-- Load the `mapbox-gl-geocoder` plugin. -->
         <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.min.js"></script>
         <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.css" type="text/css">
@@ -179,12 +191,35 @@ permalink: /parkrun-cancellations/
 
         <script>
             mapboxgl.accessToken = 'pk.eyJ1Ijoiam9zaC1qdXN0am9zaCIsImEiOiJja3A2eHdmajIwNGFvMndtcmNsbnZycm44In0.SvsoxpdU7NRLYLVRFIu2kw';
-            var map = new mapboxgl.Map({
-                container: 'map',
-                zoom: 0.9,
-                center: [10, 20],
-                style: 'mapbox://styles/mapbox/streets-v11'
-            });
+            if (zoom != null && lat != null && long != null) {
+                var map = new mapboxgl.Map({
+                    container: 'map',
+                    zoom: zoom,
+                    center: center,
+                    style: 'mapbox://styles/mapbox/streets-v11'
+                });
+            } else if (zoom != null && lat == null && long == null) {
+                var map = new mapboxgl.Map({
+                    container: 'map',
+                    zoom: zoom,
+                    center: [10, 20],
+                    style: 'mapbox://styles/mapbox/streets-v11'
+                });
+            } else if (zoom == null && lat != null && long != null) { 
+                var map = new mapboxgl.Map({
+                    container: 'map',
+                    zoom: 0.9,
+                    center: center,
+                    style: 'mapbox://styles/mapbox/streets-v11'
+                });   
+            } else {
+                var map = new mapboxgl.Map({
+                    container: 'map',
+                    zoom: 0.9,
+                    center: [10, 20],
+                    style: 'mapbox://styles/mapbox/streets-v11'
+                });
+            }
 
             // filters for classifying parkruns into five categories based on value
             var parkrunning = ['==', ['get', 'Status'], 'parkrunning'];
@@ -577,7 +612,8 @@ permalink: /parkrun-cancellations/
                 }
             }
         </script>
-        <p>Showing data for 
+        <div style="display:flex; flex-wrap: wrap;">
+        <p style="flex-grow: 1;">Showing data for 
         {% for row in site.data.parkrun.cancellation-dates %}
             {% for pair in row %}
                 {% for item in pair %}
@@ -589,6 +625,18 @@ permalink: /parkrun-cancellations/
             {% endfor %}
         {% endfor %}
         </p>
+        <a style="margin:auto; flex-grow: 1; text-align: end;" href="" id="map-link">Click here for a link to this map view.</a>
+        <script>
+            map.on('render', function() {
+                    var center =  map.getCenter();
+                    var lat = center['lat']
+                    var long = center['lng']
+                    var zoom =  map.getZoom();
+                    var loclink = "https://www.josh.me.uk/parkrun-cancellations/?lat=" + lat + "&long=" + long + "&zoom=" + zoom
+                    document.getElementById('map-link').href = loclink
+                });
+        </script>
+        </div>
         {% if site.data.parkrun.cancellation-changes.size > 0 %}
         <h2>Most Recent Changes</h2>
             <div>
