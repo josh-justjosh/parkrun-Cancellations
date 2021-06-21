@@ -54,36 +54,10 @@ jobs:
         echo ${{ steps.current-time.outputs.time }} >> _data/parkrun/raw/time.tsv
 
     - name: Commit files
-      if: ${{ steps.PtR.outcome == 'success'}}
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add _data/parkrun/raw/PtR.html
-        git add _data/parkrun/raw/events.json
-        git add _data/parkrun/raw/time.tsv
-        git add _data/parkrun/PtR.tsv
-        git add _data/parkrun/cancellations.tsv
-        git add _data/parkrun/cancellation-dates.tsv
-        git add _data/parkrun/countries-data.tsv
-        git add _data/parkrun/events.tsv
-        git add _data/parkrun/cancellation-changes.tsv
-        git add _data/parkrun/raw/states.tsv
-        git commit -m "Update parkrun Data [Bot]" -a
-      
-    - name: Commit files (if PtR Failed)
-      if: ${{ steps.PtR.outcome != 'success'}}
-      run: |
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add _data/parkrun/raw/events.json
-        git add _data/parkrun/raw/time.tsv
-        git add _data/parkrun/PtR.tsv
-        git add _data/parkrun/cancellations.tsv
-        git add _data/parkrun/cancellation-dates.tsv
-        git add _data/parkrun/countries-data.tsv
-        git add _data/parkrun/events.tsv
-        git add _data/parkrun/cancellation-changes.tsv
-        git add _data/parkrun/raw/states.tsv
+        git add _data/parkrun/
         git commit -m "Update parkrun Data [Bot]" -a
         
     - name: Push changes
