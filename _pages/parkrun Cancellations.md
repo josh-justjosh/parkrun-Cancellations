@@ -629,9 +629,9 @@ permalink: /parkrun-cancellations/
         <script>
             map.on('render', function() {
                     var center =  map.getCenter();
-                    var lat = center['lat']
-                    var long = center['lng']
-                    var zoom =  map.getZoom();
+                    var lat = center['lat'].toFixed(4);
+                    var long = center['lng'].toFixed(4);
+                    var zoom =  map.getZoom().toFixed(4);
                     var loclink = "https://www.josh.me.uk/parkrun-cancellations/?lat=" + lat + "&long=" + long + "&zoom=" + zoom
                     document.getElementById('map-link').href = loclink
                 });
