@@ -3,7 +3,7 @@ layout: page
 title: parkrun Cancellations
 tag: parkrun
 date: 2021-05-27
-permalink: /parkrun-cancellations/
+permalink: /more/
 ---
 
 {% for stuff in site.data.parkrun.raw.time %}
@@ -17,7 +17,7 @@ permalink: /parkrun-cancellations/
 {% endif %}
 
 <div style="background-color: rgba(255,128,0,0.25); margin: 25px; padding: 10px; text-align: center">
-    <p>This page is in beta, please see <a href="#contact">the information at the bottom of the page</a> for how to report errors.<br />You should always check the event's website and social media channels before setting out.</p>
+    <p>These pages are in beta, please see <a href="#contact">the information at the bottom of the page</a> for how to report errors.<br />You should always check the event's website and social media channels before setting out.</p>
 </div>
 
 <html>
@@ -625,17 +625,7 @@ permalink: /parkrun-cancellations/
             {% endfor %}
         {% endfor %}
         </p>
-        <a style="margin:auto; flex-grow: 1; text-align: end;" href="" id="map-link">Click here for a link to this map view.</a>
-        <script>
-            map.on('render', function() {
-                    var center =  map.getCenter();
-                    var lat = center['lat'].toFixed(4);
-                    var long = center['lng'].toFixed(4);
-                    var zoom =  map.getZoom().toFixed(4);
-                    var loclink = "https://www.josh.me.uk/parkrun-cancellations/?lat=" + lat + "&long=" + long + "&zoom=" + zoom
-                    document.getElementById('map-link').href = loclink
-                });
-        </script>
+        <a style="margin:auto; flex-grow: 1; text-align: end;" href="https://pc.josh.me.uk/" id="map-link">Click here to go back to the full map.</a>
         </div>
         {% if site.data.parkrun.cancellation-changes.size > 0 %}
         <h2>Most Recent Changes</h2>

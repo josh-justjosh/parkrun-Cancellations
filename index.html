@@ -53,12 +53,18 @@ date: 2021-06-22
         #share {
             display: block;
             position: absolute;
-            bottom: 33px;
+            bottom: 73px;
             right: 10px;
             padding: 12px 15px 12px 12px;
             border-radius: 50px;
             line-height: normal;
             }
+        #more {
+            display: block;
+            position: absolute;
+            bottom: 33px;
+            right: 10px;
+        }
 
         @media (max-width: 672px) {
             .textbox {
@@ -76,6 +82,14 @@ date: 2021-06-22
         @media (max-width: 636px) {
             #lastupdated {
                 top: 69px;
+            }
+        }
+        @media (max-width: 552px) {
+            #more {
+                bottom: 90px;
+            }
+            #share {
+                bottom: 33px;
             }
         }
         .mapboxgl-popup-content {
@@ -117,7 +131,7 @@ date: 2021-06-22
         {% endif %}
         <p class="textbox" id="dates">Showing data for {% for row in site.data.parkrun.cancellation-dates %}{% for pair in row %}{% for item in pair %}{% if forloop.last %} and {% endif %}{{ item | date: "%A, %e&nbsp;%B&nbsp;%Y" }}{% endfor %}{% endfor %}{% endfor %}</p>
         <button onclick="copy()" href="{{ site.baseurl }}" class="textbox" id="share"><span class="material-icons-outlined">share</span></button>
-        <p id="link" style="display: unset;">{{ site.baseurl }}</p>
+        <a class="textbox" id="more" href="{{ site.baseurl }}/more">Find out more</a>
         <script>
             mapboxgl.accessToken = 'pk.eyJ1Ijoiam9zaC1qdXN0am9zaCIsImEiOiJja3A2eHdmajIwNGFvMndtcmNsbnZycm44In0.SvsoxpdU7NRLYLVRFIu2kw';
             if (zoom != null && lat != null && long != null) {
@@ -433,7 +447,6 @@ date: 2021-06-22
                     var zoom =  map.getZoom().toFixed(4);
                     var loclink = "https://pc.josh.me.uk/?lat=" + lat + "&long=" + long + "&zoom=" + zoom
                     document.getElementById('share').href = loclink
-                    document.getElementById('link').innerHTML = loclink
                 });
             function copy() {
                 const el = document.createElement('textarea');
