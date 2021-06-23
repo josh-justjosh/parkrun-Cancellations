@@ -1,71 +1,43 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <script src="https://cmp.osano.com/169lYkSYpV2Mv2ty2/a7aa6307-2931-4e51-b907-09ce2f76e96e/osano.js"></script>
-    <script data-ad-client="ca-pub-2300492000016702" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2Q9CF4FN67"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+---
+layout: blank
+---
+<div id="bar"></div>
+<div class="wrapper-container">
+  <div class="wrapper-masthead">
+    <div class="container">
+      <header class="masthead clearfix">
+        <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ site.title }}" /></a>
 
-      gtag('config', 'G-2Q9CF4FN67');
-    </script>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
-    {% seo title=false %}
-    {% include meta.html %}
-
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/style.js"></script>
-
-    <meta name="theme-color" content="#000000">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/images/Shared Content/trains_small_bRv_icon.ico">
-  </head>
-
-  <body>
-    <div id="bar"></div>
-    <div class="wrapper-container">
-      <div class="wrapper-masthead">
-        <div class="container">
-          <header class="masthead clearfix">
-            <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ site.title }}" /></a>
-
-            <div class="site-info">
-              <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-              <p class="site-description">{{ site.description }}</p> 
-            </div>
-
-            <nav>
-              <a href="https://blog.josh.me.uk/">The Blog</a>
-              <a href="https://www.parkruncancellations.com/">parkrun Cancellations Map</a>
-              <a href="https://blog.josh.me.uk/about">About</a>
-              <!--<div title="Toggle Dark Mode" class="switch">
-                <span class="btn-toggle"></span>
-              </div>-->
-            </nav>
-          </header>
+        <div class="site-info">
+          <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+          <p class="site-description">{{ site.description }}</p> 
         </div>
-      </div>
 
-      <div class="wrapper-main">
-        <div id="main" role="main" class="container">
-          {{ content }}
-        </div>
-      </div>
-      <div class="wrapper-footer">
-        <div class="container">
-          <footer class="footer">
-            {% include svg-icons.html %}
-            <a title="I am Dante Level 1 Certified" href="http://www.audinate.com/cert-info"><img src="/images/Shared Content/dante_certified_logo_level1.png" alt="Dante Level One Certified Logo" style="width:62.5px;height:50px;"/></a>
-            <p>&copy; Copyright Joshua Brunning {% if page.last_modified_at %}{{page.last_modified_at | date: '%Y' }}{% else %}{{page.date | date: '%Y' }}{% endif %}</p>
-          </footer>
-        </div>
-      </div>
+        <nav>
+          <a href="https://blog.josh.me.uk/">The Blog</a>
+          <a href="https://www.parkruncancellations.com/">parkrun Cancellations Map</a>
+          <a href="https://blog.josh.me.uk/about">About</a>
+          <!--<div title="Toggle Dark Mode" class="switch">
+            <span class="btn-toggle"></span>
+          </div>-->
+        </nav>
+      </header>
     </div>
-    {% include analytics.html %}
-  </body>
-</html>
+  </div>
+
+  <div class="wrapper-main">
+    <div id="main" role="main" class="container">
+      {{ content }}
+    </div>
+  </div>
+  <div class="wrapper-footer">
+    <div class="container">
+      <footer class="footer">
+        {% include svg-icons.html %}
+        <a title="I am Dante Level 1 Certified" href="http://www.audinate.com/cert-info"><img src="/images/Shared Content/dante_certified_logo_level1.png" alt="Dante Level One Certified Logo" style="width:62.5px;height:50px;"/></a>
+        <p>&copy; Copyright Joshua Brunning {% if page.last_modified_at %}{{page.last_modified_at | date: '%Y' }}{% else %}{{page.date | date: '%Y' }}{% endif %}</p>
+      </footer>
+    </div>
+  </div>
+</div>
+{% include analytics.html %}
