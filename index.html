@@ -46,8 +46,8 @@ date: 2021-06-22
         #dates {
             display: block;
             position: absolute;
-            bottom: 33px;
-            left: 10px;
+            bottom: 10px;
+            left: 100px;
             }
 
         #share {
@@ -77,6 +77,19 @@ date: 2021-06-22
                 transition-duration: 0.25s;
             }
 
+        }
+        @media (max-width: 714px) {
+            #dates {
+                bottom: 33px;
+                left: 33px;
+            }
+        }
+
+        @media (max-width: 522px) {
+            #dates {
+                bottom: 33px;
+                left: 10px;
+            }
         }
 
         @media (max-width: 636px) {
