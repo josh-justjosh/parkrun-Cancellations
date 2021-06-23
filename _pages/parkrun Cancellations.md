@@ -1165,3 +1165,57 @@ permalink: /more/
 This page is automatically updated throughout the week with data for the upcoming weekend. The data are refreshed approximately every three hours except on Friday evenings and Saturday mornings when the page is updated hourly (6pm Friday to 9am Saturday). Please be aware that due to the unreliabity of GitHub actions triggered by a schedule, data are unlikely to be refreshed excatly on the hour. You should always check the event's website and social media channels before setting out.
 
 <p id="contact">The methods for collecting and parsing the data are not perfect. If you notice something that doesn't look right - please let me know by <a href="https://github.com/josh-justjosh/parkrun-cancellations/issues/new">opening an issue</a> in the GitHub repo, <a href="https://twitter.com/intent/tweet?text=@_Josh_justJosh">on twitter</a> or <a href="mailto:hello@josh.me.uk?subject=Issue with parkrun Cancellations page">by email</a>.</p>
+
+<div class="countdown">
+<!-- Display the timer timer in an element -->
+<h3 style="margin:inherit; color:inherit">Time Until all the Permission to Return stuff can be torn out</h3>
+<h2 id="timer2" style="margin:inherit; color:inherit;"></h2>
+<p id="endDate2" style="margin:inherit;"></p>
+
+<script>
+    // Set the date we're counting down to
+    var countDownDate2 = new Date( "2021/07/19 00:00:00 GMT+00:00").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+
+    // Get today's date and time
+    var now = new Date().getTime();
+
+    // Find the distance between now and the count down date
+    var distance = countDownDate2 - now;
+
+    // Time calculations for days, hours, minutes and seconds
+    var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
+    var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Display the result in the element with id="timer"
+    if (weeks == 0) {
+        if (days == 0) {
+            document.getElementById("timer2").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
+        }
+        else {
+            document.getElementById("timer2").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+        }
+    }
+    else {
+        document.getElementById("timer2").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+    }
+
+    // If the count down is finished, write some text
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("timer2").innerHTML = "Goodbye Permission to Return stuff";
+    }
+    }, 1000);
+
+    var cdinput2 = new Date(countDownDate2)
+
+    var cdoutput2 = cdinput2.toLocaleString('default', options);
+
+    document.getElementById("endDate2").innerHTML = cdoutput9
+</script>
+</div>
