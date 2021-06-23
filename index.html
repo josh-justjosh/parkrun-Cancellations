@@ -37,6 +37,34 @@ date: 2021-06-22
             margin: 0;
         }
 
+        .flex-container {
+            display:flex;
+            flex-wrap: wrap;
+            text-align: center;
+            width: fit-content;
+            padding: 6px 12px;
+            border: none;
+            border-radius: 4px;
+            font-family: "Open Sans", "Helvetica Neue", Arial, Helvetica, sans-serif ;
+            font-size: 15px;
+            line-height: 24px;
+            text-align: center;
+            color: #222;
+            background: #fff;
+            max-width: 80%;
+            transition-duration: 1s;
+        }
+        .flex-key {
+            margin: 10px 5px;
+            flex-grow: 1;
+        }
+        p.key {
+            padding: 6px 12px;
+            margin: 5px 0;
+            border: none;
+            border-radius: 4px;
+        }
+
         #lastupdated {
             display: block;
             position: absolute;
@@ -65,6 +93,18 @@ date: 2021-06-22
             bottom: 33px;
             right: 10px;
         }
+        #key {
+            display: block;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        
+        @media (max-width: 970px) {
+            #key {
+                top: 55px;
+            }
+        }
 
         @media (max-width: 672px) {
             .textbox {
@@ -75,6 +115,9 @@ date: 2021-06-22
                 top: 55px;
                 right: 50px;
                 transition-duration: 0.25s;
+            }
+            #key {
+                top: -450px;
             }
 
         }
@@ -145,6 +188,105 @@ date: 2021-06-22
         <p class="textbox" id="dates">Showing data for {% for row in site.data.parkrun.cancellation-dates %}{% for pair in row %}{% for item in pair %}{% if forloop.last %} and {% endif %}{{ item | date: "%A, %e&nbsp;%B&nbsp;%Y" }}{% endfor %}{% endfor %}{% endfor %}</p>
         <button onclick="copy()" href="{{ site.baseurl }}" class="textbox" id="share"><span class="material-icons-outlined">share</span></button>
         <a class="textbox" id="more" href="{{ site.baseurl }}/more">Find out more</a>
+        <style>
+            /* The switch - the box around the slider */
+            .switch {
+                position: sticky;
+                display: inline-block;
+                width: 60px;
+                height: 34px;
+            }
+
+            /* Hide default HTML checkbox */
+            .switch input {
+                opacity: 0;
+                width: 0;
+                height: 0;
+            }
+
+            /* The slider */
+            .slider {
+                position: absolute;
+                cursor: pointer;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: #ccc;
+                -webkit-transition: .4s;
+                transition: .4s;
+            }
+
+            .slider:before {
+                position: absolute;
+                content: "";
+                height: 26px;
+                width: 26px;
+                left: 4px;
+                bottom: 4px;
+                background-color: white;
+                -webkit-transition: .4s;
+                transition: .4s;
+            }
+            
+            input:checked + .slider#switch1 {
+                background-color: #7CB342;
+            }
+            input:checked + .slider#switch2 {
+                background-color: #0288D1;
+            }
+            input:checked + .slider#switch3 {
+                background-color: #A52714;
+            }
+            input:checked + .slider#switch4 {
+                background-color: #1A237E;
+            }
+            input:checked + .slider#switch5 {
+                background-color: #F9A825;
+            }
+
+            input:focus + .slider {
+                box-shadow: 0 0 1px #2196F3;
+            }
+
+            input:checked + .slider:before {
+                -webkit-transform: translateX(26px);
+                -ms-transform: translateX(26px);
+                transform: translateX(26px);
+            }
+
+            /* Rounded sliders */
+            .slider.round {
+                border-radius: 34px;
+            }
+
+            .slider.round:before {
+                border-radius: 50%;
+            }
+        </style>
+        <div class="flex-container" id="key">
+            <div class="flex-key">
+                <p id="key1" class="key" style="color: #fff">parkrunning</p>
+                <label class="switch"><input type="checkbox" id="check1" checked onclick="checktoggles()"><span class="slider round" id="switch1"></span></label>
+                <!--<p id="text" style="display:block; color: #000000">CHECKED!</p>-->
+            </div>
+            <div class="flex-key">
+                <p id="key2" class="key" style="color: #fff">junior parkrunning</p>
+                <label class="switch"><input type="checkbox" id="check2" checked onclick="checktoggles()"><span class="slider round" id="switch2"></span></label>
+            </div>
+            <div class="flex-key">
+                <p id="key3" class="key" style="color: #fff">5k Cancellations</p>
+                <label class="switch"><input type="checkbox" id="check3" checked onclick="checktoggles()"><span class="slider round" id="switch3"></span></label>
+            </div>
+            <div class="flex-key">
+                <p id="key4" class="key" style="color: #fff">junior Cancellations</p>
+                <label class="switch"><input type="checkbox" id="check4" checked onclick="checktoggles()"><span class="slider round" id="switch4"></span></label>
+            </div>
+            <div class="flex-key">
+                <p id="key5" class="key" style="color: #fff">Permission to Return Received</p>
+                <label class="switch"><input type="checkbox" id="check5" checked onclick="checktoggles()"><span class="slider round" id="switch5"></span></label>
+            </div>
+        </div>
         <script>
             mapboxgl.accessToken = 'pk.eyJ1Ijoiam9zaC1qdXN0am9zaCIsImEiOiJja3A2eHdmajIwNGFvMndtcmNsbnZycm44In0.SvsoxpdU7NRLYLVRFIu2kw';
             if (zoom != null && lat != null && long != null) {
@@ -187,11 +329,101 @@ date: 2021-06-22
             // colors to use for the categories
             var colors = ['#7CB342', '#0288D1', '#A52714', '#1A237E', '#F9A825'];
 
+            var incparkrunning = false
+            var incjuniorrunning = true
+            var inccancelled5k = false
+            var inccancelled2k = false
+            var incptr = false
+
+            var sourcefilter = ['any',['==', ['get', 'Status'], 'parkrunning'],['==', ['get', 'Status'], 'junior parkrunning'],['==', ['get', 'Status'], '5k Cancellation'],['==', ['get', 'Status'], 'junior Cancellation'],['==', ['get', 'Status'], 'PtR']]
+
+            function updatefilter(incparkrunning,incjuniorrunning,inccancelled5k,inccancelled2k,incptr) {
+                var sourcefilter = ['any']
+
+                if (incparkrunning == true) {
+                    sourcefilter.push(['==', ['get', 'Status'], 'parkrunning'])
+                    //console.log('incparkrunning')
+                }
+                if (incjuniorrunning == true) {
+                    sourcefilter.push(['==', ['get', 'Status'], 'junior parkrunning'])
+                    //console.log('incjuniorrunning')
+                }
+                if (inccancelled5k == true) {
+                    sourcefilter.push(['==', ['get', 'Status'], '5k Cancellation'])
+                    //console.log('inccancelled5k')
+                }
+                if (inccancelled2k == true) {
+                    sourcefilter.push(['==', ['get', 'Status'], 'junior Cancellation'])
+                    //console.log('inccancelled2k')
+                }
+                if (incptr == true) {
+                    sourcefilter.push(['==', ['get', 'Status'], 'PtR'])
+                    //console.log('incptr')
+                }
+                map.removeLayer('parkrun_circle')
+                map.removeLayer('parkrun_label')
+                map.removeSource('parkruns')
+                // add a clustered GeoJSON source for a sample set of parkruns
+                map.addSource('parkruns', {
+                    'type': 'geojson',
+                    'data': {{ site.data.parkrun.raw.events | jsonify}},
+                    'filter': sourcefilter,
+                    'cluster': true,
+                    'clusterRadius': 50,
+                    'clusterProperties': {
+                        // keep separate counts for each magnitude category in a cluster
+                        'parkrunning': ['+', ['case', parkrunning, 1, 0]],
+                        'juniorrunning': ['+', ['case', juniorrunning, 1, 0]],
+                        'cancelled5k': ['+', ['case', cancelled5k, 1, 0]],
+                        'cancelled2k': ['+', ['case', cancelled2k, 1, 0]],
+                        'ptr': ['+', ['case', ptr, 1, 0]],
+                    }
+                });
+                // circle and symbol layers for rendering individual parkruns (unclustered points)
+                map.addLayer({
+                    'id': 'parkrun_circle',
+                    'type': 'circle',
+                    'source': 'parkruns',
+                    'filter': ['!=', 'cluster', true],
+                    'paint': {
+                        'circle-color': [
+                            'case',
+                            parkrunning,
+                            colors[0],
+                            juniorrunning,
+                            colors[1],
+                            cancelled5k,
+                            colors[2],
+                            cancelled2k,
+                            colors[3],
+                            colors[4]
+                        ],
+                        'circle-opacity': 0.6,
+                        'circle-radius': 12
+                    }
+                });
+                map.addLayer({
+                    'id': 'parkrun_label',
+                    'type': 'symbol',
+                    'source': 'parkruns',
+                    'filter': ['!=', 'cluster', true],
+                    'layout': {
+                        'text-field': ['get', 'EventShortName'],
+                        'text-font': ['Open Sans Semibold', 'Arial Unicode MS Bold'],
+                        'text-size': 12
+                    },
+                    'paint': {
+                        'text-color': '#000000'
+                    }
+                });
+            };
+
             map.on('load', function () {
                 // add a clustered GeoJSON source for a sample set of parkruns
                 map.addSource('parkruns', {
                     'type': 'geojson',
                     'data': {{ site.data.parkrun.raw.events | jsonify}},
+                    'filter': sourcefilter,
                     'cluster': true,
                     'clusterRadius': 50,
                     'clusterProperties': {
@@ -471,6 +703,46 @@ date: 2021-06-22
                 alert('Link copied to clipboard!');
                 document.body.removeChild(el);
                 };
+                
+            document.getElementById('key1').style.backgroundColor = colors[0] ;
+            document.getElementById('key2').style.backgroundColor = colors[1] ;
+            document.getElementById('key3').style.backgroundColor = colors[2] ;
+            document.getElementById('key4').style.backgroundColor = colors[3] ;
+            document.getElementById('key5').style.backgroundColor = colors[4] ;
+            
+            function checktoggles() {
+                var checkBox = document.getElementById("check1");
+                if (checkBox.checked == true){
+                    incparkrunning = true;
+                } else {
+                    incparkrunning = false;
+                }
+                var checkBox = document.getElementById("check2");
+                if (checkBox.checked == true){
+                    incjuniorrunning = true;
+                } else {
+                    incjuniorrunning = false;
+                }
+                var checkBox = document.getElementById("check3");
+                if (checkBox.checked == true){
+                    inccancelled5k = true;
+                } else {
+                    inccancelled5k = false;
+                }
+                var checkBox = document.getElementById("check4");
+                if (checkBox.checked == true){
+                    inccancelled2k = true;
+                } else {
+                    inccancelled2k = false;
+                }
+                var checkBox = document.getElementById("check5");
+                if (checkBox.checked == true){
+                    incptr = true;
+                } else {
+                    incptr = false;
+                }
+                updatefilter(incparkrunning,incjuniorrunning,inccancelled5k,inccancelled2k,incptr)
+            }
         </script>
     </body>
 </html>
