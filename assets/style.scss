@@ -20,48 +20,6 @@ html {
   height: 100%;
 }
 
-// Poor man's dark mode
-// dev.to/pqina/poor-man-s-dark-mode-using-css-filter221n
-
-.dark-mode {
-  filter: hue-rotate(180deg) invert(100%);
-}
-
-.dark-mode img {
-  filter: invert(100%) hue-rotate(180deg);
-}
-
-.dark-mode iframe {
-  filter: invert(100%) hue-rotate(180deg);
-}
-
-// Toggle
-// https://codepen.io/coralcat/pen/qBayzVX
-.switch {
-  display: inline-flex;
-  border-radius: 50px;
-  height: 1.5rem;
-  width: 3rem;
-  padding: .25rem;
-  background-color: black;
-  transition: background-color .2s;
-  cursor: pointer;
-  vertical-align: -.1rem;
-  position: relative;
-  left: 20px;
-}
-
-.btn-toggle {
-    width: 1rem;
-    height: 1rem;
-    border-radius: 20px;
-    background-color: white;
-    transition: transform .5s;
-}
-
-.dark-mode .btn-toggle {
-    transform: translateX(1.5rem);
-}
 
 body {
   background: #fff;
