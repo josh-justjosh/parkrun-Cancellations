@@ -1216,6 +1216,6 @@ This page is automatically updated throughout the week with data for the upcomin
 
     var cdoutput2 = cdinput2.toLocaleString('default', options);
 
-    document.getElementById("endDate2").innerHTML = cdoutput9
+    document.getElementById("endDate2").innerHTML = cdoutput2
 </script>
 </div>
