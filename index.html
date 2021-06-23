@@ -437,7 +437,7 @@ date: 2021-06-22
                     'data': {{ site.data.parkrun.raw.events | jsonify}},
                     'filter': sourcefilter,
                     'cluster': true,
-                    'clusterRadius': 50,
+                    'clusterRadius': 45,
                     'clusterProperties': {
                         // keep separate counts for each magnitude category in a cluster
                         'parkrunning': ['+', ['case', parkrunning, 1, 0]],
@@ -467,7 +467,7 @@ date: 2021-06-22
                             colors[4]
                         ],
                         'circle-opacity': 0.6,
-                        'circle-radius': 12
+                        'circle-radius': 15
                     }
                 });
                 map.addLayer({
@@ -478,7 +478,7 @@ date: 2021-06-22
                     'layout': {
                         'text-field': ['get', 'EventShortName'],
                         'text-font': ['Open Sans Semibold', 'Arial Unicode MS Bold'],
-                        'text-size': 12
+                        'text-size': 14
                     },
                     'paint': {
                         'text-color': '#000000'
