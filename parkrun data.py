@@ -21,7 +21,7 @@ with open('_data/parkrun/raw/states.tsv','r', encoding='utf-8', newline='') as f
     tsv_reader = csv.reader(f, delimiter="\t")
     for row in tsv_reader:
         states_list.append(row)
-states_list.remove(['Event','State','Country'])
+states_list.remove(['Event','Country','State','County'])
 
 try:
     ptr_file = str(open('_data/parkrun/raw/PtR.html', "rb").read())
@@ -239,7 +239,8 @@ for parkrun in events['features']:
         if event[0] == parkrun['properties']['EventLongName']:
             #print(parkrun['properties']['EventShortName'],'already saved state')
             new_states_list.append(event)
-            parkrun['properties']['State'] = event[1]
+            parkrun['properties']['State'] = event[2]
+            parkrun['properties']['County'] = event[3]
             new = False
 
     if new == True:
@@ -250,10 +251,16 @@ for parkrun in events['features']:
         try:
             state = root.find('countrySubdivision').find('adminName1').text
         except:
-            state = "Unknown"
-            print(url)
+            state = "-Unknown-"
+            print(parkrun['properties']['EventLongName'],"- State not Found -",url)
+        try:
+            county = root.find('countrySubdivision').find('adminName2').text
+        except:
+            county = "-Unknown-"
+            print(parkrun['properties']['EventLongName'],'- County not found -',url)
         parkrun['properties']['State'] = state
-        add = [parkrun['properties']['EventLongName'],state,[parkrun['properties']['Country']]]
+        parkrun['properties']['County'] = county
+        add = [parkrun['properties']['EventLongName'],parkrun['properties']['Country'],state,county]
         new_states_list.append(add)
         
         
@@ -275,6 +282,8 @@ for parkrun in events['features']:
 
     x += 1
     #print(x,"/",len(events['features']),'-',parkrun['properties']['EventShortName'],"processed")
+    #if x == 1750:
+     #   break
     
 with open('_data/parkrun/raw/events.json','w', encoding='utf-8') as f:
     f.write(json.dumps(events))
@@ -303,17 +312,18 @@ for event in events['features']:
     out.append(event['geometry']['coordinates'][1])
     out.append(event['geometry']['coordinates'][0])
     out.append(event['properties']['Country'])
+    out.append(event['properties']['State'])
+    out.append(event['properties']['County'])
     out.append(event['properties']['Status'])
     out.append(event['properties']['DateCancelled'])
     out.append(event['properties']['ReasonCancelled'])
     out.append(event['properties']['Website'])
-    out.append(event['properties']['State'])
     events_data.append(out)
 events_data.sort()
 
 with open('_data/parkrun/events.tsv','wt', encoding='utf-8', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
-    tsv_writer.writerow(['Event','Latitude','Longitude','Country','Status','DateCancelled','ReasonCancelled','Website','State'])
+    tsv_writer.writerow(['Event','Latitude','Longitude','Country','State','County','Status','DateCancelled','ReasonCancelled','Website'])
     for event in events_data:
         tsv_writer.writerow(event)
 print("events.tsv saved")
@@ -738,21 +748,7 @@ for parkrun in events['features']:
                 aus[parkrun['properties']['State']]['5k Cancellations'] += 1
                 aus[parkrun['properties']['State']]['Total'] += 1
         else:
-            if parkrun['properties']['Status'] == 'parkrunning':
-                aus['Other']['parkrunning'] += 1
-                aus['Other']['Total'] += 1
-            elif parkrun['properties']['Status'] == 'junior parkrunning':
-                aus['Other']['junior parkrunning'] += 1
-                aus['Other']['Total'] += 1
-            elif parkrun['properties']['Status'] == '5k Cancellation':
-                aus['Other']['5k Cancellations'] += 1
-                aus['Other']['Total'] += 1
-            elif parkrun['properties']['Status'] == 'junior Cancellation':
-                aus['Other']['junior Cancellations'] += 1
-                aus['Other']['Total'] += 1
-            elif parkrun['properties']['Status'] == 'PtR':
-                aus['Other']['5k Cancellations'] += 1
-                aus['Other']['Total'] += 1
+            print(parkrun['properties']['EventLongName'],"in Australia but not in state")
             
 #print(countries)
 
@@ -834,7 +830,7 @@ if cancellations_changes != []:
 
 with open('_data/parkrun/raw/states.tsv','wt', encoding='utf-8', newline='') as f:
         tsv_writer = csv.writer(f, delimiter='\t')
-        tsv_writer.writerow(['Event','State','Country'])
+        tsv_writer.writerow(['Event','Country','State','County'])
         for event in new_states_list:
             tsv_writer.writerow(event)
 print("states.tsv saved")
