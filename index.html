@@ -679,11 +679,11 @@ date: 2021-06-22
             map.touchZoomRotate.disableRotation();
 
             // Center the map on the coordinates of any clicked circle from the 'parkrun_circle' layer.
-            map.on('click', 'parkrun_circle', function (e) {
-                map.flyTo({
-                center: e.features[0].geometry.coordinates
-                });
-            });
+            //map.on('click', 'parkrun_circle', function (e) {
+            //    map.flyTo({
+            //    center: e.features[0].geometry.coordinates
+            //    });
+            //});
 
             map.on('render', function() {
                     var center =  map.getCenter();
