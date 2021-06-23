@@ -625,7 +625,7 @@ permalink: /more/
             {% endfor %}
         {% endfor %}
         </p>
-        <a style="margin:auto; flex-grow: 1; text-align: end;" href="https://pc.josh.me.uk/" id="map-link">Click here to go back to the full map.</a>
+        <a style="margin:auto; flex-grow: 1; text-align: end;" href="https://parkruncancellations.com/" id="map-link">Click here to go to the full map.</a>
         </div>
         {% if site.data.parkrun.cancellation-changes.size > 0 %}
         <h2>Most Recent Changes</h2>
