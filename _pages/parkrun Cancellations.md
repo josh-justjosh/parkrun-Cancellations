@@ -1166,7 +1166,7 @@ This page is automatically updated throughout the week with data for the upcomin
 
 <p id="contact">The methods for collecting and parsing the data are not perfect. If you notice something that doesn't look right - please let me know by <a href="https://github.com/josh-justjosh/parkrun-cancellations/issues/new">opening an issue</a> in the GitHub repo, <a href="https://twitter.com/intent/tweet?text=@_Josh_justJosh">on twitter</a> or <a href="mailto:hello@josh.me.uk?subject=Issue with parkrun Cancellations page">by email</a>.</p>
 
-<div class="countdown">
+<div class="countdown" style="background-color: rgb(249, 168, 37);">
 <!-- Display the timer timer in an element -->
 <h3 style="margin:inherit; color:inherit">Time Until all the Permission to Return stuff can be torn out</h3>
 <h2 id="timer2" style="margin:inherit; color:inherit;"></h2>
