@@ -865,7 +865,7 @@ if cancellations_changes != []:
         writer.writerow(["---"])
         writer.writerow(["layout: post"])
         writer.writerow(['title: '+str(now.year)+"/"+month+"/"+day+" Cancellation Update"])
-        writer.writerow(['date: '+str(now.year)+"-"+month+"-"+day+" "+hour+':'+minute+':'+second])
+        writer.writerow(['date: '+str(now.year)+"-"+month+"-"+day+" "+hour+':'+minute+':'+second+' 0000'])
         writer.writerow(["---"])
         writer.writerow([])
         writer.writerow(["|Event|Country|Cancellation Note| |"])
