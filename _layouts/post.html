@@ -50,9 +50,9 @@ layout: default
     {% else %}{% assign tzn = "UTC" | append: tz %}
     {% endif %}
     {% if time contains "00:00" %}
-      <p class="author_title">{{site.author}}  ·  {{ page.date | date: "%A, %e&nbsp;%B&nbsp;%Y" }}</p>
+      <p class="author_title">{{page.author}}  ·  {{ page.date | date: "%A, %e&nbsp;%B&nbsp;%Y" }}</p>
       {% else %}
-      <p class="author_title">{{site.author}}  ·  {{ page.date | date: "%R %A, %e&nbsp;%B&nbsp;%Y" }} {{ tzn }}</p>
+      <p class="author_title">{{page.author}}  ·  {{ page.date | date: "%R %A, %e&nbsp;%B&nbsp;%Y" }} {{ tzn }}</p>
     {% endif %}
     {% if page.last_modified_at %}
       {% assign time = page.last_modified_at | date: "%R" %}

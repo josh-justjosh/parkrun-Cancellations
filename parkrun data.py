@@ -8,7 +8,7 @@ from html.parser import HTMLParser
 import xml.etree.ElementTree as ET
 
 def now():
-    return datetime.datetime.now().astimezone()
+    return datetime.datetime.utcnow().astimezone()
 
 PtR_Events = []
 
@@ -828,7 +828,7 @@ if cancellations_changes != []:
         tsv_writer.writerow(['Event','Country','Cancellation Note','Added or<br />Removed'])
         for event in cancellations_changes:
             tsv_writer.writerow(event)
-        tsv_writer.writerow([datetime.datetime.now(),'',''])
+        tsv_writer.writerow([datetime.datetime.now(),'','',''])
     print("cancellation-changes.tsv saved")
 
     now = now()
@@ -864,19 +864,23 @@ if cancellations_changes != []:
         writer = csv.writer(f)
         writer.writerow(["---"])
         writer.writerow(["layout: post"])
-        writer.writerow(['title: '+str(now.year)+"/"+month+"/"+day+" Cancellation Update"])
+        writer.writerow(['title: '+str(now.year)+"/"+month+"/"+ day +" "+hour+':'+minute+" UTC Update"])
         writer.writerow(['date: '+str(now.year)+"-"+month+"-"+day+" "+hour+':'+minute+':'+second+' 0000'])
+        writer.writerow(['author: Cancellations Bot'])
         writer.writerow(["---"])
         writer.writerow([])
-        writer.writerow(["|Event|Country|Cancellation Note| |"])
-        writer.writerow(["|-|-|-|-|"])
+        writer.writerow(["<table style='width: 100%'>"])
+        writer.writerow(["    <tr>"])
+        writer.writerow(["        <td>Event</td>"])
+        writer.writerow(["        <td>Country</td>"])
+        writer.writerow(["        <td>Cancellation Note</td>"])
+        writer.writerow(["        <td></td>"])
+        writer.writerow(["    </tr>"])
         for event in cancellations_changes:
-            row = ""
+            writer.writerow(["    <tr>"])
             for cell in event:
-                row += "|" + cell
-            row += "|"
-            writer.writerow([row])
-        writer.writerow([])
+                writer.writerow(["        <td>"+cell+"</td>"])
+            writer.writerow(["    </tr>"])
     print(file,"saved")
 
 with open('_data/parkrun/raw/states.tsv','wt', encoding='utf-8', newline='') as f:

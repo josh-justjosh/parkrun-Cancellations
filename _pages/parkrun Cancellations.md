@@ -3,7 +3,7 @@ layout: page
 title: parkrun Cancellations
 tag: parkrun
 date: 2021-05-27
-permalink: /more/
+permalink: /more
 ---
 
 {% for stuff in site.data.parkrun.raw.time %}
@@ -625,7 +625,7 @@ permalink: /more/
             {% endfor %}
         {% endfor %}
         </p>
-        <a style="margin:auto; flex-grow: 1; text-align: end;" href="https://parkruncancellations.com/" id="map-link">Click here to go to the full map.</a>
+        <a style="margin:auto; flex-grow: 1; text-align: end;" href="/" id="map-link">Click here to go to the full map.</a>
         </div>
         {% if site.data.parkrun.cancellation-changes.size > 0 %}
         <h2>Most Recent Changes</h2>
@@ -654,6 +654,7 @@ permalink: /more/
                                 </tr>
                             {% endfor %}
                         </table>
+                        <a href="/updates" style="float:right">Click to see a full history</a>
                     </div>
                     <script>
                         var coll = document.getElementsByClassName("collapsiblecan");
@@ -835,62 +836,6 @@ permalink: /more/
             <!--<div class="flex-item">
                 <div class="countdown">
                     <!-- Display the timer timer in an element --
-                    <h3 style="margin:inherit; color:inherit">Scotland (tbc)</h3>
-                    <h2 id="timer5" style="margin:inherit; color:inherit;"></h2>
-                    <p id="endDate5" style="margin:inherit;"></p>
-
-                    <script>
-                        // Set the date we're counting down to
-                        var countDownDate5 = new Date( "2021/07/03 09:30:00 GMT+01:00").getTime();
-
-                        // Update the count down every 1 second
-                        var x = setInterval(function() {
-
-                        // Get today's date and time
-                        var now = new Date().getTime();
-
-                        // Find the distance between now and the count down date
-                        var distance = countDownDate5 - now;
-
-                        // Time calculations for days, hours, minutes and seconds
-                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
-                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
-                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-                        // Display the result in the element with id="timer"
-                        if (weeks == 0) {
-                            if (days == 0) {
-                                document.getElementById("timer5").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                            else {
-                                document.getElementById("timer5").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                        }
-                        else {
-                            document.getElementById("timer5").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                        }
-
-                        // If the count down is finished, write some text
-                        if (distance < 0) {
-                            clearInterval(x);
-                            document.getElementById("timer5").innerHTML = "parkrun's Back!";
-                        }
-                        }, 1000);
-
-                        var cdinput5 = new Date(countDownDate5)
-
-                        var cdoutput5 = cdinput5.toLocaleString('default', options);
-
-                        document.getElementById("endDate5").innerHTML = cdoutput5
-                    </script>
-                </div>
-                <p style="text-align: center;">A provisional date was first included in the <a href="https://blog.parkrun.com/uk/2021/06/01/covid-19-coronavirus-update-1-june/">1st June Update</a> but was not in the confirmed list in the <a href="https://blog.parkrun.com/uk/2021/06/15/covid-19-coronavirus-update-15-june/">15th June Update</a>. See the <a href="https://blog.parkrun.com/uk/tag/covid-19/">latest update</a> for more info.</p>
-            </div>
-            <div class="flex-item">
-                <div class="countdown">
-                    <!-- Display the timer timer in an element --
                     <h3 style="margin:inherit; color:inherit">Wales (tbc)</h3>
                     <h2 id="timer8" style="margin:inherit; color:inherit;"></h2>
                     <p id="endDate8" style="margin:inherit;"></p>
@@ -997,7 +942,7 @@ permalink: /more/
                         document.getElementById("endDate1").innerHTML = cdoutput1
                     </script>
                 </div>
-                <p style="text-align: center;">{{site.data.parkrun.PtR.size}} of 564 events ({{site.data.parkrun.PtR.size | divided_by: 564.0 | times: 100 | round }}%) have Permission to Return.</p>
+                <p style="text-align: center;">The <a href="https://blog.parkrun.com/uk/2021/06/25/uk-update-25-june/">25th June Update</a> stated 521 events have landowner permission but the published list states {{site.data.parkrun.PtR.size}} of 564 events ({{site.data.parkrun.PtR.size | divided_by: 564.0 | times: 100 | round }}%) have Permission to Return.</p>
             </div>
             <div class="flex-item">
                 <div class="countdown">
@@ -1053,6 +998,62 @@ permalink: /more/
                         document.getElementById("endDate9").innerHTML = cdoutput9
                     </script>
                 </div>
+            </div>
+            <div class="flex-item">
+                <div class="countdown">
+                    <!-- Display the timer timer in an element -->
+                    <h3 style="margin:inherit; color:inherit">Scotland (tbc)</h3>
+                    <h2 id="timer5" style="margin:inherit; color:inherit;"></h2>
+                    <p id="endDate5" style="margin:inherit;"></p>
+
+                    <script>
+                        // Set the date we're counting down to
+                        var countDownDate5 = new Date( "2021/08/14 09:30:00 GMT+01:00").getTime();
+
+                        // Update the count down every 1 second
+                        var x = setInterval(function() {
+
+                        // Get today's date and time
+                        var now = new Date().getTime();
+
+                        // Find the distance between now and the count down date
+                        var distance = countDownDate5 - now;
+
+                        // Time calculations for days, hours, minutes and seconds
+                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
+                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
+                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                        // Display the result in the element with id="timer"
+                        if (weeks == 0) {
+                            if (days == 0) {
+                                document.getElementById("timer5").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                            else {
+                                document.getElementById("timer5").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                        }
+                        else {
+                            document.getElementById("timer5").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                        }
+
+                        // If the count down is finished, write some text
+                        if (distance < 0) {
+                            clearInterval(x);
+                            document.getElementById("timer5").innerHTML = "parkrun's Back!";
+                        }
+                        }, 1000);
+
+                        var cdinput5 = new Date(countDownDate5)
+
+                        var cdoutput5 = cdinput5.toLocaleString('default', options);
+
+                        document.getElementById("endDate5").innerHTML = cdoutput5
+                    </script>
+                </div>
+                <p style="text-align: center;">A provisional date was included in the <a href="https://blog.parkrun.com/uk/2021/06/25/uk-update-25-june/">25th June Update</a> but has not been confirmed.</p>
             </div>
         </div>
         <br />
