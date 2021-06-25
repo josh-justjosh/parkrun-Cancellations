@@ -863,7 +863,7 @@ if cancellations_changes != []:
     with open('_posts/Cancellation Updates/'+file, "w+", encoding='utf-8', newline='') as f:
         writer = csv.writer(f)
         writer.writerow(["---"])
-        writer.writerow(["layout: Post"])
+        writer.writerow(["layout: post"])
         writer.writerow(['title: '+str(now.year)+"/"+month+"/"+day+" Cancellation Update"])
         writer.writerow(['date: '+str(now.year)+"-"+month+"-"+day+" "+hour+':'+minute+':'+second])
         writer.writerow(["---"])
