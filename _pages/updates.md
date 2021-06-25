@@ -8,6 +8,6 @@ permalink: /updates
 ## {{ post.title }}
 {{ post.content | markdownify }}
 {% if forloop.first %}
-<p style="float:right">You can subscribe to an RSS feed of these updates by using <a href="/feed.xml">this link</a>.</p>
+<p style="display:block; float:right">You can subscribe to an RSS feed of these updates by using <a href="/feed.xml">this link</a>.</p>
 {% endif %}
 {% endfor %}
