@@ -7,6 +7,9 @@ import datetime
 from html.parser import HTMLParser
 import xml.etree.ElementTree as ET
 
+def now():
+    return datetime.datetime.now().astimezone()
+
 PtR_Events = []
 
 old_cancellations_data = []
@@ -827,6 +830,54 @@ if cancellations_changes != []:
             tsv_writer.writerow(event)
         tsv_writer.writerow([datetime.datetime.now(),'',''])
     print("cancellation-changes.tsv saved")
+
+    now = now()
+    
+    if now.month < 10:
+        month = '0'+str(now.month)
+    else:
+        month = str(now.month)
+
+    if now.day <10:
+        day = '0'+str(now.day)
+    else:
+        day = str(now.day)
+
+    if now.hour < 10:
+        hour = '0'+str(now.hour)
+    else:
+        hour = str(now.hour)
+
+    if now.minute <10:
+        minute = '0'+str(now.minute)
+    else:
+        minute = str(now.minute)
+
+    if now.second <10:
+        second = '0'+str(now.second)
+    else:
+        second = str(now.second)
+
+    file = str(now.year)+"-"+month+"-"+day+"-"+hour+minute+second+"-update.md"
+    
+    with open('_posts/Cancellation Updates/'+file, "w+", encoding='utf-8', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerow(["---"])
+        writer.writerow(["layout: Post"])
+        writer.writerow(['title: '+str(now.year)+"/"+month+"/"+day+" Cancellation Update"])
+        writer.writerow(['date: '+str(now.year)+"-"+month+"-"+day+" "+hour+':'+minute+':'+second])
+        writer.writerow(["---"])
+        writer.writerow([])
+        writer.writerow(["|Event|Country|Cancellation Note| |"])
+        writer.writerow(["|-|-|-|-|"])
+        for event in cancellations_changes:
+            row = ""
+            for cell in event:
+                row += "|" + cell
+            row += "|"
+            writer.writerow([row])
+        writer.writerow([])
+    print(file,"saved")
 
 with open('_data/parkrun/raw/states.tsv','wt', encoding='utf-8', newline='') as f:
         tsv_writer = csv.writer(f, delimiter='\t')
