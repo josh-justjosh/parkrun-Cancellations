@@ -19,7 +19,7 @@
 
       gtag('config', 'G-T4W4281W4L');
     </script>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
     {% seo title=false %}
     {% include meta.html %}
 
