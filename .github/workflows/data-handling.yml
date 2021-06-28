@@ -36,20 +36,22 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: 3.8 #install the python needed
-        
-    - name: execute py script # run the run.py to get the latest data
-      env: 
-        consumer_key: ${{ secrets.TWITTER_CONSUMER_KEY }}
-        consumer_secret: ${{ secrets.TWITTER_CONSUMER_SECRET }}
-        access_token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
-        access_token_secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+
+    - name: install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install requests
         pip install beautifulsoup4
         pip install html-table-extractor
         pip install twython
-        python 'parkrun data.py'
+
+    - name: execute py script # run the run.py to get the latest data
+      env: 
+        consumer_key: ${{ secrets.TWITTER_CONSUMER_KEY }}
+        consumer_secret: ${{ secrets.TWITTER_CONSUMER_SECRET }}
+        access_token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+        access_token_secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+      run: python 'parkrun data.py'
     
     - name: Get Current Time
       uses: gerred/actions/current-time@master

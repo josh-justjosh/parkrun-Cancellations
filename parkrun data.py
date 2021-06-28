@@ -898,6 +898,8 @@ if cancellations_changes != []:
             for event in cancellations_additions:
                 writer.writerow(['    <tr>'])
                 for cell in event:
+                    if cell == 'Added':
+                        break
                     towrite = '        <td>'+cell+'</td>'
                     writer.writerow([towrite.replace('"','')])
                 writer.writerow(['    </tr>'])
@@ -913,6 +915,8 @@ if cancellations_changes != []:
             for event in cancellations_removals:
                 writer.writerow(['    <tr>'])
                 for cell in event:
+                    if cell == 'Removed':
+                        break
                     towrite = '        <td>'+cell+'</td>'
                     writer.writerow([towrite.replace('"','')])
                 writer.writerow(['    </tr>'])
