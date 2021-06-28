@@ -885,6 +885,7 @@ if cancellations_changes != []:
         writer.writerow(['title: '+str(now.year)+'/'+month+'/'+ day +' '+hour+':'+minute+' UTC Update'])
         writer.writerow(['date: '+str(now.year)+'-'+month+'-'+day+' '+hour+':'+minute+':'+second+' +0000'])
         writer.writerow(['author: Cancellations Bot'])
+        writer.writerow(["category: 'Cancellation Update'"])
         writer.writerow(['---'])
         writer.writerow([])
         if cancellations_additions != []:

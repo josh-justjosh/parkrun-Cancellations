@@ -112,17 +112,20 @@ layout: default
         {% assign tags = page.tags %}
       {% endif %}
       {% for tag in tags %}
-        <a href="{{site.baseurl}}/tags/#{{tag|slugize}}">{{tag}}</a>
+        <a href="/tags/#{{tag|slugize}}">{{tag}}</a>
         {% unless forloop.last %}&nbsp;{% endunless %}
       {% endfor %}
     </div>
-    {% if post %}
-      {% if post.elsewhere %}<p style="text-align: center;">🔀 from {{post.elsewhere}}</p>{% endif %}
-    {% else %}
-      {% if page.elsewhere %}<p style="text-align: center;">🔀 from {{page.elsewhere}}</p>{% endif %}
-    {% endif %}
   </div>
-    
+  {% if post %}
+    {% assign categories = post.categories %}
+  {% else %}
+    {% assign categories = page.categories %}
+  {% endif %}
+  {% if categories contains "Cancellation Update" %}
+  <p>Return to the <a href="/updates">updates page</a></p>
+  {% endif %}
+
   <div class="entry">
     {{ content }}
   </div>
@@ -137,29 +140,20 @@ layout: default
     {% if forloop.first == true %}
         <p>Role{% if forloop.length > 1 %}s{% endif %}:&nbsp;
     {% endif %}
-      <a href="{{site.baseurl}}/roles/#{{role|slugize}}">{{role}}</a>
+      <a href="/roles/#{{role|slugize}}">{{role}}</a>
       {% if forloop.last %}</p>{% else %}&nbsp;{% endif %}
     {% endfor %}
   </div>
 
   <div class="post-categories">
-    {% if post %}
-      {% assign categories = post.categories %}
-    {% else %}
-      {% assign categories = page.categories %}
-    {% endif %}
     {% for category in categories %}
     {% if forloop.first == true %}
         <p>Categor{% if forloop.length > 1 %}ies{% else %}y{% endif %}:&nbsp;
     {% endif %}
-      {% if category == "video" %}
-      <a style="text-transform: capitalize;" href="{{site.baseurl}}/videos">{{category}}</a>
-      {% elsif category == "live" %}
-      <a style="text-transform: capitalize;" href="{{site.baseurl}}/live">{{category}}</a>
-      {% elsif category == "post" %}
-      <a style="text-transform: capitalize;" href="{{site.baseurl}}/posts">{{category}}</a>
+      {% if category == "Cancellation Update" %}
+      <a style="text-transform: capitalize;" href="/updates">{{category}}</a>
       {% else %}
-      <a style="text-transform: capitalize;" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+      <a style="text-transform: capitalize;" href="/categories/#{{category|slugize}}">{{category}}</a>
       {% endif %}
       {% if forloop.last %}</p>{% else %}&nbsp;{% endif %}
     {% endfor %}
