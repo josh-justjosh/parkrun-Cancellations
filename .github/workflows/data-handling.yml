@@ -38,6 +38,11 @@ jobs:
         python-version: 3.8 #install the python needed
         
     - name: execute py script # run the run.py to get the latest data
+      env: 
+        consumer_key: ${{ secrets.TWITTER_CONSUMER_KEY }}
+        consumer_secret: ${{ secrets.TWITTER_CONSUMER_SECRET }}
+        access_token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+        access_token_secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
       run: |
         python -m pip install --upgrade pip
         pip install requests
