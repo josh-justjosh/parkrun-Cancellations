@@ -6,6 +6,26 @@ from html_table_extractor.extractor import Extractor
 import datetime
 from html.parser import HTMLParser
 import xml.etree.ElementTree as ET
+import twython
+
+consumer_key = '${{ secrets.TWITTER_CONSUMER_KEY }}'
+consumer_secret = '${{ secrets.TWITTER_CONSUMER_SECRET }}'
+access_token = '${{ secrets.TWITTER_ACCESS_TOKEN }}'
+access_token_secret = '${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}'
+
+from twython import Twython
+twitter = Twython(
+    consumer_key,
+    consumer_secret,
+    access_token,
+    access_token_secret)
+
+def tweet(message):
+    try:
+        twitter.update_status(status=message)
+        print("Tweeted: "+message)
+    except:
+        print("Tweet Send Error")
 
 def now():
     return datetime.datetime.utcnow().astimezone()
@@ -900,6 +920,11 @@ if cancellations_changes != []:
                 writer.writerow(['    </tr>'])
             writer.writerow(['</table>'])
     print(file,'saved')
+    try:
+        out = 'New Cancellations Update:\nhttps://parkruncancellations.com/'+str(now.year)+'/'+month+'/'+day+'/'+hour+minute+second+'-update/'
+        tweet(out)
+    except:
+        print(now().ctime(),"Tweet Send Error")
 
 with open('_data/parkrun/raw/states.tsv','wt', encoding='utf-8', newline='') as f:
         tsv_writer = csv.writer(f, delimiter='\t')
