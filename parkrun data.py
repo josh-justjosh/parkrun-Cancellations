@@ -7,6 +7,7 @@ import datetime
 from html.parser import HTMLParser
 import xml.etree.ElementTree as ET
 import twython
+import os
 
 consumer_key = os.evniron['consumer_key']
 consumer_secret = os.evniron['consumer_secret']
