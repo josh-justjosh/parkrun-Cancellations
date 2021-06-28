@@ -879,49 +879,48 @@ if cancellations_changes != []:
     file = str(now.year)+'-'+month+'-'+day+'-'+hour+minute+second+'-update.md'
 
     with open('_posts/Cancellation Updates/'+file, "w+", encoding='utf-8', newline='') as f:
-        writer = csv.writer(f)
-        writer.writerow(['---'])
-        writer.writerow(['layout: post'])
-        writer.writerow(['title: '+str(now.year)+'/'+month+'/'+ day +' '+hour+':'+minute+' UTC Update'])
-        writer.writerow(['date: '+str(now.year)+'-'+month+'-'+day+' '+hour+':'+minute+':'+second+' +0000'])
-        writer.writerow(['author: Cancellations Bot'])
-        writer.writerow(["category: 'Cancellation Update'"])
-        writer.writerow(['---'])
-        writer.writerow([])
+        out = '---' + '\n'
+        out += 'layout: post' + '\n'
+        out += 'title: '+str(now.year)+'/'+month+'/'+ day +' '+hour+':'+minute+' UTC Update' + '\n'
+        out += 'date: '+str(now.year)+'-'+month+'-'+day+' '+hour+':'+minute+':'+second+' +0000' + '\n'
+        out += 'author: Cancellations Bot' + '\n'
+        out += "category: 'Cancellation Update'" + '\n'
+        out += '---' + '\n'
+        out += '\n'
         if cancellations_additions != []:
-            writer.writerow(['<h3>New Cancellations</h3>'])
-            writer.writerow(["<table style='width: 100%'>"])
-            writer.writerow(['    <tr>'])
-            writer.writerow(['        <th>Event</th>'])
-            writer.writerow(['        <th>Country</th>'])
-            writer.writerow(['        <th>Cancellation Note</th>'])
-            writer.writerow(['    </tr>'])
+            out += '<h3>New Cancellations</h3>' + '\n'
+            out += "<table style='width: 100%'>" + '\n'
+            out += '    <tr>' + '\n'
+            out += '        <th>Event</th>' + '\n'
+            out += '        <th>Country</th>' + '\n'
+            out += '        <th>Cancellation Note</th>' + '\n'
+            out += '    </tr>' + '\n'
             for event in cancellations_additions:
-                writer.writerow(['    <tr>'])
+                out += '    <tr>' + '\n'
                 for cell in event:
                     if cell == 'Added':
                         break
-                    towrite = '        <td>'+cell+'</td>'
-                    writer.writerow([towrite.replace('"','')])
-                writer.writerow(['    </tr>'])
-            writer.writerow(['</table>'])
+                    out += '        <td>'+cell+'</td>' + '\n'
+                out += '    </tr>' + '\n'
+            out += '</table>' + '\n'
         if cancellations_removals != []:
-            writer.writerow(['<h3>Cancellations Removed</h3>'])
-            writer.writerow(["<table style='width: 100%'>"])
-            writer.writerow(['    <tr>'])
-            writer.writerow(['        <th>Event</th>'])
-            writer.writerow(['        <th>Country</th>'])
-            writer.writerow(['        <th>Previous Cancellation Note</th>'])
-            writer.writerow(['    </tr>'])
+            out += '<h3>Cancellations Removed</h3>' + '\n'
+            out += "<table style='width: 100%'>" + '\n'
+            out += '    <tr>' + '\n'
+            out += '        <th>Event</th>' + '\n'
+            out += '        <th>Country</th>' + '\n'
+            out += '        <th>Previous Cancellation Note</th>' + '\n'
+            out += '    </tr>' + '\n'
             for event in cancellations_removals:
-                writer.writerow(['    <tr>'])
+                out += '    <tr>' + '\n'
                 for cell in event:
                     if cell == 'Removed':
                         break
-                    towrite = '        <td>'+cell+'</td>'
-                    writer.writerow([towrite.replace('"','')])
-                writer.writerow(['    </tr>'])
-            writer.writerow(['</table>'])
+                    out += '        <td>'+cell+'</td>' + '\n'
+                out += '    </tr>' + '\n'
+            out += '</table>' + '\n'
+            
+        f.write(out)
     print(file,'saved')
     out = 'New Cancellations Update:\nhttps://parkruncancellations.com/'+str(now.year)+'/'+month+'/'+day+'/'+hour+minute+second+'-update/'
     tweet(out)
