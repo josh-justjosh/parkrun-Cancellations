@@ -9,10 +9,10 @@ import xml.etree.ElementTree as ET
 import twython
 import os
 
-consumer_key = os.evniron['consumer_key']
-consumer_secret = os.evniron['consumer_secret']
-access_token = os.evniron['access_token']
-access_token_secret = os.evniron['access_token_secret']
+consumer_key = os.environ['consumer_key']
+consumer_secret = os.environ['consumer_secret']
+access_token = os.environ['access_token']
+access_token_secret = os.environ['access_token_secret']
 
 from twython import Twython
 twitter = Twython(
