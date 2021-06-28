@@ -22,11 +22,8 @@ twitter = Twython(
     access_token_secret)
 
 def tweet(message):
-    try:
-        twitter.update_status(status=message)
-        print("Tweeted: "+message)
-    except:
-        print("Tweet Send Error")
+    twitter.update_status(status=message)
+    print("Tweeted: "+message)
 
 def now():
     return datetime.datetime.utcnow().astimezone()
@@ -921,11 +918,8 @@ if cancellations_changes != []:
                 writer.writerow(['    </tr>'])
             writer.writerow(['</table>'])
     print(file,'saved')
-    try:
-        out = 'New Cancellations Update:\nhttps://parkruncancellations.com/'+str(now.year)+'/'+month+'/'+day+'/'+hour+minute+second+'-update/'
-        tweet(out)
-    except:
-        print(now().ctime(),"Tweet Send Error")
+    out = 'New Cancellations Update:\nhttps://parkruncancellations.com/'+str(now.year)+'/'+month+'/'+day+'/'+hour+minute+second+'-update/'
+    tweet(out)
 
 with open('_data/parkrun/raw/states.tsv','wt', encoding='utf-8', newline='') as f:
         tsv_writer = csv.writer(f, delimiter='\t')
