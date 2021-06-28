@@ -858,34 +858,52 @@ if cancellations_changes != []:
     else:
         second = str(now.second)
 
-    file = str(now.year)+"-"+month+"-"+day+"-"+hour+minute+second+"-update.md"
-    
+    file = str(now.year)+'-'+month+'-'+day+'-'+hour+minute+second+'-update.md'
+
     with open('_posts/Cancellation Updates/'+file, "w+", encoding='utf-8', newline='') as f:
         writer = csv.writer(f)
-        writer.writerow(["---"])
-        writer.writerow(["layout: post"])
-        writer.writerow(['title: '+str(now.year)+"/"+month+"/"+ day +" "+hour+':'+minute+" UTC Update"])
-        writer.writerow(['date: '+str(now.year)+"-"+month+"-"+day+" "+hour+':'+minute+':'+second+' +0000'])
+        writer.writerow(['---'])
+        writer.writerow(['layout: post'])
+        writer.writerow(['title: '+str(now.year)+'/'+month+'/'+ day +' '+hour+':'+minute+' UTC Update'])
+        writer.writerow(['date: '+str(now.year)+'-'+month+'-'+day+' '+hour+':'+minute+':'+second+' +0000'])
         writer.writerow(['author: Cancellations Bot'])
-        writer.writerow(["---"])
+        writer.writerow(['---'])
         writer.writerow([])
-        writer.writerow(["<table style='width: 100%'>"])
-        writer.writerow(["    <tr>"])
-        writer.writerow(["        <th>Event</th>"])
-        writer.writerow(["        <th>Country</th>"])
-        writer.writerow(["        <th>Cancellation Note</th>"])
-        writer.writerow(["        <th></th>"])
-        writer.writerow(["    </tr>"])
-        for event in cancellations_changes:
-            writer.writerow(["    <tr>"])
-            for cell in event:
-                writer.writerow(["        <td>"+cell+"</td>"])
-            writer.writerow(["    </tr>"])
-    print(file,"saved")
+        if cancellations_additions != []:
+            writer.writerow(['<h3>New Cancellations</h3>'])
+            writer.writerow(["<table style='width: 100%'>"])
+            writer.writerow(['    <tr>'])
+            writer.writerow(['        <th>Event</th>'])
+            writer.writerow(['        <th>Country</th>'])
+            writer.writerow(['        <th>Cancellation Note</th>'])
+            writer.writerow(['    </tr>'])
+            for event in cancellations_additions:
+                writer.writerow(['    <tr>'])
+                for cell in event:
+                    towrite = '        <td>'+cell+'</td>'
+                    writer.writerow([towrite.replace('"','')])
+                writer.writerow(['    </tr>'])
+            writer.writerow(['</table>'])
+        if cancellations_removals != []:
+            writer.writerow(['<h3>Cancellations Removed</h3>'])
+            writer.writerow(["<table style='width: 100%'>"])
+            writer.writerow(['    <tr>'])
+            writer.writerow(['        <th>Event</th>'])
+            writer.writerow(['        <th>Country</th>'])
+            writer.writerow(['        <th>Previous Cancellation Note</th>'])
+            writer.writerow(['    </tr>'])
+            for event in cancellations_removals:
+                writer.writerow(['    <tr>'])
+                for cell in event:
+                    towrite = '        <td>'+cell+'</td>'
+                    writer.writerow([towrite.replace('"','')])
+                writer.writerow(['    </tr>'])
+            writer.writerow(['</table>'])
+    print(file,'saved')
 
 with open('_data/parkrun/raw/states.tsv','wt', encoding='utf-8', newline='') as f:
         tsv_writer = csv.writer(f, delimiter='\t')
         tsv_writer.writerow(['Event','Country','State','County'])
         for event in new_states_list:
             tsv_writer.writerow(event)
-print("states.tsv saved")
+print('states.tsv saved')
