@@ -318,14 +318,6 @@ with open('_data/parkrun/cancellation-dates.tsv','wt', encoding='utf-8', newline
         tsv_writer.writerow([date])
 print("cancellation-dates.tsv saved")
 
-cancellations_data.sort()
-with open('_data/parkrun/cancellations.tsv','wt', encoding='utf-8', newline='') as f:
-    tsv_writer = csv.writer(f, delimiter='\t')
-    tsv_writer.writerow(['Event','Country','Cancellation Note'])
-    for event in cancellations_data:
-        tsv_writer.writerow(event)
-print("cancellations.tsv saved")
-
 events_data  = []
 for event in events['features']:
     out = []
@@ -825,6 +817,14 @@ for i in cancellations_data:
 #print(cancellations_changes)
 cancellations_additions.sort()
 cancellations_removals.sort()
+cancellations_data.sort()
+
+with open('_data/parkrun/cancellations.tsv','wt', encoding='utf-8', newline='') as f:
+    tsv_writer = csv.writer(f, delimiter='\t')
+    tsv_writer.writerow(['Event','Country','Cancellation Note'])
+    for event in cancellations_data:
+        tsv_writer.writerow(event)
+print("cancellations.tsv saved")
 
 if cancellations_additions != []:
     with open('_data/parkrun/cancellation-additions.tsv','wt', encoding='utf-8', newline='') as f:
