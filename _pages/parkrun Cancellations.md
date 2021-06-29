@@ -634,24 +634,19 @@ permalink: /more
                     <button type="button" class="collapsiblecan" style="margin: 5px;"><p style="float:left; margin: 0">Click to view the most recent Cancellations</p><p style="float:right; margin: 0">Last Change: {{site.data.parkrun.cancellation-additions.last.Event | date: "%R UTC %A, %e&nbsp;%B&nbsp;%Y" }}</p></button>
                     <div class="expcontentcan">
                         <table style="width: 100%">
+                            <tr>
+                                <th>Event</th>
+                                <th>Country</th>
+                                <th>Cancellation Note</th>
+                            </tr>
                             {% for row in site.data.parkrun.cancellation-additions %}
+                                {% unless forloop.last %}
                                 <tr>
-                                    {% if forloop.first %}
-                                        {% for pair in row %}
-                                            <th>{{ pair[0] }}</th>
-                                        {% endfor %}
-                                        </tr>
-                                        <tr>
-                                        {% for pair in row %}
-                                            <td>{{ pair[1] }}</td>
-                                        {% endfor %}
-                                    {% elsif forloop.last %}
-                                    {% else %}
-                                        {% for pair in row %}
-                                            <td>{{ pair[1] }}</td>
-                                        {% endfor %}
-                                    {% endif %}
+                                    <td><a href="{{ row['Website'] }}">{{ row['Event'] }}</a></td>
+                                    <td>{{ row['Country'] }}</td>
+                                    <td>{{ row['Cancellation Note'] }}</td>
                                 </tr>
+                                {% endunless %}
                             {% endfor %}
                         </table>
                         <a href="/updates" style="float:right">Click to see a full history</a>
@@ -679,23 +674,16 @@ permalink: /more
                     <button type="button" class="collapsiblerein" style="margin: 5px;"><p style="float:left; margin: 0">Click to view the most recent Reinstatements</p><p style="float:right; margin: 0">Last Change: {{site.data.parkrun.cancellation-removals.last.Event | date: "%R UTC %A, %e&nbsp;%B&nbsp;%Y" }}</p></button>
                     <div class="expcontentrein">
                         <table style="width: 100%">
+                            <tr>
+                                <th>Event</th>
+                                <th>Country</th>
+                                <th>Cancellation Note</th>
+                            </tr>
                             {% for row in site.data.parkrun.cancellation-removals %}
                                 <tr>
-                                    {% if forloop.first %}
-                                        {% for pair in row %}
-                                            <th>{{ pair[0] }}</th>
-                                        {% endfor %}
-                                        </tr>
-                                        <tr>
-                                        {% for pair in row %}
-                                            <td>{{ pair[1] }}</td>
-                                        {% endfor %}
-                                    {% elsif forloop.last %}
-                                    {% else %}
-                                        {% for pair in row %}
-                                            <td>{{ pair[1] }}</td>
-                                        {% endfor %}
-                                    {% endif %}
+                                    <td>{{row[0][1]}}</td>
+                                    <td>{{row[1][1]}}</td>
+                                    <td>{{row[2][1]}}</td>
                                 </tr>
                             {% endfor %}
                         </table>
