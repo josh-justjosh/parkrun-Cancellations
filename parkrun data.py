@@ -9,7 +9,7 @@ import xml.etree.ElementTree as ET
 import twython
 import os
 
-consumer_key = os.environ['consumer_key']
+"""consumer_key = os.environ['consumer_key']
 consumer_secret = os.environ['consumer_secret']
 access_token = os.environ['access_token']
 access_token_secret = os.environ['access_token_secret']
@@ -19,10 +19,10 @@ twitter = Twython(
     consumer_key,
     consumer_secret,
     access_token,
-    access_token_secret)
+    access_token_secret)"""
 
 def tweet(message):
-    twitter.update_status(status=message)
+    #twitter.update_status(status=message)
     print("Tweeted: "+message)
 
 def now():
@@ -795,6 +795,13 @@ with open('_data/parkrun/aus-data.tsv','wt', encoding='utf-8', newline='') as f:
         tsv_writer.writerow(out)
 print("aus-data.tsv saved")
 
+for cancellation in cancellations_data:
+    for parkrun in events['features']:
+        if parkrun['properties']['EventLongName'] == cancellation[0]:
+            cancellation.append(parkrun['properties']['Website'])
+            break
+    #print(cancellation)
+
 cancellations_changes = []
 cancellations_additions = []
 cancellations_removals = []
@@ -803,6 +810,10 @@ for i in old_cancellations_data:
     if i not in cancellations_data:
         #i.append('Removed')
         #print(i)
+        for parkrun in events['features']:
+            if parkrun['properties']['EventLongName'] == i[0]:
+                i.append(parkrun['properties']['Website'])
+                break
         cancellations_removals.append(i)
 
 for i in cancellations_data:
@@ -897,10 +908,9 @@ if cancellations_changes != []:
             out += '    </tr>' + '\n'
             for event in cancellations_additions:
                 out += '    <tr>' + '\n'
-                for cell in event:
-                    if cell == 'Added':
-                        break
-                    out += '        <td>'+cell+'</td>' + '\n'
+                out += '        <td><a href="' + event[3] + '">' + event[0] + '</td>' + '\n'
+                out += '        <td>' + event[1] + '</td>' + '\n'
+                out += '        <td>' + event[2] + '</td>' + '\n'
                 out += '    </tr>' + '\n'
             out += '</table>' + '\n'
         if cancellations_removals != []:
@@ -913,10 +923,9 @@ if cancellations_changes != []:
             out += '    </tr>' + '\n'
             for event in cancellations_removals:
                 out += '    <tr>' + '\n'
-                for cell in event:
-                    if cell == 'Removed':
-                        break
-                    out += '        <td>'+cell+'</td>' + '\n'
+                out += '        <td><a href="' + event[3] + '">' + event[0] + '</td>' + '\n'
+                out += '        <td>' + event[1] + '</td>' + '\n'
+                out += '        <td>' + event[2] + '</td>' + '\n'
                 out += '    </tr>' + '\n'
             out += '</table>' + '\n'
             
