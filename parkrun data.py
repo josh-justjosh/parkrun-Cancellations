@@ -908,7 +908,7 @@ if cancellations_changes != []:
             out += '    </tr>' + '\n'
             for event in cancellations_additions:
                 out += '    <tr>' + '\n'
-                out += '        <td><a href="' + event[3] + '">' + event[0] + '</td>' + '\n'
+                out += '        <td><a href="' + event[3] + '">' + event[0] + '</a></td>' + '\n'
                 out += '        <td>' + event[1] + '</td>' + '\n'
                 out += '        <td>' + event[2] + '</td>' + '\n'
                 out += '    </tr>' + '\n'
@@ -923,7 +923,7 @@ if cancellations_changes != []:
             out += '    </tr>' + '\n'
             for event in cancellations_removals:
                 out += '    <tr>' + '\n'
-                out += '        <td><a href="' + event[3] + '">' + event[0] + '</td>' + '\n'
+                out += '        <td><a href="' + event[3] + '">' + event[0] + '</a></td>' + '\n'
                 out += '        <td>' + event[1] + '</td>' + '\n'
                 out += '        <td>' + event[2] + '</td>' + '\n'
                 out += '    </tr>' + '\n'
