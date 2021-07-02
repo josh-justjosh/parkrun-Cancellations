@@ -875,7 +875,7 @@ permalink: /more
                         document.getElementById("endDate1").innerHTML = cdoutput1
                     </script>
                 </div>
-                <p style="text-align: center;">The <a href="https://blog.parkrun.com/uk/2021/06/25/uk-update-25-june/">25th June Update</a> stated 521 events have landowner permission but the published list states {{site.data.parkrun.PtR.size}} of 564 events ({{site.data.parkrun.PtR.size | divided_by: 564.0 | times: 100 | round }}%) have Permission to Return.</p>
+                <p style="text-align: center;">The <a href="https://blog.parkrun.com/uk/2021/07/02/uk-update-2-july/">2nd July Update</a> stated 524 events have landowner permission but the published list states {{site.data.parkrun.PtR.size}} of 564 events ({{site.data.parkrun.PtR.size | divided_by: 564.0 | times: 100 | round }}%) have Permission to Return.</p>
             </div>
             <div class="flex-item">
                 <div class="countdown">
@@ -986,7 +986,7 @@ permalink: /more
                         document.getElementById("endDate5").innerHTML = cdoutput5
                     </script>
                 </div>
-                <p style="text-align: center;">A provisional date was included in the <a href="https://blog.parkrun.com/uk/2021/06/25/uk-update-25-june/">25th June Update</a> but has not been confirmed.</p>
+                <p style="text-align: center;">A provisional date was included in the <a href="https://blog.parkrun.com/uk/2021/06/25/uk-update-25-june/">25th June Update</a> and again in the <a href="https://blog.parkrun.com/uk/2021/07/02/uk-update-2-july/">2nd July Update</a> but is awaiting confirmation.</p>
             </div>
         </div>
         <br />
