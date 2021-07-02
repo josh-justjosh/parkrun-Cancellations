@@ -875,7 +875,7 @@ permalink: /more
                         document.getElementById("endDate1").innerHTML = cdoutput1
                     </script>
                 </div>
-                <p style="text-align: center;">The <a href="https://blog.parkrun.com/uk/2021/07/02/uk-update-2-july/">2nd July Update</a> stated 524 events have landowner permission but the published list states {{site.data.parkrun.PtR.size}} of 564 events ({{site.data.parkrun.PtR.size | divided_by: 564.0 | times: 100 | round }}%) have Permission to Return.</p>
+                <p style="text-align: center;">The <a href="https://blog.parkrun.com/uk/2021/07/02/uk-update-2-july/">2nd July Update</a> stated 524 events ({{ 524 | divided_by: 564.0 | times: 100 | round }}%) have landowner permission but the published list states {{site.data.parkrun.PtR.size}} of 564 events ({{site.data.parkrun.PtR.size | divided_by: 564.0 | times: 100 | round }}%) have Permission to Return.</p>
             </div>
             <div class="flex-item">
                 <div class="countdown">
