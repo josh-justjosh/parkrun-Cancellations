@@ -176,10 +176,7 @@ for parkrun in events['features']:
         if parkrun['properties']['EventLongName'] == cancellation[1] and same_week(cancellation[0]) == True:
             parkrun['properties']['DateCancelled'] = cancellation[0]
             cancellation_dates.append(cancellation[0])
-            if parkrun['properties']['EventLongName'] == 'Callaghan parkrun':
-                parkrun['properties']['ReasonCancelled'] = None
-            else:
-                parkrun['properties']['ReasonCancelled'] = cancellation[4]
+            parkrun['properties']['ReasonCancelled'] = cancellation[4]
             break
         else:
             parkrun['properties']['DateCancelled'] = None
