@@ -74,7 +74,7 @@ except: pass
 
 with open('_data/parkrun/PtR.tsv','wt', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
-    tsv_writer.writerow(['Event'])
+    tsv_writer.writerow(['Event',''])
     for i in PtR_Events:
         tsv_writer.writerow([i])
 print("PtR.tsv saved")
