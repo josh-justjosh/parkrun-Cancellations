@@ -99,8 +99,17 @@ date: 2021-06-22
             top: 10px;
             left: 10px;
         }
+        #menu {
+            display: block;
+            position: absolute;
+            top: -50px;
+            left: 10px;
+        }
+        #close {
+            display: none;
+        }
         
-        @media (max-width: 970px) {
+        @media (max-width: 865px) {
             #key {
                 top: 55px;
             }
@@ -118,6 +127,12 @@ date: 2021-06-22
             }
             #key {
                 top: -450px;
+            }
+            #menu {
+                top: 10px
+            }
+            #close {
+                display: grid;
             }
         }
 
@@ -215,6 +230,15 @@ date: 2021-06-22
                 width: 0;
                 height: 0;
             }
+            
+            /* Hide default HTML button */
+            .button input {
+                opacity: 0;
+                width: 0;
+                height: 0;
+                padding: 0;
+                border: 0;
+            }
 
             /* The slider */
             .slider {
@@ -277,6 +301,9 @@ date: 2021-06-22
             }
         </style>
         <div class="flex-container" id="key">
+            <div id="close" style="text-align: end;">
+                <label class="button"><input type="button" onclick="hidetoggles()"><span class="material-icons-outlined">close</span></label>
+            </div>
             <div class="flex-key">
                 <p id="key1" class="key" style="color: #fff">parkrunning</p>
                 <label class="switch"><input type="checkbox" id="check1" checked onclick="checktoggles()"><span class="slider round" id="switch1"></span></label>
@@ -294,12 +321,19 @@ date: 2021-06-22
                 <p id="key4" class="key" style="color: #fff">junior Cancellations</p>
                 <label class="switch"><input type="checkbox" id="check4" checked onclick="checktoggles()"><span class="slider round" id="switch4"></span></label>
             </div>
-            <div class="flex-key">
-                <p id="key5" class="key" style="color: #fff">Permission to Return Received</p>
-                <label class="switch"><input type="checkbox" id="check5" checked onclick="checktoggles()"><span class="slider round" id="switch5"></span></label>
-            </div>
+        </div>
+        <div class="textbox" id="menu">
+            <label class="button"><input type="button" onclick="showtoggles()"><span class="material-icons-outlined">menu</span></label>
         </div>
         <script>
+            function showtoggles() {
+                document.getElementById('key').style.top = "105px" ;
+                document.getElementById('menu').style.top = "-50px" ;
+            }
+            function hidetoggles() {
+                document.getElementById('key').style.top = "-450px" ;
+                document.getElementById('menu').style.top = "10px" ;
+            }
             mapboxgl.accessToken = 'pk.eyJ1Ijoiam9zaC1qdXN0am9zaCIsImEiOiJja3A2eHdmajIwNGFvMndtcmNsbnZycm44In0.SvsoxpdU7NRLYLVRFIu2kw';
             if (zoom != null && lat != null && long != null) {
                 var map = new mapboxgl.Map({
