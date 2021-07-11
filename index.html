@@ -185,21 +185,54 @@ date: 2021-06-22
             const queryString = window.location.search;
             const urlParams = new URLSearchParams(queryString);
             const zoom = urlParams.get('zoom')
-            //console.log(zoom);
             const lat = urlParams.get('lat')
-            //console.log(lat);
             const long = urlParams.get('long')
-            //console.log(long);
             const center = [long,lat]
+            var maxn = urlParams.get('n')
+            var maxe = urlParams.get('e')
+            var maxs = urlParams.get('s')
+            var maxw = urlParams.get('w')
+            const country = urlParams.get('country').toLowerCase()
+            if (country == "united kingdom" || country == "uk" ) {
+                maxn = 60.9094
+                maxe = 1.8628
+                maxs = 49.8024
+                maxw = -8.7497
+            } else if (country == "northern ireland" || country == "ni" || country == "nir" ) {
+                maxn = 55.3692
+                maxe = -5.3331
+                maxs = 53.9730
+                maxw = -8.1775
+            } else if (country == "england" || country == "en" || country == "eng" ) {
+                maxn = 55.8504
+                maxe = 1.8628
+                maxs = 49.8024
+                maxw = -6.5027
+            }  else if (country == "wales" || country == "wls" || country == "wal" ) {
+                maxn = 53.4894
+                maxe = -2.6498
+                maxs = 51.3135
+                maxw = -5.7688
+            } else if (country == "scotland" || country == "sc" || country == "sct" ) {
+                maxn = 60.9094
+                maxe = -0.6252
+                maxs = 54.5759
+                maxw = -8.7497
+            } else if (country == "ireland" || country == "ie" || country == "irl" ) {
+                maxn = 55.4917
+                maxe = -5.8946
+                maxs = 51.3579
+                maxw = -10.7628
+            }
+            //console.log(zoom);
+            //console.log(lat);
+            //console.log(long);
             //console.log(center);
-            const maxn = urlParams.get('n')
-            //console.log(maxn)
-            const maxe = urlParams.get('e')
-            //console.log(maxe)
-            const maxs = urlParams.get('s')
-            //console.log(maxs)
-            const maxw = urlParams.get('w')
-            //console.log(maxw)
+            //console.log(country);
+            //console.log(maxn);
+            //console.log(maxe);
+            //console.log(maxs);
+            //console.log(maxw);
         </script>
         <!-- Load the `mapbox-gl-geocoder` plugin. -->
         <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.min.js"></script>
