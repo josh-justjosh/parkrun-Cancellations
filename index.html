@@ -185,13 +185,21 @@ date: 2021-06-22
             const queryString = window.location.search;
             const urlParams = new URLSearchParams(queryString);
             const zoom = urlParams.get('zoom')
-            console.log(zoom);
+            //console.log(zoom);
             const lat = urlParams.get('lat')
-            console.log(lat);
+            //console.log(lat);
             const long = urlParams.get('long')
-            console.log(long);
+            //console.log(long);
             const center = [long,lat]
-            console.log(center);
+            //console.log(center);
+            const maxn = urlParams.get('n')
+            //console.log(maxn)
+            const maxe = urlParams.get('e')
+            //console.log(maxe)
+            const maxs = urlParams.get('s')
+            //console.log(maxs)
+            const maxw = urlParams.get('w')
+            //console.log(maxw)
         </script>
         <!-- Load the `mapbox-gl-geocoder` plugin. -->
         <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.min.js"></script>
@@ -339,7 +347,15 @@ date: 2021-06-22
                 document.getElementById('menu').style.top = "10px" ;
             }
             mapboxgl.accessToken = 'pk.eyJ1Ijoiam9zaC1qdXN0am9zaCIsImEiOiJja3A2eHdmajIwNGFvMndtcmNsbnZycm44In0.SvsoxpdU7NRLYLVRFIu2kw';
-            if (zoom != null && lat != null && long != null) {
+            if (maxn != null && maxe != null && maxs != null && maxw != null) {
+                //console.log("using bounds")
+                var map = new mapboxgl.Map({
+                    container: 'map',
+                    bounds: [maxw,maxs,maxe,maxn],
+                    style: 'mapbox://styles/mapbox/streets-v11'
+                });
+            } else if (zoom != null && lat != null && long != null) {
+                //console.log("using given zoom & center values")
                 var map = new mapboxgl.Map({
                     container: 'map',
                     zoom: zoom,
@@ -347,6 +363,7 @@ date: 2021-06-22
                     style: 'mapbox://styles/mapbox/streets-v11'
                 });
             } else if (zoom != null && lat == null && long == null) {
+                //console.log("using given zoom value")
                 var map = new mapboxgl.Map({
                     container: 'map',
                     zoom: zoom,
@@ -354,6 +371,7 @@ date: 2021-06-22
                     style: 'mapbox://styles/mapbox/streets-v11'
                 });
             } else if (zoom == null && lat != null && long != null) { 
+                //console.log("using given center values")
                 var map = new mapboxgl.Map({
                     container: 'map',
                     zoom: 1.9664,
@@ -361,6 +379,7 @@ date: 2021-06-22
                     style: 'mapbox://styles/mapbox/streets-v11'
                 });   
             } else {
+                //console.log("using default zoom & center values")
                 var map = new mapboxgl.Map({
                     container: 'map',
                     zoom: 1.9664,
@@ -736,11 +755,17 @@ date: 2021-06-22
             //});
 
             map.on('render', function() {
-                    var center =  map.getCenter();
-                    var lat = center['lat'].toFixed(4);
-                    var long = center['lng'].toFixed(4);
-                    var zoom =  map.getZoom().toFixed(4);
-                    var loclink = "https://parkruncancellations.com/?lat=" + lat + "&long=" + long + "&zoom=" + zoom
+                //    var center =  map.getCenter();
+                //    var lat = center['lat'].toFixed(4);
+                //    var long = center['lng'].toFixed(4);
+                //    var zoom =  map.getZoom().toFixed(4);
+                //    var loclink = "https://parkruncancellations.com/?lat=" + lat + "&long=" + long + "&zoom=" + zoom
+                    var bounds = map.getBounds()
+                    var n = bounds["_ne"]["lat"].toFixed(4);
+                    var e = bounds["_ne"]["lng"].toFixed(4);
+                    var s = bounds["_sw"]["lat"].toFixed(4);
+                    var w = bounds["_sw"]["lng"].toFixed(4);
+                    var loclink = "https://parkruncancellations.com/?n=" + n + "&e=" + e + "&s=" + s +"&w=" + w
                     document.getElementById('share').href = loclink
                 });
             function copy() {
