@@ -931,7 +931,7 @@ permalink: /more
                         document.getElementById("endDate5").innerHTML = cdoutput5
                     </script>
                 </div>
-                <p style="text-align: center;">A provisional date was included in the <a href="https://blog.parkrun.com/uk/2021/06/25/uk-update-25-june/">25th June Update</a> and again in the <a href="https://blog.parkrun.com/uk/2021/07/02/uk-update-2-july/">2nd July Update</a> but is awaiting confirmation.</p>
+                <p style="text-align: center;">A provisional date was first included in the <a href="https://blog.parkrun.com/uk/2021/06/25/uk-update-25-june/">25th June Update</a> and was still in <a href="https://blog.parkrun.com/uk/2021/07/09/uk-update-9-july/">9th July Update</a> but is awaiting confirmation.</p>
             </div>
         </div>
         <br />
