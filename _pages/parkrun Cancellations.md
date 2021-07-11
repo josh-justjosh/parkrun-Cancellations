@@ -100,7 +100,7 @@ permalink: /more
             color: white;
             cursor: pointer;
             padding: 18px;
-            width: -webkit-fill-available;
+            width: 100%;
             border: none;
             text-align: left;
             outline: none;
@@ -123,7 +123,7 @@ permalink: /more
             color: white;
             cursor: pointer;
             padding: 18px;
-            width: -webkit-fill-available;
+            width: 100%;
             border: none;
             text-align: left;
             outline: none;
@@ -146,7 +146,7 @@ permalink: /more
             color: white;
             cursor: pointer;
             padding: 18px;
-            width: -webkit-fill-available;
+            width: 100%;
             border: none;
             text-align: left;
             outline: none;
@@ -940,9 +940,7 @@ permalink: /more
             <h3> The following English events have been granted permission to return </h3>
             <div class="ptr-flex">
                 {% for row in site.data.parkrun.PtR %}
-                    {% for pair in row %}
-                    <div class="ptr-cell">{{ pair[1] }}</div>
-                    {% endfor %}
+                    <div class="ptr-cell">{{ row["Event"] }}</div>
                 {% endfor %}
             </div>
         </div>
