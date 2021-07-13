@@ -711,16 +711,16 @@ permalink: /more
         <h2>parkrun returns in:</h2>
         <script>let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZoneName: 'short', hour:'2-digit', minute:'2-digit'};</script>
         <div class="flex-container">
-            <!--<div class="flex-item">
+            <div class="flex-item">
                 <div class="countdown">
-                    <!-- Display the timer timer in an element --
-                    <h3 style="margin:inherit; color:inherit">Wales (tbc)</h3>
-                    <h2 id="timer8" style="margin:inherit; color:inherit;"></h2>
-                    <p id="endDate8" style="margin:inherit;"></p>
+                    <!-- Display the timer timer in an element -->
+                    <h3 style="margin:inherit; color:inherit">Germany</h3>
+                    <h2 id="timer3" style="margin:inherit; color:inherit;"></h2>
+                    <p id="endDate3" style="margin:inherit;"></p>
 
                     <script>
                         // Set the date we're counting down to
-                        var countDownDate8 = new Date( "2021/07/10 09:00:00 GMT+01:00").getTime();
+                        var countDownDate3 = new Date( "2021/07/17 09:00:00 GMT+02:00").getTime();
 
                         // Update the count down every 1 second
                         var x = setInterval(function() {
@@ -729,7 +729,7 @@ permalink: /more
                         var now = new Date().getTime();
 
                         // Find the distance between now and the count down date
-                        var distance = countDownDate8 - now;
+                        var distance = countDownDate3 - now;
 
                         // Time calculations for days, hours, minutes and seconds
                         var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
@@ -741,32 +741,31 @@ permalink: /more
                         // Display the result in the element with id="timer"
                         if (weeks == 0) {
                             if (days == 0) {
-                                document.getElementById("timer8").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
+                                document.getElementById("timer3").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
                             }
                             else {
-                                document.getElementById("timer8").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                                document.getElementById("timer3").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
                             }
                         }
                         else {
-                            document.getElementById("timer8").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                            document.getElementById("timer3").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
                         }
 
                         // If the count down is finished, write some text
                         if (distance < 0) {
                             clearInterval(x);
-                            document.getElementById("timer8").innerHTML = "parkrun's Back!";
+                            document.getElementById("timer3").innerHTML = "parkrun's Back!";
                         }
                         }, 1000);
 
-                        var cdinput8 = new Date(countDownDate8)
+                        var cdinput3 = new Date(countDownDate3)
 
-                        var cdoutput8 = cdinput8.toLocaleString('default', options);
+                        var cdoutput3 = cdinput3.toLocaleString('default', options);
 
-                        document.getElementById("endDate8").innerHTML = cdoutput8
+                        document.getElementById("endDate3").innerHTML = cdoutput3
                     </script>
                 </div>
-                <p style="text-align: center;">A provisional date was first included in the <a href="https://blog.parkrun.com/uk/2021/06/08/covid-19-coronavirus-update-8-june/">8th June Update</a> but was not in the confirmed list in the <a href="https://blog.parkrun.com/uk/2021/06/15/covid-19-coronavirus-update-15-june/">15th June Update</a>. See the <a href="https://blog.parkrun.com/uk/tag/covid-19/">latest update</a> for more info.</p>
-            </div>-->
+            </div>
             <div class="flex-item">
                 <div class="countdown">
                     <h3 style="margin:inherit; color:inherit">England</h3>
@@ -821,6 +820,116 @@ permalink: /more
                     </script>
                 </div>
                 <p style="text-align: center;">The <a href="https://blog.parkrun.com/uk/2021/07/09/uk-update-9-july/">9th July Update</a> stated 536 events ({{ 536 | divided_by: 564.0 | times: 100 | round }}%) have landowner permission but the published list states {{site.data.parkrun.PtR.size}} of 564 events ({{site.data.parkrun.PtR.size | divided_by: 564.0 | times: 100 | round }}%) have Permission to Return.</p>
+            </div>
+            <div class="flex-item">
+                <div class="countdown">
+                    <!-- Display the timer timer in an element -->
+                    <h3 style="margin:inherit; color:inherit">Canada</h3>
+                    <h2 id="timer8" style="margin:inherit; color:inherit;"></h2>
+                    <p id="endDate8" style="margin:inherit;"></p>
+
+                    <script>
+                        // Set the date we're counting down to
+                        var countDownDate8 = new Date( "2021/07/24 09:00:00 GMT-04:00").getTime();
+
+                        // Update the count down every 1 second
+                        var x = setInterval(function() {
+
+                        // Get today's date and time
+                        var now = new Date().getTime();
+
+                        // Find the distance between now and the count down date
+                        var distance = countDownDate8 - now;
+
+                        // Time calculations for days, hours, minutes and seconds
+                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
+                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
+                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                        // Display the result in the element with id="timer"
+                        if (weeks == 0) {
+                            if (days == 0) {
+                                document.getElementById("timer8").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                            else {
+                                document.getElementById("timer8").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                        }
+                        else {
+                            document.getElementById("timer8").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                        }
+
+                        // If the count down is finished, write some text
+                        if (distance < 0) {
+                            clearInterval(x);
+                            document.getElementById("timer8").innerHTML = "parkrun's Back!";
+                        }
+                        }, 1000);
+
+                        var cdinput8 = new Date(countDownDate8)
+
+                        var cdoutput8 = cdinput8.toLocaleString('default', options);
+
+                        document.getElementById("endDate8").innerHTML = cdoutput8
+                    </script>
+                </div>
+            </div>
+            <div class="flex-item">
+                <div class="countdown">
+                    <!-- Display the timer timer in an element -->
+                    <h3 style="margin:inherit; color:inherit">Finland</h3>
+                    <h2 id="timer4" style="margin:inherit; color:inherit;"></h2>
+                    <p id="endDate4" style="margin:inherit;"></p>
+
+                    <script>
+                        // Set the date we're counting down to
+                        var countDownDate4 = new Date( "2021/08/07 09:30:00 GMT+03:00").getTime();
+
+                        // Update the count down every 1 second
+                        var x = setInterval(function() {
+
+                        // Get today's date and time
+                        var now = new Date().getTime();
+
+                        // Find the distance between now and the count down date
+                        var distance = countDownDate4 - now;
+
+                        // Time calculations for days, hours, minutes and seconds
+                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
+                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
+                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                        // Display the result in the element with id="timer"
+                        if (weeks == 0) {
+                            if (days == 0) {
+                                document.getElementById("timer4").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                            else {
+                                document.getElementById("timer4").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                        }
+                        else {
+                            document.getElementById("timer4").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                        }
+
+                        // If the count down is finished, write some text
+                        if (distance < 0) {
+                            clearInterval(x);
+                            document.getElementById("timer4").innerHTML = "parkrun's Back!";
+                        }
+                        }, 1000);
+
+                        var cdinput4 = new Date(countDownDate4)
+
+                        var cdoutput4 = cdinput4.toLocaleString('default', options);
+
+                        document.getElementById("endDate4").innerHTML = cdoutput4
+                    </script>
+                </div>
             </div>
             <div class="flex-item">
                 <div class="countdown">
