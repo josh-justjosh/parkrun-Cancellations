@@ -768,6 +768,61 @@ permalink: /more
             </div>
             <div class="flex-item">
                 <div class="countdown">
+                    <!-- Display the timer timer in an element -->
+                    <h3 style="margin:inherit; color:inherit">Orkney & Shetland</h3>
+                    <h2 id="timer6" style="margin:inherit; color:inherit;"></h2>
+                    <p id="endDate6" style="margin:inherit;"></p>
+
+                    <script>
+                        // Set the date we're counting down to
+                        var countDownDate6 = new Date( "2021/07/17 09:30:00 GMT+01:00").getTime();
+
+                        // Update the count down every 1 second
+                        var x = setInterval(function() {
+
+                        // Get today's date and time
+                        var now = new Date().getTime();
+
+                        // Find the distance between now and the count down date
+                        var distance = countDownDate6 - now;
+
+                        // Time calculations for days, hours, minutes and seconds
+                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
+                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
+                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                        // Display the result in the element with id="timer"
+                        if (weeks == 0) {
+                            if (days == 0) {
+                                document.getElementById("timer6").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                            else {
+                                document.getElementById("timer6").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                        }
+                        else {
+                            document.getElementById("timer6").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                        }
+
+                        // If the count down is finished, write some text
+                        if (distance < 0) {
+                            clearInterval(x);
+                            document.getElementById("timer6").innerHTML = "parkrun's Back!";
+                        }
+                        }, 1000);
+
+                        var cdinput6 = new Date(countDownDate6)
+
+                        var cdoutput6 = cdinput6.toLocaleString('default', options);
+
+                        document.getElementById("endDate6").innerHTML = cdoutput6
+                    </script>
+                </div>
+            </div>
+            <div class="flex-item">
+                <div class="countdown">
                     <h3 style="margin:inherit; color:inherit">England</h3>
                     <h2 id="timer1" style="margin:inherit; color:inherit;"></h2>
                     <p id="endDate1" style="margin:inherit;"></p>
@@ -989,7 +1044,7 @@ permalink: /more
             <div class="flex-item">
                 <div class="countdown">
                     <!-- Display the timer timer in an element -->
-                    <h3 style="margin:inherit; color:inherit">Scotland (tbc)</h3>
+                    <h3 style="margin:inherit; color:inherit">Mainland Scotland & The Hebrides (tbc)</h3>
                     <h2 id="timer5" style="margin:inherit; color:inherit;"></h2>
                     <p id="endDate5" style="margin:inherit;"></p>
 
