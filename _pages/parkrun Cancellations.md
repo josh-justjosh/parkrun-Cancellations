@@ -95,7 +95,7 @@ permalink: /more
                 flex-direction: column;
             }
             }
-        .collapsible {
+        .collapsible, .collapsiblecan, .collapsiblerein, .collapsiblestatus, .collapsiblestats {
             background-color: #2B233D;
             color: white;
             cursor: pointer;
@@ -107,79 +107,11 @@ permalink: /more
             font-size: 15px;
             }
 
-        .active, .collapsible:hover {
+        .active, .collapsible:hover, .collapsiblecan:hover, .collapsiblerein:hover, .collapsiblestatus:hover, .collapsiblestats:hover {
             background-color: #14101d;
             }
 
-        .expcontent {
-            padding: 0 18px;
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.5s ease-out;
-            }
-
-        .collapsiblecan {
-            background-color: #2B233D;
-            color: white;
-            cursor: pointer;
-            padding: 18px;
-            width: 100%;
-            border: none;
-            text-align: left;
-            outline: none;
-            font-size: 15px;
-            }
-
-        .active, .collapsiblecan:hover {
-            background-color: #14101d;
-            }
-
-        .expcontentcan {
-            padding: 0 18px;
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.5s ease-out;
-            }
-
-        .collapsiblerein {
-            background-color: #2B233D;
-            color: white;
-            cursor: pointer;
-            padding: 18px;
-            width: 100%;
-            border: none;
-            text-align: left;
-            outline: none;
-            font-size: 15px;
-            }
-
-        .active, .collapsiblerein:hover {
-            background-color: #14101d;
-            }
-
-        .expcontentrein {
-            padding: 0 18px;
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.5s ease-out;
-            }
-        .collapsiblestatus {
-            background-color: #2B233D;
-            color: white;
-            cursor: pointer;
-            padding: 18px;
-            width: 100%;
-            border: none;
-            text-align: left;
-            outline: none;
-            font-size: 15px;
-            }
-
-        .active, .collapsiblestatus:hover {
-            background-color: #14101d;
-            }
-
-        .expcontentstatus {
+        .expcontent, .expcontentcan, .expcontentrein, .expcontentstatus, .expcontentstats {
             padding: 0 18px;
             max-height: 0;
             overflow: hidden;
@@ -1227,44 +1159,44 @@ permalink: /more
         <div class="expcontent">
         <h2>Country Situations</h2>
         <div class="flex-container">
-            <div class="flex-status"><div style="background-color:darkorange;" class="countrystatus"><h3>Canada</h3><p id="canadastatus">Returning <a href="#Canada%20Countdown">24 July</a></p></div></div>
-            <div class="flex-status"><div style="background-color:green;" class="countrystatus"><h3>Denmark</h3><p>Events Open</p></div></div>
-            <div class="flex-status"><div style="background-color:red;" class="countrystatus"><h3>Eswatini</h3><p>Event Suspended</p></div></div>
-            <div class="flex-status"><div style="background-color:darkorange;" class="countrystatus"><h3>Finland</h3><p id="finlandstatus">Events Returning <a href="#Finland%20Countdown">7 August</a></p></div></div>
-            <div class="flex-status"><div style="background-color:green;" class="countrystatus"><h3>France</h3><p>Events Open</p></div></div>
-            <div class="flex-status"><div style="background-color:darkorange;" class="countrystatus"><h3>Germany</h3><p id="germanystatus">Events Returning <a href="#Germany%20Countdown">16 July</a></p></div></div>
-            <div class="flex-status"><div style="background-color:red;" class="countrystatus"><h3>Ireland</h3><p>Events Suspended</p></div></div>
-            <div class="flex-status"><div style="background-color:red;" class="countrystatus"><h3>Italy</h3><p>Events Suspended</p></div></div>
-            <div class="flex-status"><div style="background-color:green;" class="countrystatus"><h3>Japan</h3><p>Most Events Open</p></div></div>
-            <div class="flex-status"><div style="background-color:red;" class="countrystatus"><h3>Malaysia</h3><p>Events Suspended</p></div></div>
-            <div class="flex-status"><div style="background-color:red;" class="countrystatus"><h3>Namibia</h3><p>Events Suspended</p></div></div>
-            <div class="flex-status"><div style="background-color:red;" class="countrystatus"><h3>Netherlands</h3><p>Events Suspended</p></div></div>
-            <div class="flex-status"><div style="background-color:green;" class="countrystatus"><h3>New Zealand</h3><p>Events Open</p></div></div>
-            <div class="flex-status"><div style="background-color:red;" class="countrystatus"><h3>Norway</h3><p>Events Suspended</p></div></div>
-            <div class="flex-status"><div style="background-color:green;" class="countrystatus"><h3>Poland</h3><p>Events Open</p></div></div>
-            <div class="flex-status"><div style="background-color:green;" class="countrystatus"><h3>Russia</h3><p>Some Events Open</p></div></div>
-            <div class="flex-status"><div style="background-color:red;" class="countrystatus"><h3>Singapore</h3><p>Events Suspended</p></div></div>
-            <div class="flex-status"><div style="background-color:red;" class="countrystatus"><h3>South Africa</h3><p>Events Suspended</p></div></div>
-            <div class="flex-status"><div style="background-color:darkorange;" class="countrystatus"><h3>Sweden</h3><p id="sweedenstatus">Events Returning <a href="#Sweeden%20Countdown">7 August</a></p></div></div>
-            <div class="flex-status"><div style="background-color:green;" class="countrystatus"><h3>USA</h3><p>Some Events Open</p></div></div>
+            <div class="flex-status"><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>Canada</h3><p id="canadastatus">Returning <a href="#Canada%20Countdown">24 July</a></p></div></div>
+            <div class="flex-status"><div style="background-color: rgb(124, 179, 66);" class="countrystatus"><h3>Denmark</h3><p>Events Open</p></div></div>
+            <div class="flex-status"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Eswatini</h3><p>Event Suspended</p></div></div>
+            <div class="flex-status"><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>Finland</h3><p id="finlandstatus">Events Returning <a href="#Finland%20Countdown">7 August</a></p></div></div>
+            <div class="flex-status"><div style="background-color: rgb(124, 179, 66);" class="countrystatus"><h3>France</h3><p>Events Open</p></div></div>
+            <div class="flex-status"><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>Germany</h3><p id="germanystatus">Events Returning <a href="#Germany%20Countdown">16 July</a></p></div></div>
+            <div class="flex-status"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Ireland</h3><p>Events Suspended</p></div></div>
+            <div class="flex-status"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Italy</h3><p>Events Suspended</p></div></div>
+            <div class="flex-status"><div style="background-color: rgb(124, 179, 66);" class="countrystatus"><h3>Japan</h3><p>Most Events Open</p></div></div>
+            <div class="flex-status"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Malaysia</h3><p>Events Suspended</p></div></div>
+            <div class="flex-status"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Namibia</h3><p>Events Suspended</p></div></div>
+            <div class="flex-status"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Netherlands</h3><p>Events Suspended</p></div></div>
+            <div class="flex-status"><div style="background-color: rgb(124, 179, 66);" class="countrystatus"><h3>New Zealand</h3><p>Events Open</p></div></div>
+            <div class="flex-status"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Norway</h3><p>Events Suspended</p></div></div>
+            <div class="flex-status"><div style="background-color: rgb(124, 179, 66);" class="countrystatus"><h3>Poland</h3><p>Events Open</p></div></div>
+            <div class="flex-status"><div style="background-color: rgb(124, 179, 66);" class="countrystatus"><h3>Russia</h3><p>Some Events Open</p></div></div>
+            <div class="flex-status"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Singapore</h3><p>Events Suspended</p></div></div>
+            <div class="flex-status"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>South Africa</h3><p>Events Suspended</p></div></div>
+            <div class="flex-status"><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>Sweden</h3><p id="sweedenstatus">Events Returning <a href="#Sweeden%20Countdown">7 August</a></p></div></div>
+            <div class="flex-status"><div style="background-color: rgb(124, 179, 66);" class="countrystatus"><h3>USA</h3><p>Some Events Open</p></div></div>
         </div>
         <h3>Australia</h3>
         <div class="flex-container">
-            <div class="flex-status"><div class="countrystatus" style="background-color:green;"><h4>Australian Capital Territory</h4><p>Events Open</p></div></div>
+            <div class="flex-status"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>Australian Capital Territory</h4><p>Events Open</p></div></div>
             <div class="flex-status"><div class="countrystatus"><h4>New South Wales</h4><p style="color:revert;">Some Events Open,<br/>Sydney Events Suspended</p></div></div>
-            <div class="flex-status"><div class="countrystatus" style="background-color:green;"><h4>Northern Territory</h4><p>Events Open</p></div></div>
-            <div class="flex-status"><div class="countrystatus" style="background-color:green;"><h4>Queensland</h4><p>Events Open</p></div></div>
-            <div class="flex-status"><div class="countrystatus" style="background-color:green;"><h4>South Australia</h4><p>Events Open</p></div></div>
-            <div class="flex-status"><div class="countrystatus" style="background-color:green;"><h4>Tasmania</h4><p>Events Open</p></div></div>
-            <div class="flex-status"><div class="countrystatus" style="background-color:red;"><h4>Victoria</h4><p>Events Suspended</p></div></div>
-            <div class="flex-status"><div class="countrystatus" style="background-color:green;"><h4>Western Australia</h4><p>Events Open</p></div></div>
+            <div class="flex-status"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>Northern Territory</h4><p>Events Open</p></div></div>
+            <div class="flex-status"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>Queensland</h4><p>Events Open</p></div></div>
+            <div class="flex-status"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>South Australia</h4><p>Events Open</p></div></div>
+            <div class="flex-status"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>Tasmania</h4><p>Events Open</p></div></div>
+            <div class="flex-status"><div class="countrystatus" style="background-color: rgb(165, 39, 20);"><h4>Victoria</h4><p>Events Suspended</p></div></div>
+            <div class="flex-status"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>Western Australia</h4><p>Events Open</p></div></div>
         </div>
         <h3>United Kingdom</h3>
         <div class="flex-container">
-            <div class="flex-status" style="flex-basis: 48%"><div class="countrystatus" style="background-color:darkorange;"><h4>England</h4><p id="englandstatus">Events Returning <a href="#England%20Countdown">24 July</a></p></div></div>
-            <div class="flex-status" style="flex-basis: 48%"><div class="countrystatus" style="background-color:green;"><h4>Northern Ireland</h4><p>Events Open</p></div></div>
-            <div class="flex-status" style="flex-basis: 48%"><div class="countrystatus" style="background-color:darkorange;"><h4>Scotland</h4><p id="scotlandstatus">Events Potentially Returning <a href="#Scotland%20Countdown">14 August</a></p></div></div>
-            <div class="flex-status" style="flex-basis: 48%"><div class="countrystatus" style="background-color:darkorange;"><h4>Wales</h4><p id="walesstatus">Events Potentially Returning <a href="#Wales%20Countdown">14 August</a></p></div></div>
+            <div class="flex-status" style="flex-basis: 48%"><div class="countrystatus" style="background-color: rgb(249, 168, 37);"><h4>England</h4><p id="englandstatus">Events Returning <a href="#England%20Countdown">24 July</a></p></div></div>
+            <div class="flex-status" style="flex-basis: 48%"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>Northern Ireland</h4><p>Events Open</p></div></div>
+            <div class="flex-status" style="flex-basis: 48%"><div class="countrystatus" style="background-color: rgb(249, 168, 37);"><h4>Scotland</h4><p id="scotlandstatus">Events Potentially Returning <a href="#Scotland%20Countdown">14 August</a></p></div></div>
+            <div class="flex-status" style="flex-basis: 48%"><div class="countrystatus" style="background-color: rgb(249, 168, 37);"><h4>Wales</h4><p id="walesstatus">Events Potentially Returning <a href="#Wales%20Countdown">14 August</a></p></div></div>
         </div>
         </div>
         <script>
@@ -1290,82 +1222,100 @@ permalink: /more
         document.getElementById("scotlandstatus").innerHTML = "Potentially Returning<br/><a href='#Scotland%20Countdown'>" + cdoutput5 + "</a>"
         document.getElementById("walesstatus").innerHTML = "Potentially Returning<br/><a href='#Wales%20Countdown'>" + cdoutput7 + "</a>"
         </script>
+        <button type="button" class="collapsiblestats" style="margin: 5px;">Click to view a summary of the data for each country</button>
+        <div class="expcontent">
+            <h2>Events</h2>
+            <table style="width: 100%">
+                {% for row in site.data.parkrun.countries-data %}
+                    <tr>
+                        {% if forloop.first %}
+                            {% for pair in row %}
+                                <th>{{ pair[0] }}</th>
+                            {% endfor %}
+                            </tr>
+                            <tr>
+                            {% for pair in row %}
+                                <td>{{ pair[1] }}</td>
+                            {% endfor %}
+                        {% elsif forloop.last %}
+                            {% for pair in row %}
+                                <th>{{ pair[1] }}</th>
+                            {% endfor %}
+                        {% else %}
+                            {% for pair in row %}
+                                <td>{{ pair[1] }}</td>
+                            {% endfor %}
+                        {% endif %}
+                    </tr>
+                {% endfor %}
+            </table>
+            <h2>UK Events</h2>
+            <table style="width: 100%">
+                {% for row in site.data.parkrun.uk-data %}
+                    <tr>
+                        {% if forloop.first %}
+                            {% for pair in row %}
+                                <th>{{ pair[0] }}</th>
+                            {% endfor %}
+                            </tr>
+                            <tr>
+                            {% for pair in row %}
+                                <td>{{ pair[1] }}</td>
+                            {% endfor %}
+                        {% elsif forloop.last %}
+                            {% for pair in row %}
+                                <th>{{ pair[1] }}</th>
+                            {% endfor %}
+                        {% else %}
+                            {% for pair in row %}
+                                <td>{{ pair[1] }}</td>
+                            {% endfor %}
+                        {% endif %}
+                    </tr>
+                {% endfor %}
+            </table>
+            <h2>Australian Events</h2>
+            <table style="width: 100%">
+                {% for row in site.data.parkrun.aus-data %}
+                    <tr>
+                        {% if forloop.first %}
+                            {% for pair in row %}
+                                <th>{{ pair[0] }}</th>
+                            {% endfor %}
+                            </tr>
+                            <tr>
+                            {% for pair in row %}
+                                <td>{{ pair[1] }}</td>
+                            {% endfor %}
+                        {% elsif forloop.last %}
+                            {% for pair in row %}
+                                <th>{{ pair[1] }}</th>
+                            {% endfor %}
+                        {% else %}
+                            {% for pair in row %}
+                                <td>{{ pair[1] }}</td>
+                            {% endfor %}
+                        {% endif %}
+                    </tr>
+                {% endfor %}
+            </table>
+        </div>
+        <script>
+            var coll = document.getElementsByClassName("collapsiblestats");
+            var i;
 
-        <h2>Events</h2>
-        <table style="width: 100%">
-            {% for row in site.data.parkrun.countries-data %}
-                <tr>
-                    {% if forloop.first %}
-                        {% for pair in row %}
-                            <th>{{ pair[0] }}</th>
-                        {% endfor %}
-                        </tr>
-                        <tr>
-                        {% for pair in row %}
-                            <td>{{ pair[1] }}</td>
-                        {% endfor %}
-                    {% elsif forloop.last %}
-                        {% for pair in row %}
-                            <th>{{ pair[1] }}</th>
-                        {% endfor %}
-                    {% else %}
-                        {% for pair in row %}
-                            <td>{{ pair[1] }}</td>
-                        {% endfor %}
-                    {% endif %}
-                </tr>
-            {% endfor %}
-        </table>
-        <h2>UK Events</h2>
-        <table style="width: 100%">
-            {% for row in site.data.parkrun.uk-data %}
-                <tr>
-                    {% if forloop.first %}
-                        {% for pair in row %}
-                            <th>{{ pair[0] }}</th>
-                        {% endfor %}
-                        </tr>
-                        <tr>
-                        {% for pair in row %}
-                            <td>{{ pair[1] }}</td>
-                        {% endfor %}
-                    {% elsif forloop.last %}
-                        {% for pair in row %}
-                            <th>{{ pair[1] }}</th>
-                        {% endfor %}
-                    {% else %}
-                        {% for pair in row %}
-                            <td>{{ pair[1] }}</td>
-                        {% endfor %}
-                    {% endif %}
-                </tr>
-            {% endfor %}
-        </table>
-        <h2>Australian Events</h2>
-        <table style="width: 100%">
-            {% for row in site.data.parkrun.aus-data %}
-                <tr>
-                    {% if forloop.first %}
-                        {% for pair in row %}
-                            <th>{{ pair[0] }}</th>
-                        {% endfor %}
-                        </tr>
-                        <tr>
-                        {% for pair in row %}
-                            <td>{{ pair[1] }}</td>
-                        {% endfor %}
-                    {% elsif forloop.last %}
-                        {% for pair in row %}
-                            <th>{{ pair[1] }}</th>
-                        {% endfor %}
-                    {% else %}
-                        {% for pair in row %}
-                            <td>{{ pair[1] }}</td>
-                        {% endfor %}
-                    {% endif %}
-                </tr>
-            {% endfor %}
-        </table>
+            for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var expcontent = this.nextElementSibling;
+                if (expcontent.style.maxHeight){
+                expcontent.style.maxHeight = null;
+                } else {
+                expcontent.style.maxHeight = expcontent.scrollHeight + "px";
+                } 
+            });
+            }
+            </script>
     </body>
 </html>
 
