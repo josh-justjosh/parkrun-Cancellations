@@ -163,6 +163,28 @@ permalink: /more
             overflow: hidden;
             transition: max-height 0.5s ease-out;
             }
+        .collapsiblestatus {
+            background-color: #2B233D;
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            }
+
+        .active, .collapsiblestatus:hover {
+            background-color: #14101d;
+            }
+
+        .expcontentstatus {
+            padding: 0 18px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease-out;
+            }
         </style>
     </head>
     <body>
@@ -711,7 +733,7 @@ permalink: /more
         <h2>parkrun returns in:</h2>
         <script>let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZoneName: 'short', hour:'2-digit', minute:'2-digit'};</script>
         <div class="flex-container">
-            <div class="flex-item">
+            <div class="flex-item" id="Germany Countdown">
                 <div class="countdown">
                     <!-- Display the timer timer in an element -->
                     <h3 style="margin:inherit; color:inherit">Germany</h3>
@@ -766,7 +788,7 @@ permalink: /more
                     </script>
                 </div>
             </div>
-            <div class="flex-item">
+            <div class="flex-item" id="O&S Countdown">
                 <div class="countdown">
                     <!-- Display the timer timer in an element -->
                     <h3 style="margin:inherit; color:inherit">Orkney & Shetland</h3>
@@ -821,7 +843,7 @@ permalink: /more
                     </script>
                 </div>
             </div>
-            <div class="flex-item">
+            <div class="flex-item" id="England Countdown">
                 <div class="countdown">
                     <h3 style="margin:inherit; color:inherit">England</h3>
                     <h2 id="timer1" style="margin:inherit; color:inherit;"></h2>
@@ -876,7 +898,7 @@ permalink: /more
                 </div>
                 <p style="text-align: center;">The <a href="https://blog.parkrun.com/uk/2021/07/09/uk-update-9-july/">9th July Update</a> stated 536 events ({{ 536 | divided_by: 564.0 | times: 100 | round }}%) have landowner permission but the published list states {{site.data.parkrun.PtR.size}} of 564 events ({{site.data.parkrun.PtR.size | divided_by: 564.0 | times: 100 | round }}%) have Permission to Return.</p>
             </div>
-            <div class="flex-item">
+            <div class="flex-item" id="Canada Countdown">
                 <div class="countdown">
                     <!-- Display the timer timer in an element -->
                     <h3 style="margin:inherit; color:inherit">Canada</h3>
@@ -931,7 +953,7 @@ permalink: /more
                     </script>
                 </div>
             </div>
-            <div class="flex-item">
+            <div class="flex-item" id="Finland Countdown">
                 <div class="countdown">
                     <!-- Display the timer timer in an element -->
                     <h3 style="margin:inherit; color:inherit">Finland</h3>
@@ -986,7 +1008,7 @@ permalink: /more
                     </script>
                 </div>
             </div>
-            <div class="flex-item">
+            <div class="flex-item" id="Sweeden Countdown">
                 <div class="countdown">
                     <!-- Display the timer timer in an element -->
                     <h3 style="margin:inherit; color:inherit">Sweden</h3>
@@ -1041,7 +1063,62 @@ permalink: /more
                     </script>
                 </div>
             </div>
-            <div class="flex-item">
+            <div class="flex-item" id="Wales Countdown">
+                <div class="countdown">
+                    <!-- Display the timer timer in an element -->
+                    <h3 style="margin:inherit; color:inherit">Wales (tbc)</h3>
+                    <h2 id="timer7" style="margin:inherit; color:inherit;"></h2>
+                    <p id="endDate7" style="margin:inherit;"></p>
+
+                    <script>
+                        // Set the date we're counting down to
+                        var countDownDate7 = new Date( "2021/08/14 09:00:00 GMT+01:00").getTime();
+
+                        // Update the count down every 1 second
+                        var x = setInterval(function() {
+
+                        // Get today's date and time
+                        var now = new Date().getTime();
+
+                        // Find the distance between now and the count down date
+                        var distance = countDownDate7 - now;
+
+                        // Time calculations for days, hours, minutes and seconds
+                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
+                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
+                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                        // Display the result in the element with id="timer"
+                        if (weeks == 0) {
+                            if (days == 0) {
+                                document.getElementById("timer7").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                            else {
+                                document.getElementById("timer7").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                        }
+                        else {
+                            document.getElementById("timer7").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                        }
+
+                        // If the count down is finished, write some text
+                        if (distance < 0) {
+                            clearInterval(x);
+                            document.getElementById("timer7").innerHTML = "parkrun's Back!";
+                        }
+                        }, 1000);
+
+                        var cdinput7 = new Date(countDownDate7)
+
+                        var cdoutput7 = cdinput7.toLocaleString('default', options);
+
+                        document.getElementById("endDate7").innerHTML = cdoutput7
+                    </script>
+                </div>
+            </div>
+            <div class="flex-item" id="Scotland Countdown">
                 <div class="countdown">
                     <!-- Display the timer timer in an element -->
                     <h3 style="margin:inherit; color:inherit">Mainland Scotland & The Hebrides (tbc)</h3>
@@ -1095,7 +1172,6 @@ permalink: /more
                         document.getElementById("endDate5").innerHTML = cdoutput5
                     </script>
                 </div>
-                <p style="text-align: center;">A provisional date was first included in the <a href="https://blog.parkrun.com/uk/2021/06/25/uk-update-25-june/">25th June Update</a> and was still in <a href="https://blog.parkrun.com/uk/2021/07/09/uk-update-9-july/">9th July Update</a> but is awaiting confirmation.</p>
             </div>
         </div>
         <br />
@@ -1123,6 +1199,96 @@ permalink: /more
                 } 
             });
             }
+        </script>
+
+        <style>
+        .countrystatus {
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            justify-content: center;
+        }
+        .countrystatus * {
+                margin: 0;
+            }
+        .countrystatus p, .countrystatus a {
+                color: white;
+            }
+        .countrystatus a {
+                font-weight: bold;
+            }
+        .flex-status {
+            margin: 5px;
+            flex-grow: 1;
+        }
+        </style>
+        <button type="button" class="collapsiblestatus" style="margin: 5px;">Click to view a summary of the status of parkruns in each country</button>
+        <div class="expcontent">
+        <h2>Country Situations</h2>
+        <div class="flex-container">
+            <div class="flex-status"><div style="background-color:darkorange;" class="countrystatus"><h3>Canada</h3><p id="canadastatus">Returning <a href="#Canada%20Countdown">24 July</a></p></div></div>
+            <div class="flex-status"><div style="background-color:green;" class="countrystatus"><h3>Denmark</h3><p>Events Open</p></div></div>
+            <div class="flex-status"><div style="background-color:red;" class="countrystatus"><h3>Eswatini</h3><p>Event Suspended</p></div></div>
+            <div class="flex-status"><div style="background-color:darkorange;" class="countrystatus"><h3>Finland</h3><p id="finlandstatus">Events Returning <a href="#Finland%20Countdown">7 August</a></p></div></div>
+            <div class="flex-status"><div style="background-color:green;" class="countrystatus"><h3>France</h3><p>Events Open</p></div></div>
+            <div class="flex-status"><div style="background-color:darkorange;" class="countrystatus"><h3>Germany</h3><p id="germanystatus">Events Returning <a href="#Germany%20Countdown">16 July</a></p></div></div>
+            <div class="flex-status"><div style="background-color:red;" class="countrystatus"><h3>Ireland</h3><p>Events Suspended</p></div></div>
+            <div class="flex-status"><div style="background-color:red;" class="countrystatus"><h3>Italy</h3><p>Events Suspended</p></div></div>
+            <div class="flex-status"><div style="background-color:green;" class="countrystatus"><h3>Japan</h3><p>Most Events Open</p></div></div>
+            <div class="flex-status"><div style="background-color:red;" class="countrystatus"><h3>Malaysia</h3><p>Events Suspended</p></div></div>
+            <div class="flex-status"><div style="background-color:red;" class="countrystatus"><h3>Namibia</h3><p>Events Suspended</p></div></div>
+            <div class="flex-status"><div style="background-color:red;" class="countrystatus"><h3>Netherlands</h3><p>Events Suspended</p></div></div>
+            <div class="flex-status"><div style="background-color:green;" class="countrystatus"><h3>New Zealand</h3><p>Events Open</p></div></div>
+            <div class="flex-status"><div style="background-color:red;" class="countrystatus"><h3>Norway</h3><p>Events Suspended</p></div></div>
+            <div class="flex-status"><div style="background-color:green;" class="countrystatus"><h3>Poland</h3><p>Events Open</p></div></div>
+            <div class="flex-status"><div style="background-color:green;" class="countrystatus"><h3>Russia</h3><p>Some Events Open</p></div></div>
+            <div class="flex-status"><div style="background-color:red;" class="countrystatus"><h3>Singapore</h3><p>Events Suspended</p></div></div>
+            <div class="flex-status"><div style="background-color:red;" class="countrystatus"><h3>South Africa</h3><p>Events Suspended</p></div></div>
+            <div class="flex-status"><div style="background-color:darkorange;" class="countrystatus"><h3>Sweden</h3><p id="sweedenstatus">Events Returning <a href="#Sweeden%20Countdown">7 August</a></p></div></div>
+            <div class="flex-status"><div style="background-color:green;" class="countrystatus"><h3>USA</h3><p>Some Events Open</p></div></div>
+        </div>
+        <h3>Australia</h3>
+        <div class="flex-container">
+            <div class="flex-status"><div class="countrystatus" style="background-color:green;"><h4>Australian Capital Territory</h4><p>Events Open</p></div></div>
+            <div class="flex-status"><div class="countrystatus"><h4>New South Wales</h4><p style="color:revert;">Some Events Open,<br/>Sydney Events Suspended</p></div></div>
+            <div class="flex-status"><div class="countrystatus" style="background-color:green;"><h4>Northern Territory</h4><p>Events Open</p></div></div>
+            <div class="flex-status"><div class="countrystatus" style="background-color:green;"><h4>Queensland</h4><p>Events Open</p></div></div>
+            <div class="flex-status"><div class="countrystatus" style="background-color:green;"><h4>South Australia</h4><p>Events Open</p></div></div>
+            <div class="flex-status"><div class="countrystatus" style="background-color:green;"><h4>Tasmania</h4><p>Events Open</p></div></div>
+            <div class="flex-status"><div class="countrystatus" style="background-color:red;"><h4>Victoria</h4><p>Events Suspended</p></div></div>
+            <div class="flex-status"><div class="countrystatus" style="background-color:green;"><h4>Western Australia</h4><p>Events Open</p></div></div>
+        </div>
+        <h3>United Kingdom</h3>
+        <div class="flex-container">
+            <div class="flex-status" style="flex-basis: 48%"><div class="countrystatus" style="background-color:darkorange;"><h4>England</h4><p id="englandstatus">Events Returning <a href="#England%20Countdown">24 July</a></p></div></div>
+            <div class="flex-status" style="flex-basis: 48%"><div class="countrystatus" style="background-color:green;"><h4>Northern Ireland</h4><p>Events Open</p></div></div>
+            <div class="flex-status" style="flex-basis: 48%"><div class="countrystatus" style="background-color:darkorange;"><h4>Scotland</h4><p id="scotlandstatus">Events Potentially Returning <a href="#Scotland%20Countdown">14 August</a></p></div></div>
+            <div class="flex-status" style="flex-basis: 48%"><div class="countrystatus" style="background-color:darkorange;"><h4>Wales</h4><p id="walesstatus">Events Potentially Returning <a href="#Wales%20Countdown">14 August</a></p></div></div>
+        </div>
+        </div>
+        <script>
+            var coll = document.getElementsByClassName("collapsiblestatus");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var expcontent = this.nextElementSibling;
+                if (expcontent.style.maxHeight){
+                expcontent.style.maxHeight = null;
+                } else {
+                expcontent.style.maxHeight = expcontent.scrollHeight + "px";
+                } 
+            });
+            }
+        document.getElementById("canadastatus").innerHTML = "Returning<br/><a href='#Canada%20Countdown'>" + cdoutput8 + "</a>"
+        document.getElementById("finlandstatus").innerHTML = "Returning<br/><a href='#Finland%20Countdown'>" + cdoutput4 + "</a>"
+        document.getElementById("germanystatus").innerHTML = "Returning<br/><a href='#Germany%20Countdown'>" + cdoutput3 + "</a>"
+        document.getElementById("sweedenstatus").innerHTML = "Returning<br/><a href='#Sweeden%20Countdown'>" + cdoutput9 + "</a>"
+        document.getElementById("englandstatus").innerHTML = "Returning<br/><a href='#England%20Countdown'>" + cdoutput1 + "</a>"
+        document.getElementById("scotlandstatus").innerHTML = "Potentially Returning<br/><a href='#Scotland%20Countdown'>" + cdoutput5 + "</a>"
+        document.getElementById("walesstatus").innerHTML = "Potentially Returning<br/><a href='#Wales%20Countdown'>" + cdoutput7 + "</a>"
         </script>
 
         <h2>Events</h2>
