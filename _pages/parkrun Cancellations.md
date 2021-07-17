@@ -100,7 +100,8 @@ permalink: /more
             color: white;
             cursor: pointer;
             padding: 18px;
-            width: 100%;
+            width: -webkit-fill-available;
+            width: -moz-available;
             border: none;
             text-align: left;
             outline: none;
@@ -117,6 +118,9 @@ permalink: /more
             overflow: hidden;
             transition: max-height 0.5s ease-out;
             }
+        .hscrollable {
+            overflow-x: auto;
+        }
         </style>
     </head>
     <body>
@@ -1114,7 +1118,8 @@ permalink: /more
         <button type="button" class="collapsiblestats" style="margin: 5px;">Click to view a summary of the data for each country</button>
         <div class="expcontent">
             <h2>Events</h2>
-            <table style="width: 100%">
+            <div class="hscrollable">
+            <table style="width: 100%;">
                 {% for row in site.data.parkrun.countries-data %}
                     <tr>
                         {% if forloop.first %}
@@ -1138,8 +1143,10 @@ permalink: /more
                     </tr>
                 {% endfor %}
             </table>
+            </div>
             <h2>UK Events</h2>
-            <table style="width: 100%">
+            <div class="hscrollable">
+            <table style="width: 100%;">
                 {% for row in site.data.parkrun.uk-data %}
                     <tr>
                         {% if forloop.first %}
@@ -1163,8 +1170,10 @@ permalink: /more
                     </tr>
                 {% endfor %}
             </table>
+            </div>
             <h2>Australian Events</h2>
-            <table style="width: 100%">
+            <div class="hscrollable">
+            <table style="width: 100%;">
                 {% for row in site.data.parkrun.aus-data %}
                     <tr>
                         {% if forloop.first %}
@@ -1188,6 +1197,7 @@ permalink: /more
                     </tr>
                 {% endfor %}
             </table>
+            </div>
         </div>
         <script>
             var coll = document.getElementsByClassName("collapsiblestats");
