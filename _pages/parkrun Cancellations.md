@@ -665,116 +665,6 @@ permalink: /more
         <h2>parkrun returns in:</h2>
         <script>let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZoneName: 'short', hour:'2-digit', minute:'2-digit'};</script>
         <div class="flex-container">
-            <div class="flex-item" id="Germany Countdown">
-                <div class="countdown">
-                    <!-- Display the timer timer in an element -->
-                    <h3 style="margin:inherit; color:inherit">Germany</h3>
-                    <h2 id="timer3" style="margin:inherit; color:inherit;"></h2>
-                    <p id="endDate3" style="margin:inherit;"></p>
-
-                    <script>
-                        // Set the date we're counting down to
-                        var countDownDate3 = new Date( "2021/07/17 09:00:00 GMT+02:00").getTime();
-
-                        // Update the count down every 1 second
-                        var x = setInterval(function() {
-
-                        // Get today's date and time
-                        var now = new Date().getTime();
-
-                        // Find the distance between now and the count down date
-                        var distance = countDownDate3 - now;
-
-                        // Time calculations for days, hours, minutes and seconds
-                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
-                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
-                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-                        // Display the result in the element with id="timer"
-                        if (weeks == 0) {
-                            if (days == 0) {
-                                document.getElementById("timer3").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                            else {
-                                document.getElementById("timer3").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                        }
-                        else {
-                            document.getElementById("timer3").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                        }
-
-                        // If the count down is finished, write some text
-                        if (distance < 0) {
-                            clearInterval(x);
-                            document.getElementById("timer3").innerHTML = "parkrun's Back!";
-                        }
-                        }, 1000);
-
-                        var cdinput3 = new Date(countDownDate3)
-
-                        var cdoutput3 = cdinput3.toLocaleString('default', options);
-
-                        document.getElementById("endDate3").innerHTML = cdoutput3
-                    </script>
-                </div>
-            </div>
-            <div class="flex-item" id="O&S Countdown">
-                <div class="countdown">
-                    <!-- Display the timer timer in an element -->
-                    <h3 style="margin:inherit; color:inherit">Orkney & Shetland</h3>
-                    <h2 id="timer6" style="margin:inherit; color:inherit;"></h2>
-                    <p id="endDate6" style="margin:inherit;"></p>
-
-                    <script>
-                        // Set the date we're counting down to
-                        var countDownDate6 = new Date( "2021/07/17 09:30:00 GMT+01:00").getTime();
-
-                        // Update the count down every 1 second
-                        var x = setInterval(function() {
-
-                        // Get today's date and time
-                        var now = new Date().getTime();
-
-                        // Find the distance between now and the count down date
-                        var distance = countDownDate6 - now;
-
-                        // Time calculations for days, hours, minutes and seconds
-                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
-                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
-                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-                        // Display the result in the element with id="timer"
-                        if (weeks == 0) {
-                            if (days == 0) {
-                                document.getElementById("timer6").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                            else {
-                                document.getElementById("timer6").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                        }
-                        else {
-                            document.getElementById("timer6").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                        }
-
-                        // If the count down is finished, write some text
-                        if (distance < 0) {
-                            clearInterval(x);
-                            document.getElementById("timer6").innerHTML = "parkrun's Back!";
-                        }
-                        }, 1000);
-
-                        var cdinput6 = new Date(countDownDate6)
-
-                        var cdoutput6 = cdinput6.toLocaleString('default', options);
-
-                        document.getElementById("endDate6").innerHTML = cdoutput6
-                    </script>
-                </div>
-            </div>
             <div class="flex-item" id="England Countdown">
                 <div class="countdown">
                     <h3 style="margin:inherit; color:inherit">England</h3>
@@ -1164,7 +1054,7 @@ permalink: /more
             <div class="flex-status"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Eswatini</h3><p>Event Suspended</p></div></div>
             <div class="flex-status"><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>Finland</h3><p id="finlandstatus">Events Returning <a href="#Finland%20Countdown">7 August</a></p></div></div>
             <div class="flex-status"><div style="background-color: rgb(124, 179, 66);" class="countrystatus"><h3>France</h3><p>Events Open</p></div></div>
-            <div class="flex-status"><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>Germany</h3><p id="germanystatus">Events Returning <a href="#Germany%20Countdown">16 July</a></p></div></div>
+            <div class="flex-status"><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>Germany</h3><p>Some Events Open</p></div></div>
             <div class="flex-status"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Ireland</h3><p>Events Suspended</p></div></div>
             <div class="flex-status"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Italy</h3><p>Events Suspended</p></div></div>
             <div class="flex-status"><div style="background-color: rgb(124, 179, 66);" class="countrystatus"><h3>Japan</h3><p>Most Events Open</p></div></div>
@@ -1174,11 +1064,11 @@ permalink: /more
             <div class="flex-status"><div style="background-color: rgb(124, 179, 66);" class="countrystatus"><h3>New Zealand</h3><p>Events Open</p></div></div>
             <div class="flex-status"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Norway</h3><p>Events Suspended</p></div></div>
             <div class="flex-status"><div style="background-color: rgb(124, 179, 66);" class="countrystatus"><h3>Poland</h3><p>Events Open</p></div></div>
-            <div class="flex-status"><div style="background-color: rgb(124, 179, 66);" class="countrystatus"><h3>Russia</h3><p>Some Events Open</p></div></div>
+            <div class="flex-status"><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>Russia</h3><p>Some Events Open</p></div></div>
             <div class="flex-status"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Singapore</h3><p>Events Suspended</p></div></div>
             <div class="flex-status"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>South Africa</h3><p>Events Suspended</p></div></div>
             <div class="flex-status"><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>Sweden</h3><p id="sweedenstatus">Events Returning <a href="#Sweeden%20Countdown">7 August</a></p></div></div>
-            <div class="flex-status"><div style="background-color: rgb(124, 179, 66);" class="countrystatus"><h3>USA</h3><p>Some Events Open</p></div></div>
+            <div class="flex-status"><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>USA</h3><p>Some Events Open</p></div></div>
         </div>
         <h3>Australia</h3>
         <div class="flex-container">
@@ -1216,7 +1106,6 @@ permalink: /more
             }
         document.getElementById("canadastatus").innerHTML = "Returning<br/><a href='#Canada%20Countdown'>" + cdoutput8 + "</a>"
         document.getElementById("finlandstatus").innerHTML = "Returning<br/><a href='#Finland%20Countdown'>" + cdoutput4 + "</a>"
-        document.getElementById("germanystatus").innerHTML = "Returning<br/><a href='#Germany%20Countdown'>" + cdoutput3 + "</a>"
         document.getElementById("sweedenstatus").innerHTML = "Returning<br/><a href='#Sweeden%20Countdown'>" + cdoutput9 + "</a>"
         document.getElementById("englandstatus").innerHTML = "Returning<br/><a href='#England%20Countdown'>" + cdoutput1 + "</a>"
         document.getElementById("scotlandstatus").innerHTML = "Potentially Returning<br/><a href='#Scotland%20Countdown'>" + cdoutput5 + "</a>"

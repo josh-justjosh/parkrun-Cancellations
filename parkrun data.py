@@ -785,10 +785,12 @@ with open('_data/parkrun/aus-data.tsv','wt', encoding='utf-8', newline='') as f:
 print("aus-data.tsv saved")
 
 for cancellation in cancellations_data:
+    out = ''
     for parkrun in events['features']:
         if parkrun['properties']['EventLongName'] == cancellation[0]:
-            cancellation.append(parkrun['properties']['Website'])
+            out = parkrun['properties']['Website']
             break
+    cancellation.append(out)
     #print(cancellation)
 
 cancellations_changes = []
@@ -905,7 +907,10 @@ if cancellations_changes != []:
             out += '    </tr>' + '\n'
             for event in cancellations_additions:
                 out += '    <tr>' + '\n'
-                out += '        <td><a href="' + event[3] + '">' + event[0] + '</a></td>' + '\n'
+                if event[3] != '':
+                    out += '        <td><a href="' + event[3] + '">' + event[0] + '</a></td>' + '\n'
+                else:
+                    out += '        <td>' + event[0] + '</td>' + '\n'
                 out += '        <td>' + event[1] + '</td>' + '\n'
                 out += '        <td>' + event[2] + '</td>' + '\n'
                 out += '    </tr>' + '\n'
@@ -920,7 +925,10 @@ if cancellations_changes != []:
             out += '    </tr>' + '\n'
             for event in cancellations_removals:
                 out += '    <tr>' + '\n'
-                out += '        <td><a href="' + event[3] + '">' + event[0] + '</a></td>' + '\n'
+                if event[3] != '':
+                    out += '        <td><a href="' + event[3] + '">' + event[0] + '</a></td>' + '\n'
+                else:
+                    out += '        <td>' + event[0] + '</td>' + '\n'
                 out += '        <td>' + event[1] + '</td>' + '\n'
                 out += '        <td>' + event[2] + '</td>' + '\n'
                 out += '    </tr>' + '\n'
