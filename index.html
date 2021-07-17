@@ -63,6 +63,7 @@ date: 2021-06-22
             margin: 5px 0;
             border: none;
             border-radius: 4px;
+            color: #fff
         }
 
         #lastupdated {
@@ -173,6 +174,11 @@ date: 2021-06-22
             }
             #share {
                 bottom: 33px;
+            }
+        }
+        @media (max-width: 390px) {
+            #menu {
+                top: 125px
             }
         }
         .mapboxgl-popup-content {
@@ -346,24 +352,24 @@ date: 2021-06-22
                 <label class="button"><input type="button" onclick="hidetoggles()"><span class="material-icons-outlined">close</span></label>
             </div>
             <div class="flex-key">
-                <p id="key1" class="key" style="color: #fff">parkrunning</p>
+                <p id="key1" class="key">parkrunning</p>
                 <label class="switch"><input type="checkbox" id="check1" checked onclick="checktoggles()"><span class="slider round" id="switch1"></span></label>
                 <!--<p id="text" style="display:block; color: #000000">CHECKED!</p>-->
             </div>
             <div class="flex-key">
-                <p id="key2" class="key" style="color: #fff">junior parkrunning</p>
+                <p id="key2" class="key">junior parkrunning</p>
                 <label class="switch"><input type="checkbox" id="check2" checked onclick="checktoggles()"><span class="slider round" id="switch2"></span></label>
             </div>
             <div class="flex-key">
-                <p id="key3" class="key" style="color: #fff">5k Cancellations</p>
+                <p id="key3" class="key">5k Cancellations</p>
                 <label class="switch"><input type="checkbox" id="check3" checked onclick="checktoggles()"><span class="slider round" id="switch3"></span></label>
             </div>
             <div class="flex-key">
-                <p id="key4" class="key" style="color: #fff">junior Cancellations</p>
+                <p id="key4" class="key">junior Cancellations</p>
                 <label class="switch"><input type="checkbox" id="check4" checked onclick="checktoggles()"><span class="slider round" id="switch4"></span></label>
             </div>
             <div class="flex-key">
-                <p id="key5" class="key" style="color: #fff">Permission to Return Received</p>
+                <p id="key5" class="key">Permission to Return Received</p>
                 <label class="switch"><input type="checkbox" id="check5" checked onclick="checktoggles()"><span class="slider round" id="switch5"></span></label>
             </div>
         </div>
@@ -376,8 +382,8 @@ date: 2021-06-22
                 document.getElementById('menu').style.top = "-50px" ;
             }
             function hidetoggles() {
-                document.getElementById('key').style.top = "-500px" ;
-                document.getElementById('menu').style.top = "10px" ;
+                document.getElementById('key').style.top = "" ;
+                document.getElementById('menu').style.top = "" ;
             }
             mapboxgl.accessToken = 'pk.eyJ1Ijoiam9zaC1qdXN0am9zaCIsImEiOiJja3A2eHdmajIwNGFvMndtcmNsbnZycm44In0.SvsoxpdU7NRLYLVRFIu2kw';
             if (maxn != null && maxe != null && maxs != null && maxw != null) {
@@ -522,6 +528,7 @@ date: 2021-06-22
 
             map.on('load', function () {
                 // add a clustered GeoJSON source for a sample set of parkruns
+                document.getElementsByClassName('mapboxgl-ctrl-geocoder mapboxgl-ctrl')[0].style.maxWidth = '92.5%';
                 map.addSource('parkruns', {
                     'type': 'geojson',
                     'data': {{ site.data.parkrun.raw.events | jsonify}},
