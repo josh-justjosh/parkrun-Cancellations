@@ -148,7 +148,7 @@ for i in range(len(cancellation_table)):
     except IndexError:
         break
     
-    if i!=0 and same_week(cancellation_table[i][0]) == True:
+    if same_week(cancellation_table[i][0]) == True:
         #print(cancellation_table[i])
         cancellations_data.append([cancellation_table[i][1],cancellation_table[i][3],cancellation_table[i][4]])
         cancellations_list.append(cancellation_table[i][1])
