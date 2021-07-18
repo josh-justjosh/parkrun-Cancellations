@@ -135,6 +135,8 @@ soup = BeautifulSoup(cancellations, 'html.parser')
 extractor = Extractor(soup)
 extractor.parse()
 cancellation_table = extractor.return_list()
+cancellation_table.pop(-1)
+cancellation_table.pop(0)
 
 cancellations_data = []
 cancellations_list = []
@@ -153,6 +155,7 @@ for i in range(len(cancellation_table)):
 
 with open('_data/parkrun/all-cancellations.tsv','wt', encoding='utf-8', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
+    tsv_writer.writerow(['Date','Event','Region','Country','Cancellation Note'])
     for i in cancellation_table:
         tsv_writer.writerow(i)
     print("all-cancellations.tsv saved")
