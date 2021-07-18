@@ -145,10 +145,17 @@ for i in range(len(cancellation_table)):
             cancellation_table[i][x] = cancellation_table[i][x].strip()
     except IndexError:
         break
+    
     if i!=0 and same_week(cancellation_table[i][0]) == True:
         #print(cancellation_table[i])
         cancellations_data.append([cancellation_table[i][1],cancellation_table[i][3],cancellation_table[i][4]])
         cancellations_list.append(cancellation_table[i][1])
+
+with open('_data/parkrun/all-cancellations.tsv','wt', encoding='utf-8', newline='') as f:
+    tsv_writer = csv.writer(f, delimiter='\t')
+    for i in cancellation_table:
+        tsv_writer.writerow(i)
+    print("all-cancellations.tsv saved")
 
 cancellation_dates = []
 new_states_list = []
