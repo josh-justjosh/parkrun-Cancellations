@@ -299,7 +299,7 @@ date: 2021-06-22
         {% else %}
         <p class="textbox" id="lastupdated" datetime="{{ last_modified_at | date_to_xmlschema }}">Data Last Refreshed: {{ last_modified_at | date: "%R" }} UTC {{ last_modified_at | date: "%A, %e&nbsp;%B&nbsp;%Y" }}</p>
         {% endif %}
-        <p class="textbox" id="dates">Showing data for {% for row in site.data.parkrun.cancellation-dates %}{% for pair in row %}{% for item in pair %}{% if forloop.last %} and {% endif %}{{ item | date: "%A, %e&nbsp;%B&nbsp;%Y" }}{% endfor %}{% endfor %}{% endfor %}</p>
+        <p class="textbox" id="dates">Showing data for {% for row in site.data.parkrun.cancellation-dates %}{% for pair in row %}{% for item in pair %}{% if forloop.last %} and {% endif %}{{ item | date: "%A, %e&nbsp;%B&nbsp;%Y" }}{% endfor %}{% endfor %}{% endfor %}<br/>Always check the event's website and social media before setting out</p>
         <button onclick="copy()" href="{{ site.baseurl }}" class="textbox" id="share"><span class="material-icons-outlined">share</span></button>
         <a class="textbox" id="more" href="{{ site.baseurl }}/more">Find out more</a>
         <style>
