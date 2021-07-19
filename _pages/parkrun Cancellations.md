@@ -1001,7 +1001,7 @@ permalink: /more
             </div>
         </div>
         <br />
-        <button type="button" class="collapsible" style="margin: 5px;">Click to view the english events with permission to return</button>
+        <!--<button type="button" class="collapsible" style="margin: 5px;">Click to view the english events with permission to return</button>
         <div class="expcontent">
             <h3> The following English events have been granted permission to return </h3>
             <div class="ptr-flex">
@@ -1025,7 +1025,7 @@ permalink: /more
                 } 
             });
             }
-        </script>
+        </script>-->
 
         <style>
         .countrystatus {
@@ -1053,37 +1053,37 @@ permalink: /more
         <div class="expcontent">
         <h2>Country Situations</h2>
         <div class="flex-container">
-            <div class="flex-status"><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>Canada</h3><p id="canadastatus">Returning <a href="#Canada%20Countdown">24 July</a></p></div></div>
-            <div class="flex-status"><div style="background-color: rgb(124, 179, 66);" class="countrystatus"><h3>Denmark</h3><p>Events Open</p></div></div>
-            <div class="flex-status"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Eswatini</h3><p>Event Suspended</p></div></div>
-            <div class="flex-status"><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>Finland</h3><p id="finlandstatus">Events Returning <a href="#Finland%20Countdown">7 August</a></p></div></div>
-            <div class="flex-status"><div style="background-color: rgb(124, 179, 66);" class="countrystatus"><h3>France</h3><p>Events Open</p></div></div>
-            <div class="flex-status"><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>Germany</h3><p>Some Events Open</p></div></div>
-            <div class="flex-status"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Ireland</h3><p>Events Suspended</p></div></div>
-            <div class="flex-status"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Italy</h3><p>Events Suspended</p></div></div>
-            <div class="flex-status"><div style="background-color: rgb(124, 179, 66);" class="countrystatus"><h3>Japan</h3><p>Most Events Open</p></div></div>
-            <div class="flex-status"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Malaysia</h3><p>Events Suspended</p></div></div>
-            <div class="flex-status"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Namibia</h3><p>Events Suspended</p></div></div>
-            <div class="flex-status"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Netherlands</h3><p>Events Suspended</p></div></div>
-            <div class="flex-status"><div style="background-color: rgb(124, 179, 66);" class="countrystatus"><h3>New Zealand</h3><p>Events Open</p></div></div>
-            <div class="flex-status"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Norway</h3><p>Events Suspended</p></div></div>
-            <div class="flex-status"><div style="background-color: rgb(124, 179, 66);" class="countrystatus"><h3>Poland</h3><p>Events Open</p></div></div>
-            <div class="flex-status"><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>Russia</h3><p>Some Events Open</p></div></div>
-            <div class="flex-status"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Singapore</h3><p>Events Suspended</p></div></div>
-            <div class="flex-status"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>South Africa</h3><p>Events Suspended</p></div></div>
-            <div class="flex-status"><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>Sweden</h3><p id="sweedenstatus">Events Returning <a href="#Sweeden%20Countdown">7 August</a></p></div></div>
-            <div class="flex-status"><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>USA</h3><p>Some Events Open</p></div></div>
+            <div class="flex-status" style="flex-grow: 2;"><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>Canada</h3><p id="canadastatus">Returning <a href="#Canada%20Countdown">24 July</a></p></div></div>
+            <div class="flex-status" style="flex-basis: 23%"><div style="background-color: rgb(124, 179, 66);" class="countrystatus"><h3>Denmark</h3><p>Events Open</p></div></div>
+            <div class="flex-status" style="flex-basis: 23%"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Eswatini</h3><p>Event Suspended</p></div></div>
+            <div class="flex-status" style="flex-grow: 2;"><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>Finland</h3><p id="finlandstatus">Events Returning <a href="#Finland%20Countdown">7 August</a></p></div></div>
+            <div class="flex-status" style="flex-basis: 23%"><div style="background-color: rgb(124, 179, 66);" class="countrystatus"><h3>France</h3><p>Events Open</p></div></div>
+            <div class="flex-status" style="flex-basis: 23%"><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>Germany</h3><p>Some Events Open</p></div></div>
+            <div class="flex-status" style="flex-basis: 23%"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Ireland</h3><p>Events Suspended</p></div></div>
+            <div class="flex-status" style="flex-basis: 23%"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Italy</h3><p>Events Suspended</p></div></div>
+            <div class="flex-status" style="flex-basis: 23%"><div style="background-color: rgb(124, 179, 66);" class="countrystatus"><h3>Japan</h3><p>Most Events Open</p></div></div>
+            <div class="flex-status" style="flex-basis: 23%"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Malaysia</h3><p>Events Suspended</p></div></div>
+            <div class="flex-status" style="flex-basis: 23%"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Namibia</h3><p>Events Suspended</p></div></div>
+            <div class="flex-status" style="flex-basis: 23%"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Netherlands</h3><p>Events Suspended</p></div></div>
+            <div class="flex-status" style="flex-basis: 23%"><div style="background-color: rgb(124, 179, 66);" class="countrystatus"><h3>New Zealand</h3><p>Events Open</p></div></div>
+            <div class="flex-status" style="flex-basis: 23%"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Norway</h3><p>Events Suspended</p></div></div>
+            <div class="flex-status" style="flex-basis: 23%"><div style="background-color: rgb(124, 179, 66);" class="countrystatus"><h3>Poland</h3><p>Events Open</p></div></div>
+            <div class="flex-status" style="flex-basis: 23%"><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>Russia</h3><p>Some Events Open</p></div></div>
+            <div class="flex-status" style="flex-basis: 23%"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Singapore</h3><p>Events Suspended</p></div></div>
+            <div class="flex-status" style="flex-basis: 23%"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>South Africa</h3><p>Events Suspended</p></div></div>
+            <div class="flex-status" style="flex-grow: 2;"><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>Sweden</h3><p id="sweedenstatus">Events Returning <a href="#Sweeden%20Countdown">7 August</a></p></div></div>
+            <div class="flex-status" style=""><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>USA</h3><p>Some Events Open</p></div></div>
         </div>
         <h3>Australia</h3>
         <div class="flex-container">
-            <div class="flex-status"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>Australian Capital Territory</h4><p>Events Open</p></div></div>
-            <div class="flex-status"><div class="countrystatus"><h4>New South Wales</h4><p style="color:revert;">Some Events Open,<br/>Sydney Events Suspended</p></div></div>
-            <div class="flex-status"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>Northern Territory</h4><p>Events Open</p></div></div>
-            <div class="flex-status"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>Queensland</h4><p>Events Open</p></div></div>
-            <div class="flex-status"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>South Australia</h4><p>Events Open</p></div></div>
-            <div class="flex-status"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>Tasmania</h4><p>Events Open</p></div></div>
-            <div class="flex-status"><div class="countrystatus" style="background-color: rgb(165, 39, 20);"><h4>Victoria</h4><p>Events Suspended</p></div></div>
-            <div class="flex-status"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>Western Australia</h4><p>Events Open</p></div></div>
+            <div class="flex-status" style="flex-basis: 23%"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>Australian Capital Territory</h4><p>Events Open</p></div></div>
+            <div class="flex-status" style="flex-basis: 23%"><div class="countrystatus"><h4>New South Wales</h4><p style="color:revert;">Some Events Open,<br/>Sydney Events Suspended</p></div></div>
+            <div class="flex-status" style="flex-basis: 23%"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>Northern Territory</h4><p>Events Open</p></div></div>
+            <div class="flex-status" style="flex-basis: 23%"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>Queensland</h4><p>Events Open</p></div></div>
+            <div class="flex-status" style="flex-basis: 23%"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>South Australia</h4><p>Events Open</p></div></div>
+            <div class="flex-status" style="flex-basis: 23%"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>Tasmania</h4><p>Events Open</p></div></div>
+            <div class="flex-status" style="flex-basis: 23%"><div class="countrystatus"><h4>Victoria</h4><p style="color:revert;">Status Unclear</p></div></div>
+            <div class="flex-status" style="flex-basis: 23%"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>Western Australia</h4><p>Events Open</p></div></div>
         </div>
         <h3>United Kingdom</h3>
         <div class="flex-container">
