@@ -28,7 +28,7 @@ def tweet(message):
 def now():
     return datetime.datetime.utcnow().astimezone()
 
-PtR_Events = []
+#PtR_Events = []
 
 old_cancellations_data = []
 with open('_data/parkrun/cancellations.tsv','r', encoding='utf-8', newline='') as f:
@@ -44,7 +44,7 @@ with open('_data/parkrun/raw/states.tsv','r', encoding='utf-8', newline='') as f
         states_list.append(row)
 states_list.remove(['Event','Country','State','County'])
 
-try:
+"""try:
     ptr_file = str(open('_data/parkrun/raw/PtR.html', "rb").read())
 
     class MyHTMLParser(HTMLParser):
@@ -77,7 +77,7 @@ with open('_data/parkrun/PtR.tsv','wt', newline='') as f:
     tsv_writer.writerow(['Event',''])
     for i in PtR_Events:
         tsv_writer.writerow([i,''])
-print("PtR.tsv saved")
+print("PtR.tsv saved")"""
 
 #with open('_data/parkrun/PtRtable.csv','w') as f:
 #    f.write("Event\n")
@@ -192,8 +192,8 @@ for parkrun in events['features']:
             parkrun['properties']['DateCancelled'] = None
             parkrun['properties']['ReasonCancelled'] = None
         
-    if parkrun['properties']['EventLongName'] in PtR_Events:
-        parkrun['properties']['Status'] = 'PtR'
+    #if parkrun['properties']['EventLongName'] in PtR_Events:
+    #    parkrun['properties']['Status'] = 'PtR'
 
     if parkrun['properties']['countrycode'] == 3 :
         parkrun['properties']['Website'] = 'https://www.parkrun.com.au/'+parkrun['properties']['eventname']
@@ -293,10 +293,10 @@ for parkrun in events['features']:
         
         
     parkrun['properties']['description']='<h4 style="margin: 0 0 8px;">'+parkrun['properties']['EventLongName']+'</h4><table><tr><th>Status:</th>'
-    if parkrun['properties']['Status'] == 'PtR':
-        parkrun['properties']['description']+='<td>Permission to Return Received</td>'
-    else:
-        parkrun['properties']['description']+='<td>'+parkrun['properties']['Status']+'</td>'
+    #if parkrun['properties']['Status'] == 'PtR':
+    #    parkrun['properties']['description']+='<td>Permission to Return Received</td>'
+    #else:
+    parkrun['properties']['description']+='<td>'+parkrun['properties']['Status']+'</td>'
     parkrun['properties']['description']+='</tr>'
     
     if parkrun['properties']['ReasonCancelled'] != None:
@@ -343,7 +343,7 @@ events_data.sort()
 
 with open('_data/parkrun/events.tsv','wt', encoding='utf-8', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
-    tsv_writer.writerow(['Event','Latitude','Longitude','Country','State','County','Status','DateCancelled','ReasonCancelled','Website'])
+    tsv_writer.writerow(['Event','Latitude','Longitude','Country','State','County','Status','Date Cancelled','Reason Cancelled','Website'])
     for event in events_data:
         tsv_writer.writerow(event)
 print("events.tsv saved")
