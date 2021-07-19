@@ -29,8 +29,8 @@ jobs:
         persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
         fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
         
-    - name: Create local changes
-      run: echo ${{ steps.PtR.outputs.response }} > _data/parkrun/raw/PtR.html
+    #- name: Create local changes
+    #  run: echo ${{ steps.PtR.outputs.response }} > _data/parkrun/raw/PtR.html
 
     - name: setup python
       uses: actions/setup-python@v2
