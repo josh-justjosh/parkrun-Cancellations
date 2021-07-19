@@ -722,7 +722,6 @@ permalink: /more
                         document.getElementById("endDate1").innerHTML = cdoutput1
                     </script>
                 </div>
-                <p style="text-align: center;">The <a href="https://blog.parkrun.com/uk/2021/07/09/uk-update-9-july/">9th July Update</a> stated 536 events ({{ 536 | divided_by: 564.0 | times: 100 | round }}%) have landowner permission but the published list states {{site.data.parkrun.PtR.size}} of 564 events ({{site.data.parkrun.PtR.size | divided_by: 564.0 | times: 100 | round }}%) have Permission to Return.</p>
             </div>
             <div class="flex-item" id="Canada Countdown">
                 <div class="countdown">
