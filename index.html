@@ -198,7 +198,24 @@ date: 2021-06-22
             var maxe = urlParams.get('e')
             var maxs = urlParams.get('s')
             var maxw = urlParams.get('w')
-            const country = urlParams.get('country').toLowerCase()
+            try {
+                var country = urlParams.get('country').toLowerCase()
+            }
+            catch(err) {
+                var country = null
+            }
+            try {
+                var docluster = urlParams.get('cluster').toLowerCase()
+            }
+            catch(err) {
+                var docluster = true
+            }
+            try {
+                var showlayers = urlParams.get('layers').toLowerCase()
+            }
+            catch(err) {
+                var showlayers = 'true,true,true,true'
+            }
             if (country == "united kingdom" || country == "uk" ) {
                 maxn = 60.9094
                 maxe = 1.8628
@@ -230,11 +247,34 @@ date: 2021-06-22
                 maxs = 51.3579
                 maxw = -10.7628
             }
+            if (docluster == "off" || docluster == "false") {
+                docluster = false
+            } else {
+                var docluster = true
+            }
+            if (showlayers.split(',')[0] == 'false' ) {
+                var incparkrunning = false
+            } else {var incparkrunning = true}
+            if (showlayers.split(',')[1] == 'false' ) {
+                var incjuniorrunning = false
+            } else {var incjuniorrunning = true}
+            if (showlayers.split(',')[2] == 'false' ) {
+                var inccancelled5k = false
+            } else {var inccancelled5k = true}
+            if (showlayers.split(',')[3] == 'false' ) {
+                var inccancelled2k = false
+            } else {var inccancelled2k = true}
+            if (showlayers.split(',')[4] == 'false' ) {
+                var incptr = false
+            } else {var incptr = true}
+
             //console.log(zoom);
             //console.log(lat);
             //console.log(long);
             //console.log(center);
             //console.log(country);
+            //console.log(docluster);
+            console.log(showlayers);
             //console.log(maxn);
             //console.log(maxe);
             //console.log(maxs);
@@ -437,37 +477,42 @@ date: 2021-06-22
             // colors to use for the categories
             var colors = ['#7CB342', '#0288D1', '#A52714', '#1A237E', '#F9A825'];
 
-            var incparkrunning = false
-            var incjuniorrunning = true
-            var inccancelled5k = false
-            var inccancelled2k = false
-            var incptr = false
+            //var incparkrunning = true
+            //var incjuniorrunning = true
+            //var inccancelled5k = false
+            //var inccancelled2k = false
+            //var incptr = false
 
             var sourcefilter = ['any',['==', ['get', 'Status'], 'parkrunning'],['==', ['get', 'Status'], 'junior parkrunning'],['==', ['get', 'Status'], '5k Cancellation'],['==', ['get', 'Status'], 'junior Cancellation'],['==', ['get', 'Status'], 'PtR']]
 
-            function updatefilter(incparkrunning,incjuniorrunning,inccancelled5k,inccancelled2k,incptr) {
+            function updatefilter(incparkrunning,incjuniorrunning,inccancelled5k,inccancelled2k) {//,incptr) {
                 var sourcefilter = ['any']
 
                 if (incparkrunning == true) {
                     sourcefilter.push(['==', ['get', 'Status'], 'parkrunning'])
+                    document.getElementById("check1").checked = true
                     //console.log('incparkrunning')
-                }
+                } else {document.getElementById("check1").checked = false}
                 if (incjuniorrunning == true) {
                     sourcefilter.push(['==', ['get', 'Status'], 'junior parkrunning'])
+                    document.getElementById("check2").checked = true
                     //console.log('incjuniorrunning')
-                }
+                } else {document.getElementById("check2").checked = false}
                 if (inccancelled5k == true) {
                     sourcefilter.push(['==', ['get', 'Status'], '5k Cancellation'])
+                    document.getElementById("check3").checked = true
                     //console.log('inccancelled5k')
-                }
+                } else {document.getElementById("check3").checked = false}
                 if (inccancelled2k == true) {
                     sourcefilter.push(['==', ['get', 'Status'], 'junior Cancellation'])
+                    document.getElementById("check4").checked = true
                     //console.log('inccancelled2k')
-                }
-                if (incptr == true) {
-                    sourcefilter.push(['==', ['get', 'Status'], 'PtR'])
+                } else {document.getElementById("check4").checked = false}
+                //if (incptr == true) {
+                //    sourcefilter.push(['==', ['get', 'Status'], 'PtR'])
+                //    document.getElementById("check5").checked = true
                     //console.log('incptr')
-                }
+                //} else {document.getElementById("check5").checked = false}
                 map.removeLayer('parkrun_circle')
                 map.removeLayer('parkrun_label')
                 map.removeSource('parkruns')
@@ -476,7 +521,7 @@ date: 2021-06-22
                     'type': 'geojson',
                     'data': {{ site.data.parkrun.raw.events | jsonify}},
                     'filter': sourcefilter,
-                    'cluster': true,
+                    'cluster': docluster,
                     'clusterRadius': 50,
                     'clusterProperties': {
                         // keep separate counts for each magnitude category in a cluster
@@ -525,7 +570,7 @@ date: 2021-06-22
                     }
                 });
             };
-
+            
             map.on('load', function () {
                 // add a clustered GeoJSON source for a sample set of parkruns
                 document.getElementsByClassName('mapboxgl-ctrl-geocoder mapboxgl-ctrl')[0].style.maxWidth = '92.5%';
@@ -533,7 +578,7 @@ date: 2021-06-22
                     'type': 'geojson',
                     'data': {{ site.data.parkrun.raw.events | jsonify}},
                     'filter': sourcefilter,
-                    'cluster': true,
+                    'cluster': docluster,
                     'clusterRadius': 45,
                     'clusterProperties': {
                         // keep separate counts for each magnitude category in a cluster
@@ -649,6 +694,7 @@ date: 2021-06-22
                 map.on('mouseleave', 'parkrun_circle', function () {
                     map.getCanvas().style.cursor = '';
                 });
+                updatefilter(incparkrunning,incjuniorrunning,inccancelled5k,inccancelled2k)
             });
 
             // code for creating an SVG donut chart from feature properties
@@ -806,6 +852,12 @@ date: 2021-06-22
                     var s = bounds["_sw"]["lat"].toFixed(4);
                     var w = bounds["_sw"]["lng"].toFixed(4);
                     var loclink = "https://parkruncancellations.com/?n=" + n + "&e=" + e + "&s=" + s +"&w=" + w
+                    if (docluster == false) {
+                        loclink += '&cluster=off'
+                    }
+                    if (incparkrunning == false || incjuniorrunning == false || inccancelled5k == false || inccancelled2k == false) {
+                        loclink += '&layers=' + incparkrunning + ','  + incjuniorrunning + ',' + inccancelled5k + ',' + inccancelled2k
+                    }
                     document.getElementById('share').href = loclink
                 });
             function copy() {
