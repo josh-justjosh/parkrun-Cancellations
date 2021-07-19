@@ -16,13 +16,13 @@ jobs:
     if: ${{!contains(github.event.head_commit.message, '[Bot]') && !contains(github.event.head_commit.message, '[No Data Refresh]')}}
     steps:
         
-    - name: get Current Landowner Permissions page
-      continue-on-error: true
-      id: PtR
-      uses: fjogeleit/http-request-action@master
-      with:
-        url: 'https://blog.parkrun.com/uk/2021/04/30/current-landowner-permissions/'
-        method: 'GET'
+    #- name: get Current Landowner Permissions page
+    #  continue-on-error: true
+    #  id: PtR
+    #  uses: fjogeleit/http-request-action@master
+    #  with:
+    #    url: 'https://blog.parkrun.com/uk/2021/04/30/current-landowner-permissions/'
+    #    method: 'GET'
         
     - uses: actions/checkout@v2
       with:
