@@ -153,6 +153,14 @@ for i in range(len(cancellation_table)):
         cancellations_data.append([cancellation_table[i][1],cancellation_table[i][3],cancellation_table[i][4]])
         cancellations_list.append(cancellation_table[i][1])
 
+def sortByIndex0(e):
+    return e[0]
+def sortByIndex1(e):
+    return e[1]
+
+cancellation_table.sort(key=sortByIndex0)
+cancellation_table.sort(key=sortByIndex1)
+
 with open('_data/parkrun/all-cancellations.tsv','wt', encoding='utf-8', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
     tsv_writer.writerow(['Date','Event','Region','Country','Cancellation Note'])
