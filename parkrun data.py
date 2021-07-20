@@ -970,3 +970,11 @@ with open('_data/parkrun/raw/states.tsv','wt', encoding='utf-8', newline='') as 
         for event in new_states_list:
             tsv_writer.writerow(event)
 print('states.tsv saved')
+
+upcoming_events_table.sort()
+with open('_data/parkrun/raw/ue.tsv','wt', encoding='utf-8', newline='') as f:
+        tsv_writer = csv.writer(f, delimiter='\t')
+        tsv_writer.writerow(['Event','Country'])
+        for event in upcoming_events_table:
+            tsv_writer.writerow([event[0],event[4]])
+print('ue.tsv saved')
