@@ -802,6 +802,33 @@ with open('_data/parkrun/aus-data.tsv','wt', encoding='utf-8', newline='') as f:
         tsv_writer.writerow(out)
 print("aus-data.tsv saved")
 
+cancellations_changes = []
+cancellations_additions = []
+cancellations_removals = []
+
+for i in old_cancellations_data:
+    oldwebsite = i[3]
+    i.pop(3)
+    if i not in cancellations_data:
+        #i.append('Removed')
+        out = i
+        for parkrun in events['features']:
+            if parkrun['properties']['EventLongName'] == i[0]:
+                out.append(oldwebsite)
+                break
+        cancellations_removals.append(out)
+
+for i in cancellations_data:
+    if i not in old_cancellations_data:
+        #i.append('Added')
+        out = i
+        for parkrun in events['features']:
+            if parkrun['properties']['EventLongName'] == i[0]:
+                out.append(parkrun['properties']['Website'])
+                break
+        cancellations_additions.append(out)
+
+
 for cancellation in cancellations_data:
     out = ''
     for parkrun in events['features']:
@@ -810,30 +837,6 @@ for cancellation in cancellations_data:
             break
     cancellation.append(out)
     #print(cancellation)
-
-cancellations_changes = []
-cancellations_additions = []
-cancellations_removals = []
-
-for i in old_cancellations_data:
-    if i not in cancellations_data:
-        #i.append('Removed')
-        #print(i)
-        for parkrun in events['features']:
-            if parkrun['properties']['EventLongName'] == i[0]:
-                i.append(parkrun['properties']['Website'])
-                break
-        cancellations_removals.append(i)
-
-for i in cancellations_data:
-    if i not in old_cancellations_data:
-        #i.append('Added')
-        #print(i)
-        for parkrun in events['features']:
-            if parkrun['properties']['EventLongName'] == i[0]:
-                i.append(parkrun['properties']['Website'])
-                break
-        cancellations_additions.append(i)
 
 #print(cancellations_changes)
 cancellations_additions.sort()
