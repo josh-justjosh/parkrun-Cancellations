@@ -829,6 +829,10 @@ for i in cancellations_data:
     if i not in old_cancellations_data:
         #i.append('Added')
         #print(i)
+        for parkrun in events['features']:
+            if parkrun['properties']['EventLongName'] == i[0]:
+                i.append(parkrun['properties']['Website'])
+                break
         cancellations_additions.append(i)
 
 #print(cancellations_changes)
