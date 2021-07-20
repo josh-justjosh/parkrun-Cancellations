@@ -600,7 +600,11 @@ permalink: /more
                             {% for row in site.data.parkrun.cancellation-additions %}
                                 {% unless forloop.last %}
                                 <tr>
+                                    {% if row['Website'] != null %}
                                     <td><a href="{{ row['Website'] }}">{{ row['Event'] }}</a></td>
+                                    {% else %}
+                                    <td>{{ row['Event'] }}</td>
+                                    {% endif %}
                                     <td>{{ row['Country'] }}</td>
                                     <td>{{ row['Cancellation Note'] }}</td>
                                 </tr>
