@@ -102,6 +102,11 @@ events = requests.get('https://images.parkrun.com/events.json').text.replace("\\
 technical_event_info = requests.get('https://wiki.parkrun.com/index.php/Technical_Event_Information').text
 cancellations = requests.get('https://wiki.parkrun.com/index.php/Cancellations/Global').text.replace("’","'")
 
+with open('_data/parkrun/raw/events.json','wt', encoding='utf-8', newline='') as f:
+    tsv_writer = csv.writer(f, delimiter='\t')
+    tsv_writer.writerow(events)
+    print("raw/events.json saved")
+
 events = json.loads(events)['events']
 
 #with open('_data/parkrun/raw/technical-event-info.html','w', encoding='utf-8') as f:
@@ -325,7 +330,7 @@ for parkrun in events['features']:
     #if x == 1750:
      #   break
     
-with open('_data/parkrun/raw/events.json','w', encoding='utf-8') as f:
+with open('_data/parkrun/events.json','w', encoding='utf-8') as f:
     f.write(json.dumps(events))
 print('events.json saved')
 
@@ -353,12 +358,12 @@ for event in events['features']:
     events_data.append(out)
 events_data.sort()
 
-with open('_data/parkrun/events.tsv','wt', encoding='utf-8', newline='') as f:
+with open('_data/parkrun/events-table.tsv','wt', encoding='utf-8', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
     tsv_writer.writerow(['Event','Latitude','Longitude','Country','State','County','Status','Date Cancelled','Reason Cancelled','Website'])
     for event in events_data:
         tsv_writer.writerow(event)
-print("events.tsv saved")
+print("events-table.tsv saved")
 
 countries = {
     'Australia': {
