@@ -103,7 +103,7 @@ technical_event_info = requests.get('https://wiki.parkrun.com/index.php/Technica
 cancellations = requests.get('https://wiki.parkrun.com/index.php/Cancellations/Global').text.replace("’","'")
 
 with open('_data/parkrun/raw/events.json','wt', encoding='utf-8', newline='') as f:
-    f.write(events)
+    f.write(json.dumps(json.loads(events), indent=2))
     print("raw/events.json saved")
 
 events = json.loads(events)['events']
@@ -330,7 +330,7 @@ for parkrun in events['features']:
      #   break
     
 with open('_data/parkrun/events.json','w', encoding='utf-8') as f:
-    f.write(json.dumps(events))
+    f.write(json.dumps(events, indent=2))
 print('events.json saved')
 
 cancellation_dates = list(dict.fromkeys(cancellation_dates))
