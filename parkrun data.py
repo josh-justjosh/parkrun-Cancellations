@@ -180,6 +180,14 @@ cancellation_dates = []
 new_states_list = []
 
 x = 0
+
+upcoming_events.append('Central parkrun, Plymouth')
+upcoming_events.append('Church Mead parkrun')
+upcoming_events.append('Edgbaston Reservoir parkrun')
+upcoming_events.append('Henlow Bridge Lakes parkrun')
+upcoming_events.append('Penryn Campus parkrun')
+upcoming_events.append('Roberts Park parkrun')
+
 for parkrun in events['features']:
     if parkrun['properties']['EventLongName'] in upcoming_events:
         #print(parkrun)
