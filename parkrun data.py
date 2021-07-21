@@ -98,7 +98,7 @@ def same_week(dateString):
     return d1.isocalendar()[1] == d2.isocalendar()[1] \
               and d1.year == d2.year  
 
-events = requests.get('https://images.parkrun.com/events.json', headers={'pragma': 'no-cache','cache-control': 'no-cache'}, cookies={'parkrun_profile':'dcjep2nq43d39tn28ee9808ul7'}).text.replace("\\u2019","'")
+events = requests.get('https://images.parkrun.com/events.json').text.replace("\\u2019","'")
 technical_event_info = requests.get('https://wiki.parkrun.com/index.php/Technical_Event_Information').text
 cancellations = requests.get('https://wiki.parkrun.com/index.php/Cancellations/Global').text.replace("’","'")
 
