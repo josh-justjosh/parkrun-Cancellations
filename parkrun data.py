@@ -28,12 +28,16 @@ def tweet(message):
 def now():
     return datetime.datetime.utcnow().astimezone()
 
+def rem_dups(x):
+    return list(dict.fromkeys(x))
+
 #PtR_Events = []
 
 old_cancellations_data = []
 with open('_data/parkrun/cancellations.tsv','r', encoding='utf-8', newline='') as f:
     tsv_reader = csv.reader(f, delimiter="\t")
     for row in tsv_reader:
+        row = rem_dups(row)
         old_cancellations_data.append(row)
 old_cancellations_data.remove(['Event','Country','Cancellation Note','Website'])
 
@@ -828,15 +832,16 @@ for i in cancellations_data:
                 break
         cancellations_additions.append(out)
 
-
 for cancellation in cancellations_data:
-    out = ''
-    for parkrun in events['features']:
-        if parkrun['properties']['EventLongName'] == cancellation[0]:
-            out = parkrun['properties']['Website']
-            break
-    cancellation.append(out)
-    #print(cancellation)
+    if len(cancellation) <= 3:
+        out = ''
+        for parkrun in events['features']:
+            if parkrun['properties']['EventLongName'] == cancellation[0]:
+                out = parkrun['properties']['Website']
+                break
+        cancellation.append(out)
+        cancellation = rem_dups(cancellation)
+        #print(cancellation)
 
 #print(cancellations_changes)
 cancellations_additions.sort()
