@@ -193,7 +193,7 @@ permalink: /more
                 // add a clustered GeoJSON source for a sample set of parkruns
                 map.addSource('parkruns', {
                     'type': 'geojson',
-                    'data': {{ site.data.parkrun.raw.events | jsonify}},
+                    'data': {{ site.data.parkrun.events | jsonify}},
                     'cluster': true,
                     'clusterRadius': 50,
                     'clusterProperties': {
