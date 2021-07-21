@@ -226,6 +226,9 @@ for parkrun in events['features']:
     if parkrun['properties']['countrycode'] == 3 :
         parkrun['properties']['Website'] = 'https://www.parkrun.com.au/'+parkrun['properties']['eventname']
         parkrun['properties']['Country'] = 'Australia'
+    elif parkrun['properties']['countrycode'] == 4 :
+        parkrun['properties']['Website'] = 'https://www.parkrun.co.at/'+parkrun['properties']['eventname']
+        parkrun['properties']['Country'] = 'Austria'
     elif parkrun['properties']['countrycode'] == 14 :
         parkrun['properties']['Website'] = 'https://www.parkrun.ca/'+parkrun['properties']['eventname']
         parkrun['properties']['Country'] = 'Canada'
@@ -378,6 +381,13 @@ print("events-table.tsv saved")
 
 countries = {
     'Australia': {
+        'parkrunning': 0,
+        'junior parkrunning':0,
+        '5k Cancellations':0,
+        'junior Cancellations':0,
+        'Total':0
+        },
+    'Austria': {
         'parkrunning': 0,
         'junior parkrunning':0,
         '5k Cancellations':0,
