@@ -1083,9 +1083,9 @@ permalink: /more
             <div class="flex-status" style="flex-basis: 23%"><div class="countrystatus"><h4>New South Wales</h4><p style="color:revert;">Some Events Open,<br/>Sydney Events Suspended</p></div></div>
             <div class="flex-status" style="flex-basis: 23%"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>Northern Territory</h4><p>Events Open</p></div></div>
             <div class="flex-status" style="flex-basis: 23%"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>Queensland</h4><p>Events Open</p></div></div>
-            <div class="flex-status" style="flex-basis: 23%"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>South Australia</h4><p>Events Open</p></div></div>
+            <div class="flex-status" style="flex-basis: 23%"><div class="countrystatus" style="background-color: rgb(165, 39, 20);"><h4>South Australia</h4><p>Events Suspended</p></div></div>
             <div class="flex-status" style="flex-basis: 23%"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>Tasmania</h4><p>Events Open</p></div></div>
-            <div class="flex-status" style="flex-basis: 23%"><div class="countrystatus"><h4>Victoria</h4><p style="color:revert;">Status Unclear</p></div></div>
+            <div class="flex-status" style="flex-basis: 23%"><div class="countrystatus" style="background-color: rgb(165, 39, 20);"><h4>Victoria</h4><p>Events Suspended</p></div></div>
             <div class="flex-status" style="flex-basis: 23%"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>Western Australia</h4><p>Events Open</p></div></div>
         </div>
         <h3>United Kingdom</h3>
