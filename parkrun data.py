@@ -97,13 +97,10 @@ def same_week(dateString):
     d2 = datetime.datetime.today()
     return d1.isocalendar()[1] == d2.isocalendar()[1] \
               and d1.year == d2.year  
-h = {
-    "Cache-Control": "max-age=0",
-    }
 
-events = requests.get('https://images.parkrun.com/events.json', headers=h).text.replace("\\u2019","'")
-technical_event_info = requests.get('https://wiki.parkrun.com/index.php/Technical_Event_Information', headers=h).text
-cancellations = requests.get('https://wiki.parkrun.com/index.php/Cancellations/Global', headers=h).text.replace("’","'")
+events = requests.get('https://images.parkrun.com/events.json', headers={'pragma': 'no-cache','cache-control': 'no-cache'}, cookies={'parkrun_profile':'dcjep2nq43d39tn28ee9808ul7'}).text.replace("\\u2019","'")
+technical_event_info = requests.get('https://wiki.parkrun.com/index.php/Technical_Event_Information').text
+cancellations = requests.get('https://wiki.parkrun.com/index.php/Cancellations/Global').text.replace("’","'")
 
 with open('_data/parkrun/raw/events.json','wt', encoding='utf-8', newline='') as f:
     f.write(json.dumps(json.loads(events), indent=2))
