@@ -98,8 +98,7 @@ def same_week(dateString):
     return d1.isocalendar()[1] == d2.isocalendar()[1] \
               and d1.year == d2.year  
 h = {
-    "Cache-Control": "no-cache",
-    "Pragma": "no-cache"
+    "Cache-Control": "max-age=0",
     }
 
 events = requests.get('https://images.parkrun.com/events.json', headers=h).text.replace("\\u2019","'")
