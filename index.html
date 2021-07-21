@@ -519,7 +519,7 @@ date: 2021-06-22
                 // add a clustered GeoJSON source for a sample set of parkruns
                 map.addSource('parkruns', {
                     'type': 'geojson',
-                    'data': {{ site.data.parkrun.raw.events | jsonify}},
+                    'data': {{ site.data.parkrun.events | jsonify}},
                     'filter': sourcefilter,
                     'cluster': docluster,
                     'clusterRadius': 50,
@@ -576,7 +576,7 @@ date: 2021-06-22
                 document.getElementsByClassName('mapboxgl-ctrl-geocoder mapboxgl-ctrl')[0].style.maxWidth = '92.5%';
                 map.addSource('parkruns', {
                     'type': 'geojson',
-                    'data': {{ site.data.parkrun.raw.events | jsonify}},
+                    'data': {{ site.data.parkrun.events | jsonify}},
                     'filter': sourcefilter,
                     'cluster': docluster,
                     'clusterRadius': 45,
