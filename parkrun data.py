@@ -103,8 +103,7 @@ technical_event_info = requests.get('https://wiki.parkrun.com/index.php/Technica
 cancellations = requests.get('https://wiki.parkrun.com/index.php/Cancellations/Global').text.replace("’","'")
 
 with open('_data/parkrun/raw/events.json','wt', encoding='utf-8', newline='') as f:
-    tsv_writer = csv.writer(f, delimiter='\t')
-    tsv_writer.writerow(events)
+    f.write(events)
     print("raw/events.json saved")
 
 events = json.loads(events)['events']
