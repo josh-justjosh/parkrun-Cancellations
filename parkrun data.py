@@ -865,40 +865,40 @@ if cancellations_changes != []:
         tsv_writer.writerow([now(),'','','',''])
     print(now(),"cancellation-changes.tsv saved")
 
-    now = now()
+    now_saved = now()
     
-    if now.month < 10:
-        month = '0'+str(now.month)
+    if now_saved.month < 10:
+        month = '0'+str(now_saved.month)
     else:
-        month = str(now.month)
+        month = str(now_saved.month)
 
-    if now.day <10:
-        day = '0'+str(now.day)
+    if now_saved.day <10:
+        day = '0'+str(now_saved.day)
     else:
-        day = str(now.day)
+        day = str(now_saved.day)
 
-    if now.hour < 10:
-        hour = '0'+str(now.hour)
+    if now_saved.hour < 10:
+        hour = '0'+str(now_saved.hour)
     else:
-        hour = str(now.hour)
+        hour = str(now_saved.hour)
 
-    if now.minute <10:
-        minute = '0'+str(now.minute)
+    if now_saved.minute <10:
+        minute = '0'+str(now_saved.minute)
     else:
-        minute = str(now.minute)
+        minute = str(now_saved.minute)
 
-    if now.second <10:
-        second = '0'+str(now.second)
+    if now_saved.second <10:
+        second = '0'+str(now_saved.second)
     else:
-        second = str(now.second)
+        second = str(now_saved.second)
 
-    file = str(now.year)+'-'+month+'-'+day+'-'+hour+minute+second+'-update.md'
+    file = str(now_saved.year)+'-'+month+'-'+day+'-'+hour+minute+second+'-update.md'
 
     with open('_posts/Cancellation Updates/'+file, "w+", encoding='utf-8', newline='') as f:
         out = '---' + '\n'
         out += 'layout: post' + '\n'
-        out += 'title: '+str(now.year)+'/'+month+'/'+ day +' '+hour+':'+minute+' UTC Update' + '\n'
-        out += 'date: '+str(now.year)+'-'+month+'-'+day+' '+hour+':'+minute+':'+second+' +0000' + '\n'
+        out += 'title: '+str(now_saved.year)+'/'+month+'/'+ day +' '+hour+':'+minute+' UTC Update' + '\n'
+        out += 'date: '+str(now_saved.year)+'-'+month+'-'+day+' '+hour+':'+minute+':'+second+' +0000' + '\n'
         out += 'author: Cancellations Bot' + '\n'
         out += "category: 'Cancellation Update'" + '\n'
         out += '---' + '\n'
@@ -942,7 +942,7 @@ if cancellations_changes != []:
             
         f.write(out)
     print(now(),file,'saved')
-    out = 'New Cancellations Update:\nhttps://parkruncancellations.com/'+str(now.year)+'/'+month+'/'+day+'/'+hour+minute+second+'-update/'
+    out = 'New Cancellations Update:\nhttps://parkruncancellations.com/'+str(now_saved.year)+'/'+month+'/'+day+'/'+hour+minute+second+'-update/'
     tweet(out)
 
 with open('_data/parkrun/raw/states.tsv','wt', encoding='utf-8', newline='') as f:
