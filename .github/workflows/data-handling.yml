@@ -45,9 +45,6 @@ jobs:
         pip install html-table-extractor
         pip install twython
 
-    - name: Get Data
-      run: python 'get data.py'
-
     - name: execute py script # run the run.py to get the latest data
       env: 
         consumer_key: ${{ secrets.TWITTER_CONSUMER_KEY }}

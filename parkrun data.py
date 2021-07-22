@@ -101,21 +101,21 @@ def same_week(dateString):
     return d1.isocalendar()[1] == d2.isocalendar()[1] \
               and d1.year == d2.year  
 
-#events = requests.get('https://images.parkrun.com/events.json').text.replace("\\u2019","'")
-#technical_event_info = requests.get('https://wiki.parkrun.com/index.php/Technical_Event_Information').text
-#cancellations = requests.get('https://wiki.parkrun.com/index.php/Cancellations/Global').text.replace("’","'")
+events = requests.get('https://images.parkrun.com/events.json').text.replace("\\u2019","'")
 
-with open('_data/parkrun/raw/events.json','r', encoding='utf-8', newline='') as f:
-    events = f.read()
-print(now(),'raw/events.json read')
+with open('_data/parkrun/raw/events.json','wt', encoding='utf-8', newline='') as f:
+    f.write(json.dumps(json.loads(events), indent=2))
+    print(now(),"raw/events.json saved")
 
-with open('_data/parkrun/raw/tei.html','r', encoding='utf-8', newline='') as f:
-    technical_event_info = f.read()
-print(now(),'raw/tei.html read')
+technical_event_info = requests.get('https://wiki.parkrun.com/index.php/Technical_Event_Information').text
 
-with open('_data/parkrun/raw/cancellations.html','r', encoding='utf-8', newline='') as f:
-    cancellations = f.read()
-print(now(),'raw/cancellations.html read')
+with open('_data/parkrun/raw/tei.html','wt', encoding='utf-8', newline='') as f:
+    f.write(technical_event_info)
+    print(now(),"raw/tei.html saved")
+
+cancellations = requests.get('https://wiki.parkrun.com/index.php/Cancellations/Global').text.replace("’","'")
+
+    print(now(),"raw/cancellations.html saved")
 
 events = json.loads(events)['events']
 
