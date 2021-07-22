@@ -56,7 +56,7 @@ def same_week(dateString):
     return d1.isocalendar()[1] == d2.isocalendar()[1] \
               and d1.year == d2.year  
 
-events = requests.get('https://images.parkrun.com/events.json',cookies={'_orig_referrer':'https%3A%2F%2Fwww.parkrun.com.au%2F'}).text.replace("\\u2019","'")
+events = requests.get('https://images.parkrun.com/events.json').text.replace("\\u2019","'")
 
 with open('_data/parkrun/raw/events.json','wt', encoding='utf-8', newline='') as f:
     f.write(json.dumps(json.loads(events), indent=2))
