@@ -32,8 +32,6 @@ def tweet(message):
 def rem_dups(x):
     return list(dict.fromkeys(x))
 
-#PtR_Events = []
-
 old_cancellations_data = []
 with open('_data/parkrun/cancellations.tsv','r', encoding='utf-8', newline='') as f:
     tsv_reader = csv.reader(f, delimiter="\t")
@@ -50,49 +48,6 @@ with open('_data/parkrun/raw/states.tsv','r', encoding='utf-8', newline='') as f
         states_list.append(row)
 print(now(),'raw/states.tsv read')
 states_list.remove(['Event','Country','State','County'])
-
-"""try:
-    ptr_file = str(open('_data/parkrun/raw/PtR.html', "rb").read())
-
-    class MyHTMLParser(HTMLParser):
-
-        def handle_data(self, data):
-            global PtR_Events
-            if " parkrun" in data:
-                PtR_Events.append(data)
-
-    MyHTMLParser().feed(ptr_file)
-    
-finally:
-    open('_data/parkrun/raw/PtR.html', "rb").close()
-
-for i in range(len(PtR_Events)):
-    PtR_Events[i] = PtR_Events[i].replace("\\\\n","").replace('\\xe2\\x80\\x99', "'").replace('\\xc3\\xa9', 'e').replace('\\xe2\\x80\\x90', '-').replace('\\xe2\\x80\\x91', '-').replace('\\xe2\\x80\\x92', '-').replace('\\xe2\\x80\\x93', '-').replace('\\xe2\\x80\\x94', '-').replace('\\xe2\\x80\\x94', '-').replace('\\xe2\\x80\\x98', "'").replace('\\xe2\\x80\\x9b', "'").replace('\\xe2\\x80\\x9c', '"').replace('\\xe2\\x80\\x9c', '"').replace('\\xe2\\x80\\x9d', '"').replace('\\xe2\\x80\\x9e', '"').replace('\\xe2\\x80\\x9f', '"').replace('\\xe2\\x80\\xa6', '...').replace('\\xe2\\x80\\xb2', "'").replace('\\xe2\\x80\\xb3', "'").replace('\\xe2\\x80\\xb4', "'").replace('\\xe2\\x80\\xb5', "'").replace('\\xe2\\x80\\xb6', "'").replace('\\xe2\\x80\\xb7', "'").replace('\\xe2\\x81\\xba', "+").replace('\\xe2\\x81\\xbb', "-").replace('\\xe2\\x81\\xbc', "=").replace('\\xe2\\x81\\xbd', "(").replace('\\xe2\\x81\\xbe', ")")
-
-try:
-    del PtR_Events[:PtR_Events.index('Abingdon parkrun')]
-except: pass
-try:
-    del PtR_Events[PtR_Events.index('York parkrun')+1:]
-except: pass
-
-#for i in PtR_Events:
-    #print(now(),i)
-
-with open('_data/parkrun/PtR.tsv','wt', newline='') as f:
-    tsv_writer = csv.writer(f, delimiter='\t')
-    tsv_writer.writerow(['Event',''])
-    for i in PtR_Events:
-        tsv_writer.writerow([i,''])
-print(now(),"PtR.tsv saved")"""
-
-#with open('_data/parkrun/PtRtable.csv','w') as f:
-#    f.write("Event\n")
-#    for i in range(0,len(PtR_Events),2):
-#        try:
-#            f.write(PtR_Events[i]+", "+PtR_Events[i+1]+"\n")
-#        except IndexError:
-#            f.write(PtR_Events[i])
 
 def same_week(dateString):
     '''returns true if a dateString in %Y%m%d format is part of the current week'''
@@ -115,17 +70,11 @@ with open('_data/parkrun/raw/tei.html','wt', encoding='utf-8', newline='') as f:
 
 cancellations = requests.get('https://wiki.parkrun.com/index.php/Cancellations/Global').text.replace("’","'")
 
+with open('_data/parkrun/raw/cancellations.html','wt', encoding='utf-8', newline='') as f:
+    f.write(cancellations)
     print(now(),"raw/cancellations.html saved")
 
 events = json.loads(events)['events']
-
-#with open('_data/parkrun/raw/technical-event-info.html','w', encoding='utf-8') as f:
-#    f.write(technical_event_info)
-#print(now(),'technical-event-info.html saved')
-
-#with open('_data/parkrun/raw/cancellations.html','w', encoding='utf-8') as f:
-#    f.write(cancellations)
-#print(now(),'cancellations.html saved')
 
 soup = BeautifulSoup(technical_event_info, 'html.parser')
 
@@ -226,9 +175,6 @@ for parkrun in events['features']:
         else:
             parkrun['properties']['DateCancelled'] = None
             parkrun['properties']['ReasonCancelled'] = None
-        
-    #if parkrun['properties']['EventLongName'] in PtR_Events:
-    #    parkrun['properties']['Status'] = 'PtR'
 
     if parkrun['properties']['countrycode'] == 3 :
         parkrun['properties']['Website'] = 'https://www.parkrun.com.au/'+parkrun['properties']['eventname']
@@ -331,9 +277,6 @@ for parkrun in events['features']:
         
         
     parkrun['properties']['description']='<h4 style="margin: 0 0 8px;">'+parkrun['properties']['EventLongName']+'</h4><table><tr><th>Status:</th>'
-    #if parkrun['properties']['Status'] == 'PtR':
-    #    parkrun['properties']['description']+='<td>Permission to Return Received</td>'
-    #else:
     parkrun['properties']['description']+='<td>'+parkrun['properties']['Status']+'</td>'
     parkrun['properties']['description']+='</tr>'
     
