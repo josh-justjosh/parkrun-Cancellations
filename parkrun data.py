@@ -757,7 +757,7 @@ for parkrun in events['features']:
                 aus[parkrun['properties']['State']]['Total'] += 1
         else:
             print(now(),parkrun['properties']['EventLongName'],"in Australia but not in state")
-            
+
 #print(now(),countries)
 
 for state,data in aus.items():
@@ -781,6 +781,146 @@ with open('_data/parkrun/aus-data.tsv','wt', encoding='utf-8', newline='') as f:
                 out.append('')
         tsv_writer.writerow(out)
 print(now(),"aus-data.tsv saved")
+
+uk_counties = {}
+for parkrun in events['features']:
+    if parkrun['properties']['Country'] == "United Kingdom":
+        if parkrun['properties']['County'] not in ['', 'Douglas']:
+            #England
+            if parkrun['properties']['County'] in ['Bedford','Central Bedfordshire','Luton']:
+                parkrun['properties']['County'] = 'Bedfordshire'
+            elif parkrun['properties']['County'] in ['Bracknell Forest','Reading','Slough','West Berkshire','Windsor and Maidenhead','Wokingham']:
+                parkrun['properties']['County'] = 'Berkshire'
+            elif parkrun['properties']['County'] in ['Buckinghamshire','Milton Keynes']:
+                parkrun['properties']['County'] = 'Buckinghamshire'
+            elif parkrun['properties']['County'] in ['Cambridgeshire','Peterborough']:
+                parkrun['properties']['County'] = 'Cambridgeshire'
+            elif parkrun['properties']['County'] in ['Cheshire East','Cheshire','Halton','Warrington']:
+                parkrun['properties']['County'] = 'Cheshire'
+            elif parkrun['properties']['County'] in ['Derbyshire','Derby']:
+                parkrun['properties']['County'] = 'Derbyshire'
+            elif parkrun['properties']['County'] in ['Devon','Plymouth','Torbay']:
+                parkrun['properties']['County'] = 'Devon'
+            elif parkrun['properties']['County'] in ['Dorset','Bournemouth, Christchurch and Poole Council']:
+                parkrun['properties']['County'] = 'Dorset'
+            elif parkrun['properties']['County'] in ['Durham','Darlington','Hartlepool']:
+                parkrun['properties']['County'] = 'Durham'
+            elif parkrun['properties']['EventLongName'] in ['Tees Barrage parkrun','Billingham junior parkrun']:
+                parkrun['properties']['County'] = 'Durham'
+            elif parkrun['properties']['County'] in ['East Yorkshire','Kingston upon Hull']:
+                parkrun['properties']['County'] = 'East Riding of Yorkshire'
+            elif parkrun['properties']['County'] in ['East Sussex','Brighton and Hove']:
+                parkrun['properties']['County'] = 'East Sussex'
+            elif parkrun['properties']['County'] in ['Essex','Southend-on-Sea','Thurrock']:
+                parkrun['properties']['County'] = 'Essex'
+            elif parkrun['properties']['County'] in ['Gloucestershire','South Gloucestershire']:
+                parkrun['properties']['County'] = 'Gloucestershire'
+            #elif parkrun['properties']['County'] in ['City of Westminster', 'Kensington and Chelsea', 'Hammersmith and Fulham', 'Wandsworth', 'Lambeth', 'Southwark', 'Tower Hamlets', 'Hackney', 'Islington', 'Camden', 'Brent', 'Ealing', 'Hounslow', 'Richmond upon Thames', 'Kingston upon Thames', 'Merton', 'Sutton', 'Croydon', 'Bromley', 'Lewisham', 'Greenwich', 'Bexley', 'Havering', 'Barking and Dagenham', 'Redbridge', 'Newham', 'Waltham Forest', 'Haringey', 'Enfield', 'Barnet', 'Harrow', 'Hillingdon']:
+                #parkrun['properties']['County'] = 'Greater London'
+                #pass
+            elif parkrun['properties']['County'] in ['Manchester','Bolton','Stockport','Tameside','Oldham','Rochdale','Bury','Bolton','Wigan','Salford','Trafford']:
+                parkrun['properties']['County'] = 'Greater Manchester'
+            elif parkrun['properties']['County'] in ['Liverpool','Wirral','Knowsley','Sefton','St. Helens']:
+                parkrun['properties']['County'] = 'Merseyside'
+            elif parkrun['properties']['County'] in ['Hampshire','Portsmouth','Southampton']:
+                parkrun['properties']['County'] = 'Hampshire'
+            elif parkrun['properties']['County'] in ['Kent','Medway']:
+                parkrun['properties']['County'] = 'Kent'
+            elif parkrun['properties']['County'] in ['Blackburn with Darwen','Blackpool','Lancashire']:
+                parkrun['properties']['County'] = 'Lancashire'
+            elif parkrun['properties']['County'] in ['Leicestershire','Leicester']:
+                parkrun['properties']['County'] = 'Leicestershire'
+            elif parkrun['properties']['County'] in ['Lincolnshire','North Lincolnshire','North East Lincolnshire']:
+                parkrun['properties']['County'] = 'Lincolnshire'
+            elif parkrun['properties']['County'] in ['Middlesbrough','North Yorkshire','Redcar and Cleveland','York']:
+                parkrun['properties']['County'] = 'North Yorkshire'
+            elif parkrun['properties']['County'] in ['Nottinghamshire','Nottingham']:
+                parkrun['properties']['County'] = 'Nottinghamshire'
+            elif parkrun['properties']['County'] in ['Shropshire','Telford and Wrekin']:
+                parkrun['properties']['County'] = 'Shropshire'
+            elif parkrun['properties']['County'] in ['Bath and North East Somerset','North Somerset','Somerset']:
+                parkrun['properties']['County'] = 'Somerset'
+            elif parkrun['properties']['County'] in ['Barnsley','Doncaster','Rotherham','Sheffield']:
+                parkrun['properties']['County'] = 'South Yorkshire'
+            elif parkrun['properties']['County'] in ['Staffordshire','Stoke-on-Trent']:
+                parkrun['properties']['County'] = 'Staffordshire'
+            elif parkrun['properties']['County'] in ['Gateshead','Newcastle upon Tyne','North Tyneside','South Tyneside','Sunderland']:
+                parkrun['properties']['County'] = 'Tyne and Wear'
+            elif parkrun['properties']['County'] in ['Birmingham','Wolverhampton','Dudley','Walsall','Sandwell','Solihull','Coventry']:
+                parkrun['properties']['County'] = 'West Midlands'
+            elif parkrun['properties']['County'] in ['Leeds','Wakefield','Kirklees','Calderdale','Bradford']:
+                parkrun['properties']['County'] = 'West Yorkshire'
+            elif parkrun['properties']['County'] in ['Swindon','Wiltshire']:
+                parkrun['properties']['County'] = 'Wiltshire'
+            #Wales
+            elif parkrun['properties']['County'] in ['Conwy','Denbighshire','Flintshire','Wrexham']:
+                parkrun['properties']['County'] = 'Clwyd'
+            elif parkrun['properties']['County'] in ['Carmarthenshire','Ceredigion','Pembrokeshire']:
+                parkrun['properties']['County'] = 'Dyfed'
+            elif parkrun['properties']['County'] in ['Blaenau Gwent','Caerphilly','Monmouthshire','Newport','Torfaen County Borough']:
+                parkrun['properties']['County'] = 'Gwent'
+            elif parkrun['properties']['County'] in ['Gwynedd','Anglesey']:
+                parkrun['properties']['County'] = 'Gwynedd'
+            elif parkrun['properties']['County'] in ['County Borough of Bridgend','Merthyr Tydfil','Rhondda Cynon Taf']:
+                parkrun['properties']['County'] = 'Mid Glamorgan'
+            elif parkrun['properties']['County'] in ['Cardiff','Vale of Glamorgan']:
+                parkrun['properties']['County'] = 'South Glamorgan'
+            elif parkrun['properties']['County'] in ['Neath Port Talbot','City and County of Swansea']:
+                parkrun['properties']['County'] = 'West Glamorgan'
+                
+            if parkrun['properties']['County'] not in uk_counties:
+                uk_counties[parkrun['properties']['County']] = {'country': parkrun['properties']['State'],'parkrunning': 0,'junior parkrunning':0,'5k Cancellations':0,'junior Cancellations':0,'Total':0,'Events':[]}
+            uk_counties[parkrun['properties']['County']]['Events'].append(parkrun['properties']['EventLongName'])
+            if parkrun['properties']['Status'] == 'parkrunning':
+                uk_counties[parkrun['properties']['County']]['parkrunning'] += 1
+                uk_counties[parkrun['properties']['County']]['Total'] += 1
+            elif parkrun['properties']['Status'] == 'junior parkrunning':
+                uk_counties[parkrun['properties']['County']]['junior parkrunning'] += 1
+                uk_counties[parkrun['properties']['County']]['Total'] += 1
+            elif parkrun['properties']['Status'] == '5k Cancellation':
+                uk_counties[parkrun['properties']['County']]['5k Cancellations'] += 1
+                uk_counties[parkrun['properties']['County']]['Total'] += 1
+            elif parkrun['properties']['Status'] == 'junior Cancellation':
+                uk_counties[parkrun['properties']['County']]['junior Cancellations'] += 1
+                uk_counties[parkrun['properties']['County']]['Total'] += 1
+
+uk_counties_od = collections.OrderedDict(sorted(uk_counties.items()))
+uk_counties = {}
+for k, v in uk_counties_od.items():
+    uk_counties[k] = v
+
+uk_counties_totals= {
+    'Country':'',
+    'parkrunning': 0,
+    'junior parkrunning':0,
+    '5k Cancellations':0,
+    'junior Cancellations':0,
+    'Total':0,
+    'Events':''
+    }
+
+for county,data in uk_counties.items():
+    uk_counties_totals['parkrunning'] += data['parkrunning']
+    uk_counties_totals['junior parkrunning'] += data['junior parkrunning']
+    uk_counties_totals['5k Cancellations'] += data['5k Cancellations']
+    uk_counties_totals['junior Cancellations'] += data['junior Cancellations']
+    uk_counties_totals['Total'] += data['Total']
+
+uk_counties['Total'] = uk_counties_totals        
+#print(json.dumps(uk_counties, indent=4))
+
+with open('_data/parkrun/uk-counties-data.tsv','wt', encoding='utf-8', newline='') as f:
+    tsv_writer = csv.writer(f, delimiter='\t')
+    tsv_writer.writerow(['County','Country','parkrunning','junior parkrunning','5k Cancellations','junior Cancellations','Total','Events'])
+    for i,j in uk_counties.items():
+        out = [i]
+        for k,l in j.items():
+            if l != 0:
+                out.append(l)
+            else:
+                out.append('')
+        tsv_writer.writerow(out)
+print(now(),"uk-counties-data.tsv saved")
 
 cancellations_changes = []
 cancellations_additions = []
