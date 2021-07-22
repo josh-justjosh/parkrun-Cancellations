@@ -11,11 +11,17 @@ permalink: /more
 {% endfor %}
 
 {% if time contains "00:00" %}
-  <p class="author_title" datetime="{{ last_modified_at | date_to_xmlschema }}">Data Last Refreshed: {{ last_modified_at | date: "%A, %e&nbsp;%B&nbsp;%Y" }}</p>
+  <p class="author_title" id="lastupdated" datetime="{{ last_modified_at | date_to_xmlschema }}">Data Last Refreshed: {{ last_modified_at | date: "%A, %e&nbsp;%B&nbsp;%Y" }}</p>
 {% else %}
-  <p class="author_title" datetime="{{ last_modified_at | date_to_xmlschema }}">Data Last Refreshed: {{ last_modified_at | date: "%R" }} UTC {{ last_modified_at | date: "%A, %e&nbsp;%B&nbsp;%Y" }}</p>
+  <p class="author_title" id="lastupdated" datetime="{{ last_modified_at | date_to_xmlschema }}">Data Last Refreshed: {{ last_modified_at | date: "%R" }} UTC {{ last_modified_at | date: "%A, %e&nbsp;%B&nbsp;%Y" }}</p>
 {% endif %}
-
+<script>
+    let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZoneName: 'short', hour:'2-digit', minute:'2-digit'};
+    var last_modified_at = new Date("{{ last_modified_at }}").getTime();
+    var lm_date = new Date(last_modified_at)
+    var out = lm_date.toLocaleString('default', options);
+    document.getElementById("lastupdated").innerHTML = 'Data Last Refreshed: ' + out
+</script>
 <div style="background-color: rgba(255,128,0,0.25); margin: 25px; padding: 10px; text-align: center">
     <p>These pages are in beta, please see <a href="#contact">the information at the bottom of the page</a> for how to report errors.<br />You should always check the event's website and social media channels before setting out.</p>
 </div>
@@ -128,13 +134,13 @@ permalink: /more
             const queryString = window.location.search;
             const urlParams = new URLSearchParams(queryString);
             const zoom = urlParams.get('zoom')
-            console.log(zoom);
+            //console.log(zoom);
             const lat = urlParams.get('lat')
-            console.log(lat);
+            //console.log(lat);
             const long = urlParams.get('long')
-            console.log(long);
+            //console.log(long);
             const center = [long,lat]
-            console.log(center);
+            //console.log(center);
         </script>
         <!-- Load the `mapbox-gl-geocoder` plugin. -->
         <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.min.js"></script>
@@ -431,15 +437,7 @@ permalink: /more
             })
 
             map.addControl(ourGeoLocator);
-
-            ourGeoLocator.on('geolocate', function(e) {
-                    console.log(e);
-                    console.log(map.queryRenderedFeatures(
-                        null,
-                        { layers: ['parkrun_circle'] }
-                    ));
-                } 
-            );
+            
             map.addControl(new mapboxgl.NavigationControl({showCompass: false}));
             map.addControl(new mapboxgl.FullscreenControl());
             // disable map rotation using right click + drag
@@ -559,7 +557,7 @@ permalink: /more
             document.getElementById('key2').style.backgroundColor = colors[1] ;
             document.getElementById('key3').style.backgroundColor = colors[2] ;
             document.getElementById('key4').style.backgroundColor = colors[3] ;
-            document.getElementById('key5').style.backgroundColor = colors[4] ;
+            //document.getElementById('key5').style.backgroundColor = colors[4] ;
             function toggleparkruns() {
                 var checkBox = document.getElementById("check1");
                 var text = document.getElementById("text");
@@ -589,7 +587,13 @@ permalink: /more
         <h2>Most Recent Changes</h2>
             <div>
                 {% if site.data.parkrun.cancellation-additions.size > 0 %}
-                    <button type="button" class="collapsiblecan" style="margin: 5px;"><p style="float:left; margin: 0">Click to view the most recent Cancellations</p><p style="float:right; margin: 0">Last Change: {{site.data.parkrun.cancellation-additions.last.Event | date: "%R UTC %A, %e&nbsp;%B&nbsp;%Y" }}</p></button>
+                    <button type="button" class="collapsiblecan" style="margin: 5px;"><p style="float:left; margin: 0">Click to view the most recent Cancellations</p><p style="float:right; margin: 0" id='lastaddition'>Last Change: {{site.data.parkrun.cancellation-additions.last.Event | date: "%R UTC %A, %e&nbsp;%B&nbsp;%Y" }}</p></button>
+                    <script>
+                        var last_addition = new Date("{{ site.data.parkrun.cancellation-additions.last.Event }}").getTime();
+                        var la_date = new Date(last_addition)
+                        var outa = la_date.toLocaleString('default', options);
+                        document.getElementById("lastaddition").innerHTML = 'Last Change: ' + outa
+                    </script>
                     <div class="expcontentcan">
                         <table style="width: 100%">
                             <tr>
@@ -671,7 +675,6 @@ permalink: /more
         {% endif %}
         <br />
         <h2>parkrun returns in:</h2>
-        <script>let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZoneName: 'short', hour:'2-digit', minute:'2-digit'};</script>
         <div class="flex-container">
             <div class="flex-item" id="England Countdown">
                 <div class="countdown">

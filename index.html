@@ -294,14 +294,22 @@ date: 2021-06-22
         {% assign last_modified_at = stuff.time %}
         {% endfor %}
 
-        {% if time contains "00:00" %}
-        <p class="textbox" id="lastupdated" datetime="{{ last_modified_at | date_to_xmlschema }}">Data Last Refreshed: {{ last_modified_at | date: "%A, %e&nbsp;%B&nbsp;%Y" }}<br/>Always check the event's website and social media before setting out</p>
+        {% if last_modified_at contains "00:00" %}
+        <p class="textbox" id="lastupdated" datetime="{{ last_modified_at | date_to_xmlschema }}">Data Last Refreshed: {{ last_modified_at | date: "%A, %e&nbsp;%B&nbsp;%Y" }}
         {% else %}
-        <p class="textbox" id="lastupdated" datetime="{{ last_modified_at | date_to_xmlschema }}">Data Last Refreshed: {{ last_modified_at | date: "%R" }} UTC {{ last_modified_at | date: "%A, %e&nbsp;%B&nbsp;%Y" }}<br/>Always check the event's website and social media before setting out</p>
+        <p class="textbox" id="lastupdated" datetime="{{ last_modified_at | date_to_xmlschema }}">Data Last Refreshed: {{ last_modified_at | date: "%R" }} UTC {{ last_modified_at | date: "%A, %e&nbsp;%B&nbsp;%Y" }}
         {% endif %}
+        <br/>Always check the event's website and social media before setting out</p>
         <p class="textbox" id="dates">Showing data for {% for row in site.data.parkrun.cancellation-dates %}{% for pair in row %}{% for item in pair %}{% if forloop.last %} and {% endif %}{{ item | date: "%A, %e&nbsp;%B&nbsp;%Y" }}{% endfor %}{% endfor %}{% endfor %}</p>
         <button onclick="copy()" href="{{ site.baseurl }}" class="textbox" id="share"><span class="material-icons-outlined">share</span></button>
         <a class="textbox" id="more" href="{{ site.baseurl }}/more">Find out more</a>
+        <script>
+            let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZoneName: 'short', hour:'2-digit', minute:'2-digit'};
+            var last_modified_at = new Date("{{ last_modified_at }}").getTime();
+            var lm_date = new Date(last_modified_at)
+            var out = lm_date.toLocaleString('default', options);
+            document.getElementById("lastupdated").innerHTML = 'Data Last Refreshed: ' + out + "<br/>Always check the event's website and social media before setting out"
+        </script>
         <style>
             /* The switch - the box around the slider */
             .switch {
@@ -817,14 +825,6 @@ date: 2021-06-22
 
             map.addControl(ourGeoLocator);
 
-            ourGeoLocator.on('geolocate', function(e) {
-                    console.log(e);
-                    console.log(map.queryRenderedFeatures(
-                        null,
-                        { layers: ['parkrun_circle'] }
-                    ));
-                } 
-            );
             map.addControl(new mapboxgl.NavigationControl({showCompass: false}));
             map.addControl(new mapboxgl.FullscreenControl());
             // disable map rotation using right click + drag
