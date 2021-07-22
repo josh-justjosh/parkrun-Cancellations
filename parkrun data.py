@@ -870,8 +870,7 @@ for parkrun in events['features']:
                 parkrun['properties']['County'] = 'West Glamorgan'
                 
             if parkrun['properties']['County'] not in uk_counties:
-                uk_counties[parkrun['properties']['County']] = {'country': parkrun['properties']['State'],'parkrunning': 0,'junior parkrunning':0,'5k Cancellations':0,'junior Cancellations':0,'Total':0,'Events':[]}
-            uk_counties[parkrun['properties']['County']]['Events'].append(parkrun['properties']['EventLongName'])
+                uk_counties[parkrun['properties']['County']] = {'country': parkrun['properties']['State'],'parkrunning': 0,'junior parkrunning':0,'5k Cancellations':0,'junior Cancellations':0,'Total':0}
             if parkrun['properties']['Status'] == 'parkrunning':
                 uk_counties[parkrun['properties']['County']]['parkrunning'] += 1
                 uk_counties[parkrun['properties']['County']]['Total'] += 1
@@ -896,8 +895,7 @@ uk_counties_totals= {
     'junior parkrunning':0,
     '5k Cancellations':0,
     'junior Cancellations':0,
-    'Total':0,
-    'Events':''
+    'Total':0
     }
 
 for county,data in uk_counties.items():
@@ -912,7 +910,7 @@ uk_counties['Total'] = uk_counties_totals
 
 with open('_data/parkrun/uk-counties-data.tsv','wt', encoding='utf-8', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
-    tsv_writer.writerow(['County','Country','parkrunning','junior parkrunning','5k Cancellations','junior Cancellations','Total','Events'])
+    tsv_writer.writerow(['County','Country','parkrunning','junior parkrunning','5k Cancellations','junior Cancellations','Total'])
     for i,j in uk_counties.items():
         out = [i]
         for k,l in j.items():
