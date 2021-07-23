@@ -148,6 +148,8 @@ upcoming_events.append('Edgbaston Reservoir parkrun')
 upcoming_events.append('Henlow Bridge Lakes parkrun')
 upcoming_events.append('Penryn Campus parkrun')
 upcoming_events.append('Roberts Park parkrun')
+upcoming_events.append('Garvagh Forest parkrun')
+upcoming_events.append('Storeys Field parkrun')
 
 for parkrun in events['features']:
     if parkrun['properties']['EventLongName'] in upcoming_events:
