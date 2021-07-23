@@ -9,7 +9,9 @@ title: 'parkrun Cancellation Updates'
 {% for post in site.posts %}
 <article class="post">
 <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+<div class='hscrollable'>
 {{ post.content | markdownify }}
+</div>
 </article>
 {% if forloop.first %}
 <div style="padding-bottom: 0" class="post">

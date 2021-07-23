@@ -124,9 +124,6 @@ permalink: /more
             overflow: hidden;
             transition: max-height 0.5s ease-out;
             }
-        .hscrollable {
-            overflow-x: auto;
-        }
         </style>
     </head>
     <body>
@@ -588,12 +585,6 @@ permalink: /more
             <div>
                 {% if site.data.parkrun.cancellation-additions.size > 0 %}
                     <button type="button" class="collapsiblecan" style="margin: 5px;"><p style="float:left; margin: 0">Click to view the most recent Cancellations</p><p style="float:right; margin: 0" id='lastaddition'>Last Change: {{site.data.parkrun.cancellation-additions.last.Event | date: "%R UTC %A, %e&nbsp;%B&nbsp;%Y" }}</p></button>
-                    <script>
-                        var last_addition = new Date("{{ site.data.parkrun.cancellation-additions.last.Event }}").getTime();
-                        var la_date = new Date(last_addition)
-                        var outa = la_date.toLocaleString('default', options);
-                        document.getElementById("lastaddition").innerHTML = 'Last Change: ' + outa
-                    </script>
                     <div class="expcontentcan">
                         <table style="width: 100%">
                             <tr>
@@ -618,6 +609,10 @@ permalink: /more
                         <a href="/updates" style="float:right">Click to see a full history</a>
                     </div>
                     <script>
+                        var last_addition = new Date("{{ site.data.parkrun.cancellation-additions.last.Event }}").getTime();
+                        var la_date = new Date(last_addition)
+                        var outa = la_date.toLocaleString('default', options);
+                        document.getElementById("lastaddition").innerHTML = 'Last Change: ' + outa
                         var coll = document.getElementsByClassName("collapsiblecan");
                         var i;
 
