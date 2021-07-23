@@ -150,6 +150,7 @@ upcoming_events.append('Penryn Campus parkrun')
 upcoming_events.append('Roberts Park parkrun')
 upcoming_events.append('Garvagh Forest parkrun')
 upcoming_events.append('Storeys Field parkrun')
+upcoming_events.append('Patawalonga River parkrun')
 
 for parkrun in events['features']:
     if parkrun['properties']['EventLongName'] in upcoming_events:
