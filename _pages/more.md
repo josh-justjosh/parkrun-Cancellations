@@ -671,60 +671,6 @@ permalink: /more
         <br />
         <h2>parkrun returns in:</h2>
         <div class="flex-container">
-            <div class="flex-item" id="England Countdown">
-                <div class="countdown">
-                    <h3 style="margin:inherit; color:inherit">England</h3>
-                    <h2 id="timer1" style="margin:inherit; color:inherit;"></h2>
-                    <p id="endDate1" style="margin:inherit;"></p>
-
-                    <script>
-                        // Set the date we're counting down to
-                        var countDownDate1 = new Date("Jul 24, 2021 09:00:00 GMT+01:00").getTime();
-
-                        // Update the count down every 1 second
-                        var x = setInterval(function() {
-
-                        // Get today's date and time
-                        var now = new Date().getTime();
-
-                        // Find the distance between now and the count down date
-                        var distance = countDownDate1 - now;
-
-                        // Time calculations for days, hours, minutes and seconds
-                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
-                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
-                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-                        // Display the result in the element with id="timer"
-                        if (weeks == 0) {
-                            if (days == 0) {
-                                document.getElementById("timer1").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                            else {
-                                document.getElementById("timer1").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                        }
-                        else {
-                            document.getElementById("timer1").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                        }
-
-                        // If the count down is finished, write some text
-                        if (distance < 0) {
-                            clearInterval(x);
-                            document.getElementById("timer1").innerHTML = "parkrun's Back!";
-                        }
-                        }, 1000);
-
-                        var cdinput1 = new Date(countDownDate1)
-
-                        var cdoutput1 = cdinput1.toLocaleString('default', options);
-
-                        document.getElementById("endDate1").innerHTML = cdoutput1
-                    </script>
-                </div>
-            </div>
             <div class="flex-item" id="Canada Countdown">
                 <div class="countdown">
                     <!-- Display the timer timer in an element -->
@@ -1199,7 +1145,7 @@ permalink: /more
         </div>
         <h3>United Kingdom</h3>
         <div class="flex-container">
-            <div class="flex-status" style="flex-basis: 48%"><div class="countrystatus" style="background-color: rgb(249, 168, 37);"><h4>England</h4><p id="englandstatus">Events Returning <a href="#England%20Countdown">24 July</a></p></div></div>
+            <div class="flex-status" style="flex-basis: 48%"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>England</h4><p>Most Events Open</p></div></div>
             <div class="flex-status" style="flex-basis: 48%"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>Northern Ireland</h4><p>Events Open</p></div></div>
             <div class="flex-status" style="flex-basis: 48%"><div class="countrystatus" style="background-color: rgb(249, 168, 37);"><h4>Scotland</h4><p id="scotlandstatus">Events Potentially Returning <a href="#Scotland%20Countdown">14 August</a></p></div></div>
             <div class="flex-status" style="flex-basis: 48%"><div class="countrystatus" style="background-color: rgb(249, 168, 37);"><h4>Wales</h4><p id="walesstatus">Events Potentially Returning <a href="#Wales%20Countdown">14 August</a></p></div></div>
@@ -1225,7 +1171,6 @@ permalink: /more
         document.getElementById("canadastatus").innerHTML = "Returning<br/><a href='#Canada%20Countdown'>" + cdoutput8 + "</a>"
         document.getElementById("finlandstatus").innerHTML = "Returning<br/><a href='#Finland%20Countdown'>" + cdoutput4 + "</a>"
         document.getElementById("sweedenstatus").innerHTML = "Returning<br/><a href='#Sweeden%20Countdown'>" + cdoutput9 + "</a>"
-        document.getElementById("englandstatus").innerHTML = "Returning<br/><a href='#England%20Countdown'>" + cdoutput1 + "</a>"
         document.getElementById("scotlandstatus").innerHTML = "Potentially Returning<br/><a href='#Scotland%20Countdown'>" + cdoutput5 + "</a>"
         document.getElementById("walesstatus").innerHTML = "Potentially Returning<br/><a href='#Wales%20Countdown'>" + cdoutput7 + "</a>"
         </script>
