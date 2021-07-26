@@ -1180,6 +1180,7 @@ if cancellations_changes != []:
         out += '\n'
         if cancellations_additions != []:
             out += '<h3>New Cancellations</h3>' + '\n'
+            out += "<div class='hscrollable'>" + '\n'
             out += "<table style='width: 100%'>" + '\n'
             out += '    <tr>' + '\n'
             out += '        <th>Event</th>' + '\n'
@@ -1196,8 +1197,10 @@ if cancellations_changes != []:
                 out += '        <td>' + event[2] + '</td>' + '\n'
                 out += '    </tr>' + '\n'
             out += '</table>' + '\n'
+            out += '</div>' + '\n'
         if cancellations_removals != []:
             out += '<h3>Cancellations Removed</h3>' + '\n'
+            out += "<div class='hscrollable'>" + '\n'
             out += "<table style='width: 100%'>" + '\n'
             out += '    <tr>' + '\n'
             out += '        <th>Event</th>' + '\n'
@@ -1214,6 +1217,7 @@ if cancellations_changes != []:
                 out += '        <td>' + event[2] + '</td>' + '\n'
                 out += '    </tr>' + '\n'
             out += '</table>' + '\n'
+            out += '</div>' + '\n'
             
         f.write(out)
     print(now(),file,'saved')

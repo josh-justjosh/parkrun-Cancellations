@@ -55,6 +55,9 @@ layout: default
   {% else %}
     <p class="author_title" datetime="{{ page.last_modified_at | date_to_xmlschema }}">Last Updated: {{ page.last_modified_at | date: "%R" }} {{ tzn }} {{ page.last_modified_at | date: "%A, %e&nbsp;%B&nbsp;%Y" }}</p>
   {% endif %}{% endif %}
+  <div class="entry">
+    {{ content }}
+  </div>
   <div class="post-tags">
     {% if post %}
       {% assign categories = post.categories %}
@@ -65,8 +68,5 @@ layout: default
       <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
       {% unless forloop.last %}&nbsp;{% endunless %}
     {% endfor %}
-  </div>
-  <div class="entry">
-    {{ content }}
   </div>
 </article>
