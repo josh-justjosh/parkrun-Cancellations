@@ -142,12 +142,12 @@ new_states_list = []
 
 x = 0
 
-upcoming_events.append('Central parkrun, Plymouth')     #01/01/99
-upcoming_events.append('Church Mead parkrun')           #01/01/99
-upcoming_events.append('Edgbaston Reservoir parkrun')   #01/01/99
-upcoming_events.append('Henlow Bridge Lakes parkrun')   #01/01/99
-upcoming_events.append('Penryn Campus parkrun')         #01/01/99
-upcoming_events.append('Roberts Park parkrun')          #01/01/99
+upcoming_events.append('Central parkrun, Plymouth')     #01/01/99   https://www.parkrun.org.uk/centralplymouth/
+upcoming_events.append('Church Mead parkrun')           #01/01/99   https://www.parkrun.org.uk/churchmead/
+upcoming_events.append('Edgbaston Reservoir parkrun')   #01/01/99   https://www.parkrun.org.uk/edgbastonreservoir/
+upcoming_events.append('Henlow Bridge Lakes parkrun')   #01/01/99   https://www.parkrun.org.uk/henlowbridgelakes/
+upcoming_events.append('Penryn Campus parkrun')         #01/01/99   https://www.parkrun.org.uk/penryncampus/
+upcoming_events.append('Roberts Park parkrun')          #01/01/99   https://www.parkrun.org.uk/robertspark/
 
 for parkrun in events['features']:
     if parkrun['properties']['EventLongName'] in upcoming_events:

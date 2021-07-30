@@ -41,7 +41,11 @@ permalink: /more
             width:100%;
             background-color:#2B233D;
             color:white;
-            padding:10px 20px;
+            padding:10px 20px;        
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            justify-content: center;
         }
         .mapboxgl-popup-content {
             width: fit-content
@@ -56,16 +60,13 @@ permalink: /more
             flex-wrap: wrap;
             text-align: center;
         }
-
         .flex-key {
             margin: 10px 5px;
             flex-grow: 1;
         }
-
         .flex-key p {
             margin: 0;
         }
-        
         @media (max-width: 800px) {
             .flex-container {
                 flex-direction: column;
@@ -76,7 +77,6 @@ permalink: /more
             flex-wrap: wrap;
             text-align: center;
         }
-        
         .ptr-cell {
             margin: 5px;
             flex-grow: 1;
@@ -113,11 +113,9 @@ permalink: /more
             outline: none;
             font-size: 15px;
             }
-
         .active, .collapsible:hover, .collapsiblecan:hover, .collapsiblerein:hover, .collapsiblestatus:hover, .collapsiblestats:hover {
             background-color: #14101d;
             }
-
         .expcontent, .expcontentcan, .expcontentrein, .expcontentstatus, .expcontentstats {
             padding: 0 18px;
             max-height: 0;
@@ -142,14 +140,11 @@ permalink: /more
         <!-- Load the `mapbox-gl-geocoder` plugin. -->
         <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.min.js"></script>
         <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.css" type="text/css">
-        
         <!-- Promise polyfill script is required -->
         <!-- to use Mapbox GL Geocoder in IE 11. -->
         <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
-
         <div id="map"></div>
-
         <script>
             mapboxgl.accessToken = 'pk.eyJ1Ijoiam9zaC1qdXN0am9zaCIsImEiOiJja3A2eHdmajIwNGFvMndtcmNsbnZycm44In0.SvsoxpdU7NRLYLVRFIu2kw';
             if (zoom != null && lat != null && long != null) {
@@ -181,17 +176,14 @@ permalink: /more
                     style: 'mapbox://styles/mapbox/streets-v11'
                 });
             }
-
             // filters for classifying parkruns into five categories based on value
             var parkrunning = ['==', ['get', 'Status'], 'parkrunning'];
             var juniorrunning = ['==', ['get', 'Status'], 'junior parkrunning'];
             var cancelled5k = ['==', ['get', 'Status'], '5k Cancellation'];
             var cancelled2k = ['==', ['get', 'Status'], 'junior Cancellation'];
             var ptr = ['==', ['get', 'Status'], 'PtR'];
-
             // colors to use for the categories
             var colors = ['#7CB342', '#0288D1', '#A52714', '#1A237E', '#F9A825'];
-
             map.on('load', function () {
                 // add a clustered GeoJSON source for a sample set of parkruns
                 map.addSource('parkruns', {
@@ -245,15 +237,12 @@ permalink: /more
                         'text-color': '#000000'
                     }
                 });
-
                 // objects for caching and keeping track of HTML marker objects (for performance)
                 var markers = {};
                 var markersOnScreen = {};
-
                 function updateMarkers() {
                     var newMarkers = {};
                     var features = map.querySourceFeatures('parkruns');
-
                     // for every cluster on the screen, create an HTML marker for it (if we didn't yet),
                     // and add it to the map if it's not there already
                     for (var i = 0; i < features.length; i++) {
@@ -261,7 +250,6 @@ permalink: /more
                         var props = features[i].properties;
                         if (!props.cluster) continue;
                         var id = props.cluster_id;
-
                         var marker = markers[id];
                         if (!marker) {
                             var el = createDonutChart(props);
@@ -270,7 +258,6 @@ permalink: /more
                             }).setLngLat(coords);
                         }
                         newMarkers[id] = marker;
-
                         if (!markersOnScreen[id]) marker.addTo(map);
                     }
                     // for every marker we've added previously, remove those that are no longer visible
@@ -279,7 +266,6 @@ permalink: /more
                     }
                     markersOnScreen = newMarkers;
                 }
-
                 // after the GeoJSON data are loaded, update markers on the screen on every frame
                 map.on('render', function () {
                     if (!map.isSourceLoaded('parkruns')) return;
@@ -290,31 +276,26 @@ permalink: /more
                 map.on('click', 'parkrun_circle', function (e) {
                     var coordinates = e.features[0].geometry.coordinates.slice();
                     var description = e.features[0].properties.description;
-                    
                     // Ensure that if the map is zoomed out such that multiple
                     // copies of the feature are visible, the popup appears
                     // over the copy being pointed to.
                     while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
                         coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
                 }
-                
                 new mapboxgl.Popup()
                     .setLngLat(coordinates)
                     .setHTML(description)
                     .addTo(map);
                 });
-                
                 // Change the cursor to a pointer when the mouse is over the places layer.
                 map.on('mouseenter', 'parkrun_circle', function () {
                     map.getCanvas().style.cursor = 'pointer';
                 });
-                
                 // Change it back to a pointer when it leaves.
                 map.on('mouseleave', 'parkrun_circle', function () {
                     map.getCanvas().style.cursor = '';
                 });
             });
-
             // code for creating an SVG donut chart from feature properties
             function createDonutChart(props) {
                 var offsets = [];
@@ -335,7 +316,6 @@ permalink: /more
                 var r = total >= 1000 ? 50 : total >= 100 ? 32 : total >= 10 ? 24 : 18;
                 var r0 = Math.round(r * 0.6);
                 var w = r * 2;
-
                 var html =
                     '<div><svg width="' +
                     w +
@@ -348,7 +328,6 @@ permalink: /more
                     '" text-anchor="middle" style="font: ' +
                     fontSize +
                     'px sans-serif; display: block">';
-
                 for (i = 0; i < counts.length; i++) {
                     html += donutSegment(
                         offsets[i] / total,
@@ -372,12 +351,10 @@ permalink: /more
                     ')">' +
                     total.toLocaleString() +
                     '</text></svg></div>';
-
                 var el = document.createElement('div');
                 el.innerHTML = html;
                 return el.firstChild;
             }
-
             function donutSegment(start, end, r, r0, color) {
                 if (end - start === 1) end -= 0.00001;
                 var a0 = 2 * Math.PI * (start - 0.25);
@@ -387,7 +364,6 @@ permalink: /more
                 var x1 = Math.cos(a1),
                     y1 = Math.sin(a1);
                 var largeArc = end - start > 0.5 ? 1 : 0;
-
                 return [
                     '<path d="M',
                     r + r0 * x0,
@@ -432,17 +408,13 @@ permalink: /more
                 maxZoom: 10
                 }
             })
-
             map.addControl(ourGeoLocator);
-            
             map.addControl(new mapboxgl.NavigationControl({showCompass: false}));
             map.addControl(new mapboxgl.FullscreenControl());
             // disable map rotation using right click + drag
             map.dragRotate.disable();
-
             // disable map rotation using touch rotation gesture
             map.touchZoomRotate.disableRotation();
-
             // Center the map on the coordinates of any clicked circle from the 'parkrun_circle' layer.
             map.on('click', 'parkrun_circle', function (e) {
                 map.flyTo({
@@ -458,14 +430,12 @@ permalink: /more
             width: 60px;
             height: 34px;
         }
-
         /* Hide default HTML checkbox */
         .switch input {
             opacity: 0;
             width: 0;
             height: 0;
         }
-
         /* The slider */
         .slider {
             position: absolute;
@@ -478,7 +448,6 @@ permalink: /more
             -webkit-transition: .4s;
             transition: .4s;
         }
-
         .slider:before {
             position: absolute;
             content: "";
@@ -490,7 +459,6 @@ permalink: /more
             -webkit-transition: .4s;
             transition: .4s;
         }
-        
         input:checked + .slider#switch1 {
             background-color: #7CB342;
         }
@@ -506,22 +474,18 @@ permalink: /more
         input:checked + .slider#switch5 {
             background-color: #F9A825;
         }
-
         input:focus + .slider {
             box-shadow: 0 0 1px #2196F3;
         }
-
         input:checked + .slider:before {
             -webkit-transform: translateX(26px);
             -ms-transform: translateX(26px);
             transform: translateX(26px);
         }
-
         /* Rounded sliders */
         .slider.round {
             border-radius: 34px;
         }
-
         .slider.round:before {
             border-radius: 50%;
         }
@@ -581,7 +545,7 @@ permalink: /more
         <a style="margin:auto; flex-grow: 1; text-align: end;" href="/" id="map-link">Click here to go to the full map.</a>
         </div>
         {% if site.data.parkrun.cancellation-changes.size > 0 %}
-        <h2>Most Recent Changes</h2>
+        <h2 class="split">Most Recent Changes</h2>
             <div>
                 {% if site.data.parkrun.cancellation-additions.size > 0 %}
                     <button type="button" class="collapsiblecan" style="margin: 5px;"><p style="float:left; margin: 0">Click to view the most recent Cancellations</p><p style="float:right; margin: 0" id='lastaddition'>Last Change: {{site.data.parkrun.cancellation-additions.last.Event | date: "%R UTC %A, %e&nbsp;%B&nbsp;%Y" }}</p></button>
@@ -615,7 +579,6 @@ permalink: /more
                         document.getElementById("lastaddition").innerHTML = 'Last Change: ' + outa
                         var coll = document.getElementsByClassName("collapsiblecan");
                         var i;
-
                         for (i = 0; i < coll.length; i++) {
                         coll[i].addEventListener("click", function() {
                             this.classList.toggle("active");
@@ -652,7 +615,6 @@ permalink: /more
                     <script>
                         var coll = document.getElementsByClassName("collapsiblerein");
                         var i;
-
                         for (i = 0; i < coll.length; i++) {
                         coll[i].addEventListener("click", function() {
                             this.classList.toggle("active");
@@ -669,7 +631,7 @@ permalink: /more
             </div>-->
         {% endif %}
         <br />
-        <h2>parkrun returns in:</h2>
+        <h2 class="split">parkrun returns in:</h2>
         <div class="flex-container">
             <div class="flex-item" id="Netherlands Italy Countdown">
                 <div class="countdown">
@@ -677,27 +639,21 @@ permalink: /more
                     <h3 style="margin:inherit; color:inherit">Netherlands & Italy</h3>
                     <h2 id="timer3" style="margin:inherit; color:inherit;"></h2>
                     <p id="endDate3" style="margin:inherit;"></p>
-
                     <script>
                         // Set the date we're counting down to
                         var countDownDate3 = new Date( "2021/07/31 09:00:00 GMT+02:00").getTime();
-
                         // Update the count down every 1 second
                         var x = setInterval(function() {
-
                         // Get today's date and time
                         var now = new Date().getTime();
-
                         // Find the distance between now and the count down date
                         var distance = countDownDate3 - now;
-
                         // Time calculations for days, hours, minutes and seconds
                         var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
                         var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
                         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
                         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
                         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
                         // Display the result in the element with id="timer"
                         if (weeks == 0) {
                             if (days == 0) {
@@ -710,18 +666,14 @@ permalink: /more
                         else {
                             document.getElementById("timer3").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
                         }
-
                         // If the count down is finished, write some text
                         if (distance < 0) {
                             clearInterval(x);
                             document.getElementById("timer3").innerHTML = "parkrun's Back!";
                         }
                         }, 1000);
-
                         var cdinput3 = new Date(countDownDate3)
-
                         var cdoutput3 = cdinput3.toLocaleString('default', options);
-
                         document.getElementById("endDate3").innerHTML = cdoutput3
                     </script>
                 </div>
@@ -732,27 +684,21 @@ permalink: /more
                     <h3 style="margin:inherit; color:inherit">Norway</h3>
                     <h2 id="timer1" style="margin:inherit; color:inherit;"></h2>
                     <p id="endDate1" style="margin:inherit;"></p>
-
                     <script>
                         // Set the date we're counting down to
                         var countDownDate1 = new Date( "2021/07/31 09:30:00 GMT+02:00").getTime();
-
                         // Update the count down every 1 second
                         var x = setInterval(function() {
-
                         // Get today's date and time
                         var now = new Date().getTime();
-
                         // Find the distance between now and the count down date
                         var distance = countDownDate1 - now;
-
                         // Time calculations for days, hours, minutes and seconds
                         var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
                         var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
                         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
                         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
                         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
                         // Display the result in the element with id="timer"
                         if (weeks == 0) {
                             if (days == 0) {
@@ -765,18 +711,14 @@ permalink: /more
                         else {
                             document.getElementById("timer1").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
                         }
-
                         // If the count down is finished, write some text
                         if (distance < 0) {
                             clearInterval(x);
                             document.getElementById("timer1").innerHTML = "parkrun's Back!";
                         }
                         }, 1000);
-
                         var cdinput1 = new Date(countDownDate1)
-
                         var cdoutput1 = cdinput1.toLocaleString('default', options);
-
                         document.getElementById("endDate1").innerHTML = cdoutput1
                     </script>
                 </div>
@@ -787,27 +729,21 @@ permalink: /more
                     <h3 style="margin:inherit; color:inherit">Finland</h3>
                     <h2 id="timer4" style="margin:inherit; color:inherit;"></h2>
                     <p id="endDate4" style="margin:inherit;"></p>
-
                     <script>
                         // Set the date we're counting down to
                         var countDownDate4 = new Date( "2021/08/07 09:30:00 GMT+03:00").getTime();
-
                         // Update the count down every 1 second
                         var x = setInterval(function() {
-
                         // Get today's date and time
                         var now = new Date().getTime();
-
                         // Find the distance between now and the count down date
                         var distance = countDownDate4 - now;
-
                         // Time calculations for days, hours, minutes and seconds
                         var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
                         var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
                         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
                         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
                         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
                         // Display the result in the element with id="timer"
                         if (weeks == 0) {
                             if (days == 0) {
@@ -820,18 +756,14 @@ permalink: /more
                         else {
                             document.getElementById("timer4").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
                         }
-
                         // If the count down is finished, write some text
                         if (distance < 0) {
                             clearInterval(x);
                             document.getElementById("timer4").innerHTML = "parkrun's Back!";
                         }
                         }, 1000);
-
                         var cdinput4 = new Date(countDownDate4)
-
                         var cdoutput4 = cdinput4.toLocaleString('default', options);
-
                         document.getElementById("endDate4").innerHTML = cdoutput4
                     </script>
                 </div>
@@ -842,27 +774,21 @@ permalink: /more
                     <h3 style="margin:inherit; color:inherit">Sweden</h3>
                     <h2 id="timer9" style="margin:inherit; color:inherit;"></h2>
                     <p id="endDate9" style="margin:inherit;"></p>
-
                     <script>
                         // Set the date we're counting down to
                         var countDownDate9 = new Date( "2021/08/07 09:30:00 GMT+02:00").getTime();
-
                         // Update the count down every 1 second
                         var x = setInterval(function() {
-
                         // Get today's date and time
                         var now = new Date().getTime();
-
                         // Find the distance between now and the count down date
                         var distance = countDownDate9 - now;
-
                         // Time calculations for days, hours, minutes and seconds
                         var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
                         var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
                         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
                         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
                         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
                         // Display the result in the element with id="timer"
                         if (weeks == 0) {
                             if (days == 0) {
@@ -875,18 +801,14 @@ permalink: /more
                         else {
                             document.getElementById("timer9").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
                         }
-
                         // If the count down is finished, write some text
                         if (distance < 0) {
                             clearInterval(x);
                             document.getElementById("timer9").innerHTML = "parkrun's Back!";
                         }
                         }, 1000);
-
                         var cdinput9 = new Date(countDownDate9)
-
                         var cdoutput9 = cdinput9.toLocaleString('default', options);
-
                         document.getElementById("endDate9").innerHTML = cdoutput9
                     </script>
                 </div>
@@ -897,27 +819,21 @@ permalink: /more
                     <h3 style="margin:inherit; color:inherit">Austria</h3>
                     <h2 id="timer2" style="margin:inherit; color:inherit;"></h2>
                     <p id="endDate2" style="margin:inherit;"></p>
-
                     <script>
                         // Set the date we're counting down to
                         var countDownDate2 = new Date( "2021/08/14 09:00:00 GMT+02:00").getTime();
-
                         // Update the count down every 1 second
                         var x = setInterval(function() {
-
                         // Get today's date and time
                         var now = new Date().getTime();
-
                         // Find the distance between now and the count down date
                         var distance = countDownDate2 - now;
-
                         // Time calculations for days, hours, minutes and seconds
                         var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
                         var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
                         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
                         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
                         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
                         // Display the result in the element with id="timer"
                         if (weeks == 0) {
                             if (days == 0) {
@@ -930,74 +846,15 @@ permalink: /more
                         else {
                             document.getElementById("timer2").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
                         }
-
                         // If the count down is finished, write some text
                         if (distance < 0) {
                             clearInterval(x);
                             document.getElementById("timer2").innerHTML = "parkrun's Back!";
                         }
                         }, 1000);
-
                         var cdinput2 = new Date(countDownDate2)
-
                         var cdoutput2 = cdinput2.toLocaleString('default', options);
-
                         document.getElementById("endDate2").innerHTML = cdoutput2
-                    </script>
-                </div>
-            </div>
-            <div class="flex-item" id="Wales Countdown">
-                <div class="countdown">
-                    <!-- Display the timer timer in an element -->
-                    <h3 style="margin:inherit; color:inherit">Wales (tbc)</h3>
-                    <h2 id="timer7" style="margin:inherit; color:inherit;"></h2>
-                    <p id="endDate7" style="margin:inherit;"></p>
-
-                    <script>
-                        // Set the date we're counting down to
-                        var countDownDate7 = new Date( "2021/08/14 09:00:00 GMT+01:00").getTime();
-
-                        // Update the count down every 1 second
-                        var x = setInterval(function() {
-
-                        // Get today's date and time
-                        var now = new Date().getTime();
-
-                        // Find the distance between now and the count down date
-                        var distance = countDownDate7 - now;
-
-                        // Time calculations for days, hours, minutes and seconds
-                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
-                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
-                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-                        // Display the result in the element with id="timer"
-                        if (weeks == 0) {
-                            if (days == 0) {
-                                document.getElementById("timer7").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                            else {
-                                document.getElementById("timer7").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                        }
-                        else {
-                            document.getElementById("timer7").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                        }
-
-                        // If the count down is finished, write some text
-                        if (distance < 0) {
-                            clearInterval(x);
-                            document.getElementById("timer7").innerHTML = "parkrun's Back!";
-                        }
-                        }, 1000);
-
-                        var cdinput7 = new Date(countDownDate7)
-
-                        var cdoutput7 = cdinput7.toLocaleString('default', options);
-
-                        document.getElementById("endDate7").innerHTML = cdoutput7
                     </script>
                 </div>
             </div>
@@ -1007,27 +864,21 @@ permalink: /more
                     <h3 style="margin:inherit; color:inherit">Mainland Scotland & The Hebrides (tbc)</h3>
                     <h2 id="timer5" style="margin:inherit; color:inherit;"></h2>
                     <p id="endDate5" style="margin:inherit;"></p>
-
                     <script>
                         // Set the date we're counting down to
                         var countDownDate5 = new Date( "2021/08/14 09:30:00 GMT+01:00").getTime();
-
                         // Update the count down every 1 second
                         var x = setInterval(function() {
-
                         // Get today's date and time
                         var now = new Date().getTime();
-
                         // Find the distance between now and the count down date
                         var distance = countDownDate5 - now;
-
                         // Time calculations for days, hours, minutes and seconds
                         var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
                         var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
                         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
                         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
                         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
                         // Display the result in the element with id="timer"
                         if (weeks == 0) {
                             if (days == 0) {
@@ -1040,19 +891,105 @@ permalink: /more
                         else {
                             document.getElementById("timer5").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
                         }
-
                         // If the count down is finished, write some text
                         if (distance < 0) {
                             clearInterval(x);
                             document.getElementById("timer5").innerHTML = "parkrun's Back!";
                         }
                         }, 1000);
-
                         var cdinput5 = new Date(countDownDate5)
-
                         var cdoutput5 = cdinput5.toLocaleString('default', options);
-
                         document.getElementById("endDate5").innerHTML = cdoutput5
+                    </script>
+                </div>
+            </div>
+            <div class="flex-item" id="Ireland juniors Countdown">
+                <div class="countdown" style="background-color: rgb(0, 206, 174);">
+                    <!-- Display the timer timer in an element -->
+                    <h3 style="margin:inherit; color:inherit">Ireland juniors</h3>
+                    <h2 id="timer6" style="margin:inherit; color:inherit;"></h2>
+                    <p id="endDate6" style="margin:inherit;"></p>
+                    <script>
+                        // Set the date we're counting down to
+                        var countDownDate6 = new Date( "2021/08/15 09:30:00 GMT+01:00").getTime();
+                        // Update the count down every 1 second
+                        var x = setInterval(function() {
+                        // Get today's date and time
+                        var now = new Date().getTime();
+                        // Find the distance between now and the count down date
+                        var distance = countDownDate6 - now;
+                        // Time calculations for days, hours, minutes and seconds
+                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
+                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
+                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                        // Display the result in the element with id="timer6"
+                        if (weeks == 0) {
+                            if (days == 0) {
+                                document.getElementById("timer6").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                            else {
+                                document.getElementById("timer6").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                        }
+                        else {
+                            document.getElementById("timer6").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                        }
+                        // If the count down is finished, write some text
+                        if (distance < 0) {
+                            clearInterval(x);
+                            document.getElementById("timer6").innerHTML = "parkrun's Back!";
+                        }
+                        }, 1000);
+                        var cdinput6 = new Date(countDownDate6)
+                        var cdoutput6 = cdinput6.toLocaleString('default', options);
+                        document.getElementById("endDate6").innerHTML = cdoutput6
+                    </script>
+                </div>
+            </div>
+            <div class="flex-item" id="Wales Countdown">
+                <div class="countdown">
+                    <!-- Display the timer timer in an element -->
+                    <h3 style="margin:inherit; color:inherit">Wales (tbc)</h3>
+                    <h2 id="timer7" style="margin:inherit; color:inherit;"></h2>
+                    <p id="endDate7" style="margin:inherit;"></p>
+                    <script>
+                        // Set the date we're counting down to
+                        var countDownDate7 = new Date( "2021/08/21 09:00:00 GMT+01:00").getTime();
+                        // Update the count down every 1 second
+                        var x = setInterval(function() {
+                        // Get today's date and time
+                        var now = new Date().getTime();
+                        // Find the distance between now and the count down date
+                        var distance = countDownDate7 - now;
+                        // Time calculations for days, hours, minutes and seconds
+                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
+                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
+                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                        // Display the result in the element with id="timer"
+                        if (weeks == 0) {
+                            if (days == 0) {
+                                document.getElementById("timer7").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                            else {
+                                document.getElementById("timer7").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                        }
+                        else {
+                            document.getElementById("timer7").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                        }
+                        // If the count down is finished, write some text
+                        if (distance < 0) {
+                            clearInterval(x);
+                            document.getElementById("timer7").innerHTML = "parkrun's Back!";
+                        }
+                        }, 1000);
+                        var cdinput7 = new Date(countDownDate7)
+                        var cdoutput7 = cdinput7.toLocaleString('default', options);
+                        document.getElementById("endDate7").innerHTML = cdoutput7
                     </script>
                 </div>
             </div>
@@ -1070,7 +1007,6 @@ permalink: /more
         <script>
             var coll = document.getElementsByClassName("collapsible");
             var i;
-
             for (i = 0; i < coll.length; i++) {
             coll[i].addEventListener("click", function() {
                 this.classList.toggle("active");
@@ -1083,7 +1019,6 @@ permalink: /more
             });
             }
         </script>-->
-
         <style>
         .countrystatus {
             padding: 5px;
@@ -1108,53 +1043,283 @@ permalink: /more
         </style>
         <button type="button" class="collapsiblestatus" style="margin: 5px;">Click to view a summary of the status of parkruns in each country</button>
         <div class="expcontent">
-        <h2>Country Situations</h2>
+        <h2 class="split">Country Situations</h2>
         <div class="flex-container">
-            <div class="flex-status" style="flex-grow: 2;"><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>Austria</h3><p id="austriastatus">Starting <a href="#Austria%20Countdown">14 August</a></p></div></div>
-            <div class="flex-status" style="flex-basis: 23%;"><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>Canada</h3><p>A Few Events Open</p></div></div>
-            <div class="flex-status" style="flex-basis: 23%"><div style="background-color: rgb(124, 179, 66);" class="countrystatus"><h3>Denmark</h3><p>Events Open</p></div></div>
-            <div class="flex-status" style="flex-basis: 23%"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Eswatini</h3><p>Event Suspended</p></div></div>
-            <div class="flex-status" style="flex-grow: 2;"><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>Finland</h3><p id="finlandstatus">Events Returning <a href="#Finland%20Countdown">7 August</a></p></div></div>
-            <div class="flex-status" style="flex-basis: 23%"><div style="background-color: rgb(124, 179, 66);" class="countrystatus"><h3>France</h3><p>Events Open</p></div></div>
-            <div class="flex-status" style="flex-basis: 23%"><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>Germany</h3><p>Some Events Open</p></div></div>
-            <div class="flex-status" style="flex-basis: 23%"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Ireland</h3><p>Events Suspended</p></div></div>
-            <div class="flex-status" style="flex-grow: 2"><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>Italy</h3><p id="italystatus">Events Returning <a href="#Netherlands%20Italy%20Countdown">31 July</a></p></div></div>
-            <div class="flex-status" style="flex-basis: 23%"><div style="background-color: rgb(124, 179, 66);" class="countrystatus"><h3>Japan</h3><p>Most Events Open</p></div></div>
-            <div class="flex-status" style="flex-basis: 23%"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Malaysia</h3><p>Events Suspended</p></div></div>
-            <div class="flex-status" style="flex-basis: 23%"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Namibia</h3><p>Events Suspended</p></div></div>
-            <div class="flex-status" style="flex-grow: 2;"><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>Netherlands</h3><p id="netherlandsstatus">Returning <a href="#Netherlandss%20Italy%20Countdown">31 July</a></p></div></div>
-            <div class="flex-status" style="flex-basis: 23%"><div style="background-color: rgb(124, 179, 66);" class="countrystatus"><h3>New Zealand</h3><p>Events Open</p></div></div>
-            <div class="flex-status" style="flex-grow: 2;"><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>Norway</h3><p id="norwaystatus">Events Returning <a href="#Norway%20Countdown">31 July</a></p></div></div>
-            <div class="flex-status" style="flex-basis: 23%"><div style="background-color: rgb(124, 179, 66);" class="countrystatus"><h3>Poland</h3><p>Events Open</p></div></div>
-            <div class="flex-status" style="flex-basis: 23%"><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>Russia</h3><p>Some Events Open</p></div></div>
-            <div class="flex-status" style="flex-basis: 23%"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>Singapore</h3><p>Events Suspended</p></div></div>
-            <div class="flex-status" style="flex-basis: 23%"><div style="background-color: rgb(165, 39, 20);" class="countrystatus"><h3>South Africa</h3><p>Events Suspended</p></div></div>
-            <div class="flex-status" style="flex-grow: 2;"><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>Sweden</h3><p id="sweedenstatus">Events Returning <a href="#Sweeden%20Countdown">7 August</a></p></div></div>
-            <div class="flex-status" style=""><div style="background-color: rgb(249, 168, 37);" class="countrystatus"><h3>USA</h3><p>Some Events Open</p></div></div>
+            <div class="flex-status" style="flex-grow: 2;">
+                <div style="background-color: rgb(249, 168, 37);" class="countrystatus">
+                    <h3>Austria</h3>
+                    <p id="austriastatus">Starting <a href="#Austria%20Countdown">14 August</a></p>
+                </div>
+            </div>
+            <div class="flex-status" style="flex-basis: 23%;">
+                <div style="background-color: rgb(249, 168, 37);" class="countrystatus">
+                    <h3>Canada</h3>
+                    <p>A Few Events Open</p>
+                </div>
+            </div>
+            <div class="flex-status" style="flex-basis: 23%">
+                <div style="background-color: rgb(124, 179, 66);" class="countrystatus">
+                    <h3>Denmark</h3>
+                    <p>Events Open</p>
+                </div>
+            </div>
+            <div class="flex-status" style="flex-basis: 23%">
+                <div style="background-color: rgb(165, 39, 20);" class="countrystatus">
+                    <h3>Eswatini</h3>
+                    <p>Event Suspended</p>
+                </div>
+            </div>
+            <div class="flex-status" style="flex-grow: 2;">
+                <div style="background-color: rgb(249, 168, 37);" class="countrystatus">
+                    <h3>Finland</h3>
+                    <p id="finlandstatus">Events Returning <a href="#Finland%20Countdown">7 August</a></p>
+                </div>
+                </div>
+            <div class="flex-status" style="flex-basis: 23%">
+                <div style="background-color: rgb(124, 179, 66);" class="countrystatus">
+                    <h3>France</h3>
+                    <p>Events Open</p>
+                </div>
+            </div>
+            <div class="flex-status" style="flex-basis: 23%">
+                <div style="background-color: rgb(249, 168, 37);" class="countrystatus">
+                    <h3>Germany</h3>
+                    <p>Some Events Open</p>
+                </div>
+            </div>
+            <div class="flex-status" style="flex-grow: 2;">
+                <div style="" class="countrystatus">
+                    <h3>Ireland</h3>
+                    <div class="flex-container">
+                        <div class="flex-status" style="flex-grow: 2;">
+                            <div class="countrystatus" style="background-color: rgb(165, 39, 20);">
+                                <p>5k Events Suspended</p>
+                            </div>
+                        </div>
+                        <div class="flex-status" style="flex-grow: 2;">
+                            <div class="countrystatus" style="background-color: rgb(249, 168, 37);">
+                                <p id="irelandjuniorevents">junior Events Returning</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-status" style="flex-grow: 2">
+                <div style="background-color: rgb(249, 168, 37);" class="countrystatus">
+                    <h3>Italy</h3>
+                    <p id="italystatus">Events Returning <a href="#Netherlands%20Italy%20Countdown">31 July</a></p>
+                </div>
+            </div>
+            <div class="flex-status" style="flex-basis: 23%">
+                <div style="background-color: rgb(124, 179, 66);" class="countrystatus">
+                    <h3>Japan</h3>
+                    <p>Most Events Open</p>
+                </div>
+            </div>
+            <div class="flex-status" style="flex-basis: 23%">
+                <div style="background-color: rgb(165, 39, 20);" class="countrystatus">
+                    <h3>Malaysia</h3>
+                    <p>Events Suspended</p>
+                </div>
+            </div>
+            <div class="flex-status" style="flex-basis: 23%">
+                <div style="background-color: rgb(165, 39, 20);" class="countrystatus">
+                    <h3>Namibia</h3>
+                    <p>Events Suspended</p>
+                </div>
+            </div>
+            <div class="flex-status" style="flex-grow: 2;">
+                <div style="background-color: rgb(249, 168, 37);" class="countrystatus">
+                    <h3>Netherlands</h3>
+                    <p id="netherlandsstatus">Returning <a href="#Netherlandss%20Italy%20Countdown">31 July</a></p>
+                </div>
+            </div>
+            <div class="flex-status" style="flex-basis: 23%">
+                <div style="background-color: rgb(124, 179, 66);" class="countrystatus">
+                    <h3>New Zealand</h3>
+                    <p>Events Open</p>
+                </div>
+            </div>
+            <div class="flex-status" style="flex-grow: 2;">
+                <div style="background-color: rgb(249, 168, 37);" class="countrystatus">
+                    <h3>Norway</h3>
+                    <p id="norwaystatus">Events Returning <a href="#Norway%20Countdown">31 July</a></p>
+                </div>
+            </div>
+            <div class="flex-status" style="flex-basis: 23%">
+                <div style="background-color: rgb(124, 179, 66);" class="countrystatus">
+                    <h3>Poland</h3>
+                    <p>Events Open</p>
+                </div>
+            </div>
+            <div class="flex-status" style="flex-basis: 23%">
+                <div style="background-color: rgb(249, 168, 37);" class="countrystatus">
+                    <h3>Russia</h3>
+                    <p>Some Events Open</p>
+                </div>
+            </div>
+            <div class="flex-status" style="flex-basis: 23%">
+                <div style="background-color: rgb(165, 39, 20);" class="countrystatus">
+                    <h3>Singapore</h3>
+                    <p>Events Suspended</p>
+                </div>
+            </div>
+            <div class="flex-status" style="flex-basis: 23%">
+                <div style="background-color: rgb(165, 39, 20);" class="countrystatus">
+                    <h3>South Africa</h3>
+                    <p>Events Suspended</p>
+                </div>
+            </div>
+            <div class="flex-status" style="flex-grow: 2;">
+                <div style="background-color: rgb(249, 168, 37);" class="countrystatus">
+                    <h3>Sweden</h3>
+                    <p id="sweedenstatus">Events Returning <a href="#Sweeden%20Countdown">7 August</a></p>
+                </div>
+            </div>
+            <div class="flex-status" style="">
+                <div style="background-color: rgb(124, 179, 66);" class="countrystatus">
+                    <h3>USA</h3>
+                    <p>Most Events Open</p>
+                </div>
+            </div>
         </div>
-        <h3>Australia</h3>
+        <h3 class="split">Australia</h3>
         <div class="flex-container">
-            <div class="flex-status" style="flex-basis: 23%"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>Australian Capital Territory</h4><p>Events Open</p></div></div>
-            <div class="flex-status" style="flex-basis: 23%"><div class="countrystatus"><h4>New South Wales</h4><p style="color:revert;">Some Events Open,<br/>Sydney Events Suspended</p></div></div>
-            <div class="flex-status" style="flex-basis: 23%"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>Northern Territory</h4><p>Events Open</p></div></div>
-            <div class="flex-status" style="flex-basis: 23%"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>Queensland</h4><p>Events Open</p></div></div>
-            <div class="flex-status" style="flex-basis: 23%"><div class="countrystatus" style="background-color: rgb(165, 39, 20);"><h4>South Australia</h4><p>Events Suspended</p></div></div>
-            <div class="flex-status" style="flex-basis: 23%"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>Tasmania</h4><p>Events Open</p></div></div>
-            <div class="flex-status" style="flex-basis: 23%"><div class="countrystatus" style="background-color: rgb(165, 39, 20);"><h4>Victoria</h4><p>Events Suspended</p></div></div>
-            <div class="flex-status" style="flex-basis: 23%"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>Western Australia</h4><p>Events Open</p></div></div>
+            <div class="flex-status" style="flex-grow: 1;">
+                <div class="countrystatus" style="background-color: rgb(124, 179, 66);">
+                    <h4>Australian Capital Territory</h4>
+                    <p>Events Open</p>
+                </div>
+            </div>
+            <div class="flex-status" style="flex-grow: 2;">
+                <div style="background-color: rgb(249, 168, 37);" class="countrystatus">
+                    <h4>New South Wales</h4>
+                    <div class="flex-container">
+                        <div class="flex-status" style="flex-grow: 2;">
+                            <div class="countrystatus" style="background-color: rgb(124, 179, 66)">
+                                <p>Some Events Open</p>
+                            </div>
+                        </div>
+                        <div class="flex-status" style="flex-grow: 1;">
+                            <div class="countrystatus" style="background-color: rgb(165, 39, 20)">
+                                <p>Sydney Events Suspended</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-status" style="flex-grow: 1;">
+                <div class="countrystatus" style="background-color: rgb(124, 179, 66);">
+                    <h4>Northern Territory</h4>
+                    <p>Events Open</p>
+                </div>
+            </div>
+            <div class="flex-status" style="flex-grow: 1;">
+                <div class="countrystatus" style="background-color: rgb(124, 179, 66);">
+                    <h4>Queensland</h4>
+                    <p>Events Open</p>
+                </div>
+            </div>
+            <div class="flex-status" style="flex-grow: 1;">
+                <div class="countrystatus" style="background-color: rgb(124, 179, 66);">
+                    <h4>South Australia</h4>
+                    <p>Events Open</p>
+                </div>
+            </div>
+            <div class="flex-status" style="flex-grow: 1;">
+                <div class="countrystatus" style="background-color: rgb(124, 179, 66);">
+                    <h4>Tasmania</h4>
+                    <p>Events Open</p>
+                </div>
+            </div>
+            <div class="flex-status" style="flex-grow: 1;">
+                <div class="countrystatus" style="background-color: rgb(165, 39, 20);">
+                    <h4>Victoria</h4>
+                    <p>Events Suspended</p>
+                </div>
+            </div>
+            <div class="flex-status" style="flex-grow: 1;">
+                <div class="countrystatus" style="background-color: rgb(124, 179, 66);">
+                    <h4>Western Australia</h4>
+                    <p>Events Open</p>
+                </div>
+            </div>
         </div>
-        <h3>United Kingdom</h3>
+        <h3 class="split">United Kingdom</h3>
         <div class="flex-container">
-            <div class="flex-status" style="flex-basis: 48%"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>England</h4><p>Most Events Open</p></div></div>
-            <div class="flex-status" style="flex-basis: 48%"><div class="countrystatus" style="background-color: rgb(124, 179, 66);"><h4>Northern Ireland</h4><p>Events Open</p></div></div>
-            <div class="flex-status" style="flex-basis: 48%"><div class="countrystatus" style="background-color: rgb(249, 168, 37);"><h4>Scotland</h4><p id="scotlandstatus">Events Potentially Returning <a href="#Scotland%20Countdown">14 August</a></p></div></div>
-            <div class="flex-status" style="flex-basis: 48%"><div class="countrystatus" style="background-color: rgb(249, 168, 37);"><h4>Wales</h4><p id="walesstatus">Events Potentially Returning <a href="#Wales%20Countdown">14 August</a></p></div></div>
+            <div class="flex-status" style="flex-grow: 1;">
+                <div style="" class="countrystatus">
+                    <h4>England</h4>
+                    <div class="flex-container">
+                        <div class="flex-status" style="flex-grow: 1;">
+                            <div class="countrystatus" style="background-color: rgb(124, 179, 66)">
+                                <p>5k Events Open</p>
+                            </div>
+                        </div>
+                        <div class="flex-status" style="flex-grow: 1;">
+                            <div class="countrystatus" style="background-color: rgb(0, 206, 174)">
+                                <p>junior Events Open</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-status" style="flex-grow: 1;">
+                <div style="" class="countrystatus">
+                    <h4>Northern Ireland</h4>
+                    <div class="flex-container">
+                        <div class="flex-status" style="flex-grow: 1;">
+                            <div class="countrystatus" style="background-color: rgb(124, 179, 66)">
+                                <p>5k Events Open</p>
+                            </div>
+                        </div>
+                        <div class="flex-status" style="flex-grow: 1;">
+                            <div class="countrystatus" style="background-color: rgb(0, 206, 174)">
+                                <p>Most junior Events Open</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-status" style="flex-grow: 2;">
+                <div style="" class="countrystatus">
+                    <h4>Scotland</h4>
+                    <div class="flex-container">
+                        <div class="flex-status" style="flex-grow: 2;">
+                            <div class="countrystatus" style="background-color: rgb(249, 168, 37)">
+                                <p id="scotlandstatus">Events Potentially Returning <a href="#Scotland%20Countdown">14 August</a></p>
+                            </div>
+                        </div>
+                        <div class="flex-status" style="flex-grow: 1;">
+                            <div class="countrystatus" style="background-color: rgb(0, 206, 174)">
+                                <p>Some junior<br/>Events Open</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-status" style="flex-grow: 2;">
+                <div style="" class="countrystatus">
+                    <h4>Wales</h4>
+                    <div class="flex-container">
+                        <div class="flex-status" style="flex-grow: 2;">
+                            <div class="countrystatus" style="background-color: rgb(249, 168, 37)">
+                                <p id="walesstatus">Events Potentially Returning <a href="#Wales%20Countdown">21 August</a></p>
+                            </div>
+                        </div>
+                        <div class="flex-status" style="flex-grow: 1;">
+                            <div class="countrystatus" style="background-color: rgb(0, 206, 174)">
+                                <p>Some junior<br/>Events Open</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         </div>
         <script>
             var coll = document.getElementsByClassName("collapsiblestatus");
             var i;
-
             for (i = 0; i < coll.length; i++) {
             coll[i].addEventListener("click", function() {
                 this.classList.toggle("active");
@@ -1173,11 +1338,12 @@ permalink: /more
         document.getElementById("norwaystatus").innerHTML = "Returning<br/><a href='#Norway%20Countdown'>" + cdoutput1 + "</a>"
         document.getElementById("sweedenstatus").innerHTML = "Returning<br/><a href='#Sweeden%20Countdown'>" + cdoutput9 + "</a>"
         document.getElementById("scotlandstatus").innerHTML = "Potentially Returning<br/><a href='#Scotland%20Countdown'>" + cdoutput5 + "</a>"
+        document.getElementById("irelandjuniorevents").innerHTML = "juniors Returning<br/><a href='#Ireland%20juniors%20Countdown'>" + cdoutput6 + "</a>"
         document.getElementById("walesstatus").innerHTML = "Potentially Returning<br/><a href='#Wales%20Countdown'>" + cdoutput7 + "</a>"
         </script>
         <button type="button" class="collapsiblestats" style="margin: 5px;">Click to view a summary of the data for each country</button>
         <div class="expcontent">
-            <h2>Events</h2>
+            <h2 class="split">Events</h2>
             <div class="hscrollable">
             <table style="width: 100%;">
                 {% for row in site.data.parkrun.countries-data %}
@@ -1204,7 +1370,7 @@ permalink: /more
                 {% endfor %}
             </table>
             </div>
-            <h2>UK Events</h2>
+            <h2 class="split">UK Events</h2>
             <div class="hscrollable">
             <table style="width: 100%;">
                 {% for row in site.data.parkrun.uk-data %}
@@ -1232,7 +1398,7 @@ permalink: /more
             </table>
             </div>
             <p style="text-align:end"><a href='more-uk'>Click here for more UK Data</a></p>
-            <h2>Australian Events</h2>
+            <h2 class="split">Australian Events</h2>
             <div class="hscrollable">
             <table style="width: 100%;">
                 {% for row in site.data.parkrun.aus-data %}
@@ -1263,7 +1429,6 @@ permalink: /more
         <script>
             var coll = document.getElementsByClassName("collapsiblestats");
             var i;
-
             for (i = 0; i < coll.length; i++) {
             coll[i].addEventListener("click", function() {
                 this.classList.toggle("active");

@@ -65,7 +65,7 @@ h2 {
 }
 
 @media (min-width: 769px){
-	.post h2::before, .post h2::after {
+	.post h2::before, .post h2::after, .split::before, .split::after  {
 	    content: "";
 	    display: inline-block;
 	    vertical-align: middle;
