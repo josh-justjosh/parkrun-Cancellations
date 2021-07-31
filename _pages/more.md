@@ -1317,7 +1317,7 @@ permalink: /more
                         </div>
                         <div>
                             <div class="statusblue">
-                                <p>junior Events Open</p>
+                                <p>Most junior Events Open</p>
                             </div>
                         </div>
                     </div>
@@ -1346,8 +1346,8 @@ permalink: /more
                             </div>
                         </div>
                         <div>
-                            <div class="statusamber">
-                                <p>Some junior Events Open</p>
+                            <div class="statusblue">
+                                <p>Most junior Events Open</p>
                             </div>
                         </div>
                     </div>
