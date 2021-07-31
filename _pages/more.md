@@ -964,7 +964,6 @@ permalink: /more
         }
         .statusamber {
             background-color: rgb(249, 168, 37);
-            grid-column: span 2;
         }
         .statusred {
             background-color: rgb(165, 39, 20);
@@ -1010,6 +1009,9 @@ permalink: /more
         @media (min-width: 560px) {
             #irelandstatus, #irelandtitle {
                 grid-column: span 3;
+            }
+            #irlandjstatus {
+                grid-column: span 2;
             }
             #irelandgrid {
                 grid-template-columns: 1fr 1fr 1fr;
@@ -1115,254 +1117,260 @@ permalink: /more
         </style>
         <button type="button" class="collapsiblestatus" style="margin: 5px;">Click to view a summary of the status of parkruns in each country</button>
         <div class="expcontent">
-            <h2 class="split">Country Situations</h2>
-            <div id="countrystatuses" class="grid">
-                <div id="austriastatus" class="countrystatus">
-                    <div class="statusamber">
-                        <h3>Austria</h3>
-                        <p id="austriadate">Starting <a href="#Austria%20Countdown">14 August</a></p>
-                    </div>
-                </div>
-                <div class="countrystatus">
-                    <div class="statusamber">
-                        <h3>Canada</h3>
-                        <p>A Few Events Open</p>
-                    </div>
-                </div>
-                <div class="countrystatus">
-                    <div class="statusgreen">
-                        <h3>Denmark</h3>
-                        <p>Events Open</p>
-                    </div>
-                </div>
-                <div class="countrystatus">
-                    <div class="statusred">
-                        <h3>Eswatini</h3>
-                        <p>Event Suspended</p>
-                    </div>
-                </div>
-                <div id="finlandstatus" class="countrystatus">
-                    <div class="statusamber">
-                        <h3>Finland</h3>
-                        <p id="finlanddate">Events Returning <a href="#Finland%20Countdown">7 August</a></p>
-                    </div>
-                    </div>
-                <div class="countrystatus">
-                    <div class="statusgreen">
-                        <h3>France</h3>
-                        <p>Events Open</p>
-                    </div>
-                </div>
-                <div class="countrystatus">
-                    <div class="statusamber">
-                        <h3>Germany</h3>
-                        <p>Some Events Open</p>
-                    </div>
-                </div>
-                <div id ="irelandstatus" class="countrystatus">
-                    <div id ="irelandgrid" class="grid">
-                        <h3 id="irelandtitle">Ireland</h3>
-                        <div class="statusred">
-                            <p>5k Events Suspended</p>
-                        </div>
-                        <div id="irlandjstatus" class="statusamber">
-                            <p id="irelandjuniorevents">junior Events Returning</p>
+            <div class="grid">
+                <h2 class="split">Country Situations</h2>
+                <div id="countrystatuses" class="grid">
+                    <div id="austriastatus" class="countrystatus">
+                        <div class="statusamber">
+                            <h3>Austria</h3>
+                            <p id="austriadate">Starting <a href="#Austria%20Countdown">14 August</a></p>
                         </div>
                     </div>
-                </div>
-                <div class="countrystatus">
-                    <div class="statusamber">
-                        <h3>Italy</h3>
-                        <p>Some Events Open</p>
+                    <div class="countrystatus">
+                        <div class="statusamber">
+                            <h3>Canada</h3>
+                            <p>A Few Events Open</p>
+                        </div>
                     </div>
-                </div>
-                <div class="countrystatus">
-                    <div class="statusgreen">
-                        <h3>Japan</h3>
-                        <p>Most Events Open</p>
-                    </div>
-                </div>
-                <div class="countrystatus">
-                    <div class="statusred">
-                        <h3>Malaysia</h3>
-                        <p>Events Suspended</p>
-                    </div>
-                </div>
-                <div class="countrystatus">
-                    <div class="statusred">
-                        <h3>Namibia</h3>
-                        <p>Events Suspended</p>
-                    </div>
-                </div>
-                <div class="countrystatus">
-                    <div class="statusamber">
-                        <h3>Netherlands</h3>
-                        <p>Some Events Open</p>
-                    </div>
-                </div>
-                <div class="countrystatus">
-                    <div class="statusgreen">
-                        <h3>New Zealand</h3>
-                        <p>Events Open</p>
-                    </div>
-                </div>
-                <div class="countrystatus">
-                    <div class="statusamber">
-                        <h3>Norway</h3>
-                        <p>Some Events Open</p>
-                    </div>
-                </div>
-                <div class="countrystatus">
-                    <div class="statusgreen">
-                        <h3>Poland</h3>
-                        <p>Events Open</p>
-                    </div>
-                </div>
-                <div class="countrystatus">
-                    <div class="statusamber">
-                        <h3>Russia</h3>
-                        <p>Some Events Open</p>
-                    </div>
-                </div>
-                <div class="countrystatus">
-                    <div class="statusred">
-                        <h3>Singapore</h3>
-                        <p>Events Suspended</p>
-                    </div>
-                </div>
-                <div class="countrystatus">
-                    <div class="statusred">
-                        <h3>South Africa</h3>
-                        <p>Events Suspended</p>
-                    </div>
-                </div>
-                <div id="swedenstatus" class="countrystatus">
-                    <div class="statusamber">
-                        <h3>Sweden</h3>
-                        <p id="sweedendate">Events Returning <a href="#Sweeden%20Countdown">7 August</a></p>
-                    </div>
-                </div>
-                <div id="usastatus" class="countrystatus">
-                    <div class="statusgreen">
-                        <h3>USA</h3>
-                        <p>Most Events Open</p>
-                    </div>
-                </div>
-            </div>
-            <h3 class="split">Australia</h3>
-            <div id="australiagrid" class="grid">
-                <div class="countrystatus">
-                    <div class="statusgreen">
-                        <h4>Australian Capital Territory</h4>
-                        <p>Events Open</p>
-                    </div>
-                </div>
-                <div class="countrystatus" style="grid-column: span 2;">
-                    <div class="grid" style="grid-template-columns: 1fr 1fr;">
-                        <h3  style="grid-column: span 2;">New South Wales</h3>
+                    <div class="countrystatus">
                         <div class="statusgreen">
+                            <h3>Denmark</h3>
+                            <p>Events Open</p>
+                        </div>
+                    </div>
+                    <div class="countrystatus">
+                        <div class="statusred">
+                            <h3>Eswatini</h3>
+                            <p>Event Suspended</p>
+                        </div>
+                    </div>
+                    <div id="finlandstatus" class="countrystatus">
+                        <div class="statusamber">
+                            <h3>Finland</h3>
+                            <p id="finlanddate">Events Returning <a href="#Finland%20Countdown">7 August</a></p>
+                        </div>
+                        </div>
+                    <div class="countrystatus">
+                        <div class="statusgreen">
+                            <h3>France</h3>
+                            <p>Events Open</p>
+                        </div>
+                    </div>
+                    <div class="countrystatus">
+                        <div class="statusamber">
+                            <h3>Germany</h3>
                             <p>Some Events Open</p>
                         </div>
+                    </div>
+                    <div id ="irelandstatus" class="countrystatus">
+                        <div id ="irelandgrid" class="grid">
+                            <h3 id="irelandtitle">Ireland</h3>
+                            <div class="statusred">
+                                <p>5k Events Suspended</p>
+                            </div>
+                            <div id="irlandjstatus" class="statusamber">
+                                <p id="irelandjuniorevents">junior Events Returning</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="countrystatus">
+                        <div class="statusamber">
+                            <h3>Italy</h3>
+                            <p>Some Events Open</p>
+                        </div>
+                    </div>
+                    <div class="countrystatus">
+                        <div class="statusgreen">
+                            <h3>Japan</h3>
+                            <p>Most Events Open</p>
+                        </div>
+                    </div>
+                    <div class="countrystatus">
                         <div class="statusred">
-                            <p>Sydney Events Suspended</p>
+                            <h3>Malaysia</h3>
+                            <p>Events Suspended</p>
+                        </div>
+                    </div>
+                    <div class="countrystatus">
+                        <div class="statusred">
+                            <h3>Namibia</h3>
+                            <p>Events Suspended</p>
+                        </div>
+                    </div>
+                    <div class="countrystatus">
+                        <div class="statusamber">
+                            <h3>Netherlands</h3>
+                            <p>Some Events Open</p>
+                        </div>
+                    </div>
+                    <div class="countrystatus">
+                        <div class="statusgreen">
+                            <h3>New Zealand</h3>
+                            <p>Events Open</p>
+                        </div>
+                    </div>
+                    <div class="countrystatus">
+                        <div class="statusamber">
+                            <h3>Norway</h3>
+                            <p>Some Events Open</p>
+                        </div>
+                    </div>
+                    <div class="countrystatus">
+                        <div class="statusgreen">
+                            <h3>Poland</h3>
+                            <p>Events Open</p>
+                        </div>
+                    </div>
+                    <div class="countrystatus">
+                        <div class="statusamber">
+                            <h3>Russia</h3>
+                            <p>Some Events Open</p>
+                        </div>
+                    </div>
+                    <div class="countrystatus">
+                        <div class="statusred">
+                            <h3>Singapore</h3>
+                            <p>Events Suspended</p>
+                        </div>
+                    </div>
+                    <div class="countrystatus">
+                        <div class="statusred">
+                            <h3>South Africa</h3>
+                            <p>Events Suspended</p>
+                        </div>
+                    </div>
+                    <div id="swedenstatus" class="countrystatus">
+                        <div class="statusamber">
+                            <h3>Sweden</h3>
+                            <p id="sweedendate">Events Returning <a href="#Sweeden%20Countdown">7 August</a></p>
+                        </div>
+                    </div>
+                    <div id="usastatus" class="countrystatus">
+                        <div class="statusgreen">
+                            <h3>USA</h3>
+                            <p>Most Events Open</p>
                         </div>
                     </div>
                 </div>
-                <div class="countrystatus">
-                    <div class="statusgreen">
-                        <h4>Northern Territory</h4>
-                        <p>Events Open</p>
-                    </div>
-                </div>
-                <div class="countrystatus">
-                    <div class="statusgreen">
-                        <h4>Queensland</h4>
-                        <p>Events Open</p>
-                    </div>
-                </div>
-                <div class="countrystatus">
-                    <div class="statusgreen">
-                        <h4>South Australia</h4>
-                        <p>Events Open</p>
-                    </div>
-                </div>
-                <div class="countrystatus">
-                    <div class="statusgreen">
-                        <h4>Tasmania</h4>
-                        <p>Events Open</p>
-                    </div>
-                </div>
-                <div class="countrystatus">
-                    <div class="statusred">
-                        <h4>Victoria</h4>
-                        <p>Events Suspended</p>
-                    </div>
-                </div>
-                <div id="wastatus" class="countrystatus">
-                    <div class="statusgreen">
-                        <h4>Western Australia</h4>
-                        <p>Events Open</p>
-                    </div>
-                </div>
-            </div>
-            <h3 class="split">United Kingdom</h3>
-            <div id="ukgrid" class="grid">
-                <div class="countrystatus">
-                    <div id="englandgrid" class="grid">
-                        <h4 style="grid-column: span 2;">England</h4>
-                        <div>
+                <div id="australiastatuses">
+                    <h3 class="split">Australia</h3>
+                    <div id="australiagrid" class="grid">
+                        <div class="countrystatus">
                             <div class="statusgreen">
-                                <p>5k Events Open</p>
+                                <h4>Australian Capital Territory</h4>
+                                <p>Events Open</p>
                             </div>
                         </div>
-                        <div>
-                            <div class="statusblue">
-                                <p>Most junior Events Open</p>
+                        <div class="countrystatus" style="grid-column: span 2;">
+                            <div class="grid" style="grid-template-columns: 1fr 1fr;">
+                                <h3  style="grid-column: span 2;">New South Wales</h3>
+                                <div class="statusgreen">
+                                    <p>Some Events Open</p>
+                                </div>
+                                <div class="statusred">
+                                    <p>Sydney Events Suspended</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="countrystatus">
-                    <div id="nigrid" class="grid">
-                        <h4 style="grid-column: span 2;">Northern Ireland</h4>
-                        <div>
+                        <div class="countrystatus">
                             <div class="statusgreen">
-                                <p>5k Events Open</p>
+                                <h4>Northern Territory</h4>
+                                <p>Events Open</p>
                             </div>
                         </div>
-                        <div>
-                            <div class="statusblue">
-                                <p>Most junior Events Open</p>
+                        <div class="countrystatus">
+                            <div class="statusgreen">
+                                <h4>Queensland</h4>
+                                <p>Events Open</p>
+                            </div>
+                        </div>
+                        <div class="countrystatus">
+                            <div class="statusgreen">
+                                <h4>South Australia</h4>
+                                <p>Events Open</p>
+                            </div>
+                        </div>
+                        <div class="countrystatus">
+                            <div class="statusgreen">
+                                <h4>Tasmania</h4>
+                                <p>Events Open</p>
+                            </div>
+                        </div>
+                        <div class="countrystatus">
+                            <div class="statusred">
+                                <h4>Victoria</h4>
+                                <p>Events Suspended</p>
+                            </div>
+                        </div>
+                        <div id="wastatus" class="countrystatus">
+                            <div class="statusgreen">
+                                <h4>Western Australia</h4>
+                                <p>Events Open</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="countrystatus">
-                    <div id="scotlandgrid" class="grid">
-                        <h4 id="scotlandtitle">Scotland</h4>
-                        <div id="scotland5kstatus">
-                            <div class="statusamber">
-                                <p id="scotlanddate">Potentially Returning<br/><a href="#Scotland%20Countdown">14 August</a></p>
+                <div id="ukstatuses">
+                    <h3 class="split">United Kingdom</h3>
+                    <div id="ukgrid" class="grid">
+                        <div class="countrystatus">
+                            <div id="englandgrid" class="grid">
+                                <h4 style="grid-column: span 2;">England</h4>
+                                <div>
+                                    <div class="statusgreen">
+                                        <p>5k Events Open</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="statusblue">
+                                        <p>Most junior Events Open</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div>
-                            <div class="statusblue">
-                                <p>Most junior Events Open</p>
+                        <div class="countrystatus">
+                            <div id="nigrid" class="grid">
+                                <h4 style="grid-column: span 2;">Northern Ireland</h4>
+                                <div>
+                                    <div class="statusgreen">
+                                        <p>5k Events Open</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="statusblue">
+                                        <p>Most junior Events Open</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="countrystatus">
-                    <div id="walesgrid" class="grid">
-                        <h4 id="walestitle">Wales</h4>
-                        <div id="wales5kstatus">
-                            <div class="statusamber">
-                                <p id="walesdate">Potentially Returning<br/><a href="#Wales%20Countdown">21 August</a></p>
+                        <div class="countrystatus">
+                            <div id="scotlandgrid" class="grid">
+                                <h4 id="scotlandtitle">Scotland</h4>
+                                <div id="scotland5kstatus">
+                                    <div class="statusamber">
+                                        <p id="scotlanddate">Potentially Returning<br/><a href="#Scotland%20Countdown">14 August</a></p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="statusblue">
+                                        <p>Most junior Events Open</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div>
-                            <div class="statusamber">
-                                <p>Some junior Events Open</p>
+                        <div class="countrystatus">
+                            <div id="walesgrid" class="grid">
+                                <h4 id="walestitle">Wales</h4>
+                                <div id="wales5kstatus">
+                                    <div class="statusamber">
+                                        <p id="walesdate">Potentially Returning<br/><a href="#Wales%20Countdown">21 August</a></p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="statusamber">
+                                        <p>Some junior Events Open</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
