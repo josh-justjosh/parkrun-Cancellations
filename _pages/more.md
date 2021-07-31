@@ -633,96 +633,6 @@ permalink: /more
         <br />
         <h2 class="split">parkrun returns in:</h2>
         <div class="flex-container">
-            <div class="flex-item" id="Netherlands Italy Countdown">
-                <div class="countdown">
-                    <!-- Display the timer timer in an element -->
-                    <h3 style="margin:inherit; color:inherit">Netherlands & Italy</h3>
-                    <h2 id="timer3" style="margin:inherit; color:inherit;"></h2>
-                    <p id="endDate3" style="margin:inherit;"></p>
-                    <script>
-                        // Set the date we're counting down to
-                        var countDownDate3 = new Date( "2021/07/31 09:00:00 GMT+02:00").getTime();
-                        // Update the count down every 1 second
-                        var x = setInterval(function() {
-                        // Get today's date and time
-                        var now = new Date().getTime();
-                        // Find the distance between now and the count down date
-                        var distance = countDownDate3 - now;
-                        // Time calculations for days, hours, minutes and seconds
-                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
-                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
-                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-                        // Display the result in the element with id="timer"
-                        if (weeks == 0) {
-                            if (days == 0) {
-                                document.getElementById("timer3").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                            else {
-                                document.getElementById("timer3").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                        }
-                        else {
-                            document.getElementById("timer3").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                        }
-                        // If the count down is finished, write some text
-                        if (distance < 0) {
-                            clearInterval(x);
-                            document.getElementById("timer3").innerHTML = "parkrun's Back!";
-                        }
-                        }, 1000);
-                        var cdinput3 = new Date(countDownDate3)
-                        var cdoutput3 = cdinput3.toLocaleString('default', options);
-                        document.getElementById("endDate3").innerHTML = cdoutput3
-                    </script>
-                </div>
-            </div>
-            <div class="flex-item" id="Norway Countdown">
-                <div class="countdown">
-                    <!-- Display the timer timer in an element -->
-                    <h3 style="margin:inherit; color:inherit">Norway</h3>
-                    <h2 id="timer1" style="margin:inherit; color:inherit;"></h2>
-                    <p id="endDate1" style="margin:inherit;"></p>
-                    <script>
-                        // Set the date we're counting down to
-                        var countDownDate1 = new Date( "2021/07/31 09:30:00 GMT+02:00").getTime();
-                        // Update the count down every 1 second
-                        var x = setInterval(function() {
-                        // Get today's date and time
-                        var now = new Date().getTime();
-                        // Find the distance between now and the count down date
-                        var distance = countDownDate1 - now;
-                        // Time calculations for days, hours, minutes and seconds
-                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
-                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
-                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-                        // Display the result in the element with id="timer"
-                        if (weeks == 0) {
-                            if (days == 0) {
-                                document.getElementById("timer1").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                            else {
-                                document.getElementById("timer1").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                        }
-                        else {
-                            document.getElementById("timer1").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                        }
-                        // If the count down is finished, write some text
-                        if (distance < 0) {
-                            clearInterval(x);
-                            document.getElementById("timer1").innerHTML = "parkrun's Back!";
-                        }
-                        }, 1000);
-                        var cdinput1 = new Date(countDownDate1)
-                        var cdoutput1 = cdinput1.toLocaleString('default', options);
-                        document.getElementById("endDate1").innerHTML = cdoutput1
-                    </script>
-                </div>
-            </div>
             <div class="flex-item" id="Finland Countdown">
                 <div class="countdown">
                     <!-- Display the timer timer in an element -->
@@ -1020,8 +930,7 @@ permalink: /more
             }
         </script>-->
         <style>
-        .countrystatus {
-            padding: 5px;
+        .countrystatus, .statusgreen, .statusamber, .statusred, .statusblue {
             display: flex;
             flex-direction: column;
             height: 100%;
@@ -1040,282 +949,277 @@ permalink: /more
             margin: 5px;
             flex-grow: 1;
         }
+        .statusgreen {
+            background-color: rgb(124, 179, 66);
+        }
+        .statusamber {
+            background-color: rgb(249, 168, 37);
+            grid-column: span 2;
+        }
+        .statusred {
+            background-color: rgb(165, 39, 20);
+        }
+        .statusblue {
+            background-color: rgb(0, 206, 174);
+        }
+        .grid {
+            display: grid;
+            text-align: center;
+            grid-gap: 1rem;
+            grid-auto-flow: dense
+        }
         </style>
         <button type="button" class="collapsiblestatus" style="margin: 5px;">Click to view a summary of the status of parkruns in each country</button>
         <div class="expcontent">
-        <h2 class="split">Country Situations</h2>
-        <div class="flex-container">
-            <div class="flex-status" style="flex-grow: 2;">
-                <div style="background-color: rgb(249, 168, 37);" class="countrystatus">
-                    <h3>Austria</h3>
-                    <p id="austriastatus">Starting <a href="#Austria%20Countdown">14 August</a></p>
+            <h2 class="split">Country Situations</h2>
+            <div class="grid" style="grid-template-columns: 1fr 1fr 1fr 1fr 1fr;">
+                <div class="countrystatus" style="grid-column: span 2;">
+                    <div class="statusamber">
+                        <h3>Austria</h3>
+                        <p id="austriastatus">Starting <a href="#Austria%20Countdown">14 August</a></p>
+                    </div>
                 </div>
-            </div>
-            <div class="flex-status" style="flex-basis: 23%;">
-                <div style="background-color: rgb(249, 168, 37);" class="countrystatus">
-                    <h3>Canada</h3>
-                    <p>A Few Events Open</p>
+                <div class="countrystatus">
+                    <div class="statusamber">
+                        <h3>Canada</h3>
+                        <p>A Few Events Open</p>
+                    </div>
                 </div>
-            </div>
-            <div class="flex-status" style="flex-basis: 23%">
-                <div style="background-color: rgb(124, 179, 66);" class="countrystatus">
-                    <h3>Denmark</h3>
-                    <p>Events Open</p>
+                <div class="countrystatus">
+                    <div class="statusgreen">
+                        <h3>Denmark</h3>
+                        <p>Events Open</p>
+                    </div>
                 </div>
-            </div>
-            <div class="flex-status" style="flex-basis: 23%">
-                <div style="background-color: rgb(165, 39, 20);" class="countrystatus">
-                    <h3>Eswatini</h3>
-                    <p>Event Suspended</p>
+                <div class="countrystatus">
+                    <div class="statusred">
+                        <h3>Eswatini</h3>
+                        <p>Event Suspended</p>
+                    </div>
                 </div>
-            </div>
-            <div class="flex-status" style="flex-grow: 2;">
-                <div style="background-color: rgb(249, 168, 37);" class="countrystatus">
-                    <h3>Finland</h3>
-                    <p id="finlandstatus">Events Returning <a href="#Finland%20Countdown">7 August</a></p>
+                <div class="countrystatus" style="grid-column: span 2;">
+                    <div class="statusamber">
+                        <h3>Finland</h3>
+                        <p id="finlandstatus">Events Returning <a href="#Finland%20Countdown">7 August</a></p>
+                    </div>
+                    </div>
+                <div class="countrystatus">
+                    <div class="statusgreen">
+                        <h3>France</h3>
+                        <p>Events Open</p>
+                    </div>
                 </div>
+                <div class="countrystatus">
+                    <div class="statusamber">
+                        <h3>Germany</h3>
+                        <p>Some Events Open</p>
+                    </div>
                 </div>
-            <div class="flex-status" style="flex-basis: 23%">
-                <div style="background-color: rgb(124, 179, 66);" class="countrystatus">
-                    <h3>France</h3>
-                    <p>Events Open</p>
-                </div>
-            </div>
-            <div class="flex-status" style="flex-basis: 23%">
-                <div style="background-color: rgb(249, 168, 37);" class="countrystatus">
-                    <h3>Germany</h3>
-                    <p>Some Events Open</p>
-                </div>
-            </div>
-            <div class="flex-status" style="flex-grow: 2;">
-                <div style="" class="countrystatus">
-                    <h3>Ireland</h3>
-                    <div class="flex-container">
-                        <div class="flex-status" style="flex-grow: 2;">
-                            <div class="countrystatus" style="background-color: rgb(165, 39, 20);">
+                <div class="countrystatus" style="grid-column: span 3;">
+                    <div class="grid" style="grid-template-columns: 1fr 1fr 1fr;">
+                        <h3 style="grid-column: span 3;">Ireland</h3>
+                        <div>
+                            <div class="statusred">
                                 <p>5k Events Suspended</p>
                             </div>
                         </div>
-                        <div class="flex-status" style="flex-grow: 2;">
-                            <div class="countrystatus" style="background-color: rgb(249, 168, 37);">
+                        <div style="grid-column: span 2;">
+                            <div class="statusamber">
                                 <p id="irelandjuniorevents">junior Events Returning</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="flex-status" style="flex-grow: 2">
-                <div style="background-color: rgb(249, 168, 37);" class="countrystatus">
-                    <h3>Italy</h3>
-                    <p id="italystatus">Events Returning <a href="#Netherlands%20Italy%20Countdown">31 July</a></p>
+                <div class="countrystatus">
+                    <div class="statusamber">
+                        <h3>Italy</h3>
+                        <p>Some Events Open</p>
+                    </div>
+                </div>
+                <div class="countrystatus">
+                    <div class="statusgreen">
+                        <h3>Japan</h3>
+                        <p>Most Events Open</p>
+                    </div>
+                </div>
+                <div class="countrystatus">
+                    <div class="statusred">
+                        <h3>Malaysia</h3>
+                        <p>Events Suspended</p>
+                    </div>
+                </div>
+                <div class="countrystatus">
+                    <div class="statusred">
+                        <h3>Namibia</h3>
+                        <p>Events Suspended</p>
+                    </div>
+                </div>
+                <div class="countrystatus">
+                    <div class="statusamber">
+                        <h3>Netherlands</h3>
+                        <p>Some Events Open</p>
+                    </div>
+                </div>
+                <div class="countrystatus">
+                    <div class="statusgreen">
+                        <h3>New Zealand</h3>
+                        <p>Events Open</p>
+                    </div>
+                </div>
+                <div class="countrystatus">
+                    <div class="statusamber">
+                        <h3>Norway</h3>
+                        <p>Some Events Open</p>
+                    </div>
+                </div>
+                <div class="countrystatus">
+                    <div class="statusgreen">
+                        <h3>Poland</h3>
+                        <p>Events Open</p>
+                    </div>
+                </div>
+                <div class="countrystatus">
+                    <div class="statusamber">
+                        <h3>Russia</h3>
+                        <p>Some Events Open</p>
+                    </div>
+                </div>
+                <div class="countrystatus">
+                    <div class="statusred">
+                        <h3>Singapore</h3>
+                        <p>Events Suspended</p>
+                    </div>
+                </div>
+                <div class="countrystatus">
+                    <div class="statusred">
+                        <h3>South Africa</h3>
+                        <p>Events Suspended</p>
+                    </div>
+                </div>
+                <div class="countrystatus" style="grid-column: span 2;">
+                    <div class="statusamber">
+                        <h3>Sweden</h3>
+                        <p id="sweedenstatus">Events Returning <a href="#Sweeden%20Countdown">7 August</a></p>
+                    </div>
+                </div>
+                <div class="countrystatus" style="grid-column:3">
+                    <div class="statusgreen">
+                        <h3>USA</h3>
+                        <p>Most Events Open</p>
+                    </div>
                 </div>
             </div>
-            <div class="flex-status" style="flex-basis: 23%">
-                <div style="background-color: rgb(124, 179, 66);" class="countrystatus">
-                    <h3>Japan</h3>
-                    <p>Most Events Open</p>
+            <h3 class="split">Australia</h3>
+            <div class="grid" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
+                <div class="countrystatus">
+                    <div class="statusgreen">
+                        <h4>Australian Capital Territory</h4>
+                        <p>Events Open</p>
+                    </div>
                 </div>
-            </div>
-            <div class="flex-status" style="flex-basis: 23%">
-                <div style="background-color: rgb(165, 39, 20);" class="countrystatus">
-                    <h3>Malaysia</h3>
-                    <p>Events Suspended</p>
-                </div>
-            </div>
-            <div class="flex-status" style="flex-basis: 23%">
-                <div style="background-color: rgb(165, 39, 20);" class="countrystatus">
-                    <h3>Namibia</h3>
-                    <p>Events Suspended</p>
-                </div>
-            </div>
-            <div class="flex-status" style="flex-grow: 2;">
-                <div style="background-color: rgb(249, 168, 37);" class="countrystatus">
-                    <h3>Netherlands</h3>
-                    <p id="netherlandsstatus">Returning <a href="#Netherlandss%20Italy%20Countdown">31 July</a></p>
-                </div>
-            </div>
-            <div class="flex-status" style="flex-basis: 23%">
-                <div style="background-color: rgb(124, 179, 66);" class="countrystatus">
-                    <h3>New Zealand</h3>
-                    <p>Events Open</p>
-                </div>
-            </div>
-            <div class="flex-status" style="flex-grow: 2;">
-                <div style="background-color: rgb(249, 168, 37);" class="countrystatus">
-                    <h3>Norway</h3>
-                    <p id="norwaystatus">Events Returning <a href="#Norway%20Countdown">31 July</a></p>
-                </div>
-            </div>
-            <div class="flex-status" style="flex-basis: 23%">
-                <div style="background-color: rgb(124, 179, 66);" class="countrystatus">
-                    <h3>Poland</h3>
-                    <p>Events Open</p>
-                </div>
-            </div>
-            <div class="flex-status" style="flex-basis: 23%">
-                <div style="background-color: rgb(249, 168, 37);" class="countrystatus">
-                    <h3>Russia</h3>
-                    <p>Some Events Open</p>
-                </div>
-            </div>
-            <div class="flex-status" style="flex-basis: 23%">
-                <div style="background-color: rgb(165, 39, 20);" class="countrystatus">
-                    <h3>Singapore</h3>
-                    <p>Events Suspended</p>
-                </div>
-            </div>
-            <div class="flex-status" style="flex-basis: 23%">
-                <div style="background-color: rgb(165, 39, 20);" class="countrystatus">
-                    <h3>South Africa</h3>
-                    <p>Events Suspended</p>
-                </div>
-            </div>
-            <div class="flex-status" style="flex-grow: 2;">
-                <div style="background-color: rgb(249, 168, 37);" class="countrystatus">
-                    <h3>Sweden</h3>
-                    <p id="sweedenstatus">Events Returning <a href="#Sweeden%20Countdown">7 August</a></p>
-                </div>
-            </div>
-            <div class="flex-status" style="">
-                <div style="background-color: rgb(124, 179, 66);" class="countrystatus">
-                    <h3>USA</h3>
-                    <p>Most Events Open</p>
-                </div>
-            </div>
-        </div>
-        <h3 class="split">Australia</h3>
-        <div class="flex-container">
-            <div class="flex-status" style="flex-grow: 1;">
-                <div class="countrystatus" style="background-color: rgb(124, 179, 66);">
-                    <h4>Australian Capital Territory</h4>
-                    <p>Events Open</p>
-                </div>
-            </div>
-            <div class="flex-status" style="flex-grow: 2;">
-                <div style="background-color: rgb(249, 168, 37);" class="countrystatus">
-                    <h4>New South Wales</h4>
-                    <div class="flex-container">
-                        <div class="flex-status" style="flex-grow: 2;">
-                            <div class="countrystatus" style="background-color: rgb(124, 179, 66)">
-                                <p>Some Events Open</p>
-                            </div>
+                <div class="countrystatus" style="grid-column: span 2;">
+                    <div class="grid" style="grid-template-columns: 1fr 1fr;">
+                        <h3  style="grid-column: span 2;">New South Wales</h3>
+                        <div class="statusgreen">
+                            <p>Some Events Open</p>
                         </div>
-                        <div class="flex-status" style="flex-grow: 1;">
-                            <div class="countrystatus" style="background-color: rgb(165, 39, 20)">
-                                <p>Sydney Events Suspended</p>
-                            </div>
+                        <div class="statusred">
+                            <p>Sydney Events Suspended</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="countrystatus">
+                    <div class="statusgreen">
+                        <h4>Northern Territory</h4>
+                        <p>Events Open</p>
+                    </div>
+                </div>
+                <div class="countrystatus">
+                    <div class="statusgreen">
+                        <h4>Queensland</h4>
+                        <p>Events Open</p>
+                    </div>
+                </div>
+                <div class="countrystatus">
+                    <div class="statusgreen">
+                        <h4>South Australia</h4>
+                        <p>Events Open</p>
+                    </div>
+                </div>
+                <div class="countrystatus">
+                    <div class="statusgreen">
+                        <h4>Tasmania</h4>
+                        <p>Events Open</p>
+                    </div>
+                </div>
+                <div class="countrystatus">
+                    <div class="statusred">
+                        <h4>Victoria</h4>
+                        <p>Events Suspended</p>
+                    </div>
+                </div>
+                <div class="countrystatus" style="grid-column-start: 2; grid-column-end: 4;">
+                    <div class="statusgreen">
+                        <h4>Western Australia</h4>
+                        <p>Events Open</p>
+                    </div>
+                </div>
+            </div>
+            <h3 class="split">United Kingdom</h3>
+            <div class="grid" style="grid-template-columns: 1fr 1fr;">
+                <div class="countrystatus" style="display: grid; text-align: center; grid-template-columns: 1fr 1fr; grid-gap: 1rem;">
+                    <h4 style="grid-column: span 2;">England</h4>
+                    <div>
+                        <div class="statusgreen">
+                            <p>5k Events Open</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="statusblue">
+                            <p>junior Events Open</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="countrystatus" style="display: grid; text-align: center; grid-template-columns: 1fr 1fr; grid-gap: 1rem;">
+                    <h4 style="grid-column: span 2;">Northern Ireland</h4>
+                    <div>
+                        <div class="statusgreen">
+                            <p>5k Events Open</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="statusblue">
+                            <p>Most junior Events Open</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="countrystatus" style="display: grid; text-align: center; grid-template-columns: 1fr 1fr 1fr; grid-gap: 1rem;">
+                    <h4 style="grid-column: span 3;">Scotland</h4>
+                    <div style="grid-column: span 2;">
+                        <div class="statusamber">
+                            <p id="scotlandstatus">Potentially Returning<br/><a href="#Scotland%20Countdown">14 August</a></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="statusamber">
+                            <p>Some junior Events Open</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="countrystatus" style="display: grid; text-align: center; grid-template-columns: 1fr 1fr 1fr; grid-gap: 1rem;">
+                    <h4 style="grid-column: span 3;">Wales</h4>
+                    <div style="grid-column: span 2;">
+                        <div class="statusamber">
+                            <p id="walesstatus">Potentially Returning<br/><a href="#Wales%20Countdown">21 August</a></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="statusamber">
+                            <p>Some junior Events Open</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="flex-status" style="flex-grow: 1;">
-                <div class="countrystatus" style="background-color: rgb(124, 179, 66);">
-                    <h4>Northern Territory</h4>
-                    <p>Events Open</p>
-                </div>
-            </div>
-            <div class="flex-status" style="flex-grow: 1;">
-                <div class="countrystatus" style="background-color: rgb(124, 179, 66);">
-                    <h4>Queensland</h4>
-                    <p>Events Open</p>
-                </div>
-            </div>
-            <div class="flex-status" style="flex-grow: 1;">
-                <div class="countrystatus" style="background-color: rgb(124, 179, 66);">
-                    <h4>South Australia</h4>
-                    <p>Events Open</p>
-                </div>
-            </div>
-            <div class="flex-status" style="flex-grow: 1;">
-                <div class="countrystatus" style="background-color: rgb(124, 179, 66);">
-                    <h4>Tasmania</h4>
-                    <p>Events Open</p>
-                </div>
-            </div>
-            <div class="flex-status" style="flex-grow: 1;">
-                <div class="countrystatus" style="background-color: rgb(165, 39, 20);">
-                    <h4>Victoria</h4>
-                    <p>Events Suspended</p>
-                </div>
-            </div>
-            <div class="flex-status" style="flex-grow: 1;">
-                <div class="countrystatus" style="background-color: rgb(124, 179, 66);">
-                    <h4>Western Australia</h4>
-                    <p>Events Open</p>
-                </div>
-            </div>
-        </div>
-        <h3 class="split">United Kingdom</h3>
-        <div class="flex-container">
-            <div class="flex-status" style="flex-grow: 1;">
-                <div style="" class="countrystatus">
-                    <h4>England</h4>
-                    <div class="flex-container">
-                        <div class="flex-status" style="flex-grow: 1;">
-                            <div class="countrystatus" style="background-color: rgb(124, 179, 66)">
-                                <p>5k Events Open</p>
-                            </div>
-                        </div>
-                        <div class="flex-status" style="flex-grow: 1;">
-                            <div class="countrystatus" style="background-color: rgb(0, 206, 174)">
-                                <p>junior Events Open</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="flex-status" style="flex-grow: 1;">
-                <div style="" class="countrystatus">
-                    <h4>Northern Ireland</h4>
-                    <div class="flex-container">
-                        <div class="flex-status" style="flex-grow: 1;">
-                            <div class="countrystatus" style="background-color: rgb(124, 179, 66)">
-                                <p>5k Events Open</p>
-                            </div>
-                        </div>
-                        <div class="flex-status" style="flex-grow: 1;">
-                            <div class="countrystatus" style="background-color: rgb(0, 206, 174)">
-                                <p>Most junior Events Open</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="flex-status" style="flex-grow: 2;">
-                <div style="" class="countrystatus">
-                    <h4>Scotland</h4>
-                    <div class="flex-container">
-                        <div class="flex-status" style="flex-grow: 2;">
-                            <div class="countrystatus" style="background-color: rgb(249, 168, 37)">
-                                <p id="scotlandstatus">Events Potentially Returning <a href="#Scotland%20Countdown">14 August</a></p>
-                            </div>
-                        </div>
-                        <div class="flex-status" style="flex-grow: 1;">
-                            <div class="countrystatus" style="background-color: rgb(0, 206, 174)">
-                                <p>Some junior<br/>Events Open</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="flex-status" style="flex-grow: 2;">
-                <div style="" class="countrystatus">
-                    <h4>Wales</h4>
-                    <div class="flex-container">
-                        <div class="flex-status" style="flex-grow: 2;">
-                            <div class="countrystatus" style="background-color: rgb(249, 168, 37)">
-                                <p id="walesstatus">Events Potentially Returning <a href="#Wales%20Countdown">21 August</a></p>
-                            </div>
-                        </div>
-                        <div class="flex-status" style="flex-grow: 1;">
-                            <div class="countrystatus" style="background-color: rgb(0, 206, 174)">
-                                <p>Some junior<br/>Events Open</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         </div>
         <script>
             var coll = document.getElementsByClassName("collapsiblestatus");
@@ -1332,10 +1236,7 @@ permalink: /more
             });
             }
         document.getElementById("austriastatus").innerHTML = "Starting<br/><a href='#Austria%20Countdown'>" + cdoutput2 + "</a>"
-        document.getElementById("netherlandsstatus").innerHTML = "Returning<br/><a href='#Netherlands%20Italy%20Countdown'>" + cdoutput3 + "</a>"
-        document.getElementById("italystatus").innerHTML = "Returning<br/><a href='#Netherlands%20Italy%20Countdown'>" + cdoutput3 + "</a>"
         document.getElementById("finlandstatus").innerHTML = "Returning<br/><a href='#Finland%20Countdown'>" + cdoutput4 + "</a>"
-        document.getElementById("norwaystatus").innerHTML = "Returning<br/><a href='#Norway%20Countdown'>" + cdoutput1 + "</a>"
         document.getElementById("sweedenstatus").innerHTML = "Returning<br/><a href='#Sweeden%20Countdown'>" + cdoutput9 + "</a>"
         document.getElementById("scotlandstatus").innerHTML = "Potentially Returning<br/><a href='#Scotland%20Countdown'>" + cdoutput5 + "</a>"
         document.getElementById("irelandjuniorevents").innerHTML = "juniors Returning<br/><a href='#Ireland%20juniors%20Countdown'>" + cdoutput6 + "</a>"

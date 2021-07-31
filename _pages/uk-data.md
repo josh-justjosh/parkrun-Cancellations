@@ -50,7 +50,7 @@ permalink: /more-uk
     </ul>
 </div>
 <div id='summary'>
-<h2>Summary</h2>
+<h2 class="split">Summary</h2>
 <p>Below is a summary of the UK Data broken down by constituent country.</p>
 <div class="hscrollable">
     <table style="width: 100%;">
@@ -82,7 +82,7 @@ permalink: /more-uk
 <p style="text-align:end"><a href="#contents">back to the top</a></p>
 </div>
 <div id='england'>
-<h2>England</h2>
+<h2 class="split">England</h2>
 <div class="hscrollable">
     <table style="width: 100%;">
         {% for row in site.data.parkrun.counties.england %}
@@ -112,7 +112,7 @@ permalink: /more-uk
 <p style="text-align:end"><a href="#contents">back to the top</a></p>
 </div>
 <div id='ni'>
-<h2>Northern Ireland</h2>
+<h2 class="split">Northern Ireland</h2>
 <div class="hscrollable">
     <table style="width: 100%;">
         {% for row in site.data.parkrun.counties.ni %}
@@ -142,7 +142,7 @@ permalink: /more-uk
 <p style="text-align:end"><a href="#contents">back to the top</a></p>
 </div>
 <div id='scotland'>
-<h2>Scotland</h2>
+<h2 class="split">Scotland</h2>
 <div class="hscrollable">
     <table style="width: 100%;">
         {% for row in site.data.parkrun.counties.scotland %}
@@ -172,7 +172,7 @@ permalink: /more-uk
 <p style="text-align:end"><a href="#contents">back to the top</a></p>
 </div>
 <div id='wales'>
-<h2>Wales</h2>
+<h2 class="split">Wales</h2>
 <div class="hscrollable">
     <table style="width: 100%;">
         {% for row in site.data.parkrun.counties.wales %}
