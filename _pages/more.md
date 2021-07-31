@@ -550,26 +550,28 @@ permalink: /more
                 {% if site.data.parkrun.cancellation-additions.size > 0 %}
                     <button type="button" class="collapsiblecan" style="margin: 5px;"><p style="float:left; margin: 0">Click to view the most recent Cancellations</p><p style="float:right; margin: 0" id='lastaddition'>Last Change: {{site.data.parkrun.cancellation-additions.last.Event | date: "%R UTC %A, %e&nbsp;%B&nbsp;%Y" }}</p></button>
                     <div class="expcontentcan">
-                        <table style="width: 100%">
-                            <tr>
-                                <th>Event</th>
-                                <th>Country</th>
-                                <th>Cancellation Note</th>
-                            </tr>
-                            {% for row in site.data.parkrun.cancellation-additions %}
-                                {% unless forloop.last %}
+                        <div class="hscrollable">
+                            <table style="width: 100%">
                                 <tr>
-                                    {% if row['Website'] != null %}
-                                    <td><a href="{{ row['Website'] }}">{{ row['Event'] }}</a></td>
-                                    {% else %}
-                                    <td>{{ row['Event'] }}</td>
-                                    {% endif %}
-                                    <td>{{ row['Country'] }}</td>
-                                    <td>{{ row['Cancellation Note'] }}</td>
+                                    <th>Event</th>
+                                    <th>Country</th>
+                                    <th>Cancellation Note</th>
                                 </tr>
-                                {% endunless %}
-                            {% endfor %}
-                        </table>
+                                {% for row in site.data.parkrun.cancellation-additions %}
+                                    {% unless forloop.last %}
+                                    <tr>
+                                        {% if row['Website'] != null %}
+                                        <td><a href="{{ row['Website'] }}">{{ row['Event'] }}</a></td>
+                                        {% else %}
+                                        <td>{{ row['Event'] }}</td>
+                                        {% endif %}
+                                        <td>{{ row['Country'] }}</td>
+                                        <td>{{ row['Cancellation Note'] }}</td>
+                                    </tr>
+                                    {% endunless %}
+                                {% endfor %}
+                            </table>
+                        </div>
                         <a href="/updates" style="float:right">Click to see a full history</a>
                     </div>
                     <script>
@@ -597,20 +599,28 @@ permalink: /more
                 {% if site.data.parkrun.cancellation-removals.size > 0 %}
                     <button type="button" class="collapsiblerein" style="margin: 5px;"><p style="float:left; margin: 0">Click to view the most recent Reinstatements</p><p style="float:right; margin: 0">Last Change: {{site.data.parkrun.cancellation-removals.last.Event | date: "%R UTC %A, %e&nbsp;%B&nbsp;%Y" }}</p></button>
                     <div class="expcontentrein">
-                        <table style="width: 100%">
-                            <tr>
-                                <th>Event</th>
-                                <th>Country</th>
-                                <th>Cancellation Note</th>
-                            </tr>
-                            {% for row in site.data.parkrun.cancellation-removals %}
+                        <div class="hscrollable">
+                           <table style="width: 100%">
                                 <tr>
-                                    <td>{{row[0][1]}}</td>
-                                    <td>{{row[1][1]}}</td>
-                                    <td>{{row[2][1]}}</td>
+                                    <th>Event</th>
+                                    <th>Country</th>
+                                    <th>Cancellation Note</th>
                                 </tr>
-                            {% endfor %}
-                        </table>
+                                {% for row in site.data.parkrun.cancellation-removals %}
+                                    {% unless forloop.last %}
+                                    <tr>
+                                        {% if row['Website'] != null %}
+                                        <td><a href="{{ row['Website'] }}">{{ row['Event'] }}</a></td>
+                                        {% else %}
+                                        <td>{{ row['Event'] }}</td>
+                                        {% endif %}
+                                        <td>{{ row['Country'] }}</td>
+                                        <td>{{ row['Cancellation Note'] }}</td>
+                                    </tr>
+                                    {% endunless %}
+                                {% endfor %}
+                            </table>
+                        </div>
                     </div>
                     <script>
                         var coll = document.getElementsByClassName("collapsiblerein");
@@ -968,15 +978,149 @@ permalink: /more
             grid-gap: 1rem;
             grid-auto-flow: dense
         }
+        @media (min-width: 890px) {
+            #countrystatuses {
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            }
+            #usastatus {
+                grid-column: 3;
+            }
+            #swedenstatus {
+                grid-column: span 2;
+            }
+        }
+        @media (max-width: 890px) {
+            #countrystatuses {
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+            #swedenstatus {
+                grid-column-start: 2;
+                grid-column-end: 4;
+            }
+        }
+        @media (max-width: 750px) {
+            #countrystatuses {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+            #swedenstatus {
+                grid-column-start: 1;
+                grid-column-end: 4;
+            }
+        }
+        @media (min-width: 560px) {
+            #irelandstatus, #irelandtitle {
+                grid-column: span 3;
+            }
+            #irelandgrid {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+        @media (max-width: 560px) {
+            #countrystatuses {
+                grid-template-columns: 1fr 1fr;
+            }
+            #irelandgrid {
+                grid-template-columns: 1fr;
+            }
+            #irelandstatus, #swedenstatus, #usastatus {
+                grid-column: span 2;
+            }
+            #irelandtitle, #irlandjstatus {
+                grid-column: span 1;
+            }
+        }
+        #austriastatus, #finlandstatus {
+            grid-column: span 2;
+        }
+        @media (max-width: 380px) {
+            #countrystatuses {
+                grid-template-columns: 1fr;
+            }
+            #swedenstatus, #irelandstatus, #austriastatus, #finlandstatus, #usastatus {
+                grid-column: span 1
+            }
+        }
+        @media (min-width: 690px) {
+            #australiagrid {
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+            #wastatus {
+                grid-column-start: 2; grid-column-end: 4;
+            }
+        }
+        @media (max-width: 690px) {
+            #australiagrid {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+        @media (max-width: 550px) {
+            #australiagrid {
+                grid-template-columns: 1fr 1fr;
+            }
+            #wastatus {
+                grid-column: span 2;
+            }
+        }
+        #ukgrid, #englandgrid, #nigrid {
+            grid-template-columns: 1fr 1fr;
+        }
+        #scotlandgrid, #walesgrid {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        @media (max-width: 900px) {
+            #ukgrid {
+                grid-template-columns: 1fr
+            }
+        }
+        @media (min-width: 540px) {
+            #scotland5kstatus, #wales5kstatus {
+                grid-column: span 2;
+            }
+            #scotlandtitle, #walestitle {
+                grid-column: span 3;
+            }
+        }
+        @media (max-width: 540px) {
+            #scotlandgrid, #walesgrid {
+                grid-template-columns: 1fr 1fr;
+            }
+            #scotlandtitle, #walestitle {
+                grid-column: span 2;
+            }
+            #scotland5kstatus, #wales5kstatus {
+                grid-column: span 1;
+            }
+        }
+        @media (max-width: 520px) {
+            #scotlandgrid, #walesgrid {
+                grid-template-columns: 1fr;
+            }
+            #scotlandtitle, #walestitle {
+                grid-column: span 1;
+            }
+        }
+        /*@media (min-width: 540px) {
+            #irelandgrid {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+            #irelandjstatus {
+                grid-column: span 2;
+            }
+        }
+        @media (max-width: 540px) {
+            #irelandgrid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }*/
         </style>
         <button type="button" class="collapsiblestatus" style="margin: 5px;">Click to view a summary of the status of parkruns in each country</button>
         <div class="expcontent">
             <h2 class="split">Country Situations</h2>
-            <div class="grid" style="grid-template-columns: 1fr 1fr 1fr 1fr 1fr;">
-                <div class="countrystatus" style="grid-column: span 2;">
+            <div id="countrystatuses" class="grid">
+                <div id="austriastatus" class="countrystatus">
                     <div class="statusamber">
                         <h3>Austria</h3>
-                        <p id="austriastatus">Starting <a href="#Austria%20Countdown">14 August</a></p>
+                        <p id="austriadate">Starting <a href="#Austria%20Countdown">14 August</a></p>
                     </div>
                 </div>
                 <div class="countrystatus">
@@ -997,10 +1141,10 @@ permalink: /more
                         <p>Event Suspended</p>
                     </div>
                 </div>
-                <div class="countrystatus" style="grid-column: span 2;">
+                <div id="finlandstatus" class="countrystatus">
                     <div class="statusamber">
                         <h3>Finland</h3>
-                        <p id="finlandstatus">Events Returning <a href="#Finland%20Countdown">7 August</a></p>
+                        <p id="finlanddate">Events Returning <a href="#Finland%20Countdown">7 August</a></p>
                     </div>
                     </div>
                 <div class="countrystatus">
@@ -1015,18 +1159,14 @@ permalink: /more
                         <p>Some Events Open</p>
                     </div>
                 </div>
-                <div class="countrystatus" style="grid-column: span 3;">
-                    <div class="grid" style="grid-template-columns: 1fr 1fr 1fr;">
-                        <h3 style="grid-column: span 3;">Ireland</h3>
-                        <div>
-                            <div class="statusred">
-                                <p>5k Events Suspended</p>
-                            </div>
+                <div id ="irelandstatus" class="countrystatus">
+                    <div id ="irelandgrid" class="grid">
+                        <h3 id="irelandtitle">Ireland</h3>
+                        <div class="statusred">
+                            <p>5k Events Suspended</p>
                         </div>
-                        <div style="grid-column: span 2;">
-                            <div class="statusamber">
-                                <p id="irelandjuniorevents">junior Events Returning</p>
-                            </div>
+                        <div id="irlandjstatus" class="statusamber">
+                            <p id="irelandjuniorevents">junior Events Returning</p>
                         </div>
                     </div>
                 </div>
@@ -1096,13 +1236,13 @@ permalink: /more
                         <p>Events Suspended</p>
                     </div>
                 </div>
-                <div class="countrystatus" style="grid-column: span 2;">
+                <div id="swedenstatus" class="countrystatus">
                     <div class="statusamber">
                         <h3>Sweden</h3>
-                        <p id="sweedenstatus">Events Returning <a href="#Sweeden%20Countdown">7 August</a></p>
+                        <p id="sweedendate">Events Returning <a href="#Sweeden%20Countdown">7 August</a></p>
                     </div>
                 </div>
-                <div class="countrystatus" style="grid-column:3">
+                <div id="usastatus" class="countrystatus">
                     <div class="statusgreen">
                         <h3>USA</h3>
                         <p>Most Events Open</p>
@@ -1110,7 +1250,7 @@ permalink: /more
                 </div>
             </div>
             <h3 class="split">Australia</h3>
-            <div class="grid" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
+            <div id="australiagrid" class="grid">
                 <div class="countrystatus">
                     <div class="statusgreen">
                         <h4>Australian Capital Territory</h4>
@@ -1158,7 +1298,7 @@ permalink: /more
                         <p>Events Suspended</p>
                     </div>
                 </div>
-                <div class="countrystatus" style="grid-column-start: 2; grid-column-end: 4;">
+                <div id="wastatus" class="countrystatus">
                     <div class="statusgreen">
                         <h4>Western Australia</h4>
                         <p>Events Open</p>
@@ -1166,56 +1306,64 @@ permalink: /more
                 </div>
             </div>
             <h3 class="split">United Kingdom</h3>
-            <div class="grid" style="grid-template-columns: 1fr 1fr;">
-                <div class="countrystatus" style="display: grid; text-align: center; grid-template-columns: 1fr 1fr; grid-gap: 1rem;">
-                    <h4 style="grid-column: span 2;">England</h4>
-                    <div>
-                        <div class="statusgreen">
-                            <p>5k Events Open</p>
+            <div id="ukgrid" class="grid">
+                <div class="countrystatus">
+                    <div id="englandgrid" class="grid">
+                        <h4 style="grid-column: span 2;">England</h4>
+                        <div>
+                            <div class="statusgreen">
+                                <p>5k Events Open</p>
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <div class="statusblue">
-                            <p>junior Events Open</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="countrystatus" style="display: grid; text-align: center; grid-template-columns: 1fr 1fr; grid-gap: 1rem;">
-                    <h4 style="grid-column: span 2;">Northern Ireland</h4>
-                    <div>
-                        <div class="statusgreen">
-                            <p>5k Events Open</p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="statusblue">
-                            <p>Most junior Events Open</p>
+                        <div>
+                            <div class="statusblue">
+                                <p>junior Events Open</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="countrystatus" style="display: grid; text-align: center; grid-template-columns: 1fr 1fr 1fr; grid-gap: 1rem;">
-                    <h4 style="grid-column: span 3;">Scotland</h4>
-                    <div style="grid-column: span 2;">
-                        <div class="statusamber">
-                            <p id="scotlandstatus">Potentially Returning<br/><a href="#Scotland%20Countdown">14 August</a></p>
+                <div class="countrystatus">
+                    <div id="nigrid" class="grid">
+                        <h4 style="grid-column: span 2;">Northern Ireland</h4>
+                        <div>
+                            <div class="statusgreen">
+                                <p>5k Events Open</p>
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <div class="statusamber">
-                            <p>Some junior Events Open</p>
+                        <div>
+                            <div class="statusblue">
+                                <p>Most junior Events Open</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="countrystatus" style="display: grid; text-align: center; grid-template-columns: 1fr 1fr 1fr; grid-gap: 1rem;">
-                    <h4 style="grid-column: span 3;">Wales</h4>
-                    <div style="grid-column: span 2;">
-                        <div class="statusamber">
-                            <p id="walesstatus">Potentially Returning<br/><a href="#Wales%20Countdown">21 August</a></p>
+                <div class="countrystatus">
+                    <div id="scotlandgrid" class="grid">
+                        <h4 id="scotlandtitle">Scotland</h4>
+                        <div id="scotland5kstatus">
+                            <div class="statusamber">
+                                <p id="scotlanddate">Potentially Returning<br/><a href="#Scotland%20Countdown">14 August</a></p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="statusamber">
+                                <p>Some junior Events Open</p>
+                            </div>
                         </div>
                     </div>
-                    <div>
-                        <div class="statusamber">
-                            <p>Some junior Events Open</p>
+                </div>
+                <div class="countrystatus">
+                    <div id="walesgrid" class="grid">
+                        <h4 id="walestitle">Wales</h4>
+                        <div id="wales5kstatus">
+                            <div class="statusamber">
+                                <p id="walesdate">Potentially Returning<br/><a href="#Wales%20Countdown">21 August</a></p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="statusamber">
+                                <p>Some junior Events Open</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1235,12 +1383,12 @@ permalink: /more
                 } 
             });
             }
-        document.getElementById("austriastatus").innerHTML = "Starting<br/><a href='#Austria%20Countdown'>" + cdoutput2 + "</a>"
-        document.getElementById("finlandstatus").innerHTML = "Returning<br/><a href='#Finland%20Countdown'>" + cdoutput4 + "</a>"
-        document.getElementById("sweedenstatus").innerHTML = "Returning<br/><a href='#Sweeden%20Countdown'>" + cdoutput9 + "</a>"
-        document.getElementById("scotlandstatus").innerHTML = "Potentially Returning<br/><a href='#Scotland%20Countdown'>" + cdoutput5 + "</a>"
+        document.getElementById("austriadate").innerHTML = "Starting<br/><a href='#Austria%20Countdown'>" + cdoutput2 + "</a>"
+        document.getElementById("finlanddate").innerHTML = "Returning<br/><a href='#Finland%20Countdown'>" + cdoutput4 + "</a>"
+        document.getElementById("sweedendate").innerHTML = "Returning<br/><a href='#Sweeden%20Countdown'>" + cdoutput9 + "</a>"
+        document.getElementById("scotlanddate").innerHTML = "Potentially Returning<br/><a href='#Scotland%20Countdown'>" + cdoutput5 + "</a>"
         document.getElementById("irelandjuniorevents").innerHTML = "juniors Returning<br/><a href='#Ireland%20juniors%20Countdown'>" + cdoutput6 + "</a>"
-        document.getElementById("walesstatus").innerHTML = "Potentially Returning<br/><a href='#Wales%20Countdown'>" + cdoutput7 + "</a>"
+        document.getElementById("walesdate").innerHTML = "Potentially Returning<br/><a href='#Wales%20Countdown'>" + cdoutput7 + "</a>"
         </script>
         <button type="button" class="collapsiblestats" style="margin: 5px;">Click to view a summary of the data for each country</button>
         <div class="expcontent">
