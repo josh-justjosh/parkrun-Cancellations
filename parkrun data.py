@@ -783,9 +783,9 @@ with open('_data/parkrun/aus-data.tsv','wt', encoding='utf-8', newline='') as f:
         tsv_writer.writerow(out)
 print(now(),"aus-data.tsv saved")
 
-uk_counties = {}
+uk_ie_counties = {}
 for parkrun in events['features']:
-    if parkrun['properties']['Country'] == "United Kingdom":
+    if parkrun['properties']['Country'] in ["United Kingdom", "Ireland"]:
         if parkrun['properties']['County'] not in ['', 'Douglas']:
             #England
             if parkrun['properties']['County'] in ['Bedford','Central Bedfordshire','Luton']:
@@ -869,32 +869,34 @@ for parkrun in events['features']:
             elif parkrun['properties']['County'] in ['Neath Port Talbot','City and County of Swansea']:
                 parkrun['properties']['County'] = 'West Glamorgan'
                 
-            if parkrun['properties']['County'] not in uk_counties:
-                uk_counties[parkrun['properties']['County']] = {'country': parkrun['properties']['State'],'parkrunning': 0,'junior parkrunning':0,'5k Cancellations':0,'junior Cancellations':0,'Total':0,'events parkrunning':'','events junior parkrunning':'','events 5k cancellation':'','events junior cancellation':''}
-
+            if parkrun['properties']['County'] not in uk_ie_counties:
+                if parkrun['properties']['State'] in ['England','Northern Ireland','Scotland','Wales']:
+                    uk_ie_counties[parkrun['properties']['County']] = {'country': parkrun['properties']['State'],'parkrunning': 0,'junior parkrunning':0,'5k Cancellations':0,'junior Cancellations':0,'Total':0,'events parkrunning':'','events junior parkrunning':'','events 5k cancellation':'','events junior cancellation':''}
+                else:
+                    uk_ie_counties[parkrun['properties']['County']] = {'country': parkrun['properties']['Country'],'parkrunning': 0,'junior parkrunning':0,'5k Cancellations':0,'junior Cancellations':0,'Total':0,'events parkrunning':'','events junior parkrunning':'','events 5k cancellation':'','events junior cancellation':''}
             if parkrun['properties']['Status'] == 'parkrunning':
-                uk_counties[parkrun['properties']['County']]['parkrunning'] += 1
-                uk_counties[parkrun['properties']['County']]['Total'] += 1
-                uk_counties[parkrun['properties']['County']]['events parkrunning'] += parkrun['properties']['EventShortName'] + '|'
+                uk_ie_counties[parkrun['properties']['County']]['parkrunning'] += 1
+                uk_ie_counties[parkrun['properties']['County']]['Total'] += 1
+                uk_ie_counties[parkrun['properties']['County']]['events parkrunning'] += parkrun['properties']['EventShortName'] + '|'
             elif parkrun['properties']['Status'] == 'junior parkrunning':
-                uk_counties[parkrun['properties']['County']]['junior parkrunning'] += 1
-                uk_counties[parkrun['properties']['County']]['Total'] += 1
-                uk_counties[parkrun['properties']['County']]['events junior parkrunning'] += parkrun['properties']['EventShortName'] + '|'
+                uk_ie_counties[parkrun['properties']['County']]['junior parkrunning'] += 1
+                uk_ie_counties[parkrun['properties']['County']]['Total'] += 1
+                uk_ie_counties[parkrun['properties']['County']]['events junior parkrunning'] += parkrun['properties']['EventShortName'] + '|'
             elif parkrun['properties']['Status'] == '5k Cancellation':
-                uk_counties[parkrun['properties']['County']]['5k Cancellations'] += 1
-                uk_counties[parkrun['properties']['County']]['Total'] += 1
-                uk_counties[parkrun['properties']['County']]['events 5k cancellation'] += parkrun['properties']['EventShortName'] + '|'
+                uk_ie_counties[parkrun['properties']['County']]['5k Cancellations'] += 1
+                uk_ie_counties[parkrun['properties']['County']]['Total'] += 1
+                uk_ie_counties[parkrun['properties']['County']]['events 5k cancellation'] += parkrun['properties']['EventShortName'] + '|'
             elif parkrun['properties']['Status'] == 'junior Cancellation':
-                uk_counties[parkrun['properties']['County']]['junior Cancellations'] += 1
-                uk_counties[parkrun['properties']['County']]['Total'] += 1
-                uk_counties[parkrun['properties']['County']]['events junior cancellation'] += parkrun['properties']['EventShortName'] + '|'
+                uk_ie_counties[parkrun['properties']['County']]['junior Cancellations'] += 1
+                uk_ie_counties[parkrun['properties']['County']]['Total'] += 1
+                uk_ie_counties[parkrun['properties']['County']]['events junior cancellation'] += parkrun['properties']['EventShortName'] + '|'
 
-uk_counties_od = collections.OrderedDict(sorted(uk_counties.items()))
-uk_counties = {}
-for k, v in uk_counties_od.items():
-    uk_counties[k] = v
+uk_ie_counties_od = collections.OrderedDict(sorted(uk_ie_counties.items()))
+uk_ie_counties = {}
+for k, v in uk_ie_counties_od.items():
+    uk_ie_counties[k] = v
 
-uk_counties_totals= {
+uk_ie_counties_totals= {
     'country':'',
     'parkrunning': 0,
     'junior parkrunning':0,
@@ -934,13 +936,21 @@ wales_totals= {
     'junior Cancellations':0,
     'Total':0
     }
+ireland_totals= {
+    'country':'Ireland',
+    'parkrunning': 0,
+    'junior parkrunning':0,
+    '5k Cancellations':0,
+    'junior Cancellations':0,
+    'Total':0
+    }
 
-for county,data in uk_counties.items():
-    uk_counties_totals['parkrunning'] += data['parkrunning']
-    uk_counties_totals['junior parkrunning'] += data['junior parkrunning']
-    uk_counties_totals['5k Cancellations'] += data['5k Cancellations']
-    uk_counties_totals['junior Cancellations'] += data['junior Cancellations']
-    uk_counties_totals['Total'] += data['Total']
+for county,data in uk_ie_counties.items():
+    uk_ie_counties_totals['parkrunning'] += data['parkrunning']
+    uk_ie_counties_totals['junior parkrunning'] += data['junior parkrunning']
+    uk_ie_counties_totals['5k Cancellations'] += data['5k Cancellations']
+    uk_ie_counties_totals['junior Cancellations'] += data['junior Cancellations']
+    uk_ie_counties_totals['Total'] += data['Total']
     if data['country'] == 'England':
         england_totals['parkrunning'] += data['parkrunning']
         england_totals['junior parkrunning'] += data['junior parkrunning']
@@ -965,18 +975,25 @@ for county,data in uk_counties.items():
         wales_totals['5k Cancellations'] += data['5k Cancellations']
         wales_totals['junior Cancellations'] += data['junior Cancellations']
         wales_totals['Total'] += data['Total']
+    if data['country'] == 'Ireland':
+        ireland_totals['parkrunning'] += data['parkrunning']
+        ireland_totals['junior parkrunning'] += data['junior parkrunning']
+        ireland_totals['5k Cancellations'] += data['5k Cancellations']
+        ireland_totals['junior Cancellations'] += data['junior Cancellations']
+        ireland_totals['Total'] += data['Total']
 
-uk_counties['England Total'] = england_totals
-uk_counties['NI Total'] = ni_totals
-uk_counties['Scotland Total'] = scotland_totals
-uk_counties['Wales Total'] = wales_totals
-uk_counties['Total'] = uk_counties_totals        
-#print(json.dumps(uk_counties, indent=4))
+uk_ie_counties['England Total'] = england_totals
+uk_ie_counties['NI Total'] = ni_totals
+uk_ie_counties['Scotland Total'] = scotland_totals
+uk_ie_counties['Wales Total'] = wales_totals
+uk_ie_counties['Ireland Total'] = ireland_totals
+uk_ie_counties['Total'] = uk_ie_counties_totals        
+#print(json.dumps(uk_ie_counties, indent=4))
 
 with open('_data/parkrun/counties/england.tsv','wt', encoding='utf-8', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
     tsv_writer.writerow(['County','parkrunning','junior parkrunning','5k Cancellations','junior Cancellations','Total','5k Events Running','junior Events Running','5k Events Cancelled','junior Events Cancelled'])
-    for i,j in uk_counties.items():
+    for i,j in uk_ie_counties.items():
         if j['country'] == 'England':
             if i == 'England Total':
                 out = ['Total']
@@ -995,7 +1012,7 @@ print(now(),"counties/england.tsv saved")
 with open('_data/parkrun/counties/ni.tsv','wt', encoding='utf-8', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
     tsv_writer.writerow(['County','parkrunning','junior parkrunning','5k Cancellations','junior Cancellations','Total','5k Events Running','junior Events Running','5k Events Cancelled','junior Events Cancelled'])
-    for i,j in uk_counties.items():
+    for i,j in uk_ie_counties.items():
         if j['country'] == 'Northern Ireland':
             if i == 'NI Total':
                 out = ['Total']
@@ -1014,7 +1031,7 @@ print(now(),"counties/ni.tsv saved")
 with open('_data/parkrun/counties/scotland.tsv','wt', encoding='utf-8', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
     tsv_writer.writerow(['County','parkrunning','junior parkrunning','5k Cancellations','junior Cancellations','Total','5k Events Running','junior Events Running','5k Events Cancelled','junior Events Cancelled'])
-    for i,j in uk_counties.items():
+    for i,j in uk_ie_counties.items():
         if j['country'] == 'Scotland':
             if i == 'Scotland Total':
                 out = ['Total']
@@ -1033,7 +1050,7 @@ print(now(),"counties/scotalnd.tsv saved")
 with open('_data/parkrun/counties/wales.tsv','wt', encoding='utf-8', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
     tsv_writer.writerow(['County','parkrunning','junior parkrunning','5k Cancellations','junior Cancellations','Total','5k Events Running','junior Events Running','5k Events Cancelled','junior Events Cancelled'])
-    for i,j in uk_counties.items():
+    for i,j in uk_ie_counties.items():
         if j['country'] == 'Wales':
             if i == 'Wales Total':
                 out = ['Total']
@@ -1049,10 +1066,29 @@ with open('_data/parkrun/counties/wales.tsv','wt', encoding='utf-8', newline='')
             tsv_writer.writerow(out)
 print(now(),"counties/wales.tsv saved")
 
+with open('_data/parkrun/counties/ireland.tsv','wt', encoding='utf-8', newline='') as f:
+    tsv_writer = csv.writer(f, delimiter='\t')
+    tsv_writer.writerow(['County','parkrunning','junior parkrunning','5k Cancellations','junior Cancellations','Total','5k Events Running','junior Events Running','5k Events Cancelled','junior Events Cancelled'])
+    for i,j in uk_ie_counties.items():
+        if j['country'] == 'Ireland':
+            if i == 'Ireland Total':
+                out = ['Total']
+            else:
+                out = [i]
+            for k,l in j.items():
+                if l == 'Ireland':
+                    pass
+                elif l not in [0,[]]:
+                    out.append(l)
+                else:
+                    out.append('')
+            tsv_writer.writerow(out)
+print(now(),"counties/ireland.tsv saved")
+
 with open('_data/parkrun/counties/all.tsv','wt', encoding='utf-8', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
     tsv_writer.writerow(['County','Country','parkrunning','junior parkrunning','5k Cancellations','junior Cancellations','Total','5k Events Running','junior Events Running','5k Events Cancelled','junior Events Cancelled'])
-    for i,j in uk_counties.items():
+    for i,j in uk_ie_counties.items():
         out = [i]
         for k,l in j.items():
             if l not in [0,[]] :

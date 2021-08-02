@@ -1505,7 +1505,7 @@ permalink: /more
                 {% endfor %}
             </table>
             </div>
-            <p style="text-align:end"><a href='more-uk'>Click here for more UK Data</a></p>
+            <p style="text-align:end"><a href='more-uk-ie'>Click here for more UK Data</a></p>
             <h2 class="split">Australian Events</h2>
             <div class="hscrollable">
             <table style="width: 100%;">
