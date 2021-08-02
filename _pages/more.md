@@ -643,6 +643,51 @@ permalink: /more
         <br />
         <h2 class="split">parkrun returns in:</h2>
         <div class="flex-container">
+            <div class="flex-item" id="SA Countdown">
+                <div class="countdown">
+                    <!-- Display the timer timer in an element -->
+                    <h3 style="margin:inherit; color:inherit">South Africa</h3>
+                    <h2 id="timer1" style="margin:inherit; color:inherit;"></h2>
+                    <p id="endDate1" style="margin:inherit;"></p>
+                    <script>
+                        // Set the date we're counting down to
+                        var countDownDate1 = new Date( "2021/08/07 07:00:00 GMT+02:00").getTime();
+                        // Update the count down every 1 second
+                        var x = setInterval(function() {
+                        // Get today's date and time
+                        var now = new Date().getTime();
+                        // Find the distance between now and the count down date
+                        var distance = countDownDate1 - now;
+                        // Time calculations for days, hours, minutes and seconds
+                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
+                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
+                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                        // Display the result in the element with id="timer"
+                        if (weeks == 0) {
+                            if (days == 0) {
+                                document.getElementById("timer1").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                            else {
+                                document.getElementById("timer1").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                            }
+                        }
+                        else {
+                            document.getElementById("timer1").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                        }
+                        // If the count down is finished, write some text
+                        if (distance < 0) {
+                            clearInterval(x);
+                            document.getElementById("timer1").innerHTML = "parkrun's Back!";
+                        }
+                        }, 1000);
+                        var cdinput1 = new Date(countDownDate1)
+                        var cdoutput1 = cdinput1.toLocaleString('default', options);
+                        document.getElementById("endDate1").innerHTML = cdoutput1
+                    </script>
+                </div>
+            </div>
             <div class="flex-item" id="Finland Countdown">
                 <div class="countdown">
                     <!-- Display the timer timer in an element -->
@@ -981,10 +1026,11 @@ permalink: /more
             #countrystatuses {
                 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
             }
-            #usastatus {
-                grid-column: 3;
-            }
             #swedenstatus {
+                grid-column-start: 2;
+                grid-column-end: 5;
+            }
+            #sastatus {
                 grid-column: span 2;
             }
         }
@@ -993,17 +1039,21 @@ permalink: /more
                 grid-template-columns: 1fr 1fr 1fr 1fr;
             }
             #swedenstatus {
-                grid-column-start: 2;
-                grid-column-end: 4;
+                grid-column: span 2;
+            }
+            #sastatus {
+                grid-column: span 2;
+            }
+            #usastatus {
+                grid-column: span 2;
             }
         }
         @media (max-width: 750px) {
             #countrystatuses {
                 grid-template-columns: 1fr 1fr 1fr;
             }
-            #swedenstatus {
-                grid-column-start: 1;
-                grid-column-end: 4;
+            #usastatus {
+                grid-column: span 1;
             }
         }
         @media (min-width: 560px) {
@@ -1024,7 +1074,7 @@ permalink: /more
             #irelandgrid {
                 grid-template-columns: 1fr;
             }
-            #irelandstatus, #swedenstatus, #usastatus {
+            #irelandstatus, #swedenstatus {
                 grid-column: span 2;
             }
             #irelandtitle, #irlandjstatus {
@@ -1038,7 +1088,7 @@ permalink: /more
             #countrystatuses {
                 grid-template-columns: 1fr;
             }
-            #swedenstatus, #irelandstatus, #austriastatus, #finlandstatus, #usastatus {
+            #swedenstatus, #irelandstatus, #austriastatus, #finlandstatus, #sastatus {
                 grid-column: span 1
             }
         }
@@ -1233,10 +1283,10 @@ permalink: /more
                             <p>Events Suspended</p>
                         </div>
                     </div>
-                    <div class="countrystatus">
-                        <div class="statusred">
+                    <div id="sastatus" class="countrystatus">
+                        <div class="statusamber">
                             <h3>South Africa</h3>
-                            <p>Events Suspended</p>
+                            <p id="sadate">Some Events Returning <a href="#SA%20Countdown">7 August</a></p>
                         </div>
                     </div>
                     <div id="swedenstatus" class="countrystatus">
@@ -1391,6 +1441,7 @@ permalink: /more
                 } 
             });
             }
+        document.getElementById("sadate").innerHTML = "Some Events Returning<br/><a href='#SA%20Countdown'>" + cdoutput1 + "</a>"
         document.getElementById("austriadate").innerHTML = "Starting<br/><a href='#Austria%20Countdown'>" + cdoutput2 + "</a>"
         document.getElementById("finlanddate").innerHTML = "Returning<br/><a href='#Finland%20Countdown'>" + cdoutput4 + "</a>"
         document.getElementById("sweedendate").innerHTML = "Returning<br/><a href='#Sweeden%20Countdown'>" + cdoutput9 + "</a>"
