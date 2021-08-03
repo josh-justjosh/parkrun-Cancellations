@@ -1097,12 +1097,21 @@ permalink: /more
                 grid-template-columns: 1fr 1fr 1fr 1fr;
             }
             #wastatus {
-                grid-column-start: 2; grid-column-end: 4;
+                grid-column: span 2;
+            }
+            #vicstatus {
+                grid-column: span 2;
             }
         }
         @media (max-width: 690px) {
             #australiagrid {
                 grid-template-columns: 1fr 1fr 1fr;
+            }
+            #wastatus {
+                grid-column-start: 2;
+            }
+            #vicstatus {
+                grid-column: span 1;
             }
         }
         @media (max-width: 550px) {
@@ -1110,7 +1119,7 @@ permalink: /more
                 grid-template-columns: 1fr 1fr;
             }
             #wastatus {
-                grid-column: span 2;
+                grid-column: unset;
             }
         }
         #ukgrid, #englandgrid, #nigrid {
@@ -1314,11 +1323,11 @@ permalink: /more
                         <div class="countrystatus" style="grid-column: span 2;">
                             <div class="grid" style="grid-template-columns: 1fr 1fr;">
                                 <h3  style="grid-column: span 2;">New South Wales</h3>
-                                <div class="statusgreen">
-                                    <p>Some Events Open</p>
-                                </div>
                                 <div class="statusred">
-                                    <p>Sydney Events Suspended</p>
+                                    <p><a href="https://www.nsw.gov.au/covid-19/rules/greater-sydney">Greater Sydney</a><br/>Events Suspended</p>
+                                </div>
+                                <div class="statusgreen">
+                                    <p>Other Events Open</p>
                                 </div>
                             </div>
                         </div>
@@ -1328,10 +1337,15 @@ permalink: /more
                                 <p>Events Open</p>
                             </div>
                         </div>
-                        <div class="countrystatus">
-                            <div class="statusgreen">
-                                <h4>Queensland</h4>
-                                <p>Events Open</p>
+                        <div class="countrystatus" style="grid-column: span 2;">
+                            <div class="grid" style="grid-template-columns: 1fr 1fr;">
+                                <h3  style="grid-column: span 2;">Queensland</h3>
+                                <div class="statusred">
+                                    <p><a href="https://www.qld.gov.au/health/conditions/health-alerts/coronavirus-covid-19/current-status/public-health-directions/restrictions-impacted-areas">South East Queensland</a><br/>Events Suspended</p>
+                                </div>
+                                <div class="statusgreen">
+                                    <p>Other Events Open</p>
+                                </div>
                             </div>
                         </div>
                         <div class="countrystatus">
@@ -1346,7 +1360,7 @@ permalink: /more
                                 <p>Events Open</p>
                             </div>
                         </div>
-                        <div class="countrystatus">
+                        <div id="vicstatus" class="countrystatus">
                             <div class="statusred">
                                 <h4>Victoria</h4>
                                 <p>Events Suspended</p>
