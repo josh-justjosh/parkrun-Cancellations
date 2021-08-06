@@ -11510,6 +11510,34 @@
       }
     },
     {
+      "id": 2868,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.516116,
+          -34.963603
+        ]
+      },
+      "properties": {
+        "eventname": "patawalongariver",
+        "EventLongName": "Patawalonga River parkrun",
+        "EventShortName": "Patawalonga River",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "Anderson Avenue",
+        "Status": "parkrunning",
+        "DateCancelled": null,
+        "ReasonCancelled": null,
+        "Website": "https://www.parkrun.com.au/patawalongariver",
+        "Country": "Australia",
+        "State": "South Australia",
+        "County": "City of West Torrens",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Patawalonga River parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/patawalongariver\">parkrun.com.au/patawalongariver</a></td></tr></table>"
+      }
+    },
+    {
       "id": 471,
       "type": "Feature",
       "geometry": {
@@ -17947,34 +17975,6 @@
         "State": "Munster",
         "County": "Clare",
         "description": "<h4 style=\"margin: 0 0 8px;\">Illaunmanagh parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/illaunmanagh\">parkrun.ie/illaunmanagh</a></td></tr></table>"
-      }
-    },
-    {
-      "id": 2738,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -6.424837,
-          53.381645
-        ]
-      },
-      "properties": {
-        "eventname": "beechpark-juniors",
-        "EventLongName": "Beechpark junior parkrun",
-        "EventShortName": "Beechpark juniors",
-        "LocalisedEventLongName": null,
-        "countrycode": 42,
-        "seriesid": 2,
-        "EventLocation": "Beechpark",
-        "Status": "junior Cancellation",
-        "DateCancelled": "2021-08-08",
-        "ReasonCancelled": "COVID-19 (Coronavirus)",
-        "Website": "https://www.parkrun.ie/beechpark-juniors",
-        "Country": "Ireland",
-        "State": "Leinster",
-        "County": "Dublin",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Beechpark junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/beechpark-juniors\">parkrun.ie/beechpark-juniors</a></td></tr></table>"
       }
     },
     {
@@ -24799,14 +24799,14 @@
         "countrycode": 79,
         "seriesid": 1,
         "EventLocation": "Chelyabinsk",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-08-07",
+        "ReasonCancelled": "race team not recruited",
         "Website": "https://www.parkrun.ru/chelyabinsk",
         "Country": "Russia",
         "State": "Chelyabinsk",
         "County": "",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Chelyabinsk</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ru/chelyabinsk\">parkrun.ru/chelyabinsk</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Chelyabinsk</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>race team not recruited</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ru/chelyabinsk\">parkrun.ru/chelyabinsk</a></td></tr></table>"
       }
     },
     {
@@ -58855,6 +58855,34 @@
         "State": "England",
         "County": "Hampshire",
         "description": "<h4 style=\"margin: 0 0 8px;\">Dowds Farm junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/dowdsfarm-juniors\">parkrun.org.uk/dowdsfarm-juniors</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 2671,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.188165,
+          51.737281
+        ]
+      },
+      "properties": {
+        "eventname": "horspath",
+        "EventLongName": "Horspath parkrun",
+        "EventShortName": "Horspath",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Horspath Sports Ground & Athletic Track",
+        "Status": "parkrunning",
+        "DateCancelled": null,
+        "ReasonCancelled": null,
+        "Website": "https://www.parkrun.org.uk/horspath",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Oxfordshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Horspath parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/horspath\">parkrun.org.uk/horspath</a></td></tr></table>"
       }
     },
     {
