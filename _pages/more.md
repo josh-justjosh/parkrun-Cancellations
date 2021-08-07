@@ -643,141 +643,6 @@ permalink: /more
         <br />
         <h2 class="split">parkrun returns in:</h2>
         <div class="flex-container">
-            <div class="flex-item" id="SA Countdown">
-                <div class="countdown">
-                    <!-- Display the timer timer in an element -->
-                    <h3 style="margin:inherit; color:inherit">South Africa</h3>
-                    <h2 id="timer1" style="margin:inherit; color:inherit;"></h2>
-                    <p id="endDate1" style="margin:inherit;"></p>
-                    <script>
-                        // Set the date we're counting down to
-                        var countDownDate1 = new Date( "2021/08/07 07:00:00 GMT+02:00").getTime();
-                        // Update the count down every 1 second
-                        var x = setInterval(function() {
-                        // Get today's date and time
-                        var now = new Date().getTime();
-                        // Find the distance between now and the count down date
-                        var distance = countDownDate1 - now;
-                        // Time calculations for days, hours, minutes and seconds
-                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
-                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
-                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-                        // Display the result in the element with id="timer"
-                        if (weeks == 0) {
-                            if (days == 0) {
-                                document.getElementById("timer1").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                            else {
-                                document.getElementById("timer1").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                        }
-                        else {
-                            document.getElementById("timer1").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                        }
-                        // If the count down is finished, write some text
-                        if (distance < 0) {
-                            clearInterval(x);
-                            document.getElementById("timer1").innerHTML = "parkrun's Back!";
-                        }
-                        }, 1000);
-                        var cdinput1 = new Date(countDownDate1)
-                        var cdoutput1 = cdinput1.toLocaleString('default', options);
-                        document.getElementById("endDate1").innerHTML = cdoutput1
-                    </script>
-                </div>
-            </div>
-            <div class="flex-item" id="Finland Countdown">
-                <div class="countdown">
-                    <!-- Display the timer timer in an element -->
-                    <h3 style="margin:inherit; color:inherit">Finland</h3>
-                    <h2 id="timer4" style="margin:inherit; color:inherit;"></h2>
-                    <p id="endDate4" style="margin:inherit;"></p>
-                    <script>
-                        // Set the date we're counting down to
-                        var countDownDate4 = new Date( "2021/08/07 09:30:00 GMT+03:00").getTime();
-                        // Update the count down every 1 second
-                        var x = setInterval(function() {
-                        // Get today's date and time
-                        var now = new Date().getTime();
-                        // Find the distance between now and the count down date
-                        var distance = countDownDate4 - now;
-                        // Time calculations for days, hours, minutes and seconds
-                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
-                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
-                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-                        // Display the result in the element with id="timer"
-                        if (weeks == 0) {
-                            if (days == 0) {
-                                document.getElementById("timer4").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                            else {
-                                document.getElementById("timer4").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                        }
-                        else {
-                            document.getElementById("timer4").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                        }
-                        // If the count down is finished, write some text
-                        if (distance < 0) {
-                            clearInterval(x);
-                            document.getElementById("timer4").innerHTML = "parkrun's Back!";
-                        }
-                        }, 1000);
-                        var cdinput4 = new Date(countDownDate4)
-                        var cdoutput4 = cdinput4.toLocaleString('default', options);
-                        document.getElementById("endDate4").innerHTML = cdoutput4
-                    </script>
-                </div>
-            </div>
-            <div class="flex-item" id="Sweeden Countdown">
-                <div class="countdown">
-                    <!-- Display the timer timer in an element -->
-                    <h3 style="margin:inherit; color:inherit">Sweden</h3>
-                    <h2 id="timer9" style="margin:inherit; color:inherit;"></h2>
-                    <p id="endDate9" style="margin:inherit;"></p>
-                    <script>
-                        // Set the date we're counting down to
-                        var countDownDate9 = new Date( "2021/08/07 09:30:00 GMT+02:00").getTime();
-                        // Update the count down every 1 second
-                        var x = setInterval(function() {
-                        // Get today's date and time
-                        var now = new Date().getTime();
-                        // Find the distance between now and the count down date
-                        var distance = countDownDate9 - now;
-                        // Time calculations for days, hours, minutes and seconds
-                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
-                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
-                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-                        // Display the result in the element with id="timer"
-                        if (weeks == 0) {
-                            if (days == 0) {
-                                document.getElementById("timer9").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                            else {
-                                document.getElementById("timer9").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                        }
-                        else {
-                            document.getElementById("timer9").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                        }
-                        // If the count down is finished, write some text
-                        if (distance < 0) {
-                            clearInterval(x);
-                            document.getElementById("timer9").innerHTML = "parkrun's Back!";
-                        }
-                        }, 1000);
-                        var cdinput9 = new Date(countDownDate9)
-                        var cdoutput9 = cdinput9.toLocaleString('default', options);
-                        document.getElementById("endDate9").innerHTML = cdoutput9
-                    </script>
-                </div>
-            </div>
             <div class="flex-item" id="Austria Countdown">
                 <div class="countdown">
                     <!-- Display the timer timer in an element -->
@@ -826,7 +691,7 @@ permalink: /more
             <div class="flex-item" id="Scotland Countdown">
                 <div class="countdown">
                     <!-- Display the timer timer in an element -->
-                    <h3 style="margin:inherit; color:inherit">Mainland Scotland & The Hebrides (tbc)</h3>
+                    <h3 style="margin:inherit; color:inherit">Mainland Scotland & The Hebrides</h3>
                     <h2 id="timer5" style="margin:inherit; color:inherit;"></h2>
                     <p id="endDate5" style="margin:inherit;"></p>
                     <script>
@@ -916,7 +781,7 @@ permalink: /more
             <div class="flex-item" id="Wales Countdown">
                 <div class="countdown">
                     <!-- Display the timer timer in an element -->
-                    <h3 style="margin:inherit; color:inherit">Wales (tbc)</h3>
+                    <h3 style="margin:inherit; color:inherit">Wales</h3>
                     <h2 id="timer7" style="margin:inherit; color:inherit;"></h2>
                     <p id="endDate7" style="margin:inherit;"></p>
                     <script>
@@ -1026,26 +891,10 @@ permalink: /more
             #countrystatuses {
                 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
             }
-            #swedenstatus {
-                grid-column-start: 2;
-                grid-column-end: 5;
-            }
-            #sastatus {
-                grid-column: span 2;
-            }
         }
         @media (max-width: 890px) {
             #countrystatuses {
                 grid-template-columns: 1fr 1fr 1fr 1fr;
-            }
-            #swedenstatus {
-                grid-column: span 2;
-            }
-            #sastatus {
-                grid-column: span 2;
-            }
-            #usastatus {
-                grid-column: span 2;
             }
         }
         @media (max-width: 750px) {
@@ -1081,7 +930,7 @@ permalink: /more
                 grid-column: span 1;
             }
         }
-        #austriastatus, #finlandstatus {
+        #austriastatus {
             grid-column: span 2;
         }
         @media (max-width: 380px) {
@@ -1160,19 +1009,6 @@ permalink: /more
                 grid-column: span 1;
             }
         }
-        /*@media (min-width: 540px) {
-            #irelandgrid {
-                grid-template-columns: 1fr 1fr 1fr;
-            }
-            #irelandjstatus {
-                grid-column: span 2;
-            }
-        }
-        @media (max-width: 540px) {
-            #irelandgrid {
-                grid-template-columns: 1fr 1fr;
-            }
-        }*/
         </style>
         <button type="button" class="collapsiblestatus" style="margin: 5px;">Click to view a summary of the status of parkruns in each country</button>
         <div class="expcontent">
@@ -1204,9 +1040,9 @@ permalink: /more
                         </div>
                     </div>
                     <div id="finlandstatus" class="countrystatus">
-                        <div class="statusamber">
+                        <div class="statusgreen">
                             <h3>Finland</h3>
-                            <p id="finlanddate">Events Returning <a href="#Finland%20Countdown">7 August</a></p>
+                            <p id="finlanddate">Events Open</p>
                         </div>
                         </div>
                     <div class="countrystatus">
@@ -1295,13 +1131,13 @@ permalink: /more
                     <div id="sastatus" class="countrystatus">
                         <div class="statusamber">
                             <h3>South Africa</h3>
-                            <p id="sadate">Some Events Returning <a href="#SA%20Countdown">7 August</a></p>
+                            <p id="sadate">Some Events Open</p>
                         </div>
                     </div>
                     <div id="swedenstatus" class="countrystatus">
                         <div class="statusamber">
                             <h3>Sweden</h3>
-                            <p id="sweedendate">Events Returning <a href="#Sweeden%20Countdown">7 August</a></p>
+                            <p id="sweedendate">Some Events Open</p>
                         </div>
                     </div>
                     <div id="usastatus" class="countrystatus">
@@ -1455,10 +1291,7 @@ permalink: /more
                 } 
             });
             }
-        document.getElementById("sadate").innerHTML = "Some Events Returning<br/><a href='#SA%20Countdown'>" + cdoutput1 + "</a>"
         document.getElementById("austriadate").innerHTML = "Starting<br/><a href='#Austria%20Countdown'>" + cdoutput2 + "</a>"
-        document.getElementById("finlanddate").innerHTML = "Returning<br/><a href='#Finland%20Countdown'>" + cdoutput4 + "</a>"
-        document.getElementById("sweedendate").innerHTML = "Returning<br/><a href='#Sweeden%20Countdown'>" + cdoutput9 + "</a>"
         document.getElementById("scotlanddate").innerHTML = "Potentially Returning<br/><a href='#Scotland%20Countdown'>" + cdoutput5 + "</a>"
         document.getElementById("irelandjuniorevents").innerHTML = "juniors Returning<br/><a href='#Ireland%20juniors%20Countdown'>" + cdoutput6 + "</a>"
         document.getElementById("walesdate").innerHTML = "Potentially Returning<br/><a href='#Wales%20Countdown'>" + cdoutput7 + "</a>"
