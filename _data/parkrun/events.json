@@ -5395,14 +5395,14 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Rotary Park",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-08-07",
+        "ReasonCancelled": "Insufficient volunteers due to COVID lockdown",
         "Website": "https://www.parkrun.com.au/merriwa",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Upper Hunter Shire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Merriwa parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/merriwa\">parkrun.com.au/merriwa</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Merriwa parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Insufficient volunteers due to COVID lockdown</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/merriwa\">parkrun.com.au/merriwa</a></td></tr></table>"
       }
     },
     {
@@ -50038,6 +50038,34 @@
       }
     },
     {
+      "id": 2710,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.005952,
+          52.449447
+        ]
+      },
+      "properties": {
+        "eventname": "woodgatevalleycountrypark",
+        "EventLongName": "Woodgate Valley Country Park parkrun",
+        "EventShortName": "Woodgate Valley Country Park",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Woodgate Valley Country Park",
+        "Status": "parkrunning",
+        "DateCancelled": null,
+        "ReasonCancelled": null,
+        "Website": "https://www.parkrun.org.uk/woodgatevalleycountrypark",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Birmingham",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Woodgate Valley Country Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/woodgatevalleycountrypark\">parkrun.org.uk/woodgatevalleycountrypark</a></td></tr></table>"
+      }
+    },
+    {
       "id": 2716,
       "type": "Feature",
       "geometry": {
@@ -58175,14 +58203,14 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Brooklands Community Park",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-08-07",
+        "ReasonCancelled": "B course has flooded and risk of lightning",
         "Website": "https://www.parkrun.org.uk/brooklands",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Surrey",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Brooklands parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/brooklands\">parkrun.org.uk/brooklands</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Brooklands parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>B course has flooded and risk of lightning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/brooklands\">parkrun.org.uk/brooklands</a></td></tr></table>"
       }
     },
     {
