@@ -3827,14 +3827,14 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Ford Park",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-08-14",
+        "ReasonCancelled": "Covid all around us.",
         "Website": "https://www.parkrun.com.au/yamba",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Clarence Valley",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Yamba parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/yamba\">parkrun.com.au/yamba</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Yamba parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Covid all around us.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/yamba\">parkrun.com.au/yamba</a></td></tr></table>"
       }
     },
     {
@@ -11622,6 +11622,34 @@
       }
     },
     {
+      "id": 2857,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.065462,
+          47.761065
+        ]
+      },
+      "properties": {
+        "eventname": "hellbrunn",
+        "EventLongName": "Hellbrunn parkrun",
+        "EventShortName": "Hellbrunn",
+        "LocalisedEventLongName": null,
+        "countrycode": 4,
+        "seriesid": 1,
+        "EventLocation": "",
+        "Status": "parkrunning",
+        "DateCancelled": null,
+        "ReasonCancelled": null,
+        "Website": "https://www.parkrun.co.at/hellbrunn",
+        "Country": "Austria",
+        "State": "Salzburg",
+        "County": "Salzburg",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hellbrunn parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.at/hellbrunn\">parkrun.co.at/hellbrunn</a></td></tr></table>"
+      }
+    },
+    {
       "id": 1517,
       "type": "Feature",
       "geometry": {
@@ -18062,6 +18090,34 @@
       }
     },
     {
+      "id": 2782,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.38781,
+          53.984453
+        ]
+      },
+      "properties": {
+        "eventname": "dundalkit-juniors",
+        "EventLongName": "Dundalk IT junior parkrun",
+        "EventShortName": "Dundalk IT juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 42,
+        "seriesid": 2,
+        "EventLocation": "Dundalk Institute of Technology",
+        "Status": "junior parkrunning",
+        "DateCancelled": null,
+        "ReasonCancelled": null,
+        "Website": "https://www.parkrun.ie/dundalkit-juniors",
+        "Country": "Ireland",
+        "State": "Leinster",
+        "County": "Louth",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Dundalk IT junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/dundalkit-juniors\">parkrun.ie/dundalkit-juniors</a></td></tr></table>"
+      }
+    },
+    {
       "id": 2831,
       "type": "Feature",
       "geometry": {
@@ -18751,14 +18807,14 @@
         "countrycode": 46,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-08-14",
+        "ReasonCancelled": "\u5927\u96e8\u306e\u305f\u3081",
         "Website": "https://www.parkrun.jp/horinouchikoen",
         "Country": "Japan",
         "State": "Ehime",
         "County": "Matsuyama-shi",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Horinouchi koen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/horinouchikoen\">parkrun.jp/horinouchikoen</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Horinouchi koen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>\u5927\u96e8\u306e\u305f\u3081</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/horinouchikoen\">parkrun.jp/horinouchikoen</a></td></tr></table>"
       }
     },
     {
@@ -18863,14 +18919,14 @@
         "countrycode": 46,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-08-14",
+        "ReasonCancelled": "because of dangerous course condition(strong wind)",
         "Website": "https://www.parkrun.jp/hironokaigankoen",
         "Country": "Japan",
         "State": "Shizuoka",
         "County": "Shizuoka-shi",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hirono kaigankoen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/hironokaigankoen\">parkrun.jp/hironokaigankoen</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hirono kaigankoen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>because of dangerous course condition(strong wind)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/hironokaigankoen\">parkrun.jp/hironokaigankoen</a></td></tr></table>"
       }
     },
     {
@@ -18947,14 +19003,14 @@
         "countrycode": 46,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-08-14",
+        "ReasonCancelled": "\u96e8\u5929\u306b\u3088\u308b\u30b3\u30fc\u30b9\u4e0d\u826f\u306e\u305f\u3081",
         "Website": "https://www.parkrun.jp/meijokoen",
         "Country": "Japan",
         "State": "Aichi",
         "County": "Nagoya",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Meijo koen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/meijokoen\">parkrun.jp/meijokoen</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Meijo koen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>\u96e8\u5929\u306b\u3088\u308b\u30b3\u30fc\u30b9\u4e0d\u826f\u306e\u305f\u3081</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/meijokoen\">parkrun.jp/meijokoen</a></td></tr></table>"
       }
     },
     {
@@ -19003,14 +19059,14 @@
         "countrycode": 46,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-08-14",
+        "ReasonCancelled": "\u96e8\u306e\u305f\u3081",
         "Website": "https://www.parkrun.jp/kariyashisogoundokoen",
         "Country": "Japan",
         "State": "Aichi",
         "County": "Kariya",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Kariyashi sogoundo koen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/kariyashisogoundokoen\">parkrun.jp/kariyashisogoundokoen</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Kariyashi sogoundo koen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>\u96e8\u306e\u305f\u3081</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/kariyashisogoundokoen\">parkrun.jp/kariyashisogoundokoen</a></td></tr></table>"
       }
     },
     {
@@ -38891,6 +38947,34 @@
         "State": "England",
         "County": "Durham",
         "description": "<h4 style=\"margin: 0 0 8px;\">Jubilee parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Due to Party in the Park: key paths unusable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/jubilee\">parkrun.org.uk/jubilee</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 2714,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.691159,
+          55.165172
+        ]
+      },
+      "properties": {
+        "eventname": "carlislepark",
+        "EventLongName": "Carlisle Park parkrun",
+        "EventShortName": "Carlisle Park",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Carlisle Park",
+        "Status": "parkrunning",
+        "DateCancelled": null,
+        "ReasonCancelled": null,
+        "Website": "https://www.parkrun.org.uk/carlislepark",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Northumberland",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Carlisle Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/carlislepark\">parkrun.org.uk/carlislepark</a></td></tr></table>"
       }
     },
     {
