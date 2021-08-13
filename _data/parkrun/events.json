@@ -5843,14 +5843,14 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Northparkes Oval",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-08-14",
+        "ReasonCancelled": "COVID Risk - detected in local waste water",
         "Website": "https://www.parkrun.com.au/northparkesoval",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Parkes",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Northparkes Oval parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/northparkesoval\">parkrun.com.au/northparkesoval</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Northparkes Oval parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>COVID Risk - detected in local waste water</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/northparkesoval\">parkrun.com.au/northparkesoval</a></td></tr></table>"
       }
     },
     {
@@ -23015,6 +23015,34 @@
         "State": "Greater Poland",
         "County": "Powiat pozna\u0144ski",
         "description": "<h4 style=\"margin: 0 0 8px;\">parkrun B\u0142onie</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/blonie\">parkrun.pl/blonie</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 2874,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.853468,
+          52.403769
+        ]
+      },
+      "properties": {
+        "eventname": "lasekmarcelinski",
+        "EventLongName": "parkrun Lasek Marceli\u0144ski",
+        "EventShortName": "Lasek Marceli\u0144ski",
+        "LocalisedEventLongName": null,
+        "countrycode": 74,
+        "seriesid": 1,
+        "EventLocation": "Lasek Marceli\u0144ski",
+        "Status": "parkrunning",
+        "DateCancelled": null,
+        "ReasonCancelled": null,
+        "Website": "https://www.parkrun.pl/lasekmarcelinski",
+        "Country": "Poland",
+        "State": "Greater Poland",
+        "County": "Pozna\u0144",
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Lasek Marceli\u0144ski</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/lasekmarcelinski\">parkrun.pl/lasekmarcelinski</a></td></tr></table>"
       }
     },
     {
@@ -50113,12 +50141,12 @@
         "EventLocation": "Malvern Park",
         "Status": "junior Cancellation",
         "DateCancelled": "2021-08-15",
-        "ReasonCancelled": "COVID-19 (Coronavirus)",
+        "ReasonCancelled": "Solihull half marathon course runs through park",
         "Website": "https://www.parkrun.org.uk/malvernpark-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Solihull",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Malvern Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/malvernpark-juniors\">parkrun.org.uk/malvernpark-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Malvern Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Solihull half marathon course runs through park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/malvernpark-juniors\">parkrun.org.uk/malvernpark-juniors</a></td></tr></table>"
       }
     },
     {
