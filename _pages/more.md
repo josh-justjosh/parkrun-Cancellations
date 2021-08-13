@@ -859,7 +859,7 @@ permalink: /more
         .countrystatus * {
                 margin: 0;
             }
-        .countrystatus p, .countrystatus a {
+        .countrystatus p, .countrystatus a , .countrystatus h3, .countrystatus h4 {
                 color: white;
             }
         .countrystatus a {
@@ -948,27 +948,21 @@ permalink: /more
             #wastatus {
                 grid-column: span 2;
             }
-            #vicstatus {
-                grid-column: span 2;
-            }
         }
         @media (max-width: 690px) {
             #australiagrid {
                 grid-template-columns: 1fr 1fr 1fr;
             }
-            #wastatus {
+            /*#wastatus {
                 grid-column-start: 2;
-            }
-            #vicstatus {
-                grid-column: span 1;
-            }
+            }*/
         }
         @media (max-width: 550px) {
             #australiagrid {
                 grid-template-columns: 1fr 1fr;
             }
             #wastatus {
-                grid-column: unset;
+                grid-column: span 2;
             }
         }
         #ukgrid, #englandgrid, #nigrid {
@@ -1059,7 +1053,7 @@ permalink: /more
                     </div>
                     <div id ="irelandstatus" class="countrystatus">
                         <div id ="irelandgrid" class="grid">
-                            <h3 id="irelandtitle">Ireland</h3>
+                            <h3 id="irelandtitle" style="color: unset">Ireland</h3>
                             <div class="statusred">
                                 <p>5k Events Suspended</p>
                             </div>
@@ -1075,9 +1069,9 @@ permalink: /more
                         </div>
                     </div>
                     <div class="countrystatus">
-                        <div class="statusgreen">
+                        <div class="statusamber">
                             <h3>Japan</h3>
-                            <p>Most Events Open</p>
+                            <p>Some Events Open</p>
                         </div>
                     </div>
                     <div class="countrystatus">
@@ -1151,19 +1145,19 @@ permalink: /more
                     <h3 class="split">Australia</h3>
                     <div id="australiagrid" class="grid">
                         <div class="countrystatus">
-                            <div class="statusgreen">
+                            <div class="statusred">
                                 <h4>Australian Capital Territory</h4>
-                                <p>Events Open</p>
+                                <p>Events Suspended</p>
                             </div>
                         </div>
                         <div class="countrystatus" style="grid-column: span 2;">
                             <div class="grid" style="grid-template-columns: 1fr 1fr;">
-                                <h3  style="grid-column: span 2;">New South Wales</h3>
+                                <h3  style="grid-column: span 2; color: unset">New South Wales</h3>
                                 <div class="statusred">
                                     <p><a href="https://www.nsw.gov.au/covid-19/rules/greater-sydney">Greater Sydney</a><br/>Events Suspended</p>
                                 </div>
-                                <div class="statusgreen">
-                                    <p>Other Events Open</p>
+                                <div class="statusamber">
+                                    <p>Some Events Open</p>
                                 </div>
                             </div>
                         </div>
@@ -1175,7 +1169,7 @@ permalink: /more
                         </div>
                         <div class="countrystatus" style="grid-column: span 2;">
                             <div class="grid" style="grid-template-columns: 1fr 1fr;">
-                                <h3  style="grid-column: span 2;">Queensland</h3>
+                                <h3  style="grid-column: span 2; color: unset">Queensland</h3>
                                 <div class="statusred">
                                     <p><a href="https://www.qld.gov.au/health/conditions/health-alerts/coronavirus-covid-19/current-status/public-health-directions/restrictions-impacted-areas">South East Queensland</a><br/>Events Suspended</p>
                                 </div>
@@ -1196,10 +1190,15 @@ permalink: /more
                                 <p>Events Open</p>
                             </div>
                         </div>
-                        <div id="vicstatus" class="countrystatus">
-                            <div class="statusred">
-                                <h4>Victoria</h4>
-                                <p>Events Suspended</p>
+                        <div class="countrystatus" style="grid-column: span 2;">
+                            <div class="grid" style="grid-template-columns: 1fr 1fr;">
+                                <h3  style="grid-column: span 2; color: unset">Victoria</h3>
+                                <div class="statusred">
+                                    <p>Melbourne<br/>Events Suspended</p>
+                                </div>
+                                <div class="statusgreen">
+                                    <p>Other Events Open</p>
+                                </div>
                             </div>
                         </div>
                         <div id="wastatus" class="countrystatus">
@@ -1215,7 +1214,7 @@ permalink: /more
                     <div id="ukgrid" class="grid">
                         <div class="countrystatus">
                             <div id="englandgrid" class="grid">
-                                <h4 style="grid-column: span 2;">England</h4>
+                                <h4 style="grid-column: span 2; color: unset">England</h4>
                                 <div>
                                     <div class="statusgreen">
                                         <p>5k Events Open</p>
@@ -1230,7 +1229,7 @@ permalink: /more
                         </div>
                         <div class="countrystatus">
                             <div id="nigrid" class="grid">
-                                <h4 style="grid-column: span 2;">Northern Ireland</h4>
+                                <h4 style="grid-column: span 2; color: unset">Northern Ireland</h4>
                                 <div>
                                     <div class="statusgreen">
                                         <p>5k Events Open</p>
@@ -1245,10 +1244,10 @@ permalink: /more
                         </div>
                         <div class="countrystatus">
                             <div id="scotlandgrid" class="grid">
-                                <h4 id="scotlandtitle">Scotland</h4>
+                                <h4 id="scotlandtitle" style="color: unset">Scotland</h4>
                                 <div id="scotland5kstatus">
                                     <div class="statusamber">
-                                        <p id="scotlanddate">Potentially Returning<br/><a href="#Scotland%20Countdown">14 August</a></p>
+                                        <p id="scotlanddate">Returning<br/><a href="#Scotland%20Countdown">14 August</a></p>
                                     </div>
                                 </div>
                                 <div>
@@ -1260,10 +1259,10 @@ permalink: /more
                         </div>
                         <div class="countrystatus">
                             <div id="walesgrid" class="grid">
-                                <h4 id="walestitle">Wales</h4>
+                                <h4 id="walestitle" style="color: unset">Wales</h4>
                                 <div id="wales5kstatus">
                                     <div class="statusamber">
-                                        <p id="walesdate">Potentially Returning<br/><a href="#Wales%20Countdown">21 August</a></p>
+                                        <p id="walesdate">Returning<br/><a href="#Wales%20Countdown">21 August</a></p>
                                     </div>
                                 </div>
                                 <div>
