@@ -643,96 +643,6 @@ permalink: /more
         <br />
         <h2 class="split">parkrun returns in:</h2>
         <div class="flex-container">
-            <div class="flex-item" id="Austria Countdown">
-                <div class="countdown">
-                    <!-- Display the timer timer in an element -->
-                    <h3 style="margin:inherit; color:inherit">Austria</h3>
-                    <h2 id="timer2" style="margin:inherit; color:inherit;"></h2>
-                    <p id="endDate2" style="margin:inherit;"></p>
-                    <script>
-                        // Set the date we're counting down to
-                        var countDownDate2 = new Date( "2021/08/14 09:00:00 GMT+02:00").getTime();
-                        // Update the count down every 1 second
-                        var x = setInterval(function() {
-                        // Get today's date and time
-                        var now = new Date().getTime();
-                        // Find the distance between now and the count down date
-                        var distance = countDownDate2 - now;
-                        // Time calculations for days, hours, minutes and seconds
-                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
-                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
-                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-                        // Display the result in the element with id="timer"
-                        if (weeks == 0) {
-                            if (days == 0) {
-                                document.getElementById("timer2").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                            else {
-                                document.getElementById("timer2").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                        }
-                        else {
-                            document.getElementById("timer2").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                        }
-                        // If the count down is finished, write some text
-                        if (distance < 0) {
-                            clearInterval(x);
-                            document.getElementById("timer2").innerHTML = "parkrun's Back!";
-                        }
-                        }, 1000);
-                        var cdinput2 = new Date(countDownDate2)
-                        var cdoutput2 = cdinput2.toLocaleString('default', options);
-                        document.getElementById("endDate2").innerHTML = cdoutput2
-                    </script>
-                </div>
-            </div>
-            <div class="flex-item" id="Scotland Countdown">
-                <div class="countdown">
-                    <!-- Display the timer timer in an element -->
-                    <h3 style="margin:inherit; color:inherit">Mainland Scotland & The Hebrides</h3>
-                    <h2 id="timer5" style="margin:inherit; color:inherit;"></h2>
-                    <p id="endDate5" style="margin:inherit;"></p>
-                    <script>
-                        // Set the date we're counting down to
-                        var countDownDate5 = new Date( "2021/08/14 09:30:00 GMT+01:00").getTime();
-                        // Update the count down every 1 second
-                        var x = setInterval(function() {
-                        // Get today's date and time
-                        var now = new Date().getTime();
-                        // Find the distance between now and the count down date
-                        var distance = countDownDate5 - now;
-                        // Time calculations for days, hours, minutes and seconds
-                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
-                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
-                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-                        // Display the result in the element with id="timer"
-                        if (weeks == 0) {
-                            if (days == 0) {
-                                document.getElementById("timer5").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                            else {
-                                document.getElementById("timer5").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                        }
-                        else {
-                            document.getElementById("timer5").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                        }
-                        // If the count down is finished, write some text
-                        if (distance < 0) {
-                            clearInterval(x);
-                            document.getElementById("timer5").innerHTML = "parkrun's Back!";
-                        }
-                        }, 1000);
-                        var cdinput5 = new Date(countDownDate5)
-                        var cdoutput5 = cdinput5.toLocaleString('default', options);
-                        document.getElementById("endDate5").innerHTML = cdoutput5
-                    </script>
-                </div>
-            </div>
             <div class="flex-item" id="Ireland juniors Countdown">
                 <div class="countdown" style="background-color: rgb(0, 206, 174);">
                     <!-- Display the timer timer in an element -->
@@ -891,6 +801,15 @@ permalink: /more
             #countrystatuses {
                 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
             }
+            #sastatus {
+                grid-column-start: 2
+            }
+            #swedenstatus {
+                grid-column-start: 3
+            }
+            #usastatus {
+                grid-column-start: 4
+            }
         }
         @media (max-width: 890px) {
             #countrystatuses {
@@ -900,9 +819,6 @@ permalink: /more
         @media (max-width: 750px) {
             #countrystatuses {
                 grid-template-columns: 1fr 1fr 1fr;
-            }
-            #usastatus {
-                grid-column: span 1;
             }
         }
         @media (min-width: 560px) {
@@ -923,21 +839,18 @@ permalink: /more
             #irelandgrid {
                 grid-template-columns: 1fr;
             }
-            #irelandstatus, #swedenstatus {
+            #irelandstatus {
                 grid-column: span 2;
             }
             #irelandtitle, #irlandjstatus {
                 grid-column: span 1;
             }
         }
-        #austriastatus {
-            grid-column: span 2;
-        }
         @media (max-width: 380px) {
             #countrystatuses {
                 grid-template-columns: 1fr;
             }
-            #swedenstatus, #irelandstatus, #austriastatus, #finlandstatus, #sastatus {
+            #irelandstatus {
                 grid-column: span 1
             }
         }
@@ -953,9 +866,6 @@ permalink: /more
             #australiagrid {
                 grid-template-columns: 1fr 1fr 1fr;
             }
-            /*#wastatus {
-                grid-column-start: 2;
-            }*/
         }
         @media (max-width: 550px) {
             #australiagrid {
@@ -965,10 +875,10 @@ permalink: /more
                 grid-column: span 2;
             }
         }
-        #ukgrid, #englandgrid, #nigrid {
+        #ukgrid, #englandgrid, #nigrid, #scotlandgrid {
             grid-template-columns: 1fr 1fr;
         }
-        #scotlandgrid, #walesgrid {
+        #walesgrid {
             grid-template-columns: 1fr 1fr 1fr;
         }
         @media (max-width: 900px) {
@@ -977,29 +887,29 @@ permalink: /more
             }
         }
         @media (min-width: 540px) {
-            #scotland5kstatus, #wales5kstatus {
+            #wales5kstatus {
                 grid-column: span 2;
             }
-            #scotlandtitle, #walestitle {
+            #walestitle {
                 grid-column: span 3;
             }
         }
         @media (max-width: 540px) {
-            #scotlandgrid, #walesgrid {
+            #walesgrid {
                 grid-template-columns: 1fr 1fr;
             }
-            #scotlandtitle, #walestitle {
+            #walestitle {
                 grid-column: span 2;
             }
-            #scotland5kstatus, #wales5kstatus {
+            #wales5kstatus {
                 grid-column: span 1;
             }
         }
         @media (max-width: 520px) {
-            #scotlandgrid, #walesgrid {
+            #walesgrid {
                 grid-template-columns: 1fr;
             }
-            #scotlandtitle, #walestitle {
+            #walestitle {
                 grid-column: span 1;
             }
         }
@@ -1010,9 +920,9 @@ permalink: /more
                 <h2 class="split">Country Situations</h2>
                 <div id="countrystatuses" class="grid">
                     <div id="austriastatus" class="countrystatus">
-                        <div class="statusamber">
+                        <div class="statusgreen">
                             <h3>Austria</h3>
-                            <p id="austriadate">Starting <a href="#Austria%20Countdown">14 August</a></p>
+                            <p id="austriadate">Event Open</p>
                         </div>
                     </div>
                     <div class="countrystatus">
@@ -1244,10 +1154,10 @@ permalink: /more
                         </div>
                         <div class="countrystatus">
                             <div id="scotlandgrid" class="grid">
-                                <h4 id="scotlandtitle" style="color: unset">Scotland</h4>
+                                <h4 style="grid-column: span 2; color: unset">Scotland</h4>
                                 <div id="scotland5kstatus">
-                                    <div class="statusamber">
-                                        <p id="scotlanddate">Returning<br/><a href="#Scotland%20Countdown">14 August</a></p>
+                                    <div class="statusgreen">
+                                        <p id="scotlanddate">Most 5k Events Open</p>
                                     </div>
                                 </div>
                                 <div>
@@ -1290,10 +1200,8 @@ permalink: /more
                 } 
             });
             }
-        document.getElementById("austriadate").innerHTML = "Starting<br/><a href='#Austria%20Countdown'>" + cdoutput2 + "</a>"
-        document.getElementById("scotlanddate").innerHTML = "Potentially Returning<br/><a href='#Scotland%20Countdown'>" + cdoutput5 + "</a>"
         document.getElementById("irelandjuniorevents").innerHTML = "juniors Returning<br/><a href='#Ireland%20juniors%20Countdown'>" + cdoutput6 + "</a>"
-        document.getElementById("walesdate").innerHTML = "Potentially Returning<br/><a href='#Wales%20Countdown'>" + cdoutput7 + "</a>"
+        document.getElementById("walesdate").innerHTML = "Returning<br/><a href='#Wales%20Countdown'>" + cdoutput7 + "</a>"
         </script>
         <button type="button" class="collapsiblestats" style="margin: 5px;">Click to view a summary of the data for each country</button>
         <div class="expcontent">
