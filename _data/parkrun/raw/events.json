@@ -86,8 +86,8 @@
       "bounds": [
         130.673031,
         31.908209,
-        139.941344,
-        36.209432
+        141.125657,
+        39.692853
       ]
     },
     "57": {
@@ -14108,6 +14108,26 @@
           "EventLongName": "Shingashigawa Ukima parkrun",
           "EventShortName": "Shingashigawa Ukima",
           "LocalisedEventLongName": "\u65b0\u6cb3\u5cb8\u5ddd\u6d6e\u9593parkrun",
+          "countrycode": 46,
+          "seriesid": 1,
+          "EventLocation": ""
+        }
+      },
+      {
+        "id": 2879,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            141.125657,
+            39.692853
+          ]
+        },
+        "properties": {
+          "eventname": "chuokoen",
+          "EventLongName": "Chuo koen parkrun",
+          "EventShortName": "Chuo koen",
+          "LocalisedEventLongName": "\u4e2d\u592e\u516c\u5712parkrun",
           "countrycode": 46,
           "seriesid": 1,
           "EventLocation": ""
@@ -36171,6 +36191,26 @@
           "countrycode": 97,
           "seriesid": 2,
           "EventLocation": "West Smethwick Park"
+        }
+      },
+      {
+        "id": 2691,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.936437,
+            52.476722
+          ]
+        },
+        "properties": {
+          "eventname": "edgbastonreservoir",
+          "EventLongName": "Edgbaston Reservoir parkrun",
+          "EventShortName": "Edgbaston Reservoir",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 1,
+          "EventLocation": "Edgbaston Reservoir"
         }
       },
       {
