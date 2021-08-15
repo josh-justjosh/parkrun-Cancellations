@@ -754,57 +754,35 @@ permalink: /more
         }
         @media (min-width: 890px) {
             #countrystatuses {
-                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-            }
-            #sastatus {
-                grid-column-start: 2
-            }
-            #swedenstatus {
-                grid-column-start: 3
-            }
-            #usastatus {
-                grid-column-start: 4
+                grid-template-columns: repeat(5, minmax(0, 1fr));
             }
         }
         @media (max-width: 890px) {
             #countrystatuses {
-                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-template-columns: repeat(4, minmax(0, 1fr));
             }
         }
         @media (max-width: 750px) {
             #countrystatuses {
-                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-columns: repeat(3, minmax(0, 1fr));
             }
-        }
-        @media (min-width: 560px) {
-            #irelandstatus, #irelandtitle {
-                grid-column: span 3;
-            }
-            #irlandjstatus {
-                grid-column: span 2;
-            }
-            #irelandgrid {
-                grid-template-columns: 1fr 1fr 1fr;
-            }
-            #usastatus {
-                grid-column-start: 2;
         }
         @media (max-width: 560px) {
             #countrystatuses {
-                grid-template-columns: 1fr 1fr;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
             }
-            #irelandgrid {
-                grid-template-columns: 1fr;
-            #irelandstatus {
+        }
+        @media (min-width: 380px) {
+            #irelandstatus, #irelandtitle {
                 grid-column: span 2;
             }
-            #irelandtitle, #irlandjstatus {
-                grid-column: span 1;
+            #irelandgrid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
             }
         }
         @media (max-width: 380px) {
             #countrystatuses {
-                grid-template-columns: 1fr;
+                grid-template-columns: repeat(1, minmax(0, 1fr));
             }
             #irelandstatus {
                 grid-column: span 1
@@ -812,7 +790,7 @@ permalink: /more
         }
         @media (min-width: 690px) {
             #australiagrid {
-                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-template-columns: repeat(4, minmax(0, 1fr));
             }
             #wastatus {
                 grid-column: span 2;
@@ -820,26 +798,26 @@ permalink: /more
         }
         @media (max-width: 690px) {
             #australiagrid {
-                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-columns: repeat(3, minmax(0, 1fr));
             }
         }
         @media (max-width: 550px) {
             #australiagrid {
-                grid-template-columns: 1fr 1fr;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
             }
             #wastatus {
                 grid-column: span 2;
             }
         }
         #ukgrid, #englandgrid, #nigrid, #scotlandgrid {
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
         }
         #walesgrid {
-            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
         }
         @media (max-width: 900px) {
             #ukgrid {
-                grid-template-columns: 1fr
+                grid-template-columns: repeat(1, minmax(0, 1fr))
             }
         }
         @media (min-width: 540px) {
@@ -852,7 +830,7 @@ permalink: /more
         }
         @media (max-width: 540px) {
             #walesgrid {
-                grid-template-columns: 1fr 1fr;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
             }
             #walestitle {
                 grid-column: span 2;
@@ -863,7 +841,7 @@ permalink: /more
         }
         @media (max-width: 520px) {
             #walesgrid {
-                grid-template-columns: 1fr;
+                grid-template-columns: repeat(1, minmax(0, 1fr));
             }
             #walestitle {
                 grid-column: span 1;
@@ -1017,7 +995,7 @@ permalink: /more
                             </div>
                         </div>
                         <div class="countrystatus" style="grid-column: span 2;">
-                            <div class="grid" style="grid-template-columns: 1fr 1fr;">
+                            <div class="grid" style="grid-template-columns: repeat(2, minmax(0, 1fr));">
                                 <h3  style="grid-column: span 2; color: unset">New South Wales</h3>
                                 <div class="statusred">
                                     <p><a href="https://www.nsw.gov.au/covid-19/rules/greater-sydney">Greater Sydney</a><br/>Events Suspended</p>
@@ -1034,7 +1012,7 @@ permalink: /more
                             </div>
                         </div>
                         <div class="countrystatus" style="grid-column: span 2;">
-                            <div class="grid" style="grid-template-columns: 1fr 1fr;">
+                            <div class="grid" style="grid-template-columns: repeat(2, minmax(0, 1fr));">
                                 <h3  style="grid-column: span 2; color: unset">Queensland</h3>
                                 <div class="statusred">
                                     <p><a href="https://www.qld.gov.au/health/conditions/health-alerts/coronavirus-covid-19/current-status/public-health-directions/restrictions-impacted-areas">South East Queensland</a><br/>Events Suspended</p>
@@ -1057,7 +1035,7 @@ permalink: /more
                             </div>
                         </div>
                         <div class="countrystatus" style="grid-column: span 2;">
-                            <div class="grid" style="grid-template-columns: 1fr 1fr;">
+                            <div class="grid" style="grid-template-columns: repeat(2, minmax(0, 1fr));">
                                 <h3  style="grid-column: span 2; color: unset">Victoria</h3>
                                 <div class="statusred">
                                     <p>Melbourne<br/>Events Suspended</p>
