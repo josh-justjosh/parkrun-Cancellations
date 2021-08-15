@@ -643,51 +643,6 @@ permalink: /more
         <br />
         <h2 class="split">parkrun returns in:</h2>
         <div class="flex-container">
-            <div class="flex-item" id="Ireland juniors Countdown">
-                <div class="countdown" style="background-color: rgb(0, 206, 174);">
-                    <!-- Display the timer timer in an element -->
-                    <h3 style="margin:inherit; color:inherit">Ireland juniors</h3>
-                    <h2 id="timer6" style="margin:inherit; color:inherit;"></h2>
-                    <p id="endDate6" style="margin:inherit;"></p>
-                    <script>
-                        // Set the date we're counting down to
-                        var countDownDate6 = new Date( "2021/08/15 09:30:00 GMT+01:00").getTime();
-                        // Update the count down every 1 second
-                        var x = setInterval(function() {
-                        // Get today's date and time
-                        var now = new Date().getTime();
-                        // Find the distance between now and the count down date
-                        var distance = countDownDate6 - now;
-                        // Time calculations for days, hours, minutes and seconds
-                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
-                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
-                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-                        // Display the result in the element with id="timer6"
-                        if (weeks == 0) {
-                            if (days == 0) {
-                                document.getElementById("timer6").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                            else {
-                                document.getElementById("timer6").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                            }
-                        }
-                        else {
-                            document.getElementById("timer6").innerHTML = weeks + "w " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-                        }
-                        // If the count down is finished, write some text
-                        if (distance < 0) {
-                            clearInterval(x);
-                            document.getElementById("timer6").innerHTML = "parkrun's Back!";
-                        }
-                        }, 1000);
-                        var cdinput6 = new Date(countDownDate6)
-                        var cdoutput6 = cdinput6.toLocaleString('default', options);
-                        document.getElementById("endDate6").innerHTML = cdoutput6
-                    </script>
-                </div>
-            </div>
             <div class="flex-item" id="Wales Countdown">
                 <div class="countdown">
                     <!-- Display the timer timer in an element -->
@@ -831,6 +786,8 @@ permalink: /more
             #irelandgrid {
                 grid-template-columns: 1fr 1fr 1fr;
             }
+            #usastatus {
+                grid-column-start: 2;
         }
         @media (max-width: 560px) {
             #countrystatuses {
@@ -838,7 +795,6 @@ permalink: /more
             }
             #irelandgrid {
                 grid-template-columns: 1fr;
-            }
             #irelandstatus {
                 grid-column: span 2;
             }
@@ -968,7 +924,7 @@ permalink: /more
                                 <p>5k Events Suspended</p>
                             </div>
                             <div id="irlandjstatus" class="statusamber">
-                                <p id="irelandjuniorevents">junior Events Returning</p>
+                                <p id="irelandjuniorevents">Some junior Events Open</p>
                             </div>
                         </div>
                     </div>
@@ -1200,7 +1156,6 @@ permalink: /more
                 } 
             });
             }
-        document.getElementById("irelandjuniorevents").innerHTML = "juniors Returning<br/><a href='#Ireland%20juniors%20Countdown'>" + cdoutput6 + "</a>"
         document.getElementById("walesdate").innerHTML = "Returning<br/><a href='#Wales%20Countdown'>" + cdoutput7 + "</a>"
         </script>
         <button type="button" class="collapsiblestats" style="margin: 5px;">Click to view a summary of the data for each country</button>
