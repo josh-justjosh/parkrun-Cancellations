@@ -754,30 +754,65 @@ permalink: /more
         }
         @media (min-width: 890px) {
             #countrystatuses {
-                grid-template-columns: repeat(5, minmax(0, 1fr));
+                grid-template-columns: repeat(10, minmax(0, 1fr));
+            }
+            #countrystatuses > .countrystatus:not(#irelandstatus, #swedenstatus, #usastatus) {
+                grid-column: span 2;
+            }
+            #irelandstatus {
+                grid-column: span 4;
+            }
+            #swedenstatus {
+                grid-column-start: 4;
+                grid-column-end: 6;
+            }
+            #usastatus {
+                grid-column-start: 6;
+                grid-column-end: 8;
             }
         }
         @media (max-width: 890px) {
             #countrystatuses {
                 grid-template-columns: repeat(4, minmax(0, 1fr));
             }
+            #countrystatuses > .countrystatus:not(#irelandstatus, #swedenstatus, #usastatus) {
+                grid-column: span 1;
+            }
+            #irelandstatus {
+                grid-column: span 2;
+            }
+            #swedenstatus {
+                grid-column-start: 2
+            }
+            #usastatus {
+                grid-column-start: 3
+            }
         }
         @media (max-width: 750px) {
             #countrystatuses {
                 grid-template-columns: repeat(3, minmax(0, 1fr));
+            }
+            #swedenstatus {
+                grid-column-start: unset
+            }
+            #usastatus {
+                grid-column-start: 2
             }
         }
         @media (max-width: 560px) {
             #countrystatuses {
                 grid-template-columns: repeat(2, minmax(0, 1fr));
             }
+            #usastatus {
+                grid-column-start: unset
+            }
         }
         @media (min-width: 380px) {
-            #irelandstatus, #irelandtitle {
-                grid-column: span 2;
-            }
             #irelandgrid {
                 grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+            #irelandtitle {
+                grid-column: span 2;
             }
         }
         @media (max-width: 380px) {
@@ -785,7 +820,7 @@ permalink: /more
                 grid-template-columns: repeat(1, minmax(0, 1fr));
             }
             #irelandstatus {
-                grid-column: span 1
+                grid-column: span 1;
             }
         }
         @media (min-width: 690px) {
