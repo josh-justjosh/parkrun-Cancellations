@@ -1006,6 +1006,9 @@ with open('_data/parkrun/counties/england.tsv','wt', encoding='utf-8', newline='
                     out.append(l)
                 else:
                     out.append('')
+            if i == 'England Total':
+                for x in range(4):
+                    out.append('')
             tsv_writer.writerow(out)
 print(now(),"counties/england.tsv saved")
 
@@ -1024,6 +1027,9 @@ with open('_data/parkrun/counties/ni.tsv','wt', encoding='utf-8', newline='') as
                 elif l not in [0,[]]:
                     out.append(l)
                 else:
+                    out.append('')
+            if i == 'NI Total':
+                for x in range(4):
                     out.append('')
             tsv_writer.writerow(out)
 print(now(),"counties/ni.tsv saved")
@@ -1044,6 +1050,9 @@ with open('_data/parkrun/counties/scotland.tsv','wt', encoding='utf-8', newline=
                     out.append(l)
                 else:
                     out.append('')
+            if i == 'Scotland Total':
+                for x in range(4):
+                    out.append('')
             tsv_writer.writerow(out)
 print(now(),"counties/scotalnd.tsv saved")
 
@@ -1062,6 +1071,9 @@ with open('_data/parkrun/counties/wales.tsv','wt', encoding='utf-8', newline='')
                 elif l not in [0,[]]:
                     out.append(l)
                 else:
+                    out.append('')
+            if i == 'Wales Total':
+                for x in range(4):
                     out.append('')
             tsv_writer.writerow(out)
 print(now(),"counties/wales.tsv saved")
@@ -1082,6 +1094,9 @@ with open('_data/parkrun/counties/ireland.tsv','wt', encoding='utf-8', newline='
                     out.append(l)
                 else:
                     out.append('')
+            if i == 'Ireland Total':
+                for x in range(4):
+                    out.append('')
             tsv_writer.writerow(out)
 print(now(),"counties/ireland.tsv saved")
 
@@ -1094,6 +1109,9 @@ with open('_data/parkrun/counties/all.tsv','wt', encoding='utf-8', newline='') a
             if l not in [0,[]] :
                 out.append(l)
             else:
+                out.append('')
+        if 'Total' in i:
+            for x in range(4):
                 out.append('')
         tsv_writer.writerow(out)
 print(now(),"counties/all.tsv saved")
@@ -1175,7 +1193,7 @@ cancellations_changes.sort()
 if cancellations_changes != []:
     with open('_data/parkrun/cancellation-changes.tsv','wt', encoding='utf-8', newline='') as f:
         tsv_writer = csv.writer(f, delimiter='\t')
-        tsv_writer.writerow(['Event','Country','Cancellation Note','Website','Added or<br />Removed'])
+        tsv_writer.writerow(['Event','Country','Cancellation Note','Website','Added or Removed'])
         for event in cancellations_changes:
             tsv_writer.writerow(event)
         tsv_writer.writerow([now(),'','','',''])
