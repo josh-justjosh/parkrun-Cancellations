@@ -42,7 +42,7 @@
         23.759243,
         60.180235,
         25.538652,
-        61.492554
+        65.015719
       ]
     },
     "31": {
@@ -9614,6 +9614,26 @@
         }
       },
       {
+        "id": 2881,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            12.471907,
+            55.681924
+          ]
+        },
+        "properties": {
+          "eventname": "damhusengen",
+          "EventLongName": "Damhusengen parkrun",
+          "EventShortName": "Damhusengen",
+          "LocalisedEventLongName": null,
+          "countrycode": 23,
+          "seriesid": 1,
+          "EventLocation": ""
+        }
+      },
+      {
         "id": 1753,
         "type": "Feature",
         "geometry": {
@@ -9671,6 +9691,26 @@
           "countrycode": 30,
           "seriesid": 1,
           "EventLocation": "V\u00e4\u00e4ksyn kanava"
+        }
+      },
+      {
+        "id": 2889,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            25.4689,
+            65.015719
+          ]
+        },
+        "properties": {
+          "eventname": "pokkinen",
+          "EventLongName": "Pokkinen parkrun",
+          "EventShortName": "Pokkinen",
+          "LocalisedEventLongName": null,
+          "countrycode": 30,
+          "seriesid": 1,
+          "EventLocation": "Pokkinen"
         }
       },
       {
