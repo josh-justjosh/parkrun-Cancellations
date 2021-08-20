@@ -827,9 +827,6 @@ permalink: /more
             #australiagrid {
                 grid-template-columns: repeat(4, minmax(0, 1fr));
             }
-            #wastatus {
-                grid-column: span 2;
-            }
         }
         @media (max-width: 690px) {
             #australiagrid {
@@ -839,9 +836,6 @@ permalink: /more
         @media (max-width: 550px) {
             #australiagrid {
                 grid-template-columns: repeat(2, minmax(0, 1fr));
-            }
-            #wastatus {
-                grid-column: span 2;
             }
         }
         #ukgrid, #englandgrid, #nigrid, #scotlandgrid {
@@ -886,7 +880,16 @@ permalink: /more
         <button type="button" class="collapsiblestatus" style="margin: 5px;">Click to view a summary of the status of parkruns in each country</button>
         <div class="expcontent">
             <div class="grid">
-                <h2 class="split">Country Situations</h2>
+                <div>
+                    <h2 class="split">Country Situations</h2>
+                    <p id="statusupdated">Last Updated*: {% capture statusupdated %}2021-08-20 10:00 UTC{% endcapture %}</p>
+                    <script>
+                        var statusupdated = new Date("{{statusupdated}}").getTime();
+                        var su_date = new Date(statusupdated)
+                        var out = su_date.toLocaleString('default', options);
+                        document.getElementById("statusupdated").innerHTML = 'Last Updated*: ' + out
+                    </script>
+                </div>
                 <div id="countrystatuses" class="grid">
                     <div id="austriastatus" class="countrystatus">
                         <div class="statusgreen">
@@ -897,7 +900,7 @@ permalink: /more
                     <div class="countrystatus">
                         <div class="statusamber">
                             <h3>Canada</h3>
-                            <p>A Few Events Open</p>
+                            <p>Some Events Open</p>
                         </div>
                     </div>
                     <div class="countrystatus">
@@ -972,9 +975,9 @@ permalink: /more
                         </div>
                     </div>
                     <div class="countrystatus">
-                        <div class="statusgreen">
+                        <div class="statusamber">
                             <h3>New Zealand</h3>
-                            <p>Events Open</p>
+                            <p>Most Events Open</p>
                         </div>
                     </div>
                     <div class="countrystatus">
@@ -1008,9 +1011,9 @@ permalink: /more
                         </div>
                     </div>
                     <div id="swedenstatus" class="countrystatus">
-                        <div class="statusamber">
+                        <div class="statusgreen">
                             <h3>Sweden</h3>
-                            <p id="sweedendate">Some Events Open</p>
+                            <p id="sweedendate">Most Events Open</p>
                         </div>
                     </div>
                     <div id="usastatus" class="countrystatus">
@@ -1029,15 +1032,10 @@ permalink: /more
                                 <p>Events Suspended</p>
                             </div>
                         </div>
-                        <div class="countrystatus" style="grid-column: span 2;">
-                            <div class="grid" style="grid-template-columns: repeat(2, minmax(0, 1fr));">
-                                <h3  style="grid-column: span 2; color: unset">New South Wales</h3>
-                                <div class="statusred">
-                                    <p><a href="https://www.nsw.gov.au/covid-19/rules/greater-sydney">Greater Sydney</a><br/>Events Suspended</p>
-                                </div>
-                                <div class="statusamber">
-                                    <p>Some Events Open</p>
-                                </div>
+                        <div class="countrystatus">
+                            <div class="statusred">
+                                <h3>New South Wales</h3>
+                                <p>Events Suspended</p>
                             </div>
                         </div>
                         <div class="countrystatus">
@@ -1046,15 +1044,10 @@ permalink: /more
                                 <p>Events Open</p>
                             </div>
                         </div>
-                        <div class="countrystatus" style="grid-column: span 2;">
-                            <div class="grid" style="grid-template-columns: repeat(2, minmax(0, 1fr));">
-                                <h3  style="grid-column: span 2; color: unset">Queensland</h3>
-                                <div class="statusred">
-                                    <p><a href="https://www.qld.gov.au/health/conditions/health-alerts/coronavirus-covid-19/current-status/public-health-directions/restrictions-impacted-areas">South East Queensland</a><br/>Events Suspended</p>
-                                </div>
-                                <div class="statusgreen">
-                                    <p>Other Events Open</p>
-                                </div>
+                        <div class="countrystatus">
+                            <div class="statusgreen">
+                                <h3>Queensland</h3>
+                                <p>Events Open</p>
                             </div>
                         </div>
                         <div class="countrystatus">
@@ -1076,7 +1069,7 @@ permalink: /more
                                     <p>Melbourne<br/>Events Suspended</p>
                                 </div>
                                 <div class="statusgreen">
-                                    <p>Other Events Open</p>
+                                    <p>Most Other Events Open</p>
                                 </div>
                             </div>
                         </div>
@@ -1153,6 +1146,7 @@ permalink: /more
                         </div>
                     </div>
                 </div>
+                <p>* Please note that these indicators are maintained manually, it is provided as a quick way to see parkrun's status around the world but is not guaranteed to be correct as things can change at short notice.</p>
             </div>
         </div>
         <script>
