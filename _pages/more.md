@@ -1,6 +1,6 @@
 ---
 layout: page
-title: parkrun Cancellations
+title: More Info
 tag: parkrun
 date: 2021-05-27
 permalink: /more

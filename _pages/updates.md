@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /updates
-title: 'parkrun Cancellation Updates'
+title: Updates
 ---
 
 [Back to the 'more info' page](/more)
