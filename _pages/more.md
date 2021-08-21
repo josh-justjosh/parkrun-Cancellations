@@ -1103,7 +1103,7 @@ permalink: /more
                             <div id="walesgrid" class="grid">
                                 <h4 id="walestitle" style="color: unset; grid-column: span 2">Wales</h4>
                                 <div class="statusgreen">
-                                    <p id="walesdate">Most 5k Events Open</a></p>
+                                    <p id="walesdate">Most 5k Events Open</p>
                                 </div>
                                 <div>
                                     <div class="statusamber">
