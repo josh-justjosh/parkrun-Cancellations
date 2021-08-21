@@ -641,11 +641,11 @@ permalink: /more
             </div>-->
         {% endif %}
         <br />
-        <h2 class="split">parkrun returns in:</h2>
+        <!--<h2 class="split">parkrun returns in:</h2>
         <div class="flex-container">
             <div class="flex-item" id="Wales Countdown">
                 <div class="countdown">
-                    <!-- Display the timer timer in an element -->
+                    <!-- Display the timer timer in an element --
                     <h3 style="margin:inherit; color:inherit">Wales</h3>
                     <h2 id="timer7" style="margin:inherit; color:inherit;"></h2>
                     <p id="endDate7" style="margin:inherit;"></p>
@@ -689,7 +689,7 @@ permalink: /more
                 </div>
             </div>
         </div>
-        <br />
+        <br />-->
         <!--<button type="button" class="collapsible" style="margin: 5px;">Click to view the english events with permission to return</button>
         <div class="expcontent">
             <h3> The following English events have been granted permission to return </h3>
@@ -838,42 +838,12 @@ permalink: /more
                 grid-template-columns: repeat(2, minmax(0, 1fr));
             }
         }
-        #ukgrid, #englandgrid, #nigrid, #scotlandgrid {
+        #ukgrid, #englandgrid, #nigrid, #scotlandgrid, #walesgrid {
             grid-template-columns: repeat(2, minmax(0, 1fr));
-        }
-        #walesgrid {
-            grid-template-columns: repeat(3, minmax(0, 1fr));
         }
         @media (max-width: 900px) {
             #ukgrid {
                 grid-template-columns: repeat(1, minmax(0, 1fr))
-            }
-        }
-        @media (min-width: 540px) {
-            #wales5kstatus {
-                grid-column: span 2;
-            }
-            #walestitle {
-                grid-column: span 3;
-            }
-        }
-        @media (max-width: 540px) {
-            #walesgrid {
-                grid-template-columns: repeat(2, minmax(0, 1fr));
-            }
-            #walestitle {
-                grid-column: span 2;
-            }
-            #wales5kstatus {
-                grid-column: span 1;
-            }
-        }
-        @media (max-width: 520px) {
-            #walesgrid {
-                grid-template-columns: repeat(1, minmax(0, 1fr));
-            }
-            #walestitle {
-                grid-column: span 1;
             }
         }
         </style>
@@ -1131,11 +1101,9 @@ permalink: /more
                         </div>
                         <div class="countrystatus">
                             <div id="walesgrid" class="grid">
-                                <h4 id="walestitle" style="color: unset">Wales</h4>
-                                <div id="wales5kstatus">
-                                    <div class="statusamber">
-                                        <p id="walesdate">Returning<br/><a href="#Wales%20Countdown">21 August</a></p>
-                                    </div>
+                                <h4 id="walestitle" style="color: unset; grid-column: span 2">Wales</h4>
+                                <div class="statusgreen">
+                                    <p id="walesdate">Most 5k Events Open</a></p>
                                 </div>
                                 <div>
                                     <div class="statusamber">
@@ -1163,7 +1131,6 @@ permalink: /more
                 } 
             });
             }
-        document.getElementById("walesdate").innerHTML = "Returning<br/><a href='#Wales%20Countdown'>" + cdoutput7 + "</a>"
         </script>
         <button type="button" class="collapsiblestats" style="margin: 5px;">Click to view a summary of the data for each country</button>
         <div class="expcontent">
