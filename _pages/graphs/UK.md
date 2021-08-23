@@ -92,6 +92,12 @@ const ukconfig = {
         scales: {
             x: {
                 type: 'time',
+            },
+            y: {
+                beginAtZero: true,
+                ticks: {
+                    precision: 0
+                }
             }
         },
         aspectRatio: 1.75,
@@ -147,6 +153,12 @@ const engconfig = {
         scales: {
             x: {
                 type: 'time',
+            },
+            y: {
+                beginAtZero: true,
+                ticks: {
+                    precision: 0
+                }
             }
         },
         aspectRatio: 1.5,
@@ -202,6 +214,12 @@ const niconfig = {
         scales: {
             x: {
                 type: 'time',
+            },
+            y: {
+                beginAtZero: true,
+                ticks: {
+                    precision: 0
+                }
             }
         },
         aspectRatio: 1.5,
@@ -257,6 +275,12 @@ const scoconfig = {
         scales: {
             x: {
                 type: 'time',
+            },
+            y: {
+                beginAtZero: true,
+                ticks: {
+                    precision: 0
+                }
             }
         },
         aspectRatio: 1.5,
@@ -312,6 +336,12 @@ const walconfig = {
         scales: {
             x: {
                 type: 'time',
+            },
+            y: {
+                beginAtZero: true,
+                ticks: {
+                    precision: 0
+                }
             }
         },
         aspectRatio: 1.5,

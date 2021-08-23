@@ -108,6 +108,12 @@ const ausconfig = {
         scales: {
             x: {
                 type: 'time',
+            },
+            y: {
+                beginAtZero: true,
+                ticks: {
+                    precision: 0
+                }
             }
         },
         aspectRatio: 1.75,
@@ -164,6 +170,12 @@ const actconfig = {
         scales: {
             x: {
                 type: 'time',
+            },
+            y: {
+                beginAtZero: true,
+                ticks: {
+                    precision: 0
+                }
             }
         },
         aspectRatio: 1.5,
@@ -220,6 +232,12 @@ const nswconfig = {
         scales: {
             x: {
                 type: 'time',
+            },
+            y: {
+                beginAtZero: true,
+                ticks: {
+                    precision: 0
+                }
             }
         },
         aspectRatio: 1.5,
@@ -278,10 +296,11 @@ const ntconfig = {
                 type: 'time',
             },
             y: {
+                beginAtZero: true,
                 ticks: {
-                    stepSize: 1,
-                },
-            },
+                    precision: 0
+                }
+            }
         },
         aspectRatio: 1.5,
     }
@@ -336,6 +355,12 @@ const qldconfig = {
         scales: {
             x: {
                 type: 'time',
+            },
+            y: {
+                beginAtZero: true,
+                ticks: {
+                    precision: 0
+                }
             }
         },
         aspectRatio: 1.5,
@@ -391,6 +416,12 @@ const saconfig = {
         scales: {
             x: {
                 type: 'time',
+            },
+            y: {
+                beginAtZero: true,
+                ticks: {
+                    precision: 0
+                }
             }
         },
         aspectRatio: 1.5,
@@ -447,6 +478,12 @@ const tasconfig = {
         scales: {
             x: {
                 type: 'time',
+            },
+            y: {
+                beginAtZero: true,
+                ticks: {
+                    precision: 0
+                }
             }
         },
         aspectRatio: 1.5,
@@ -504,10 +541,11 @@ const vicconfig = {
                 type: 'time',
             },
             y: {
+                beginAtZero: true,
                 ticks: {
-                    stepSize: 1,
-                },
-            },
+                    precision: 0
+                }
+            }
         },
         aspectRatio: 1.5,
     }
@@ -563,6 +601,12 @@ const waconfig = {
         scales: {
             x: {
                 type: 'time',
+            },
+            y: {
+                beginAtZero: true,
+                ticks: {
+                    precision: 0
+                }
             }
         },
         aspectRatio: 1.5,
