@@ -1161,7 +1161,7 @@ permalink: /more
                 {% endfor %}
             </table>
             </div>
-            <p style="text-align:end"><a href="/graphs/global">See these data as graphs</a></p>
+            <p style="text-align:end; margin: 0"><a href="/graphs/global">See these data as graphs</a></p>
             <h2 class="split">UK Events</h2>
             <div class="hscrollable">
             <table style="width: 100%;">
@@ -1189,7 +1189,7 @@ permalink: /more
                 {% endfor %}
             </table>
             </div>
-            <p style="text-align:end"><a href='more-uk-ie'>Click here for more UK Data</a></p>
+            <p style="text-align:end; margin: 0"><a href="/graphs/uk">See these data as graphs</a> • <a href='more-uk-ie'>See more UK Data</a></p>
             <h2 class="split">Australian Events</h2>
             <div class="hscrollable">
             <table style="width: 100%;">
@@ -1217,6 +1217,7 @@ permalink: /more
                 {% endfor %}
             </table>
             </div>
+            <p style="text-align:end; margin: 0"><a href="/graphs/aus">See these data as graphs</a></p>
         </div>
         <script>
             var coll = document.getElementsByClassName("collapsiblestats");
