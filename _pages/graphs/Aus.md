@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /graphs/aus
-title: 'Austalia Graphs'
+title: 'Australia Graphs'
 date: 2021-12-31
 ---
 
