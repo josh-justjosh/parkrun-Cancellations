@@ -1284,18 +1284,75 @@ if cancellations_changes != []:
     tweet(out)
 
 with open('_data/parkrun/raw/states.tsv','wt', encoding='utf-8', newline='') as f:
-        tsv_writer = csv.writer(f, delimiter='\t')
-        tsv_writer.writerow(['Event','Country','State','County'])
-        for event in new_states_list:
-            tsv_writer.writerow(event)
+    tsv_writer = csv.writer(f, delimiter='\t')
+    tsv_writer.writerow(['Event','Country','State','County'])
+    for event in new_states_list:
+        tsv_writer.writerow(event)
 print(now(),'raw/states.tsv saved')
 
 upcoming_events_table.sort()
 with open('_data/parkrun/raw/ue.tsv','wt', encoding='utf-8', newline='') as f:
-        tsv_writer = csv.writer(f, delimiter='\t')
-        tsv_writer.writerow(['Event','Country'])
-        for event in upcoming_events_table:
-            tsv_writer.writerow([event[0],event[4]])
+    tsv_writer = csv.writer(f, delimiter='\t')
+    tsv_writer.writerow(['Event','Country'])
+    for event in upcoming_events_table:
+        tsv_writer.writerow([event[0],event[4]])
 print(now(),'raw/ue.tsv saved')
+
+with open('_data/parkrun/history/countries.tsv','at', encoding='utf-8', newline='') as f:
+    tsv_writer = csv.writer(f, delimiter='\t')
+    """out = ['Date']
+    for i,j in countries.items():
+        #out = [i]
+        for k,l in j.items():
+            out.append((str(i)+' - '+str(k)))
+    tsv_writer.writerow(out)"""
+    out = [now()]
+    for i,j in countries.items():
+        #out = [i]
+        for k,l in j.items():
+            if l != 0:
+                out.append(l)
+            else:
+                out.append('')
+    tsv_writer.writerow(out)
+print(now(),"history/countries.tsv saved")
+
+with open('_data/parkrun/history/uk.tsv','at', encoding='utf-8', newline='') as f:
+    tsv_writer = csv.writer(f, delimiter='\t')
+    """out = ['Date']
+    for i,j in uk.items():
+        #out = [i]
+        for k,l in j.items():
+            out.append((str(i)+' - '+str(k)))
+    tsv_writer.writerow(out)"""
+    out = [now()]
+    for i,j in uk.items():
+        #out = [i]
+        for k,l in j.items():
+            if l != 0:
+                out.append(l)
+            else:
+                out.append('')
+    tsv_writer.writerow(out)
+print(now(),"history/uk.tsv saved")
+
+with open('_data/parkrun/history/aus.tsv','at', encoding='utf-8', newline='') as f:
+    tsv_writer = csv.writer(f, delimiter='\t')
+    """out = ['Date']
+    for i,j in aus.items():
+        #out = [i]
+        for k,l in j.items():
+            out.append((str(i)+' - '+str(k)))
+    tsv_writer.writerow(out)"""
+    out = [now()]
+    for i,j in aus.items():
+        #out = [i]
+        for k,l in j.items():
+            if l != 0:
+                out.append(l)
+            else:
+                out.append('')
+    tsv_writer.writerow(out)
+print(now(),"history/aus.tsv saved")
 
 print(now(),'Script End')
