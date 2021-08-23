@@ -1298,4 +1298,23 @@ with open('_data/parkrun/raw/ue.tsv','wt', encoding='utf-8', newline='') as f:
         tsv_writer.writerow([event[0],event[4]])
 print(now(),'raw/ue.tsv saved')
 
+def writehistory(file, data):
+    try:
+        with open('_data/parkrun/history/'+file,'r', encoding='utf-8', newline='\n') as f:
+            old_data = json.loads(f.read())
+        if now().weekday() == 0 and now().hour <= 1:
+            old_data = []
+    except FileNotFoundError:
+        old_data = []
+    print(now(),"history/"+file+" read")
+    data['Total']['time'] = str(now())
+    old_data.append(countries['Total'])
+    with open('_data/parkrun/history/'+file,'wt', encoding='utf-8', newline='\n') as f:
+        f.write(json.dumps(old_data,indent=4))
+    print(now(),"history/"+file+" saved")
+
+writehistory('countries-totals.json',countries)
+writehistory('uk-totals.json',uk)
+writehistory('aus-totals.json',aus)
+
 print(now(),'Script End')
