@@ -1161,6 +1161,7 @@ permalink: /more
                 {% endfor %}
             </table>
             </div>
+            <p style="text-align:end"><a href="/graphs/global">See these data as graphs</a></p>
             <h2 class="split">UK Events</h2>
             <div class="hscrollable">
             <table style="width: 100%;">

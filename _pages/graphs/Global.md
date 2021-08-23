@@ -5,6 +5,23 @@ title: 'Global Events'
 date: 2021-12-31
 ---
 
+{% for stuff in site.data.parkrun.raw.time %}
+{% assign last_modified_at = stuff.time %}
+{% endfor %}
+
+{% if time contains "00:00" %}
+  <p class="author_title" id="lastupdated" datetime="{{ last_modified_at | date_to_xmlschema }}">Data Last Refreshed: {{ last_modified_at | date: "%A, %e&nbsp;%B&nbsp;%Y" }}</p>
+{% else %}
+  <p class="author_title" id="lastupdated" datetime="{{ last_modified_at | date_to_xmlschema }}">Data Last Refreshed: {{ last_modified_at | date: "%R" }} UTC {{ last_modified_at | date: "%A, %e&nbsp;%B&nbsp;%Y" }}</p>
+{% endif %}
+<script>
+    let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZoneName: 'short', hour:'2-digit', minute:'2-digit'};
+    var last_modified_at = new Date("{{ last_modified_at }}").getTime();
+    var lm_date = new Date(last_modified_at)
+    var out = lm_date.toLocaleString('default', options);
+    document.getElementById("lastupdated").innerHTML = 'Data Last Refreshed: ' + out
+</script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.js" integrity="sha512-b3xr4frvDIeyC3gqR1/iOi6T+m3pLlQyXNuvn5FiRrrKiMUJK3du2QqZbCywH6JxS5EOfW0DY0M6WwdXFbCBLQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
 
@@ -29,7 +46,7 @@ date: 2021-12-31
 </div>
 <div class="grid" id="countrytable">
     <div>
-        <h2>Austalia</h2>
+        <h2><a href="/graphs/aus">Australia</a></h2>
         <canvas id="australiaChart"></canvas>
     </div>
     <div>
@@ -113,7 +130,7 @@ date: 2021-12-31
         <canvas id="swedenChart"></canvas>
     </div>
     <div>
-        <h2>United Kingdom</h2>
+        <h2><a href="/graphs/uk">United Kingdom</a></h2>
         <canvas id="ukChart"></canvas>
     </div>
     <div>
