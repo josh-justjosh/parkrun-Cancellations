@@ -1307,14 +1307,26 @@ def writehistory(file, data):
     except FileNotFoundError:
         old_data = []
     print(now(),"history/"+file+" read")
-    data['Total']['time'] = str(now())
-    old_data.append(countries['Total'])
+    data['time'] = str(now())
+    old_data.append(data)
     with open('_data/parkrun/history/'+file,'wt', encoding='utf-8', newline='\n') as f:
         f.write(json.dumps(old_data,indent=4))
     print(now(),"history/"+file+" saved")
 
-writehistory('countries-totals.json',countries)
-writehistory('uk-totals.json',uk)
-writehistory('aus-totals.json',aus)
+writehistory('global.json',countries['Total'])
+writehistory('unitedkingdom.json',countries['United Kingdom'])
+writehistory('australia.json',countries['Australia'])
+writehistory('uk/england.json',uk['England'])
+writehistory('uk/ni.json',uk['Northern Ireland'])
+writehistory('uk/scotland.json',uk['Scotland'])
+writehistory('uk/wales.json',uk['Wales'])
+writehistory('aus/act.json',aus['Australian Capital Territory'])
+writehistory('aus/nsw.json',aus['New South Wales'])
+writehistory('aus/nt.json',aus['Northern Territory'])
+writehistory('aus/qld.json',aus['Queensland'])
+writehistory('aus/sa.json',aus['South Australia'])
+writehistory('aus/tas.json',aus['Tasmania'])
+writehistory('aus/vic.json',aus['Victoria'])
+writehistory('aus/wa.json',aus['Western Australia'])
 
 print(now(),'Script End')

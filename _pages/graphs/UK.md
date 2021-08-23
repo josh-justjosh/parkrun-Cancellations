@@ -15,19 +15,38 @@ date: 2021-12-31
             grid-gap: 1rem;
             grid-auto-flow: dense
         }
+    #countrytable {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    @media (max-width: 670px) {
+        #countrytable {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+    }
 </style>
-<div class="grid" style="grid-template-columns: repeat(2, minmax(0, 1fr));">
+<div>
+    <canvas id="ukChart"></canvas>
+</div>
+<div class="grid" id="countrytable">
     <div>
-        <h2>UK</h2>
-        <canvas id="ukChart"></canvas>
+        <h2>England</h2>
+        <canvas id="engChart"></canvas>
     </div>
     <div>
-        <h2>Australia</h2>
-        <canvas id="ausChart"></canvas>
+        <h2>Northern Ireland</h2>
+        <canvas id="niChart"></canvas>
+    </div>
+    <div>
+        <h2>Scotland</h2>
+        <canvas id="scoChart"></canvas>
+    </div>
+    <div>
+        <h2>Wales</h2>
+        <canvas id="walChart"></canvas>
     </div>
 </div>
 <script>
-const ukdata = {{ site.data.parkrun.history.uk-totals | jsonify }}
+const ukdata = {{ site.data.parkrun.history.unitedkingdom | jsonify }}
 const ukconfig = {
     type: 'line',
     data: {
@@ -74,22 +93,23 @@ const ukconfig = {
             x: {
                 type: 'time',
             }
-        }
+        },
+        aspectRatio: 1.75,
     }
 };
-var ausChart = new Chart(
-    document.getElementById('ausChart'),
-    ausconfig
+var ukChart = new Chart(
+    document.getElementById('ukChart'),
+    ukconfig
 );
-const ausdata = {{ site.data.parkrun.history.aus-totals | jsonify }}
-const ausconfig = {
+const engdata = {{ site.data.parkrun.history.uk.england | jsonify }}
+const engconfig = {
     type: 'line',
     data: {
         datasets:[{
             label: 'parkrunning',
             backgroundColor: '#7CB342',
             borderColor: '#7CB342',
-            data: ausdata,
+            data: engdata,
             parsing: {
                 yAxisKey: 'parkrunning',
                 xAxisKey: 'time'
@@ -98,7 +118,7 @@ const ausconfig = {
             label: 'junior parkrunning',
             backgroundColor: '#0288D1',
             borderColor: '#0288D1',
-            data: ausdata,
+            data: engdata,
             parsing: {
                 yAxisKey: 'junior parkrunning',
                 xAxisKey: 'time'
@@ -107,7 +127,7 @@ const ausconfig = {
             label: '5k Cancellations',
             backgroundColor: '#A52714',
             borderColor: '#A52714',
-            data: ausdata,
+            data: engdata,
             parsing: {
                 yAxisKey: '5k Cancellations',
                 xAxisKey: 'time'
@@ -116,7 +136,7 @@ const ausconfig = {
             label: 'junior Cancellations',
             backgroundColor: '#1A237E',
             borderColor: '#1A237E',
-            data: ausdata,
+            data: engdata,
             parsing: {
                 yAxisKey: 'junior Cancellations',
                 xAxisKey: 'time'
@@ -128,11 +148,177 @@ const ausconfig = {
             x: {
                 type: 'time',
             }
-        }
+        },
+        aspectRatio: 1.5,
     }
 };
-var ausChart = new Chart(
-    document.getElementById('ausChart'),
-    ausconfig
+var engChart = new Chart(
+    document.getElementById('engChart'),
+    engconfig
+);
+const nidata = {{ site.data.parkrun.history.uk.ni | jsonify }}
+const niconfig = {
+    type: 'line',
+    data: {
+        datasets:[{
+            label: 'parkrunning',
+            backgroundColor: '#7CB342',
+            borderColor: '#7CB342',
+            data: nidata,
+            parsing: {
+                yAxisKey: 'parkrunning',
+                xAxisKey: 'time'
+            }
+        },{
+            label: 'junior parkrunning',
+            backgroundColor: '#0288D1',
+            borderColor: '#0288D1',
+            data: nidata,
+            parsing: {
+                yAxisKey: 'junior parkrunning',
+                xAxisKey: 'time'
+            }
+        },{
+            label: '5k Cancellations',
+            backgroundColor: '#A52714',
+            borderColor: '#A52714',
+            data: nidata,
+            parsing: {
+                yAxisKey: '5k Cancellations',
+                xAxisKey: 'time'
+            }
+        },{
+            label: 'junior Cancellations',
+            backgroundColor: '#1A237E',
+            borderColor: '#1A237E',
+            data: nidata,
+            parsing: {
+                yAxisKey: 'junior Cancellations',
+                xAxisKey: 'time'
+            }
+        }]
+    },
+    options: {
+        scales: {
+            x: {
+                type: 'time',
+            }
+        },
+        aspectRatio: 1.5,
+    }
+};
+var niChart = new Chart(
+    document.getElementById('niChart'),
+    niconfig
+);
+const scodata = {{ site.data.parkrun.history.uk.scotland | jsonify }}
+const scoconfig = {
+    type: 'line',
+    data: {
+        datasets:[{
+            label: 'parkrunning',
+            backgroundColor: '#7CB342',
+            borderColor: '#7CB342',
+            data: scodata,
+            parsing: {
+                yAxisKey: 'parkrunning',
+                xAxisKey: 'time'
+            }
+        },{
+            label: 'junior parkrunning',
+            backgroundColor: '#0288D1',
+            borderColor: '#0288D1',
+            data: scodata,
+            parsing: {
+                yAxisKey: 'junior parkrunning',
+                xAxisKey: 'time'
+            }
+        },{
+            label: '5k Cancellations',
+            backgroundColor: '#A52714',
+            borderColor: '#A52714',
+            data: scodata,
+            parsing: {
+                yAxisKey: '5k Cancellations',
+                xAxisKey: 'time'
+            }
+        },{
+            label: 'junior Cancellations',
+            backgroundColor: '#1A237E',
+            borderColor: '#1A237E',
+            data: scodata,
+            parsing: {
+                yAxisKey: 'junior Cancellations',
+                xAxisKey: 'time'
+            }
+        }]
+    },
+    options: {
+        scales: {
+            x: {
+                type: 'time',
+            }
+        },
+        aspectRatio: 1.5,
+    }
+};
+var scoChart = new Chart(
+    document.getElementById('scoChart'),
+    scoconfig
+);
+const waldata = {{ site.data.parkrun.history.uk.wales | jsonify }}
+const walconfig = {
+    type: 'line',
+    data: {
+        datasets:[{
+            label: 'parkrunning',
+            backgroundColor: '#7CB342',
+            borderColor: '#7CB342',
+            data: waldata,
+            parsing: {
+                yAxisKey: 'parkrunning',
+                xAxisKey: 'time'
+            }
+        },{
+            label: 'junior parkrunning',
+            backgroundColor: '#0288D1',
+            borderColor: '#0288D1',
+            data: waldata,
+            parsing: {
+                yAxisKey: 'junior parkrunning',
+                xAxisKey: 'time'
+            }
+        },{
+            label: '5k Cancellations',
+            backgroundColor: '#A52714',
+            borderColor: '#A52714',
+            data: waldata,
+            parsing: {
+                yAxisKey: '5k Cancellations',
+                xAxisKey: 'time'
+            }
+        },{
+            label: 'junior Cancellations',
+            backgroundColor: '#1A237E',
+            borderColor: '#1A237E',
+            data: waldata,
+            parsing: {
+                yAxisKey: 'junior Cancellations',
+                xAxisKey: 'time'
+            }
+        }]
+    },
+    options: {
+        scales: {
+            x: {
+                type: 'time',
+            }
+        },
+        aspectRatio: 1.5,
+    }
+};
+var walChart = new Chart(
+    document.getElementById('walChart'),
+    walconfig
 );
 </script>

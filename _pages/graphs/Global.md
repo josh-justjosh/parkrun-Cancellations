@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /graphs/global
-title: 'Global'
+title: 'Global Events'
 date: 2021-12-31
 ---
 
@@ -20,7 +20,7 @@ date: 2021-12-31
     <canvas id="countriesChart"></canvas>
 </div>
 <script>
-const countriesdata = {{ site.data.parkrun.history.countries-totals | jsonify }}
+const countriesdata = {{ site.data.parkrun.history.global | jsonify }}
 const countriesconfig = {
     type: 'line',
     data: {
@@ -67,7 +67,8 @@ const countriesconfig = {
             x: {
                 type: 'time',
             }
-        }
+        },
+        aspectRatio: 1.75,
     }
 };
 var countriesChart = new Chart(
