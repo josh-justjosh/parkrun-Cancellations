@@ -1298,6 +1298,13 @@ with open('_data/parkrun/raw/ue.tsv','wt', encoding='utf-8', newline='') as f:
         tsv_writer.writerow([event[0],event[4]])
 print(now(),'raw/ue.tsv saved')
 
+def findpendatapoint(data, key):
+    for i in range(-2,-100,-1):
+        try:
+            return data[i][key]
+        except KeyError:
+            pass
+
 def writehistory(file, data):
     try:
         with open('_data/parkrun/history/'+file,'r', encoding='utf-8', newline='\n') as f:
@@ -1309,16 +1316,17 @@ def writehistory(file, data):
     print(now(),"history/"+file+" read")
     last_data = old_data[-1]
     new_last_data = {}
-    if last_data['parkrunning'] != data['parkrunning']:
+    if last_data['parkrunning'] != data['parkrunning'] or findpendatapoint(old_data,'parkrunning') != data['parkrunning']:
         new_last_data['parkrunning'] = last_data['parkrunning']
-    if last_data['junior parkrunning'] != data['junior parkrunning']:
+    if last_data['junior parkrunning'] != data['junior parkrunning'] or findpendatapoint(old_data,'junior parkrunning') != data['junior parkrunning']:
         new_last_data['junior parkrunning'] = last_data['junior parkrunning']
-    if last_data['5k Cancellations'] != data['5k Cancellations']:
+    if last_data['5k Cancellations'] != data['5k Cancellations'] or findpendatapoint(old_data,'5k Cancellations') != data['5k Cancellations']:
         new_last_data['5k Cancellations'] = last_data['5k Cancellations']
-    if last_data['junior Cancellations'] != data['junior Cancellations']:
+    if last_data['junior Cancellations'] != data['junior Cancellations'] or findpendatapoint(old_data,'junior Cancellations') != data['junior Cancellations']:
         new_last_data['junior Cancellations'] = last_data['junior Cancellations']
     old_data.pop(-1)
     if len(new_last_data) != 0:
+        new_last_data['Total'] = last_data['Total']
         new_last_data['time'] = last_data['time']
         old_data.append(new_last_data)
     data['time'] = str(now())
