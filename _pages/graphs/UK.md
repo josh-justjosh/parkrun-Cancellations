@@ -130,6 +130,7 @@ const ukconfig = {
             }
         },
         aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var ukChart = new Chart(
@@ -176,6 +177,7 @@ const mainconfig = {
             }
         },
         aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var mainChart = new Chart(
@@ -222,6 +224,7 @@ const juniorconfig = {
             }
         },
         aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var juniorChart = new Chart(
@@ -287,6 +290,7 @@ const engconfig = {
             }
         },
         aspectRatio: 1.5,
+        spanGaps: true,
     }
 };
 var engChart = new Chart(
@@ -352,6 +356,7 @@ const niconfig = {
             }
         },
         aspectRatio: 1.5,
+        spanGaps: true,
     }
 };
 var niChart = new Chart(
@@ -417,6 +422,7 @@ const scoconfig = {
             }
         },
         aspectRatio: 1.5,
+        spanGaps: true,
     }
 };
 var scoChart = new Chart(
@@ -482,6 +488,7 @@ const walconfig = {
             }
         },
         aspectRatio: 1.5,
+        spanGaps: true,
     }
 };
 var walChart = new Chart(

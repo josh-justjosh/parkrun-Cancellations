@@ -198,6 +198,7 @@ const countriesconfig = {
             }
         },
         aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var countriesChart = new Chart(
@@ -262,7 +263,8 @@ const australiaconfig = {
                 }
             }
         },
-        aspectRatio: 1.5,
+        aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var australiaChart = new Chart(
@@ -328,7 +330,8 @@ const austriaconfig = {
                 }
             }
         },
-        aspectRatio: 1.5,
+        aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var austriaChart = new Chart(
@@ -395,6 +398,7 @@ const canadaconfig = {
             }
         },
         aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var canadaChart = new Chart(
@@ -461,6 +465,7 @@ const denmarkconfig = {
             }
         },
         aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var denmarkChart = new Chart(
@@ -527,6 +532,7 @@ const eswatiniconfig = {
             }
         },
         aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var eswatiniChart = new Chart(
@@ -593,6 +599,7 @@ const finlandconfig = {
             }
         },
         aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var finlandChart = new Chart(
@@ -659,6 +666,7 @@ const franceconfig = {
             }
         },
         aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var franceChart = new Chart(
@@ -725,6 +733,7 @@ const germanyconfig = {
             }
         },
         aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var germanyChart = new Chart(
@@ -790,6 +799,7 @@ const irelandconfig = {
             }
         },
         aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var irelandChart = new Chart(
@@ -856,6 +866,7 @@ const italyconfig = {
             }
         },
         aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var italyChart = new Chart(
@@ -922,6 +933,7 @@ const japanconfig = {
             }
         },
         aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var japanChart = new Chart(
@@ -988,6 +1000,7 @@ const malaysiaconfig = {
             }
         },
         aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var malaysiaChart = new Chart(
@@ -1054,6 +1067,7 @@ const namibiaconfig = {
             }
         },
         aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var namibiaChart = new Chart(
@@ -1120,6 +1134,7 @@ const netherlandsconfig = {
             }
         },
         aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var netherlandsChart = new Chart(
@@ -1186,6 +1201,7 @@ const newzealandconfig = {
             }
         },
         aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var newzealandChart = new Chart(
@@ -1252,6 +1268,7 @@ const norwayconfig = {
             }
         },
         aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var norwayChart = new Chart(
@@ -1318,6 +1335,7 @@ const polandconfig = {
             }
         },
         aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var polandChart = new Chart(
@@ -1384,6 +1402,7 @@ const russiaconfig = {
             }
         },
         aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var russiaChart = new Chart(
@@ -1450,6 +1469,7 @@ const singaporeconfig = {
             }
         },
         aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var singaporeChart = new Chart(
@@ -1516,6 +1536,7 @@ const southafricaconfig = {
             }
         },
         aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var southafricaChart = new Chart(
@@ -1582,6 +1603,7 @@ const swedenconfig = {
             }
         },
         aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var swedenChart = new Chart(
@@ -1647,6 +1669,7 @@ const ukconfig = {
             }
         },
         aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var ukChart = new Chart(
@@ -1713,6 +1736,7 @@ const usaconfig = {
             }
         },
         aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var usaChart = new Chart(

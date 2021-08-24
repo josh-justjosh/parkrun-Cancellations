@@ -114,6 +114,7 @@ const irlconfig = {
             }
         },
         aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var irlChart = new Chart(
@@ -160,6 +161,7 @@ const mainconfig = {
             }
         },
         aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var mainChart = new Chart(
@@ -206,6 +208,7 @@ const juniorconfig = {
             }
         },
         aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var juniorChart = new Chart(

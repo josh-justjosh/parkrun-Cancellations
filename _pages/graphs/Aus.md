@@ -146,6 +146,7 @@ const ausconfig = {
             }
         },
         aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var ausChart = new Chart(
@@ -192,6 +193,7 @@ const mainconfig = {
             }
         },
         aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var mainChart = new Chart(
@@ -238,6 +240,7 @@ const juniorconfig = {
             }
         },
         aspectRatio: 1.75,
+        spanGaps: true,
     }
 };
 var juniorChart = new Chart(
@@ -304,6 +307,7 @@ const actconfig = {
             }
         },
         aspectRatio: 1.5,
+        spanGaps: true,
     }
 };
 var actChart = new Chart(
@@ -370,6 +374,7 @@ const nswconfig = {
             }
         },
         aspectRatio: 1.5,
+        spanGaps: true,
     }
 };
 var nswChart = new Chart(
@@ -436,6 +441,7 @@ const ntconfig = {
             }
         },
         aspectRatio: 1.5,
+        spanGaps: true,
     }
 };
 var ntChart = new Chart(
@@ -501,6 +507,7 @@ const qldconfig = {
             }
         },
         aspectRatio: 1.5,
+        spanGaps: true,
     }
 };
 var qldChart = new Chart(
@@ -566,6 +573,7 @@ const saconfig = {
             }
         },
         aspectRatio: 1.5,
+        spanGaps: true,
     }
 };
 var saChart = new Chart(
@@ -632,6 +640,7 @@ const tasconfig = {
             }
         },
         aspectRatio: 1.5,
+        spanGaps: true,
     }
 };
 var tasChart = new Chart(
@@ -697,6 +706,7 @@ const vicconfig = {
             }
         },
         aspectRatio: 1.5,
+        spanGaps: true,
     }
 };
 var vicChart = new Chart(
@@ -763,6 +773,7 @@ const waconfig = {
             }
         },
         aspectRatio: 1.5,
+        spanGaps: true,
     }
 };
 var waChart = new Chart(
