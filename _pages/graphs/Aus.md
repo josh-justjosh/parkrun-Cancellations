@@ -46,6 +46,14 @@ date: 2021-12-31
 </div>
 <div class="grid" id="countrytable">
     <div>
+        <h2>5k Events</h2>
+        <canvas id="5KChart"></canvas>
+    </div>
+    <div>
+        <h2>junior Events</h2>
+        <canvas id="juniorChart"></canvas>
+    </div>
+    <div>
         <h2>Australian Capital Territory</h2>
         <canvas id="actChart"></canvas>
     </div>
@@ -125,6 +133,10 @@ const ausconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -139,6 +151,98 @@ const ausconfig = {
 var ausChart = new Chart(
     document.getElementById('ausChart'),
     ausconfig
+);
+const mainconfig = {
+    type: 'line',
+    data: {
+        datasets:[{
+            label: 'parkrunning',
+            backgroundColor: '#7CB342',
+            borderColor: '#7CB342',
+            data: ausdata,
+            parsing: {
+                yAxisKey: 'parkrunning',
+                xAxisKey: 'time'
+            }
+        },{
+            label: '5k Cancellations',
+            backgroundColor: '#A52714',
+            borderColor: '#A52714',
+            data: ausdata,
+            parsing: {
+                yAxisKey: '5k Cancellations',
+                xAxisKey: 'time'
+            }
+        }]
+    },
+    options: {
+        scales: {
+            x: {
+                type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
+            },
+            y: {
+                beginAtZero: true,
+                ticks: {
+                    precision: 0
+                }
+            }
+        },
+        aspectRatio: 1.75,
+    }
+};
+var mainChart = new Chart(
+    document.getElementById('5KChart'),
+    mainconfig
+);
+const juniorconfig = {
+    type: 'line',
+    data: {
+        datasets:[{
+            label: 'junior parkrunning',
+            backgroundColor: '#0288D1',
+            borderColor: '#0288D1',
+            data: ausdata,
+            parsing: {
+                yAxisKey: 'junior parkrunning',
+                xAxisKey: 'time'
+            }
+        },{
+            label: 'junior Cancellations',
+            backgroundColor: '#1A237E',
+            borderColor: '#1A237E',
+            data: ausdata,
+            parsing: {
+                yAxisKey: 'junior Cancellations',
+                xAxisKey: 'time'
+            }
+        }]
+    },
+    options: {
+        scales: {
+            x: {
+                type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
+            },
+            y: {
+                beginAtZero: true,
+                ticks: {
+                    precision: 0
+                }
+            }
+        },
+        aspectRatio: 1.75,
+    }
+};
+var juniorChart = new Chart(
+    document.getElementById('juniorChart'),
+    juniorconfig
 );
 const actdata = {{ site.data.parkrun.history.aus.act | jsonify }}
 const actconfig = {
@@ -187,6 +291,10 @@ const actconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -249,6 +357,10 @@ const nswconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -311,6 +423,10 @@ const ntconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -372,6 +488,10 @@ const qldconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -433,6 +553,10 @@ const saconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -495,6 +619,10 @@ const tasconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -556,6 +684,10 @@ const vicconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -618,6 +750,10 @@ const waconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,

@@ -46,6 +46,14 @@ date: 2021-12-31
 </div>
 <div class="grid" id="countrytable">
     <div>
+        <h2>5k Events</h2>
+        <canvas id="5KChart"></canvas>
+    </div>
+    <div>
+        <h2>junior Events</h2>
+        <canvas id="juniorChart"></canvas>
+    </div>
+    <div>
         <h2>England</h2>
         <canvas id="engChart"></canvas>
     </div>
@@ -109,6 +117,10 @@ const ukconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -123,6 +135,98 @@ const ukconfig = {
 var ukChart = new Chart(
     document.getElementById('ukChart'),
     ukconfig
+);
+const mainconfig = {
+    type: 'line',
+    data: {
+        datasets:[{
+            label: 'parkrunning',
+            backgroundColor: '#7CB342',
+            borderColor: '#7CB342',
+            data: ukdata,
+            parsing: {
+                yAxisKey: 'parkrunning',
+                xAxisKey: 'time'
+            }
+        },{
+            label: '5k Cancellations',
+            backgroundColor: '#A52714',
+            borderColor: '#A52714',
+            data: ukdata,
+            parsing: {
+                yAxisKey: '5k Cancellations',
+                xAxisKey: 'time'
+            }
+        }]
+    },
+    options: {
+        scales: {
+            x: {
+                type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
+            },
+            y: {
+                beginAtZero: true,
+                ticks: {
+                    precision: 0
+                }
+            }
+        },
+        aspectRatio: 1.75,
+    }
+};
+var mainChart = new Chart(
+    document.getElementById('5KChart'),
+    mainconfig
+);
+const juniorconfig = {
+    type: 'line',
+    data: {
+        datasets:[{
+            label: 'junior parkrunning',
+            backgroundColor: '#0288D1',
+            borderColor: '#0288D1',
+            data: ukdata,
+            parsing: {
+                yAxisKey: 'junior parkrunning',
+                xAxisKey: 'time'
+            }
+        },{
+            label: 'junior Cancellations',
+            backgroundColor: '#1A237E',
+            borderColor: '#1A237E',
+            data: ukdata,
+            parsing: {
+                yAxisKey: 'junior Cancellations',
+                xAxisKey: 'time'
+            }
+        }]
+    },
+    options: {
+        scales: {
+            x: {
+                type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
+            },
+            y: {
+                beginAtZero: true,
+                ticks: {
+                    precision: 0
+                }
+            }
+        },
+        aspectRatio: 1.75,
+    }
+};
+var juniorChart = new Chart(
+    document.getElementById('juniorChart'),
+    juniorconfig
 );
 const engdata = {{ site.data.parkrun.history.uk.england | jsonify }}
 const engconfig = {
@@ -170,6 +274,10 @@ const engconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -231,6 +339,10 @@ const niconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -292,6 +404,10 @@ const scoconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -353,6 +469,10 @@ const walconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,

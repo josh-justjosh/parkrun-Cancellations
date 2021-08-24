@@ -78,7 +78,7 @@ date: 2021-12-31
         <canvas id="germanyChart"></canvas>
     </div>
     <div>
-        <h2>Ireland</h2>
+        <h2><a href="/graphs/irl">Ireland</a></h2>
         <canvas id="irelandChart"></canvas>
     </div>
     <div>
@@ -185,8 +185,13 @@ const countriesconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
+                beginAtZero: true,
                 ticks: {
                     precision: 0
                 }
@@ -245,6 +250,10 @@ const australiaconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -307,6 +316,10 @@ const austriaconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -369,6 +382,10 @@ const canadaconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -431,6 +448,10 @@ const denmarkconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -493,6 +514,10 @@ const eswatiniconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -555,6 +580,10 @@ const finlandconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -617,6 +646,10 @@ const franceconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -679,6 +712,10 @@ const germanyconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -740,6 +777,10 @@ const irelandconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -802,6 +843,10 @@ const italyconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -864,6 +909,10 @@ const japanconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -926,6 +975,10 @@ const malaysiaconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -988,6 +1041,10 @@ const namibiaconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -1050,6 +1107,10 @@ const netherlandsconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -1112,6 +1173,10 @@ const newzealandconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -1174,6 +1239,10 @@ const norwayconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -1236,6 +1305,10 @@ const polandconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -1298,6 +1371,10 @@ const russiaconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -1360,6 +1437,10 @@ const singaporeconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -1422,6 +1503,10 @@ const southafricaconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -1484,6 +1569,10 @@ const swedenconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -1545,6 +1634,10 @@ const ukconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
@@ -1607,6 +1700,10 @@ const usaconfig = {
         scales: {
             x: {
                 type: 'time',
+                title: {
+                    text: 'Time (UTC)',
+                    display: true
+                }
             },
             y: {
                 beginAtZero: true,
