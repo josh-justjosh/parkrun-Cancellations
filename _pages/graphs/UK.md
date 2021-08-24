@@ -37,14 +37,17 @@ date: 2021-12-31
     }
     @media (max-width: 670px) {
         #countrytable {
-        grid-template-columns: repeat(1, minmax(0, 1fr));
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
     }
+    h2 {
+        margin: 0
     }
 </style>
-<div>
-    <canvas id="ukChart"></canvas>
-</div>
 <div class="grid" id="countrytable">
+    <div style="grid-column: span 2">
+        <canvas id="ukChart"></canvas>
+    </div>
     <div>
         <h2>5k Events</h2>
         <canvas id="5KChart"></canvas>

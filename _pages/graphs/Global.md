@@ -37,14 +37,18 @@ date: 2021-12-31
     }
     @media (max-width: 670px) {
         #countrytable {
-        grid-template-columns: repeat(1, minmax(0, 1fr));
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
     }
+    h2 {
+        margin: 0
     }
 </style>
-<div>
-    <canvas id="countriesChart"></canvas>
-</div>
+
 <div class="grid" id="countrytable">
+    <div style="grid-column: span 2">
+        <canvas id="countriesChart"></canvas>
+    </div>
     <div>
         <h2><a href="/graphs/aus">Australia</a></h2>
         <canvas id="australiaChart"></canvas>
