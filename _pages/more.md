@@ -852,7 +852,7 @@ permalink: /more
             <div class="grid">
                 <div>
                     <h2 class="split">Country Situations</h2>
-                    <p id="statusupdated">Last Updated*: {% capture statusupdated %}2021-08-20 12:54 UTC{% endcapture %}</p>
+                    <p id="statusupdated">Last Updated*: {% capture statusupdated %}2021-08-24 09:32 UTC{% endcapture %}</p>
                     <script>
                         var statusupdated = new Date("{{statusupdated}}").getTime();
                         var su_date = new Date(statusupdated)
@@ -898,9 +898,9 @@ permalink: /more
                         </div>
                     </div>
                     <div class="countrystatus">
-                        <div class="statusamber">
+                        <div class="statusgreen">
                             <h3>Germany</h3>
-                            <p>Some Events Open</p>
+                            <p>Most Events Open</p>
                         </div>
                     </div>
                     <div id ="irelandstatus" class="countrystatus">
@@ -933,21 +933,21 @@ permalink: /more
                         </div>
                     </div>
                     <div class="countrystatus">
-                        <div class="statusred">
+                        <div class="statusgreen">
                             <h3>Namibia</h3>
-                            <p>Events Suspended</p>
+                            <p>Events Open</p>
                         </div>
                     </div>
                     <div class="countrystatus">
-                        <div class="statusamber">
+                        <div class="statusgreen">
                             <h3>Netherlands</h3>
-                            <p>Some Events Open</p>
+                            <p>Most Events Open</p>
                         </div>
                     </div>
                     <div class="countrystatus">
-                        <div class="statusred">
+                        <div class="statusgreen">
                             <h3>New Zealand</h3>
-                            <p>Events Suspended</p>
+                            <p>Events Open</p>
                         </div>
                     </div>
                     <div class="countrystatus">
@@ -963,9 +963,9 @@ permalink: /more
                         </div>
                     </div>
                     <div class="countrystatus">
-                        <div class="statusamber">
+                        <div class="statusgreen">
                             <h3>Russia</h3>
-                            <p>Some Events Open</p>
+                            <p>Most Events Open</p>
                         </div>
                     </div>
                     <div class="countrystatus">
@@ -1032,15 +1032,10 @@ permalink: /more
                                 <p>Events Open</p>
                             </div>
                         </div>
-                        <div class="countrystatus" style="grid-column: span 2;">
-                            <div class="grid" style="grid-template-columns: repeat(2, minmax(0, 1fr));">
-                                <h3  style="grid-column: span 2; color: unset">Victoria</h3>
-                                <div class="statusred">
-                                    <p>Melbourne<br/>Events Suspended</p>
-                                </div>
-                                <div class="statusgreen">
-                                    <p>Most Other Events Open</p>
-                                </div>
+                        <div class="countrystatus">  
+                            <div class="statusred">
+                                <h3>Victoria</h3>
+                                <p>Events Suspended</p>
                             </div>
                         </div>
                         <div id="wastatus" class="countrystatus">
