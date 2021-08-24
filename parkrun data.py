@@ -1332,7 +1332,7 @@ def writehistory(file, data):
     data['time'] = str(now())
     old_data.append(data)
     with open('_data/parkrun/history/'+file,'wt', encoding='utf-8', newline='\n') as f:
-        f.write(json.dumps(old_data,indent=4))
+        f.write(json.dumps(old_data,indent=4)+"\n")
     print(now(),"history/"+file+" saved")
 
 writehistory('global.json',countries['Total'])
