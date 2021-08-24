@@ -139,6 +139,25 @@ date: 2021-12-31
     </div>
 </div>
 <script>
+const chartoptions = {
+    scales: {
+        x: {
+            type: 'time',
+            title: {
+                text: 'Time (UTC)',
+                display: true
+            }
+        },
+        y: {
+            beginAtZero: true,
+            ticks: {
+                precision: 0
+            }
+        }
+    },
+    aspectRatio: 1.5,
+    spanGaps: true,
+}
 const countriesdata = {{ site.data.parkrun.history.global | jsonify }}
 const countriesconfig = {
     type: 'line',
@@ -181,25 +200,7 @@ const countriesconfig = {
             }
         }]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var countriesChart = new Chart(
     document.getElementById('countriesChart'),
@@ -247,25 +248,7 @@ const australiaconfig = {
             }
         }]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var australiaChart = new Chart(
     document.getElementById('australiaChart'),
@@ -314,25 +297,7 @@ const austriaconfig = {
         //}
         ]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var austriaChart = new Chart(
     document.getElementById('austriaChart'),
@@ -381,25 +346,7 @@ const canadaconfig = {
         //}
         ]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var canadaChart = new Chart(
     document.getElementById('canadaChart'),
@@ -448,25 +395,7 @@ const denmarkconfig = {
         //}
         ]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var denmarkChart = new Chart(
     document.getElementById('denmarkChart'),
@@ -515,25 +444,7 @@ const eswatiniconfig = {
         //}
         ]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var eswatiniChart = new Chart(
     document.getElementById('eswatiniChart'),
@@ -582,25 +493,7 @@ const finlandconfig = {
         //}
         ]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var finlandChart = new Chart(
     document.getElementById('finlandChart'),
@@ -649,25 +542,7 @@ const franceconfig = {
         //}
         ]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var franceChart = new Chart(
     document.getElementById('franceChart'),
@@ -716,25 +591,7 @@ const germanyconfig = {
         //}
         ]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var germanyChart = new Chart(
     document.getElementById('germanyChart'),
@@ -782,25 +639,7 @@ const irelandconfig = {
             }
         }]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var irelandChart = new Chart(
     document.getElementById('irelandChart'),
@@ -849,25 +688,7 @@ const italyconfig = {
         //}
         ]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var italyChart = new Chart(
     document.getElementById('italyChart'),
@@ -916,25 +737,7 @@ const japanconfig = {
         //}
         ]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var japanChart = new Chart(
     document.getElementById('japanChart'),
@@ -983,25 +786,7 @@ const malaysiaconfig = {
         //}
         ]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var malaysiaChart = new Chart(
     document.getElementById('malaysiaChart'),
@@ -1050,25 +835,7 @@ const namibiaconfig = {
         //}
         ]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var namibiaChart = new Chart(
     document.getElementById('namibiaChart'),
@@ -1117,25 +884,7 @@ const netherlandsconfig = {
         //}
         ]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var netherlandsChart = new Chart(
     document.getElementById('netherlandsChart'),
@@ -1184,25 +933,7 @@ const newzealandconfig = {
         //}
         ]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var newzealandChart = new Chart(
     document.getElementById('newzealandChart'),
@@ -1251,25 +982,7 @@ const norwayconfig = {
         //}
         ]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var norwayChart = new Chart(
     document.getElementById('norwayChart'),
@@ -1318,25 +1031,7 @@ const polandconfig = {
         //}
         ]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var polandChart = new Chart(
     document.getElementById('polandChart'),
@@ -1385,25 +1080,7 @@ const russiaconfig = {
         //}
         ]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var russiaChart = new Chart(
     document.getElementById('russiaChart'),
@@ -1452,25 +1129,7 @@ const singaporeconfig = {
         //}
         ]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var singaporeChart = new Chart(
     document.getElementById('singaporeChart'),
@@ -1519,25 +1178,7 @@ const southafricaconfig = {
         //}
         ]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var southafricaChart = new Chart(
     document.getElementById('southafricaChart'),
@@ -1586,25 +1227,7 @@ const swedenconfig = {
         //}
         ]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var swedenChart = new Chart(
     document.getElementById('swedenChart'),
@@ -1652,25 +1275,7 @@ const ukconfig = {
             }
         }]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var ukChart = new Chart(
     document.getElementById('ukChart'),
@@ -1719,25 +1324,7 @@ const usaconfig = {
         //}
         ]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var usaChart = new Chart(
     document.getElementById('usaChart'),

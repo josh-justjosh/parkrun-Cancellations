@@ -87,6 +87,25 @@ date: 2021-12-31
     </div>
 </div>
 <script>
+const chartoptions = {
+    scales: {
+        x: {
+            type: 'time',
+            title: {
+                text: 'Time (UTC)',
+                display: true
+            }
+        },
+        y: {
+            beginAtZero: true,
+            ticks: {
+                precision: 0
+            }
+        }
+    },
+    aspectRatio: 1.5,
+    spanGaps: true,
+}
 const ausdata = {{ site.data.parkrun.history.australia | jsonify }}
 const ausconfig = {
     type: 'line',
@@ -129,25 +148,7 @@ const ausconfig = {
             }
         }]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var ausChart = new Chart(
     document.getElementById('ausChart'),
@@ -176,25 +177,7 @@ const mainconfig = {
             }
         }]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var mainChart = new Chart(
     document.getElementById('5KChart'),
@@ -223,25 +206,7 @@ const juniorconfig = {
             }
         }]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var juniorChart = new Chart(
     document.getElementById('juniorChart'),
@@ -290,25 +255,7 @@ const actconfig = {
         //}
         ]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.5,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var actChart = new Chart(
     document.getElementById('actChart'),
@@ -357,25 +304,7 @@ const nswconfig = {
         //}
         ]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.5,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var nswChart = new Chart(
     document.getElementById('nswChart'),
@@ -424,25 +353,7 @@ const ntconfig = {
         //}
         ]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.5,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var ntChart = new Chart(
     document.getElementById('ntChart'),
@@ -490,25 +401,7 @@ const qldconfig = {
             }
         }]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.5,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var qldChart = new Chart(
     document.getElementById('qldChart'),
@@ -556,25 +449,7 @@ const saconfig = {
             }
         }]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.5,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var saChart = new Chart(
     document.getElementById('saChart'),
@@ -623,25 +498,7 @@ const tasconfig = {
         //}
         ]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.5,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var tasChart = new Chart(
     document.getElementById('tasChart'),
@@ -689,25 +546,7 @@ const vicconfig = {
             }
         }]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.5,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var vicChart = new Chart(
     document.getElementById('vicChart'),
@@ -756,25 +595,7 @@ const waconfig = {
         //}
         ]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.5,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var waChart = new Chart(
     document.getElementById('waChart'),

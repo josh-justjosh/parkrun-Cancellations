@@ -71,6 +71,25 @@ date: 2021-12-31
     </div>
 </div>
 <script>
+const chartoptions = {
+    scales: {
+        x: {
+            type: 'time',
+            title: {
+                text: 'Time (UTC)',
+                display: true
+            }
+        },
+        y: {
+            beginAtZero: true,
+            ticks: {
+                precision: 0
+            }
+        }
+    },
+    aspectRatio: 1.5,
+    spanGaps: true,
+}
 const ukdata = {{ site.data.parkrun.history.unitedkingdom | jsonify }}
 const ukconfig = {
     type: 'line',
@@ -113,25 +132,7 @@ const ukconfig = {
             }
         }]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var ukChart = new Chart(
     document.getElementById('ukChart'),
@@ -160,25 +161,7 @@ const mainconfig = {
             }
         }]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var mainChart = new Chart(
     document.getElementById('5KChart'),
@@ -207,25 +190,7 @@ const juniorconfig = {
             }
         }]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var juniorChart = new Chart(
     document.getElementById('juniorChart'),
@@ -273,25 +238,7 @@ const engconfig = {
             }
         }]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.5,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var engChart = new Chart(
     document.getElementById('engChart'),
@@ -339,25 +286,7 @@ const niconfig = {
             }
         }]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.5,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var niChart = new Chart(
     document.getElementById('niChart'),
@@ -405,25 +334,7 @@ const scoconfig = {
             }
         }]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.5,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var scoChart = new Chart(
     document.getElementById('scoChart'),
@@ -471,25 +382,7 @@ const walconfig = {
             }
         }]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.5,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var walChart = new Chart(
     document.getElementById('walChart'),

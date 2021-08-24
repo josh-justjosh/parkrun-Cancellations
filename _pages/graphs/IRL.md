@@ -55,6 +55,25 @@ date: 2021-12-31
     </div>
 </div>
 <script>
+const chartoptions = {
+    scales: {
+        x: {
+            type: 'time',
+            title: {
+                text: 'Time (UTC)',
+                display: true
+            }
+        },
+        y: {
+            beginAtZero: true,
+            ticks: {
+                precision: 0
+            }
+        }
+    },
+    aspectRatio: 1.5,
+    spanGaps: true,
+}
 const irldata = {{ site.data.parkrun.history.ireland | jsonify }}
 const irlconfig = {
     type: 'line',
@@ -97,25 +116,7 @@ const irlconfig = {
             }
         }]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var irlChart = new Chart(
     document.getElementById('irlChart'),
@@ -144,25 +145,7 @@ const mainconfig = {
             }
         }]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var mainChart = new Chart(
     document.getElementById('5KChart'),
@@ -191,25 +174,7 @@ const juniorconfig = {
             }
         }]
     },
-    options: {
-        scales: {
-            x: {
-                type: 'time',
-                title: {
-                    text: 'Time (UTC)',
-                    display: true
-                }
-            },
-            y: {
-                beginAtZero: true,
-                ticks: {
-                    precision: 0
-                }
-            }
-        },
-        aspectRatio: 1.75,
-        spanGaps: true,
-    }
+    options: chartoptions
 };
 var juniorChart = new Chart(
     document.getElementById('juniorChart'),
