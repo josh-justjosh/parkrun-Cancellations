@@ -1308,9 +1308,19 @@ def writehistory(file, data):
         old_data = []
     print(now(),"history/"+file+" read")
     last_data = old_data[-1]
-    last_data.__delitem__('time')
-    if last_data == data:
-        old_data.pop(-1)
+    new_last_data = {}
+    if last_data['parkrunning'] != data['parkrunning']:
+        new_last_data['parkrunning'] = last_data['parkrunning']
+    if last_data['junior parkrunning'] != data['junior parkrunning']:
+        new_last_data['junior parkrunning'] = last_data['junior parkrunning']
+    if last_data['5k Cancellations'] != data['5k Cancellations']:
+        new_last_data['5k Cancellations'] = last_data['5k Cancellations']
+    if last_data['junior Cancellations'] != data['junior Cancellations']:
+        new_last_data['junior Cancellations'] = last_data['junior Cancellations']
+    old_data.pop(-1)
+    if len(new_last_data) != 0:
+        new_last_data['time'] = last_data['time']
+        old_data.append(new_last_data)
     data['time'] = str(now())
     old_data.append(data)
     with open('_data/parkrun/history/'+file,'wt', encoding='utf-8', newline='\n') as f:
