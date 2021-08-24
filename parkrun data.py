@@ -1303,10 +1303,14 @@ def writehistory(file, data):
         with open('_data/parkrun/history/'+file,'r', encoding='utf-8', newline='\n') as f:
             old_data = json.loads(f.read())
         if now().weekday() == 0 and now().hour <= 1:
-            old_data = []
+            old_data = [data,data]
     except FileNotFoundError:
         old_data = []
     print(now(),"history/"+file+" read")
+    last_data = old_data[-1]
+    last_data.__delitem__('time')
+    if last_data == data:
+        old_data.pop(-1)
     data['time'] = str(now())
     old_data.append(data)
     with open('_data/parkrun/history/'+file,'wt', encoding='utf-8', newline='\n') as f:
