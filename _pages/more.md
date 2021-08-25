@@ -575,7 +575,7 @@ permalink: /more
                         <a href="/updates" style="float:right">Click to see a full history</a>
                     </div>
                     <script>
-                        var last_addition = new Date("{{ site.data.parkrun.cancellation-additions.last.Event }}").getTime();
+                        var last_addition = new Date("{{ site.data.parkrun.cancellation-additions.last.Event }} UTC").getTime();
                         var la_date = new Date(last_addition)
                         var outa = la_date.toLocaleString('default', options);
                         document.getElementById("lastaddition").innerHTML = 'Last Change: ' + outa
