@@ -35,9 +35,15 @@ date: 2021-12-31
     #countrytable {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
+    #headChart {
+        grid-column: span 2
+    }
     @media (max-width: 670px) {
         #countrytable {
             grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
+        #headChart {
+            grid-column: span 1
         }
     }
     h2 {
@@ -46,7 +52,7 @@ date: 2021-12-31
 </style>
 
 <div class="grid" id="countrytable">
-    <div style="grid-column: span 2">
+    <div id="headChart">
         <canvas id="countriesChart"></canvas>
     </div>
     <div>
