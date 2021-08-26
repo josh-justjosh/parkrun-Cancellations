@@ -71,7 +71,18 @@ const chartoptions = {
             type: 'time',
             title: {
                 text: 'Time (UTC)',
-                display: true
+                display: false
+            },
+            time: {
+                displayFormats: {
+                    hour: 'h aaa',
+                    day: 'eee'
+                }
+            },
+            ticks: {
+                major: {
+                    enabled: true,
+                },
             }
         },
         y: {
