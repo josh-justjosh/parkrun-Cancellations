@@ -111,7 +111,7 @@ date: 2021-12-31
         <h2>Netherlands</h2>
         <canvas id="netherlandsChart"></canvas>
     </div>
-    <div>
+    <div id='NZ'>
         <h2>New Zealand</h2>
         <canvas id="newzealandChart"></canvas>
     </div>

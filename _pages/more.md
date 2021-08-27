@@ -852,7 +852,7 @@ permalink: /more
             <div class="grid">
                 <div>
                     <h2 class="split">Country Situations</h2>
-                    <p id="statusupdated">Last Updated*: {% capture statusupdated %}2021-08-24 09:32 UTC{% endcapture %}</p>
+                    <p id="statusupdated">Last Updated*: {% capture statusupdated %}2021-08-27 22:25 UTC+1{% endcapture %}</p>
                     <script>
                         var statusupdated = new Date("{{statusupdated}}").getTime();
                         var su_date = new Date(statusupdated)
@@ -945,9 +945,9 @@ permalink: /more
                         </div>
                     </div>
                     <div class="countrystatus">
-                        <div class="statusgreen">
+                        <div class="statusred">
                             <h3>New Zealand</h3>
-                            <p>Events Open</p>
+                            <p>Events Suspended</p>
                         </div>
                     </div>
                     <div class="countrystatus">
