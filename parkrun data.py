@@ -1304,6 +1304,8 @@ def findpendatapoint(data, key):
             return data[i][key]
         except KeyError:
             pass
+        except IndexError:
+            return 0
 
 def writehistory(file, data):
     try:
