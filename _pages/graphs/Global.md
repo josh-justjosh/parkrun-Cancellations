@@ -158,6 +158,7 @@ const chartoptions = {
                 display: false
             },
             time: {
+                minUnit: 'hour',
                 displayFormats: {
                     hour: 'h aaa',
                     day: 'eee'
