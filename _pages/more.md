@@ -852,7 +852,7 @@ permalink: /more
             <div class="grid">
                 <div>
                     <h2 class="split">Country Situations</h2>
-                    <p id="statusupdated">Last Updated*: {% capture statusupdated %}2021-08-27 22:25 UTC+1{% endcapture %}</p>
+                    <p id="statusupdated">Last Updated*: {% capture statusupdated %}2021-09-04 07:38 UTC+1{% endcapture %}</p>
                     <script>
                         var statusupdated = new Date("{{statusupdated}}").getTime();
                         var su_date = new Date(statusupdated)
@@ -945,9 +945,9 @@ permalink: /more
                         </div>
                     </div>
                     <div class="countrystatus">
-                        <div class="statusred">
+                        <div class="statusgreen">
                             <h3>New Zealand</h3>
-                            <p>Events Suspended</p>
+                            <p>Events Open</p>
                         </div>
                     </div>
                     <div class="countrystatus">
@@ -983,7 +983,7 @@ permalink: /more
                     <div id="swedenstatus" class="countrystatus">
                         <div class="statusgreen">
                             <h3>Sweden</h3>
-                            <p id="sweedendate">Most Events Open</p>
+                            <p id="sweedendate">Events Open</p>
                         </div>
                     </div>
                     <div id="usastatus" class="countrystatus">
@@ -1101,8 +1101,8 @@ permalink: /more
                                     <p id="walesdate">Most 5k Events Open</p>
                                 </div>
                                 <div>
-                                    <div class="statusamber">
-                                        <p>Some junior Events Open</p>
+                                    <div class="statusblue">
+                                        <p>Most junior Events Open</p>
                                     </div>
                                 </div>
                             </div>
