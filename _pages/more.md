@@ -941,7 +941,7 @@ permalink: /more
                     <div class="countrystatus">
                         <div class="statusgreen">
                             <h3>Netherlands</h3>
-                            <p>Most Events Open</p>
+                            <p>Events Open</p>
                         </div>
                     </div>
                     <div class="countrystatus">
@@ -1054,7 +1054,7 @@ permalink: /more
                                 <h4 style="grid-column: span 2; color: unset">England</h4>
                                 <div>
                                     <div class="statusgreen">
-                                        <p>5k Events Open</p>
+                                        <p>Most 5k Events Open</p>
                                     </div>
                                 </div>
                                 <div>
@@ -1074,7 +1074,7 @@ permalink: /more
                                 </div>
                                 <div>
                                     <div class="statusblue">
-                                        <p>Most junior Events Open</p>
+                                        <p>junior Events Open</p>
                                     </div>
                                 </div>
                             </div>
