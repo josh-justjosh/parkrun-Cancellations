@@ -575,7 +575,7 @@ permalink: /more
                         <a href="/updates" style="float:right">Click to see a full history</a>
                     </div>
                     <script>
-                        var last_addition = new Date("{{ site.data.parkrun.cancellation-additions.last.Event }} UTC").getTime();
+                        var last_addition = new Date("{{ site.data.parkrun.cancellation-additions.last.Event | date: '%Y-%m-%dT%T%z'}}").getTime();
                         var la_date = new Date(last_addition)
                         var outa = la_date.toLocaleString('default', options);
                         document.getElementById("lastaddition").innerHTML = 'Last Change: ' + outa
@@ -854,7 +854,7 @@ permalink: /more
                     <h2 class="split">Country Situations</h2>
                     <p id="statusupdated">Last Updated*: {% capture statusupdated %}2021-09-04 07:38 UTC+1{% endcapture %}</p>
                     <script>
-                        var statusupdated = new Date("{{statusupdated}}").getTime();
+                        var statusupdated = new Date("{{statusupdated | date: '%Y-%m-%dT%T%z'}}").getTime();
                         var su_date = new Date(statusupdated)
                         var out = su_date.toLocaleString('default', options);
                         document.getElementById("statusupdated").innerHTML = 'Last Updated*: ' + out
