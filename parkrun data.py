@@ -1308,6 +1308,7 @@ def findpendatapoint(data, key):
             return 0
 
 def writehistory(file, data):
+    data['time'] = str(now())
     try:
         with open('_data/parkrun/history/'+file,'r', encoding='utf-8', newline='\n') as f:
             old_data = json.loads(f.read())
@@ -1333,7 +1334,6 @@ def writehistory(file, data):
         new_last_data['Total'] = last_data['Total']
         new_last_data['time'] = last_data['time']
         old_data.append(new_last_data)
-    data['time'] = str(now())
     old_data.append(data)
     with open('_data/parkrun/history/'+file,'wt', encoding='utf-8', newline='\n') as f:
         f.write(json.dumps(old_data,indent=4)+"\n")
