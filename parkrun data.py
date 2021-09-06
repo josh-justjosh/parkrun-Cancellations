@@ -1314,6 +1314,9 @@ def writehistory(file, data):
         if now().weekday() == 0 and now().hour <= 1:
             data['time'] = str(now())
             old_data = [old_data[-1],data]
+            olddate = datetime.datetime.strptime(old_data[-1]['time'], '%Y-%m-%d %H:%M:%S.%f')
+            if olddate.date() != now().date() and olddate.hour != now().hour:
+                old_data = [old_data[-1],data]
     except FileNotFoundError:
         old_data = []
     print(now(),"history/"+file+" read")
