@@ -852,7 +852,7 @@ permalink: /more
             <div class="grid">
                 <div>
                     <h2 class="split">Country Situations</h2>
-                    <p id="statusupdated">Last Updated*: {% capture statusupdated %}2021-09-04 07:38 UTC+1{% endcapture %}</p>
+                    <p id="statusupdated">Last Updated*: {% capture statusupdated %}2021-09-06 08:02 UTC+1{% endcapture %}</p>
                     <script>
                         var statusupdated = new Date("{{statusupdated | date: '%Y-%m-%dT%T%z'}}").getTime();
                         var su_date = new Date(statusupdated)
@@ -888,7 +888,7 @@ permalink: /more
                     <div id="finlandstatus" class="countrystatus">
                         <div class="statusgreen">
                             <h3>Finland</h3>
-                            <p id="finlanddate">Events Open</p>
+                            <p id="finlanddate">Most Events Open</p>
                         </div>
                         </div>
                     <div class="countrystatus">
@@ -906,8 +906,8 @@ permalink: /more
                     <div id ="irelandstatus" class="countrystatus">
                         <div id ="irelandgrid" class="grid">
                             <h3 id="irelandtitle" style="color: unset">Ireland</h3>
-                            <div class="statusred">
-                                <p>5k Events Suspended</p>
+                            <div class="statusamber">
+                                <p>Some 5k Events Open</p>
                             </div>
                             <div id="irlandjstatus" class="statusamber">
                                 <p id="irelandjuniorevents">Some junior Events Open</p>
@@ -1003,9 +1003,9 @@ permalink: /more
                             </div>
                         </div>
                         <div class="countrystatus">
-                            <div class="statusred">
+                            <div class="statusgreen">
                                 <h3>New South Wales</h3>
-                                <p>Events Suspended</p>
+                                <p>Events Open</p>
                             </div>
                         </div>
                         <div class="countrystatus">
@@ -1033,9 +1033,9 @@ permalink: /more
                             </div>
                         </div>
                         <div class="countrystatus">  
-                            <div class="statusred">
+                            <div class="statusgreen">
                                 <h3>Victoria</h3>
-                                <p>Events Suspended</p>
+                                <p>Events Open</p>
                             </div>
                         </div>
                         <div id="wastatus" class="countrystatus">
