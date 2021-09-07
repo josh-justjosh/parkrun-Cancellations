@@ -15895,14 +15895,14 @@
         "countrycode": 42,
         "seriesid": 1,
         "EventLocation": "Cross Loop",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-09-11",
+        "ReasonCancelled": "Not 100% ready for restart, returning on 18th Sept",
         "Website": "https://www.parkrun.ie/erris",
         "Country": "Ireland",
         "State": "Connaught",
         "County": "Mayo",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Erris parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/erris\">parkrun.ie/erris</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Erris parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Not 100% ready for restart, returning on 18th Sept</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/erris\">parkrun.ie/erris</a></td></tr></table>"
       }
     },
     {
@@ -45390,34 +45390,6 @@
       }
     },
     {
-      "id": 260,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -4.206828,
-          51.685529
-        ]
-      },
-      "properties": {
-        "eventname": "llanellicoast-juniors",
-        "EventLongName": "Llanelli Coast junior parkrun",
-        "EventShortName": "Llanelli Coast juniors",
-        "LocalisedEventLongName": "Llanelli Coast junior parkrun",
-        "countrycode": 97,
-        "seriesid": 2,
-        "EventLocation": "King George V Playing Fields",
-        "Status": "junior parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
-        "Website": "https://www.parkrun.org.uk/llanellicoast-juniors",
-        "Country": "United Kingdom",
-        "State": "Wales",
-        "County": "Carmarthenshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Llanelli Coast junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/llanellicoast-juniors\">parkrun.org.uk/llanellicoast-juniors</a></td></tr></table>"
-      }
-    },
-    {
       "id": 301,
       "type": "Feature",
       "geometry": {
@@ -49579,14 +49551,14 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Telford Town Park",
-        "Status": "junior parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "junior Cancellation",
+        "DateCancelled": "2021-09-12",
+        "ReasonCancelled": "Race for Life being held in park; paths unusable",
         "Website": "https://www.parkrun.org.uk/telford-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Telford and Wrekin",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Telford junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/telford-juniors\">parkrun.org.uk/telford-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Telford junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Race for Life being held in park; paths unusable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/telford-juniors\">parkrun.org.uk/telford-juniors</a></td></tr></table>"
       }
     },
     {
@@ -62514,7 +62486,7 @@
         "LocalisedEventLongName": null,
         "countrycode": 98,
         "seriesid": 1,
-        "EventLocation": "Haddad Riverfront Park",
+        "EventLocation": "Magic Island Park",
         "Status": "parkrunning",
         "DateCancelled": null,
         "ReasonCancelled": null,
