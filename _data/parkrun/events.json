@@ -36923,14 +36923,14 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Nuttall Park",
-        "Status": "junior parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "junior Cancellation",
+        "DateCancelled": "2021-09-12",
+        "ReasonCancelled": "Closed roads due to Black Pudding throwing champs",
         "Website": "https://www.parkrun.org.uk/ramsbottom-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Bury",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ramsbottom junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/ramsbottom-juniors\">parkrun.org.uk/ramsbottom-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ramsbottom junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Closed roads due to Black Pudding throwing champs</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/ramsbottom-juniors\">parkrun.org.uk/ramsbottom-juniors</a></td></tr></table>"
       }
     },
     {
@@ -38071,14 +38071,14 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Rossmere Park",
-        "Status": "junior parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "junior Cancellation",
+        "DateCancelled": "2021-09-12",
+        "ReasonCancelled": "No RD available - so many running GNR!",
         "Website": "https://www.parkrun.org.uk/rossmere-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Hartlepool",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Rossmere junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/rossmere-juniors\">parkrun.org.uk/rossmere-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Rossmere junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Cancellation Note:</th><td>No RD available - so many running GNR!</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/rossmere-juniors\">parkrun.org.uk/rossmere-juniors</a></td></tr></table>"
       }
     },
     {
@@ -58399,14 +58399,14 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Hove Park",
-        "Status": "junior parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "junior Cancellation",
+        "DateCancelled": "2021-09-12",
+        "ReasonCancelled": "Core team not available due to Brighton Marathon",
         "Website": "https://www.parkrun.org.uk/hovepark-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Brighton and Hove",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hove Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hovepark-juniors\">parkrun.org.uk/hovepark-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hove Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Core team not available due to Brighton Marathon</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hovepark-juniors\">parkrun.org.uk/hovepark-juniors</a></td></tr></table>"
       }
     },
     {
@@ -63279,6 +63279,34 @@
         "State": "Utah",
         "County": "Iron",
         "description": "<h4 style=\"margin: 0 0 8px;\">Valentine Peak parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/valentinepeak\">parkrun.us/valentinepeak</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 2913,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.592878,
+          44.786109
+        ]
+      },
+      "properties": {
+        "eventname": "courthouselake",
+        "EventLongName": "Courthouse Lake parkrun",
+        "EventShortName": "Courthouse Lake",
+        "LocalisedEventLongName": null,
+        "countrycode": 98,
+        "seriesid": 1,
+        "EventLocation": "Courthouse Lake",
+        "Status": "parkrunning",
+        "DateCancelled": null,
+        "ReasonCancelled": null,
+        "Website": "https://www.parkrun.us/courthouselake",
+        "Country": "USA",
+        "State": "Minnesota",
+        "County": "Carver",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Courthouse Lake parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/courthouselake\">parkrun.us/courthouselake</a></td></tr></table>"
       }
     }
   ]
