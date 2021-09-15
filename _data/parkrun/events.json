@@ -6263,14 +6263,14 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Victoria Park",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-09-18",
+        "ReasonCancelled": "City of Ballarat 7 day lockdown.",
         "Website": "https://www.parkrun.com.au/ballarat",
         "Country": "Australia",
         "State": "Victoria",
         "County": "City of Ballarat",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ballarat parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/ballarat\">parkrun.com.au/ballarat</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ballarat parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>City of Ballarat 7 day lockdown.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/ballarat\">parkrun.com.au/ballarat</a></td></tr></table>"
       }
     },
     {
@@ -7411,14 +7411,14 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Alexandra Gardens",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-09-18",
+        "ReasonCancelled": "School holiday/volunteers",
         "Website": "https://www.parkrun.com.au/ararat",
         "Country": "Australia",
         "State": "Victoria",
         "County": "Ararat",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ararat parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/ararat\">parkrun.com.au/ararat</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ararat parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>School holiday/volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/ararat\">parkrun.com.au/ararat</a></td></tr></table>"
       }
     },
     {
@@ -8251,14 +8251,14 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Wallaby Track",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-09-18",
+        "ReasonCancelled": "City of Ballarat 7 day lockdown.",
         "Website": "https://www.parkrun.com.au/wallabytrack",
         "Country": "Australia",
         "State": "Victoria",
         "County": "City of Ballarat",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Wallaby Track parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/wallabytrack\">parkrun.com.au/wallabytrack</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Wallaby Track parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>City of Ballarat 7 day lockdown.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/wallabytrack\">parkrun.com.au/wallabytrack</a></td></tr></table>"
       }
     },
     {
@@ -18835,14 +18835,14 @@
         "countrycode": 46,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-09-18",
+        "ReasonCancelled": "COVID State of Emergency in Miyazaki",
         "Website": "https://www.parkrun.jp/oyodogawashiminryokuchi",
         "Country": "Japan",
         "State": "Miyazaki",
         "County": "Miyazaki",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Oyodogawa shiminryokuchi parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/oyodogawashiminryokuchi\">parkrun.jp/oyodogawashiminryokuchi</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Oyodogawa shiminryokuchi parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>COVID State of Emergency in Miyazaki</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/oyodogawashiminryokuchi\">parkrun.jp/oyodogawashiminryokuchi</a></td></tr></table>"
       }
     },
     {
@@ -30967,6 +30967,34 @@
         "State": "Eastern Cape",
         "County": "Amathole District Municipality",
         "description": "<h4 style=\"margin: 0 0 8px;\">Stutterheim parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/stutterheim\">parkrun.co.za/stutterheim</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 1247,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.727413,
+          -30.682118
+        ]
+      },
+      "properties": {
+        "eventname": "aliwalnorth",
+        "EventLongName": "Aliwal North parkrun",
+        "EventShortName": "Aliwal North",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Aliwal North",
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-09-18",
+        "ReasonCancelled": "COVID-19 (Coronavirus)",
+        "Website": "https://www.parkrun.co.za/aliwalnorth",
+        "Country": "South Africa",
+        "State": "Eastern Cape",
+        "County": "Joe Gqabi District Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Aliwal North parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/aliwalnorth\">parkrun.co.za/aliwalnorth</a></td></tr></table>"
       }
     },
     {
