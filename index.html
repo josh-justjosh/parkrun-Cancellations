@@ -199,10 +199,16 @@ date: 2021-06-22
             var maxs = urlParams.get('s')
             var maxw = urlParams.get('w')
             try {
-                var country = urlParams.get('country').toLowerCase()
+                var area = urlParams.get('country').toLowerCase()
             }
             catch(err) {
-                var country = null
+                var area = null
+            }
+            try {
+                var area = urlParams.get('area').toLowerCase()
+            }
+            catch(err) {
+                var area = null
             }
             try {
                 var docluster = urlParams.get('cluster').toLowerCase()
@@ -216,37 +222,52 @@ date: 2021-06-22
             catch(err) {
                 var showlayers = 'true,true,true,true'
             }
-            if (country == "united kingdom" || country == "uk" ) {
+            if (area == "united kingdom" || area == "uk" ) {
                 maxn = 60.9094
                 maxe = 1.8628
                 maxs = 49.8024
                 maxw = -8.7497
-            } else if (country == "northern ireland" || country == "ni" || country == "nir" ) {
+            } else if (area == "northern ireland" || area == "ni" || area == "nir" ) {
                 maxn = 55.3692
                 maxe = -5.3331
                 maxs = 53.9730
                 maxw = -8.1775
-            } else if (country == "england" || country == "en" || country == "eng" ) {
+            } else if (area == "england" || area == "en" || area == "eng" ) {
                 maxn = 55.8504
                 maxe = 1.8628
                 maxs = 49.8024
                 maxw = -6.5027
-            }  else if (country == "wales" || country == "wls" || country == "wal" ) {
+            }  else if (area == "wales" || area == "wls" || area == "wal" ) {
                 maxn = 53.4894
                 maxe = -2.6498
                 maxs = 51.3135
                 maxw = -5.7688
-            } else if (country == "scotland" || country == "sc" || country == "sct" ) {
+            } else if (area == "scotland" || area == "sc" || area == "sct" ) {
                 maxn = 60.9094
                 maxe = -0.6252
                 maxs = 54.5759
                 maxw = -8.7497
-            } else if (country == "ireland" || country == "ie" || country == "irl" ) {
+            } else if (area == "ireland" || area == "ie" || area == "irl" ) {
                 maxn = 55.4917
                 maxe = -5.8946
                 maxs = 51.3579
                 maxw = -10.7628
-            }
+            } else if (area == "australia" || area == "aus" || area == "au" ) {
+                maxn = -9.1397
+                maxe = 153.6333
+                maxs = -43.6432
+                maxw = 112.9333
+            } else if (area == "newzealand" || area == "nzl" || area == "nz" ) {
+                maxn = -34.3935
+                maxe = 178.5503
+                maxs = -47.2898
+                maxw = 166.4250
+            } else if (area == "" || area == "" || area == "" ) {
+                maxn = 0
+                maxe = 0
+                maxs = 0
+                maxw = 0
+            } 
             if (docluster == "off" || docluster == "false") {
                 docluster = false
             } else {
@@ -272,7 +293,7 @@ date: 2021-06-22
             //console.log(lat);
             //console.log(long);
             //console.log(center);
-            //console.log(country);
+            //console.log(area);
             //console.log(docluster);
             //console.log(showlayers);
             //console.log(maxn);
