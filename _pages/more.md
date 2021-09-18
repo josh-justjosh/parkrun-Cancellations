@@ -852,7 +852,7 @@ permalink: /more
             <div class="grid">
                 <div>
                     <h2 class="split">Country Situations</h2>
-                    <p id="statusupdated">Last Updated*: {% capture statusupdated %}2021-09-06 08:02 UTC+1{% endcapture %}</p>
+                    <p id="statusupdated">Last Updated*: {% capture statusupdated %}2021-09-18 08:02 UTC+1{% endcapture %}</p>
                     <script>
                         var statusupdated = new Date("{{statusupdated | date: '%Y-%m-%dT%T%z'}}").getTime();
                         var su_date = new Date(statusupdated)
@@ -945,9 +945,9 @@ permalink: /more
                         </div>
                     </div>
                     <div class="countrystatus">
-                        <div class="statusgreen">
+                        <div class="statusred">
                             <h3>New Zealand</h3>
-                            <p>Events Open</p>
+                            <p>Events Suspended</p>
                         </div>
                     </div>
                     <div class="countrystatus">
@@ -1003,9 +1003,9 @@ permalink: /more
                             </div>
                         </div>
                         <div class="countrystatus">
-                            <div class="statusgreen">
+                            <div class="statusred">
                                 <h3>New South Wales</h3>
-                                <p>Events Open</p>
+                                <p>Events Suspended</p>
                             </div>
                         </div>
                         <div class="countrystatus">
@@ -1033,9 +1033,9 @@ permalink: /more
                             </div>
                         </div>
                         <div class="countrystatus">  
-                            <div class="statusgreen">
+                            <div class="statusred">
                                 <h3>Victoria</h3>
-                                <p>Events Open</p>
+                                <p>Events Suspended</p>
                             </div>
                         </div>
                         <div id="wastatus" class="countrystatus">
