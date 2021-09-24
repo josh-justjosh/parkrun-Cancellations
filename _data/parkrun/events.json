@@ -10295,14 +10295,14 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Heritage Park,",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-09-25",
+        "ReasonCancelled": "Icy paths",
         "Website": "https://www.parkrun.com.au/geeveston",
         "Country": "Australia",
         "State": "Tasmania",
         "County": "Huon Valley",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Geeveston parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/geeveston\">parkrun.com.au/geeveston</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Geeveston parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Icy paths</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/geeveston\">parkrun.com.au/geeveston</a></td></tr></table>"
       }
     },
     {
@@ -32594,6 +32594,34 @@
       }
     },
     {
+      "id": 2902,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.943555,
+          57.582383
+        ]
+      },
+      "properties": {
+        "eventname": "billdalsparken",
+        "EventLongName": "Billdalsparken parkrun",
+        "EventShortName": "Billdalsparken",
+        "LocalisedEventLongName": null,
+        "countrycode": 88,
+        "seriesid": 1,
+        "EventLocation": "Billdal Park",
+        "Status": "parkrunning",
+        "DateCancelled": null,
+        "ReasonCancelled": null,
+        "Website": "https://www.parkrun.se/billdalsparken",
+        "Country": "Sweden",
+        "State": "V\u00e4stra G\u00f6taland",
+        "County": "Gothenburg Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Billdalsparken parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.se/billdalsparken\">parkrun.se/billdalsparken</a></td></tr></table>"
+      }
+    },
+    {
       "id": 12,
       "type": "Feature",
       "geometry": {
@@ -39303,14 +39331,14 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Danson Park, Bexley",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-09-25",
+        "ReasonCancelled": "Key section of route closed due to works",
         "Website": "https://www.parkrun.org.uk/bexley",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Greater London",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bexley parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/bexley\">parkrun.org.uk/bexley</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bexley parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Key section of route closed due to works</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/bexley\">parkrun.org.uk/bexley</a></td></tr></table>"
       }
     },
     {
@@ -45194,6 +45222,34 @@
       }
     },
     {
+      "id": 2899,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.295457,
+          52.384367
+        ]
+      },
+      "properties": {
+        "eventname": "harlestonmagpies",
+        "EventLongName": "Harleston Magpies parkrun",
+        "EventShortName": "Harleston Magpies",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Harleston Magpies Hockey Club",
+        "Status": "parkrunning",
+        "DateCancelled": null,
+        "ReasonCancelled": null,
+        "Website": "https://www.parkrun.org.uk/harlestonmagpies",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Suffolk",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Harleston Magpies parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/harlestonmagpies\">parkrun.org.uk/harlestonmagpies</a></td></tr></table>"
+      }
+    },
+    {
       "id": 9,
       "type": "Feature",
       "geometry": {
@@ -48859,6 +48915,34 @@
         "State": "England",
         "County": "Northamptonshire",
         "description": "<h4 style=\"margin: 0 0 8px;\">Spencer Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Rushden Feast Fair in the park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/spencerpark-juniors\">parkrun.org.uk/spencerpark-juniors</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 2885,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.103213,
+          52.690658
+        ]
+      },
+      "properties": {
+        "eventname": "watermeadcountrypark",
+        "EventLongName": "Watermead Country Park parkrun",
+        "EventShortName": "Watermead Country Park",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Watermead Country Park",
+        "Status": "parkrunning",
+        "DateCancelled": null,
+        "ReasonCancelled": null,
+        "Website": "https://www.parkrun.org.uk/watermeadcountrypark",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Leicestershire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Watermead Country Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/watermeadcountrypark\">parkrun.org.uk/watermeadcountrypark</a></td></tr></table>"
       }
     },
     {
@@ -54770,6 +54854,34 @@
       }
     },
     {
+      "id": 2900,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.417858,
+          50.750746
+        ]
+      },
+      "properties": {
+        "eventname": "cranbrookcountrypark",
+        "EventLongName": "Cranbrook Country Park parkrun",
+        "EventShortName": "Cranbrook Country Park",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Cranbrook Country Park",
+        "Status": "parkrunning",
+        "DateCancelled": null,
+        "ReasonCancelled": null,
+        "Website": "https://www.parkrun.org.uk/cranbrookcountrypark",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Devon",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cranbrook Country Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cranbrookcountrypark\">parkrun.org.uk/cranbrookcountrypark</a></td></tr></table>"
+      }
+    },
+    {
       "id": 3,
       "type": "Feature",
       "geometry": {
@@ -54871,14 +54983,14 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Thames Riverside, Reading",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-09-25",
+        "ReasonCancelled": "No parking due to ongoing TVP Drive roadworks",
         "Website": "https://www.parkrun.org.uk/reading",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Wokingham",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Reading parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/reading\">parkrun.org.uk/reading</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Reading parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>No parking due to ongoing TVP Drive roadworks</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/reading\">parkrun.org.uk/reading</a></td></tr></table>"
       }
     },
     {
