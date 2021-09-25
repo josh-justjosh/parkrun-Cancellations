@@ -40,7 +40,7 @@
       "url": "www.parkrun.fi",
       "bounds": [
         23.759243,
-        60.177056,
+        60.180235,
         25.538652,
         65.015719
       ]
@@ -2431,46 +2431,6 @@
           "countrycode": 3,
           "seriesid": 1,
           "EventLocation": "Ecco Ripley"
-        }
-      },
-      {
-        "id": 2878,
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            153.073387,
-            -27.211218
-          ]
-        },
-        "properties": {
-          "eventname": "nathanroadsportsground",
-          "EventLongName": "Nathan Road Sports Ground parkrun",
-          "EventShortName": "Nathan Road Sports Ground",
-          "LocalisedEventLongName": null,
-          "countrycode": 3,
-          "seriesid": 1,
-          "EventLocation": "Nathan Road Sports Ground"
-        }
-      },
-      {
-        "id": 2906,
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            151.600195,
-            -26.164413
-          ]
-        },
-        "properties": {
-          "eventname": "railwaypark",
-          "EventLongName": "Railway Park parkrun",
-          "EventShortName": "Railway Park",
-          "LocalisedEventLongName": null,
-          "countrycode": 3,
-          "seriesid": 1,
-          "EventLocation": "Railway Park"
         }
       },
       {
@@ -9734,26 +9694,6 @@
         }
       },
       {
-        "id": 2917,
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            24.697029,
-            60.177056
-          ]
-        },
-        "properties": {
-          "eventname": "puolarmaari",
-          "EventLongName": "Puolarmaari parkrun",
-          "EventShortName": "Puolarmaari",
-          "LocalisedEventLongName": null,
-          "countrycode": 30,
-          "seriesid": 1,
-          "EventLocation": "Espoon keskuspuisto, Puolarmaari 12"
-        }
-      },
-      {
         "id": 418,
         "type": "Feature",
         "geometry": {
@@ -14228,26 +14168,6 @@
           "EventLongName": "Chuo koen parkrun",
           "EventShortName": "Chuo koen",
           "LocalisedEventLongName": "\u4e2d\u592e\u516c\u5712parkrun",
-          "countrycode": 46,
-          "seriesid": 1,
-          "EventLocation": ""
-        }
-      },
-      {
-        "id": 2898,
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            136.720588,
-            35.173272
-          ]
-        },
-        "properties": {
-          "eventname": "tennogawakoen",
-          "EventLongName": "Tennogawa koen parkrun",
-          "EventShortName": "Tennogawa koen",
-          "LocalisedEventLongName": "\u5929\u738b\u5ddd\u516c\u5712parkrun",
           "countrycode": 46,
           "seriesid": 1,
           "EventLocation": ""
@@ -20974,6 +20894,26 @@
         }
       },
       {
+        "id": 401,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            27.447946,
+            -26.901409
+          ]
+        },
+        "properties": {
+          "eventname": "parys",
+          "EventLongName": "Parys parkrun",
+          "EventShortName": "Parys",
+          "LocalisedEventLongName": null,
+          "countrycode": 85,
+          "seriesid": 1,
+          "EventLocation": "Mimosa Gardens"
+        }
+      },
+      {
         "id": 1113,
         "type": "Feature",
         "geometry": {
@@ -26074,6 +26014,26 @@
         }
       },
       {
+        "id": 612,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -2.659442,
+            53.708614
+          ]
+        },
+        "properties": {
+          "eventname": "cuerdenvalley",
+          "EventLongName": "Cuerden Valley parkrun",
+          "EventShortName": "Cuerden Valley",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 1,
+          "EventLocation": "Cuerden Valley Park"
+        }
+      },
+      {
         "id": 647,
         "type": "Feature",
         "geometry": {
@@ -30154,26 +30114,6 @@
         }
       },
       {
-        "id": 2907,
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            0.041628,
-            51.480751
-          ]
-        },
-        "properties": {
-          "eventname": "charlton",
-          "EventLongName": "Charlton parkrun",
-          "EventShortName": "Charlton",
-          "LocalisedEventLongName": null,
-          "countrycode": 97,
-          "seriesid": 1,
-          "EventLocation": "Charlton Park"
-        }
-      },
-      {
         "id": 14,
         "type": "Feature",
         "geometry": {
@@ -32634,26 +32574,6 @@
         }
       },
       {
-        "id": 2777,
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -0.268787,
-            52.030537
-          ]
-        },
-        "properties": {
-          "eventname": "henlowbridgelakes",
-          "EventLongName": "Henlow Bridge Lakes parkrun",
-          "EventShortName": "Henlow Bridge Lakes",
-          "LocalisedEventLongName": null,
-          "countrycode": 97,
-          "seriesid": 1,
-          "EventLocation": "Henlow Bridge Lakes"
-        }
-      },
-      {
         "id": 2781,
         "type": "Feature",
         "geometry": {
@@ -32731,26 +32651,6 @@
           "countrycode": 97,
           "seriesid": 1,
           "EventLocation": "Storeys Field"
-        }
-      },
-      {
-        "id": 2892,
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.640492,
-            52.713022
-          ]
-        },
-        "properties": {
-          "eventname": "flegghigh",
-          "EventLongName": "Flegg High parkrun",
-          "EventShortName": "Flegg High",
-          "LocalisedEventLongName": null,
-          "countrycode": 97,
-          "seriesid": 1,
-          "EventLocation": "Flegg High Ormiston Academy"
         }
       },
       {
@@ -38314,6 +38214,26 @@
         }
       },
       {
+        "id": 629,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -2.712979,
+            50.951485
+          ]
+        },
+        "properties": {
+          "eventname": "yeovilmontacute",
+          "EventLongName": "Yeovil Montacute parkrun",
+          "EventShortName": "Yeovil Montacute",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 1,
+          "EventLocation": "Montacute House"
+        }
+      },
+      {
         "id": 632,
         "type": "Feature",
         "geometry": {
@@ -43231,6 +43151,26 @@
           "countrycode": 97,
           "seriesid": 1,
           "EventLocation": "Wellholme Park"
+        }
+      },
+      {
+        "id": 202,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.646503,
+            54.385534
+          ]
+        },
+        "properties": {
+          "eventname": "catterick",
+          "EventLongName": "Catterick parkrun",
+          "EventShortName": "Catterick",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 1,
+          "EventLocation": "Catterick Racecourse"
         }
       },
       {
