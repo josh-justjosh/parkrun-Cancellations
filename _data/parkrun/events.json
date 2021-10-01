@@ -2903,14 +2903,14 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Waterloo Plains Environmental Park",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-10-02",
+        "ReasonCancelled": "Rain has made the track dangerous",
         "Website": "https://www.parkrun.com.au/waterlooplains",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Western Downs",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Waterloo Plains parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/waterlooplains\">parkrun.com.au/waterlooplains</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Waterloo Plains parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Rain has made the track dangerous</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/waterlooplains\">parkrun.com.au/waterlooplains</a></td></tr></table>"
       }
     },
     {
@@ -3071,14 +3071,14 @@
         "countrycode": 3,
         "seriesid": 2,
         "EventLocation": "Bellevue Park State School",
-        "Status": "junior parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "junior Cancellation",
+        "DateCancelled": "2021-10-03",
+        "ReasonCancelled": "School hols - not enough register volunteers",
         "Website": "https://www.parkrun.com.au/bellevuepark-juniors",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Gold Coast",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bellevue Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/bellevuepark-juniors\">parkrun.com.au/bellevuepark-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bellevue Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Cancellation Note:</th><td>School hols - not enough register volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/bellevuepark-juniors\">parkrun.com.au/bellevuepark-juniors</a></td></tr></table>"
       }
     },
     {
@@ -46171,34 +46171,6 @@
         "State": "Wales",
         "County": "Wrexham",
         "description": "<h4 style=\"margin: 0 0 8px;\">Erddig parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/erddig\">parkrun.org.uk/erddig</a></td></tr></table>"
-      }
-    },
-    {
-      "id": 1462,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -4.315982,
-          51.854169
-        ]
-      },
-      "properties": {
-        "eventname": "carmarthen-juniors",
-        "EventLongName": "Carmarthen junior parkrun",
-        "EventShortName": "Carmarthen juniors",
-        "LocalisedEventLongName": "Carmarthen junior parkrun",
-        "countrycode": 97,
-        "seriesid": 2,
-        "EventLocation": "Carmarthen Park",
-        "Status": "junior Cancellation",
-        "DateCancelled": "2021-10-03",
-        "ReasonCancelled": "Establishing an event team",
-        "Website": "https://www.parkrun.org.uk/carmarthen-juniors",
-        "Country": "United Kingdom",
-        "State": "Wales",
-        "County": "Carmarthenshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Carmarthen junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Establishing an event team</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/carmarthen-juniors\">parkrun.org.uk/carmarthen-juniors</a></td></tr></table>"
       }
     },
     {
