@@ -575,7 +575,7 @@ permalink: /more
                         <a href="/updates" style="float:right">Click to see a full history</a>
                     </div>
                     <script>
-                        var last_addition = new Date("{{ site.data.parkrun.cancellation-additions.last.Event | date: '%Y-%m-%dT%T%z'}}").getTime();
+                        var last_addition = new Date("{{ site.data.parkrun.cancellation-additions.last.Event | date: '%Y-%m-%dT%T'}}+0000").getTime();
                         var la_date = new Date(last_addition)
                         var outa = la_date.toLocaleString('default', options);
                         document.getElementById("lastaddition").innerHTML = 'Last Change: ' + outa
@@ -852,7 +852,7 @@ permalink: /more
             <div class="grid">
                 <div>
                     <h2 class="split">Country Situations</h2>
-                    <p id="statusupdated">Last Updated*: {% capture statusupdated %}2021-09-18 08:02 UTC+1{% endcapture %}</p>
+                    <p id="statusupdated">Last Updated*: {% capture statusupdated %}2021-10-05 08:42 UTC+1{% endcapture %}</p>
                     <script>
                         var statusupdated = new Date("{{statusupdated | date: '%Y-%m-%dT%T%z'}}").getTime();
                         var su_date = new Date(statusupdated)
@@ -868,9 +868,9 @@ permalink: /more
                         </div>
                     </div>
                     <div class="countrystatus">
-                        <div class="statusamber">
+                        <div class="statusgreen">
                             <h3>Canada</h3>
-                            <p>Some Events Open</p>
+                            <p>Most Events Open</p>
                         </div>
                     </div>
                     <div class="countrystatus">
@@ -906,24 +906,24 @@ permalink: /more
                     <div id ="irelandstatus" class="countrystatus">
                         <div id ="irelandgrid" class="grid">
                             <h3 id="irelandtitle" style="color: unset">Ireland</h3>
-                            <div class="statusamber">
-                                <p>Some 5k Events Open</p>
+                            <div class="statusgreen">
+                                <p>Most 5k Events Open</p>
                             </div>
-                            <div id="irlandjstatus" class="statusamber">
-                                <p id="irelandjuniorevents">Some junior Events Open</p>
+                            <div id="irlandjstatus" class="statusgreen">
+                                <p id="irelandjuniorevents">Most junior Events Open</p>
                             </div>
                         </div>
                     </div>
                     <div class="countrystatus">
-                        <div class="statusamber">
+                        <div class="statusgreen">
                             <h3>Italy</h3>
-                            <p>Some Events Open</p>
+                            <p>Most Events Open</p>
                         </div>
                     </div>
                     <div class="countrystatus">
-                        <div class="statusamber">
+                        <div class="statusgreen">
                             <h3>Japan</h3>
-                            <p>Some Events Open</p>
+                            <p>Most Events Open</p>
                         </div>
                     </div>
                     <div class="countrystatus">
@@ -945,15 +945,15 @@ permalink: /more
                         </div>
                     </div>
                     <div class="countrystatus">
-                        <div class="statusred">
+                        <div class="statusgreen">
                             <h3>New Zealand</h3>
-                            <p>Events Suspended</p>
+                            <p>Events Open</p>
                         </div>
                     </div>
                     <div class="countrystatus">
-                        <div class="statusamber">
+                        <div class="statusgreen">
                             <h3>Norway</h3>
-                            <p>Some Events Open</p>
+                            <p>Events Open</p>
                         </div>
                     </div>
                     <div class="countrystatus">
@@ -965,7 +965,7 @@ permalink: /more
                     <div class="countrystatus">
                         <div class="statusgreen">
                             <h3>Russia</h3>
-                            <p>Most Events Open</p>
+                            <p>Events Open</p>
                         </div>
                     </div>
                     <div class="countrystatus">
@@ -989,7 +989,7 @@ permalink: /more
                     <div id="usastatus" class="countrystatus">
                         <div class="statusgreen">
                             <h3>USA</h3>
-                            <p>Most Events Open</p>
+                            <p>Events Open</p>
                         </div>
                     </div>
                 </div>
@@ -997,15 +997,15 @@ permalink: /more
                     <h3 class="split">Australia</h3>
                     <div id="australiagrid" class="grid">
                         <div class="countrystatus">
-                            <div class="statusred">
+                            <div class="statusgreen">
                                 <h4>Australian Capital Territory</h4>
-                                <p>Events Suspended</p>
+                                <p>Events Open</p>
                             </div>
                         </div>
                         <div class="countrystatus">
-                            <div class="statusred">
+                            <div class="statusgreen">
                                 <h3>New South Wales</h3>
-                                <p>Events Suspended</p>
+                                <p>Events Open</p>
                             </div>
                         </div>
                         <div class="countrystatus">
@@ -1033,9 +1033,9 @@ permalink: /more
                             </div>
                         </div>
                         <div class="countrystatus">  
-                            <div class="statusred">
+                            <div class="statusgreen">
                                 <h3>Victoria</h3>
-                                <p>Events Suspended</p>
+                                <p>Events Open</p>
                             </div>
                         </div>
                         <div id="wastatus" class="countrystatus">
