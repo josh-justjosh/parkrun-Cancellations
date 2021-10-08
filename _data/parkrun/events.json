@@ -10183,14 +10183,14 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Windsor Precinct",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-10-09",
+        "ReasonCancelled": "Sustainable Living Festival; access not available",
         "Website": "https://www.parkrun.com.au/windsorprecinct",
         "Country": "Australia",
         "State": "Tasmania",
         "County": "West Tamar",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Windsor Precinct parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/windsorprecinct\">parkrun.com.au/windsorprecinct</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Windsor Precinct parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Sustainable Living Festival; access not available</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/windsorprecinct\">parkrun.com.au/windsorprecinct</a></td></tr></table>"
       }
     },
     {
@@ -14559,6 +14559,34 @@
         "State": "Hesse",
         "County": "Regierungsbezirk Darmstadt",
         "description": "<h4 style=\"margin: 0 0 8px;\">Offenthal parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/offenthal\">parkrun.com.de/offenthal</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 2751,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.558893,
+          52.058616
+        ]
+      },
+      "properties": {
+        "eventname": "obersee",
+        "EventLongName": "Obersee parkrun",
+        "EventShortName": "Obersee",
+        "LocalisedEventLongName": null,
+        "countrycode": 32,
+        "seriesid": 1,
+        "EventLocation": "Obersee",
+        "Status": "parkrunning",
+        "DateCancelled": null,
+        "ReasonCancelled": null,
+        "Website": "https://www.parkrun.com.de/obersee",
+        "Country": "Germany",
+        "State": "North Rhine-Westphalia",
+        "County": "Regierungsbezirk Detmold",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Obersee parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/obersee\">parkrun.com.de/obersee</a></td></tr></table>"
       }
     },
     {
@@ -29371,6 +29399,34 @@
         "State": "Orange Free State",
         "County": "Fezile Dabi District Municipality",
         "description": "<h4 style=\"margin: 0 0 8px;\">Steynsrus Showground parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/steynsrusshowground\">parkrun.co.za/steynsrusshowground</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 2933,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.446698,
+          -26.901128
+        ]
+      },
+      "properties": {
+        "eventname": "egweniriverlodge",
+        "EventLongName": "Egweni River Lodge parkrun",
+        "EventShortName": "Egweni River Lodge",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Egweni River Lodge",
+        "Status": "parkrunning",
+        "DateCancelled": null,
+        "ReasonCancelled": null,
+        "Website": "https://www.parkrun.co.za/egweniriverlodge",
+        "Country": "South Africa",
+        "State": "Orange Free State",
+        "County": "Fezile Dabi District Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Egweni River Lodge parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/egweniriverlodge\">parkrun.co.za/egweniriverlodge</a></td></tr></table>"
       }
     },
     {
