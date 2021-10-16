@@ -27778,34 +27778,6 @@
       }
     },
     {
-      "id": 1533,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          30.682193,
-          -30.392475
-        ]
-      },
-      "properties": {
-        "eventname": "umdoni",
-        "EventLongName": "Umdoni parkrun",
-        "EventShortName": "Umdoni",
-        "LocalisedEventLongName": null,
-        "countrycode": 85,
-        "seriesid": 1,
-        "EventLocation": "Umdoni Park Environmental Centre",
-        "Status": "5k Cancellation",
-        "DateCancelled": "2021-10-16",
-        "ReasonCancelled": "COVID-19 (Coronavirus)",
-        "Website": "https://www.parkrun.co.za/umdoni",
-        "Country": "South Africa",
-        "State": "KwaZulu-Natal",
-        "County": "Ugu District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Umdoni parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/umdoni\">parkrun.co.za/umdoni</a></td></tr></table>"
-      }
-    },
-    {
       "id": 1622,
       "type": "Feature",
       "geometry": {
@@ -37623,14 +37595,14 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Leigh Sports Village",
-        "Status": "junior parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "junior Cancellation",
+        "DateCancelled": "2021-10-17",
+        "ReasonCancelled": "Maintenance works on footways.",
         "Website": "https://www.parkrun.org.uk/leigh-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Wigan",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Leigh junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/leigh-juniors\">parkrun.org.uk/leigh-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Leigh junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Maintenance works on footways.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/leigh-juniors\">parkrun.org.uk/leigh-juniors</a></td></tr></table>"
       }
     },
     {
@@ -45575,14 +45547,14 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Parc Penallta Country Park",
-        "Status": "junior parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "junior Cancellation",
+        "DateCancelled": "2021-10-17",
+        "ReasonCancelled": "COVID-19 retests or core RD team. No availability",
         "Website": "https://www.parkrun.org.uk/penallta-juniors",
         "Country": "United Kingdom",
         "State": "Wales",
         "County": "Caerphilly",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Penallta junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/penallta-juniors\">parkrun.org.uk/penallta-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Penallta junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 retests or core RD team. No availability</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/penallta-juniors\">parkrun.org.uk/penallta-juniors</a></td></tr></table>"
       }
     },
     {
@@ -50791,6 +50763,34 @@
         "State": "England",
         "County": "Solihull",
         "description": "<h4 style=\"margin: 0 0 8px;\">Malvern Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/malvernpark-juniors\">parkrun.org.uk/malvernpark-juniors</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 2920,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.417387,
+          52.25721
+        ]
+      },
+      "properties": {
+        "eventname": "dallasburstonpoloclub",
+        "EventLongName": "Dallas Burston Polo Club parkrun",
+        "EventShortName": "Dallas Burston Polo Club",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Dallas Burston Polo Club Hockey Club",
+        "Status": "parkrunning",
+        "DateCancelled": null,
+        "ReasonCancelled": null,
+        "Website": "https://www.parkrun.org.uk/dallasburstonpoloclub",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Warwickshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Dallas Burston Polo Club parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/dallasburstonpoloclub\">parkrun.org.uk/dallasburstonpoloclub</a></td></tr></table>"
       }
     },
     {
