@@ -713,7 +713,7 @@ permalink: /more
                 } 
             });
             }
-        </script>-->
+        </script>
         <style>
         .countrystatus, .statusgreen, .statusamber, .statusred, .statusblue {
             display: flex;
@@ -1126,7 +1126,7 @@ permalink: /more
                 } 
             });
             }
-        </script>
+        </script>-->
         <button type="button" class="collapsiblestats" style="margin: 5px;">Click to view a summary of the data for each country</button>
         <div class="expcontent">
             <h2 class="split">Events</h2>
