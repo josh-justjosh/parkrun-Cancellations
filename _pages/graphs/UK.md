@@ -5,7 +5,7 @@ title: 'UK Graphs'
 date: 2021-12-31
 ---
 
-{% for stuff in site.data.parkrun.raw.time %}
+{% for stuff in site.data.raw.time %}
 {% assign last_modified_at = stuff.time %}
 {% endfor %}
 
@@ -111,7 +111,7 @@ const chartoptions = {
     aspectRatio: 1.5,
     spanGaps: true,
 }
-const ukdata = {{ site.data.parkrun.history.unitedkingdom | jsonify }}
+const ukdata = {{ site.data.history.unitedkingdom | jsonify }}
 const ukconfig = {
     type: 'line',
     data: {
@@ -217,7 +217,7 @@ var juniorChart = new Chart(
     document.getElementById('juniorChart'),
     juniorconfig
 );
-const engdata = {{ site.data.parkrun.history.uk.england | jsonify }}
+const engdata = {{ site.data.history.uk.england | jsonify }}
 const engconfig = {
     type: 'line',
     data: {
@@ -265,7 +265,7 @@ var engChart = new Chart(
     document.getElementById('engChart'),
     engconfig
 );
-const nidata = {{ site.data.parkrun.history.uk.ni | jsonify }}
+const nidata = {{ site.data.history.uk.ni | jsonify }}
 const niconfig = {
     type: 'line',
     data: {
@@ -313,7 +313,7 @@ var niChart = new Chart(
     document.getElementById('niChart'),
     niconfig
 );
-const scodata = {{ site.data.parkrun.history.uk.scotland | jsonify }}
+const scodata = {{ site.data.history.uk.scotland | jsonify }}
 const scoconfig = {
     type: 'line',
     data: {
@@ -361,7 +361,7 @@ var scoChart = new Chart(
     document.getElementById('scoChart'),
     scoconfig
 );
-const waldata = {{ site.data.parkrun.history.uk.wales | jsonify }}
+const waldata = {{ site.data.history.uk.wales | jsonify }}
 const walconfig = {
     type: 'line',
     data: {

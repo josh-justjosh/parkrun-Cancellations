@@ -5,7 +5,7 @@ title: 'Ireland Graphs'
 date: 2021-12-31
 ---
 
-{% for stuff in site.data.parkrun.raw.time %}
+{% for stuff in site.data.raw.time %}
 {% assign last_modified_at = stuff.time %}
 {% endfor %}
 
@@ -96,7 +96,7 @@ const chartoptions = {
     aspectRatio: 1.5,
     spanGaps: true,
 }
-const irldata = {{ site.data.parkrun.history.ireland | jsonify }}
+const irldata = {{ site.data.history.ireland | jsonify }}
 const irlconfig = {
     type: 'line',
     data: {

@@ -6,7 +6,7 @@ date: 2021-05-27
 permalink: /more
 ---
 
-{% for stuff in site.data.parkrun.raw.time %}
+{% for stuff in site.data.raw.time %}
 {% assign last_modified_at = stuff.time %}
 {% endfor %}
 
@@ -22,8 +22,8 @@ permalink: /more
     var out = lm_date.toLocaleString('default', options);
     document.getElementById("lastupdated").innerHTML = 'Data Last Refreshed: ' + out
 </script>
-<div style="background-color: rgba(255,128,0,0.25); margin: 25px; padding: 10px; text-align: center">
-    <p>These pages are in beta, please see <a href="#contact">the information at the bottom of the page</a> for how to report errors.<br />You should always check the event's website and social media channels before setting out.</p>
+<div style="background-color: rgba(255,128,0,0.25); margin: 25px; padding: 5px; text-align: center">
+    <p><!--These pages are in beta, please see <a href="#contact">the information at the bottom of the page</a> for how to report errors.<br />-->Always check the event's website and social media channels before setting out.</p>
 </div>
 
 <html>
@@ -188,7 +188,7 @@ permalink: /more
                 // add a clustered GeoJSON source for a sample set of parkruns
                 map.addSource('parkruns', {
                     'type': 'geojson',
-                    'data': {{ site.data.parkrun.events | jsonify}},
+                    'data': {{ site.data.events | jsonify}},
                     'cluster': true,
                     'clusterRadius': 50,
                     'clusterProperties': {
@@ -531,7 +531,7 @@ permalink: /more
         </script>
         <div style="display:flex; flex-wrap: wrap;">
         <p style="flex-grow: 1;">Showing data for 
-        {% for row in site.data.parkrun.cancellation-dates %}
+        {% for row in site.data.cancellation-dates %}
             {% for pair in row %}
                 {% for item in pair %}
                     {% if forloop.last %}
@@ -544,11 +544,11 @@ permalink: /more
         </p>
         <a style="margin:auto; flex-grow: 1; text-align: end;" href="/" id="map-link">Click here to go to the full map.</a>
         </div>
-        {% if site.data.parkrun.cancellation-changes.size > 0 %}
+        {% if site.data.cancellation-changes.size > 0 %}
         <h2 class="split">Most Recent Changes</h2>
             <div>
-                {% if site.data.parkrun.cancellation-additions.size > 0 %}
-                    <button type="button" class="collapsiblecan" style="margin: 5px;"><p style="float:left; margin: 0">Click to view the most recent Cancellations</p><p style="float:right; margin: 0" id='lastaddition'>Last Change: {{site.data.parkrun.cancellation-additions.last.Event | date: "%R UTC %A, %e&nbsp;%B&nbsp;%Y" }}</p></button>
+                {% if site.data.cancellation-additions.size > 0 %}
+                    <button type="button" class="collapsiblecan" style="margin: 5px;"><p style="float:left; margin: 0">Click to view the most recent Cancellations</p><p style="float:right; margin: 0" id='lastaddition'>Last Change: {{site.data.cancellation-additions.last.Event | date: "%R UTC %A, %e&nbsp;%B&nbsp;%Y" }}</p></button>
                     <div class="expcontentcan">
                         <div class="hscrollable">
                             <table style="width: 100%">
@@ -557,7 +557,7 @@ permalink: /more
                                     <th>Country</th>
                                     <th>Cancellation Note</th>
                                 </tr>
-                                {% for row in site.data.parkrun.cancellation-additions %}
+                                {% for row in site.data.cancellation-additions %}
                                     {% unless forloop.last %}
                                     <tr>
                                         {% if row['Website'] != null %}
@@ -575,7 +575,7 @@ permalink: /more
                         <a href="/updates" style="float:right">Click to see a full history</a>
                     </div>
                     <script>
-                        var last_addition = new Date("{{ site.data.parkrun.cancellation-additions.last.Event | date: '%Y-%m-%dT%T'}}+0000").getTime();
+                        var last_addition = new Date("{{ site.data.cancellation-additions.last.Event | date: '%Y-%m-%dT%T'}}+0000").getTime();
                         var la_date = new Date(last_addition)
                         var outa = la_date.toLocaleString('default', options);
                         document.getElementById("lastaddition").innerHTML = 'Last Change: ' + outa
@@ -596,8 +596,8 @@ permalink: /more
                 {% endif %}
             </div>
             <!--<div>
-                {% if site.data.parkrun.cancellation-removals.size > 0 %}
-                    <button type="button" class="collapsiblerein" style="margin: 5px;"><p style="float:left; margin: 0">Click to view the most recent Reinstatements</p><p style="float:right; margin: 0">Last Change: {{site.data.parkrun.cancellation-removals.last.Event | date: "%R UTC %A, %e&nbsp;%B&nbsp;%Y" }}</p></button>
+                {% if site.data.cancellation-removals.size > 0 %}
+                    <button type="button" class="collapsiblerein" style="margin: 5px;"><p style="float:left; margin: 0">Click to view the most recent Reinstatements</p><p style="float:right; margin: 0">Last Change: {{site.data.cancellation-removals.last.Event | date: "%R UTC %A, %e&nbsp;%B&nbsp;%Y" }}</p></button>
                     <div class="expcontentrein">
                         <div class="hscrollable">
                            <table style="width: 100%">
@@ -606,7 +606,7 @@ permalink: /more
                                     <th>Country</th>
                                     <th>Cancellation Note</th>
                                 </tr>
-                                {% for row in site.data.parkrun.cancellation-removals %}
+                                {% for row in site.data.cancellation-removals %}
                                     {% unless forloop.last %}
                                     <tr>
                                         {% if row['Website'] != null %}
@@ -694,7 +694,7 @@ permalink: /more
         <div class="expcontent">
             <h3> The following English events have been granted permission to return </h3>
             <div class="ptr-flex">
-                {% for row in site.data.parkrun.PtR %}
+                {% for row in site.data.PtR %}
                     <div class="ptr-cell">{{ row["Event"] }}</div>
                 {% endfor %}
             </div>
@@ -713,7 +713,7 @@ permalink: /more
                 } 
             });
             }
-        </script>-->
+        </script>
         <style>
         .countrystatus, .statusgreen, .statusamber, .statusred, .statusblue {
             display: flex;
@@ -1126,13 +1126,13 @@ permalink: /more
                 } 
             });
             }
-        </script>
+        </script>-->
         <button type="button" class="collapsiblestats" style="margin: 5px;">Click to view a summary of the data for each country</button>
         <div class="expcontent">
             <h2 class="split">Events</h2>
             <div class="hscrollable">
             <table style="width: 100%;">
-                {% for row in site.data.parkrun.countries-data %}
+                {% for row in site.data.countries-data %}
                     <tr>
                         {% if forloop.first %}
                             {% for pair in row %}
@@ -1160,7 +1160,7 @@ permalink: /more
             <h2 class="split">UK Events</h2>
             <div class="hscrollable">
             <table style="width: 100%;">
-                {% for row in site.data.parkrun.uk-data %}
+                {% for row in site.data.uk-data %}
                     <tr>
                         {% if forloop.first %}
                             {% for pair in row %}
@@ -1188,7 +1188,7 @@ permalink: /more
             <h2 class="split">Australian Events</h2>
             <div class="hscrollable">
             <table style="width: 100%;">
-                {% for row in site.data.parkrun.aus-data %}
+                {% for row in site.data.aus-data %}
                     <tr>
                         {% if forloop.first %}
                             {% for pair in row %}

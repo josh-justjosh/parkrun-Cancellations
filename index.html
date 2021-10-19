@@ -311,7 +311,7 @@ date: 2021-06-22
         <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
 
         <div id="map"></div>
-        {% for stuff in site.data.parkrun.raw.time %}
+        {% for stuff in site.data.raw.time %}
         {% assign last_modified_at = stuff.time %}
         {% endfor %}
 
@@ -321,7 +321,7 @@ date: 2021-06-22
         <p class="textbox" id="lastupdated" datetime="{{ last_modified_at | date_to_xmlschema }}">Data Last Refreshed: {{ last_modified_at | date: "%R" }} UTC {{ last_modified_at | date: "%A, %e&nbsp;%B&nbsp;%Y" }}
         {% endif %}
         <br/>Always check the event's website and social media before setting out</p>
-        <p class="textbox" id="dates">Showing data for {% for row in site.data.parkrun.cancellation-dates %}{% for pair in row %}{% for item in pair %}{% if forloop.last %} and {% endif %}{{ item | date: "%A, %e&nbsp;%B&nbsp;%Y" }}{% endfor %}{% endfor %}{% endfor %}</p>
+        <p class="textbox" id="dates">Showing data for {% for row in site.data.cancellation-dates %}{% for pair in row %}{% for item in pair %}{% if forloop.last %} and {% endif %}{{ item | date: "%A, %e&nbsp;%B&nbsp;%Y" }}{% endfor %}{% endfor %}{% endfor %}</p>
         <button onclick="copy()" href="{{ site.baseurl }}" class="textbox" id="share"><span class="material-icons-outlined">share</span></button>
         <a class="textbox" id="more" href="{{ site.baseurl }}/more">Find out more</a>
         <script>
@@ -548,7 +548,7 @@ date: 2021-06-22
                 // add a clustered GeoJSON source for a sample set of parkruns
                 map.addSource('parkruns', {
                     'type': 'geojson',
-                    'data': {{ site.data.parkrun.events | jsonify}},
+                    'data': {{ site.data.events | jsonify}},
                     'filter': sourcefilter,
                     'cluster': docluster,
                     'clusterRadius': 50,
@@ -605,7 +605,7 @@ date: 2021-06-22
                 document.getElementsByClassName('mapboxgl-ctrl-geocoder mapboxgl-ctrl')[0].style.maxWidth = '92.5%';
                 map.addSource('parkruns', {
                     'type': 'geojson',
-                    'data': {{ site.data.parkrun.events | jsonify}},
+                    'data': {{ site.data.events | jsonify}},
                     'filter': sourcefilter,
                     'cluster': docluster,
                     'clusterRadius': 45,

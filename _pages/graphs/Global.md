@@ -5,7 +5,7 @@ title: 'Global Events'
 date: 2021-12-31
 ---
 
-{% for stuff in site.data.parkrun.raw.time %}
+{% for stuff in site.data.raw.time %}
 {% assign last_modified_at = stuff.time %}
 {% endfor %}
 
@@ -180,7 +180,7 @@ const chartoptions = {
     aspectRatio: 1.5,
     spanGaps: true,
 }
-const countriesdata = {{ site.data.parkrun.history.global | jsonify }}
+const countriesdata = {{ site.data.history.global | jsonify }}
 const countriesconfig = {
     type: 'line',
     data: {
@@ -228,7 +228,7 @@ var countriesChart = new Chart(
     document.getElementById('countriesChart'),
     countriesconfig
 );
-const australiadata = {{ site.data.parkrun.history.australia | jsonify }}
+const australiadata = {{ site.data.history.australia | jsonify }}
 const australiaconfig = {
     type: 'line',
     data: {
@@ -276,7 +276,7 @@ var australiaChart = new Chart(
     document.getElementById('australiaChart'),
     australiaconfig
 );
-const austriadata = {{ site.data.parkrun.history.austria | jsonify }}
+const austriadata = {{ site.data.history.austria | jsonify }}
 const austriaconfig = {
     type: 'line',
     data: {
@@ -325,7 +325,7 @@ var austriaChart = new Chart(
     document.getElementById('austriaChart'),
     austriaconfig
 );
-const canadadata = {{ site.data.parkrun.history.canada | jsonify }}
+const canadadata = {{ site.data.history.canada | jsonify }}
 const canadaconfig = {
     type: 'line',
     data: {
@@ -374,7 +374,7 @@ var canadaChart = new Chart(
     document.getElementById('canadaChart'),
     canadaconfig
 );
-const denmarkdata = {{ site.data.parkrun.history.denmark | jsonify }}
+const denmarkdata = {{ site.data.history.denmark | jsonify }}
 const denmarkconfig = {
     type: 'line',
     data: {
@@ -423,7 +423,7 @@ var denmarkChart = new Chart(
     document.getElementById('denmarkChart'),
     denmarkconfig
 );
-const eswatinidata = {{ site.data.parkrun.history.eswatini | jsonify }}
+const eswatinidata = {{ site.data.history.eswatini | jsonify }}
 const eswatiniconfig = {
     type: 'line',
     data: {
@@ -472,7 +472,7 @@ var eswatiniChart = new Chart(
     document.getElementById('eswatiniChart'),
     eswatiniconfig
 );
-const finlanddata = {{ site.data.parkrun.history.finland | jsonify }}
+const finlanddata = {{ site.data.history.finland | jsonify }}
 const finlandconfig = {
     type: 'line',
     data: {
@@ -521,7 +521,7 @@ var finlandChart = new Chart(
     document.getElementById('finlandChart'),
     finlandconfig
 );
-const francedata = {{ site.data.parkrun.history.france | jsonify }}
+const francedata = {{ site.data.history.france | jsonify }}
 const franceconfig = {
     type: 'line',
     data: {
@@ -570,7 +570,7 @@ var franceChart = new Chart(
     document.getElementById('franceChart'),
     franceconfig
 );
-const germanydata = {{ site.data.parkrun.history.germany | jsonify }}
+const germanydata = {{ site.data.history.germany | jsonify }}
 const germanyconfig = {
     type: 'line',
     data: {
@@ -619,7 +619,7 @@ var germanyChart = new Chart(
     document.getElementById('germanyChart'),
     germanyconfig
 );
-const irelanddata = {{ site.data.parkrun.history.ireland | jsonify }}
+const irelanddata = {{ site.data.history.ireland | jsonify }}
 const irelandconfig = {
     type: 'line',
     data: {
@@ -667,7 +667,7 @@ var irelandChart = new Chart(
     document.getElementById('irelandChart'),
     irelandconfig
 );
-const italydata = {{ site.data.parkrun.history.italy | jsonify }}
+const italydata = {{ site.data.history.italy | jsonify }}
 const italyconfig = {
     type: 'line',
     data: {
@@ -716,7 +716,7 @@ var italyChart = new Chart(
     document.getElementById('italyChart'),
     italyconfig
 );
-const japandata = {{ site.data.parkrun.history.japan | jsonify }}
+const japandata = {{ site.data.history.japan | jsonify }}
 const japanconfig = {
     type: 'line',
     data: {
@@ -765,7 +765,7 @@ var japanChart = new Chart(
     document.getElementById('japanChart'),
     japanconfig
 );
-const malaysiadata = {{ site.data.parkrun.history.malaysia | jsonify }}
+const malaysiadata = {{ site.data.history.malaysia | jsonify }}
 const malaysiaconfig = {
     type: 'line',
     data: {
@@ -814,7 +814,7 @@ var malaysiaChart = new Chart(
     document.getElementById('malaysiaChart'),
     malaysiaconfig
 );
-const namibiadata = {{ site.data.parkrun.history.namibia | jsonify }}
+const namibiadata = {{ site.data.history.namibia | jsonify }}
 const namibiaconfig = {
     type: 'line',
     data: {
@@ -863,7 +863,7 @@ var namibiaChart = new Chart(
     document.getElementById('namibiaChart'),
     namibiaconfig
 );
-const netherlandsdata = {{ site.data.parkrun.history.netherlands | jsonify }}
+const netherlandsdata = {{ site.data.history.netherlands | jsonify }}
 const netherlandsconfig = {
     type: 'line',
     data: {
@@ -912,7 +912,7 @@ var netherlandsChart = new Chart(
     document.getElementById('netherlandsChart'),
     netherlandsconfig
 );
-const newzealanddata = {{ site.data.parkrun.history.newzealand | jsonify }}
+const newzealanddata = {{ site.data.history.newzealand | jsonify }}
 const newzealandconfig = {
     type: 'line',
     data: {
@@ -961,7 +961,7 @@ var newzealandChart = new Chart(
     document.getElementById('newzealandChart'),
     newzealandconfig
 );
-const norwaydata = {{ site.data.parkrun.history.norway | jsonify }}
+const norwaydata = {{ site.data.history.norway | jsonify }}
 const norwayconfig = {
     type: 'line',
     data: {
@@ -1010,7 +1010,7 @@ var norwayChart = new Chart(
     document.getElementById('norwayChart'),
     norwayconfig
 );
-const polanddata = {{ site.data.parkrun.history.poland | jsonify }}
+const polanddata = {{ site.data.history.poland | jsonify }}
 const polandconfig = {
     type: 'line',
     data: {
@@ -1059,7 +1059,7 @@ var polandChart = new Chart(
     document.getElementById('polandChart'),
     polandconfig
 );
-const russiadata = {{ site.data.parkrun.history.russia | jsonify }}
+const russiadata = {{ site.data.history.russia | jsonify }}
 const russiaconfig = {
     type: 'line',
     data: {
@@ -1108,7 +1108,7 @@ var russiaChart = new Chart(
     document.getElementById('russiaChart'),
     russiaconfig
 );
-const singaporedata = {{ site.data.parkrun.history.singapore | jsonify }}
+const singaporedata = {{ site.data.history.singapore | jsonify }}
 const singaporeconfig = {
     type: 'line',
     data: {
@@ -1157,7 +1157,7 @@ var singaporeChart = new Chart(
     document.getElementById('singaporeChart'),
     singaporeconfig
 );
-const southafricadata = {{ site.data.parkrun.history.southafrica | jsonify }}
+const southafricadata = {{ site.data.history.southafrica | jsonify }}
 const southafricaconfig = {
     type: 'line',
     data: {
@@ -1206,7 +1206,7 @@ var southafricaChart = new Chart(
     document.getElementById('southafricaChart'),
     southafricaconfig
 );
-const swedendata = {{ site.data.parkrun.history.sweden | jsonify }}
+const swedendata = {{ site.data.history.sweden | jsonify }}
 const swedenconfig = {
     type: 'line',
     data: {
@@ -1255,7 +1255,7 @@ var swedenChart = new Chart(
     document.getElementById('swedenChart'),
     swedenconfig
 );
-const ukdata = {{ site.data.parkrun.history.unitedkingdom | jsonify }}
+const ukdata = {{ site.data.history.unitedkingdom | jsonify }}
 const ukconfig = {
     type: 'line',
     data: {
@@ -1303,7 +1303,7 @@ var ukChart = new Chart(
     document.getElementById('ukChart'),
     ukconfig
 );
-const usadata = {{ site.data.parkrun.history.usa | jsonify }}
+const usadata = {{ site.data.history.usa | jsonify }}
 const usaconfig = {
     type: 'line',
     data: {

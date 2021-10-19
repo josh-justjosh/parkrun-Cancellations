@@ -3,7 +3,7 @@ import datetime
 
 def parse():
     cancellation_changes = []
-    with open('_data/parkrun/cancellation-changes.tsv','r', encoding='utf-8', newline='') as f:
+    with open('_data/cancellation-changes.tsv','r', encoding='utf-8', newline='') as f:
         tsv_reader = csv.reader(f, delimiter="\t")
         for row in tsv_reader:
             cancellation_changes.append(row)
@@ -13,7 +13,7 @@ def parse():
     cancellation_changes.pop(-1)
 
     cancellations_additions = []
-    with open('_data/parkrun/cancellation-additions.tsv','r', encoding='utf-8', newline='') as f:
+    with open('_data/cancellation-additions.tsv','r', encoding='utf-8', newline='') as f:
         tsv_reader = csv.reader(f, delimiter="\t")
         for row in tsv_reader:
             cancellations_additions.append(row)
@@ -22,7 +22,7 @@ def parse():
     cancellations_additions.pop(-1)
 
     cancellations_removals = []
-    with open('_data/parkrun/cancellation-removals.tsv','r', encoding='utf-8', newline='') as f:
+    with open('_data/cancellation-removals.tsv','r', encoding='utf-8', newline='') as f:
         tsv_reader = csv.reader(f, delimiter="\t")
         for row in tsv_reader:
             cancellations_removals.append(row)

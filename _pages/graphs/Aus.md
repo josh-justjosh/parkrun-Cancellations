@@ -5,7 +5,7 @@ title: 'Australia Graphs'
 date: 2021-12-31
 ---
 
-{% for stuff in site.data.parkrun.raw.time %}
+{% for stuff in site.data.raw.time %}
 {% assign last_modified_at = stuff.time %}
 {% endfor %}
 
@@ -128,7 +128,7 @@ const chartoptions = {
     aspectRatio: 1.5,
     spanGaps: true,
 }
-const ausdata = {{ site.data.parkrun.history.australia | jsonify }}
+const ausdata = {{ site.data.history.australia | jsonify }}
 const ausconfig = {
     type: 'line',
     data: {
@@ -234,7 +234,7 @@ var juniorChart = new Chart(
     document.getElementById('juniorChart'),
     juniorconfig
 );
-const actdata = {{ site.data.parkrun.history.aus.act | jsonify }}
+const actdata = {{ site.data.history.aus.act | jsonify }}
 const actconfig = {
     type: 'line',
     data: {
@@ -283,7 +283,7 @@ var actChart = new Chart(
     document.getElementById('actChart'),
     actconfig
 );
-const nswdata = {{ site.data.parkrun.history.aus.nsw | jsonify }}
+const nswdata = {{ site.data.history.aus.nsw | jsonify }}
 const nswconfig = {
     type: 'line',
     data: {
@@ -332,7 +332,7 @@ var nswChart = new Chart(
     document.getElementById('nswChart'),
     nswconfig
 );
-const ntdata = {{ site.data.parkrun.history.aus.nt | jsonify }}
+const ntdata = {{ site.data.history.aus.nt | jsonify }}
 const ntconfig = {
     type: 'line',
     data: {
@@ -381,7 +381,7 @@ var ntChart = new Chart(
     document.getElementById('ntChart'),
     ntconfig
 );
-const qlddata = {{ site.data.parkrun.history.aus.qld | jsonify }}
+const qlddata = {{ site.data.history.aus.qld | jsonify }}
 const qldconfig = {
     type: 'line',
     data: {
@@ -429,7 +429,7 @@ var qldChart = new Chart(
     document.getElementById('qldChart'),
     qldconfig
 );
-const sadata = {{ site.data.parkrun.history.aus.sa | jsonify }}
+const sadata = {{ site.data.history.aus.sa | jsonify }}
 const saconfig = {
     type: 'line',
     data: {
@@ -477,7 +477,7 @@ var saChart = new Chart(
     document.getElementById('saChart'),
     saconfig
 );
-const tasdata = {{ site.data.parkrun.history.aus.tas | jsonify }}
+const tasdata = {{ site.data.history.aus.tas | jsonify }}
 const tasconfig = {
     type: 'line',
     data: {
@@ -526,7 +526,7 @@ var tasChart = new Chart(
     document.getElementById('tasChart'),
     tasconfig
 );
-const vicdata = {{ site.data.parkrun.history.aus.vic | jsonify }}
+const vicdata = {{ site.data.history.aus.vic | jsonify }}
 const vicconfig = {
     type: 'line',
     data: {
@@ -574,7 +574,7 @@ var vicChart = new Chart(
     document.getElementById('vicChart'),
     vicconfig
 );
-const wadata = {{ site.data.parkrun.history.aus.wa | jsonify }}
+const wadata = {{ site.data.history.aus.wa | jsonify }}
 const waconfig = {
     type: 'line',
     data: {
