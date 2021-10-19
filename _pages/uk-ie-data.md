@@ -6,7 +6,7 @@ date: 2021-05-27
 permalink: /more-uk-ie
 ---
 
-{% for stuff in site.data.parkrun.raw.time %}
+{% for stuff in site.data.raw.time %}
 {% assign last_modified_at = stuff.time %}
 {% endfor %}
 
@@ -59,7 +59,7 @@ permalink: /more-uk-ie
 <p>Below is a summary of the UK Data broken down by constituent country.</p>
 <div class="hscrollable">
     <table style="width: 100%;">
-        {% for row in site.data.parkrun.uk-data %}
+        {% for row in site.data.uk-data %}
             <tr>
                 {% if forloop.first %}
                     {% for pair in row %}
@@ -99,7 +99,7 @@ permalink: /more-uk-ie
             <th>junior Cancellations</th>
             <th>Total</th>
         </tr>
-        {% for row in site.data.parkrun.counties.england %}
+        {% for row in site.data.counties.england %}
             <tr>
                 {% unless forloop.last %}
                     <td>{{ row['County'] }}</td>
@@ -143,7 +143,7 @@ permalink: /more-uk-ie
             <th>junior Cancellations</th>
             <th>Total</th>
         </tr>
-        {% for row in site.data.parkrun.counties.ni %}
+        {% for row in site.data.counties.ni %}
             <tr>
                 {% unless forloop.last %}
                     <td>{{ row['County'] }}</td>
@@ -187,7 +187,7 @@ permalink: /more-uk-ie
             <th>junior Cancellations</th>
             <th>Total</th>
         </tr>
-        {% for row in site.data.parkrun.counties.scotland %}
+        {% for row in site.data.counties.scotland %}
             <tr>
                 {% unless forloop.last %}
                     <td>{{ row['County'] }}</td>
@@ -231,7 +231,7 @@ permalink: /more-uk-ie
             <th>junior Cancellations</th>
             <th>Total</th>
         </tr>
-        {% for row in site.data.parkrun.counties.wales %}
+        {% for row in site.data.counties.wales %}
             <tr>
                 {% unless forloop.last %}
                     <td>{{ row['County'] }}</td>
@@ -275,7 +275,7 @@ permalink: /more-uk-ie
             <th>junior Cancellations</th>
             <th>Total</th>
         </tr>
-        {% for row in site.data.parkrun.counties.ireland %}
+        {% for row in site.data.counties.ireland %}
             <tr>
                 {% unless forloop.last %}
                     <td>{{ row['County'] }}</td>
