@@ -48,14 +48,14 @@ jobs:
     
     - name: Write Time to File
       run: |
-        echo 'time' > _data/parkrun/raw/time.tsv
-        echo ${{ steps.current-time.outputs.time }} >> _data/parkrun/raw/time.tsv
+        echo 'time' > _data/raw/time.tsv
+        echo ${{ steps.current-time.outputs.time }} >> _data/raw/time.tsv
 
     - name: Commit files
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add _data/parkrun/
+        git add _data/
         git add _posts/'Cancellation Updates'
         git commit -m "Update parkrun Data [Bot]" -a
         
