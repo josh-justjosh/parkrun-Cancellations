@@ -22,8 +22,8 @@ permalink: /more
     var out = lm_date.toLocaleString('default', options);
     document.getElementById("lastupdated").innerHTML = 'Data Last Refreshed: ' + out
 </script>
-<div style="background-color: rgba(255,128,0,0.25); margin: 25px; padding: 10px; text-align: center">
-    <p>These pages are in beta, please see <a href="#contact">the information at the bottom of the page</a> for how to report errors.<br />You should always check the event's website and social media channels before setting out.</p>
+<div style="background-color: rgba(255,128,0,0.25); margin: 25px; padding: 5px; text-align: center">
+    <p><!--These pages are in beta, please see <a href="#contact">the information at the bottom of the page</a> for how to report errors.<br />-->Always check the event's website and social media channels before setting out.</p>
 </div>
 
 <html>
