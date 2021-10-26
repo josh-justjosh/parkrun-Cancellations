@@ -19367,14 +19367,14 @@
         "countrycode": 46,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-10-30",
+        "ReasonCancelled": "\u30dc\u30e9\u30f3\u30c6\u30a3\u30a2\u4e0d\u8db3\u306e\u70ba",
         "Website": "https://www.parkrun.jp/odakaryokuchi",
         "Country": "Japan",
         "State": "Aichi",
         "County": "Nagoya",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Odakaryokuchi parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/odakaryokuchi\">parkrun.jp/odakaryokuchi</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Odakaryokuchi parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>\u30dc\u30e9\u30f3\u30c6\u30a3\u30a2\u4e0d\u8db3\u306e\u70ba</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/odakaryokuchi\">parkrun.jp/odakaryokuchi</a></td></tr></table>"
       }
     },
     {
@@ -26714,34 +26714,6 @@
       }
     },
     {
-      "id": 458,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          28.138043,
-          -26.068971
-        ]
-      },
-      "properties": {
-        "eventname": "modderfonteinreserve",
-        "EventLongName": "Modderfontein Reserve parkrun",
-        "EventShortName": "Modderfontein Reserve",
-        "LocalisedEventLongName": null,
-        "countrycode": 85,
-        "seriesid": 1,
-        "EventLocation": "Modderfontein Reserve",
-        "Status": "5k Cancellation",
-        "DateCancelled": "2021-10-30",
-        "ReasonCancelled": "COVID-19 (Coronavirus)",
-        "Website": "https://www.parkrun.co.za/modderfonteinreserve",
-        "Country": "South Africa",
-        "State": "Gauteng",
-        "County": "City of Johannesburg Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Modderfontein Reserve parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/modderfonteinreserve\">parkrun.co.za/modderfonteinreserve</a></td></tr></table>"
-      }
-    },
-    {
       "id": 507,
       "type": "Feature",
       "geometry": {
@@ -27691,34 +27663,6 @@
         "State": "Northern Cape",
         "County": "Frances Baard District Municipality",
         "description": "<h4 style=\"margin: 0 0 8px;\">The Venue parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/thevenue\">parkrun.co.za/thevenue</a></td></tr></table>"
-      }
-    },
-    {
-      "id": 2442,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.656954,
-          -32.398167
-        ]
-      },
-      "properties": {
-        "eventname": "sutherland",
-        "EventLongName": "Sutherland parkrun",
-        "EventShortName": "Sutherland",
-        "LocalisedEventLongName": null,
-        "countrycode": 85,
-        "seriesid": 1,
-        "EventLocation": "Basson Street",
-        "Status": "5k Cancellation",
-        "DateCancelled": "2021-10-30",
-        "ReasonCancelled": "COVID-19 (Coronavirus)",
-        "Website": "https://www.parkrun.co.za/sutherland",
-        "Country": "South Africa",
-        "State": "Northern Cape",
-        "County": "Namakwa District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Sutherland parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/sutherland\">parkrun.co.za/sutherland</a></td></tr></table>"
       }
     },
     {
