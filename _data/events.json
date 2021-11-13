@@ -50391,14 +50391,14 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "The Wammy",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-11-13",
+        "ReasonCancelled": "Unable to access equipment from storage",
         "Website": "https://www.parkrun.org.uk/thewammy",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Staffordshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">The Wammy parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/thewammy\">parkrun.org.uk/thewammy</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">The Wammy parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Unable to access equipment from storage</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/thewammy\">parkrun.org.uk/thewammy</a></td></tr></table>"
       }
     },
     {
@@ -64203,6 +64203,34 @@
         "State": "Florida",
         "County": "Charlotte",
         "description": "<h4 style=\"margin: 0 0 8px;\">Dr Bill Hammond Trails parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/drbillhammondtrails\">parkrun.us/drbillhammondtrails</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 2865,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.8173,
+          37.842564
+        ]
+      },
+      "properties": {
+        "eventname": "valentinepeak",
+        "EventLongName": "Valentine Peak parkrun",
+        "EventShortName": "Valentine Peak",
+        "LocalisedEventLongName": null,
+        "countrycode": 98,
+        "seriesid": 1,
+        "EventLocation": "Iron County Fairgrounds, Valentine Peak Sports Com",
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-11-13",
+        "ReasonCancelled": "All Future Events Cancelled",
+        "Website": "https://www.parkrun.us/valentinepeak",
+        "Country": "USA",
+        "State": "Utah",
+        "County": "Iron",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Valentine Peak parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>All Future Events Cancelled</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/valentinepeak\">parkrun.us/valentinepeak</a></td></tr></table>"
       }
     },
     {
