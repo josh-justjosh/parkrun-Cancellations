@@ -18342,6 +18342,34 @@
       }
     },
     {
+      "id": 2697,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.500633,
+          51.90537
+        ]
+      },
+      "properties": {
+        "eventname": "stmaryscampus-juniors",
+        "EventLongName": "St Mary\u2019s Campus junior parkrun",
+        "EventShortName": "St Mary\u2019s Campus juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 42,
+        "seriesid": 2,
+        "EventLocation": "St Mary\u2019s Health Campus",
+        "Status": "junior Cancellation",
+        "DateCancelled": "2021-11-21",
+        "ReasonCancelled": "Venue not yet available",
+        "Website": "https://www.parkrun.ie/stmaryscampus-juniors",
+        "Country": "Ireland",
+        "State": "Munster",
+        "County": "Cork City",
+        "description": "<h4 style=\"margin: 0 0 8px;\">St Mary\u2019s Campus junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Venue not yet available</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/stmaryscampus-juniors\">parkrun.ie/stmaryscampus-juniors</a></td></tr></table>"
+      }
+    },
+    {
       "id": 2711,
       "type": "Feature",
       "geometry": {
@@ -24267,14 +24295,14 @@
         "countrycode": 79,
         "seriesid": 1,
         "EventLocation": "\u0427\u0435\u0440\u0442\u0430\u043d\u043e\u0432\u043e \u041f\u043e\u043a\u0440\u043e\u0432\u0441\u043a\u0438\u0439 \u043f\u0430\u0440\u043a",
-        "Status": "5k Cancellation",
-        "DateCancelled": "2021-11-20",
-        "ReasonCancelled": "COVID-19 (Coronavirus)",
+        "Status": "parkrunning",
+        "DateCancelled": null,
+        "ReasonCancelled": null,
         "Website": "https://www.parkrun.ru/chertanovopokrovskypark",
         "Country": "Russia",
         "State": "Moscow",
         "County": "",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Chertanovo Pokrovsky Park</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ru/chertanovopokrovskypark\">parkrun.ru/chertanovopokrovskypark</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Chertanovo Pokrovsky Park</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ru/chertanovopokrovskypark\">parkrun.ru/chertanovopokrovskypark</a></td></tr></table>"
       }
     },
     {
@@ -29290,34 +29318,6 @@
       }
     },
     {
-      "id": 1504,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          27.457504,
-          -29.205216
-        ]
-      },
-      "properties": {
-        "eventname": "ladybrand",
-        "EventLongName": "Ladybrand parkrun",
-        "EventShortName": "Ladybrand",
-        "LocalisedEventLongName": null,
-        "countrycode": 85,
-        "seriesid": 1,
-        "EventLocation": "Ladybrand Golf Club",
-        "Status": "5k Cancellation",
-        "DateCancelled": "2021-11-20",
-        "ReasonCancelled": "COVID-19 (Coronavirus)",
-        "Website": "https://www.parkrun.co.za/ladybrand",
-        "Country": "South Africa",
-        "State": "Orange Free State",
-        "County": "Thabo Mofutsanyana District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ladybrand parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ladybrand\">parkrun.co.za/ladybrand</a></td></tr></table>"
-      }
-    },
-    {
       "id": 1623,
       "type": "Feature",
       "geometry": {
@@ -31407,14 +31407,14 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Hogsback",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-11-20",
+        "ReasonCancelled": "Team rebuild",
         "Website": "https://www.parkrun.co.za/hogsback",
         "Country": "South Africa",
         "State": "Eastern Cape",
         "County": "Amathole District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hogsback parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/hogsback\">parkrun.co.za/hogsback</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hogsback parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Team rebuild</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/hogsback\">parkrun.co.za/hogsback</a></td></tr></table>"
       }
     },
     {
@@ -38219,34 +38219,6 @@
         "State": "England",
         "County": "Cheshire East",
         "description": "<h4 style=\"margin: 0 0 8px;\">Queens Park junior parkrun, Crewe</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/queensparkcrewe-juniors\">parkrun.org.uk/queensparkcrewe-juniors</a></td></tr></table>"
-      }
-    },
-    {
-      "id": 2757,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.730257,
-          53.292165
-        ]
-      },
-      "properties": {
-        "eventname": "castlepark-juniors",
-        "EventLongName": "Castle Park junior parkrun",
-        "EventShortName": "Castle Park juniors",
-        "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 2,
-        "EventLocation": "Castle Park",
-        "Status": "junior Cancellation",
-        "DateCancelled": "2021-11-21",
-        "ReasonCancelled": "Establishing an event team",
-        "Website": "https://www.parkrun.org.uk/castlepark-juniors",
-        "Country": "United Kingdom",
-        "State": "England",
-        "County": "Cheshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Castle Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Establishing an event team</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/castlepark-juniors\">parkrun.org.uk/castlepark-juniors</a></td></tr></table>"
       }
     },
     {
