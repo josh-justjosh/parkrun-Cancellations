@@ -10110,6 +10110,34 @@
       }
     },
     {
+      "id": 2946,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.752554,
+          -32.07687
+        ]
+      },
+      "properties": {
+        "eventname": "southbeachrecreationreserve",
+        "EventLongName": "South Beach Recreation Reserve parkrun",
+        "EventShortName": "South Beach Recreation Reserve",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "South Beach Recreation Reserve",
+        "Status": "parkrunning",
+        "DateCancelled": null,
+        "ReasonCancelled": null,
+        "Website": "https://www.parkrun.com.au/southbeachrecreationreserve",
+        "Country": "Australia",
+        "State": "Western Australia",
+        "County": "Fremantle",
+        "description": "<h4 style=\"margin: 0 0 8px;\">South Beach Recreation Reserve parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/southbeachrecreationreserve\">parkrun.com.au/southbeachrecreationreserve</a></td></tr></table>"
+      }
+    },
+    {
       "id": 446,
       "type": "Feature",
       "geometry": {
@@ -10743,14 +10771,14 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Young Street (underneath the Joy Baluch ",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-11-20",
+        "ReasonCancelled": "Heavy rain",
         "Website": "https://www.parkrun.com.au/portaugusta",
         "Country": "Australia",
         "State": "South Australia",
         "County": "Port Augusta",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Port Augusta parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/portaugusta\">parkrun.com.au/portaugusta</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Port Augusta parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Heavy rain</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/portaugusta\">parkrun.com.au/portaugusta</a></td></tr></table>"
       }
     },
     {
@@ -11703,6 +11731,34 @@
         "State": "South Australia",
         "County": "Tea Tree Gully",
         "description": "<h4 style=\"margin: 0 0 8px;\">Anstey Hill Recreation parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/ansteyhillrecreation\">parkrun.com.au/ansteyhillrecreation</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 2945,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.667378,
+          -33.95397
+        ]
+      },
+      "properties": {
+        "eventname": "coppertrail",
+        "EventLongName": "Copper Trail parkrun",
+        "EventShortName": "Copper Trail",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "Copper Trail",
+        "Status": "parkrunning",
+        "DateCancelled": null,
+        "ReasonCancelled": null,
+        "Website": "https://www.parkrun.com.au/coppertrail",
+        "Country": "Australia",
+        "State": "South Australia",
+        "County": "Copper Coast",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Copper Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/coppertrail\">parkrun.com.au/coppertrail</a></td></tr></table>"
       }
     },
     {
@@ -13963,14 +14019,14 @@
         "countrycode": 32,
         "seriesid": 1,
         "EventLocation": "W\u00f6hrder See, N\u00fcrnberg",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-11-20",
+        "ReasonCancelled": "Local Covid-19 Situation",
         "Website": "https://www.parkrun.com.de/woehrdersee",
         "Country": "Germany",
         "State": "Bavaria",
         "County": "Middle Franconia",
-        "description": "<h4 style=\"margin: 0 0 8px;\">W\u00f6hrder See parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/woehrdersee\">parkrun.com.de/woehrdersee</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">W\u00f6hrder See parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Local Covid-19 Situation</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/woehrdersee\">parkrun.com.de/woehrdersee</a></td></tr></table>"
       }
     },
     {
@@ -19910,6 +19966,34 @@
       }
     },
     {
+      "id": 2905,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.578187,
+          34.711648
+        ]
+      },
+      "properties": {
+        "eventname": "tsurumiryokuchi",
+        "EventLongName": "Tsurumi Ryokuchi parkrun",
+        "EventShortName": "Tsurumi Ryokuchi",
+        "LocalisedEventLongName": "\u9db4\u898b\u7dd1\u5730parkrun",
+        "countrycode": 46,
+        "seriesid": 1,
+        "EventLocation": "",
+        "Status": "parkrunning",
+        "DateCancelled": null,
+        "ReasonCancelled": null,
+        "Website": "https://www.parkrun.jp/tsurumiryokuchi",
+        "Country": "Japan",
+        "State": "\u014csaka",
+        "County": "Osaka City",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Tsurumi Ryokuchi parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/tsurumiryokuchi\">parkrun.jp/tsurumiryokuchi</a></td></tr></table>"
+      }
+    },
+    {
       "id": 2923,
       "type": "Feature",
       "geometry": {
@@ -21030,31 +21114,31 @@
       }
     },
     {
-      "id": 2950,
+      "id": 2909,
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.148119,
-          -40.771022
+          176.558012,
+          -39.992327
         ]
       },
       "properties": {
-        "eventname": "otakiriver",
-        "EventLongName": "\u014ctaki River parkrun",
-        "EventShortName": "\u014ctaki River",
+        "eventname": "russellpark",
+        "EventLongName": "Russell Park parkrun",
+        "EventShortName": "Russell Park",
         "LocalisedEventLongName": null,
         "countrycode": 65,
         "seriesid": 1,
-        "EventLocation": "\u014ctaki River",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
-        "Website": "https://www.parkrun.co.nz/otakiriver",
+        "EventLocation": "Russell Park",
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-11-20",
+        "ReasonCancelled": "Due to current COVID-19 restrictions",
+        "Website": "https://www.parkrun.co.nz/russellpark",
         "Country": "New Zealand",
-        "State": "Wellington",
-        "County": "Kapiti Coast District",
-        "description": "<h4 style=\"margin: 0 0 8px;\">\u014ctaki River parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/otakiriver\">parkrun.co.nz/otakiriver</a></td></tr></table>"
+        "State": "Hawke's Bay",
+        "County": "Central Hawke's Bay District",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Russell Park parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Due to current COVID-19 restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/russellpark\">parkrun.co.nz/russellpark</a></td></tr></table>"
       }
     },
     {
@@ -21307,6 +21391,34 @@
         "State": "Canterbury",
         "County": "Selwyn District",
         "description": "<h4 style=\"margin: 0 0 8px;\">Foster parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Due to current COVID-19 restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/foster\">parkrun.co.nz/foster</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 2903,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.958159,
+          -46.095775
+        ]
+      },
+      "properties": {
+        "eventname": "hamiltonpark",
+        "EventLongName": "Hamilton Park parkrun",
+        "EventShortName": "Hamilton Park",
+        "LocalisedEventLongName": null,
+        "countrycode": 65,
+        "seriesid": 1,
+        "EventLocation": "Hamilton Park",
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-11-20",
+        "ReasonCancelled": "Due to current COVID-19 restrictions",
+        "Website": "https://www.parkrun.co.nz/hamiltonpark",
+        "Country": "New Zealand",
+        "State": "Southland",
+        "County": "Gore District",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hamilton Park parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Due to current COVID-19 restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/hamiltonpark\">parkrun.co.nz/hamiltonpark</a></td></tr></table>"
       }
     },
     {
@@ -30007,14 +30119,14 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Nahoon Point Nature Reserve",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-11-20",
+        "ReasonCancelled": "To co-operate with Coastal Conservation request.",
         "Website": "https://www.parkrun.co.za/nahoonpoint",
         "Country": "South Africa",
         "State": "Eastern Cape",
         "County": "Buffalo City Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Nahoon Point parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/nahoonpoint\">parkrun.co.za/nahoonpoint</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Nahoon Point parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>To co-operate with Coastal Conservation request.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/nahoonpoint\">parkrun.co.za/nahoonpoint</a></td></tr></table>"
       }
     },
     {
@@ -41999,6 +42111,34 @@
         "State": "England",
         "County": "Greater London",
         "description": "<h4 style=\"margin: 0 0 8px;\">Enfield Town junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/enfieldtown-juniors\">parkrun.org.uk/enfieldtown-juniors</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 2741,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.294215,
+          51.423598
+        ]
+      },
+      "properties": {
+        "eventname": "latchmererec-juniors",
+        "EventLongName": "Latchmere Rec junior parkrun",
+        "EventShortName": "Latchmere Rec juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Latchmere Recreation Ground",
+        "Status": "junior parkrunning",
+        "DateCancelled": null,
+        "ReasonCancelled": null,
+        "Website": "https://www.parkrun.org.uk/latchmererec-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Greater London",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Latchmere Rec junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/latchmererec-juniors\">parkrun.org.uk/latchmererec-juniors</a></td></tr></table>"
       }
     },
     {
