@@ -10994,6 +10994,26 @@
         }
       },
       {
+        "id": 2953,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.817604,
+            52.435226
+          ]
+        },
+        "properties": {
+          "eventname": "allerpark",
+          "EventLongName": "Allerpark parkrun",
+          "EventShortName": "Allerpark",
+          "LocalisedEventLongName": null,
+          "countrycode": 32,
+          "seriesid": 1,
+          "EventLocation": "Allerpark"
+        }
+      },
+      {
         "id": 178,
         "type": "Feature",
         "geometry": {
@@ -13351,26 +13371,6 @@
           "countrycode": 42,
           "seriesid": 1,
           "EventLocation": "Mallow Castle"
-        }
-      },
-      {
-        "id": 2697,
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -8.500633,
-            51.90537
-          ]
-        },
-        "properties": {
-          "eventname": "stmaryscampus-juniors",
-          "EventLongName": "St Mary\u2019s Campus junior parkrun",
-          "EventShortName": "St Mary\u2019s Campus juniors",
-          "LocalisedEventLongName": null,
-          "countrycode": 42,
-          "seriesid": 2,
-          "EventLocation": "St Mary\u2019s Health Campus"
         }
       },
       {
@@ -39745,7 +39745,7 @@
         },
         "properties": {
           "eventname": "kinggeorgevplayingfield",
-          "EventLongName": "King George V Playing Field parkrun",
+          "EventLongName": "King George V Playing Field parkrun, Cheltenham",
           "EventShortName": "King George V Playing Field",
           "LocalisedEventLongName": null,
           "countrycode": 97,
