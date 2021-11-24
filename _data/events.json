@@ -14327,14 +14327,14 @@
         "countrycode": 32,
         "seriesid": 1,
         "EventLocation": "Luitpoldpark, Ingolstadt",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-11-27",
+        "ReasonCancelled": "Current Covid regulations and high infection rates",
         "Website": "https://www.parkrun.com.de/luitpold",
         "Country": "Germany",
         "State": "Bavaria",
         "County": "Upper Bavaria",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Luitpold parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/luitpold\">parkrun.com.de/luitpold</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Luitpold parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Current Covid regulations and high infection rates</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/luitpold\">parkrun.com.de/luitpold</a></td></tr></table>"
       }
     },
     {
@@ -31471,34 +31471,6 @@
         "State": "Eastern Cape",
         "County": "Amathole District Municipality",
         "description": "<h4 style=\"margin: 0 0 8px;\">Stutterheim parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/stutterheim\">parkrun.co.za/stutterheim</a></td></tr></table>"
-      }
-    },
-    {
-      "id": 1435,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          26.917929,
-          -32.601434
-        ]
-      },
-      "properties": {
-        "eventname": "hogsback",
-        "EventLongName": "Hogsback parkrun",
-        "EventShortName": "Hogsback",
-        "LocalisedEventLongName": null,
-        "countrycode": 85,
-        "seriesid": 1,
-        "EventLocation": "Hogsback",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
-        "Website": "https://www.parkrun.co.za/hogsback",
-        "Country": "South Africa",
-        "State": "Eastern Cape",
-        "County": "Amathole District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hogsback parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/hogsback\">parkrun.co.za/hogsback</a></td></tr></table>"
       }
     },
     {
