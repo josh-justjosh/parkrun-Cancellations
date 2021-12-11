@@ -12451,14 +12451,14 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "975 Orl\u00e9ans Blvd",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-12-11",
+        "ReasonCancelled": "Freezing rain forecasr",
         "Website": "https://www.parkrun.ca/orleans",
         "Country": "Canada",
         "State": "Ontario",
         "County": "Ottawa",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Orleans parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/orleans\">parkrun.ca/orleans</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Orleans parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Freezing rain forecasr</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/orleans\">parkrun.ca/orleans</a></td></tr></table>"
       }
     },
     {
@@ -13123,14 +13123,14 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "New York Central Fitness Trail",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-12-11",
+        "ReasonCancelled": "Freezing Rain Warning - Path may be unsafe",
         "Website": "https://www.parkrun.ca/newyorkcentralfitnesstrail",
         "Country": "Canada",
         "State": "Ontario",
         "County": "United Counties of Prescott and Russell",
-        "description": "<h4 style=\"margin: 0 0 8px;\">New York Central Fitness Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/newyorkcentralfitnesstrail\">parkrun.ca/newyorkcentralfitnesstrail</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">New York Central Fitness Trail parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Freezing Rain Warning - Path may be unsafe</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/newyorkcentralfitnesstrail\">parkrun.ca/newyorkcentralfitnesstrail</a></td></tr></table>"
       }
     },
     {
@@ -15091,6 +15091,34 @@
         "State": "Baden-W\u00fcrttemberg",
         "County": "Freiburg Region",
         "description": "<h4 style=\"margin: 0 0 8px;\">Dreil\u00e4ndergarten parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/dreilaendergarten\">parkrun.com.de/dreilaendergarten</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 2953,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.817604,
+          52.435226
+        ]
+      },
+      "properties": {
+        "eventname": "allerpark",
+        "EventLongName": "Allerpark parkrun",
+        "EventShortName": "Allerpark",
+        "LocalisedEventLongName": null,
+        "countrycode": 32,
+        "seriesid": 1,
+        "EventLocation": "Allerpark",
+        "Status": "parkrunning",
+        "DateCancelled": null,
+        "ReasonCancelled": null,
+        "Website": "https://www.parkrun.com.de/allerpark",
+        "Country": "Germany",
+        "State": "Lower Saxony",
+        "County": "-Unknown-",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Allerpark parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/allerpark\">parkrun.com.de/allerpark</a></td></tr></table>"
       }
     },
     {
@@ -21523,14 +21551,14 @@
         "countrycode": 67,
         "seriesid": 1,
         "EventLocation": "Turveien L\u00f8vstien",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-12-11",
+        "ReasonCancelled": "Ice on the course, not safe to run",
         "Website": "https://www.parkrun.no/lovstien",
         "Country": "Norway",
         "State": "Vestland",
         "County": "Bergen",
-        "description": "<h4 style=\"margin: 0 0 8px;\">L\u00f8vstien parkrun, Bergen</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.no/lovstien\">parkrun.no/lovstien</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">L\u00f8vstien parkrun, Bergen</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Ice on the course, not safe to run</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.no/lovstien\">parkrun.no/lovstien</a></td></tr></table>"
       }
     },
     {
@@ -21607,14 +21635,14 @@
         "countrycode": 67,
         "seriesid": 1,
         "EventLocation": "Nansenparken",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-12-11",
+        "ReasonCancelled": "Path surfaces too slippery to run safely.",
         "Website": "https://www.parkrun.no/nansenparken",
         "Country": "Norway",
         "State": "Viken",
         "County": "B\u00e6rum",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Nansenparken parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.no/nansenparken\">parkrun.no/nansenparken</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Nansenparken parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Path surfaces too slippery to run safely.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.no/nansenparken\">parkrun.no/nansenparken</a></td></tr></table>"
       }
     },
     {
@@ -24586,6 +24614,34 @@
       }
     },
     {
+      "id": 2785,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.310954,
+          55.633217
+        ]
+      },
+      "properties": {
+        "eventname": "rasskazovka",
+        "EventLongName": "parkrun Rasskazovka",
+        "EventShortName": "Rasskazovka",
+        "LocalisedEventLongName": "parkrun \u0420\u0430\u0441\u0441\u043a\u0430\u0437\u043e\u0432\u043a\u0430",
+        "countrycode": 79,
+        "seriesid": 1,
+        "EventLocation": "\u043f\u0430\u0440\u043a \u0420\u0430\u0441\u0441\u043a\u0430\u0437\u043e\u0432\u043a\u0430",
+        "Status": "parkrunning",
+        "DateCancelled": null,
+        "ReasonCancelled": null,
+        "Website": "https://www.parkrun.ru/rasskazovka",
+        "Country": "Russia",
+        "State": "Moscow Oblast",
+        "County": "-Unknown-",
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Rasskazovka</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ru/rasskazovka\">parkrun.ru/rasskazovka</a></td></tr></table>"
+      }
+    },
+    {
       "id": 862,
       "type": "Feature",
       "geometry": {
@@ -25283,6 +25339,34 @@
         "State": "Tver\u2019 Oblast",
         "County": "",
         "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Tver Rechnoy Vokzal</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ru/tverrechnoyvokzal\">parkrun.ru/tverrechnoyvokzal</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 2880,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.021132,
+          55.577956
+        ]
+      },
+      "properties": {
+        "eventname": "muromets",
+        "EventLongName": "parkrun Muromets",
+        "EventShortName": "Muromets",
+        "LocalisedEventLongName": "parkrun \u041c\u0443\u0440\u043e\u043c\u0435\u0446",
+        "countrycode": 79,
+        "seriesid": 1,
+        "EventLocation": "\u043f\u0430\u0440\u043a \u041c\u0443\u0440\u043e\u043c\u0435\u0446",
+        "Status": "parkrunning",
+        "DateCancelled": null,
+        "ReasonCancelled": null,
+        "Website": "https://www.parkrun.ru/muromets",
+        "Country": "Russia",
+        "State": "Vladimir",
+        "County": "-Unknown-",
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Muromets</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ru/muromets\">parkrun.ru/muromets</a></td></tr></table>"
       }
     },
     {
@@ -30494,6 +30578,34 @@
       }
     },
     {
+      "id": 2842,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.560808,
+          -32.710641
+        ]
+      },
+      "properties": {
+        "eventname": "somerseteast",
+        "EventLongName": "Somerset East parkrun",
+        "EventShortName": "Somerset East",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Somerset East Golf Club",
+        "Status": "parkrunning",
+        "DateCancelled": null,
+        "ReasonCancelled": null,
+        "Website": "https://www.parkrun.co.za/somerseteast",
+        "Country": "South Africa",
+        "State": "Eastern Cape",
+        "County": "Sarah Baartman District Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Somerset East parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/somerseteast\">parkrun.co.za/somerseteast</a></td></tr></table>"
+      }
+    },
+    {
       "id": 1070,
       "type": "Feature",
       "geometry": {
@@ -33031,14 +33143,14 @@
         "countrycode": 88,
         "seriesid": 1,
         "EventLocation": "Stadstr\u00e4dg\u00e5rden",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-12-11",
+        "ReasonCancelled": "Icey and unrunable track.",
         "Website": "https://www.parkrun.se/uppsala",
         "Country": "Sweden",
         "State": "Uppsala",
         "County": "Uppsala Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Uppsala parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.se/uppsala\">parkrun.se/uppsala</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Uppsala parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Icey and unrunable track.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.se/uppsala\">parkrun.se/uppsala</a></td></tr></table>"
       }
     },
     {
@@ -44567,14 +44679,14 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "The Walks",
-        "Status": "junior parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "junior Cancellation",
+        "DateCancelled": "2021-12-12",
+        "ReasonCancelled": "Sadly we do not have enough volunteers to go ahead",
         "Website": "https://www.parkrun.org.uk/kingslynn-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Norfolk",
-        "description": "<h4 style=\"margin: 0 0 8px;\">King\u2019s Lynn junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/kingslynn-juniors\">parkrun.org.uk/kingslynn-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">King\u2019s Lynn junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Sadly we do not have enough volunteers to go ahead</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/kingslynn-juniors\">parkrun.org.uk/kingslynn-juniors</a></td></tr></table>"
       }
     },
     {
@@ -63131,14 +63243,14 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Thomas Lake Park",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-12-11",
+        "ReasonCancelled": "Due to large amounts of snow\u00a0; paths unpredictable",
         "Website": "https://www.parkrun.us/eagan",
         "Country": "USA",
         "State": "Minnesota",
         "County": "Dakota",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Eagan parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/eagan\">parkrun.us/eagan</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Eagan parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Due to large amounts of snow\u00a0; paths unpredictable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/eagan\">parkrun.us/eagan</a></td></tr></table>"
       }
     },
     {
@@ -64167,14 +64279,14 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Courthouse Lake",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-12-11",
+        "ReasonCancelled": "Forecast of up to a foot of overnight snow",
         "Website": "https://www.parkrun.us/courthouselake",
         "Country": "USA",
         "State": "Minnesota",
         "County": "Carver",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Courthouse Lake parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/courthouselake\">parkrun.us/courthouselake</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Courthouse Lake parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Forecast of up to a foot of overnight snow</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/courthouselake\">parkrun.us/courthouselake</a></td></tr></table>"
       }
     },
     {
