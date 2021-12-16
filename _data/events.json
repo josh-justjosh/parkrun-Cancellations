@@ -2259,14 +2259,14 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "St George",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-12-18",
+        "ReasonCancelled": "Flooding on course",
         "Website": "https://www.parkrun.com.au/stgeorge",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Shire of Balonne",
-        "description": "<h4 style=\"margin: 0 0 8px;\">St George parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/stgeorge\">parkrun.com.au/stgeorge</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">St George parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Flooding on course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/stgeorge\">parkrun.com.au/stgeorge</a></td></tr></table>"
       }
     },
     {
@@ -14019,14 +14019,14 @@
         "countrycode": 32,
         "seriesid": 1,
         "EventLocation": "W\u00f6hrder See, N\u00fcrnberg",
-        "Status": "parkrunning",
-        "DateCancelled": null,
-        "ReasonCancelled": null,
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-12-18",
+        "ReasonCancelled": "Local Covid-19 situation",
         "Website": "https://www.parkrun.com.de/woehrdersee",
         "Country": "Germany",
         "State": "Bavaria",
         "County": "Middle Franconia",
-        "description": "<h4 style=\"margin: 0 0 8px;\">W\u00f6hrder See parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/woehrdersee\">parkrun.com.de/woehrdersee</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">W\u00f6hrder See parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Local Covid-19 situation</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/woehrdersee\">parkrun.com.de/woehrdersee</a></td></tr></table>"
       }
     },
     {
@@ -29962,34 +29962,6 @@
       }
     },
     {
-      "id": 2133,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.723817,
-          -26.963778
-        ]
-      },
-      "properties": {
-        "eventname": "vryburg",
-        "EventLongName": "Vryburg parkrun",
-        "EventShortName": "Vryburg",
-        "LocalisedEventLongName": null,
-        "countrycode": 85,
-        "seriesid": 1,
-        "EventLocation": "Vryburg Golf Course",
-        "Status": "5k Cancellation",
-        "DateCancelled": "2021-12-18",
-        "ReasonCancelled": "COVID-19 (Coronavirus)",
-        "Website": "https://www.parkrun.co.za/vryburg",
-        "Country": "South Africa",
-        "State": "North-West",
-        "County": "Dr Ruth Segomotsi Mompati District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Vryburg parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/vryburg\">parkrun.co.za/vryburg</a></td></tr></table>"
-      }
-    },
-    {
       "id": 2288,
       "type": "Feature",
       "geometry": {
@@ -31527,6 +31499,34 @@
         "State": "Eastern Cape",
         "County": "Chris Hani District Municipality",
         "description": "<h4 style=\"margin: 0 0 8px;\">Komani parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/komani\">parkrun.co.za/komani</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 1897,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.776247,
+          -31.58678
+        ]
+      },
+      "properties": {
+        "eventname": "mthatha",
+        "EventLongName": "Mthatha parkrun",
+        "EventShortName": "Mthatha",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Mthatha Golf Course",
+        "Status": "5k Cancellation",
+        "DateCancelled": "2021-12-18",
+        "ReasonCancelled": "Preparing to restart",
+        "Website": "https://www.parkrun.co.za/mthatha",
+        "Country": "South Africa",
+        "State": "Eastern Cape",
+        "County": "OR Tambo District Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Mthatha parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Cancellation Note:</th><td>Preparing to restart</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/mthatha\">parkrun.co.za/mthatha</a></td></tr></table>"
       }
     },
     {
