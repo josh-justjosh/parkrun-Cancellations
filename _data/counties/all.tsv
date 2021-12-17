@@ -7,7 +7,7 @@ Antrim	Northern Ireland	7	4	1		12	Ecos|Portrush|Wallace|Larne|Carrickfergus|Vall
 Argyll and Bute	Scotland	2				2	Ganavan Sands|Mount Stuart|			
 Armagh	Northern Ireland	2	1			3	Citypark|Armagh|	Lurgan juniors|		
 Bedfordshire	England	7	4			11	Luton Wardown|Bedford|Houghton Hall|Great Denham|Dunstable Downs|Millennium Country|Henlow Bridge Lakes|	Houghton Hall juniors|Bedford juniors|Leighton Buzzard juniors|Wardown juniors|		
-Belfast	Northern Ireland	8	4			12	Waterworks|Belfast Victoria|Queens|Falls|Ormeau|Stormont|Colin Glen|Orangefield|	Belfast Victoria juniors|Waterworks juniors|Ormeau juniors|Musgrave juniors|		
+Belfast	Northern Ireland	8	3		1	12	Waterworks|Belfast Victoria|Queens|Falls|Ormeau|Stormont|Colin Glen|Orangefield|	Belfast Victoria juniors|Ormeau juniors|Musgrave juniors|		Waterworks juniors|
 Berkshire	England	10	4			14	Reading|Newbury|Bracknell|Woodley|Upton Court|Maidenhead|Prospect|Dinton Pastures|California Country|Sandhurst Memorial|	Bracknell juniors|Woodley juniors|Ockwells juniors|Salt Hill juniors|		
 Bristol	England	1	3			4	Eastville|	Eastville juniors|Kings Weston juniors|Windmill Hill juniors|		
 Buckinghamshire	England	10	4			14	Black Park|Milton Keynes|Wycombe Rye|Linford Wood|Aylesbury|Buckingham|Rushmere|Higginson, Marlow|Wendover Woods|Bury Field|	Wycombe Rye juniors|Milton Keynes juniors|Aylesbury juniors|Buckingham juniors|		
@@ -44,7 +44,7 @@ Fife	Scotland	4	2			6	St Andrews|Kirkcaldy|Dunfermline|Lochore Meadows|	Duloch j
 Fingal	Ireland	1	1			2	Sport Ireland Campus|	Beechpark juniors|		
 Galway	Ireland	6	1			7	Knocknacarra|Oranmore|Oughterard|Portumna|Clonbur Woods|Coole|	Oranmore juniors|		
 Galway City	Ireland		1			1		Westside Playing Fields juniors|		
-Glasgow City	Scotland	7	3			10	Pollok|Tollcross|Victoria|Ruchill|Springburn|Drumchapel|Queen’s, Glasgow|	Victoria juniors, Glasgow|Elder Park juniors|Springburn juniors|		
+Glasgow City	Scotland	6	3	1		10	Pollok|Victoria|Ruchill|Springburn|Drumchapel|Queen’s, Glasgow|	Victoria juniors, Glasgow|Elder Park juniors|Springburn juniors|	Tollcross|	
 Gloucestershire	England	19	6			25	Kingsway|Forest of Dean|Gloucester North|Thornbury|Stonehouse|Wotton|Cheltenham|Newent|Chipping Sodbury|Pomphrey Hill|Tewkesbury|Lydney|Cirencester|Gloucester City|Tetbury Goods Shed|Stratford Park, Stroud|Mallards Pike|King George V Playing Field|Berkeley Green|	Forest of Dean juniors|Page Park juniors|Little Stoke juniors|Cheltenham juniors|Stonehouse juniors|Wotton Community PARC juniors|		
 Greater London	England	58	32		1	91	Bushy Park|Wimbledon Common|Richmond Park|Bedfont Lakes|Roundshaw Downs|Finsbury Park|Bromley|Bexley|Harrow|Grovelands|Hackney Marshes|Greenwich|Old Deer Park|Hampstead Heath|Kingston|Brockwell|Beckenham Place|Highbury Fields|Crystal Palace|Valentines|Oak Hill|Lloyd|Gunnersbury|South Norwood|Wanstead Flats|Riddlesdown|Pymmes|Raphael|Ally Pally|Wormwood Scrubs|Hoblingwell|Mile End|Dulwich|Beckton|Gladstone|Crane Park|Hilly Fields|Burgess|Orpington|Barking|Harrow Lodge|Walthamstow|Southwark|Canons Park|Osterley|Fulham Palace|Northala Fields|Peckham Rye|Tooting Common|Victoria Dock|Clapham Common|Catford|Foots Cray Meadows|Sunny Hill|Hanworth|Bethlem Royal Hospital|Sutcliffe|Charlton|	Lloyd juniors|Queen’s Park juniors, London|Osterley juniors|London Fields juniors|Bushy juniors|Acton juniors|Crystal Palace juniors|Hilly Fields juniors|Wimbledon Park juniors|Harrow Lodge juniors|Barking and Dagenham juniors|Brockwell juniors|Mile End juniors|Burgess juniors|Pitshanger juniors|Highbury Fields juniors|Lesnes Abbey Woods juniors|Bromley juniors|Moormead juniors|Surbiton juniors|Eltham juniors|Hanworth juniors|Priory Park juniors|Friary Park juniors|Kenton Rec juniors|Leyton Jubilee juniors|Tooting Common juniors|Northala Fields juniors|Hoblingwell juniors|Enfield Town juniors|Latchmere Rec juniors|Paddington Rec juniors|		Caledonian juniors|
 Greater Manchester	England	22	11		2	35	Bramhall Park|Heaton Park|Woodbank|South Manchester|Oldham|Hyde|Pennington Flash|Bolton|Wythenshawe|Worsley Woods|Marple|Burnage|Cheadle Hulme|Watergrove|Stamford Park|Haigh Woodland|Stretford|Chadderton Hall|Sale Water|Fletcher Moss|Alexandra|Peel|	Queen’s Park juniors, Rochdale|Queen’s Park juniors, Bolton|Salford juniors|Hyde juniors|Marple juniors|South Manchester juniors|Ramsbottom juniors|Uppermill juniors|Seymour Park juniors|Alexandra juniors, Moss Side|Milnrow Memorial Park juniors|		Alexandra juniors, Oldham|Leigh juniors|
@@ -120,8 +120,8 @@ Wicklow	Ireland	3	2			5	Russborough|Tullow|Avondale Forest|	Bray juniors|Arklow 
 Wiltshire	England	7	4			11	Lydiard|Southwick Country Park|Chippenham|Salisbury|Melksham|Marlborough Common|Seven Fields|	Lydiard juniors|Chippenham juniors|Churchill Gardens juniors|King George V juniors|		
 Worcestershire	England	5	3			8	Arrow Valley|Worcester|Worcester Pitchcroft|Evesham|Wyre Forest|	Evesham juniors|Bromsgrove juniors|Wyre Forest juniors|		
 England Total	England	562	278	9	13	862				
-NI Total	Northern Ireland	32	15	1	1	49				
-Scotland Total	Scotland	57	21	2	1	81				
+NI Total	Northern Ireland	32	14	1	2	49				
+Scotland Total	Scotland	56	21	3	1	81				
 Wales Total	Wales	43	17	1	1	62				
 Ireland Total	Ireland	96	22	1	5	124				
-Total		790	353	14	21	1178				
+Total		789	352	15	22	1178				
