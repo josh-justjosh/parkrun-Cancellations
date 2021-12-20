@@ -282,6 +282,7 @@ for parkrun in events['features']:
     parkrun['properties']['description']+='</tr>'
     
     if parkrun['properties']['ReasonCancelled'] != None:
+        parkrun['properties']['description']+='<tr><th>Date Cancelled:</th><td>'+datetime.datetime.strptime(parkrun['properties']['DateCancelled'],'%Y-%m-%d').strftime('%A, %e&nbsp;%B&nbsp;%Y')+'</td>'
         parkrun['properties']['description']+='<tr><th>Cancellation Note:</th><td>'+parkrun['properties']['ReasonCancelled']+'</td>'
         parkrun['properties']['description']+='</tr>'
     
@@ -303,6 +304,7 @@ cancellation_dates = list(dict.fromkeys(cancellation_dates))
 cancellation_dates.sort()
 with open('_data/cancellation-dates.tsv','wt', encoding='utf-8', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
+    tsv_writer.writerow(['Dates'])
     for date in cancellation_dates:
         tsv_writer.writerow([date])
 print(now(),"cancellation-dates.tsv saved")

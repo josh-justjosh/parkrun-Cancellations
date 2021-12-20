@@ -530,18 +530,7 @@ permalink: /more
             }
         </script>
         <div style="display:flex; flex-wrap: wrap;">
-        <p style="flex-grow: 1;">Showing data for 
-        {% for row in site.data.cancellation-dates %}
-            {% for pair in row %}
-                {% for item in pair %}
-                    {% if forloop.last %}
-                        and 
-                    {% endif %}
-                    {{ item | date: "%A, %e&nbsp;%B&nbsp;%Y" }}
-                {% endfor %}
-            {% endfor %}
-        {% endfor %}
-        </p>
+        <p>Showing data for {% for i in site.data.cancellation-dates %}{% if forloop.last and forloop.length != 1 %} and {% elsif forloop.first %}{% else %}, {% endif %}{{ i['Dates'] | date: "%A, %e&nbsp;%B&nbsp;%Y" }}{% endfor %}</p>
         <a style="margin:auto; flex-grow: 1; text-align: end;" href="/" id="map-link">Click here to go to the full map.</a>
         </div>
         {% if site.data.cancellation-changes.size > 0 %}
