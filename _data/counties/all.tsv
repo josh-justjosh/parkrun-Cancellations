@@ -46,7 +46,7 @@ Glasgow City	Scotland	4	1	3	2	10	Pollok|Victoria|Ruchill|Springburn|	Victoria ju
 Gloucestershire	England	7	2	12	4	25	Kingsway|Wotton|Cheltenham|Chipping Sodbury|Pomphrey Hill|Lydney|Tetbury Goods Shed|	Cheltenham juniors|Stonehouse juniors|	Forest of Dean|Gloucester North|Thornbury|Stonehouse|Newent|Tewkesbury|Cirencester|Gloucester City|Stratford Park, Stroud|Mallards Pike|King George V Playing Field|Berkeley Green|	Forest of Dean juniors|Page Park juniors|Little Stoke juniors|Wotton Community PARC juniors|
 Greater London	England	32	21	26	12	91	Bushy Park|Richmond Park|Roundshaw Downs|Finsbury Park|Bromley|Bexley|Grovelands|Greenwich|Old Deer Park|Brockwell|Beckenham Place|Oak Hill|Lloyd|Gunnersbury|South Norwood|Wanstead Flats|Riddlesdown|Pymmes|Hoblingwell|Dulwich|Beckton|Gladstone|Crane Park|Hilly Fields|Barking|Canons Park|Northala Fields|Peckham Rye|Catford|Sunny Hill|Bethlem Royal Hospital|Sutcliffe|	Lloyd juniors|Bushy juniors|Acton juniors|Hilly Fields juniors|Wimbledon Park juniors|Harrow Lodge juniors|Brockwell juniors|Mile End juniors|Highbury Fields juniors|Lesnes Abbey Woods juniors|Bromley juniors|Surbiton juniors|Eltham juniors|Priory Park juniors|Friary Park juniors|Leyton Jubilee juniors|Tooting Common juniors|Hoblingwell juniors|Enfield Town juniors|Latchmere Rec juniors|Paddington Rec juniors|	Wimbledon Common|Bedfont Lakes|Harrow|Hackney Marshes|Hampstead Heath|Kingston|Highbury Fields|Crystal Palace|Valentines|Raphael|Ally Pally|Wormwood Scrubs|Mile End|Burgess|Orpington|Harrow Lodge|Walthamstow|Southwark|Osterley|Fulham Palace|Tooting Common|Victoria Dock|Clapham Common|Foots Cray Meadows|Hanworth|Charlton|	Queen’s Park juniors, London|Osterley juniors|London Fields juniors|Crystal Palace juniors|Barking and Dagenham juniors|Burgess juniors|Pitshanger juniors|Moormead juniors|Hanworth juniors|Kenton Rec juniors|Northala Fields juniors|Caledonian juniors|
 Greater Manchester	England	11	6	11	7	35	Bramhall Park|Heaton Park|South Manchester|Oldham|Hyde|Bolton|Wythenshawe|Worsley Woods|Marple|Watergrove|Stamford Park|	Queen’s Park juniors, Rochdale|South Manchester juniors|Ramsbottom juniors|Uppermill juniors|Seymour Park juniors|Alexandra juniors, Moss Side|	Woodbank|Pennington Flash|Burnage|Cheadle Hulme|Haigh Woodland|Stretford|Chadderton Hall|Sale Water|Fletcher Moss|Alexandra|Peel|	Queen’s Park juniors, Bolton|Salford juniors|Hyde juniors|Marple juniors|Alexandra juniors, Oldham|Milnrow Memorial Park juniors|Leigh juniors|
-Gwent	Wales	6	5	4	2	17	Riverfront|Newport|Bryn Bach|Penallta|Pontypool|Rogiet|	Bryn Bach juniors|Pontypool juniors|Bailey juniors|Dixton juniors|Rogiet juniors|	Cwmbran|Severn Bridge|Aberbeeg|Coed Cefn-pwll-du|	Penallta juniors|Newport juniors|
+Gwent	Wales	5	5	5	2	17	Riverfront|Bryn Bach|Penallta|Pontypool|Rogiet|	Bryn Bach juniors|Pontypool juniors|Bailey juniors|Dixton juniors|Rogiet juniors|	Newport|Cwmbran|Severn Bridge|Aberbeeg|Coed Cefn-pwll-du|	Penallta juniors|Newport juniors|
 Gwynedd	Wales	3		3		6	Dolgellau|Newborough Forest|Pont y Bala|		Penrhyn|Nant y Pandy|Hafan Pwllheli|	
 Hampshire	England	16	6	4	7	33	Basingstoke|Southampton|Andover|Southsea|Whiteley|Eastleigh|Lymington Woodside|Winchester|Netley Abbey|Queen Elizabeth|Rushmoor|Lee-on-the-Solent|Fareham|Hogmoor Inclosure|Itchen Valley Country|Bartley Park|	Netley Abbey juniors|Stokes Bay juniors|Southampton juniors|Eastney juniors|New Milton juniors|Queen’s Parade juniors, Aldershot|	Havant|Alice Holt|Brockenhurst|Portsmouth Lakeside|	Andover juniors|Basingstoke juniors|Waterlooville juniors|Winchester juniors|Whiteley juniors|Hogmoor Inclosure juniors|Dowds Farm juniors|
 Herefordshire	England	1		2		3	Hereford|		Ludlow|Ross-on-Wye|	
@@ -90,7 +90,7 @@ Rutland	England			1	1	2			Rutland Water|	Rutland Water juniors|
 Scottish Borders	Scotland	2				2	Hay Lodge|Wallaceneuk|			
 Shetland Islands	Scotland			1		1			Bressay|	
 Shropshire	England	4	1	1	1	7	Telford|Shrewsbury|Severn Valley Country|Alderford Lake|	Shrewsbury juniors|	Henley Wood, Oswestry|	Telford juniors|
-Sligo	Ireland	1				1	Sligo|			
+Sligo	Ireland			1		1			Sligo|	
 Somerset	England	6	1	6	6	19	Ashton Court|Bath Skyline|Longrun Meadow|Street|Henstridge Airfield|Clevedon Salthouse Fields|	Longrun Meadow juniors|	Shepton Mallet|Minehead|Burnham and Highbridge|Somerdale Pavilion|The Old Showfield|Sharpham Road Playing Fields|	Cheddar juniors|Bath Odd Down juniors|Weston-super-Mare juniors|Collett Park juniors|Yeovil Rec juniors|Yatton Recreation juniors|
 South Ayrshire	Scotland	2		1	1	4	Troon|Ayr|		Girvan Prom|	Prestwick Oval juniors|
 South Glamorgan	Wales	3	1	3	1	8	Cardiff|Barry Island|Tremorfa|	Barry juniors|	Grangemoor|Cosmeston Lakes|Trelai Park|	Cardiff juniors|
@@ -120,6 +120,6 @@ Worcestershire	England	4		1	3	8	Arrow Valley|Worcester|Worcester Pitchcroft|Eves
 England Total	England	306	138	266	153	863				
 NI Total	Northern Ireland	8	8	25	8	49				
 Scotland Total	Scotland	31	10	28	12	81				
-Wales Total	Wales	19	11	25	7	62				
-Ireland Total	Ireland	26	4	71	23	124				
-Total		390	171	415	203	1179				
+Wales Total	Wales	18	11	26	7	62				
+Ireland Total	Ireland	25	4	72	23	124				
+Total		388	171	417	203	1179				
