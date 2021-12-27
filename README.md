@@ -1,4 +1,4 @@
-[![Fetch & Manipulate parkrun Data](https://github.com/josh-justjosh/parkrun-Cancellations/actions/workflows/data-handling.yml/badge.svg)](https://github.com/josh-justjosh/parkrun-Cancellations/actions/workflows/data-handling.yml)
+[![Fetch & Manipulate parkrun Data](https://github.com/josh-justjosh/parkrun-Cancellations/actions/workflows/data-handling.yml/badge.svg)](https://github.com/josh-justjosh/parkrun-Cancellations/actions/workflows/data-handling.yml)[![pages-build-deployment](https://github.com/josh-justjosh/parkrun-Cancellations/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/josh-justjosh/parkrun-Cancellations/actions/workflows/pages/pages-build-deployment)
 
 Hey there! 👋
 
