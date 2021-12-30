@@ -40,7 +40,7 @@ with open('_data/cancellations.tsv','r', encoding='utf-8', newline='') as f:
         row = rem_dups(row)
         old_cancellations_data.append(row)
 print(now(),'cancellations.tsv read')
-old_cancellations_data.remove(['Event','Country','Cancellation Note','Website'])
+old_cancellations_data.remove(['Date','Event','Country','Cancellation Note','Website'])
 
 states_list = []
 with open('_data/raw/states.tsv','r', encoding='utf-8', newline='') as f:
@@ -118,7 +118,7 @@ for i in range(len(cancellation_table)):
     
     if same_week(cancellation_table[i][0]) == True:
         #print(now(),cancellation_table[i])
-        cancellations_data.append([cancellation_table[i][1],cancellation_table[i][3],cancellation_table[i][4]])
+        cancellations_data.append([cancellation_table[i][0],cancellation_table[i][1],cancellation_table[i][3],cancellation_table[i][4]])
         cancellations_list.append(cancellation_table[i][1])
 
 def sortByIndex0(e):
@@ -1122,13 +1122,13 @@ cancellations_additions = []
 cancellations_removals = []
 
 for i in old_cancellations_data:
-    oldwebsite = i[3]
-    i.pop(3)
+    oldwebsite = i[4]
+    i.pop(4)
     if i not in cancellations_data:
         #i.append('Removed')
         out = i
         for parkrun in events['features']:
-            if parkrun['properties']['EventLongName'] == i[0]:
+            if parkrun['properties']['EventLongName'] == i[1]:
                 out.append(oldwebsite)
                 break
         cancellations_removals.append(out)
@@ -1138,16 +1138,16 @@ for i in cancellations_data:
         #i.append('Added')
         out = i
         for parkrun in events['features']:
-            if parkrun['properties']['EventLongName'] == i[0]:
+            if parkrun['properties']['EventLongName'] == i[1]:
                 out.append(parkrun['properties']['Website'])
                 break
         cancellations_additions.append(out)
 
 for cancellation in cancellations_data:
-    if len(cancellation) <= 3:
+    if len(cancellation) <= 4:
         out = ''
         for parkrun in events['features']:
-            if parkrun['properties']['EventLongName'] == cancellation[0]:
+            if parkrun['properties']['EventLongName'] == cancellation[1]:
                 out = parkrun['properties']['Website']
                 break
         cancellation.append(out)
@@ -1157,11 +1157,12 @@ for cancellation in cancellations_data:
 #print(now(),cancellations_changes)
 cancellations_additions.sort()
 cancellations_removals.sort()
-cancellations_data.sort()
+cancellations_data.sort(key=sortByIndex0)
+cancellations_data.sort(key=sortByIndex1)
 
 with open('_data/cancellations.tsv','wt', encoding='utf-8', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
-    tsv_writer.writerow(['Event','Country','Cancellation Note','Website'])
+    tsv_writer.writerow(['Date','Event','Country','Cancellation Note','Website'])
     for event in cancellations_data:
         tsv_writer.writerow(event)
 print(now(),"cancellations.tsv saved")
@@ -1169,7 +1170,7 @@ print(now(),"cancellations.tsv saved")
 if cancellations_additions != []:
     with open('_data/cancellation-additions.tsv','wt', encoding='utf-8', newline='') as f:
         tsv_writer = csv.writer(f, delimiter='\t')
-        tsv_writer.writerow(['Event','Country','Cancellation Note','Website'])
+        tsv_writer.writerow(['Date','Event','Country','Cancellation Note','Website'])
         for event in cancellations_additions:
             tsv_writer.writerow(event)
             event.append('Added')
@@ -1181,7 +1182,7 @@ if cancellations_additions != []:
 if cancellations_removals != []:
     with open('_data/cancellation-removals.tsv','wt', encoding='utf-8', newline='') as f:
         tsv_writer = csv.writer(f, delimiter='\t')
-        tsv_writer.writerow(['Event','Country','Previous Cancellation Note','Website'])
+        tsv_writer.writerow(['Date','Event','Country','Previous Cancellation Note','Website'])
         for event in cancellations_removals:
             tsv_writer.writerow(event)
             event.append('Removed')
@@ -1194,7 +1195,7 @@ cancellations_changes.sort()
 if cancellations_changes != []:
     with open('_data/cancellation-changes.tsv','wt', encoding='utf-8', newline='') as f:
         tsv_writer = csv.writer(f, delimiter='\t')
-        tsv_writer.writerow(['Event','Country','Cancellation Note','Website','Added or Removed'])
+        tsv_writer.writerow(['Date','Event','Country','Cancellation Note','Website','Added or Removed'])
         for event in cancellations_changes:
             tsv_writer.writerow(event)
         tsv_writer.writerow([now(),'','','',''])
