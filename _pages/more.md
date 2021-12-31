@@ -537,7 +537,7 @@ permalink: /more
         <h2 class="split">Most Recent Changes</h2>
             <div>
                 {% if site.data.cancellation-additions.size > 0 %}
-                    <button type="button" class="collapsiblecan" style="margin: 5px;"><p style="float:left; margin: 0">Click to view the most recent Cancellations</p><p style="float:right; margin: 0" id='lastaddition'>Last Change: {{site.data.cancellation-additions.last.Event | date: "%R UTC %A, %e&nbsp;%B&nbsp;%Y" }}</p></button>
+                    <button type="button" class="collapsiblecan" style="margin: 5px;"><p style="float:left; margin: 0">Click to view the most recent Cancellations</p><p style="float:right; margin: 0" id='lastaddition'>Last Change: {{site.data.cancellation-additions.last.Date | date: "%R UTC %A, %e&nbsp;%B&nbsp;%Y" }}</p></button>
                     <div class="expcontentcan">
                         <div class="hscrollable">
                             <table style="width: 100%">
@@ -564,7 +564,7 @@ permalink: /more
                         <a href="/updates" style="float:right">Click to see a full history</a>
                     </div>
                     <script>
-                        var last_addition = new Date("{{ site.data.cancellation-additions.last.Event | date: '%Y-%m-%dT%T'}}+0000").getTime();
+                        var last_addition = new Date("{{ site.data.cancellation-additions.last.Date | date: '%Y-%m-%dT%T'}}+0000").getTime();
                         var la_date = new Date(last_addition)
                         var outa = la_date.toLocaleString('default', options);
                         document.getElementById("lastaddition").innerHTML = 'Last Change: ' + outa
@@ -586,7 +586,7 @@ permalink: /more
             </div>
             <!--<div>
                 {% if site.data.cancellation-removals.size > 0 %}
-                    <button type="button" class="collapsiblerein" style="margin: 5px;"><p style="float:left; margin: 0">Click to view the most recent Reinstatements</p><p style="float:right; margin: 0">Last Change: {{site.data.cancellation-removals.last.Event | date: "%R UTC %A, %e&nbsp;%B&nbsp;%Y" }}</p></button>
+                    <button type="button" class="collapsiblerein" style="margin: 5px;"><p style="float:left; margin: 0">Click to view the most recent Reinstatements</p><p style="float:right; margin: 0">Last Change: {{site.data.cancellation-removals.last.Date | date: "%R UTC %A, %e&nbsp;%B&nbsp;%Y" }}</p></button>
                     <div class="expcontentrein">
                         <div class="hscrollable">
                            <table style="width: 100%">
@@ -1202,6 +1202,47 @@ permalink: /more
             </table>
             </div>
             <p style="text-align:end; margin: 0"><a href="/graphs/aus">See these data as graphs</a></p>
+            <h2 class="split">USA Events</h2>
+            <div class="hscrollable">
+            <table style="width: 100%;">
+            <tr>
+                <th>State</th>
+                <th>parkrunning</th>
+                <!--<th>junior parkrunning</th>-->
+                <th>5k Cancellations</th>
+                <!--<th>junior Cancellations</th>-->
+                <th>Total</th>
+            </tr>
+                {% for row in site.data.usa-states %}
+            <tr>
+                {% unless forloop.last %}
+                    <td>{{ row['States'] }}</td>
+                    <td>{{ row['parkrunning'] }}</td>
+                    <!--<td>{{ row['junior parkrunning'] }}</td>-->
+                    <td>{{ row['5k Cancellations'] }}</td>
+                    <!--<td>{{ row['junior Cancellations'] }}</td>-->
+                    <td>{{ row['Total'] }}</td>
+                <!--</tr>
+                <tr>
+                    <td></td>
+                    <td>{% assign var = row['5k Events Running'] | split: "|" | sort %}{% for i in var %}{{ i }}{% unless forloop.last %}<br/>{% endunless %}{% endfor %}</td>
+                    <td>{% assign var = row['junior Events Running'] | split: "|" | sort %}{% for i in var %}{{ i }}{% unless forloop.last %}<br/>{% endunless %}{% endfor %}</td>
+                    <td>{% assign var = row['5k Events Cancelled'] | split: "|" | sort %}{% for i in var %}{{ i }}{% unless forloop.last %}<br/>{% endunless %}{% endfor %}</td>
+                    <td>{% assign var = row['junior Events Cancelled'] | split: "|" | sort %}{% for i in var %}{{ i }}{% unless forloop.last %}<br/>{% endunless %}{% endfor %}</td>
+                    <td></td>-->
+                {% else %}
+                    <th>{{ row['States'] }}</th>
+                    <th>{{ row['parkrunning'] }}</th>
+                    <!--<th>{{ row['junior parkrunning'] }}</th>-->
+                    <th>{{ row['5k Cancellations'] }}</th>
+                    <!--<th>{{ row['junior Cancellations'] }}</th>-->
+                    <th>{{ row['Total'] }}</th>
+                {% endunless %}
+            </tr>
+        {% endfor %}
+            </table>
+            </div>
+            <!--<p style="text-align:end; margin: 0"><a href="/graphs/usa">See these data as graphs</a></p>-->
         </div>
         <script>
             var coll = document.getElementsByClassName("collapsiblestats");
