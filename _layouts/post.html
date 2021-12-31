@@ -5,20 +5,8 @@ layout: default
 <article class="post detailed">
   <h1>{{ page.title }}</h1>
   <div>
-    {% assign last_modified_at = page.date %}
-
-    {% if time contains "00:00" %}
-      <p class="author_title" id="lastupdated" datetime="{{ last_modified_at | date_to_xmlschema }}">{{page.author}}  ·  {{ last_modified_at | date: "%A, %e&nbsp;%B&nbsp;%Y" }}</p>
-    {% else %}
-      <p class="author_title" id="lastupdated" datetime="{{ last_modified_at | date_to_xmlschema }}">{{page.author}}  ·  {{ last_modified_at | date: "%R" }} UTC {{ last_modified_at | date: "%A, %e&nbsp;%B&nbsp;%Y" }}</p>
-    {% endif %}
-    <script>
-        let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZoneName: 'short', hour:'2-digit', minute:'2-digit'};
-        var last_modified_at = new Date("{{ last_modified_at }}").getTime()
-        var lm_date = new Date(last_modified_at)
-        var out = lm_date.toLocaleString('defalit', options);
-        document.getElementById("lastupdated").innerHTML = '{{page.author}}  ·  ' + out
-    </script>
+    {% capture date %}{% if page.last_modified_at %}{{ page.last_modified_at }}{% elsif page.date == Nil %}{{ site.time }}{% else %}{{ page.date }}{% endif %}{% endcapture %}
+    <p class="author_title" id="lastupdated" datetime="{{ date | date_to_xmlschema }}">{% if page.author == Nil %}{{site.author}}{% else %}{{ page.author }}{% endif %}  ·  {{ date | date: "%R %A, %e&nbsp;%B&nbsp;%Y" }}</p>
     <div class="post-tags">
       {% if post %}
         {% assign tags = post.tags %}
