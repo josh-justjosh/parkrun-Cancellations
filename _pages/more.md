@@ -1231,7 +1231,7 @@ permalink: /more
                     <td>{% assign var = row['junior Events Cancelled'] | split: "|" | sort %}{% for i in var %}{{ i }}{% unless forloop.last %}<br/>{% endunless %}{% endfor %}</td>
                     <td></td>-->
                 {% else %}
-                    <th>{{ row['States'] }}</th>
+                    <th>Total</th>
                     <th>{{ row['parkrunning'] }}</th>
                     <!--<th>{{ row['junior parkrunning'] }}</th>-->
                     <th>{{ row['5k Cancellations'] }}</th>
