@@ -991,6 +991,35 @@ uk_ie_counties['Ireland Total'] = ireland_totals
 uk_ie_counties['Total'] = uk_ie_counties_totals        
 #print(json.dumps(uk_ie_counties, indent=4))
 
+usa_states = {}
+for parkrun in events['features']:
+    if parkrun['properties']['Country'] in ["USA"]:
+        usa_states[parkrun['properties']['State']] = {'country': parkrun['properties']['Country'],'parkrunning': 0,'junior parkrunning':0,'5k Cancellations':0,'junior Cancellations':0,'Total':0,'events parkrunning':'','events junior parkrunning':'','events 5k cancellation':'','events junior cancellation':''}
+        if parkrun['properties']['Status'] == 'parkrunning':
+            usa_states[parkrun['properties']['State']]['parkrunning'] += 1
+            usa_states[parkrun['properties']['State']]['Total'] += 1
+            usa_states[parkrun['properties']['State']]['events parkrunning'] += parkrun['properties']['EventShortName'] + '|'
+        elif parkrun['properties']['Status'] == 'junior parkrunning':
+            usa_states[parkrun['properties']['State']]['junior parkrunning'] += 1
+            usa_states[parkrun['properties']['State']]['Total'] += 1
+            usa_states[parkrun['properties']['State']]['events junior parkrunning'] += parkrun['properties']['EventShortName'] + '|'
+        elif parkrun['properties']['Status'] == '5k Cancellation':
+            usa_states[parkrun['properties']['State']]['5k Cancellations'] += 1
+            usa_states[parkrun['properties']['State']]['Total'] += 1
+            usa_states[parkrun['properties']['State']]['events 5k cancellation'] += parkrun['properties']['EventShortName'] + '|'
+        elif parkrun['properties']['Status'] == 'junior Cancellation':
+            usa_states[parkrun['properties']['State']]['junior Cancellations'] += 1
+            usa_states[parkrun['properties']['State']]['Total'] += 1
+            usa_states[parkrun['properties']['State']]['events junior cancellation'] += parkrun['properties']['EventShortName'] + '|'
+
+usa_states_od = collections.OrderedDict(sorted(usa_states.items()))
+usa_states = {}
+for k, v in usa_states_od.items():
+    usa_states[k] = v
+    
+usa_states['USA Totals'] = countries['USA']
+usa_states['USA Totals']['country'] = 'USA'
+
 with open('_data/counties/england.tsv','wt', encoding='utf-8', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
     tsv_writer.writerow(['County','parkrunning','junior parkrunning','5k Cancellations','junior Cancellations','Total','5k Events Running','junior Events Running','5k Events Cancelled','junior Events Cancelled'])
@@ -1116,6 +1145,28 @@ with open('_data/counties/all.tsv','wt', encoding='utf-8', newline='') as f:
                 out.append('')
         tsv_writer.writerow(out)
 print(now(),"counties/all.tsv saved")
+
+with open('_data/usa-states.tsv','wt', encoding='utf-8', newline='') as f:
+    tsv_writer = csv.writer(f, delimiter='\t')
+    tsv_writer.writerow(['States','parkrunning','junior parkrunning','5k Cancellations','junior Cancellations','Total','5k Events Running','junior Events Running','5k Events Cancelled','junior Events Cancelled'])
+    for i,j in usa_states.items():
+        if j['country'] == 'USA':
+            if i == 'USA Total':
+                out = ['USA']
+            else:
+                out = [i]
+            for k,l in j.items():
+                if l == 'USA':
+                    pass
+                elif l not in [0,[]]:
+                    out.append(l)
+                else:
+                    out.append('')
+            if i == 'USA Total':
+                for x in range(4):
+                    out.append('')
+            tsv_writer.writerow(out)
+print(now(),"usa-states.tsv saved")
 
 cancellations_changes = []
 cancellations_additions = []
