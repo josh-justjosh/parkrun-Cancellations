@@ -994,7 +994,9 @@ uk_ie_counties['Total'] = uk_ie_counties_totals
 usa_states = {}
 for parkrun in events['features']:
     if parkrun['properties']['Country'] in ["USA"]:
-        usa_states[parkrun['properties']['State']] = {'country': parkrun['properties']['Country'],'parkrunning': 0,'junior parkrunning':0,'5k Cancellations':0,'junior Cancellations':0,'Total':0,'events parkrunning':'','events junior parkrunning':'','events 5k cancellation':'','events junior cancellation':''}
+        if parkrun['properties']['State'] not in usa_states.keys():
+            usa_states[parkrun['properties']['State']] = {'country': parkrun['properties']['Country'],'parkrunning': 0,'junior parkrunning':0,'5k Cancellations':0,'junior Cancellations':0,'Total':0,'events parkrunning':'','events junior parkrunning':'','events 5k cancellation':'','events junior cancellation':''}
+            
         if parkrun['properties']['Status'] == 'parkrunning':
             usa_states[parkrun['properties']['State']]['parkrunning'] += 1
             usa_states[parkrun['properties']['State']]['Total'] += 1
