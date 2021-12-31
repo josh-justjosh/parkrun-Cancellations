@@ -1017,8 +1017,8 @@ usa_states = {}
 for k, v in usa_states_od.items():
     usa_states[k] = v
     
-usa_states['USA Totals'] = countries['USA']
-usa_states['USA Totals']['country'] = 'USA'
+usa_states['USA Total'] = countries['USA']
+usa_states['USA Total']['country'] = 'USA'
 
 with open('_data/counties/england.tsv','wt', encoding='utf-8', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
