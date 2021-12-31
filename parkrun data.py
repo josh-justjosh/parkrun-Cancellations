@@ -1393,7 +1393,15 @@ def writehistory(file, data):
         new_last_data['Total'] = last_data['Total']
         new_last_data['time'] = last_data['time']
         old_data.append(new_last_data)
-    old_data.append(data)
+    new_data = {
+        "parkrunning": data['parkrunning'],
+        "junior parkrunning": data['junior parkrunning'],
+        "5k Cancellations": data['5k Cancellations'],
+        "junior Cancellations": data['junior Cancellations'],
+        "Total": data['Total'],
+        "time": data['time']
+    }
+    old_data.append(new_data)
     with open('_data/history/'+file,'wt', encoding='utf-8', newline='\n') as f:
         f.write(json.dumps(old_data,indent=4)+"\n")
     print(now(),"history/"+file+" saved")
@@ -1434,5 +1442,32 @@ writehistory('aus/sa.json',aus['South Australia'])
 writehistory('aus/tas.json',aus['Tasmania'])
 writehistory('aus/vic.json',aus['Victoria'])
 writehistory('aus/wa.json',aus['Western Australia'])
+writehistory('usa/az.json',usa_states['Arizona'])
+writehistory('usa/ca.json',usa_states['California'])
+writehistory('usa/ca.json',usa_states['California'])
+writehistory('usa/co.json',usa_states['Colorado'])
+writehistory('usa/fl.json',usa_states['Florida'])
+writehistory('usa/ga.json',usa_states['Georgia'])
+writehistory('usa/id.json',usa_states['Idaho'])
+writehistory('usa/il.json',usa_states['Illinois'])
+writehistory('usa/in.json',usa_states['Indiana'])
+writehistory('usa/ky.json',usa_states['Kentucky'])
+writehistory('usa/md.json',usa_states['Maryland'])
+writehistory('usa/ma.json',usa_states['Massachusetts'])
+writehistory('usa/mi.json',usa_states['Michigan'])
+writehistory('usa/mn.json',usa_states['Minnesota'])
+writehistory('usa/nj.json',usa_states['New Jersey'])
+writehistory('usa/nc.json',usa_states['North Carolina'])
+writehistory('usa/oh.json',usa_states['Ohio'])
+writehistory('usa/or.json',usa_states['Oregon'])
+writehistory('usa/pa.json',usa_states['Pennsylvania'])
+writehistory('usa/tn.json',usa_states['Tennessee'])
+writehistory('usa/tx.json',usa_states['Texas'])
+writehistory('usa/vt.json',usa_states['Vermont'])
+writehistory('usa/va.json',usa_states['Virginia'])
+writehistory('usa/wa.json',usa_states['Washington'])
+writehistory('usa/dc.json',usa_states['Washington, D.C.'])
+writehistory('usa/wv.json',usa_states['West Virginia'])
+writehistory('usa/wi.json',usa_states['Wisconsin'])
 
 print(now(),'Script End')
