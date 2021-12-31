@@ -1246,16 +1246,18 @@ if cancellations_changes != []:
             out += '    <tr>' + '\n'
             out += '        <th>Event</th>' + '\n'
             out += '        <th>Country</th>' + '\n'
+            out += '        <th>Date</th>' + '\n'
             out += '        <th>Cancellation Note</th>' + '\n'
             out += '    </tr>' + '\n'
             for event in cancellations_additions:
                 out += '    <tr>' + '\n'
                 if event[3] not in ['','Added']:
-                    out += '        <td><a href="' + event[3] + '">' + event[0] + '</a></td>' + '\n'
+                    out += '        <td><a href="' + event[4] + '">' + event[1] + '</a></td>' + '\n'
                 else:
-                    out += '        <td>' + event[0] + '</td>' + '\n'
-                out += '        <td>' + event[1] + '</td>' + '\n'
+                    out += '        <td>' + event[1] + '</td>' + '\n'
                 out += '        <td>' + event[2] + '</td>' + '\n'
+                out += '        <td>' + event[0] + '</td>' + '\n'
+                out += '        <td>' + event[3] + '</td>' + '\n'
                 out += '    </tr>' + '\n'
             out += '</table>' + '\n'
             out += '</div>' + '\n'
@@ -1266,16 +1268,18 @@ if cancellations_changes != []:
             out += '    <tr>' + '\n'
             out += '        <th>Event</th>' + '\n'
             out += '        <th>Country</th>' + '\n'
+            out += '        <th>Date</th>' + '\n'
             out += '        <th>Previous Cancellation Note</th>' + '\n'
             out += '    </tr>' + '\n'
             for event in cancellations_removals:
                 out += '    <tr>' + '\n'
                 if event[3] not in ['','Removed']:
-                    out += '        <td><a href="' + event[3] + '">' + event[0] + '</a></td>' + '\n'
+                    out += '        <td><a href="' + event[4] + '">' + event[1] + '</a></td>' + '\n'
                 else:
-                    out += '        <td>' + event[0] + '</td>' + '\n'
-                out += '        <td>' + event[1] + '</td>' + '\n'
+                    out += '        <td>' + event[1] + '</td>' + '\n'
                 out += '        <td>' + event[2] + '</td>' + '\n'
+                out += '        <td>' + event[0] + '</td>' + '\n'
+                out += '        <td>' + event[3] + '</td>' + '\n'
                 out += '    </tr>' + '\n'
             out += '</table>' + '\n'
             out += '</div>' + '\n'
