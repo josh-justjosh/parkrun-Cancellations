@@ -166,15 +166,12 @@ for parkrun in events['features']:
         else:
             parkrun['properties']['Status'] = 'parkrunning'
 
+    parkrun['properties']['Cancellations'] = []
     for cancellation in cancellation_table:
         if parkrun['properties']['EventLongName'] == cancellation[1] and same_week(cancellation[0]) == True:
-            parkrun['properties']['DateCancelled'] = cancellation[0]
+            newcancellation = {'DateCancelled': cancellation[0], 'ReasonCancelled': cancellation[4]}
+            parkrun['properties']['Cancellations'].append(newcancellation)
             cancellation_dates.append(cancellation[0])
-            parkrun['properties']['ReasonCancelled'] = cancellation[4]
-            break
-        else:
-            parkrun['properties']['DateCancelled'] = None
-            parkrun['properties']['ReasonCancelled'] = None
 
     if parkrun['properties']['countrycode'] == 3 :
         parkrun['properties']['Website'] = 'https://www.parkrun.com.au/'+parkrun['properties']['eventname']
@@ -276,17 +273,28 @@ for parkrun in events['features']:
         new_states_list.append(add)
         
         
-    parkrun['properties']['description']='<h4 style="margin: 0 0 8px;">'+parkrun['properties']['EventLongName']+'</h4><table><tr><th>Status:</th>'
-    parkrun['properties']['description']+='<td>'+parkrun['properties']['Status']+'</td>'
-    parkrun['properties']['description']+='</tr>'
-    
-    if parkrun['properties']['ReasonCancelled'] != None:
-        parkrun['properties']['description']+='<tr><th>Date Cancelled:</th><td>'+datetime.datetime.strptime(parkrun['properties']['DateCancelled'],'%Y-%m-%d').strftime('%A, %e&nbsp;%B&nbsp;%Y')+'</td>'
-        parkrun['properties']['description']+='<tr><th>Cancellation Note:</th><td>'+parkrun['properties']['ReasonCancelled']+'</td>'
+    parkrun['properties']['description']='<h4 style="margin: 0 0 8px;">'+parkrun['properties']['EventLongName']+'</h4><table><tr><th>Status:</th><td'
+    if len(parkrun['properties']['Cancellations']) > 1:
+        parkrun['properties']['description']+=' colspan='+str(len(parkrun['properties']['Cancellations']))+' '
+    parkrun['properties']['description']+='>'+parkrun['properties']['Status']+'</td></tr>'
+
+    if len(parkrun['properties']['Cancellations']) == 1:
+        parkrun['properties']['description']+='<tr><th>Date Cancelled:</th><td>'+datetime.datetime.strptime(parkrun['properties']['Cancellations'][0]['DateCancelled'],'%Y-%m-%d').strftime('%A, %e&nbsp;%B&nbsp;%Y')+'</td></tr>'
+        parkrun['properties']['description']+='<tr><th>Cancellation Note:</th><td>'+parkrun['properties']['Cancellations'][0]['ReasonCancelled']+'</td></tr>'
+    elif len(parkrun['properties']['Cancellations']) > 1:
+        parkrun['properties']['description']+='<tr><th>Date Cancelled:</th>'
+        for i in parkrun['properties']['Cancellations']:
+            parkrun['properties']['description']+='<td>'+datetime.datetime.strptime(i['DateCancelled'],'%Y-%m-%d').strftime('%A, %e&nbsp;%B&nbsp;%Y')+'</td>'
+        parkrun['properties']['description']+='</tr><tr><th>Cancellation Note:</th>'
+        for i in parkrun['properties']['Cancellations']:
+            parkrun['properties']['description']+='<td>'+i['ReasonCancelled']+'</td>'
         parkrun['properties']['description']+='</tr>'
     
     if parkrun['properties']['Website'] != 'Unavailable':
-        parkrun['properties']['description']+='<tr><th>Website:</th><td><a href="'+parkrun['properties']['Website']+'">'+parkrun['properties']['Website'].replace('https://www.','')+'</a></td></tr>'
+        parkrun['properties']['description']+='<tr><th>Website:</th><td'
+        if len(parkrun['properties']['Cancellations']) > 1:
+            parkrun['properties']['description']+=' colspan='+str(len(parkrun['properties']['Cancellations']))+' '
+        parkrun['properties']['description']+='><a href="'+parkrun['properties']['Website']+'">'+parkrun['properties']['Website'].replace('https://www.','')+'</a></td></tr>'
     else: print(now(),parkrun['properties']['EventShortName'],'- Website   Not Generated')    
     parkrun['properties']['description']+='</table>'
 
@@ -318,15 +326,14 @@ for event in events['features']:
     out.append(event['properties']['State'])
     out.append(event['properties']['County'])
     out.append(event['properties']['Status'])
-    out.append(event['properties']['DateCancelled'])
-    out.append(event['properties']['ReasonCancelled'])
+    out.append(event['properties']['Cancellations'])
     out.append(event['properties']['Website'])
     events_data.append(out)
 events_data.sort()
 
 with open('_data/events-table.tsv','wt', encoding='utf-8', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
-    tsv_writer.writerow(['Event','Latitude','Longitude','Country','State','County','Status','Date Cancelled','Reason Cancelled','Website'])
+    tsv_writer.writerow(['Event','Latitude','Longitude','Country','State','County','Status','Cancellations','Website'])
     for event in events_data:
         tsv_writer.writerow(event)
 print(now(),"events-table.tsv saved")
