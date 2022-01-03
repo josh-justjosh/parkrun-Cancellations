@@ -13754,13 +13754,18 @@
         "countrycode": 32,
         "seriesid": 1,
         "EventLocation": "W\u00f6hrder See, N\u00fcrnberg",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-08",
+            "ReasonCancelled": "Local Covid-19 Situation"
+          }
+        ],
         "Website": "https://www.parkrun.com.de/woehrdersee",
         "Country": "Germany",
         "State": "Bavaria",
         "County": "Middle Franconia",
-        "description": "<h4 style=\"margin: 0 0 8px;\">W\u00f6hrder See parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/woehrdersee\">parkrun.com.de/woehrdersee</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">W\u00f6hrder See parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Local Covid-19 Situation</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/woehrdersee\">parkrun.com.de/woehrdersee</a></td></tr></table>"
       }
     },
     {
@@ -25101,17 +25106,13 @@
           {
             "DateCancelled": "2022-01-07",
             "ReasonCancelled": "\u0420\u043e\u0436\u0434\u0435\u0441\u0442\u0432\u043e *"
-          },
-          {
-            "DateCancelled": "2022-01-08",
-            "ReasonCancelled": "COVID-19 (Coronavirus)"
           }
         ],
         "Website": "https://www.parkrun.ru/ufabotanicheskysad",
         "Country": "Russia",
         "State": "Bashkortostan Republic",
         "County": "",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Ufa Botanichesky Sad</h4><table><tr><th>Status:</th><td colspan=2 >5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Friday,  7&nbsp;January&nbsp;2022</td><td>Saturday,  8&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>\u0420\u043e\u0436\u0434\u0435\u0441\u0442\u0432\u043e *</td><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td colspan=2 ><a href=\"https://www.parkrun.ru/ufabotanicheskysad\">parkrun.ru/ufabotanicheskysad</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Ufa Botanichesky Sad</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Friday,  7&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>\u0420\u043e\u0436\u0434\u0435\u0441\u0442\u0432\u043e *</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ru/ufabotanicheskysad\">parkrun.ru/ufabotanicheskysad</a></td></tr></table>"
       }
     },
     {
