@@ -14995,20 +14995,20 @@
         ]
       },
       "properties": {
-        "eventname": "castledemense",
-        "EventLongName": "Castle Demense parkrun",
-        "EventShortName": "Castle Demense",
+        "eventname": "macroomcastledemesne",
+        "EventLongName": "Macroom Castle Demesne parkrun",
+        "EventShortName": "Macroom Castle Demesne",
         "LocalisedEventLongName": null,
         "countrycode": 42,
         "seriesid": 1,
         "EventLocation": "The Castle Demense",
         "Status": "parkrunning",
         "Cancellations": [],
-        "Website": "https://www.parkrun.ie/castledemense",
+        "Website": "https://www.parkrun.ie/macroomcastledemesne",
         "Country": "Ireland",
-        "State": "Munster",
-        "County": "Cork",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Castle Demense parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/castledemense\">parkrun.ie/castledemense</a></td></tr></table>"
+        "State": "-Unknown-",
+        "County": "-Unknown-",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Macroom Castle Demesne parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/macroomcastledemesne\">parkrun.ie/macroomcastledemesne</a></td></tr></table>"
       }
     },
     {
@@ -18631,13 +18631,18 @@
         "countrycode": 44,
         "seriesid": 1,
         "EventLocation": "Piazzale Vittorio Emanuele",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-08",
+            "ReasonCancelled": "pandemia covid - sicurezza partecipanti - spirito"
+          }
+        ],
         "Website": "https://www.parkrun.it/muradilucca",
         "Country": "Italy",
         "State": "Tuscany",
         "County": "Provincia di Lucca",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Mura di Lucca parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.it/muradilucca\">parkrun.it/muradilucca</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Mura di Lucca parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>pandemia covid - sicurezza partecipanti - spirito</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.it/muradilucca\">parkrun.it/muradilucca</a></td></tr></table>"
       }
     },
     {
@@ -32537,13 +32542,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Brakpan Sport Centre",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-08",
+            "ReasonCancelled": "ED not available"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/brakpan",
         "Country": "South Africa",
         "State": "Gauteng",
         "County": "Ekurhuleni Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Brakpan parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/brakpan\">parkrun.co.za/brakpan</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Brakpan parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>ED not available</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/brakpan\">parkrun.co.za/brakpan</a></td></tr></table>"
       }
     },
     {
@@ -50144,7 +50154,7 @@
         ]
       },
       "properties": {
-        "eventname": "cannon-hill-juniors",
+        "eventname": "cannonhill-juniors",
         "EventLongName": "Cannon Hill junior parkrun, Birmingham",
         "EventShortName": "Cannon Hill juniors",
         "LocalisedEventLongName": null,
@@ -50153,11 +50163,11 @@
         "EventLocation": "Cannon Hill Park",
         "Status": "junior parkrunning",
         "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/cannon-hill-juniors",
+        "Website": "https://www.parkrun.org.uk/cannonhill-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Birmingham",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cannon Hill junior parkrun, Birmingham</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cannon-hill-juniors\">parkrun.org.uk/cannon-hill-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cannon Hill junior parkrun, Birmingham</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cannonhill-juniors\">parkrun.org.uk/cannonhill-juniors</a></td></tr></table>"
       }
     },
     {
