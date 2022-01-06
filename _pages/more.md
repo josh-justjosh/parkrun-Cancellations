@@ -3,7 +3,6 @@ layout: page
 title: More Info
 tag: parkrun
 permalink: /more
-author: Data Last Refreshed
 ---
 
 <div style="background-color: rgba(255,128,0,0.25); margin: 25px; padding: 5px; text-align: center">
