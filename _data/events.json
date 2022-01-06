@@ -11586,13 +11586,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Nose Hill Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-08",
+            "ReasonCancelled": "Extreme Cold"
+          }
+        ],
         "Website": "https://www.parkrun.ca/nosehill",
         "Country": "Canada",
         "State": "Alberta",
         "County": "Calgary",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Nose Hill parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/nosehill\">parkrun.ca/nosehill</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Nose Hill parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Extreme Cold</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/nosehill\">parkrun.ca/nosehill</a></td></tr></table>"
       }
     },
     {
@@ -15005,20 +15010,20 @@
         ]
       },
       "properties": {
-        "eventname": "macroomcastledemesne",
-        "EventLongName": "Macroom Castle Demesne parkrun",
-        "EventShortName": "Macroom Castle Demesne",
+        "eventname": "castledemense",
+        "EventLongName": "Castle Demense parkrun",
+        "EventShortName": "Castle Demense",
         "LocalisedEventLongName": null,
         "countrycode": 42,
         "seriesid": 1,
         "EventLocation": "The Castle Demense",
         "Status": "parkrunning",
         "Cancellations": [],
-        "Website": "https://www.parkrun.ie/macroomcastledemesne",
+        "Website": "https://www.parkrun.ie/castledemense",
         "Country": "Ireland",
         "State": "-Unknown-",
         "County": "-Unknown-",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Macroom Castle Demesne parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/macroomcastledemesne\">parkrun.ie/macroomcastledemesne</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Castle Demense parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/castledemense\">parkrun.ie/castledemense</a></td></tr></table>"
       }
     },
     {
@@ -50169,7 +50174,7 @@
         ]
       },
       "properties": {
-        "eventname": "cannonhill-juniors",
+        "eventname": "cannon-hill-juniors",
         "EventLongName": "Cannon Hill junior parkrun, Birmingham",
         "EventShortName": "Cannon Hill juniors",
         "LocalisedEventLongName": null,
@@ -50178,11 +50183,11 @@
         "EventLocation": "Cannon Hill Park",
         "Status": "junior parkrunning",
         "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/cannonhill-juniors",
+        "Website": "https://www.parkrun.org.uk/cannon-hill-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Birmingham",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cannon Hill junior parkrun, Birmingham</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cannonhill-juniors\">parkrun.org.uk/cannonhill-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cannon Hill junior parkrun, Birmingham</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cannon-hill-juniors\">parkrun.org.uk/cannon-hill-juniors</a></td></tr></table>"
       }
     },
     {
