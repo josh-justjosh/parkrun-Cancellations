@@ -3932,13 +3932,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Queanbeyan",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-08",
+            "ReasonCancelled": "Course is flooded due to large amounts of rain"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/queanbeyan",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Queanbeyan-Palerang Regional",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Queanbeyan parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/queanbeyan\">parkrun.com.au/queanbeyan</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Queanbeyan parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Course is flooded due to large amounts of rain</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/queanbeyan\">parkrun.com.au/queanbeyan</a></td></tr></table>"
       }
     },
     {
@@ -5661,13 +5666,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Riverbank Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-08",
+            "ReasonCancelled": "flooding over the course, course unsafe."
+          }
+        ],
         "Website": "https://www.parkrun.com.au/riverbank",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Yass Valley",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Riverbank parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/riverbank\">parkrun.com.au/riverbank</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Riverbank parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>flooding over the course, course unsafe.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/riverbank\">parkrun.com.au/riverbank</a></td></tr></table>"
       }
     },
     {
@@ -5938,6 +5948,33 @@
         "State": "New South Wales",
         "County": "Edward River Council",
         "description": "<h4 style=\"margin: 0 0 8px;\">McLean Beach parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/mcleanbeach\">parkrun.com.au/mcleanbeach</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 2930,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.075107,
+          -33.837954
+        ]
+      },
+      "properties": {
+        "eventname": "wentworthcommon",
+        "EventLongName": "Wentworth Common parkrun",
+        "EventShortName": "Wentworth Common",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "Wentworth Common",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.au/wentworthcommon",
+        "Country": "Australia",
+        "State": "New South Wales",
+        "County": "Parramatta",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Wentworth Common parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/wentworthcommon\">parkrun.com.au/wentworthcommon</a></td></tr></table>"
       }
     },
     {
@@ -8531,6 +8568,33 @@
       }
     },
     {
+      "id": 2949,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.12985,
+          -38.17212
+        ]
+      },
+      "properties": {
+        "eventname": "frankstonnatureconservationres",
+        "EventLongName": "Frankston Nature Conservation Reserve parkrun",
+        "EventShortName": "Frankston Nature Conservation Reserve",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "Frankston Nature Conservation Reserve",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.au/frankstonnatureconservationres",
+        "Country": "Australia",
+        "State": "Victoria",
+        "County": "Frankston",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Frankston Nature Conservation Reserve parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/frankstonnatureconservationres\">parkrun.com.au/frankstonnatureconservationres</a></td></tr></table>"
+      }
+    },
+    {
       "id": 364,
       "type": "Feature",
       "geometry": {
@@ -9930,13 +9994,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Risdon Brook Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-08",
+            "ReasonCancelled": "Tas Water have closed the park due to wet weather"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/risdonbrook",
         "Country": "Australia",
         "State": "Tasmania",
         "County": "Clarence",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Risdon Brook parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/risdonbrook\">parkrun.com.au/risdonbrook</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Risdon Brook parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Tas Water have closed the park due to wet weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/risdonbrook\">parkrun.com.au/risdonbrook</a></td></tr></table>"
       }
     },
     {
@@ -11754,13 +11823,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Snye Point Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-08",
+            "ReasonCancelled": "Weather and volunteer shortage"
+          }
+        ],
         "Website": "https://www.parkrun.ca/snyepoint",
         "Country": "Canada",
         "State": "Alberta",
         "County": "Wood Buffalo",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Snye Point parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/snyepoint\">parkrun.ca/snyepoint</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Snye Point parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Weather and volunteer shortage</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/snyepoint\">parkrun.ca/snyepoint</a></td></tr></table>"
       }
     },
     {
@@ -14699,13 +14773,18 @@
         "countrycode": 32,
         "seriesid": 1,
         "EventLocation": "Sportgel\u00e4nde an der Sandkaut",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-08",
+            "ReasonCancelled": "witterungsbedingt. Die Strecke ist zu aufgeweicht."
+          }
+        ],
         "Website": "https://www.parkrun.com.de/offenthal",
         "Country": "Germany",
         "State": "Hesse",
         "County": "Regierungsbezirk Darmstadt",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Offenthal parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/offenthal\">parkrun.com.de/offenthal</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Offenthal parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>witterungsbedingt. Die Strecke ist zu aufgeweicht.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/offenthal\">parkrun.com.de/offenthal</a></td></tr></table>"
       }
     },
     {
@@ -14959,6 +15038,38 @@
         "State": "Lower Saxony",
         "County": "Wolfsburg",
         "description": "<h4 style=\"margin: 0 0 8px;\">Allerpark parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/allerpark\">parkrun.com.de/allerpark</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 2957,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.622357,
+          51.981959
+        ]
+      },
+      "properties": {
+        "eventname": "wienburgpark",
+        "EventLongName": "Wienburgpark parkrun",
+        "EventShortName": "Wienburgpark",
+        "LocalisedEventLongName": null,
+        "countrycode": 32,
+        "seriesid": 1,
+        "EventLocation": "Wienburgpark",
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-08",
+            "ReasonCancelled": "Event not ready to start"
+          }
+        ],
+        "Website": "https://www.parkrun.com.de/wienburgpark",
+        "Country": "Germany",
+        "State": "North Rhine-Westphalia",
+        "County": "Regierungsbezirk M\u00fcnster",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Wienburgpark parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Event not ready to start</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/wienburgpark\">parkrun.com.de/wienburgpark</a></td></tr></table>"
       }
     },
     {
@@ -17348,13 +17459,18 @@
         "countrycode": 42,
         "seriesid": 1,
         "EventLocation": "Inch Beach",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-08",
+            "ReasonCancelled": "High Tide at 9.20am. Up to the Dunes."
+          }
+        ],
         "Website": "https://www.parkrun.ie/inchbeach",
         "Country": "Ireland",
         "State": "Munster",
         "County": "Kerry",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Inch Beach parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/inchbeach\">parkrun.ie/inchbeach</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Inch Beach parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>High Tide at 9.20am. Up to the Dunes.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/inchbeach\">parkrun.ie/inchbeach</a></td></tr></table>"
       }
     },
     {
@@ -24875,13 +24991,17 @@
           {
             "DateCancelled": "2022-01-07",
             "ReasonCancelled": "\u0420\u043e\u0436\u0434\u0435\u0441\u0442\u0432\u043e *"
+          },
+          {
+            "DateCancelled": "2022-01-08",
+            "ReasonCancelled": "\u0443\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0438\u0435 \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u043a\u043e\u0440\u043e\u043d\u043e\u0432\u0438\u0440\u0443\u0441\u043d\u043e\u0439 \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u0438"
           }
         ],
         "Website": "https://www.parkrun.ru/ryazanoreshek",
         "Country": "Russia",
         "State": "Ryazan Oblast",
         "County": "",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Ryazan Oreshek</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Friday,  7&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>\u0420\u043e\u0436\u0434\u0435\u0441\u0442\u0432\u043e *</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ru/ryazanoreshek\">parkrun.ru/ryazanoreshek</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Ryazan Oreshek</h4><table><tr><th>Status:</th><td colspan=2 >5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Friday,  7&nbsp;January&nbsp;2022</td><td>Saturday,  8&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>\u0420\u043e\u0436\u0434\u0435\u0441\u0442\u0432\u043e *</td><td>\u0443\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0438\u0435 \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u043a\u043e\u0440\u043e\u043d\u043e\u0432\u0438\u0440\u0443\u0441\u043d\u043e\u0439 \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u0438</td></tr><tr><th>Website:</th><td colspan=2 ><a href=\"https://www.parkrun.ru/ryazanoreshek\">parkrun.ru/ryazanoreshek</a></td></tr></table>"
       }
     },
     {
@@ -36398,13 +36518,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Worsley Woods, Salford",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-08",
+            "ReasonCancelled": "Lack of volunteers, course not safe."
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/worsleywoods",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Salford",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Worsley Woods parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/worsleywoods\">parkrun.org.uk/worsleywoods</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Worsley Woods parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Lack of volunteers, course not safe.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/worsleywoods\">parkrun.org.uk/worsleywoods</a></td></tr></table>"
       }
     },
     {
@@ -38470,13 +38595,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Tyne Riverside Country Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-08",
+            "ReasonCancelled": "Icy conditions on the course and access paths."
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/prudhoeriverside",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Northumberland",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Prudhoe Riverside parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/prudhoeriverside\">parkrun.org.uk/prudhoeriverside</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Prudhoe Riverside parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Icy conditions on the course and access paths.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/prudhoeriverside\">parkrun.org.uk/prudhoeriverside</a></td></tr></table>"
       }
     },
     {
@@ -39074,13 +39204,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "The Rising Sun Country Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-08",
+            "ReasonCancelled": "50% course covered in Ice not safe to run safely"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/risingsun",
         "Country": "United Kingdom",
         "State": "England",
         "County": "North Tyneside",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Rising Sun parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/risingsun\">parkrun.org.uk/risingsun</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Rising Sun parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>50% course covered in Ice not safe to run safely</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/risingsun\">parkrun.org.uk/risingsun</a></td></tr></table>"
       }
     },
     {
@@ -39511,13 +39646,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Jesmond Dene",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-08",
+            "ReasonCancelled": "Course extremely icy"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/jesmonddene",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Newcastle upon Tyne",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Jesmond Dene parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/jesmonddene\">parkrun.org.uk/jesmonddene</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Jesmond Dene parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Course extremely icy</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/jesmonddene\">parkrun.org.uk/jesmonddene</a></td></tr></table>"
       }
     },
     {
@@ -54243,13 +54383,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Strode College Sports Centre",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-08",
+            "ReasonCancelled": "waterlogged fields"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/street",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Somerset",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Street parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/street\">parkrun.org.uk/street</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Street parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>waterlogged fields</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/street\">parkrun.org.uk/street</a></td></tr></table>"
       }
     },
     {
@@ -54351,13 +54496,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Marlborough Common",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-08",
+            "ReasonCancelled": "Course is waterlogged and more rain is forecast."
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/marlboroughcommon",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Wiltshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Marlborough Common parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/marlboroughcommon\">parkrun.org.uk/marlboroughcommon</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Marlborough Common parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Course is waterlogged and more rain is forecast.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/marlboroughcommon\">parkrun.org.uk/marlboroughcommon</a></td></tr></table>"
       }
     },
     {
@@ -60002,13 +60152,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Shroggs Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-08",
+            "ReasonCancelled": "Icy /slippy sections of course"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/halifax",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Calderdale",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Halifax parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/halifax\">parkrun.org.uk/halifax</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Halifax parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Icy /slippy sections of course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/halifax\">parkrun.org.uk/halifax</a></td></tr></table>"
       }
     },
     {
@@ -62538,13 +62693,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "College Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-08",
+            "ReasonCancelled": "Trail unsafe due to ice"
+          }
+        ],
         "Website": "https://www.parkrun.us/collegepark",
         "Country": "USA",
         "State": "Maryland",
         "County": "Prince George's",
-        "description": "<h4 style=\"margin: 0 0 8px;\">College Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/collegepark\">parkrun.us/collegepark</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">College Park parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Trail unsafe due to ice</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/collegepark\">parkrun.us/collegepark</a></td></tr></table>"
       }
     },
     {
