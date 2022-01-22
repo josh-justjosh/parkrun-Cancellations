@@ -1978,13 +1978,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Queens Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-22",
+            "ReasonCancelled": "parkrun site being used as entry to fever clinic"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/bundaberg",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Bundaberg",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bundaberg parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/bundaberg\">parkrun.com.au/bundaberg</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bundaberg parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>parkrun site being used as entry to fever clinic</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/bundaberg\">parkrun.com.au/bundaberg</a></td></tr></table>"
       }
     },
     {
@@ -8555,6 +8560,33 @@
       }
     },
     {
+      "id": 2987,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.248705,
+          -37.86738
+        ]
+      },
+      "properties": {
+        "eventname": "lewisparkreserve",
+        "EventLongName": "Lewis Park Reserve parkrun",
+        "EventShortName": "Lewis Park Reserve",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "Lewis Park Reserve",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.au/lewisparkreserve",
+        "Country": "Australia",
+        "State": "Victoria",
+        "County": "Knox",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Lewis Park Reserve parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/lewisparkreserve\">parkrun.com.au/lewisparkreserve</a></td></tr></table>"
+      }
+    },
+    {
       "id": 364,
       "type": "Feature",
       "geometry": {
@@ -10543,13 +10575,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Young Street (underneath the Joy Baluch ",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-22",
+            "ReasonCancelled": "Heavy rain"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/portaugusta",
         "Country": "Australia",
         "State": "South Australia",
         "County": "Port Augusta",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Port Augusta parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/portaugusta\">parkrun.com.au/portaugusta</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Port Augusta parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Heavy rain</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/portaugusta\">parkrun.com.au/portaugusta</a></td></tr></table>"
       }
     },
     {
@@ -11304,13 +11341,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Yeldulknie Weir Trail",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-22",
+            "ReasonCancelled": "storms and flooding"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/yeldulknieweirtrail",
         "Country": "Australia",
         "State": "South Australia",
         "County": "Cleve",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Yeldulknie Weir Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/yeldulknieweirtrail\">parkrun.com.au/yeldulknieweirtrail</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Yeldulknie Weir Trail parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>storms and flooding</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/yeldulknieweirtrail\">parkrun.com.au/yeldulknieweirtrail</a></td></tr></table>"
       }
     },
     {
@@ -18344,6 +18386,33 @@
       }
     },
     {
+      "id": 2981,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.305834,
+          53.391669
+        ]
+      },
+      "properties": {
+        "eventname": "mellowespark-juniors",
+        "EventLongName": "Mellowes Park junior parkrun",
+        "EventShortName": "Mellowes Park juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 42,
+        "seriesid": 2,
+        "EventLocation": "Mellowes Park",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.ie/mellowespark-juniors",
+        "Country": "Ireland",
+        "State": "Leinster",
+        "County": "Dublin City",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Mellowes Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/mellowespark-juniors\">parkrun.ie/mellowespark-juniors</a></td></tr></table>"
+      }
+    },
+    {
       "id": 1239,
       "type": "Feature",
       "geometry": {
@@ -24718,13 +24787,18 @@
         "countrycode": 79,
         "seriesid": 1,
         "EventLocation": "\u041c\u0435\u043c\u043e\u0440\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043f\u0430\u0440\u043a",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-22",
+            "ReasonCancelled": "COVID-19 (Coronavirus)"
+          }
+        ],
         "Website": "https://www.parkrun.ru/memorialnypark",
         "Country": "Russia",
         "State": "Orel Oblast",
         "County": "",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Memorialny Park</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ru/memorialnypark\">parkrun.ru/memorialnypark</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Memorialny Park</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ru/memorialnypark\">parkrun.ru/memorialnypark</a></td></tr></table>"
       }
     },
     {
@@ -30075,6 +30149,33 @@
       }
     },
     {
+      "id": 2976,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.45499,
+          -33.969224
+        ]
+      },
+      "properties": {
+        "eventname": "normhudlintrails",
+        "EventLongName": "Norm-Hudlin Trails parkrun",
+        "EventShortName": "Norm-Hudlin Trails",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Norm-Hudlin Trails",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.za/normhudlintrails",
+        "Country": "South Africa",
+        "State": "Eastern Cape",
+        "County": "Nelson Mandela Bay Metropolitan Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Norm-Hudlin Trails parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/normhudlintrails\">parkrun.co.za/normhudlintrails</a></td></tr></table>"
+      }
+    },
+    {
       "id": 1070,
       "type": "Feature",
       "geometry": {
@@ -32509,6 +32610,33 @@
         "State": "Gauteng",
         "County": "Ekurhuleni Metropolitan Municipality",
         "description": "<h4 style=\"margin: 0 0 8px;\">Kwanele parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kwanele\">parkrun.co.za/kwanele</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 2979,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.425336,
+          -26.004296
+        ]
+      },
+      "properties": {
+        "eventname": "bapsfonteinhotel",
+        "EventLongName": "Bapsfontein Hotel parkrun",
+        "EventShortName": "Bapsfontein Hotel",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Bapsfontein Hotel",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.za/bapsfonteinhotel",
+        "Country": "South Africa",
+        "State": "Gauteng",
+        "County": "Ekurhuleni Metropolitan Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bapsfontein Hotel parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/bapsfonteinhotel\">parkrun.co.za/bapsfonteinhotel</a></td></tr></table>"
       }
     },
     {
@@ -39822,13 +39950,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Valentines Park, Redbridge",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-22",
+            "ReasonCancelled": "RD required to self-isolate due to Covid-19"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/valentines",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Greater London",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Valentines parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/valentines\">parkrun.org.uk/valentines</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Valentines parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>RD required to self-isolate due to Covid-19</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/valentines\">parkrun.org.uk/valentines</a></td></tr></table>"
       }
     },
     {
@@ -41638,6 +41771,33 @@
         "State": "England",
         "County": "Greater London",
         "description": "<h4 style=\"margin: 0 0 8px;\">Kennington Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/kenningtonpark-juniors\">parkrun.org.uk/kenningtonpark-juniors</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 2965,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.017074,
+          51.41912
+        ]
+      },
+      "properties": {
+        "eventname": "beckenhamplace-juniors",
+        "EventLongName": "Beckenham Place junior parkrun",
+        "EventShortName": "Beckenham Place juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Beckenham Place Park",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/beckenhamplace-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Greater London",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Beckenham Place junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/beckenhamplace-juniors\">parkrun.org.uk/beckenhamplace-juniors</a></td></tr></table>"
       }
     },
     {
@@ -59158,6 +59318,33 @@
       }
     },
     {
+      "id": 2975,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.046606,
+          50.809385
+        ]
+      },
+      "properties": {
+        "eventname": "greatsalterns",
+        "EventLongName": "Great Salterns parkrun",
+        "EventShortName": "Great Salterns",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Great Salterns Recreation Ground",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/greatsalterns",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Portsmouth",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Great Salterns parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/greatsalterns\">parkrun.org.uk/greatsalterns</a></td></tr></table>"
+      }
+    },
+    {
       "id": 2998,
       "type": "Feature",
       "geometry": {
@@ -62278,13 +62465,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Magic Island Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-22",
+            "ReasonCancelled": "Ice on the pathway"
+          }
+        ],
         "Website": "https://www.parkrun.us/charleston",
         "Country": "USA",
         "State": "West Virginia",
         "County": "Kanawha",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Charleston parkrun, West Virginia</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/charleston\">parkrun.us/charleston</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Charleston parkrun, West Virginia</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Ice on the pathway</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/charleston\">parkrun.us/charleston</a></td></tr></table>"
       }
     },
     {
