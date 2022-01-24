@@ -11301,13 +11301,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Yeldulknie Weir Trail",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-29",
+            "ReasonCancelled": "Track damage due to flooding"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/yeldulknieweirtrail",
         "Country": "Australia",
         "State": "South Australia",
         "County": "Cleve",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Yeldulknie Weir Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/yeldulknieweirtrail\">parkrun.com.au/yeldulknieweirtrail</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Yeldulknie Weir Trail parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Track damage due to flooding</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/yeldulknieweirtrail\">parkrun.com.au/yeldulknieweirtrail</a></td></tr></table>"
       }
     },
     {
@@ -54403,18 +54408,13 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Bude Marshes",
-        "Status": "junior Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2022-01-30",
-            "ReasonCancelled": "Establishing an event team"
-          }
-        ],
+        "Status": "junior parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/budemarshes-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Cornwall",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bude Marshes junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 30&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Establishing an event team</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/budemarshes-juniors\">parkrun.org.uk/budemarshes-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bude Marshes junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/budemarshes-juniors\">parkrun.org.uk/budemarshes-juniors</a></td></tr></table>"
       }
     },
     {
