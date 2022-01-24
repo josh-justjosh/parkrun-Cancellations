@@ -6,23 +6,6 @@ date: 2021-05-27
 permalink: /more-uk-ie
 ---
 
-{% for stuff in site.data.raw.time %}
-{% assign last_modified_at = stuff.time %}
-{% endfor %}
-
-{% if time contains "00:00" %}
-  <p class="author_title" id="lastupdated" datetime="{{ last_modified_at | date_to_xmlschema }}">Data Last Refreshed: {{ last_modified_at | date: "%A, %e&nbsp;%B&nbsp;%Y" }}</p>
-{% else %}
-  <p class="author_title" id="lastupdated" datetime="{{ last_modified_at | date_to_xmlschema }}">Data Last Refreshed: {{ last_modified_at | date: "%R" }} UTC {{ last_modified_at | date: "%A, %e&nbsp;%B&nbsp;%Y" }}</p>
-{% endif %}
-<script>
-    let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZoneName: 'short', hour:'2-digit', minute:'2-digit'};
-    var last_modified_at = new Date("{{ last_modified_at }}").getTime();
-    var lm_date = new Date(last_modified_at)
-    var out = lm_date.toLocaleString('defalit', options);
-    document.getElementById("lastupdated").innerHTML = 'Data Last Refreshed: ' + out
-</script>
-
 <style>
     #contents {
         width: max-content;
