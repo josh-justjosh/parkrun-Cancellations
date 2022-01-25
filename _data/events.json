@@ -8282,33 +8282,6 @@
       }
     },
     {
-      "id": 2704,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.264418,
-          -37.867985
-        ]
-      },
-      "properties": {
-        "eventname": "fairparkreserve",
-        "EventLongName": "Fairpark Reserve parkrun",
-        "EventShortName": "Fairpark Reserve",
-        "LocalisedEventLongName": null,
-        "countrycode": 3,
-        "seriesid": 1,
-        "EventLocation": "Fairpark Reserve",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.com.au/fairparkreserve",
-        "Country": "Australia",
-        "State": "Victoria",
-        "County": "Knox",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Fairpark Reserve parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/fairparkreserve\">parkrun.com.au/fairparkreserve</a></td></tr></table>"
-      }
-    },
-    {
       "id": 2706,
       "type": "Feature",
       "geometry": {
@@ -20069,13 +20042,18 @@
         "countrycode": 65,
         "seriesid": 1,
         "EventLocation": "Cornwall Park, Auckland, New Zealand",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-29",
+            "ReasonCancelled": "Covid restrictions"
+          }
+        ],
         "Website": "https://www.parkrun.co.nz/cornwall",
         "Country": "New Zealand",
         "State": "Auckland",
         "County": "Auckland",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cornwall parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/cornwall\">parkrun.co.nz/cornwall</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cornwall parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Covid restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/cornwall\">parkrun.co.nz/cornwall</a></td></tr></table>"
       }
     },
     {
@@ -35081,7 +35059,7 @@
         "LocalisedEventLongName": null,
         "countrycode": 97,
         "seriesid": 1,
-        "EventLocation": "Woodbank Park, Stockport",
+        "EventLocation": "Woodbank Memorial Park, Stockport",
         "Status": "parkrunning",
         "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/woodbank",
