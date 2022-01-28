@@ -1104,13 +1104,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Tharrapatha Way",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-29",
+            "ReasonCancelled": "Parts of course under water w/ more rain predicted"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/mountisa",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Mount Isa",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Mount Isa parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/mountisa\">parkrun.com.au/mountisa</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Mount Isa parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Parts of course under water w/ more rain predicted</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/mountisa\">parkrun.com.au/mountisa</a></td></tr></table>"
       }
     },
     {
@@ -3569,33 +3574,6 @@
       }
     },
     {
-      "id": 599,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.910936,
-          -36.895978
-        ]
-      },
-      "properties": {
-        "eventname": "merimbula",
-        "EventLongName": "Merimbula parkrun",
-        "EventShortName": "Merimbula",
-        "LocalisedEventLongName": null,
-        "countrycode": 3,
-        "seriesid": 1,
-        "EventLocation": "Merimbula",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.com.au/merimbula",
-        "Country": "Australia",
-        "State": "New South Wales",
-        "County": "Bega Valley",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Merimbula parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/merimbula\">parkrun.com.au/merimbula</a></td></tr></table>"
-      }
-    },
-    {
       "id": 606,
       "type": "Feature",
       "geometry": {
@@ -5592,13 +5570,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Broken Hill Racecourse",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-29",
+            "ReasonCancelled": "unsafe course conditions after heavy rain"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/brokenhillracecourse",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Broken Hill Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Broken Hill Racecourse parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/brokenhillracecourse\">parkrun.com.au/brokenhillracecourse</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Broken Hill Racecourse parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>unsafe course conditions after heavy rain</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/brokenhillracecourse\">parkrun.com.au/brokenhillracecourse</a></td></tr></table>"
       }
     },
     {
@@ -7897,13 +7880,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "KM Reedy Reserve",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-29",
+            "ReasonCancelled": "Course flooding"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/kmreedyreserve",
         "Country": "Australia",
         "State": "Victoria",
         "County": "Casey",
-        "description": "<h4 style=\"margin: 0 0 8px;\">KM Reedy Reserve parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/kmreedyreserve\">parkrun.com.au/kmreedyreserve</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">KM Reedy Reserve parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Course flooding</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/kmreedyreserve\">parkrun.com.au/kmreedyreserve</a></td></tr></table>"
       }
     },
     {
@@ -19535,13 +19523,18 @@
         "countrycode": 46,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-29",
+            "ReasonCancelled": "\u30dc\u30e9\u30f3\u30c6\u30a3\u30a2\u4e0d\u8db3"
+          }
+        ],
         "Website": "https://www.parkrun.jp/yuukafamilyroad",
         "Country": "Japan",
         "State": "Kumamoto",
         "County": "Yamaga Shi",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Yuuka Family Road parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/yuukafamilyroad\">parkrun.jp/yuukafamilyroad</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Yuuka Family Road parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>\u30dc\u30e9\u30f3\u30c6\u30a3\u30a2\u4e0d\u8db3</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/yuukafamilyroad\">parkrun.jp/yuukafamilyroad</a></td></tr></table>"
       }
     },
     {
@@ -21273,13 +21266,18 @@
         "countrycode": 67,
         "seriesid": 1,
         "EventLocation": "D\u00f8mmesmoen",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-29",
+            "ReasonCancelled": "Ice on course."
+          }
+        ],
         "Website": "https://www.parkrun.no/dommesmoen",
         "Country": "Norway",
         "State": "Agder",
         "County": "Grimstad",
-        "description": "<h4 style=\"margin: 0 0 8px;\">D\u00f8mmesmoen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.no/dommesmoen\">parkrun.no/dommesmoen</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">D\u00f8mmesmoen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Ice on course.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.no/dommesmoen\">parkrun.no/dommesmoen</a></td></tr></table>"
       }
     },
     {
@@ -29155,13 +29153,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Ventersburg",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-29",
+            "ReasonCancelled": "Wet and hazardous"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/ventersburg",
         "Country": "South Africa",
         "State": "Orange Free State",
         "County": "Lejweleputswa District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ventersburg parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ventersburg\">parkrun.co.za/ventersburg</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ventersburg parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Wet and hazardous</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ventersburg\">parkrun.co.za/ventersburg</a></td></tr></table>"
       }
     },
     {
@@ -29853,13 +29856,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Nahoon Point Nature Reserve",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-29",
+            "ReasonCancelled": "Awaiting permission from local authority."
+          }
+        ],
         "Website": "https://www.parkrun.co.za/nahoonpoint",
         "Country": "South Africa",
         "State": "Eastern Cape",
         "County": "Buffalo City Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Nahoon Point parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/nahoonpoint\">parkrun.co.za/nahoonpoint</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Nahoon Point parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Awaiting permission from local authority.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/nahoonpoint\">parkrun.co.za/nahoonpoint</a></td></tr></table>"
       }
     },
     {
@@ -31666,18 +31674,13 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Sterkfontein Heritage Lodge",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2022-01-29",
-            "ReasonCancelled": "Lack of volunteers"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.co.za/sterkfontein",
         "Country": "South Africa",
         "State": "Gauteng",
         "County": "West Rand District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Sterkfontein parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Lack of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/sterkfontein\">parkrun.co.za/sterkfontein</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Sterkfontein parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/sterkfontein\">parkrun.co.za/sterkfontein</a></td></tr></table>"
       }
     },
     {
@@ -34549,13 +34552,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Meadowmill Sports Centre",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-29",
+            "ReasonCancelled": "Very high winds forecast, in the interests of H&S"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/meadowmill",
         "Country": "United Kingdom",
         "State": "Scotland",
         "County": "East Lothian",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Meadowmill parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/meadowmill\">parkrun.org.uk/meadowmill</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Meadowmill parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Very high winds forecast, in the interests of H&S</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/meadowmill\">parkrun.org.uk/meadowmill</a></td></tr></table>"
       }
     },
     {
@@ -34576,13 +34584,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Hallhill Sports Centre",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-29",
+            "ReasonCancelled": "High winds forecast"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/lochendwoods",
         "Country": "United Kingdom",
         "State": "Scotland",
         "County": "East Lothian",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Lochend Woods parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/lochendwoods\">parkrun.org.uk/lochendwoods</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Lochend Woods parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>High winds forecast</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/lochendwoods\">parkrun.org.uk/lochendwoods</a></td></tr></table>"
       }
     },
     {
