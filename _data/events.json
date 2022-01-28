@@ -2118,13 +2118,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Mary K Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-29",
+            "ReasonCancelled": "Wet weather."
+          }
+        ],
         "Website": "https://www.parkrun.com.au/cloncurry",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Cloncurry",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cloncurry parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/cloncurry\">parkrun.com.au/cloncurry</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cloncurry parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Wet weather.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/cloncurry\">parkrun.com.au/cloncurry</a></td></tr></table>"
       }
     },
     {
@@ -3561,33 +3566,6 @@
         "State": "New South Wales",
         "County": "Armidale Regional",
         "description": "<h4 style=\"margin: 0 0 8px;\">Armidale parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/armidale\">parkrun.com.au/armidale</a></td></tr></table>"
-      }
-    },
-    {
-      "id": 599,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          149.910936,
-          -36.895978
-        ]
-      },
-      "properties": {
-        "eventname": "merimbula",
-        "EventLongName": "Merimbula parkrun",
-        "EventShortName": "Merimbula",
-        "LocalisedEventLongName": null,
-        "countrycode": 3,
-        "seriesid": 1,
-        "EventLocation": "Merimbula",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.com.au/merimbula",
-        "Country": "Australia",
-        "State": "New South Wales",
-        "County": "Bega Valley",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Merimbula parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/merimbula\">parkrun.com.au/merimbula</a></td></tr></table>"
       }
     },
     {
@@ -5334,13 +5312,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Banjo Paterson Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-29",
+            "ReasonCancelled": "Flooding"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/jindabyne",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Snowy Monaro Regional",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Jindabyne parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/jindabyne\">parkrun.com.au/jindabyne</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Jindabyne parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Flooding</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/jindabyne\">parkrun.com.au/jindabyne</a></td></tr></table>"
       }
     },
     {
@@ -10943,13 +10926,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "The Wetlands",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-29",
+            "ReasonCancelled": "CANCELLED! Blocked paths due to maintenance."
+          }
+        ],
         "Website": "https://www.parkrun.com.au/reynellaeast",
         "Country": "Australia",
         "State": "South Australia",
         "County": "Onkaparinga",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Reynella East parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/reynellaeast\">parkrun.com.au/reynellaeast</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Reynella East parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>CANCELLED! Blocked paths due to maintenance.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/reynellaeast\">parkrun.com.au/reynellaeast</a></td></tr></table>"
       }
     },
     {
@@ -62490,13 +62478,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Delaware and Raritan Canal State Park Tr",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-29",
+            "ReasonCancelled": "Heavy snow and wind chills expected Fri-Sat"
+          }
+        ],
         "Website": "https://www.parkrun.us/delawareandraritancanal",
         "Country": "USA",
         "State": "New Jersey",
         "County": "Somerset",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Delaware and Raritan Canal parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/delawareandraritancanal\">parkrun.us/delawareandraritancanal</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Delaware and Raritan Canal parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Heavy snow and wind chills expected Fri-Sat</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/delawareandraritancanal\">parkrun.us/delawareandraritancanal</a></td></tr></table>"
       }
     },
     {
@@ -62834,13 +62827,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "600 N. Park St. (outside the Helen C. White librar",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-01-29",
+            "ReasonCancelled": "Weather -- very cold!"
+          }
+        ],
         "Website": "https://www.parkrun.us/howardteminlakeshorepath",
         "Country": "USA",
         "State": "Wisconsin",
         "County": "Dane",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Howard Temin Lakeshore Path parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/howardteminlakeshorepath\">parkrun.us/howardteminlakeshorepath</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Howard Temin Lakeshore Path parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;January&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Weather -- very cold!</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/howardteminlakeshorepath\">parkrun.us/howardteminlakeshorepath</a></td></tr></table>"
       }
     },
     {
