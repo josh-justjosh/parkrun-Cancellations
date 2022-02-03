@@ -4450,13 +4450,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Black Muscat Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-02-05",
+            "ReasonCancelled": "Awaiting Land Owners Permission"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/chippingnorton",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Liverpool",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Chipping Norton parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/chippingnorton\">parkrun.com.au/chippingnorton</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Chipping Norton parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Awaiting Land Owners Permission</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/chippingnorton\">parkrun.com.au/chippingnorton</a></td></tr></table>"
       }
     },
     {
@@ -21105,13 +21110,18 @@
         "countrycode": 67,
         "seriesid": 1,
         "EventLocation": "Nansenparken",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-02-05",
+            "ReasonCancelled": "Fresh snow fall has hidden the ice on the paths"
+          }
+        ],
         "Website": "https://www.parkrun.no/nansenparken",
         "Country": "Norway",
         "State": "Viken",
         "County": "B\u00e6rum",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Nansenparken parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.no/nansenparken\">parkrun.no/nansenparken</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Nansenparken parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Fresh snow fall has hidden the ice on the paths</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.no/nansenparken\">parkrun.no/nansenparken</a></td></tr></table>"
       }
     },
     {
@@ -29372,38 +29382,6 @@
         "State": "Orange Free State",
         "County": "Fezile Dabi District Municipality",
         "description": "<h4 style=\"margin: 0 0 8px;\">Egweni River Lodge parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/egweniriverlodge\">parkrun.co.za/egweniriverlodge</a></td></tr></table>"
-      }
-    },
-    {
-      "id": 689,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          27.104892,
-          -26.707551
-        ]
-      },
-      "properties": {
-        "eventname": "potchefstroom",
-        "EventLongName": "Potchefstroom parkrun",
-        "EventShortName": "Potchefstroom",
-        "LocalisedEventLongName": null,
-        "countrycode": 85,
-        "seriesid": 1,
-        "EventLocation": "Corner of Retief and Govan Mbeki Avenue",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2022-02-05",
-            "ReasonCancelled": "COVID-19 (Coronavirus)"
-          }
-        ],
-        "Website": "https://www.parkrun.co.za/potchefstroom",
-        "Country": "South Africa",
-        "State": "North-West",
-        "County": "Dr Kenneth Kaunda District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Potchefstroom parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/potchefstroom\">parkrun.co.za/potchefstroom</a></td></tr></table>"
       }
     },
     {
@@ -56644,13 +56622,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Martin Bamford",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-02-05",
+            "ReasonCancelled": "Park closure due to construction works"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/cranleigh",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Surrey",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cranleigh parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cranleigh\">parkrun.org.uk/cranleigh</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cranleigh parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Park closure due to construction works</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cranleigh\">parkrun.org.uk/cranleigh</a></td></tr></table>"
       }
     },
     {
