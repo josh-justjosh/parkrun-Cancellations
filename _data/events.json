@@ -11788,13 +11788,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Snye Point Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-02-05",
+            "ReasonCancelled": "conflicting event - missing key volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.ca/snyepoint",
         "Country": "Canada",
         "State": "Alberta",
         "County": "Wood Buffalo",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Snye Point parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/snyepoint\">parkrun.ca/snyepoint</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Snye Point parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>conflicting event - missing key volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/snyepoint\">parkrun.ca/snyepoint</a></td></tr></table>"
       }
     },
     {
@@ -13418,13 +13423,18 @@
         "countrycode": 30,
         "seriesid": 1,
         "EventLocation": "Espoon keskuspuisto, Puolarmaari 12",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-02-05",
+            "ReasonCancelled": "Potentially icy tracks and course used for skiing"
+          }
+        ],
         "Website": "https://www.parkrun.fi/puolarmaari",
         "Country": "Finland",
         "State": "Uusimaa",
         "County": "Helsinki",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Puolarmaari parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fi/puolarmaari\">parkrun.fi/puolarmaari</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Puolarmaari parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Potentially icy tracks and course used for skiing</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fi/puolarmaari\">parkrun.fi/puolarmaari</a></td></tr></table>"
       }
     },
     {
@@ -16182,6 +16192,33 @@
         "State": "Munster",
         "County": "Clare",
         "description": "<h4 style=\"margin: 0 0 8px;\">Vandeleur parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/vandeleur\">parkrun.ie/vandeleur</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 1415,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.348957,
+          54.952769
+        ]
+      },
+      "properties": {
+        "eventname": "dungloe",
+        "EventLongName": "Dungloe parkrun",
+        "EventShortName": "Dungloe",
+        "LocalisedEventLongName": null,
+        "countrycode": 42,
+        "seriesid": 1,
+        "EventLocation": "Dungloe",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.ie/dungloe",
+        "Country": "Ireland",
+        "State": "-Unknown-",
+        "County": "-Unknown-",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Dungloe parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/dungloe\">parkrun.ie/dungloe</a></td></tr></table>"
       }
     },
     {
@@ -24098,13 +24135,18 @@
         "countrycode": 79,
         "seriesid": 1,
         "EventLocation": "5-\u0439 \u0412\u043e\u0439\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u043f\u0440\u043e\u0435\u0437\u0434, 2\u0430",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-02-05",
+            "ReasonCancelled": "\u041f\u0435\u0440\u0435\u043a\u0440\u044b\u0442\u0438\u0435 \u043c\u0435\u0441\u0442\u0430 \u0441\u0442\u0430\u0440\u0442\u0430 \u0438 \u0447\u0430\u0441\u0442\u0438 \u0442\u0440\u0430\u0441\u0441\u044b."
+          }
+        ],
         "Website": "https://www.parkrun.ru/pokrovskoestreshnevo",
         "Country": "Russia",
         "State": "Moscow",
         "County": "",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Pokrovskoe-Streshnevo</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ru/pokrovskoestreshnevo\">parkrun.ru/pokrovskoestreshnevo</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Pokrovskoe-Streshnevo</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>\u041f\u0435\u0440\u0435\u043a\u0440\u044b\u0442\u0438\u0435 \u043c\u0435\u0441\u0442\u0430 \u0441\u0442\u0430\u0440\u0442\u0430 \u0438 \u0447\u0430\u0441\u0442\u0438 \u0442\u0440\u0430\u0441\u0441\u044b.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ru/pokrovskoestreshnevo\">parkrun.ru/pokrovskoestreshnevo</a></td></tr></table>"
       }
     },
     {
@@ -32752,13 +32794,18 @@
         "countrycode": 88,
         "seriesid": 1,
         "EventLocation": "Rynningeviken",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-02-05",
+            "ReasonCancelled": "Icy course and fallen trees"
+          }
+        ],
         "Website": "https://www.parkrun.se/orebro",
         "Country": "Sweden",
         "State": "\u00d6rebro",
         "County": "\u00d6rebro Kommun",
-        "description": "<h4 style=\"margin: 0 0 8px;\">\u00d6rebro parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.se/orebro\">parkrun.se/orebro</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">\u00d6rebro parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Icy course and fallen trees</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.se/orebro\">parkrun.se/orebro</a></td></tr></table>"
       }
     },
     {
@@ -62027,13 +62074,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "North Lake Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-02-05",
+            "ReasonCancelled": "Snow emergency, hazardous travel"
+          }
+        ],
         "Website": "https://www.parkrun.us/mansfieldoh",
         "Country": "USA",
         "State": "Ohio",
         "County": "Richland",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Mansfield OH parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/mansfieldoh\">parkrun.us/mansfieldoh</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Mansfield OH parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Snow emergency, hazardous travel</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/mansfieldoh\">parkrun.us/mansfieldoh</a></td></tr></table>"
       }
     },
     {
@@ -62486,13 +62538,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Magic Island Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-02-05",
+            "ReasonCancelled": "Weather and icy pathway conditions"
+          }
+        ],
         "Website": "https://www.parkrun.us/charleston",
         "Country": "USA",
         "State": "West Virginia",
         "County": "Kanawha",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Charleston parkrun, West Virginia</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/charleston\">parkrun.us/charleston</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Charleston parkrun, West Virginia</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Weather and icy pathway conditions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/charleston\">parkrun.us/charleston</a></td></tr></table>"
       }
     },
     {
@@ -62626,13 +62683,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Lillie Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-02-05",
+            "ReasonCancelled": "Snow+ice on course - unsafe"
+          }
+        ],
         "Website": "https://www.parkrun.us/lillie",
         "Country": "USA",
         "State": "Michigan",
         "County": "Washtenaw",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Lillie parkrun, Ann Arbor</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/lillie\">parkrun.us/lillie</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Lillie parkrun, Ann Arbor</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Snow+ice on course - unsafe</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/lillie\">parkrun.us/lillie</a></td></tr></table>"
       }
     },
     {
@@ -63304,13 +63366,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Susquehanna Riverwalk",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-02-05",
+            "ReasonCancelled": "Too much ice on course - hazardous!"
+          }
+        ],
         "Website": "https://www.parkrun.us/susquehannariverwalk",
         "Country": "USA",
         "State": "Pennsylvania",
         "County": "Lycoming",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Susquehanna Riverwalk parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/susquehannariverwalk\">parkrun.us/susquehannariverwalk</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Susquehanna Riverwalk parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Too much ice on course - hazardous!</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/susquehannariverwalk\">parkrun.us/susquehannariverwalk</a></td></tr></table>"
       }
     },
     {
