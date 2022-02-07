@@ -12953,18 +12953,13 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "parc Moussette",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2022-02-12",
-            "ReasonCancelled": "COVID-19 (Coronavirus)"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.ca/moussette",
         "Country": "Canada",
         "State": "Quebec",
         "County": "Outaouais",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Moussette parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/moussette\">parkrun.ca/moussette</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Moussette parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/moussette\">parkrun.ca/moussette</a></td></tr></table>"
       }
     },
     {
@@ -21944,13 +21939,18 @@
         "countrycode": 74,
         "seriesid": 1,
         "EventLocation": "Parking, ul. Skalska, Wolbrom",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-02-12",
+            "ReasonCancelled": "Poszukujemy zespo\u0142u do prowadzenia spotka\u0144 parkrun"
+          }
+        ],
         "Website": "https://www.parkrun.pl/wolbrom",
         "Country": "Poland",
         "State": "Lesser Poland",
         "County": "Powiat olkuski",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Wolbrom</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/wolbrom\">parkrun.pl/wolbrom</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Wolbrom</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Poszukujemy zespo\u0142u do prowadzenia spotka\u0144 parkrun</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/wolbrom\">parkrun.pl/wolbrom</a></td></tr></table>"
       }
     },
     {
