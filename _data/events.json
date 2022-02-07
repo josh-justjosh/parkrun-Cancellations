@@ -33692,13 +33692,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Hazlehead Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-02-12",
+            "ReasonCancelled": "Fallen trees and storm damage to paths."
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/hazlehead",
         "Country": "United Kingdom",
         "State": "Scotland",
         "County": "Aberdeen City",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hazlehead parkrun, Aberdeen</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hazlehead\">parkrun.org.uk/hazlehead</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hazlehead parkrun, Aberdeen</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Fallen trees and storm damage to paths.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hazlehead\">parkrun.org.uk/hazlehead</a></td></tr></table>"
       }
     },
     {
