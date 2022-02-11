@@ -4681,13 +4681,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Picnic Point Reserve",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-02-12",
+            "ReasonCancelled": "Tree down across path. Not safe to hold event"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/theentrance",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Central Coast",
-        "description": "<h4 style=\"margin: 0 0 8px;\">The Entrance parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/theentrance\">parkrun.com.au/theentrance</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">The Entrance parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Tree down across path. Not safe to hold event</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/theentrance\">parkrun.com.au/theentrance</a></td></tr></table>"
       }
     },
     {
@@ -13398,13 +13403,18 @@
         "countrycode": 30,
         "seriesid": 1,
         "EventLocation": "Tokoinranta",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-02-12",
+            "ReasonCancelled": "dangerous icy conditions on the route."
+          }
+        ],
         "Website": "https://www.parkrun.fi/tokoinranta",
         "Country": "Finland",
         "State": "Uusimaa",
         "County": "Helsinki",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Tokoinranta parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fi/tokoinranta\">parkrun.fi/tokoinranta</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Tokoinranta parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>dangerous icy conditions on the route.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fi/tokoinranta\">parkrun.fi/tokoinranta</a></td></tr></table>"
       }
     },
     {
@@ -14999,13 +15009,18 @@
         "countrycode": 32,
         "seriesid": 1,
         "EventLocation": "Wienburgpark",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-02-12",
+            "ReasonCancelled": "weiterhin nicht startbereit"
+          }
+        ],
         "Website": "https://www.parkrun.com.de/wienburgpark",
         "Country": "Germany",
         "State": "North Rhine-Westphalia",
         "County": "Regierungsbezirk M\u00fcnster",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Wienburgpark parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/wienburgpark\">parkrun.com.de/wienburgpark</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Wienburgpark parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>weiterhin nicht startbereit</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/wienburgpark\">parkrun.com.de/wienburgpark</a></td></tr></table>"
       }
     },
     {
@@ -21203,6 +21218,33 @@
         "State": "Canterbury",
         "County": "Selwyn District",
         "description": "<h4 style=\"margin: 0 0 8px;\">Foster parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Due to current COVID-19 restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/foster\">parkrun.co.nz/foster</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 2903,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.958159,
+          -46.095775
+        ]
+      },
+      "properties": {
+        "eventname": "hamiltonpark",
+        "EventLongName": "Hamilton Park parkrun",
+        "EventShortName": "Hamilton Park",
+        "LocalisedEventLongName": null,
+        "countrycode": 65,
+        "seriesid": 1,
+        "EventLocation": "Hamilton Park",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.nz/hamiltonpark",
+        "Country": "New Zealand",
+        "State": "Southland",
+        "County": "Gore District",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hamilton Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/hamiltonpark\">parkrun.co.nz/hamiltonpark</a></td></tr></table>"
       }
     },
     {
@@ -29245,13 +29287,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Ventersburg",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-02-12",
+            "ReasonCancelled": "Wet and hazardous"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/ventersburg",
         "Country": "South Africa",
         "State": "Orange Free State",
         "County": "Lejweleputswa District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ventersburg parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ventersburg\">parkrun.co.za/ventersburg</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ventersburg parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Wet and hazardous</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ventersburg\">parkrun.co.za/ventersburg</a></td></tr></table>"
       }
     },
     {
@@ -35144,30 +35191,30 @@
       }
     },
     {
-      "id": 3020,
+      "id": 2963,
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.802062,
-          56.045433
+          -2.908213,
+          56.642663
         ]
       },
       "properties": {
-        "eventname": "archerfieldwalledgarden-juniors",
-        "EventLongName": "Archerfield Walled Garden junior parkrun",
-        "EventShortName": "Archerfield Walled Garden juniors",
+        "eventname": "forfarloch",
+        "EventLongName": "Forfar Loch parkrun",
+        "EventShortName": "Forfar Loch",
         "LocalisedEventLongName": null,
         "countrycode": 97,
-        "seriesid": 2,
-        "EventLocation": "Archerfield Walled Garden",
-        "Status": "junior parkrunning",
+        "seriesid": 1,
+        "EventLocation": "Forfar Loch",
+        "Status": "parkrunning",
         "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/archerfieldwalledgarden-juniors",
+        "Website": "https://www.parkrun.org.uk/forfarloch",
         "Country": "United Kingdom",
         "State": "Scotland",
-        "County": "East Lothian",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Archerfield Walled Garden junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/archerfieldwalledgarden-juniors\">parkrun.org.uk/archerfieldwalledgarden-juniors</a></td></tr></table>"
+        "County": "Angus",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Forfar Loch parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/forfarloch\">parkrun.org.uk/forfarloch</a></td></tr></table>"
       }
     },
     {
@@ -36484,13 +36531,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Whinlatter Forest Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-02-12",
+            "ReasonCancelled": "High wind speed"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/whinlatterforest",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Cumbria",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Whinlatter Forest parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/whinlatterforest\">parkrun.org.uk/whinlatterforest</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Whinlatter Forest parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>High wind speed</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/whinlatterforest\">parkrun.org.uk/whinlatterforest</a></td></tr></table>"
       }
     },
     {
@@ -58061,13 +58113,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "King Edwards Parade",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-02-13",
+            "ReasonCancelled": "No RD available"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/eastbourne-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "East Sussex",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Eastbourne junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/eastbourne-juniors\">parkrun.org.uk/eastbourne-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Eastbourne junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 13&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>No RD available</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/eastbourne-juniors\">parkrun.org.uk/eastbourne-juniors</a></td></tr></table>"
       }
     },
     {
