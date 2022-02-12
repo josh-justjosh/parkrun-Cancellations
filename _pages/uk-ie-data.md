@@ -2,7 +2,6 @@
 layout: page
 title: UK and Ireland Data
 tag: parkrun
-date: 2021-05-27
 permalink: /more-uk-ie
 ---
 
