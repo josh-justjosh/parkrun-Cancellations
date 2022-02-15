@@ -3679,13 +3679,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Walka Recreation & Wildlife Reserve",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-02-19",
+            "ReasonCancelled": "Site closed - hazardous materials"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/maitland",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Maitland Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Maitland parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/maitland\">parkrun.com.au/maitland</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Maitland parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Site closed - hazardous materials</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/maitland\">parkrun.com.au/maitland</a></td></tr></table>"
       }
     },
     {
@@ -27112,6 +27117,38 @@
       }
     },
     {
+      "id": 679,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.179573,
+          -25.772619
+        ]
+      },
+      "properties": {
+        "eventname": "voortrekkermonument",
+        "EventLongName": "Voortrekker Monument parkrun, Pretoria",
+        "EventShortName": "Voortrekker Monument",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Voortrekker Monument Heritage Site",
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-02-19",
+            "ReasonCancelled": "COVID-19 (Coronavirus)"
+          }
+        ],
+        "Website": "https://www.parkrun.co.za/voortrekkermonument",
+        "Country": "South Africa",
+        "State": "Gauteng",
+        "County": "City of Tshwane Metropolitan Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Voortrekker Monument parkrun, Pretoria</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/voortrekkermonument\">parkrun.co.za/voortrekkermonument</a></td></tr></table>"
+      }
+    },
+    {
       "id": 982,
       "type": "Feature",
       "geometry": {
@@ -29875,6 +29912,38 @@
       }
     },
     {
+      "id": 1929,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.89354,
+          -32.98305
+        ]
+      },
+      "properties": {
+        "eventname": "imonti",
+        "EventLongName": "iMonti parkrun",
+        "EventShortName": "iMonti",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Cambridge Sports Club",
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-02-19",
+            "ReasonCancelled": "COVID-19 (Coronavirus)"
+          }
+        ],
+        "Website": "https://www.parkrun.co.za/imonti",
+        "Country": "South Africa",
+        "State": "Eastern Cape",
+        "County": "Buffalo City Metropolitan Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">iMonti parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/imonti\">parkrun.co.za/imonti</a></td></tr></table>"
+      }
+    },
+    {
       "id": 2001,
       "type": "Feature",
       "geometry": {
@@ -32068,6 +32137,38 @@
         "State": "Gauteng",
         "County": "Ekurhuleni Metropolitan Municipality",
         "description": "<h4 style=\"margin: 0 0 8px;\">Bulithando parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/bulithando\">parkrun.co.za/bulithando</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 2072,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.14039,
+          -26.139608
+        ]
+      },
+      "properties": {
+        "eventname": "edenvale",
+        "EventLongName": "Edenvale parkrun",
+        "EventShortName": "Edenvale",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Eskom & City Power Property",
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-02-19",
+            "ReasonCancelled": "COVID-19 (Coronavirus)"
+          }
+        ],
+        "Website": "https://www.parkrun.co.za/edenvale",
+        "Country": "South Africa",
+        "State": "Gauteng",
+        "County": "Ekurhuleni Metropolitan Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Edenvale parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/edenvale\">parkrun.co.za/edenvale</a></td></tr></table>"
       }
     },
     {
@@ -38168,6 +38269,38 @@
         "State": "England",
         "County": "Durham",
         "description": "<h4 style=\"margin: 0 0 8px;\">Riverside parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/riverside\">parkrun.org.uk/riverside</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 393,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.287396,
+          54.564846
+        ]
+      },
+      "properties": {
+        "eventname": "teesbarrage",
+        "EventLongName": "Tees Barrage parkrun",
+        "EventShortName": "Tees Barrage",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Tees Barrage, Middlesbrough",
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-02-19",
+            "ReasonCancelled": "Venue not yet available"
+          }
+        ],
+        "Website": "https://www.parkrun.org.uk/teesbarrage",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Stockton-on-Tees",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Tees Barrage parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Venue not yet available</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/teesbarrage\">parkrun.org.uk/teesbarrage</a></td></tr></table>"
       }
     },
     {
