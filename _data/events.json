@@ -5700,6 +5700,33 @@
       }
     },
     {
+      "id": 2699,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.427968,
+          -33.29805
+        ]
+      },
+      "properties": {
+        "eventname": "pioneerdairy",
+        "EventLongName": "Pioneer Dairy parkrun",
+        "EventShortName": "Pioneer Dairy",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "Pioneer Dairy",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.au/pioneerdairy",
+        "Country": "Australia",
+        "State": "New South Wales",
+        "County": "Central Coast",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Pioneer Dairy parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/pioneerdairy\">parkrun.com.au/pioneerdairy</a></td></tr></table>"
+      }
+    },
+    {
       "id": 2707,
       "type": "Feature",
       "geometry": {
@@ -9529,13 +9556,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Burswood Peninsular",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-02-19",
+            "ReasonCancelled": "AFLW training session, course will be blocked"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/burswoodpeninsula",
         "Country": "Australia",
         "State": "Western Australia",
         "County": "Victoria Park",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Burswood Peninsula parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/burswoodpeninsula\">parkrun.com.au/burswoodpeninsula</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Burswood Peninsula parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>AFLW training session, course will be blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/burswoodpeninsula\">parkrun.com.au/burswoodpeninsula</a></td></tr></table>"
       }
     },
     {
@@ -32542,13 +32574,18 @@
         "countrycode": 88,
         "seriesid": 1,
         "EventLocation": "Gr\u00f6na Dalen",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-02-19",
+            "ReasonCancelled": "Is p\u00e5 banan"
+          }
+        ],
         "Website": "https://www.parkrun.se/kungsangen",
         "Country": "Sweden",
         "State": "Stockholm",
         "County": "Upplands-Bro Kommun",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Kungs\u00e4ngen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.se/kungsangen\">parkrun.se/kungsangen</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Kungs\u00e4ngen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Is p\u00e5 banan</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.se/kungsangen\">parkrun.se/kungsangen</a></td></tr></table>"
       }
     },
     {
