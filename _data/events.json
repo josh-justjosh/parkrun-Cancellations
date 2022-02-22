@@ -28718,38 +28718,6 @@
       }
     },
     {
-      "id": 1701,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          30.10707,
-          -25.405517
-        ]
-      },
-      "properties": {
-        "eventname": "dullstroom",
-        "EventLongName": "Dullstroom parkrun",
-        "EventShortName": "Dullstroom",
-        "LocalisedEventLongName": null,
-        "countrycode": 85,
-        "seriesid": 1,
-        "EventLocation": "Dullstroom Dam & Nature Reserve",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2022-02-26",
-            "ReasonCancelled": "COVID-19 (Coronavirus)"
-          }
-        ],
-        "Website": "https://www.parkrun.co.za/dullstroom",
-        "Country": "South Africa",
-        "State": "Mpumalanga",
-        "County": "Nkangala District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Dullstroom parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 26&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/dullstroom\">parkrun.co.za/dullstroom</a></td></tr></table>"
-      }
-    },
-    {
       "id": 1807,
       "type": "Feature",
       "geometry": {
@@ -29270,38 +29238,6 @@
         "State": "Orange Free State",
         "County": "Mangaung Metropolitan Municipality",
         "description": "<h4 style=\"margin: 0 0 8px;\">Brandkop parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/brandkop\">parkrun.co.za/brandkop</a></td></tr></table>"
-      }
-    },
-    {
-      "id": 2568,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          27.56611,
-          -27.957312
-        ]
-      },
-      "properties": {
-        "eventname": "steynsrusshowground",
-        "EventLongName": "Steynsrus Showground parkrun",
-        "EventShortName": "Steynsrus Showground",
-        "LocalisedEventLongName": null,
-        "countrycode": 85,
-        "seriesid": 1,
-        "EventLocation": "Steynsrus Showground",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2022-02-26",
-            "ReasonCancelled": "COVID-19 (Coronavirus)"
-          }
-        ],
-        "Website": "https://www.parkrun.co.za/steynsrusshowground",
-        "Country": "South Africa",
-        "State": "Orange Free State",
-        "County": "Fezile Dabi District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Steynsrus Showground parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 26&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/steynsrusshowground\">parkrun.co.za/steynsrusshowground</a></td></tr></table>"
       }
     },
     {
@@ -31947,38 +31883,6 @@
         "State": "Gauteng",
         "County": "Ekurhuleni Metropolitan Municipality",
         "description": "<h4 style=\"margin: 0 0 8px;\">Riverfields parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 26&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/riverfields\">parkrun.co.za/riverfields</a></td></tr></table>"
-      }
-    },
-    {
-      "id": 2511,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          28.310239,
-          -26.228247
-        ]
-      },
-      "properties": {
-        "eventname": "leeupan",
-        "EventLongName": "Leeupan parkrun",
-        "EventShortName": "Leeupan",
-        "LocalisedEventLongName": null,
-        "countrycode": 85,
-        "seriesid": 1,
-        "EventLocation": "Leeupan",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2022-02-26",
-            "ReasonCancelled": "COVID-19 (Coronavirus)"
-          }
-        ],
-        "Website": "https://www.parkrun.co.za/leeupan",
-        "Country": "South Africa",
-        "State": "Gauteng",
-        "County": "Ekurhuleni Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Leeupan parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 26&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/leeupan\">parkrun.co.za/leeupan</a></td></tr></table>"
       }
     },
     {
@@ -37603,13 +37507,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Whitley Bay Links Common",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-02-26",
+            "ReasonCancelled": "Construction works on Watt's Slope"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/whitleybay",
         "Country": "United Kingdom",
         "State": "England",
         "County": "North Tyneside",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Whitley Bay parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/whitleybay\">parkrun.org.uk/whitleybay</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Whitley Bay parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 26&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Construction works on Watt's Slope</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/whitleybay\">parkrun.org.uk/whitleybay</a></td></tr></table>"
       }
     },
     {
@@ -60915,38 +60824,6 @@
         "State": "England",
         "County": "Doncaster",
         "description": "<h4 style=\"margin: 0 0 8px;\">Cusworth Hall parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cusworthhall\">parkrun.org.uk/cusworthhall</a></td></tr></table>"
-      }
-    },
-    {
-      "id": 2485,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.910925,
-          54.120303
-        ]
-      },
-      "properties": {
-        "eventname": "castlehoward",
-        "EventLongName": "Castle Howard parkrun",
-        "EventShortName": "Castle Howard",
-        "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 1,
-        "EventLocation": "Castle Howard",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2022-02-26",
-            "ReasonCancelled": "Venue not yet available"
-          }
-        ],
-        "Website": "https://www.parkrun.org.uk/castlehoward",
-        "Country": "United Kingdom",
-        "State": "England",
-        "County": "North Yorkshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Castle Howard parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 26&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Venue not yet available</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/castlehoward\">parkrun.org.uk/castlehoward</a></td></tr></table>"
       }
     },
     {
