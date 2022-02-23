@@ -1811,13 +1811,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Riverdale Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-02-26",
+            "ReasonCancelled": "Flooding on course,  making conditions unsafe."
+          }
+        ],
         "Website": "https://www.parkrun.com.au/meadowbrook",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Logan",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Meadowbrook parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/meadowbrook\">parkrun.com.au/meadowbrook</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Meadowbrook parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 26&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Flooding on course,  making conditions unsafe.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/meadowbrook\">parkrun.com.au/meadowbrook</a></td></tr></table>"
       }
     },
     {
@@ -22334,7 +22339,7 @@
         "LocalisedEventLongName": "parkrun \u015awidwin",
         "countrycode": 74,
         "seriesid": 1,
-        "EventLocation": "\u015acie\u017cka przy ul. Po\u0142czy\u0144skiej, \u015awidwin",
+        "EventLocation": "Park Miejski w \u015awidwinie",
         "Status": "parkrunning",
         "Cancellations": [],
         "Website": "https://www.parkrun.pl/swidwin",
@@ -62548,38 +62553,6 @@
         "State": "Pennsylvania",
         "County": "Bucks",
         "description": "<h4 style=\"margin: 0 0 8px;\">Peace Valley parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/peacevalley\">parkrun.us/peacevalley</a></td></tr></table>"
-      }
-    },
-    {
-      "id": 2776,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.735033,
-          26.781835
-        ]
-      },
-      "properties": {
-        "eventname": "drbillhammondtrails",
-        "EventLongName": "Dr Bill Hammond Trails parkrun",
-        "EventShortName": "Dr Bill Hammond Trails",
-        "LocalisedEventLongName": null,
-        "countrycode": 98,
-        "seriesid": 1,
-        "EventLocation": "Dr Bill Hammond Trails",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2022-02-26",
-            "ReasonCancelled": "COVID-19 (Coronavirus)"
-          }
-        ],
-        "Website": "https://www.parkrun.us/drbillhammondtrails",
-        "Country": "USA",
-        "State": "Florida",
-        "County": "Charlotte",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Dr Bill Hammond Trails parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 26&nbsp;February&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/drbillhammondtrails\">parkrun.us/drbillhammondtrails</a></td></tr></table>"
       }
     },
     {
