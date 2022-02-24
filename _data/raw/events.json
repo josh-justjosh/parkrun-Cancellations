@@ -184,7 +184,7 @@
       "url": "www.parkrun.us",
       "bounds": [
         -122.862376,
-        27.84707,
+        26.781835,
         -71.118049,
         47.684137
       ]
@@ -16490,7 +16490,7 @@
           "LocalisedEventLongName": "parkrun \u015awidwin",
           "countrycode": 74,
           "seriesid": 1,
-          "EventLocation": "Park Miejski w \u015awidwinie"
+          "EventLocation": "\u015acie\u017cka przy ul. Po\u0142czy\u0144skiej, \u015awidwin"
         }
       },
       {
@@ -46191,6 +46191,26 @@
           "countrycode": 98,
           "seriesid": 1,
           "EventLocation": "Peace Valley Park"
+        }
+      },
+      {
+        "id": 2776,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -81.735033,
+            26.781835
+          ]
+        },
+        "properties": {
+          "eventname": "drbillhammondtrails",
+          "EventLongName": "Dr Bill Hammond Trails parkrun",
+          "EventShortName": "Dr Bill Hammond Trails",
+          "LocalisedEventLongName": null,
+          "countrycode": 98,
+          "seriesid": 1,
+          "EventLocation": "Dr Bill Hammond Trails"
         }
       },
       {
