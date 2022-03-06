@@ -54956,13 +54956,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Yatton Recreation Ground",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-06",
+            "ReasonCancelled": "Parish Council cancelled it at the last minute"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/yattonrecreation-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "North Somerset",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Yatton Recreation junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/yattonrecreation-juniors\">parkrun.org.uk/yattonrecreation-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Yatton Recreation junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  6&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Parish Council cancelled it at the last minute</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/yattonrecreation-juniors\">parkrun.org.uk/yattonrecreation-juniors</a></td></tr></table>"
       }
     },
     {
