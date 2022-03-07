@@ -20015,13 +20015,18 @@
         "countrycode": 65,
         "seriesid": 1,
         "EventLocation": "Barry Curtis Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-12",
+            "ReasonCancelled": "Due to Covid-19 RED setting restrictions"
+          }
+        ],
         "Website": "https://www.parkrun.co.nz/barrycurtis",
         "Country": "New Zealand",
         "State": "Auckland",
         "County": "Auckland",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Barry Curtis parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/barrycurtis\">parkrun.co.nz/barrycurtis</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Barry Curtis parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Due to Covid-19 RED setting restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/barrycurtis\">parkrun.co.nz/barrycurtis</a></td></tr></table>"
       }
     },
     {
@@ -29758,6 +29763,33 @@
         "State": "North-West",
         "County": "Bojanala Platinum",
         "description": "<h4 style=\"margin: 0 0 8px;\">Skemerberg parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/skemerberg\">parkrun.co.za/skemerberg</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 3009,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.884111,
+          -25.720224
+        ]
+      },
+      "properties": {
+        "eventname": "ironthronetrail",
+        "EventLongName": "Iron Throne Trail parkrun",
+        "EventShortName": "Iron Throne Trail",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Iron Throne Trail Park",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.za/ironthronetrail",
+        "Country": "South Africa",
+        "State": "North-West",
+        "County": "Bojanala Platinum",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Iron Throne Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ironthronetrail\">parkrun.co.za/ironthronetrail</a></td></tr></table>"
       }
     },
     {
