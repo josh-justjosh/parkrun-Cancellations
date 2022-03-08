@@ -5346,13 +5346,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Braidwood Showground",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-12",
+            "ReasonCancelled": "Showground flooded. Unsafe to hold event."
+          }
+        ],
         "Website": "https://www.parkrun.com.au/braidwoodshowground",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Queanbeyan-Palerang Regional",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Braidwood Showground parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/braidwoodshowground\">parkrun.com.au/braidwoodshowground</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Braidwood Showground parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Showground flooded. Unsafe to hold event.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/braidwoodshowground\">parkrun.com.au/braidwoodshowground</a></td></tr></table>"
       }
     },
     {
@@ -5508,13 +5513,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Queen Elizabeth Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-12",
+            "ReasonCancelled": "Course Unavailable post-flooding"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/queenelizabethcasino",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Richmond Valley",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Queen Elizabeth parkrun, Casino</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/queenelizabethcasino\">parkrun.com.au/queenelizabethcasino</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Queen Elizabeth parkrun, Casino</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Course Unavailable post-flooding</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/queenelizabethcasino\">parkrun.com.au/queenelizabethcasino</a></td></tr></table>"
       }
     },
     {
@@ -6048,13 +6058,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Hastings Foreshore",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-12",
+            "ReasonCancelled": "Concert in park, Start/Finish line fenced off"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/hastingsforeshore",
         "Country": "Australia",
         "State": "Victoria",
         "County": "Mornington Peninsula",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hastings Foreshore parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/hastingsforeshore\">parkrun.com.au/hastingsforeshore</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hastings Foreshore parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Concert in park, Start/Finish line fenced off</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/hastingsforeshore\">parkrun.com.au/hastingsforeshore</a></td></tr></table>"
       }
     },
     {
@@ -29763,6 +29778,33 @@
         "State": "North-West",
         "County": "Bojanala Platinum",
         "description": "<h4 style=\"margin: 0 0 8px;\">Skemerberg parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/skemerberg\">parkrun.co.za/skemerberg</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 3009,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.884111,
+          -25.720224
+        ]
+      },
+      "properties": {
+        "eventname": "ironthronetrail",
+        "EventLongName": "Iron Throne Trail parkrun",
+        "EventShortName": "Iron Throne Trail",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Iron Throne Trail Park",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.za/ironthronetrail",
+        "Country": "South Africa",
+        "State": "North-West",
+        "County": "Bojanala Platinum",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Iron Throne Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ironthronetrail\">parkrun.co.za/ironthronetrail</a></td></tr></table>"
       }
     },
     {
