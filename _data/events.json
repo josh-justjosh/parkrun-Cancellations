@@ -1163,13 +1163,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Pittsworth",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-12",
+            "ReasonCancelled": "Major horse event at Showgrounds"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/pittsworth",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Toowoomba",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Pittsworth parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/pittsworth\">parkrun.com.au/pittsworth</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Pittsworth parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Major horse event at Showgrounds</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/pittsworth\">parkrun.com.au/pittsworth</a></td></tr></table>"
       }
     },
     {
@@ -5317,13 +5322,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Banjo Paterson Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-12",
+            "ReasonCancelled": "Flooding"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/jindabyne",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Snowy Monaro Regional",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Jindabyne parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/jindabyne\">parkrun.com.au/jindabyne</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Jindabyne parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Flooding</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/jindabyne\">parkrun.com.au/jindabyne</a></td></tr></table>"
       }
     },
     {
@@ -6795,13 +6805,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Lancefield Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-12",
+            "ReasonCancelled": "Course issues"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/lancefield",
         "Country": "Australia",
         "State": "Victoria",
         "County": "Macedon Ranges",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Lancefield parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/lancefield\">parkrun.com.au/lancefield</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Lancefield parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Course issues</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/lancefield\">parkrun.com.au/lancefield</a></td></tr></table>"
       }
     },
     {
@@ -60524,6 +60539,38 @@
         "State": "England",
         "County": "Leeds",
         "description": "<h4 style=\"margin: 0 0 8px;\">Wetherby parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wetherby\">parkrun.org.uk/wetherby</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 899,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.671596,
+          53.739437
+        ]
+      },
+      "properties": {
+        "eventname": "oakwellhall",
+        "EventLongName": "Oakwell Hall parkrun",
+        "EventShortName": "Oakwell Hall",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Oakwell Hall Country Park",
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-12",
+            "ReasonCancelled": "Venue not yet available"
+          }
+        ],
+        "Website": "https://www.parkrun.org.uk/oakwellhall",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Kirklees",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Oakwell Hall parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Venue not yet available</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/oakwellhall\">parkrun.org.uk/oakwellhall</a></td></tr></table>"
       }
     },
     {
