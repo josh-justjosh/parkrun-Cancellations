@@ -41965,6 +41965,33 @@
       }
     },
     {
+      "id": 3022,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.16132,
+          51.414902
+        ]
+      },
+      "properties": {
+        "eventname": "figgesmarsh-juniors",
+        "EventLongName": "Figges Marsh junior parkrun",
+        "EventShortName": "Figges Marsh juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Figges Marsh",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/figgesmarsh-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Greater London",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Figges Marsh junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/figgesmarsh-juniors\">parkrun.org.uk/figgesmarsh-juniors</a></td></tr></table>"
+      }
+    },
+    {
       "id": 14,
       "type": "Feature",
       "geometry": {
@@ -62280,13 +62307,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Roosevelt Island DC",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-12",
+            "ReasonCancelled": "hazardous weather conditions"
+          }
+        ],
         "Website": "https://www.parkrun.us/rooseveltislanddc",
         "Country": "USA",
         "State": "Washington, D.C.",
         "County": "Washington",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Roosevelt Island DC parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/rooseveltislanddc\">parkrun.us/rooseveltislanddc</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Roosevelt Island DC parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>hazardous weather conditions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/rooseveltislanddc\">parkrun.us/rooseveltislanddc</a></td></tr></table>"
       }
     },
     {
@@ -62415,13 +62447,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "College Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-12",
+            "ReasonCancelled": "Winter storm warning: high winds, unsafe travel"
+          }
+        ],
         "Website": "https://www.parkrun.us/collegepark",
         "Country": "USA",
         "State": "Maryland",
         "County": "Prince George's",
-        "description": "<h4 style=\"margin: 0 0 8px;\">College Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/collegepark\">parkrun.us/collegepark</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">College Park parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Winter storm warning: high winds, unsafe travel</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/collegepark\">parkrun.us/collegepark</a></td></tr></table>"
       }
     },
     {
@@ -62442,13 +62479,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Clermont",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-12",
+            "ReasonCancelled": "Weather forecast does not look safe"
+          }
+        ],
         "Website": "https://www.parkrun.us/clermontwaterfront",
         "Country": "USA",
         "State": "Florida",
         "County": "Lake",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Clermont Waterfront parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/clermontwaterfront\">parkrun.us/clermontwaterfront</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Clermont Waterfront parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Weather forecast does not look safe</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/clermontwaterfront\">parkrun.us/clermontwaterfront</a></td></tr></table>"
       }
     },
     {
@@ -62469,13 +62511,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Deep Run Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-12",
+            "ReasonCancelled": "Weather and no volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.us/deeprun",
         "Country": "USA",
         "State": "Virginia",
         "County": "Henrico",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Deep Run parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/deeprun\">parkrun.us/deeprun</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Deep Run parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Weather and no volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/deeprun\">parkrun.us/deeprun</a></td></tr></table>"
       }
     },
     {
@@ -62658,13 +62705,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Rock Creek Trail",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-12",
+            "ReasonCancelled": "Predicted bad weather at 9am"
+          }
+        ],
         "Website": "https://www.parkrun.us/kensington",
         "Country": "USA",
         "State": "Maryland",
         "County": "Montgomery",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Kensington parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/kensington\">parkrun.us/kensington</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Kensington parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Predicted bad weather at 9am</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/kensington\">parkrun.us/kensington</a></td></tr></table>"
       }
     },
     {
