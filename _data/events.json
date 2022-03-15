@@ -1590,13 +1590,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Sweeney Reserve",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-19",
+            "ReasonCancelled": "Sweeney Reserve closed due to Council works"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/petrie",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Moreton Bay",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Petrie parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/petrie\">parkrun.com.au/petrie</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Petrie parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Sweeney Reserve closed due to Council works</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/petrie\">parkrun.com.au/petrie</a></td></tr></table>"
       }
     },
     {
@@ -6780,13 +6785,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Lancefield Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-19",
+            "ReasonCancelled": "Course issues"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/lancefield",
         "Country": "Australia",
         "State": "Victoria",
         "County": "Macedon Ranges",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Lancefield parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/lancefield\">parkrun.com.au/lancefield</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Lancefield parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Course issues</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/lancefield\">parkrun.com.au/lancefield</a></td></tr></table>"
       }
     },
     {
@@ -12181,20 +12191,20 @@
         ]
       },
       "properties": {
-        "eventname": "southriverfronttrail",
-        "EventLongName": "South Riverfront Trail parkrun",
-        "EventShortName": "South Riverfront Trail",
+        "eventname": "billthorpewalkingbridge",
+        "EventLongName": "Bill Thorpe Walking Bridge parkrun",
+        "EventShortName": "Bill Thorpe Walking Bridge",
         "LocalisedEventLongName": null,
         "countrycode": 14,
         "seriesid": 1,
-        "EventLocation": "South Riverfront Trail",
+        "EventLocation": "Bill Thorpe Walking Bridge",
         "Status": "parkrunning",
         "Cancellations": [],
-        "Website": "https://www.parkrun.ca/southriverfronttrail",
+        "Website": "https://www.parkrun.ca/billthorpewalkingbridge",
         "Country": "Canada",
         "State": "New Brunswick",
         "County": "York County",
-        "description": "<h4 style=\"margin: 0 0 8px;\">South Riverfront Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/southriverfronttrail\">parkrun.ca/southriverfronttrail</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bill Thorpe Walking Bridge parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/billthorpewalkingbridge\">parkrun.ca/billthorpewalkingbridge</a></td></tr></table>"
       }
     },
     {
@@ -19964,13 +19974,18 @@
         "countrycode": 65,
         "seriesid": 1,
         "EventLocation": "Strand Park, Lowerhutt",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-19",
+            "ReasonCancelled": "Due to current COVID-19 restrictions"
+          }
+        ],
         "Website": "https://www.parkrun.co.nz/lowerhutt",
         "Country": "New Zealand",
         "State": "Wellington",
         "County": "Lower Hutt City",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Lower Hutt parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/lowerhutt\">parkrun.co.nz/lowerhutt</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Lower Hutt parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Due to current COVID-19 restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/lowerhutt\">parkrun.co.nz/lowerhutt</a></td></tr></table>"
       }
     },
     {
@@ -19991,13 +20006,18 @@
         "countrycode": 65,
         "seriesid": 1,
         "EventLocation": "Cornwall Park, Auckland, New Zealand",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-19",
+            "ReasonCancelled": "Due to current COVID-19 restrictions"
+          }
+        ],
         "Website": "https://www.parkrun.co.nz/cornwall",
         "Country": "New Zealand",
         "State": "Auckland",
         "County": "Auckland",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cornwall parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/cornwall\">parkrun.co.nz/cornwall</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cornwall parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Due to current COVID-19 restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/cornwall\">parkrun.co.nz/cornwall</a></td></tr></table>"
       }
     },
     {
@@ -20022,14 +20042,14 @@
         "Cancellations": [
           {
             "DateCancelled": "2022-03-19",
-            "ReasonCancelled": "Due to Covid-19 RED setting restrictions"
+            "ReasonCancelled": "Due to current COVID-19 restrictions"
           }
         ],
         "Website": "https://www.parkrun.co.nz/barrycurtis",
         "Country": "New Zealand",
         "State": "Auckland",
         "County": "Auckland",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Barry Curtis parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Due to Covid-19 RED setting restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/barrycurtis\">parkrun.co.nz/barrycurtis</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Barry Curtis parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Due to current COVID-19 restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/barrycurtis\">parkrun.co.nz/barrycurtis</a></td></tr></table>"
       }
     },
     {
@@ -20050,13 +20070,18 @@
         "countrycode": 65,
         "seriesid": 1,
         "EventLocation": "Bothamley Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-19",
+            "ReasonCancelled": "Due to current COVID-19 restrictions"
+          }
+        ],
         "Website": "https://www.parkrun.co.nz/porirua",
         "Country": "New Zealand",
         "State": "Wellington",
         "County": "Porirua City",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Porirua parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/porirua\">parkrun.co.nz/porirua</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Porirua parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Due to current COVID-19 restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/porirua\">parkrun.co.nz/porirua</a></td></tr></table>"
       }
     },
     {
@@ -20077,13 +20102,18 @@
         "countrycode": 65,
         "seriesid": 1,
         "EventLocation": "Hamilton Lake",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-19",
+            "ReasonCancelled": "Due to current COVID-19 restrictions"
+          }
+        ],
         "Website": "https://www.parkrun.co.nz/hamiltonlake",
         "Country": "New Zealand",
         "State": "Waikato",
         "County": "Hamilton City",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hamilton Lake parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/hamiltonlake\">parkrun.co.nz/hamiltonlake</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hamilton Lake parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Due to current COVID-19 restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/hamiltonlake\">parkrun.co.nz/hamiltonlake</a></td></tr></table>"
       }
     },
     {
@@ -20104,13 +20134,18 @@
         "countrycode": 65,
         "seriesid": 1,
         "EventLocation": "Millwater Parkway",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-19",
+            "ReasonCancelled": "Due to current COVID-19 restrictions"
+          }
+        ],
         "Website": "https://www.parkrun.co.nz/millwater",
         "Country": "New Zealand",
         "State": "Auckland",
         "County": "Auckland",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Millwater parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/millwater\">parkrun.co.nz/millwater</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Millwater parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Due to current COVID-19 restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/millwater\">parkrun.co.nz/millwater</a></td></tr></table>"
       }
     },
     {
@@ -20131,13 +20166,18 @@
         "countrycode": 65,
         "seriesid": 1,
         "EventLocation": "Kopurererua Valley Reserve",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-19",
+            "ReasonCancelled": "Due to current COVID-19 restrictions"
+          }
+        ],
         "Website": "https://www.parkrun.co.nz/tauranga",
         "Country": "New Zealand",
         "State": "Bay of Plenty",
         "County": "Tauranga City",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Tauranga parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/tauranga\">parkrun.co.nz/tauranga</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Tauranga parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Due to current COVID-19 restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/tauranga\">parkrun.co.nz/tauranga</a></td></tr></table>"
       }
     },
     {
@@ -20185,13 +20225,18 @@
         "countrycode": 65,
         "seriesid": 1,
         "EventLocation": "Western Springs Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-19",
+            "ReasonCancelled": "Due to current COVID-19 restrictions"
+          }
+        ],
         "Website": "https://www.parkrun.co.nz/westernsprings",
         "Country": "New Zealand",
         "State": "Auckland",
         "County": "Auckland",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Western Springs parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/westernsprings\">parkrun.co.nz/westernsprings</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Western Springs parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Due to current COVID-19 restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/westernsprings\">parkrun.co.nz/westernsprings</a></td></tr></table>"
       }
     },
     {
@@ -20239,13 +20284,18 @@
         "countrycode": 65,
         "seriesid": 1,
         "EventLocation": "Whangarei",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-19",
+            "ReasonCancelled": "Due to current COVID-19 restrictions"
+          }
+        ],
         "Website": "https://www.parkrun.co.nz/whangarei",
         "Country": "New Zealand",
         "State": "Northland",
         "County": "Whangarei",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Whangarei parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/whangarei\">parkrun.co.nz/whangarei</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Whangarei parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Due to current COVID-19 restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/whangarei\">parkrun.co.nz/whangarei</a></td></tr></table>"
       }
     },
     {
@@ -20266,13 +20316,18 @@
         "countrycode": 65,
         "seriesid": 1,
         "EventLocation": "Anderson Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-19",
+            "ReasonCancelled": "Due to current COVID-19 restrictions"
+          }
+        ],
         "Website": "https://www.parkrun.co.nz/anderson",
         "Country": "New Zealand",
         "State": "Hawke's Bay",
         "County": "Napier City",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Anderson parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/anderson\">parkrun.co.nz/anderson</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Anderson parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Due to current COVID-19 restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/anderson\">parkrun.co.nz/anderson</a></td></tr></table>"
       }
     },
     {
@@ -20320,13 +20375,18 @@
         "countrycode": 65,
         "seriesid": 1,
         "EventLocation": "Avantidrome",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-19",
+            "ReasonCancelled": "Due to current COVID-19 restrictions"
+          }
+        ],
         "Website": "https://www.parkrun.co.nz/cambridgenz",
         "Country": "New Zealand",
         "State": "Waikato",
         "County": "Waipa District",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cambridge NZ parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/cambridgenz\">parkrun.co.nz/cambridgenz</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cambridge NZ parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Due to current COVID-19 restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/cambridgenz\">parkrun.co.nz/cambridgenz</a></td></tr></table>"
       }
     },
     {
@@ -20347,13 +20407,18 @@
         "countrycode": 65,
         "seriesid": 1,
         "EventLocation": "Palmerston North",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-19",
+            "ReasonCancelled": "Due to current COVID-19 restrictions"
+          }
+        ],
         "Website": "https://www.parkrun.co.nz/palmerstonnorth",
         "Country": "New Zealand",
         "State": "Manawatu-Wanganui",
         "County": "Palmerston North City",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Palmerston North parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/palmerstonnorth\">parkrun.co.nz/palmerstonnorth</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Palmerston North parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Due to current COVID-19 restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/palmerstonnorth\">parkrun.co.nz/palmerstonnorth</a></td></tr></table>"
       }
     },
     {
@@ -20455,13 +20520,18 @@
         "countrycode": 65,
         "seriesid": 1,
         "EventLocation": "Hobsonville Point",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-19",
+            "ReasonCancelled": "Due to current COVID-19 restrictions"
+          }
+        ],
         "Website": "https://www.parkrun.co.nz/hobsonvillepoint",
         "Country": "New Zealand",
         "State": "Auckland",
         "County": "Auckland",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hobsonville Point parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/hobsonvillepoint\">parkrun.co.nz/hobsonvillepoint</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hobsonville Point parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Due to current COVID-19 restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/hobsonvillepoint\">parkrun.co.nz/hobsonvillepoint</a></td></tr></table>"
       }
     },
     {
@@ -20536,13 +20606,18 @@
         "countrycode": 65,
         "seriesid": 1,
         "EventLocation": "University of Waikato",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-19",
+            "ReasonCancelled": "Due to current COVID-19 restrictions"
+          }
+        ],
         "Website": "https://www.parkrun.co.nz/universityofwaikato",
         "Country": "New Zealand",
         "State": "Waikato",
         "County": "Hamilton City",
-        "description": "<h4 style=\"margin: 0 0 8px;\">University of Waikato parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/universityofwaikato\">parkrun.co.nz/universityofwaikato</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">University of Waikato parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Due to current COVID-19 restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/universityofwaikato\">parkrun.co.nz/universityofwaikato</a></td></tr></table>"
       }
     },
     {
@@ -20563,13 +20638,18 @@
         "countrycode": 65,
         "seriesid": 1,
         "EventLocation": "Owairaka Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-19",
+            "ReasonCancelled": "Due to current COVID-19 restrictions"
+          }
+        ],
         "Website": "https://www.parkrun.co.nz/owairaka",
         "Country": "New Zealand",
         "State": "Auckland",
         "County": "Auckland",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Owairaka parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/owairaka\">parkrun.co.nz/owairaka</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Owairaka parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Due to current COVID-19 restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/owairaka\">parkrun.co.nz/owairaka</a></td></tr></table>"
       }
     },
     {
@@ -20590,13 +20670,18 @@
         "countrycode": 65,
         "seriesid": 1,
         "EventLocation": "Trentham Memorial",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-19",
+            "ReasonCancelled": "Due to current COVID-19 restrictions"
+          }
+        ],
         "Website": "https://www.parkrun.co.nz/trenthammemorial",
         "Country": "New Zealand",
         "State": "Wellington",
         "County": "Upper Hutt City",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Trentham Memorial parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/trenthammemorial\">parkrun.co.nz/trenthammemorial</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Trentham Memorial parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Due to current COVID-19 restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/trenthammemorial\">parkrun.co.nz/trenthammemorial</a></td></tr></table>"
       }
     },
     {
@@ -20617,13 +20702,18 @@
         "countrycode": 65,
         "seriesid": 1,
         "EventLocation": "Sherwood Reserve",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-19",
+            "ReasonCancelled": "Due to current COVID-19 restrictions"
+          }
+        ],
         "Website": "https://www.parkrun.co.nz/sherwoodreserve",
         "Country": "New Zealand",
         "State": "Auckland",
         "County": "Auckland",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Sherwood Reserve parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/sherwoodreserve\">parkrun.co.nz/sherwoodreserve</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Sherwood Reserve parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Due to current COVID-19 restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/sherwoodreserve\">parkrun.co.nz/sherwoodreserve</a></td></tr></table>"
       }
     },
     {
@@ -20675,14 +20765,14 @@
         "Cancellations": [
           {
             "DateCancelled": "2022-03-19",
-            "ReasonCancelled": "COVID-19 (Coronavirus)"
+            "ReasonCancelled": "Due to current COVID-19 restrictions"
           }
         ],
         "Website": "https://www.parkrun.co.nz/dunedin",
         "Country": "New Zealand",
         "State": "Otago",
         "County": "Dunedin City",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Dunedin parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/dunedin\">parkrun.co.nz/dunedin</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Dunedin parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Due to current COVID-19 restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/dunedin\">parkrun.co.nz/dunedin</a></td></tr></table>"
       }
     },
     {
@@ -20703,13 +20793,18 @@
         "countrycode": 65,
         "seriesid": 1,
         "EventLocation": "North Hagley Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-19",
+            "ReasonCancelled": "Due to current COVID-19 restrictions"
+          }
+        ],
         "Website": "https://www.parkrun.co.nz/hagley",
         "Country": "New Zealand",
         "State": "Canterbury",
         "County": "Christchurch City",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hagley parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/hagley\">parkrun.co.nz/hagley</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hagley parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Due to current COVID-19 restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/hagley\">parkrun.co.nz/hagley</a></td></tr></table>"
       }
     },
     {
@@ -20730,13 +20825,18 @@
         "countrycode": 65,
         "seriesid": 1,
         "EventLocation": "Lake Pegasus",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-19",
+            "ReasonCancelled": "Due to current COVID-19 restrictions"
+          }
+        ],
         "Website": "https://www.parkrun.co.nz/pegasus",
         "Country": "New Zealand",
         "State": "Canterbury",
         "County": "Waimakariri District",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Pegasus parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/pegasus\">parkrun.co.nz/pegasus</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Pegasus parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Due to current COVID-19 restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/pegasus\">parkrun.co.nz/pegasus</a></td></tr></table>"
       }
     },
     {
@@ -20784,13 +20884,18 @@
         "countrycode": 65,
         "seriesid": 1,
         "EventLocation": "Queens Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-19",
+            "ReasonCancelled": "Due to current COVID-19 restrictions"
+          }
+        ],
         "Website": "https://www.parkrun.co.nz/invercargill",
         "Country": "New Zealand",
         "State": "Southland",
         "County": "Invercargill City",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Invercargill parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/invercargill\">parkrun.co.nz/invercargill</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Invercargill parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Due to current COVID-19 restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/invercargill\">parkrun.co.nz/invercargill</a></td></tr></table>"
       }
     },
     {
@@ -20892,13 +20997,18 @@
         "countrycode": 65,
         "seriesid": 1,
         "EventLocation": "Foster Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-19",
+            "ReasonCancelled": "Due to current COVID-19 restrictions"
+          }
+        ],
         "Website": "https://www.parkrun.co.nz/foster",
         "Country": "New Zealand",
         "State": "Canterbury",
         "County": "Selwyn District",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Foster parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/foster\">parkrun.co.nz/foster</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Foster parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Due to current COVID-19 restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/foster\">parkrun.co.nz/foster</a></td></tr></table>"
       }
     },
     {
@@ -28271,13 +28381,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Royal Natal National Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-19",
+            "ReasonCancelled": "Due to heavy rain, the bridge has been washed away"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/cannibalscave",
         "Country": "South Africa",
         "State": "KwaZulu-Natal",
         "County": "uThukela District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cannibals Cave parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/cannibalscave\">parkrun.co.za/cannibalscave</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cannibals Cave parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Due to heavy rain, the bridge has been washed away</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/cannibalscave\">parkrun.co.za/cannibalscave</a></td></tr></table>"
       }
     },
     {
@@ -53654,13 +53769,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Devonport Park,",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-20",
+            "ReasonCancelled": "No RD available (delay in DBS)"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/devonport-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Plymouth",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Devonport junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/devonport-juniors\">parkrun.org.uk/devonport-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Devonport junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 20&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>No RD available (delay in DBS)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/devonport-juniors\">parkrun.org.uk/devonport-juniors</a></td></tr></table>"
       }
     },
     {
