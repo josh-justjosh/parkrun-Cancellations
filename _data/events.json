@@ -407,13 +407,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Logan River parklands",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-19",
+            "ReasonCancelled": "Park closed due to flood damage"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/loganriver",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Logan",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Logan River parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/loganriver\">parkrun.com.au/loganriver</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Logan River parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Park closed due to flood damage</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/loganriver\">parkrun.com.au/loganriver</a></td></tr></table>"
       }
     },
     {
@@ -3947,13 +3952,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Sydney International Regatta Centre",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-19",
+            "ReasonCancelled": "Flood damage"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/penrithlakes",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Penrith Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Penrith Lakes parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/penrithlakes\">parkrun.com.au/penrithlakes</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Penrith Lakes parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Flood damage</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/penrithlakes\">parkrun.com.au/penrithlakes</a></td></tr></table>"
       }
     },
     {
@@ -4593,13 +4603,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Bega Racecourse",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-19",
+            "ReasonCancelled": "Damage to paths from flooding"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/bega",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Bega Valley",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bega parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/bega\">parkrun.com.au/bega</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bega parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Damage to paths from flooding</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/bega\">parkrun.com.au/bega</a></td></tr></table>"
       }
     },
     {
@@ -32735,38 +32750,6 @@
         "State": "Kronoberg",
         "County": "V\u00e4xj\u00f6 Kommun",
         "description": "<h4 style=\"margin: 0 0 8px;\">V\u00e4xj\u00f6sj\u00f6n parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.se/vaxjosjon\">parkrun.se/vaxjosjon</a></td></tr></table>"
-      }
-    },
-    {
-      "id": 2677,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.630701,
-          63.179394
-        ]
-      },
-      "properties": {
-        "eventname": "badhusparken",
-        "EventLongName": "Badhusparken parkrun",
-        "EventShortName": "Badhusparken",
-        "LocalisedEventLongName": null,
-        "countrycode": 88,
-        "seriesid": 1,
-        "EventLocation": "Badhusparken",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2022-03-19",
-            "ReasonCancelled": "COVID-19 (Coronavirus)"
-          }
-        ],
-        "Website": "https://www.parkrun.se/badhusparken",
-        "Country": "Sweden",
-        "State": "J\u00e4mtland",
-        "County": "\u00d6stersund municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Badhusparken parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.se/badhusparken\">parkrun.se/badhusparken</a></td></tr></table>"
       }
     },
     {
