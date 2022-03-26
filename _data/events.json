@@ -46721,13 +46721,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Nova Centre",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-03-27",
+            "ReasonCancelled": "Insufficent Volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/prestatynprom-juniors",
         "Country": "United Kingdom",
         "State": "Wales",
         "County": "Denbighshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Prestatyn Prom junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/prestatynprom-juniors\">parkrun.org.uk/prestatynprom-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Prestatyn Prom junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 27&nbsp;March&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Insufficent Volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/prestatynprom-juniors\">parkrun.org.uk/prestatynprom-juniors</a></td></tr></table>"
       }
     },
     {
