@@ -78,13 +78,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Kirra Beach, Gold Coast QLD, Australia",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-02",
+            "ReasonCancelled": "Australian SLSC Titles; congested paths"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/kirra",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Gold Coast",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Kirra parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/kirra\">parkrun.com.au/kirra</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Kirra parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  2&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Australian SLSC Titles; congested paths</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/kirra\">parkrun.com.au/kirra</a></td></tr></table>"
       }
     },
     {
@@ -2700,13 +2705,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Glass House Mountains Conservation Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-02",
+            "ReasonCancelled": "Landslide on trail"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/glasshousemountainsconservation",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Moreton Bay",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Glass House Mountains Conservation parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/glasshousemountainsconservation\">parkrun.com.au/glasshousemountainsconservation</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Glass House Mountains Conservation parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  2&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Landslide on trail</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/glasshousemountainsconservation\">parkrun.com.au/glasshousemountainsconservation</a></td></tr></table>"
       }
     },
     {
@@ -4062,38 +4072,6 @@
         "State": "New South Wales",
         "County": "Mid-Western Regional",
         "description": "<h4 style=\"margin: 0 0 8px;\">Mudgee parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/mudgee\">parkrun.com.au/mudgee</a></td></tr></table>"
-      }
-    },
-    {
-      "id": 905,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          150.395117,
-          -34.526266
-        ]
-      },
-      "properties": {
-        "eventname": "bowral",
-        "EventLongName": "Bowral parkrun",
-        "EventShortName": "Bowral",
-        "LocalisedEventLongName": null,
-        "countrycode": 3,
-        "seriesid": 1,
-        "EventLocation": "Briars Country Lodge and Inn",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2022-04-02",
-            "ReasonCancelled": "Damage to the course"
-          }
-        ],
-        "Website": "https://www.parkrun.com.au/bowral",
-        "Country": "Australia",
-        "State": "New South Wales",
-        "County": "Wingecarribee",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bowral parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  2&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Damage to the course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/bowral\">parkrun.com.au/bowral</a></td></tr></table>"
       }
     },
     {
@@ -48886,6 +48864,33 @@
       }
     },
     {
+      "id": 3033,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.356127,
+          52.53526
+        ]
+      },
+      "properties": {
+        "eventname": "hastingshighschool",
+        "EventLongName": "Hastings High School parkrun",
+        "EventShortName": "Hastings High School",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Hastings High School",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/hastingshighschool",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Leicestershire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hastings High School parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hastingshighschool\">parkrun.org.uk/hastingshighschool</a></td></tr></table>"
+      }
+    },
+    {
       "id": 69,
       "type": "Feature",
       "geometry": {
@@ -50427,33 +50432,6 @@
         "State": "England",
         "County": "Staffordshire",
         "description": "<h4 style=\"margin: 0 0 8px;\">Trentham Gardens parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/trenthamgardens\">parkrun.org.uk/trenthamgardens</a></td></tr></table>"
-      }
-    },
-    {
-      "id": 3033,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.356127,
-          52.53526
-        ]
-      },
-      "properties": {
-        "eventname": "hastingshighschool",
-        "EventLongName": "Hastings High School parkrun",
-        "EventShortName": "Hastings High School",
-        "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 1,
-        "EventLocation": "Hastings High School",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/hastingshighschool",
-        "Country": "United Kingdom",
-        "State": "England",
-        "County": "Leicestershire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hastings High School parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hastingshighschool\">parkrun.org.uk/hastingshighschool</a></td></tr></table>"
       }
     },
     {
