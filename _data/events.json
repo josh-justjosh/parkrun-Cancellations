@@ -57665,13 +57665,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Manor Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-10",
+            "ReasonCancelled": "Lack of experienced volunteers due to holidays"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/manorpark-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Kent",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Manor Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/manorpark-juniors\">parkrun.org.uk/manorpark-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Manor Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 10&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Lack of experienced volunteers due to holidays</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/manorpark-juniors\">parkrun.org.uk/manorpark-juniors</a></td></tr></table>"
       }
     },
     {
