@@ -1383,7 +1383,14 @@ def writehistory(file, data):
             if olddate.date() != now().date() and olddate.hour != now().hour:
                 old_data = [old_data[-1],data]
     except FileNotFoundError:
-        old_data = []
+        old_data = [{
+        "parkrunning": 0,
+        "junior parkrunning": 0,
+        "5k Cancellations": 0,
+        "junior Cancellations": 0,
+        "Total": 0,
+        "time": data['time']
+    }]
     print(now(),"history/"+file+" read")
     last_data = old_data[-1]
     new_last_data = {}
@@ -1412,6 +1419,60 @@ def writehistory(file, data):
     with open('_data/history/'+file,'wt', encoding='utf-8', newline='\n') as f:
         f.write(json.dumps(old_data,indent=4)+"\n")
     print(now(),"history/"+file+" saved")
+
+usstateslist = [
+    {'name':'Alabama','code':'al'},
+    {'name':'Alaska','code':'ak'},
+    {'name':'Arizona','code':'az'},
+    {'name':'Arkansas','code':'ar'},
+    {'name':'California','code':'ca'},
+    {'name':'Colorado','code':'co'},
+    {'name':'Connecticut','code':'ct'},
+    {'name':'Delaware','code':'de'},
+    {'name':'Washington, D.C.','code':'dc'},
+    {'name':'Florida','code':'fl'},
+    {'name':'Georgia','code':'ga'},
+    {'name':'Hawaii','code':'hi'},
+    {'name':'Idaho','code':'id'},
+    {'name':'Illinois','code':'il'},
+    {'name':'Indiana','code':'in'},
+    {'name':'Iowa','code':'ia'},
+    {'name':'Kansas','code':'ks'},
+    {'name':'Kentucky','code':'ky'},
+    {'name':'Louisiana','code':'la'},
+    {'name':'Maine','code':'me'},
+    {'name':'Maryland','code':'md'},
+    {'name':'Massachusetts','code':'ma'},
+    {'name':'Michigan','code':'mi'},
+    {'name':'Minnesota','code':'mn'},
+    {'name':'Mississippi','code':'ms'},
+    {'name':'Missouri','code':'mo'},
+    {'name':'Montana','code':'mt'},
+    {'name':'Nebraska','code':'ne'},
+    {'name':'Nevada','code':'nv'},
+    {'name':'New Hampshire','code':'nh'},
+    {'name':'New Jersey','code':'nj'},
+    {'name':'New Mexico','code':'nm'},
+    {'name':'New York','code':'ny'},
+    {'name':'North Carolina','code':'nc'},
+    {'name':'North Dakota','code':'nd'},
+    {'name':'Ohio','code':'oh'},
+    {'name':'Oklahoma','code':'ok'},
+    {'name':'Oregon','code':'or'},
+    {'name':'Pennsylvania','code':'pa'},
+    {'name':'Rhode Island','code':'ri'},
+    {'name':'South Carolina','code':'sc'},
+    {'name':'South Dakota','code':'sd'},
+    {'name':'Tennessee','code':'tn'},
+    {'name':'Texas','code':'tx'},
+    {'name':'Utah','code':'ut'},
+    {'name':'Vermont','code':'vt'},
+    {'name':'Virginia','code':'va'},
+    {'name':'Washington','code':'wa'},
+    {'name':'West Virginia','code':'wv'},
+    {'name':'Wisconsin','code':'wi'},
+    {'name':'Wyoming','code':'wy'}
+    ]
 
 writehistory('global.json',countries['Total'])
 writehistory('australia.json',countries['Australia'])
@@ -1449,32 +1510,11 @@ writehistory('aus/sa.json',aus['South Australia'])
 writehistory('aus/tas.json',aus['Tasmania'])
 writehistory('aus/vic.json',aus['Victoria'])
 writehistory('aus/wa.json',aus['Western Australia'])
-writehistory('usa/az.json',usa_states['Arizona'])
-writehistory('usa/ca.json',usa_states['California'])
-writehistory('usa/ca.json',usa_states['California'])
-writehistory('usa/co.json',usa_states['Colorado'])
-writehistory('usa/fl.json',usa_states['Florida'])
-writehistory('usa/ga.json',usa_states['Georgia'])
-writehistory('usa/id.json',usa_states['Idaho'])
-writehistory('usa/il.json',usa_states['Illinois'])
-#writehistory('usa/in.json',usa_states['Indiana'])
-writehistory('usa/ky.json',usa_states['Kentucky'])
-writehistory('usa/md.json',usa_states['Maryland'])
-writehistory('usa/ma.json',usa_states['Massachusetts'])
-writehistory('usa/mi.json',usa_states['Michigan'])
-writehistory('usa/mn.json',usa_states['Minnesota'])
-writehistory('usa/nj.json',usa_states['New Jersey'])
-writehistory('usa/nc.json',usa_states['North Carolina'])
-writehistory('usa/oh.json',usa_states['Ohio'])
-writehistory('usa/or.json',usa_states['Oregon'])
-writehistory('usa/pa.json',usa_states['Pennsylvania'])
-writehistory('usa/tn.json',usa_states['Tennessee'])
-writehistory('usa/tx.json',usa_states['Texas'])
-#writehistory('usa/vt.json',usa_states['Vermont'])
-writehistory('usa/va.json',usa_states['Virginia'])
-writehistory('usa/wa.json',usa_states['Washington'])
-writehistory('usa/dc.json',usa_states['Washington, D.C.'])
-writehistory('usa/wv.json',usa_states['West Virginia'])
-writehistory('usa/wi.json',usa_states['Wisconsin'])
+
+for state in usstateslist:
+    try:
+        writehistory('usa/'+state['code']+'.json',usa_states[state['name']])
+    except KeyError:
+        print(now(),"No parkruns in", state['name'])        
 
 print(now(),'Script End')
