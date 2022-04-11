@@ -38,6 +38,7 @@ Stanthorpe parkrun	Australia	Queensland	Southern Downs
 Golden Beach parkrun	Australia	Queensland	Sunshine Coast
 Tamborine Mountain parkrun	Australia	Queensland	Scenic Rim
 Yeppoon parkrun	Australia	Queensland	Livingstone
+Stones Corner parkrun	Australia	Queensland	Brisbane
 Wishart parkrun	Australia	Queensland	Brisbane
 Mount Isa parkrun	Australia	Queensland	Mount Isa
 Yarrabilba parkrun	Australia	Queensland	Logan
@@ -135,7 +136,6 @@ Bathurst parkrun	Australia	New South Wales	Bathurst Regional
 Port Macquarie parkrun	Australia	New South Wales	Port Macquarie-Hastings
 Blackbutt parkrun	Australia	New South Wales	Newcastle
 Albury Wodonga parkrun	Australia	New South Wales	Albury Municipality
-Maitland parkrun	Australia	New South Wales	Maitland Municipality
 Blue Gum Hills parkrun	Australia	New South Wales	Newcastle
 Lakeview parkrun	Australia	New South Wales	Lake Macquarie Shire
 Singleton parkrun	Australia	New South Wales	Singleton
@@ -213,6 +213,7 @@ Avondale University College parkrun	Australia	New South Wales	Lake Macquarie Shi
 Henry Kendall Reserve parkrun	Australia	New South Wales	Port Macquarie-Hastings
 Leeton Sport and Recreation Precinct parkrun	Australia	New South Wales	Leeton
 McLean Beach parkrun	Australia	New South Wales	Edward River Council
+Chaffey Park parkrun	Australia	New South Wales	Tamworth Municipality
 Wentworth Common parkrun	Australia	New South Wales	Parramatta
 Panboola Wetlands parkrun	Australia	New South Wales	Bega Valley
 Karoola Park parkrun	Australia	New South Wales	Muswellbrook
@@ -427,6 +428,7 @@ Anstey Hill Recreation parkrun	Australia	South Australia	Tea Tree Gully
 Copper Trail parkrun	Australia	South Australia	Copper Coast
 Oaklands Estate Reserve parkrun	Australia	South Australia	Marion
 Jamestown Golf Course parkrun	Australia	South Australia	Northern Areas
+Myponga Reservoir parkrun	Australia	South Australia	Yankalilla
 Darwin parkrun	Australia	Northern Territory	Darwin
 Palmerston parkrun	Australia	Northern Territory	Palmerston
 Nightcliff parkrun	Australia	Northern Territory	Darwin
@@ -438,10 +440,8 @@ Henderson Lake parkrun	Canada	Alberta	Lethbridge
 River Valley parkrun, Edmonton	Canada	Alberta	Edmonton
 Snye Point parkrun	Canada	Alberta	Wood Buffalo
 Strathcona Island parkrun	Canada	Alberta	Medicine Hat
-George Lane Memorial parkrun	Canada	Alberta	High River
 Okanagan parkrun	Canada	British Columbia	Regional District of Central Okanagan
 Richmond Olympic parkrun	Canada	British Columbia	Metro Vancouver Regional District
-Whistler parkrun	Canada	British Columbia	Squamish-Lillooet Regional District
 Clover Point parkrun	Canada	British Columbia	Capital Regional District
 Penticton parkrun	Canada	British Columbia	Regional District of Okanagan-Similkameen
 Central parkrun, Burnaby	Canada	British Columbia	Metro Vancouver Regional District
@@ -474,8 +474,6 @@ Barton Trail parkrun	Canada	Ontario	Durham
 Saint-Paulin parkrun	Canada	Quebec	Mauricie
 Frédéric Back parkrun	Canada	Quebec	Montréal
 Moussette parkrun	Canada	Quebec	Outaouais
-Angrignon parkrun	Canada	Quebec	Montréal
-Wascana parkrun	Canada	Saskatchewan	
 Mendel Riverbank parkrun	Canada	Saskatchewan	
 Outlook and District Regional parkrun	Canada	Saskatchewan	
 Amager Fælled parkrun	Denmark	Capital Region	Copenhagen
@@ -758,6 +756,7 @@ University of Waikato parkrun	New Zealand	Waikato	Hamilton City
 Owairaka parkrun	New Zealand	Auckland	Auckland
 Trentham Memorial parkrun	New Zealand	Wellington	Upper Hutt City
 Sherwood Reserve parkrun	New Zealand	Auckland	Auckland
+Russell Park parkrun	New Zealand	Hawke's Bay	Central Hawke's Bay District
 Ōtaki River parkrun	New Zealand	Wellington	Kapiti Coast District
 Dunedin parkrun	New Zealand	Otago	Dunedin City
 Hagley parkrun	New Zealand	Canterbury	Christchurch City
@@ -802,7 +801,6 @@ parkrun Jelenia Góra	Poland	Lower Silesia	Jelenia Góra
 parkrun Opole	Poland	Opole Voivodeship	Opole
 parkrun Lubin	Poland	Lower Silesia	Lubin County
 parkrun Skierniewice	Poland	Łódź Voivodeship	Skierniewice
-parkrun Wolbrom	Poland	Lesser Poland	Powiat olkuski
 parkrun Toruń	Poland	Kujawsko-Pomorskie	Toruń
 parkrun Gostyń	Poland	Greater Poland	Powiat gostyński
 parkrun Szczecin	Poland	West Pomerania	Szczecin
@@ -1049,10 +1047,8 @@ Hazyview parkrun	South Africa	Mpumalanga	Ehlanzeni District
 Barberton parkrun	South Africa	Mpumalanga	Ehlanzeni District
 Jock Trail parkrun	South Africa	Mpumalanga	Ehlanzeni District
 Klipspringer Lodge parkrun	South Africa	Mpumalanga	Ehlanzeni District
-Mashishing parkrun	South Africa	Mpumalanga	Ehlanzeni District
 Middelburg parkrun	South Africa	Mpumalanga	Nkangala District Municipality
 Secunda parkrun	South Africa	Mpumalanga	Gert Sibande District Municipality
-Witbank parkrun	South Africa	Mpumalanga	Nkangala District Municipality
 Standerton parkrun	South Africa	Mpumalanga	Gert Sibande District Municipality
 Kralinbergh parkrun	South Africa	Mpumalanga	Gert Sibande District Municipality
 Red Star parkrun	South Africa	Mpumalanga	Nkangala District Municipality
@@ -1066,7 +1062,6 @@ Welkom parkrun	South Africa	Orange Free State	Lejweleputswa District Municipalit
 Heidedal parkrun	South Africa	Orange Free State	Mangaung Metropolitan Municipality
 Bethlehem parkrun	South Africa	Orange Free State	Thabo Mofutsanyana District Municipality
 Jacobsdal parkrun	South Africa	Orange Free State	Xhariep District Municipality
-Vrede parkrun	South Africa	Orange Free State	Thabo Mofutsanyana District Municipality
 Sand River parkrun, Virginia	South Africa	Orange Free State	Lejweleputswa District Municipality
 Senekal parkrun	South Africa	Orange Free State	Thabo Mofutsanyana District Municipality
 Ficksburg parkrun	South Africa	Orange Free State	Thabo Mofutsanyana District Municipality
@@ -1127,7 +1122,6 @@ Windhoek parkrun	Namibia	Khomas
 Mbabane parkrun	Eswatini	Hhohho	
 Grahamstown parkrun	South Africa	Eastern Cape	Sarah Baartman District Municipality
 Stutterheim parkrun	South Africa	Eastern Cape	Amathole District Municipality
-Hogsback parkrun	South Africa	Eastern Cape	Amathole District Municipality
 Komani parkrun	South Africa	Eastern Cape	Chris Hani District Municipality
 Mthatha parkrun	South Africa	Eastern Cape	OR Tambo District Municipality
 Mountain Drive parkrun, Graaff-Reinet	South Africa	Eastern Cape	Sarah Baartman District Municipality
@@ -1142,7 +1136,6 @@ Phoenix Park parkrun	South Africa	Gauteng	Sedibeng District Municipality
 Roodepoort parkrun	South Africa	Gauteng	City of Johannesburg Metropolitan Municipality
 Ruimsig parkrun	South Africa	Gauteng	City of Johannesburg Metropolitan Municipality
 Sterkfontein parkrun	South Africa	Gauteng	West Rand District Municipality
-Westonaria parkrun	South Africa	Gauteng	West Rand District Municipality
 George parkrun	South Africa	Western Cape	Eden District Municipality
 Knysna parkrun	South Africa	Western Cape	Eden District Municipality
 Harkerville parkrun	South Africa	Western Cape	Eden District Municipality
@@ -1168,7 +1161,6 @@ Meyers Farm parkrun	South Africa	Gauteng	Ekurhuleni Metropolitan Municipality
 Homestead Lake parkrun	South Africa	Gauteng	Ekurhuleni Metropolitan Municipality
 Tsakane Wetlands parkrun	South Africa	Gauteng	Ekurhuleni Metropolitan Municipality
 Ferryvale parkrun	South Africa	Gauteng	Ekurhuleni Metropolitan Municipality
-Riverfields parkrun	South Africa	Gauteng	Ekurhuleni Metropolitan Municipality
 Greenstone Hill parkrun	South Africa	Gauteng	City of Johannesburg Metropolitan Municipality
 Kwanele parkrun	South Africa	Gauteng	Ekurhuleni Metropolitan Municipality
 Bapsfontein Hotel parkrun	South Africa	Gauteng	Ekurhuleni Metropolitan Municipality
@@ -2134,7 +2126,6 @@ Higginson parkrun, Marlow	United Kingdom	England	Buckinghamshire
 Wendover Woods parkrun	United Kingdom	England	Buckinghamshire
 Hove Park junior parkrun	United Kingdom	England	Brighton and Hove
 Walmer and Deal Seafront parkrun	United Kingdom	England	Kent
-Whiteley junior parkrun	United Kingdom	England	Hampshire
 Brooklands parkrun	United Kingdom	England	Surrey
 East Brighton parkrun	United Kingdom	England	Brighton and Hove
 Paddington Rec junior parkrun	United Kingdom	England	Greater London
@@ -2160,6 +2151,7 @@ Millennium Green junior parkrun	United Kingdom	England	Oxfordshire
 Itchen Valley Country parkrun	United Kingdom	England	Hampshire
 Dowds Farm junior parkrun	United Kingdom	England	Hampshire
 Horspath parkrun	United Kingdom	England	Oxfordshire
+Church Mead parkrun	United Kingdom	England	Buckinghamshire
 Faversham Recreation Ground junior parkrun	United Kingdom	England	Kent
 Wood Green junior parkrun	United Kingdom	England	Oxfordshire
 Grove Fields parkrun	United Kingdom	England	Oxfordshire
@@ -2294,10 +2286,7 @@ Himmel parkrun	USA	Arizona	Pima
 Terry Hershey parkrun	USA	Texas	Harris
 Rec Plex North parkrun	USA	Florida	Escambia
 Sippo Lake parkrun	USA	Ohio	Stark
-McAllister parkrun	USA	Indiana	Tippecanoe
 Weedon Island Preserve parkrun	USA	Florida	Pinellas
-Marsh-Billings-Rockefeller parkrun	USA	Vermont	Windsor
-Oak Grove parkrun	USA	Kentucky	Christian
 Perrigo parkrun	USA	Washington	King
 Howard Temin Lakeshore Path parkrun	USA	Wisconsin	Dane
 Rock Creek Trail parkrun	USA	Oregon	Washington
