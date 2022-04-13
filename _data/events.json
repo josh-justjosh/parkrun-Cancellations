@@ -14530,38 +14530,6 @@
       }
     },
     {
-      "id": 2748,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.730798,
-          48.768381
-        ]
-      },
-      "properties": {
-        "eventname": "kurpark",
-        "EventLongName": "Kurpark parkrun",
-        "EventShortName": "Kurpark",
-        "LocalisedEventLongName": null,
-        "countrycode": 32,
-        "seriesid": 1,
-        "EventLocation": "Kurpark Bad Liebenzell",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2022-04-16",
-            "ReasonCancelled": "COVID-19 (Coronavirus)"
-          }
-        ],
-        "Website": "https://www.parkrun.com.de/kurpark",
-        "Country": "Germany",
-        "State": "Baden-W\u00fcrttemberg",
-        "County": "Karlsruhe Region",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Kurpark parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 16&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/kurpark\">parkrun.com.de/kurpark</a></td></tr></table>"
-      }
-    },
-    {
       "id": 2750,
       "type": "Feature",
       "geometry": {
@@ -14643,38 +14611,6 @@
       }
     },
     {
-      "id": 2805,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.888041,
-          48.359791
-        ]
-      },
-      "properties": {
-        "eventname": "wittelsbacherpark",
-        "EventLongName": "Wittelsbacher Park parkrun",
-        "EventShortName": "Wittelsbacher Park",
-        "LocalisedEventLongName": null,
-        "countrycode": 32,
-        "seriesid": 1,
-        "EventLocation": "Wittelsbacher Park",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2022-04-16",
-            "ReasonCancelled": "COVID-19 (Coronavirus)"
-          }
-        ],
-        "Website": "https://www.parkrun.com.de/wittelsbacherpark",
-        "Country": "Germany",
-        "State": "Bavaria",
-        "County": "Swabia",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Wittelsbacher Park parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 16&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/wittelsbacherpark\">parkrun.com.de/wittelsbacherpark</a></td></tr></table>"
-      }
-    },
-    {
       "id": 2808,
       "type": "Feature",
       "geometry": {
@@ -14699,38 +14635,6 @@
         "State": "Baden-W\u00fcrttemberg",
         "County": "Regierungsbezirk Stuttgart",
         "description": "<h4 style=\"margin: 0 0 8px;\">Sportpark Rems parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/sportparkrems\">parkrun.com.de/sportparkrems</a></td></tr></table>"
-      }
-    },
-    {
-      "id": 2830,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.027071,
-          49.587224
-        ]
-      },
-      "properties": {
-        "eventname": "roethelheimpark",
-        "EventLongName": "R\u00f6thelheimpark parkrun",
-        "EventShortName": "R\u00f6thelheimpark",
-        "LocalisedEventLongName": null,
-        "countrycode": 32,
-        "seriesid": 1,
-        "EventLocation": "R\u00f6thelheimpark",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2022-04-16",
-            "ReasonCancelled": "COVID-19 (Coronavirus)"
-          }
-        ],
-        "Website": "https://www.parkrun.com.de/roethelheimpark",
-        "Country": "Germany",
-        "State": "Bavaria",
-        "County": "Middle Franconia",
-        "description": "<h4 style=\"margin: 0 0 8px;\">R\u00f6thelheimpark parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 16&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/roethelheimpark\">parkrun.com.de/roethelheimpark</a></td></tr></table>"
       }
     },
     {
@@ -17294,13 +17198,18 @@
         "countrycode": 42,
         "seriesid": 2,
         "EventLocation": "John Murphy Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-17",
+            "ReasonCancelled": "Happy Easter we will see you all on Apr 24th"
+          }
+        ],
         "Website": "https://www.parkrun.ie/cobh-juniors",
         "Country": "Ireland",
         "State": "Munster",
         "County": "Cork",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cobh junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/cobh-juniors\">parkrun.ie/cobh-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cobh junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 17&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Happy Easter we will see you all on Apr 24th</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/cobh-juniors\">parkrun.ie/cobh-juniors</a></td></tr></table>"
       }
     },
     {
@@ -28015,13 +27924,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Amanzimtoti",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-16",
+            "ReasonCancelled": "Beach has been closed due to the floods."
+          }
+        ],
         "Website": "https://www.parkrun.co.za/amanzimtoti",
         "Country": "South Africa",
         "State": "KwaZulu-Natal",
         "County": "eThekwini Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Amanzimtoti parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/amanzimtoti\">parkrun.co.za/amanzimtoti</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Amanzimtoti parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 16&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Beach has been closed due to the floods.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/amanzimtoti\">parkrun.co.za/amanzimtoti</a></td></tr></table>"
       }
     },
     {
@@ -28602,13 +28516,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Westville Country Club",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-16",
+            "ReasonCancelled": "paths are impassable due to flooding and land slid"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/westville",
         "Country": "South Africa",
         "State": "KwaZulu-Natal",
         "County": "eThekwini Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Westville parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/westville\">parkrun.co.za/westville</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Westville parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 16&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>paths are impassable due to flooding and land slid</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/westville\">parkrun.co.za/westville</a></td></tr></table>"
       }
     },
     {
@@ -63279,6 +63198,33 @@
         "State": "Iowa",
         "County": "Johnson",
         "description": "<h4 style=\"margin: 0 0 8px;\">City Park parkrun, Iowa</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/cityparkiowa\">parkrun.us/cityparkiowa</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 3037,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.616018,
+          41.319835
+        ]
+      },
+      "properties": {
+        "eventname": "brecksvillereservation",
+        "EventLongName": "Brecksville Reservation parkrun",
+        "EventShortName": "Brecksville Reservation",
+        "LocalisedEventLongName": null,
+        "countrycode": 98,
+        "seriesid": 1,
+        "EventLocation": "Brecksville Reservation",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.us/brecksvillereservation",
+        "Country": "USA",
+        "State": "Ohio",
+        "County": "Cuyahoga",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Brecksville Reservation parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/brecksvillereservation\">parkrun.us/brecksvillereservation</a></td></tr></table>"
       }
     }
   ]
