@@ -75,8 +75,8 @@
     "44": {
       "url": "www.parkrun.it",
       "bounds": [
-        9.211192,
-        38.120136,
+        7.598193,
+        37.621125,
         18.166117,
         45.694128
       ]
@@ -13694,6 +13694,46 @@
         }
       },
       {
+        "id": 1744,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            11.216649,
+            43.782382
+          ]
+        },
+        "properties": {
+          "eventname": "firenze",
+          "EventLongName": "Firenze parkrun",
+          "EventShortName": "Firenze",
+          "LocalisedEventLongName": null,
+          "countrycode": 44,
+          "seriesid": 1,
+          "EventLocation": "Firenze"
+        }
+      },
+      {
+        "id": 1786,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            15.008107,
+            37.621125
+          ]
+        },
+        "properties": {
+          "eventname": "etna",
+          "EventLongName": "Etna parkrun",
+          "EventShortName": "Etna",
+          "LocalisedEventLongName": null,
+          "countrycode": 44,
+          "seriesid": 1,
+          "EventLocation": "Etna"
+        }
+      },
+      {
         "id": 1874,
         "type": "Feature",
         "geometry": {
@@ -13731,6 +13771,26 @@
           "countrycode": 44,
           "seriesid": 1,
           "EventLocation": "Roma Pineto"
+        }
+      },
+      {
+        "id": 1888,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            13.17349,
+            38.088318
+          ]
+        },
+        "properties": {
+          "eventname": "montelepre",
+          "EventLongName": "Montelepre parkrun",
+          "EventShortName": "Montelepre",
+          "LocalisedEventLongName": null,
+          "countrycode": 44,
+          "seriesid": 1,
+          "EventLocation": "Montelepre"
         }
       },
       {
@@ -13831,6 +13891,46 @@
           "countrycode": 44,
           "seriesid": 1,
           "EventLocation": "Viale Fedel Fedeli"
+        }
+      },
+      {
+        "id": 2474,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            18.161486,
+            40.360409
+          ]
+        },
+        "properties": {
+          "eventname": "belloluogo",
+          "EventLongName": "Belloluogo parkrun",
+          "EventShortName": "Belloluogo",
+          "LocalisedEventLongName": null,
+          "countrycode": 44,
+          "seriesid": 1,
+          "EventLocation": "parco di Belloluogo"
+        }
+      },
+      {
+        "id": 2681,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            7.598193,
+            45.146886
+          ]
+        },
+        "properties": {
+          "eventname": "lamandria",
+          "EventLongName": "La Mandria parkrun",
+          "EventShortName": "La Mandria",
+          "LocalisedEventLongName": null,
+          "countrycode": 44,
+          "seriesid": 1,
+          "EventLocation": "Parco La Mandria"
         }
       },
       {
