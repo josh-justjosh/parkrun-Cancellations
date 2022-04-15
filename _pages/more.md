@@ -84,7 +84,7 @@ permalink: /more
                 flex-direction: column;
             }
             }
-        .collapsible, .collapsiblecan, .collapsiblerein, .collapsiblestatus, .collapsiblestats {
+        .collapsible, .collapsiblecan, .collapsiblestats {
             background-color: #2B233D;
             color: white;
             cursor: pointer;
@@ -96,7 +96,7 @@ permalink: /more
             outline: none;
             font-size: 15px;
             }
-        .active, .collapsible:hover, .collapsiblecan:hover, .collapsiblerein:hover, .collapsiblestatus:hover, .collapsiblestats:hover {
+        .active, .collapsible:hover, .collapsiblecan:hover, .collapsiblestats:hover {
             background-color: #14101d;
             }
         .expcontent, .expcontentcan, .expcontentrein, .expcontentstatus, .expcontentstats {
@@ -547,6 +547,7 @@ permalink: /more
                         <a href="/updates" style="float:right">Click to see a full history</a>
                     </div>
                     <script>
+                        let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZoneName: 'short', hour:'2-digit', minute:'2-digit'};
                         var last_addition = new Date("{{ site.data.cancellation-additions.last.Date | date: '%Y-%m-%dT%T'}}+0000").getTime();
                         var la_date = new Date(last_addition)
                         var outa = la_date.toLocaleString('default', options);
@@ -568,6 +569,7 @@ permalink: /more
                 {% endif %}
             </div>
         {% endif %}
+        <br/>
         <button type="button" class="collapsiblestats" style="margin: 5px;">Click to view a summary of the data for each country</button>
         <div class="expcontent">
             <h2 class="split">Events</h2>
