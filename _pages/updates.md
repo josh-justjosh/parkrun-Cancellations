@@ -6,7 +6,7 @@ title: Updates
 
 [Back to the 'more info' page](/more)
 <div class="posts">
-    {% for post in site.posts %}
+    {% for post in site.posts limit:20 %}
         <article class="post">
         <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
         {{ post.content | markdownify }}
@@ -18,3 +18,4 @@ title: Updates
         {% endif %}
     {% endfor %}
 </div>
+To see older updates, have a look in the [archive](/archive)
