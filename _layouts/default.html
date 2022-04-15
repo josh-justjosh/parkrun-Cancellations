@@ -34,7 +34,7 @@ layout: blank
     <div class="container">
       <footer class="footer">
         {% include svg-icons.html %}
-        <p>&copy; Copyright Joshua Brunning {% if page.last_modified_at %}{{page.last_modified_at | date: '%Y' }}{% else %}{{page.date | date: '%Y' }}{% endif %}</p>
+        <p>&copy; Copyright Joshua Brunning {% if page.last_modified_at %}{{page.last_modified_at | date: '%Y' }}{% elsif page.date == Nil %}{{ site.time | date: '%Y' }}{% else %}{{page.date | date: '%Y' }}{% endif %}</p>
       </footer>
     </div>
   </div>
