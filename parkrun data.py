@@ -1346,7 +1346,7 @@ if cancellations_changes != []:
             
         f.write(out)
     print(now(),file,'saved')
-    out = 'New Cancellations Update:\nhttps://parkruncancellations.com/updates/'
+    out = 'New Cancellations Update:\nhttps://parkruncancellations.com/updates'
     tweet(out)
 
 with open('_data/raw/states.tsv','wt', encoding='utf-8', newline='') as f:
