@@ -1983,13 +1983,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "White Rock",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-16",
+            "ReasonCancelled": "Ongoing storm damage to trails"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/whiterock",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Ipswich",
-        "description": "<h4 style=\"margin: 0 0 8px;\">White Rock parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/whiterock\">parkrun.com.au/whiterock</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">White Rock parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 16&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Ongoing storm damage to trails</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/whiterock\">parkrun.com.au/whiterock</a></td></tr></table>"
       }
     },
     {
@@ -4053,13 +4058,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Mt Penang Parklands",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-16",
+            "ReasonCancelled": "Course obstructed"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/mtpenang",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Central Coast",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Mt Penang parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/mtpenang\">parkrun.com.au/mtpenang</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Mt Penang parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 16&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Course obstructed</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/mtpenang\">parkrun.com.au/mtpenang</a></td></tr></table>"
       }
     },
     {
@@ -4490,13 +4500,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Black Muscat Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-16",
+            "ReasonCancelled": "Wet muddy and slippery course"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/chippingnorton",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Liverpool",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Chipping Norton parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/chippingnorton\">parkrun.com.au/chippingnorton</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Chipping Norton parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 16&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Wet muddy and slippery course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/chippingnorton\">parkrun.com.au/chippingnorton</a></td></tr></table>"
       }
     },
     {
@@ -11862,6 +11877,33 @@
       }
     },
     {
+      "id": 3028,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.293323,
+          48.318131
+        ]
+      },
+      "properties": {
+        "eventname": "donauradweg",
+        "EventLongName": "Donauradweg parkrun",
+        "EventShortName": "Donauradweg",
+        "LocalisedEventLongName": null,
+        "countrycode": 4,
+        "seriesid": 1,
+        "EventLocation": "",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.at/donauradweg",
+        "Country": "Austria",
+        "State": "Upper Austria",
+        "County": "Linz Stadt",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Donauradweg parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.at/donauradweg\">parkrun.co.at/donauradweg</a></td></tr></table>"
+      }
+    },
+    {
       "id": 1517,
       "type": "Feature",
       "geometry": {
@@ -12267,13 +12309,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Churchill Parkway Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-16",
+            "ReasonCancelled": "Poor Trail Conditions"
+          }
+        ],
         "Website": "https://www.parkrun.ca/churchillparkway",
         "Country": "Canada",
         "State": "Manitoba",
         "County": "",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Churchill Parkway parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/churchillparkway\">parkrun.ca/churchillparkway</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Churchill Parkway parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 16&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Poor Trail Conditions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/churchillparkway\">parkrun.ca/churchillparkway</a></td></tr></table>"
       }
     },
     {
@@ -27984,13 +28031,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Tinley Manor",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-16",
+            "ReasonCancelled": "Major flooding; parts of the course washed away."
+          }
+        ],
         "Website": "https://www.parkrun.co.za/tinleymanor",
         "Country": "South Africa",
         "State": "KwaZulu-Natal",
         "County": "iLembe District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Tinley Manor parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/tinleymanor\">parkrun.co.za/tinleymanor</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Tinley Manor parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 16&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Major flooding; parts of the course washed away.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/tinleymanor\">parkrun.co.za/tinleymanor</a></td></tr></table>"
       }
     },
     {
@@ -29195,13 +29247,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Ventersburg",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-16",
+            "ReasonCancelled": "Wet and hazardous"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/ventersburg",
         "Country": "South Africa",
         "State": "Orange Free State",
         "County": "Lejweleputswa District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ventersburg parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ventersburg\">parkrun.co.za/ventersburg</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ventersburg parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 16&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Wet and hazardous</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ventersburg\">parkrun.co.za/ventersburg</a></td></tr></table>"
       }
     },
     {
@@ -29534,30 +29591,30 @@
       }
     },
     {
-      "id": 3041,
+      "id": 2997,
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.143802,
-          -29.106928
+          27.825132,
+          -26.791098
         ]
       },
       "properties": {
-        "eventname": "inibos",
-        "EventLongName": "Inibos parkrun",
-        "EventShortName": "Inibos",
+        "eventname": "sasolburgstadium",
+        "EventLongName": "Sasolburg Stadium parkrun",
+        "EventShortName": "Sasolburg Stadium",
         "LocalisedEventLongName": null,
         "countrycode": 85,
         "seriesid": 1,
-        "EventLocation": "Inibos",
+        "EventLocation": "Sasolburg Stadium",
         "Status": "parkrunning",
         "Cancellations": [],
-        "Website": "https://www.parkrun.co.za/inibos",
+        "Website": "https://www.parkrun.co.za/sasolburgstadium",
         "Country": "South Africa",
         "State": "Orange Free State",
-        "County": "Mangaung Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Inibos parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/inibos\">parkrun.co.za/inibos</a></td></tr></table>"
+        "County": "Fezile Dabi District Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Sasolburg Stadium parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/sasolburgstadium\">parkrun.co.za/sasolburgstadium</a></td></tr></table>"
       }
     },
     {
@@ -29713,13 +29770,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Kleinplaas",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-16",
+            "ReasonCancelled": "extreme weather conditions; safety risk"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/kleinplaas",
         "Country": "South Africa",
         "State": "North-West",
         "County": "Dr Kenneth Kaunda District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Kleinplaas parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kleinplaas\">parkrun.co.za/kleinplaas</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Kleinplaas parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 16&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>extreme weather conditions; safety risk</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kleinplaas\">parkrun.co.za/kleinplaas</a></td></tr></table>"
       }
     },
     {
@@ -31157,13 +31219,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Toboshane Valley Estate",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-16",
+            "ReasonCancelled": "Route inaccessible due to heavy rain"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/toboshanevalleyestate",
         "Country": "South Africa",
         "State": "Eastern Cape",
         "County": "Buffalo City Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Toboshane Valley Estate parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/toboshanevalleyestate\">parkrun.co.za/toboshanevalleyestate</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Toboshane Valley Estate parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 16&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Route inaccessible due to heavy rain</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/toboshanevalleyestate\">parkrun.co.za/toboshanevalleyestate</a></td></tr></table>"
       }
     },
     {
@@ -38966,13 +39033,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Roundshaw Downs, near South Croydon",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-16",
+            "ReasonCancelled": "Safety reasons due to vehicles/caravans on Downs."
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/roundshaw",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Greater London",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Roundshaw Downs parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/roundshaw\">parkrun.org.uk/roundshaw</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Roundshaw Downs parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 16&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Safety reasons due to vehicles/caravans on Downs.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/roundshaw\">parkrun.org.uk/roundshaw</a></td></tr></table>"
       }
     },
     {
@@ -59638,13 +59710,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Wellholme Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-16",
+            "ReasonCancelled": "Flood damage to the park"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/brighouse",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Calderdale",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Brighouse parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/brighouse\">parkrun.org.uk/brighouse</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Brighouse parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 16&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Flood damage to the park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/brighouse\">parkrun.org.uk/brighouse</a></td></tr></table>"
       }
     },
     {
@@ -61612,13 +61689,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Brayton Academy",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-17",
+            "ReasonCancelled": "did not have enough volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/braytonacademy-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "North Yorkshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Brayton Academy junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/braytonacademy-juniors\">parkrun.org.uk/braytonacademy-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Brayton Academy junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 17&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>did not have enough volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/braytonacademy-juniors\">parkrun.org.uk/braytonacademy-juniors</a></td></tr></table>"
       }
     },
     {
