@@ -28,7 +28,7 @@ twitter = Twython(
 
 def tweet(message):
     twitter.update_status(status=message)
-    print("Tweeted: "+message)
+    print(now(),"Tweeted:",message)
 
 def rem_dups(x):
     return list(dict.fromkeys(x))
@@ -1346,7 +1346,14 @@ if cancellations_changes != []:
             
         f.write(out)
     print(now(),file,'saved')
-    out = 'New Cancellations Update:\nhttps://parkruncancellations.com/updates'
+    out = 'New Cancellations Update:\n\n'
+    if cancellations_additions != []:
+        out += 'New Cancellations: ' + str(len(cancellations_additions))+'\n'
+    if cancellations_removals != []:
+        out += 'Cancellations Removed: ' + str(len(cancellations_removals))+'\n'
+    if cancellations_additions != [] or cancellations_removals != []:
+        out += '\n'
+    out += 'see the changes:\nhttps://parkruncancellations.com/updates'
     tweet(out)
 
 with open('_data/raw/states.tsv','wt', encoding='utf-8', newline='') as f:
