@@ -3196,13 +3196,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Glenoma Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-23",
+            "ReasonCancelled": "Course flooded - path inaccessible."
+          }
+        ],
         "Website": "https://www.parkrun.com.au/glenoma",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Cairns",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Glenoma parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/glenoma\">parkrun.com.au/glenoma</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Glenoma parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 23&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Course flooded - path inaccessible.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/glenoma\">parkrun.com.au/glenoma</a></td></tr></table>"
       }
     },
     {
@@ -29729,13 +29734,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Kleinplaas",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-23",
+            "ReasonCancelled": "trial and parking damaged by excessive rain"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/kleinplaas",
         "Country": "South Africa",
         "State": "North-West",
         "County": "Dr Kenneth Kaunda District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Kleinplaas parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kleinplaas\">parkrun.co.za/kleinplaas</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Kleinplaas parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 23&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>trial and parking damaged by excessive rain</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kleinplaas\">parkrun.co.za/kleinplaas</a></td></tr></table>"
       }
     },
     {
@@ -31055,6 +31065,33 @@
         "State": "Eastern Cape",
         "County": "Amathole District Municipality",
         "description": "<h4 style=\"margin: 0 0 8px;\">Stutterheim parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 23&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Yearly bike ride event taking place</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/stutterheim\">parkrun.co.za/stutterheim</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 1435,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.917929,
+          -32.601434
+        ]
+      },
+      "properties": {
+        "eventname": "hogsback",
+        "EventLongName": "Hogsback parkrun",
+        "EventShortName": "Hogsback",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Hogsback",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.za/hogsback",
+        "Country": "South Africa",
+        "State": "Eastern Cape",
+        "County": "Amathole District Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hogsback parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/hogsback\">parkrun.co.za/hogsback</a></td></tr></table>"
       }
     },
     {
@@ -33358,13 +33395,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Hazlehead Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-23",
+            "ReasonCancelled": "Fallen tress and path damage"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/hazlehead",
         "Country": "United Kingdom",
         "State": "Scotland",
         "County": "Aberdeen City",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hazlehead parkrun, Aberdeen</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hazlehead\">parkrun.org.uk/hazlehead</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hazlehead parkrun, Aberdeen</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 23&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Fallen tress and path damage</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hazlehead\">parkrun.org.uk/hazlehead</a></td></tr></table>"
       }
     },
     {
@@ -49144,13 +49186,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Walsall Arboretum",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-23",
+            "ReasonCancelled": "Works in the park, route blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/walsall",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Walsall",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Walsall Arboretum parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/walsall\">parkrun.org.uk/walsall</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Walsall Arboretum parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 23&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Works in the park, route blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/walsall\">parkrun.org.uk/walsall</a></td></tr></table>"
       }
     },
     {
@@ -60156,13 +60203,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Wellholme Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-24",
+            "ReasonCancelled": "Course damaged by flooding"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/brighouse-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Calderdale",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Brighouse junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/brighouse-juniors\">parkrun.org.uk/brighouse-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Brighouse junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 24&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Course damaged by flooding</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/brighouse-juniors\">parkrun.org.uk/brighouse-juniors</a></td></tr></table>"
       }
     },
     {
