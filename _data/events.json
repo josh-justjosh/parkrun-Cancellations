@@ -12259,13 +12259,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Churchill Parkway Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-23",
+            "ReasonCancelled": "Trails are impassable due to snow"
+          }
+        ],
         "Website": "https://www.parkrun.ca/churchillparkway",
         "Country": "Canada",
         "State": "Manitoba",
         "County": "",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Churchill Parkway parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/churchillparkway\">parkrun.ca/churchillparkway</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Churchill Parkway parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 23&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Trails are impassable due to snow</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/churchillparkway\">parkrun.ca/churchillparkway</a></td></tr></table>"
       }
     },
     {
@@ -27968,13 +27973,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Tinley Manor",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-23",
+            "ReasonCancelled": "Key paths are unusable following recent heavy rain"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/tinleymanor",
         "Country": "South Africa",
         "State": "KwaZulu-Natal",
         "County": "iLembe District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Tinley Manor parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/tinleymanor\">parkrun.co.za/tinleymanor</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Tinley Manor parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 23&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Key paths are unusable following recent heavy rain</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/tinleymanor\">parkrun.co.za/tinleymanor</a></td></tr></table>"
       }
     },
     {
@@ -28103,13 +28113,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "East Coast Brewery",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-23",
+            "ReasonCancelled": "Ground still too wet and route is damaged."
+          }
+        ],
         "Website": "https://www.parkrun.co.za/eastcoastbrewery",
         "Country": "South Africa",
         "State": "KwaZulu-Natal",
         "County": "eThekwini Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">East Coast Brewery parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/eastcoastbrewery\">parkrun.co.za/eastcoastbrewery</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">East Coast Brewery parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 23&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Ground still too wet and route is damaged.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/eastcoastbrewery\">parkrun.co.za/eastcoastbrewery</a></td></tr></table>"
       }
     },
     {
@@ -29164,13 +29179,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Ventersburg",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-23",
+            "ReasonCancelled": "Wet and hazardous"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/ventersburg",
         "Country": "South Africa",
         "State": "Orange Free State",
         "County": "Lejweleputswa District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ventersburg parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ventersburg\">parkrun.co.za/ventersburg</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ventersburg parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 23&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Wet and hazardous</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ventersburg\">parkrun.co.za/ventersburg</a></td></tr></table>"
       }
     },
     {
@@ -31011,6 +31031,33 @@
       }
     },
     {
+      "id": 1435,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.917929,
+          -32.601434
+        ]
+      },
+      "properties": {
+        "eventname": "hogsback",
+        "EventLongName": "Hogsback parkrun",
+        "EventShortName": "Hogsback",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Hogsback",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.za/hogsback",
+        "Country": "South Africa",
+        "State": "Eastern Cape",
+        "County": "Amathole District Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hogsback parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/hogsback\">parkrun.co.za/hogsback</a></td></tr></table>"
+      }
+    },
+    {
       "id": 1723,
       "type": "Feature",
       "geometry": {
@@ -31244,13 +31291,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Riviera on Vaal Country Club",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-23",
+            "ReasonCancelled": "All possible routes are flooded"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/rivieraonvaal",
         "Country": "South Africa",
         "State": "Gauteng",
         "County": "Sedibeng District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Riviera on Vaal parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/rivieraonvaal\">parkrun.co.za/rivieraonvaal</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Riviera on Vaal parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 23&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>All possible routes are flooded</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/rivieraonvaal\">parkrun.co.za/rivieraonvaal</a></td></tr></table>"
       }
     },
     {
@@ -31357,13 +31409,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Handicap Road",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-23",
+            "ReasonCancelled": "Ongoing stagnant water problem on the route"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/ruimsig",
         "Country": "South Africa",
         "State": "Gauteng",
         "County": "City of Johannesburg Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ruimsig parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ruimsig\">parkrun.co.za/ruimsig</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ruimsig parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 23&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Ongoing stagnant water problem on the route</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ruimsig\">parkrun.co.za/ruimsig</a></td></tr></table>"
       }
     },
     {
@@ -38900,13 +38957,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Roundshaw Downs, near South Croydon",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-23",
+            "ReasonCancelled": "Safety reasons due to vehicles/caravans on Downs."
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/roundshaw",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Greater London",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Roundshaw Downs parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/roundshaw\">parkrun.org.uk/roundshaw</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Roundshaw Downs parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 23&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Safety reasons due to vehicles/caravans on Downs.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/roundshaw\">parkrun.org.uk/roundshaw</a></td></tr></table>"
       }
     },
     {
@@ -57838,13 +57900,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "King Edwards Parade",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-24",
+            "ReasonCancelled": "No RD available"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/eastbourne-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "East Sussex",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Eastbourne junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/eastbourne-juniors\">parkrun.org.uk/eastbourne-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Eastbourne junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 24&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>No RD available</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/eastbourne-juniors\">parkrun.org.uk/eastbourne-juniors</a></td></tr></table>"
       }
     },
     {
@@ -62264,13 +62331,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Aspen Recreation Centre",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-23",
+            "ReasonCancelled": "Winter weather warning and construction on path"
+          }
+        ],
         "Website": "https://www.parkrun.us/aspen",
         "Country": "USA",
         "State": "Colorado",
         "County": "Pitkin",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Aspen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/aspen\">parkrun.us/aspen</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Aspen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 23&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Winter weather warning and construction on path</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/aspen\">parkrun.us/aspen</a></td></tr></table>"
       }
     },
     {
