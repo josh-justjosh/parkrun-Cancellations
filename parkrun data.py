@@ -10,25 +10,8 @@ from bs4 import BeautifulSoup
 from html_table_extractor.extractor import Extractor
 from html.parser import HTMLParser
 import xml.etree.ElementTree as ET
-import twython
 import os
 import collections
-
-consumer_key = os.environ['consumer_key']
-consumer_secret = os.environ['consumer_secret']
-access_token = os.environ['access_token']
-access_token_secret = os.environ['access_token_secret']
-
-from twython import Twython
-twitter = Twython(
-    consumer_key,
-    consumer_secret,
-    access_token,
-    access_token_secret)
-
-def tweet(message):
-    twitter.update_status(status=message)
-    print(now(),"Tweeted:",message)
 
 def rem_dups(x):
     return list(dict.fromkeys(x))
@@ -1346,15 +1329,6 @@ if cancellations_changes != []:
             
         f.write(out)
     print(now(),file,'saved')
-    out = 'New Cancellations Update:\n\n'
-    if cancellations_additions != []:
-        out += 'New Cancellations: ' + str(len(cancellations_additions))+'\n'
-    if cancellations_removals != []:
-        out += 'Cancellations Removed: ' + str(len(cancellations_removals))+'\n'
-    if cancellations_additions != [] or cancellations_removals != []:
-        out += '\n'
-    out += 'see the changes:\nhttps://parkruncancellations.com/updates'
-    tweet(out)
 
 with open('_data/raw/states.tsv','wt', encoding='utf-8', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
