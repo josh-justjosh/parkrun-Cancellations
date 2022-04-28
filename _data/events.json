@@ -645,18 +645,13 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "James Drysdale Recreational Conservation Centre",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2022-04-30",
-            "ReasonCancelled": "Still have flood damaged trail"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.com.au/bunyaville",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Moreton Bay",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bunyaville parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 30&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Still have flood damaged trail</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/bunyaville\">parkrun.com.au/bunyaville</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bunyaville parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/bunyaville\">parkrun.com.au/bunyaville</a></td></tr></table>"
       }
     },
     {
@@ -4001,13 +3996,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Rouse Hill Regional Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-30",
+            "ReasonCancelled": "Unsafe weather conditions with excessive rain"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/rousehill",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "City of Blacktown",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Rouse Hill parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/rousehill\">parkrun.com.au/rousehill</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Rouse Hill parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 30&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Unsafe weather conditions with excessive rain</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/rousehill\">parkrun.com.au/rousehill</a></td></tr></table>"
       }
     },
     {
@@ -45633,13 +45633,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Parc Penallta Country Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-05-01",
+            "ReasonCancelled": "No available RD"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/penallta-juniors",
         "Country": "United Kingdom",
         "State": "Wales",
         "County": "Caerphilly",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Penallta junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/penallta-juniors\">parkrun.org.uk/penallta-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Penallta junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  1&nbsp;May&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>No available RD</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/penallta-juniors\">parkrun.org.uk/penallta-juniors</a></td></tr></table>"
       }
     },
     {
