@@ -29866,13 +29866,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Inibos",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-04-30",
+            "ReasonCancelled": "The route has flooded due to heavy rain"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/inibos",
         "Country": "South Africa",
         "State": "Orange Free State",
         "County": "Mangaung Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Inibos parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/inibos\">parkrun.co.za/inibos</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Inibos parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 30&nbsp;April&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>The route has flooded due to heavy rain</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/inibos\">parkrun.co.za/inibos</a></td></tr></table>"
       }
     },
     {
