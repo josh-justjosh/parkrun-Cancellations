@@ -4612,13 +4612,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Riverside Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-05-07",
+            "ReasonCancelled": "Flood damage"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/theterrace",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Port Stephens Shire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">The Terrace parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/theterrace\">parkrun.com.au/theterrace</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">The Terrace parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  7&nbsp;May&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Flood damage</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/theterrace\">parkrun.com.au/theterrace</a></td></tr></table>"
       }
     },
     {
@@ -10081,13 +10086,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Risdon Brook Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-05-07",
+            "ReasonCancelled": "Park closed due to severe weather warning"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/risdonbrook",
         "Country": "Australia",
         "State": "Tasmania",
         "County": "Clarence",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Risdon Brook parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/risdonbrook\">parkrun.com.au/risdonbrook</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Risdon Brook parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  7&nbsp;May&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Park closed due to severe weather warning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/risdonbrook\">parkrun.com.au/risdonbrook</a></td></tr></table>"
       }
     },
     {
@@ -26778,38 +26788,6 @@
         "State": "",
         "County": "",
         "description": "<h4 style=\"margin: 0 0 8px;\">Bishan parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.sg/bishan\">parkrun.sg/bishan</a></td></tr></table>"
-      }
-    },
-    {
-      "id": 2564,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          103.920167,
-          1.341364
-        ]
-      },
-      "properties": {
-        "eventname": "bedokreservoir",
-        "EventLongName": "Bedok Reservoir parkrun",
-        "EventShortName": "Bedok Reservoir",
-        "LocalisedEventLongName": null,
-        "countrycode": 82,
-        "seriesid": 1,
-        "EventLocation": "Bedok Reservoir Park",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2022-05-07",
-            "ReasonCancelled": "COVID-19 (Coronavirus)"
-          }
-        ],
-        "Website": "https://www.parkrun.sg/bedokreservoir",
-        "Country": "Singapore",
-        "State": "-Unknown-",
-        "County": "-Unknown-",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bedok Reservoir parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  7&nbsp;May&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.sg/bedokreservoir\">parkrun.sg/bedokreservoir</a></td></tr></table>"
       }
     },
     {
