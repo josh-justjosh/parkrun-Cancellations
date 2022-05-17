@@ -35427,13 +35427,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Queen\u2019s Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-05-22",
+            "ReasonCancelled": "No Run Director available"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/queenspark-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Bolton",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Queen\u2019s Park junior parkrun, Bolton</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/queenspark-juniors\">parkrun.org.uk/queenspark-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Queen\u2019s Park junior parkrun, Bolton</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 22&nbsp;May&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>No Run Director available</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/queenspark-juniors\">parkrun.org.uk/queenspark-juniors</a></td></tr></table>"
       }
     },
     {
