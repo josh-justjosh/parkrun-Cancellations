@@ -2464,13 +2464,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Ocean View Estates",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-05-28",
+            "ReasonCancelled": "The course is still soaked from all the rain"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/oceanview",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Moreton Bay",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ocean View parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/oceanview\">parkrun.com.au/oceanview</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ocean View parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 28&nbsp;May&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>The course is still soaked from all the rain</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/oceanview\">parkrun.com.au/oceanview</a></td></tr></table>"
       }
     },
     {
@@ -12099,33 +12104,6 @@
       }
     },
     {
-      "id": 2732,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -113.879142,
-          50.579381
-        ]
-      },
-      "properties": {
-        "eventname": "georgelanememorial",
-        "EventLongName": "George Lane Memorial parkrun",
-        "EventShortName": "George Lane Memorial",
-        "LocalisedEventLongName": null,
-        "countrycode": 14,
-        "seriesid": 1,
-        "EventLocation": "George Lane Memorial Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.ca/georgelanememorial",
-        "Country": "Canada",
-        "State": "Alberta",
-        "County": "High River",
-        "description": "<h4 style=\"margin: 0 0 8px;\">George Lane Memorial parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/georgelanememorial\">parkrun.ca/georgelanememorial</a></td></tr></table>"
-      }
-    },
-    {
       "id": 1520,
       "type": "Feature",
       "geometry": {
@@ -12239,8 +12217,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -123.012837,
-          49.229288
+          -123.013078,
+          49.229408
         ]
       },
       "properties": {
@@ -27797,13 +27775,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Lemoenplaas Campsite",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-05-28",
+            "ReasonCancelled": "Community unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/aggeneys",
         "Country": "South Africa",
         "State": "Northern Cape",
         "County": "Namakwa District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Aggeneys parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/aggeneys\">parkrun.co.za/aggeneys</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Aggeneys parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 28&nbsp;May&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Community unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/aggeneys\">parkrun.co.za/aggeneys</a></td></tr></table>"
       }
     },
     {
