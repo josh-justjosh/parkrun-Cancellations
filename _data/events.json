@@ -17567,13 +17567,18 @@
         "countrycode": 42,
         "seriesid": 2,
         "EventLocation": "The Irish National Heritage Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-05-29",
+            "ReasonCancelled": "Internal issues"
+          }
+        ],
         "Website": "https://www.parkrun.ie/heritagepark-juniors",
         "Country": "Ireland",
         "State": "Leinster",
         "County": "Wexford",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Heritage Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/heritagepark-juniors\">parkrun.ie/heritagepark-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Heritage Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 29&nbsp;May&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Internal issues</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/heritagepark-juniors\">parkrun.ie/heritagepark-juniors</a></td></tr></table>"
       }
     },
     {
@@ -18438,6 +18443,33 @@
         "State": "Leinster",
         "County": "Fingal",
         "description": "<h4 style=\"margin: 0 0 8px;\">Lusk Sports Hub junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/lusksportshub-juniors\">parkrun.ie/lusksportshub-juniors</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 3051,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.512763,
+          52.056687
+        ]
+      },
+      "properties": {
+        "eventname": "killarneyhouse-juniors",
+        "EventLongName": "Killarney House junior parkrun",
+        "EventShortName": "Killarney House juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 42,
+        "seriesid": 2,
+        "EventLocation": "Killarney House",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.ie/killarneyhouse-juniors",
+        "Country": "Ireland",
+        "State": "-Unknown-",
+        "County": "-Unknown-",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Killarney House junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/killarneyhouse-juniors\">parkrun.ie/killarneyhouse-juniors</a></td></tr></table>"
       }
     },
     {
@@ -26459,13 +26491,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Nahoon Point Nature Reserve",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-05-28",
+            "ReasonCancelled": "Permission to use route denied by local authority"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/nahoonpoint",
         "Country": "South Africa",
         "State": "Eastern Cape",
         "County": "Buffalo City Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Nahoon Point parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/nahoonpoint\">parkrun.co.za/nahoonpoint</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Nahoon Point parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 28&nbsp;May&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Permission to use route denied by local authority</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/nahoonpoint\">parkrun.co.za/nahoonpoint</a></td></tr></table>"
       }
     },
     {
@@ -42597,13 +42634,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Barry Island Promenade",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-05-28",
+            "ReasonCancelled": "Lack of volunteers to safely put on event."
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/barryisland",
         "Country": "United Kingdom",
         "State": "Wales",
         "County": "Vale of Glamorgan",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Barry Island parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/barryisland\">parkrun.org.uk/barryisland</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Barry Island parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 28&nbsp;May&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Lack of volunteers to safely put on event.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/barryisland\">parkrun.org.uk/barryisland</a></td></tr></table>"
       }
     },
     {
@@ -43007,13 +43049,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Alyn Waters Country Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-05-29",
+            "ReasonCancelled": "Insufficient number of volunteers to run the Event"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/alynwaters-juniors",
         "Country": "United Kingdom",
         "State": "Wales",
         "County": "Wrexham",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Alyn Waters junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/alynwaters-juniors\">parkrun.org.uk/alynwaters-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Alyn Waters junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 29&nbsp;May&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Insufficient number of volunteers to run the Event</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/alynwaters-juniors\">parkrun.org.uk/alynwaters-juniors</a></td></tr></table>"
       }
     },
     {
@@ -43623,6 +43670,33 @@
         "State": "Wales",
         "County": "Carmarthenshire",
         "description": "<h4 style=\"margin: 0 0 8px;\">Sandy Water parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/sandywater\">parkrun.org.uk/sandywater</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 3060,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.316133,
+          53.1159
+        ]
+      },
+      "properties": {
+        "eventname": "ruthinmemorialplayingfields",
+        "EventLongName": "Ruthin Memorial Playing Fields parkrun",
+        "EventShortName": "Ruthin Memorial Playing Fields",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Ruthin Memorial Playing Fields",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/ruthinmemorialplayingfields",
+        "Country": "United Kingdom",
+        "State": "Wales",
+        "County": "Denbighshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ruthin Memorial Playing Fields parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/ruthinmemorialplayingfields\">parkrun.org.uk/ruthinmemorialplayingfields</a></td></tr></table>"
       }
     },
     {
@@ -47180,6 +47254,33 @@
         "State": "England",
         "County": "Staffordshire",
         "description": "<h4 style=\"margin: 0 0 8px;\">Trentham Gardens parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/trenthamgardens\">parkrun.org.uk/trenthamgardens</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 3059,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7242,
+          52.070452
+        ]
+      },
+      "properties": {
+        "eventname": "herefordleisurecentre-juniors",
+        "EventLongName": "Hereford Leisure Centre junior parkrun",
+        "EventShortName": "Hereford Leisure Centre juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Hereford Leisure Centre",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/herefordleisurecentre-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Herefordshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hereford Leisure Centre junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/herefordleisurecentre-juniors\">parkrun.org.uk/herefordleisurecentre-juniors</a></td></tr></table>"
       }
     },
     {
@@ -51579,6 +51680,33 @@
         "State": "England",
         "County": "Dorset",
         "description": "<h4 style=\"margin: 0 0 8px;\">Durlston Country Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/durlstoncountrypark\">parkrun.org.uk/durlstoncountrypark</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 3067,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.999249,
+          51.437358
+        ]
+      },
+      "properties": {
+        "eventname": "calnerecreationground-juniors",
+        "EventLongName": "Calne Recreation Ground junior parkrun",
+        "EventShortName": "Calne Recreation Ground juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Calne Recreation Ground",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/calnerecreationground-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Wiltshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Calne Recreation Ground junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/calnerecreationground-juniors\">parkrun.org.uk/calnerecreationground-juniors</a></td></tr></table>"
       }
     },
     {
@@ -58743,30 +58871,30 @@
       }
     },
     {
-      "id": 3058,
+      "id": 3056,
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.646854,
-          53.838245
+          -0.772206,
+          54.252207
         ]
       },
       "properties": {
-        "eventname": "horsforthhall-juniors",
-        "EventLongName": "Horsforth Hall junior parkrun",
-        "EventShortName": "Horsforth Hall juniors",
+        "eventname": "communitypark-juniors",
+        "EventLongName": "Community Park junior parkrun",
+        "EventShortName": "Community Park juniors",
         "LocalisedEventLongName": null,
         "countrycode": 97,
         "seriesid": 2,
-        "EventLocation": "Horsforth Hall Park",
+        "EventLocation": "Community Park",
         "Status": "junior parkrunning",
         "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/horsforthhall-juniors",
+        "Website": "https://www.parkrun.org.uk/communitypark-juniors",
         "Country": "United Kingdom",
         "State": "England",
-        "County": "Leeds",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Horsforth Hall junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/horsforthhall-juniors\">parkrun.org.uk/horsforthhall-juniors</a></td></tr></table>"
+        "County": "North Yorkshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Community Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/communitypark-juniors\">parkrun.org.uk/communitypark-juniors</a></td></tr></table>"
       }
     },
     {
