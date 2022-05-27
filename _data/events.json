@@ -19,13 +19,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "New Farm, Brisbane",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-05-28",
+            "ReasonCancelled": "Brisbane City Council Construction In Progress"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/newfarm",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Brisbane",
-        "description": "<h4 style=\"margin: 0 0 8px;\">New Farm parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/newfarm\">parkrun.com.au/newfarm</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">New Farm parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 28&nbsp;May&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Brisbane City Council Construction In Progress</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/newfarm\">parkrun.com.au/newfarm</a></td></tr></table>"
       }
     },
     {
@@ -4058,13 +4063,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Rouse Hill Regional Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-05-28",
+            "ReasonCancelled": "Wet and sodden course"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/rousehill",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "City of Blacktown",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Rouse Hill parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/rousehill\">parkrun.com.au/rousehill</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Rouse Hill parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 28&nbsp;May&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Wet and sodden course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/rousehill\">parkrun.com.au/rousehill</a></td></tr></table>"
       }
     },
     {
@@ -4171,13 +4181,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Killalea Drive",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-05-28",
+            "ReasonCancelled": "Unsafe course conditions on muddy, grassy hills"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/shellharbour",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Shellharbour",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Shellharbour parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/shellharbour\">parkrun.com.au/shellharbour</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Shellharbour parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 28&nbsp;May&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Unsafe course conditions on muddy, grassy hills</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/shellharbour\">parkrun.com.au/shellharbour</a></td></tr></table>"
       }
     },
     {
@@ -9591,13 +9606,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Civic Centre Gardens",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-05-28",
+            "ReasonCancelled": "Path closed due to construction site."
+          }
+        ],
         "Website": "https://www.parkrun.com.au/porthedland",
         "Country": "Australia",
         "State": "Western Australia",
         "County": "Port Hedland",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Port Hedland parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/porthedland\">parkrun.com.au/porthedland</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Port Hedland parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 28&nbsp;May&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Path closed due to construction site.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/porthedland\">parkrun.com.au/porthedland</a></td></tr></table>"
       }
     },
     {
@@ -24622,38 +24642,6 @@
       }
     },
     {
-      "id": 1622,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          30.971091,
-          -29.744469
-        ]
-      },
-      "properties": {
-        "eventname": "kwamashu",
-        "EventLongName": "KwaMashu parkrun",
-        "EventShortName": "KwaMashu",
-        "LocalisedEventLongName": null,
-        "countrycode": 85,
-        "seriesid": 1,
-        "EventLocation": "Princes Magogo Stadium",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2022-05-28",
-            "ReasonCancelled": "COVID-19 (Coronavirus)"
-          }
-        ],
-        "Website": "https://www.parkrun.co.za/kwamashu",
-        "Country": "South Africa",
-        "State": "KwaZulu-Natal",
-        "County": "eThekwini Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">KwaMashu parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 28&nbsp;May&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kwamashu\">parkrun.co.za/kwamashu</a></td></tr></table>"
-      }
-    },
-    {
       "id": 1711,
       "type": "Feature",
       "geometry": {
@@ -26051,13 +26039,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Senekal Golf Club",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-05-28",
+            "ReasonCancelled": "No volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/senekal",
         "Country": "South Africa",
         "State": "Orange Free State",
         "County": "Thabo Mofutsanyana District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Senekal parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/senekal\">parkrun.co.za/senekal</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Senekal parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 28&nbsp;May&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>No volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/senekal\">parkrun.co.za/senekal</a></td></tr></table>"
       }
     },
     {
