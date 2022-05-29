@@ -31281,13 +31281,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Elder Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-05-29",
+            "ReasonCancelled": "Event on in park"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/elderpark-juniors",
         "Country": "United Kingdom",
         "State": "Scotland",
         "County": "Glasgow City",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Elder Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/elderpark-juniors\">parkrun.org.uk/elderpark-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Elder Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 29&nbsp;May&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Event on in park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/elderpark-juniors\">parkrun.org.uk/elderpark-juniors</a></td></tr></table>"
       }
     },
     {
