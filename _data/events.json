@@ -23909,18 +23909,13 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Rose Park",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2022-06-04",
-            "ReasonCancelled": "City Parks doing upgrades in the park"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.co.za/roselenasia",
         "Country": "South Africa",
         "State": "Gauteng",
         "County": "City of Johannesburg Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Rose parkrun, Lenasia</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;June&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>City Parks doing upgrades in the park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/roselenasia\">parkrun.co.za/roselenasia</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Rose parkrun, Lenasia</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/roselenasia\">parkrun.co.za/roselenasia</a></td></tr></table>"
       }
     },
     {
@@ -57522,13 +57517,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Temple Newsam Estate",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-06-05",
+            "ReasonCancelled": "Event in the park. Main paths unusable."
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/templenewsam-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Leeds",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Temple Newsam junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/templenewsam-juniors\">parkrun.org.uk/templenewsam-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Temple Newsam junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  5&nbsp;June&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Event in the park. Main paths unusable.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/templenewsam-juniors\">parkrun.org.uk/templenewsam-juniors</a></td></tr></table>"
       }
     },
     {
