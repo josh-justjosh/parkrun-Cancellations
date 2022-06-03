@@ -59469,6 +59469,33 @@
       }
     },
     {
+      "id": 3021,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.192439,
+          48.805193
+        ]
+      },
+      "properties": {
+        "eventname": "rosensteinpark",
+        "EventLongName": "Rosensteinpark parkrun",
+        "EventShortName": "Rosensteinpark",
+        "LocalisedEventLongName": null,
+        "countrycode": 32,
+        "seriesid": 1,
+        "EventLocation": "Rosensteinpark",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.de/rosensteinpark",
+        "Country": "Germany",
+        "State": "Baden-W\u00fcrttemberg",
+        "County": "Regierungsbezirk Stuttgart",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Rosensteinpark parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/rosensteinpark\">parkrun.com.de/rosensteinpark</a></td></tr></table>"
+      }
+    },
+    {
       "id": 3022,
       "type": "Feature",
       "geometry": {
@@ -59987,6 +60014,33 @@
       }
     },
     {
+      "id": 3042,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.983855,
+          -37.770512
+        ]
+      },
+      "properties": {
+        "eventname": "kirkdalereserve",
+        "EventLongName": "Kirkdale Reserve parkrun",
+        "EventShortName": "Kirkdale Reserve",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "Kirkdale Reserve",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.au/kirkdalereserve",
+        "Country": "Australia",
+        "State": "Victoria",
+        "County": "Moreland",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Kirkdale Reserve parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/kirkdalereserve\">parkrun.com.au/kirkdalereserve</a></td></tr></table>"
+      }
+    },
+    {
       "id": 3043,
       "type": "Feature",
       "geometry": {
@@ -60316,30 +60370,30 @@
       }
     },
     {
-      "id": 3058,
+      "id": 3057,
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.646854,
-          53.838245
+          -3.046588,
+          56.211928
         ]
       },
       "properties": {
-        "eventname": "horsforthhall-juniors",
-        "EventLongName": "Horsforth Hall junior parkrun",
-        "EventShortName": "Horsforth Hall juniors",
+        "eventname": "cotlandspark-juniors",
+        "EventLongName": "Cotlands Park junior parkrun",
+        "EventShortName": "Cotlands Park juniors",
         "LocalisedEventLongName": null,
         "countrycode": 97,
         "seriesid": 2,
-        "EventLocation": "Horsforth Hall Park",
+        "EventLocation": "Cotlands Park",
         "Status": "junior parkrunning",
         "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/horsforthhall-juniors",
+        "Website": "https://www.parkrun.org.uk/cotlandspark-juniors",
         "Country": "United Kingdom",
-        "State": "England",
-        "County": "Leeds",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Horsforth Hall junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/horsforthhall-juniors\">parkrun.org.uk/horsforthhall-juniors</a></td></tr></table>"
+        "State": "Scotland",
+        "County": "Fife",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cotlands Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cotlandspark-juniors\">parkrun.org.uk/cotlandspark-juniors</a></td></tr></table>"
       }
     },
     {
@@ -60529,33 +60583,6 @@
         "State": "England",
         "County": "Wiltshire",
         "description": "<h4 style=\"margin: 0 0 8px;\">Calne Recreation Ground junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/calnerecreationground-juniors\">parkrun.org.uk/calnerecreationground-juniors</a></td></tr></table>"
-      }
-    },
-    {
-      "id": 3073,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -7.575301,
-          52.854318
-        ]
-      },
-      "properties": {
-        "eventname": "stfergalscollege-juniors",
-        "EventLongName": "St Fergal\u2019s College junior parkrun",
-        "EventShortName": "St Fergal\u2019s College juniors",
-        "LocalisedEventLongName": null,
-        "countrycode": 42,
-        "seriesid": 2,
-        "EventLocation": "St Fergal\u2019s College",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.ie/stfergalscollege-juniors",
-        "Country": "Ireland",
-        "State": "Leinster",
-        "County": "Laois",
-        "description": "<h4 style=\"margin: 0 0 8px;\">St Fergal\u2019s College junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/stfergalscollege-juniors\">parkrun.ie/stfergalscollege-juniors</a></td></tr></table>"
       }
     },
     {
