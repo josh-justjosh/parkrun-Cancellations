@@ -3601,13 +3601,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Hemlington Lake",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-06-05",
+            "ReasonCancelled": "Run Director has the rona."
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/hemlingtonlake-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Middlesbrough",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hemlington Lake junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hemlingtonlake-juniors\">parkrun.org.uk/hemlingtonlake-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hemlington Lake junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  5&nbsp;June&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Run Director has the rona.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hemlingtonlake-juniors\">parkrun.org.uk/hemlingtonlake-juniors</a></td></tr></table>"
       }
     },
     {
@@ -60618,6 +60623,33 @@
         "State": "England",
         "County": "Wiltshire",
         "description": "<h4 style=\"margin: 0 0 8px;\">Calne Recreation Ground junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/calnerecreationground-juniors\">parkrun.org.uk/calnerecreationground-juniors</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 3071,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.667571,
+          51.224947
+        ]
+      },
+      "properties": {
+        "eventname": "tidworth",
+        "EventLongName": "Tidworth parkrun",
+        "EventShortName": "Tidworth",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Tidworth Park",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/tidworth",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Wiltshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Tidworth parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/tidworth\">parkrun.org.uk/tidworth</a></td></tr></table>"
       }
     },
     {
