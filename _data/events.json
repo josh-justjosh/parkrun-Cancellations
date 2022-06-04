@@ -36342,13 +36342,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "The Walks",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-06-05",
+            "ReasonCancelled": "Not enough volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/kingslynn-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Norfolk",
-        "description": "<h4 style=\"margin: 0 0 8px;\">King\u2019s Lynn junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/kingslynn-juniors\">parkrun.org.uk/kingslynn-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">King\u2019s Lynn junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  5&nbsp;June&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Not enough volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/kingslynn-juniors\">parkrun.org.uk/kingslynn-juniors</a></td></tr></table>"
       }
     },
     {
@@ -54240,13 +54245,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Central Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-06-04",
+            "ReasonCancelled": "Yellow weather warning in place - thunderstorm"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/centralplymouth",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Plymouth",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Central parkrun, Plymouth</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/centralplymouth\">parkrun.org.uk/centralplymouth</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Central parkrun, Plymouth</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;June&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Yellow weather warning in place - thunderstorm</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/centralplymouth\">parkrun.org.uk/centralplymouth</a></td></tr></table>"
       }
     },
     {
@@ -54461,13 +54471,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Waterloo Plains Environmental Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-06-04",
+            "ReasonCancelled": "Slippery and dangerous underfoot"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/waterlooplains",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Western Downs",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Waterloo Plains parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/waterlooplains\">parkrun.com.au/waterlooplains</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Waterloo Plains parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;June&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Slippery and dangerous underfoot</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/waterlooplains\">parkrun.com.au/waterlooplains</a></td></tr></table>"
       }
     },
     {
@@ -60583,33 +60598,6 @@
         "State": "England",
         "County": "Wiltshire",
         "description": "<h4 style=\"margin: 0 0 8px;\">Calne Recreation Ground junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/calnerecreationground-juniors\">parkrun.org.uk/calnerecreationground-juniors</a></td></tr></table>"
-      }
-    },
-    {
-      "id": 3073,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -7.575301,
-          52.854318
-        ]
-      },
-      "properties": {
-        "eventname": "stfergalscollege-juniors",
-        "EventLongName": "St Fergal\u2019s College junior parkrun",
-        "EventShortName": "St Fergal\u2019s College juniors",
-        "LocalisedEventLongName": null,
-        "countrycode": 42,
-        "seriesid": 2,
-        "EventLocation": "St Fergal\u2019s College",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.ie/stfergalscollege-juniors",
-        "Country": "Ireland",
-        "State": "Leinster",
-        "County": "Laois",
-        "description": "<h4 style=\"margin: 0 0 8px;\">St Fergal\u2019s College junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/stfergalscollege-juniors\">parkrun.ie/stfergalscollege-juniors</a></td></tr></table>"
       }
     },
     {
