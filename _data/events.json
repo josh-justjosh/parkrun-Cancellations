@@ -11056,13 +11056,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Telford Town Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-06-04",
+            "ReasonCancelled": "Vendors on course- unsafe to run"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/telford",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Telford and Wrekin",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Telford parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/telford\">parkrun.org.uk/telford</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Telford parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;June&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Vendors on course- unsafe to run</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/telford\">parkrun.org.uk/telford</a></td></tr></table>"
       }
     },
     {
@@ -26834,13 +26839,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Stratford-upon-Avon",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-06-04",
+            "ReasonCancelled": "Hedge on fire near start of lap."
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/stratforduponavon",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Warwickshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Stratford-upon-Avon parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/stratforduponavon\">parkrun.org.uk/stratforduponavon</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Stratford-upon-Avon parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;June&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Hedge on fire near start of lap.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/stratforduponavon\">parkrun.org.uk/stratforduponavon</a></td></tr></table>"
       }
     },
     {
@@ -51694,13 +51704,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Bolberry Down",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-06-04",
+            "ReasonCancelled": "Gorse fire next to course, fire brigade sorting"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/bolberrydown",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Devon",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bolberry Down parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/bolberrydown\">parkrun.org.uk/bolberrydown</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bolberry Down parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;June&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Gorse fire next to course, fire brigade sorting</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/bolberrydown\">parkrun.org.uk/bolberrydown</a></td></tr></table>"
       }
     },
     {
@@ -60598,33 +60613,6 @@
         "State": "England",
         "County": "Wiltshire",
         "description": "<h4 style=\"margin: 0 0 8px;\">Calne Recreation Ground junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/calnerecreationground-juniors\">parkrun.org.uk/calnerecreationground-juniors</a></td></tr></table>"
-      }
-    },
-    {
-      "id": 3073,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -7.575301,
-          52.854318
-        ]
-      },
-      "properties": {
-        "eventname": "stfergalscollege-juniors",
-        "EventLongName": "St Fergal\u2019s College junior parkrun",
-        "EventShortName": "St Fergal\u2019s College juniors",
-        "LocalisedEventLongName": null,
-        "countrycode": 42,
-        "seriesid": 2,
-        "EventLocation": "St Fergal\u2019s College",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.ie/stfergalscollege-juniors",
-        "Country": "Ireland",
-        "State": "Leinster",
-        "County": "Laois",
-        "description": "<h4 style=\"margin: 0 0 8px;\">St Fergal\u2019s College junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/stfergalscollege-juniors\">parkrun.ie/stfergalscollege-juniors</a></td></tr></table>"
       }
     },
     {
