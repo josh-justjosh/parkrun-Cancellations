@@ -1406,13 +1406,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Exhibition Park, Newcastle",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-06-11",
+            "ReasonCancelled": "Key paths unusable due to dangerous fair traffic"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/townmoor",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Newcastle upon Tyne",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Town Moor parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/townmoor\">parkrun.org.uk/townmoor</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Town Moor parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 11&nbsp;June&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Key paths unusable due to dangerous fair traffic</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/townmoor\">parkrun.org.uk/townmoor</a></td></tr></table>"
       }
     },
     {
@@ -60229,13 +60234,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Torvean Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-06-12",
+            "ReasonCancelled": "Vehicles parked on run route in park"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/torvean-juniors",
         "Country": "United Kingdom",
         "State": "Scotland",
         "County": "Highland",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Torvean junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/torvean-juniors\">parkrun.org.uk/torvean-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Torvean junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 12&nbsp;June&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Vehicles parked on run route in park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/torvean-juniors\">parkrun.org.uk/torvean-juniors</a></td></tr></table>"
       }
     },
     {
