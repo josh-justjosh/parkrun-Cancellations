@@ -3925,13 +3925,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Whitley Bay Links Common",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-06-25",
+            "ReasonCancelled": "Event on the route"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/whitleybay",
         "Country": "United Kingdom",
         "State": "England",
         "County": "North Tyneside",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Whitley Bay parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/whitleybay\">parkrun.org.uk/whitleybay</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Whitley Bay parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 25&nbsp;June&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Event on the route</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/whitleybay\">parkrun.org.uk/whitleybay</a></td></tr></table>"
       }
     },
     {
