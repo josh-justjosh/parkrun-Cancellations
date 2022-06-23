@@ -41490,13 +41490,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Northlands Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-06-26",
+            "ReasonCancelled": "Insufficient volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/northlands-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Essex",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Northlands junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/northlands-juniors\">parkrun.org.uk/northlands-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Northlands junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 26&nbsp;June&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Insufficient volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/northlands-juniors\">parkrun.org.uk/northlands-juniors</a></td></tr></table>"
       }
     },
     {
