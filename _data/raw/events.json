@@ -177,7 +177,7 @@
         -122.862376,
         27.84707,
         -69.954915,
-        47.684137
+        48.468375
       ]
     }
   },
@@ -10810,8 +10810,8 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            9.735054,
-            49.110666
+            9.742718,
+            49.104155
           ]
         },
         "properties": {
@@ -10821,7 +10821,7 @@
           "LocalisedEventLongName": null,
           "countrycode": 32,
           "seriesid": 1,
-          "EventLocation": "Haller Globe Theater"
+          "EventLocation": "Verkehrs\u00fcbungsplatz"
         }
       },
       {
@@ -25645,6 +25645,26 @@
         }
       },
       {
+        "id": 3055,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -2.806648,
+            54.05797
+          ]
+        },
+        "properties": {
+          "eventname": "ryelandspark-juniors",
+          "EventLongName": "Ryelands Park junior parkrun",
+          "EventShortName": "Ryelands Park juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Ryelands Park"
+        }
+      },
+      {
         "id": 10,
         "type": "Feature",
         "geometry": {
@@ -38505,6 +38525,26 @@
         }
       },
       {
+        "id": 3095,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -2.458209,
+            50.71323
+          ]
+        },
+        "properties": {
+          "eventname": "thegreatfield-juniors",
+          "EventLongName": "The Great Field junior parkrun",
+          "EventShortName": "The Great Field juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "The Great Field"
+        }
+      },
+      {
         "id": 3,
         "type": "Feature",
         "geometry": {
@@ -45002,6 +45042,26 @@
           "countrycode": 98,
           "seriesid": 1,
           "EventLocation": "Little Sugar Creek Greenway"
+        }
+      },
+      {
+        "id": 3101,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -120.182261,
+            48.468375
+          ]
+        },
+        "properties": {
+          "eventname": "winthroptrailhead",
+          "EventLongName": "Winthrop Trailhead parkrun",
+          "EventShortName": "Winthrop Trailhead",
+          "LocalisedEventLongName": null,
+          "countrycode": 98,
+          "seriesid": 1,
+          "EventLocation": "Winthrop Trailhead"
         }
       }
     ]

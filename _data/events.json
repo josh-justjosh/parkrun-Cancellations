@@ -14397,8 +14397,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.735054,
-          49.110666
+          9.742718,
+          49.104155
         ]
       },
       "properties": {
@@ -14408,7 +14408,7 @@
         "LocalisedEventLongName": null,
         "countrycode": 32,
         "seriesid": 1,
-        "EventLocation": "Haller Globe Theater",
+        "EventLocation": "Verkehrs\u00fcbungsplatz",
         "Status": "parkrunning",
         "Cancellations": [],
         "Website": "https://www.parkrun.com.de/globe",
@@ -42172,13 +42172,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Parc Penallta Country Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-07-03",
+            "ReasonCancelled": "No Run Director or core team available"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/penallta-juniors",
         "Country": "United Kingdom",
         "State": "Wales",
         "County": "Caerphilly",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Penallta junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/penallta-juniors\">parkrun.org.uk/penallta-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Penallta junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  3&nbsp;July&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>No Run Director or core team available</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/penallta-juniors\">parkrun.org.uk/penallta-juniors</a></td></tr></table>"
       }
     },
     {
@@ -51918,6 +51923,33 @@
       }
     },
     {
+      "id": 3095,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.458209,
+          50.71323
+        ]
+      },
+      "properties": {
+        "eventname": "thegreatfield-juniors",
+        "EventLongName": "The Great Field junior parkrun",
+        "EventShortName": "The Great Field juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "The Great Field",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/thegreatfield-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Dorset",
+        "description": "<h4 style=\"margin: 0 0 8px;\">The Great Field junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/thegreatfield-juniors\">parkrun.org.uk/thegreatfield-juniors</a></td></tr></table>"
+      }
+    },
+    {
       "id": 3,
       "type": "Feature",
       "geometry": {
@@ -58316,13 +58348,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Pontefract Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-07-03",
+            "ReasonCancelled": "Armed Forces Day in the park"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/pontefract-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Wakefield",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Pontefract junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/pontefract-juniors\">parkrun.org.uk/pontefract-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Pontefract junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  3&nbsp;July&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Armed Forces Day in the park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/pontefract-juniors\">parkrun.org.uk/pontefract-juniors</a></td></tr></table>"
       }
     },
     {
@@ -60756,6 +60793,33 @@
         "State": "Arkansas",
         "County": "Benton",
         "description": "<h4 style=\"margin: 0 0 8px;\">Coler Mountain Bike Preserve parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/colermountainbikepreserve\">parkrun.us/colermountainbikepreserve</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 3101,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.182261,
+          48.468375
+        ]
+      },
+      "properties": {
+        "eventname": "winthroptrailhead",
+        "EventLongName": "Winthrop Trailhead parkrun",
+        "EventShortName": "Winthrop Trailhead",
+        "LocalisedEventLongName": null,
+        "countrycode": 98,
+        "seriesid": 1,
+        "EventLocation": "Winthrop Trailhead",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.us/winthroptrailhead",
+        "Country": "USA",
+        "State": "Washington",
+        "County": "Okanogan",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Winthrop Trailhead parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/winthroptrailhead\">parkrun.us/winthroptrailhead</a></td></tr></table>"
       }
     }
   ]
