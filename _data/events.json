@@ -14873,13 +14873,18 @@
         "countrycode": 32,
         "seriesid": 1,
         "EventLocation": "Dreil\u00e4ndergarten Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-07-02",
+            "ReasonCancelled": "Not enough volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.com.de/dreilaendergarten",
         "Country": "Germany",
         "State": "Baden-W\u00fcrttemberg",
         "County": "Freiburg Region",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Dreil\u00e4ndergarten parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/dreilaendergarten\">parkrun.com.de/dreilaendergarten</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Dreil\u00e4ndergarten parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  2&nbsp;July&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Not enough volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/dreilaendergarten\">parkrun.com.de/dreilaendergarten</a></td></tr></table>"
       }
     },
     {
