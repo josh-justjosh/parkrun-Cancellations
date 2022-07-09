@@ -17288,13 +17288,18 @@
         "countrycode": 42,
         "seriesid": 2,
         "EventLocation": "Marlay Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-07-10",
+            "ReasonCancelled": "Concert equipment and traffic till impacting route"
+          }
+        ],
         "Website": "https://www.parkrun.ie/marlay-juniors",
         "Country": "Ireland",
         "State": "Leinster",
         "County": "Dublin",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Marlay junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/marlay-juniors\">parkrun.ie/marlay-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Marlay junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 10&nbsp;July&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Concert equipment and traffic till impacting route</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/marlay-juniors\">parkrun.ie/marlay-juniors</a></td></tr></table>"
       }
     },
     {
@@ -20454,8 +20459,8 @@
       },
       "properties": {
         "eventname": "taupo",
-        "EventLongName": "Taup\u014d parkrun",
-        "EventShortName": "Taup\u014d",
+        "EventLongName": "Taupo parkrun",
+        "EventShortName": "Taupo",
         "LocalisedEventLongName": null,
         "countrycode": 65,
         "seriesid": 1,
@@ -20466,7 +20471,7 @@
         "Country": "New Zealand",
         "State": "Waikato",
         "County": "Taupo District",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Taup\u014d parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/taupo\">parkrun.co.nz/taupo</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Taupo parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/taupo\">parkrun.co.nz/taupo</a></td></tr></table>"
       }
     },
     {
@@ -31666,33 +31671,6 @@
         "State": "Scotland",
         "County": "North Ayrshire",
         "description": "<h4 style=\"margin: 0 0 8px;\">Largs Prom parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/largsprom\">parkrun.org.uk/largsprom</a></td></tr></table>"
-      }
-    },
-    {
-      "id": 3099,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -4.575965,
-          55.939855
-        ]
-      },
-      "properties": {
-        "eventname": "levengrove-juniors",
-        "EventLongName": "Levengrove junior parkrun",
-        "EventShortName": "Levengrove juniors",
-        "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 2,
-        "EventLocation": "Levengrove Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/levengrove-juniors",
-        "Country": "United Kingdom",
-        "State": "Scotland",
-        "County": "West Dunbartonshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Levengrove junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/levengrove-juniors\">parkrun.org.uk/levengrove-juniors</a></td></tr></table>"
       }
     },
     {
