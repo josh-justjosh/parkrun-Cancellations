@@ -54731,13 +54731,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Victoria park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-07-17",
+            "ReasonCancelled": "Awaiting council approval for new course"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/ashford-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Kent",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ashford junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/ashford-juniors\">parkrun.org.uk/ashford-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ashford junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 17&nbsp;July&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Awaiting council approval for new course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/ashford-juniors\">parkrun.org.uk/ashford-juniors</a></td></tr></table>"
       }
     },
     {
