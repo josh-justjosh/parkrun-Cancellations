@@ -15742,13 +15742,18 @@
         "countrycode": 42,
         "seriesid": 1,
         "EventLocation": "Lees Road Sport and Amenity Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-07-23",
+            "ReasonCancelled": "Due unforseen Circumstances we have no RD availabl"
+          }
+        ],
         "Website": "https://www.parkrun.ie/leesroad",
         "Country": "Ireland",
         "State": "Munster",
         "County": "Clare",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Lees Road parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/leesroad\">parkrun.ie/leesroad</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Lees Road parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 23&nbsp;July&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Due unforseen Circumstances we have no RD availabl</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/leesroad\">parkrun.ie/leesroad</a></td></tr></table>"
       }
     },
     {
