@@ -18601,30 +18601,35 @@
       }
     },
     {
-      "id": 3124,
+      "id": 3103,
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.237769,
-          53.455791
+          -7.696725,
+          52.470288
         ]
       },
       "properties": {
-        "eventname": "rivervalley-juniors",
-        "EventLongName": "River Valley junior parkrun",
-        "EventShortName": "River Valley juniors",
+        "eventname": "fethardtown",
+        "EventLongName": "Fethard Town parkrun",
+        "EventShortName": "Fethard Town",
         "LocalisedEventLongName": null,
         "countrycode": 42,
-        "seriesid": 2,
-        "EventLocation": "River Valley Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.ie/rivervalley-juniors",
+        "seriesid": 1,
+        "EventLocation": "Fethard Town Park",
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-07-23",
+            "ReasonCancelled": "Unforeseen Building Works"
+          }
+        ],
+        "Website": "https://www.parkrun.ie/fethardtown",
         "Country": "Ireland",
-        "State": "Leinster",
-        "County": "Fingal",
-        "description": "<h4 style=\"margin: 0 0 8px;\">River Valley junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/rivervalley-juniors\">parkrun.ie/rivervalley-juniors</a></td></tr></table>"
+        "State": "Munster",
+        "County": "County Tipperary",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Fethard Town parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 23&nbsp;July&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Unforeseen Building Works</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/fethardtown\">parkrun.ie/fethardtown</a></td></tr></table>"
       }
     },
     {
@@ -34562,6 +34567,33 @@
         "State": "England",
         "County": "Cumbria",
         "description": "<h4 style=\"margin: 0 0 8px;\">Talkin Tarn Country Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/talkintarncountrypark\">parkrun.org.uk/talkintarncountrypark</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 3055,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.806648,
+          54.05797
+        ]
+      },
+      "properties": {
+        "eventname": "ryelandspark-juniors",
+        "EventLongName": "Ryelands Park junior parkrun",
+        "EventShortName": "Ryelands Park juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Ryelands Park",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/ryelandspark-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Lancashire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ryelands Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/ryelandspark-juniors\">parkrun.org.uk/ryelandspark-juniors</a></td></tr></table>"
       }
     },
     {
@@ -52100,6 +52132,33 @@
       }
     },
     {
+      "id": 3095,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.458209,
+          50.71323
+        ]
+      },
+      "properties": {
+        "eventname": "thegreatfield-juniors",
+        "EventLongName": "The Great Field junior parkrun",
+        "EventShortName": "The Great Field juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "The Great Field",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/thegreatfield-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Dorset",
+        "description": "<h4 style=\"margin: 0 0 8px;\">The Great Field junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/thegreatfield-juniors\">parkrun.org.uk/thegreatfield-juniors</a></td></tr></table>"
+      }
+    },
+    {
       "id": 3,
       "type": "Feature",
       "geometry": {
@@ -59377,6 +59436,33 @@
       }
     },
     {
+      "id": 3094,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.649461,
+          53.724774
+        ]
+      },
+      "properties": {
+        "eventname": "wiltonpark-juniors",
+        "EventLongName": "Wilton Park junior parkrun",
+        "EventShortName": "Wilton Park juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Wilton Park",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/wiltonpark-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Kirklees",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Wilton Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wiltonpark-juniors\">parkrun.org.uk/wiltonpark-juniors</a></td></tr></table>"
+      }
+    },
+    {
       "id": 1312,
       "type": "Feature",
       "geometry": {
@@ -60977,6 +61063,33 @@
         "State": "North Carolina",
         "County": "Mecklenburg",
         "description": "<h4 style=\"margin: 0 0 8px;\">Little Sugar Creek Greenway parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/littlesugarcreekgreenway\">parkrun.us/littlesugarcreekgreenway</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 3101,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.182261,
+          48.468375
+        ]
+      },
+      "properties": {
+        "eventname": "winthroptrailhead",
+        "EventLongName": "Winthrop Trailhead parkrun",
+        "EventShortName": "Winthrop Trailhead",
+        "LocalisedEventLongName": null,
+        "countrycode": 98,
+        "seriesid": 1,
+        "EventLocation": "Winthrop Trailhead",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.us/winthroptrailhead",
+        "Country": "USA",
+        "State": "Washington",
+        "County": "Okanogan",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Winthrop Trailhead parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/winthroptrailhead\">parkrun.us/winthroptrailhead</a></td></tr></table>"
       }
     }
   ]
