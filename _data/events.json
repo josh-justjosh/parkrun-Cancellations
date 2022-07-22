@@ -1018,13 +1018,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Tamborine Mountain Sports Complex",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-07-23",
+            "ReasonCancelled": "With the high winds, our course is unsafe."
+          }
+        ],
         "Website": "https://www.parkrun.com.au/tamborinemountain",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Scenic Rim",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Tamborine Mountain parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/tamborinemountain\">parkrun.com.au/tamborinemountain</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Tamborine Mountain parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 23&nbsp;July&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>With the high winds, our course is unsafe.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/tamborinemountain\">parkrun.com.au/tamborinemountain</a></td></tr></table>"
       }
     },
     {
@@ -2179,13 +2184,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Moraby Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-07-23",
+            "ReasonCancelled": "Water over low lying parts of the course & rising."
+          }
+        ],
         "Website": "https://www.parkrun.com.au/miles",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Western Downs",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Miles parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/miles\">parkrun.com.au/miles</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Miles parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 23&nbsp;July&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Water over low lying parts of the course & rising.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/miles\">parkrun.com.au/miles</a></td></tr></table>"
       }
     },
     {
@@ -4543,13 +4553,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Riverside Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-07-23",
+            "ReasonCancelled": "flood damage to course"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/theterrace",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Port Stephens Shire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">The Terrace parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/theterrace\">parkrun.com.au/theterrace</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">The Terrace parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 23&nbsp;July&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>flood damage to course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/theterrace\">parkrun.com.au/theterrace</a></td></tr></table>"
       }
     },
     {
@@ -11286,13 +11301,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "248 Esplanade",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-07-23",
+            "ReasonCancelled": "Due to small volunteer base we are having a 2 week"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/meningie",
         "Country": "Australia",
         "State": "South Australia",
         "County": "The Coorong",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Meningie parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/meningie\">parkrun.com.au/meningie</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Meningie parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 23&nbsp;July&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Due to small volunteer base we are having a 2 week</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/meningie\">parkrun.com.au/meningie</a></td></tr></table>"
       }
     },
     {
@@ -18536,6 +18556,33 @@
       }
     },
     {
+      "id": 3124,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.237769,
+          53.455791
+        ]
+      },
+      "properties": {
+        "eventname": "rivervalley-juniors",
+        "EventLongName": "River Valley junior parkrun",
+        "EventShortName": "River Valley juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 42,
+        "seriesid": 2,
+        "EventLocation": "River Valley Park",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.ie/rivervalley-juniors",
+        "Country": "Ireland",
+        "State": "Leinster",
+        "County": "Fingal",
+        "description": "<h4 style=\"margin: 0 0 8px;\">River Valley junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/rivervalley-juniors\">parkrun.ie/rivervalley-juniors</a></td></tr></table>"
+      }
+    },
+    {
       "id": 1239,
       "type": "Feature",
       "geometry": {
@@ -25601,13 +25648,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Tonga Village",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-07-23",
+            "ReasonCancelled": "another event in the farm"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/nkomazi",
         "Country": "South Africa",
         "State": "Mpumalanga",
         "County": "Ehlanzeni District",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Nkomazi parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/nkomazi\">parkrun.co.za/nkomazi</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Nkomazi parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 23&nbsp;July&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>another event in the farm</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/nkomazi\">parkrun.co.za/nkomazi</a></td></tr></table>"
       }
     },
     {
