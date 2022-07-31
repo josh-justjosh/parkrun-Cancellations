@@ -38455,13 +38455,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Beckenham Place Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-07-31",
+            "ReasonCancelled": "Other event in park"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/beckenhamplace-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Greater London",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Beckenham Place junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/beckenhamplace-juniors\">parkrun.org.uk/beckenhamplace-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Beckenham Place junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 31&nbsp;July&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Other event in park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/beckenhamplace-juniors\">parkrun.org.uk/beckenhamplace-juniors</a></td></tr></table>"
       }
     },
     {
