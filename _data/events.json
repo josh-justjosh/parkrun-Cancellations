@@ -19938,13 +19938,18 @@
         "countrycode": 46,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-08-13",
+            "ReasonCancelled": "\u5929\u5019\u4e0d\u9806\u304c\u4e88\u60f3\u3055\u308c\u308b\u305f\u3081"
+          }
+        ],
         "Website": "https://www.parkrun.jp/tennogawakoen",
         "Country": "Japan",
         "State": "Aichi",
         "County": "Tsushima-shi",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Tennogawa koen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/tennogawakoen\">parkrun.jp/tennogawakoen</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Tennogawa koen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 13&nbsp;August&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>\u5929\u5019\u4e0d\u9806\u304c\u4e88\u60f3\u3055\u308c\u308b\u305f\u3081</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/tennogawakoen\">parkrun.jp/tennogawakoen</a></td></tr></table>"
       }
     },
     {
@@ -20026,6 +20031,33 @@
         "State": "Tokyo",
         "County": "\u014cme-shi",
         "description": "<h4 style=\"margin: 0 0 8px;\">Ome kyuryo parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/omekyuryo\">parkrun.jp/omekyuryo</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 3111,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.492885,
+          34.483062
+        ]
+      },
+      "properties": {
+        "eventname": "harayamakoen",
+        "EventLongName": "Harayama koen parkrun",
+        "EventShortName": "Harayama koen",
+        "LocalisedEventLongName": "\u539f\u5c71\u516c\u5712parkrun",
+        "countrycode": 46,
+        "seriesid": 1,
+        "EventLocation": "",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.jp/harayamakoen",
+        "Country": "Japan",
+        "State": "\u014csaka",
+        "County": "Sakai",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Harayama koen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/harayamakoen\">parkrun.jp/harayamakoen</a></td></tr></table>"
       }
     },
     {
@@ -22015,13 +22047,18 @@
         "countrycode": 74,
         "seriesid": 1,
         "EventLocation": "Park K\u0119pa Potocka, Warszawa",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-08-13",
+            "ReasonCancelled": "Storm"
+          }
+        ],
         "Website": "https://www.parkrun.pl/warszawazoliborz",
         "Country": "Poland",
         "State": "Mazovia",
         "County": "Warszawa",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Warszawa-\u017boliborz</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/warszawazoliborz\">parkrun.pl/warszawazoliborz</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Warszawa-\u017boliborz</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 13&nbsp;August&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Storm</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/warszawazoliborz\">parkrun.pl/warszawazoliborz</a></td></tr></table>"
       }
     },
     {
@@ -23230,13 +23267,18 @@
         "countrycode": 74,
         "seriesid": 1,
         "EventLocation": "Pole Mokotowskie, Warszawa",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-08-13",
+            "ReasonCancelled": "Due to the weather conditions, storm and heavy rai"
+          }
+        ],
         "Website": "https://www.parkrun.pl/polemokotowskie",
         "Country": "Poland",
         "State": "Mazovia",
         "County": "Warszawa",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Pole Mokotowskie</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/polemokotowskie\">parkrun.pl/polemokotowskie</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Pole Mokotowskie</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 13&nbsp;August&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Due to the weather conditions, storm and heavy rai</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/polemokotowskie\">parkrun.pl/polemokotowskie</a></td></tr></table>"
       }
     },
     {
@@ -24941,13 +24983,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "PrIeska Golf Course",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-08-13",
+            "ReasonCancelled": "In the process of changing the route"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/prieska",
         "Country": "South Africa",
         "State": "Northern Cape",
         "County": "Pixley ka Seme District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Prieska parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/prieska\">parkrun.co.za/prieska</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Prieska parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 13&nbsp;August&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>In the process of changing the route</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/prieska\">parkrun.co.za/prieska</a></td></tr></table>"
       }
     },
     {
@@ -28238,13 +28285,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Alice Campus",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-08-13",
+            "ReasonCancelled": "Student volunteers not available yet"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/alicecampus",
         "Country": "South Africa",
         "State": "Eastern Cape",
         "County": "Amathole District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Alice Campus parkrun, University of Fort Hare</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/alicecampus\">parkrun.co.za/alicecampus</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Alice Campus parkrun, University of Fort Hare</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 13&nbsp;August&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Student volunteers not available yet</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/alicecampus\">parkrun.co.za/alicecampus</a></td></tr></table>"
       }
     },
     {
@@ -33614,13 +33666,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Haigh Country Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-08-13",
+            "ReasonCancelled": "Tree Blocking Route"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/haighwoodland",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Wigan",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Haigh Woodland parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/haighwoodland\">parkrun.org.uk/haighwoodland</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Haigh Woodland parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 13&nbsp;August&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Tree Blocking Route</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/haighwoodland\">parkrun.org.uk/haighwoodland</a></td></tr></table>"
       }
     },
     {
@@ -34019,13 +34076,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Carey Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-08-13",
+            "ReasonCancelled": "Cows on course"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/northwich",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Cheshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Northwich parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/northwich\">parkrun.org.uk/northwich</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Northwich parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 13&nbsp;August&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Cows on course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/northwich\">parkrun.org.uk/northwich</a></td></tr></table>"
       }
     },
     {
@@ -39575,13 +39637,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Gunpowder Park, Waltham Abbey",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-08-13",
+            "ReasonCancelled": "The only available RD Has covid."
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/gunpowder",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Essex",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Gunpowder parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/gunpowder\">parkrun.org.uk/gunpowder</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Gunpowder parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 13&nbsp;August&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>The only available RD Has covid.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/gunpowder\">parkrun.org.uk/gunpowder</a></td></tr></table>"
       }
     },
     {
@@ -51015,13 +51082,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Kings Weston Estate",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-08-14",
+            "ReasonCancelled": "Not enough volunteers to go ahead"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/kingsweston-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Bristol",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Kings Weston junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/kingsweston-juniors\">parkrun.org.uk/kingsweston-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Kings Weston junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 14&nbsp;August&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Not enough volunteers to go ahead</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/kingsweston-juniors\">parkrun.org.uk/kingsweston-juniors</a></td></tr></table>"
       }
     },
     {
