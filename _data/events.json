@@ -42794,13 +42794,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Gnoll Estate Country Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-08-14",
+            "ReasonCancelled": "Extreme heat and not enough volunteers."
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/gnoll-juniors",
         "Country": "United Kingdom",
         "State": "Wales",
         "County": "Neath Port Talbot",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Gnoll junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/gnoll-juniors\">parkrun.org.uk/gnoll-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Gnoll junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 14&nbsp;August&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Extreme heat and not enough volunteers.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/gnoll-juniors\">parkrun.org.uk/gnoll-juniors</a></td></tr></table>"
       }
     },
     {
