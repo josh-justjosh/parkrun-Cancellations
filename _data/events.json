@@ -12408,13 +12408,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Shawnigan Hills Athletic Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-08-20",
+            "ReasonCancelled": "Not enough volunteers."
+          }
+        ],
         "Website": "https://www.parkrun.ca/shawniganhills",
         "Country": "Canada",
         "State": "British Columbia",
         "County": "Cowichan Valley Regional District",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Shawnigan Hills parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/shawniganhills\">parkrun.ca/shawniganhills</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Shawnigan Hills parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 20&nbsp;August&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Not enough volunteers.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/shawniganhills\">parkrun.ca/shawniganhills</a></td></tr></table>"
       }
     },
     {
@@ -23819,6 +23824,33 @@
       }
     },
     {
+      "id": 3130,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.940267,
+          52.10956
+        ]
+      },
+      "properties": {
+        "eventname": "parkmiejskilowicz",
+        "EventLongName": "parkrun Park Miejski, \u0141owicz",
+        "EventShortName": "Park Miejski, \u0141owicz",
+        "LocalisedEventLongName": null,
+        "countrycode": 74,
+        "seriesid": 1,
+        "EventLocation": "Park Miejski, \u0141owicz",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.pl/parkmiejskilowicz",
+        "Country": "Poland",
+        "State": "\u0141\u00f3d\u017a Voivodeship",
+        "County": "powiat \u0141owicki",
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Park Miejski, \u0141owicz</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/parkmiejskilowicz\">parkrun.pl/parkmiejskilowicz</a></td></tr></table>"
+      }
+    },
+    {
       "id": 915,
       "type": "Feature",
       "geometry": {
@@ -24995,38 +25027,6 @@
       }
     },
     {
-      "id": 1622,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          30.971091,
-          -29.744469
-        ]
-      },
-      "properties": {
-        "eventname": "kwamashu",
-        "EventLongName": "KwaMashu parkrun",
-        "EventShortName": "KwaMashu",
-        "LocalisedEventLongName": null,
-        "countrycode": 85,
-        "seriesid": 1,
-        "EventLocation": "Princes Magogo Stadium",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2022-08-20",
-            "ReasonCancelled": "COVID-19 (Coronavirus)"
-          }
-        ],
-        "Website": "https://www.parkrun.co.za/kwamashu",
-        "Country": "South Africa",
-        "State": "KwaZulu-Natal",
-        "County": "eThekwini Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">KwaMashu parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 20&nbsp;August&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kwamashu\">parkrun.co.za/kwamashu</a></td></tr></table>"
-      }
-    },
-    {
       "id": 1711,
       "type": "Feature",
       "geometry": {
@@ -26107,13 +26107,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Red Star Raceway",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-08-20",
+            "ReasonCancelled": "Core Volunteer Team not available"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/redstar",
         "Country": "South Africa",
         "State": "Mpumalanga",
         "County": "Nkangala District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Red Star parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/redstar\">parkrun.co.za/redstar</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Red Star parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 20&nbsp;August&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Core Volunteer Team not available</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/redstar\">parkrun.co.za/redstar</a></td></tr></table>"
       }
     },
     {
@@ -35182,13 +35187,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Tyne Riverside Country Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-08-21",
+            "ReasonCancelled": "The Jelly Tea race is using the park facilities"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/prudhoeriverside-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Northumberland",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Prudhoe Riverside junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/prudhoeriverside-juniors\">parkrun.org.uk/prudhoeriverside-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Prudhoe Riverside junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 21&nbsp;August&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>The Jelly Tea race is using the park facilities</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/prudhoeriverside-juniors\">parkrun.org.uk/prudhoeriverside-juniors</a></td></tr></table>"
       }
     },
     {
