@@ -23824,33 +23824,6 @@
       }
     },
     {
-      "id": 3130,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.940267,
-          52.10956
-        ]
-      },
-      "properties": {
-        "eventname": "parkmiejskilowicz",
-        "EventLongName": "parkrun Park Miejski, \u0141owicz",
-        "EventShortName": "Park Miejski, \u0141owicz",
-        "LocalisedEventLongName": null,
-        "countrycode": 74,
-        "seriesid": 1,
-        "EventLocation": "Park Miejski, \u0141owicz",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.pl/parkmiejskilowicz",
-        "Country": "Poland",
-        "State": "\u0141\u00f3d\u017a Voivodeship",
-        "County": "powiat \u0141owicki",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Park Miejski, \u0141owicz</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/parkmiejskilowicz\">parkrun.pl/parkmiejskilowicz</a></td></tr></table>"
-      }
-    },
-    {
       "id": 915,
       "type": "Feature",
       "geometry": {
@@ -25024,6 +24997,38 @@
         "State": "KwaZulu-Natal",
         "County": "uThungulu District Municipality",
         "description": "<h4 style=\"margin: 0 0 8px;\">Richards Bay parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 20&nbsp;August&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>There is a running race in the park/venue</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/richardsbay\">parkrun.co.za/richardsbay</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 1622,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.971091,
+          -29.744469
+        ]
+      },
+      "properties": {
+        "eventname": "kwamashu",
+        "EventLongName": "KwaMashu parkrun",
+        "EventShortName": "KwaMashu",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Princes Magogo Stadium",
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-08-20",
+            "ReasonCancelled": "COVID-19 (Coronavirus)"
+          }
+        ],
+        "Website": "https://www.parkrun.co.za/kwamashu",
+        "Country": "South Africa",
+        "State": "KwaZulu-Natal",
+        "County": "eThekwini Metropolitan Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">KwaMashu parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 20&nbsp;August&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>COVID-19 (Coronavirus)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kwamashu\">parkrun.co.za/kwamashu</a></td></tr></table>"
       }
     },
     {
@@ -44883,13 +44888,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Markeaton Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-08-21",
+            "ReasonCancelled": "Fair obstructing the course"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/markeaton-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Derby",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Markeaton junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/markeaton-juniors\">parkrun.org.uk/markeaton-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Markeaton junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 21&nbsp;August&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Fair obstructing the course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/markeaton-juniors\">parkrun.org.uk/markeaton-juniors</a></td></tr></table>"
       }
     },
     {
