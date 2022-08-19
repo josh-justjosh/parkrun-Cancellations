@@ -41,7 +41,7 @@
       "bounds": [
         23.759243,
         60.177056,
-        25.538652,
+        25.645077,
         65.015719
       ]
     },
@@ -10245,6 +10245,26 @@
         }
       },
       {
+        "id": 3117,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            25.645077,
+            60.991561
+          ]
+        },
+        "properties": {
+          "eventname": "lahdensatama",
+          "EventLongName": "Lahden satama parkrun",
+          "EventShortName": "Lahden satama",
+          "LocalisedEventLongName": null,
+          "countrycode": 30,
+          "seriesid": 1,
+          "EventLocation": "Espoon keskuspuisto, Lahden satama 12"
+        }
+      },
+      {
         "id": 418,
         "type": "Feature",
         "geometry": {
@@ -17765,6 +17785,46 @@
         }
       },
       {
+        "id": 3126,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            20.058498,
+            50.094923
+          ]
+        },
+        "properties": {
+          "eventname": "zielonyjar",
+          "EventLongName": "parkrun Zielony Jar",
+          "EventShortName": "Zielony Jar",
+          "LocalisedEventLongName": null,
+          "countrycode": 74,
+          "seriesid": 1,
+          "EventLocation": "Zielony Jar"
+        }
+      },
+      {
+        "id": 3130,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            19.940267,
+            52.10956
+          ]
+        },
+        "properties": {
+          "eventname": "parkmiejskilowicz",
+          "EventLongName": "parkrun Park Miejski, \u0141owicz",
+          "EventShortName": "Park Miejski, \u0141owicz",
+          "LocalisedEventLongName": null,
+          "countrycode": 74,
+          "seriesid": 1,
+          "EventLocation": "Park Miejski, \u0141owicz"
+        }
+      },
+      {
         "id": 915,
         "type": "Feature",
         "geometry": {
@@ -18622,26 +18682,6 @@
           "countrycode": 85,
           "seriesid": 1,
           "EventLocation": "Zululand Multi Sport Club"
-        }
-      },
-      {
-        "id": 1622,
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            30.971091,
-            -29.744469
-          ]
-        },
-        "properties": {
-          "eventname": "kwamashu",
-          "EventLongName": "KwaMashu parkrun",
-          "EventShortName": "KwaMashu",
-          "LocalisedEventLongName": null,
-          "countrycode": 85,
-          "seriesid": 1,
-          "EventLocation": "Princes Magogo Stadium"
         }
       },
       {
