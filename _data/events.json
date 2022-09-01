@@ -22503,13 +22503,18 @@
         "countrycode": 74,
         "seriesid": 1,
         "EventLocation": "Park Zwierzyniecki, Bia\u0142ystok",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-09-03",
+            "ReasonCancelled": "Coordinator and volunteers absent from the event"
+          }
+        ],
         "Website": "https://www.parkrun.pl/bialystok",
         "Country": "Poland",
         "State": "Podlasie",
         "County": "Bia\u0142ystok",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Bia\u0142ystok</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/bialystok\">parkrun.pl/bialystok</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Bia\u0142ystok</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  3&nbsp;September&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Coordinator and volunteers absent from the event</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/bialystok\">parkrun.pl/bialystok</a></td></tr></table>"
       }
     },
     {
