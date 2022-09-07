@@ -58656,13 +58656,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "The Knavesmire",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-09-11",
+            "ReasonCancelled": "Alternative event on the knavesmire-Race for Life"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/knavesmire-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "York",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Knavesmire junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/knavesmire-juniors\">parkrun.org.uk/knavesmire-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Knavesmire junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 11&nbsp;September&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Alternative event on the knavesmire-Race for Life</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/knavesmire-juniors\">parkrun.org.uk/knavesmire-juniors</a></td></tr></table>"
       }
     },
     {
