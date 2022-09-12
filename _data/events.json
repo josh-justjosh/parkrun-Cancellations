@@ -42894,13 +42894,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Bryn Bach country park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-09-18",
+            "ReasonCancelled": "Volunteers all going to Swansea 10K"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/brynbach-juniors",
         "Country": "United Kingdom",
         "State": "Wales",
         "County": "Blaenau Gwent",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bryn Bach junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/brynbach-juniors\">parkrun.org.uk/brynbach-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bryn Bach junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 18&nbsp;September&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Volunteers all going to Swansea 10K</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/brynbach-juniors\">parkrun.org.uk/brynbach-juniors</a></td></tr></table>"
       }
     },
     {
@@ -51172,18 +51177,13 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Monkton Park",
-        "Status": "junior Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2022-09-18",
-            "ReasonCancelled": "National mourning"
-          }
-        ],
+        "Status": "junior parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/chippenham-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Wiltshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Chippenham junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 18&nbsp;September&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>National mourning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/chippenham-juniors\">parkrun.org.uk/chippenham-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Chippenham junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/chippenham-juniors\">parkrun.org.uk/chippenham-juniors</a></td></tr></table>"
       }
     },
     {
