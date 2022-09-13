@@ -7560,8 +7560,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.741992,
-          -37.584562
+          144.739936,
+          -37.580542
         ]
       },
       "properties": {
@@ -29174,13 +29174,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Jim Fouche Park, Ferryvale",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-09-17",
+            "ReasonCancelled": "core volunteer team not available"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/ferryvale",
         "Country": "South Africa",
         "State": "Gauteng",
         "County": "Ekurhuleni Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ferryvale parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ferryvale\">parkrun.co.za/ferryvale</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ferryvale parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 17&nbsp;September&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>core volunteer team not available</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ferryvale\">parkrun.co.za/ferryvale</a></td></tr></table>"
       }
     },
     {
@@ -37594,18 +37599,13 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Harrow Lodge Park",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2022-09-17",
-            "ReasonCancelled": "Instruction from Havering"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/harrowlodge",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Greater London",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Harrow Lodge parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 17&nbsp;September&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Instruction from Havering</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/harrowlodge\">parkrun.org.uk/harrowlodge</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Harrow Lodge parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/harrowlodge\">parkrun.org.uk/harrowlodge</a></td></tr></table>"
       }
     },
     {
@@ -55528,8 +55528,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.740793,
-          51.355453
+          0.740569,
+          51.354976
         ]
       },
       "properties": {
