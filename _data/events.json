@@ -7560,8 +7560,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.741992,
-          -37.584562
+          144.739936,
+          -37.580542
         ]
       },
       "properties": {
@@ -48330,13 +48330,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Ulster University, Jordanstown Campus",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-09-18",
+            "ReasonCancelled": "Landowners request whilst in national mourning."
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/jordanstown-juniors",
         "Country": "United Kingdom",
         "State": "Northern Ireland",
         "County": "Antrim",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Jordanstown junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/jordanstown-juniors\">parkrun.org.uk/jordanstown-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Jordanstown junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 18&nbsp;September&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Landowners request whilst in national mourning.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/jordanstown-juniors\">parkrun.org.uk/jordanstown-juniors</a></td></tr></table>"
       }
     },
     {
@@ -49712,13 +49717,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Lydiard Park, Swindon",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-09-17",
+            "ReasonCancelled": "Landowner request"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/lydiard",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Swindon",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Lydiard parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/lydiard\">parkrun.org.uk/lydiard</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Lydiard parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 17&nbsp;September&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Landowner request</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/lydiard\">parkrun.org.uk/lydiard</a></td></tr></table>"
       }
     },
     {
@@ -50915,13 +50925,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Lydiard Park, Swindon",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-09-18",
+            "ReasonCancelled": "Landowner request"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/lydiard-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Swindon",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Lydiard junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/lydiard-juniors\">parkrun.org.uk/lydiard-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Lydiard junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 18&nbsp;September&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Landowner request</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/lydiard-juniors\">parkrun.org.uk/lydiard-juniors</a></td></tr></table>"
       }
     },
     {
@@ -55533,8 +55548,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.740793,
-          51.355453
+          0.740569,
+          51.354976
         ]
       },
       "properties": {
