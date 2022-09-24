@@ -7885,13 +7885,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Willow Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-09-24",
+            "ReasonCancelled": "Course flooded and unsafe to run"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/willow",
         "Country": "Australia",
         "State": "Victoria",
         "County": "Wodonga",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Willow parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/willow\">parkrun.com.au/willow</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Willow parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 24&nbsp;September&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Course flooded and unsafe to run</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/willow\">parkrun.com.au/willow</a></td></tr></table>"
       }
     },
     {
@@ -16428,13 +16433,18 @@
         "countrycode": 42,
         "seriesid": 1,
         "EventLocation": "University of Limerick",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-09-24",
+            "ReasonCancelled": "Gate has not been taken down."
+          }
+        ],
         "Website": "https://www.parkrun.ie/limerick",
         "Country": "Ireland",
         "State": "Munster",
         "County": "Limerick",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Limerick parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/limerick\">parkrun.ie/limerick</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Limerick parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 24&nbsp;September&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Gate has not been taken down.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/limerick\">parkrun.ie/limerick</a></td></tr></table>"
       }
     },
     {
@@ -27697,8 +27707,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.512412,
-          -33.888687
+          18.506641,
+          -33.897206
         ]
       },
       "properties": {
@@ -27708,7 +27718,7 @@
         "LocalisedEventLongName": null,
         "countrycode": 85,
         "seriesid": 1,
-        "EventLocation": "The Oval Sports Field",
+        "EventLocation": "Ratanga Park",
         "Status": "5k Cancellation",
         "Cancellations": [
           {
