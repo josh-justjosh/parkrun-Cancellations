@@ -21550,13 +21550,18 @@
         "countrycode": 65,
         "seriesid": 1,
         "EventLocation": "Lake2Lake Cycle Trail",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-10-01",
+            "ReasonCancelled": "Spring Challenge is on and we don't want to clash"
+          }
+        ],
         "Website": "https://www.parkrun.co.nz/lake2laketrail",
         "Country": "New Zealand",
         "State": "Southland",
         "County": "Southland District",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Lake2Lake Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/lake2laketrail\">parkrun.co.nz/lake2laketrail</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Lake2Lake Trail parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;October&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Spring Challenge is on and we don't want to clash</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/lake2laketrail\">parkrun.co.nz/lake2laketrail</a></td></tr></table>"
       }
     },
     {
@@ -50452,8 +50457,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.368786,
-          51.633149
+          -2.369117,
+          51.633443
         ]
       },
       "properties": {
