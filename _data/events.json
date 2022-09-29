@@ -28331,6 +28331,38 @@
       }
     },
     {
+      "id": 1247,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.727413,
+          -30.682118
+        ]
+      },
+      "properties": {
+        "eventname": "aliwalnorth",
+        "EventLongName": "Aliwal North parkrun",
+        "EventShortName": "Aliwal North",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Aliwal North",
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-10-01",
+            "ReasonCancelled": "Event Closed"
+          }
+        ],
+        "Website": "https://www.parkrun.co.za/aliwalnorth",
+        "Country": "South Africa",
+        "State": "Eastern Cape",
+        "County": "Joe Gqabi District Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Aliwal North parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;October&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Event Closed</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/aliwalnorth\">parkrun.co.za/aliwalnorth</a></td></tr></table>"
+      }
+    },
+    {
       "id": 1435,
       "type": "Feature",
       "geometry": {
@@ -43523,8 +43555,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.969848,
-          51.610463
+          -3.967061,
+          51.611029
         ]
       },
       "properties": {
@@ -47298,33 +47330,6 @@
         "State": "England",
         "County": "Wolverhampton",
         "description": "<h4 style=\"margin: 0 0 8px;\">Wednesfield junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wednesfield-juniors\">parkrun.org.uk/wednesfield-juniors</a></td></tr></table>"
-      }
-    },
-    {
-      "id": 1278,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.445683,
-          52.671256
-        ]
-      },
-      "properties": {
-        "eventname": "telford-juniors",
-        "EventLongName": "Telford junior parkrun",
-        "EventShortName": "Telford juniors",
-        "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 2,
-        "EventLocation": "Telford Town Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/telford-juniors",
-        "Country": "United Kingdom",
-        "State": "England",
-        "County": "Telford and Wrekin",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Telford junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/telford-juniors\">parkrun.org.uk/telford-juniors</a></td></tr></table>"
       }
     },
     {
