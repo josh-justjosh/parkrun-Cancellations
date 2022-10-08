@@ -13682,13 +13682,18 @@
         "countrycode": 23,
         "seriesid": 1,
         "EventLocation": "Myretuen",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-10-08",
+            "ReasonCancelled": "No runners showed up"
+          }
+        ],
         "Website": "https://www.parkrun.dk/nordrefaelled",
         "Country": "Denmark",
         "State": "Central Jutland",
         "County": "Randers Kommune",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Nordre F\u00e6lled parkrun, Randers</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.dk/nordrefaelled\">parkrun.dk/nordrefaelled</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Nordre F\u00e6lled parkrun, Randers</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;October&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>No runners showed up</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.dk/nordrefaelled\">parkrun.dk/nordrefaelled</a></td></tr></table>"
       }
     },
     {
@@ -31360,13 +31365,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Barshaw Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-10-09",
+            "ReasonCancelled": "Flooding in the park"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/barshaw-juniors",
         "Country": "United Kingdom",
         "State": "Scotland",
         "County": "Renfrewshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Barshaw junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/barshaw-juniors\">parkrun.org.uk/barshaw-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Barshaw junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  9&nbsp;October&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Flooding in the park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/barshaw-juniors\">parkrun.org.uk/barshaw-juniors</a></td></tr></table>"
       }
     },
     {
