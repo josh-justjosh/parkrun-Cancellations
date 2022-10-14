@@ -5793,13 +5793,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "McLean Beach",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-10-15",
+            "ReasonCancelled": "Flooding of the Edward River"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/mcleanbeach",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Edward River Council",
-        "description": "<h4 style=\"margin: 0 0 8px;\">McLean Beach parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/mcleanbeach\">parkrun.com.au/mcleanbeach</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">McLean Beach parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 15&nbsp;October&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Flooding of the Edward River</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/mcleanbeach\">parkrun.com.au/mcleanbeach</a></td></tr></table>"
       }
     },
     {
@@ -15498,6 +15503,33 @@
       }
     },
     {
+      "id": 3148,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.281266,
+          51.438069
+        ]
+      },
+      "properties": {
+        "eventname": "kemnadersee",
+        "EventLongName": "Kemnader See parkrun",
+        "EventShortName": "Kemnader See",
+        "LocalisedEventLongName": null,
+        "countrycode": 32,
+        "seriesid": 1,
+        "EventLocation": "Kemnader See",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.de/kemnadersee",
+        "Country": "Germany",
+        "State": "North Rhine-Westphalia",
+        "County": "Regierungsbezirk Arnsberg",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Kemnader See parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/kemnadersee\">parkrun.com.de/kemnadersee</a></td></tr></table>"
+      }
+    },
+    {
       "id": 178,
       "type": "Feature",
       "geometry": {
@@ -23407,13 +23439,18 @@
         "countrycode": 74,
         "seriesid": 1,
         "EventLocation": "Park XXX-lecia, Che\u0142m",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-10-15",
+            "ReasonCancelled": "nowa trasa nie ma jeszcze zgody Urzedu Miasta"
+          }
+        ],
         "Website": "https://www.parkrun.pl/chelm",
         "Country": "Poland",
         "State": "Lublin",
         "County": "Che\u0142m",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Che\u0142m</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/chelm\">parkrun.pl/chelm</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Che\u0142m</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 15&nbsp;October&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>nowa trasa nie ma jeszcze zgody Urzedu Miasta</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/chelm\">parkrun.pl/chelm</a></td></tr></table>"
       }
     },
     {
@@ -28724,13 +28761,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Toboshane Valley Estate",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-10-15",
+            "ReasonCancelled": "continuous rain has made conditions unsuitable"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/toboshanevalleyestate",
         "Country": "South Africa",
         "State": "Eastern Cape",
         "County": "Buffalo City Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Toboshane Valley Estate parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/toboshanevalleyestate\">parkrun.co.za/toboshanevalleyestate</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Toboshane Valley Estate parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 15&nbsp;October&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>continuous rain has made conditions unsuitable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/toboshanevalleyestate\">parkrun.co.za/toboshanevalleyestate</a></td></tr></table>"
       }
     },
     {
