@@ -2561,7 +2561,7 @@
           "LocalisedEventLongName": null,
           "countrycode": 3,
           "seriesid": 1,
-          "EventLocation": "Scribbly Gums Conservation"
+          "EventLocation": "Scribbly Gums Conservation Area"
         }
       },
       {
@@ -15025,6 +15025,26 @@
         }
       },
       {
+        "id": 3162,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            139.449093,
+            36.154306
+          ]
+        },
+        "properties": {
+          "eventname": "gyodashisogokoen",
+          "EventLongName": "Gyodashi sogokoen parkrun",
+          "EventShortName": "Gyodashi sogokoen",
+          "LocalisedEventLongName": "\u884c\u7530\u5e02\u7dcf\u5408\u516c\u5712parkrun",
+          "countrycode": 46,
+          "seriesid": 1,
+          "EventLocation": ""
+        }
+      },
+      {
         "id": 1922,
         "type": "Feature",
         "geometry": {
@@ -26182,6 +26202,26 @@
           "countrycode": 97,
           "seriesid": 1,
           "EventLocation": "Alderley Park"
+        }
+      },
+      {
+        "id": 3158,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -3.50107,
+            54.7171
+          ]
+        },
+        "properties": {
+          "eventname": "maryportprom",
+          "EventLongName": "Maryport Prom parkrun",
+          "EventShortName": "Maryport Prom",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 1,
+          "EventLocation": "The Promenade"
         }
       },
       {
