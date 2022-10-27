@@ -17874,13 +17874,18 @@
         "countrycode": 42,
         "seriesid": 2,
         "EventLocation": "Griffeen Valley Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-10-30",
+            "ReasonCancelled": "Bank Holiday weekend ( Dublin city marathon)"
+          }
+        ],
         "Website": "https://www.parkrun.ie/griffeen-juniors",
         "Country": "Ireland",
         "State": "Leinster",
         "County": "Dublin",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Griffeen junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/griffeen-juniors\">parkrun.ie/griffeen-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Griffeen junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 30&nbsp;October&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Bank Holiday weekend ( Dublin city marathon)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/griffeen-juniors\">parkrun.ie/griffeen-juniors</a></td></tr></table>"
       }
     },
     {
