@@ -17966,33 +17966,6 @@
       }
     },
     {
-      "id": 2277,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -8.261468,
-          52.855928
-        ]
-      },
-      "properties": {
-        "eventname": "burgesscountytipperary-juniors",
-        "EventLongName": "Burgess junior parkrun, County Tipperary",
-        "EventShortName": "Burgess juniors, County Tipperary",
-        "LocalisedEventLongName": "Burgess junior parkrun, County Tipperary",
-        "countrycode": 42,
-        "seriesid": 2,
-        "EventLocation": "Burgess GAA Grounds",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.ie/burgesscountytipperary-juniors",
-        "Country": "Ireland",
-        "State": "Munster",
-        "County": "Tipperary",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Burgess junior parkrun, County Tipperary</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/burgesscountytipperary-juniors\">parkrun.ie/burgesscountytipperary-juniors</a></td></tr></table>"
-      }
-    },
-    {
       "id": 2286,
       "type": "Feature",
       "geometry": {
@@ -19441,13 +19414,18 @@
         "countrycode": 46,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-11-05",
+            "ReasonCancelled": "\u4ed6\u306e\u30a4\u30d9\u30f3\u30c8\u304c\u958b\u50ac\u3055\u308c\u308b\u305f\u3081"
+          }
+        ],
         "Website": "https://www.parkrun.jp/horinouchikoen",
         "Country": "Japan",
         "State": "Ehime",
         "County": "Matsuyama-shi",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Horinouchi koen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/horinouchikoen\">parkrun.jp/horinouchikoen</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Horinouchi koen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;November&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>\u4ed6\u306e\u30a4\u30d9\u30f3\u30c8\u304c\u958b\u50ac\u3055\u308c\u308b\u305f\u3081</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/horinouchikoen\">parkrun.jp/horinouchikoen</a></td></tr></table>"
       }
     },
     {
@@ -46911,6 +46889,33 @@
         "State": "England",
         "County": "Leicestershire",
         "description": "<h4 style=\"margin: 0 0 8px;\">Play Close Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/playclosepark-juniors\">parkrun.org.uk/playclosepark-juniors</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 3161,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.918759,
+          53.254611
+        ]
+      },
+      "properties": {
+        "eventname": "paviliongardens",
+        "EventLongName": "Pavilion Gardens parkrun",
+        "EventShortName": "Pavilion Gardens",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "The Pavilion Gardens",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/paviliongardens",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Derbyshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Pavilion Gardens parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/paviliongardens\">parkrun.org.uk/paviliongardens</a></td></tr></table>"
       }
     },
     {
