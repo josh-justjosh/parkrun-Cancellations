@@ -27217,13 +27217,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Arrow Rest",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-11-05",
+            "ReasonCancelled": "constructing a new route"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/arrowrest",
         "Country": "South Africa",
         "State": "North-West",
         "County": "Bojanala Platinum",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Arrow Rest parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/arrowrest\">parkrun.co.za/arrowrest</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Arrow Rest parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;November&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>constructing a new route</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/arrowrest\">parkrun.co.za/arrowrest</a></td></tr></table>"
       }
     },
     {
@@ -36584,7 +36589,7 @@
       },
       "properties": {
         "eventname": "carlislepark",
-        "EventLongName": "Carlisle Park parkrun",
+        "EventLongName": "Carlisle Park parkrun, Morpeth",
         "EventShortName": "Carlisle Park",
         "LocalisedEventLongName": null,
         "countrycode": 97,
@@ -36596,7 +36601,7 @@
         "Country": "United Kingdom",
         "State": "England",
         "County": "Northumberland",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Carlisle Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/carlislepark\">parkrun.org.uk/carlislepark</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Carlisle Park parkrun, Morpeth</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/carlislepark\">parkrun.org.uk/carlislepark</a></td></tr></table>"
       }
     },
     {
@@ -39354,7 +39359,7 @@
       "properties": {
         "eventname": "gorleston",
         "EventLongName": "Gorleston Cliffs parkrun",
-        "EventShortName": "Gorleston",
+        "EventShortName": "Gorleston Cliffs",
         "LocalisedEventLongName": null,
         "countrycode": 97,
         "seriesid": 1,
@@ -48897,7 +48902,7 @@
       "properties": {
         "eventname": "queens",
         "EventLongName": "Queen\u2019s parkrun, Belfast",
-        "EventShortName": "Queens",
+        "EventShortName": "Queen\u2019s, Belfast",
         "LocalisedEventLongName": null,
         "countrycode": 97,
         "seriesid": 1,
