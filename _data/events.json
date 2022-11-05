@@ -19032,6 +19032,33 @@
       }
     },
     {
+      "id": 3155,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.509254,
+          53.468051
+        ]
+      },
+      "properties": {
+        "eventname": "mountbellewforest",
+        "EventLongName": "Mountbellew Forest parkrun",
+        "EventShortName": "Mountbellew Forest",
+        "LocalisedEventLongName": null,
+        "countrycode": 42,
+        "seriesid": 1,
+        "EventLocation": "Mountbellew Forest",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.ie/mountbellewforest",
+        "Country": "Ireland",
+        "State": "-Unknown-",
+        "County": "-Unknown-",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Mountbellew Forest parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/mountbellewforest\">parkrun.ie/mountbellewforest</a></td></tr></table>"
+      }
+    },
+    {
       "id": 3171,
       "type": "Feature",
       "geometry": {
@@ -19076,13 +19103,18 @@
         "countrycode": 44,
         "seriesid": 1,
         "EventLocation": "Piazza Einstein, 90145 Palermo",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-11-05",
+            "ReasonCancelled": "Parco Uditore chiuso per allerta meteo"
+          }
+        ],
         "Website": "https://www.parkrun.it/uditore",
         "Country": "Italy",
         "State": "Sicily",
         "County": "Province of Palermo",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Uditore parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.it/uditore\">parkrun.it/uditore</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Uditore parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;November&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Parco Uditore chiuso per allerta meteo</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.it/uditore\">parkrun.it/uditore</a></td></tr></table>"
       }
     },
     {
@@ -20289,30 +20321,30 @@
       }
     },
     {
-      "id": 3162,
+      "id": 3152,
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.449093,
-          36.154306
+          139.950163,
+          36.192134
         ]
       },
       "properties": {
-        "eventname": "gyodashisogokoen",
-        "EventLongName": "Gyodashi sogokoen parkrun",
-        "EventShortName": "Gyodashi sogokoen",
-        "LocalisedEventLongName": "\u884c\u7530\u5e02\u7dcf\u5408\u516c\u5712parkrun",
+        "eventname": "sanumakoikikoenkanouen",
+        "EventLongName": "Sanuma koikikoen Kanouen parkrun",
+        "EventShortName": "Sanuma koikikoen Kanouen",
+        "LocalisedEventLongName": "\u7802\u6cbc\u5e83\u57df\u516c\u5712\u89b3\u685c\u82d1parkrun",
         "countrycode": 46,
         "seriesid": 1,
         "EventLocation": "",
         "Status": "parkrunning",
         "Cancellations": [],
-        "Website": "https://www.parkrun.jp/gyodashisogokoen",
+        "Website": "https://www.parkrun.jp/sanumakoikikoenkanouen",
         "Country": "Japan",
-        "State": "Saitama",
-        "County": "Gy\u014dda Shi",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Gyodashi sogokoen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/gyodashisogokoen\">parkrun.jp/gyodashisogokoen</a></td></tr></table>"
+        "State": "Ibaraki",
+        "County": "Shimotsuma-shi",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Sanuma koikikoen Kanouen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/sanumakoikikoenkanouen\">parkrun.jp/sanumakoikikoenkanouen</a></td></tr></table>"
       }
     },
     {
@@ -47154,6 +47186,33 @@
       }
     },
     {
+      "id": 3156,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.104073,
+          52.690373
+        ]
+      },
+      "properties": {
+        "eventname": "watermeadcountrypark-juniors",
+        "EventLongName": "Watermead Country Park junior parkrun",
+        "EventShortName": "Watermead Country Park juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Watermead Country Park",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/watermeadcountrypark-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Leicestershire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Watermead Country Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/watermeadcountrypark-juniors\">parkrun.org.uk/watermeadcountrypark-juniors</a></td></tr></table>"
+      }
+    },
+    {
       "id": 3161,
       "type": "Feature",
       "geometry": {
@@ -61837,13 +61896,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Canyon Rim Trail",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-11-05",
+            "ReasonCancelled": "inclement weather conditions in the area."
+          }
+        ],
         "Website": "https://www.parkrun.us/canyonrimtrail",
         "Country": "USA",
         "State": "Idaho",
         "County": "Twin Falls",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Canyon Rim Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/canyonrimtrail\">parkrun.us/canyonrimtrail</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Canyon Rim Trail parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;November&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>inclement weather conditions in the area.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/canyonrimtrail\">parkrun.us/canyonrimtrail</a></td></tr></table>"
       }
     },
     {
