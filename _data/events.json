@@ -7808,13 +7808,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Sevens Creek Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-11-12",
+            "ReasonCancelled": "Track damage due to floods"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/euroa",
         "Country": "Australia",
         "State": "Victoria",
         "County": "Strathbogie",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Euroa parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/euroa\">parkrun.com.au/euroa</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Euroa parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;November&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Track damage due to floods</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/euroa\">parkrun.com.au/euroa</a></td></tr></table>"
       }
     },
     {
@@ -19707,38 +19712,6 @@
         "State": "Tokyo",
         "County": "Nerima-ku",
         "description": "<h4 style=\"margin: 0 0 8px;\">Hikarigaoka koen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/hikarigaokakoen\">parkrun.jp/hikarigaokakoen</a></td></tr></table>"
-      }
-    },
-    {
-      "id": 2689,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          137.008374,
-          35.017777
-        ]
-      },
-      "properties": {
-        "eventname": "kariyashisogoundokoen",
-        "EventLongName": "Kariyashi sogoundo koen parkrun",
-        "EventShortName": "Kariyashi sogoundo koen",
-        "LocalisedEventLongName": "\u5208\u8c37\u5e02\u7dcf\u5408\u904b\u52d5\u516c\u5712parkrun",
-        "countrycode": 46,
-        "seriesid": 1,
-        "EventLocation": "",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2022-11-12",
-            "ReasonCancelled": "\u30dc\u30e9\u30f3\u30c6\u30a3\u30a2\u52df\u96c6\u4e2d"
-          }
-        ],
-        "Website": "https://www.parkrun.jp/kariyashisogoundokoen",
-        "Country": "Japan",
-        "State": "Aichi",
-        "County": "Kariya",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Kariyashi sogoundo koen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;November&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>\u30dc\u30e9\u30f3\u30c6\u30a3\u30a2\u52df\u96c6\u4e2d</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/kariyashisogoundokoen\">parkrun.jp/kariyashisogoundokoen</a></td></tr></table>"
       }
     },
     {
