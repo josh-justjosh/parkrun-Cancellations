@@ -12827,13 +12827,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Chain of Lakes Trail",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-11-12",
+            "ReasonCancelled": "heavy rain/lightning possible"
+          }
+        ],
         "Website": "https://www.parkrun.ca/chainoflakes",
         "Country": "Canada",
         "State": "Nova Scotia",
         "County": "Halifax Regional Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Chain of Lakes parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/chainoflakes\">parkrun.ca/chainoflakes</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Chain of Lakes parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;November&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>heavy rain/lightning possible</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/chainoflakes\">parkrun.ca/chainoflakes</a></td></tr></table>"
       }
     },
     {
@@ -26619,13 +26624,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Kralinbergh Guest Farm",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-11-12",
+            "ReasonCancelled": "Route unsafe due to weather conditions"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/kralinbergh",
         "Country": "South Africa",
         "State": "Mpumalanga",
         "County": "Gert Sibande District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Kralinbergh parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kralinbergh\">parkrun.co.za/kralinbergh</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Kralinbergh parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;November&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Route unsafe due to weather conditions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kralinbergh\">parkrun.co.za/kralinbergh</a></td></tr></table>"
       }
     },
     {
@@ -27167,13 +27177,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Koster Sports Club",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-11-12",
+            "ReasonCancelled": "Heavy rains - Location flooded"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/koster",
         "Country": "South Africa",
         "State": "North-West",
         "County": "Bojanala Platinum",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Koster parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/koster\">parkrun.co.za/koster</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Koster parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;November&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Heavy rains - Location flooded</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/koster\">parkrun.co.za/koster</a></td></tr></table>"
       }
     },
     {
@@ -29534,13 +29549,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Heidelberg",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-11-12",
+            "ReasonCancelled": "Key paths unusable"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/rondebult",
         "Country": "South Africa",
         "State": "Gauteng",
         "County": "Ekurhuleni Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Rondebult parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/rondebult\">parkrun.co.za/rondebult</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Rondebult parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;November&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Key paths unusable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/rondebult\">parkrun.co.za/rondebult</a></td></tr></table>"
       }
     },
     {
@@ -32639,6 +32659,33 @@
         "State": "Scotland",
         "County": "Highland",
         "description": "<h4 style=\"margin: 0 0 8px;\">Millbank Boating Pond junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/millbankboatingpond-juniors\">parkrun.org.uk/millbankboatingpond-juniors</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 3164,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.129042,
+          56.678115
+        ]
+      },
+      "properties": {
+        "eventname": "ballachulishquarry-juniors",
+        "EventLongName": "Ballachulish Quarry junior parkrun",
+        "EventShortName": "Ballachulish Quarry juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Ballachulish Slate Quarry",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/ballachulishquarry-juniors",
+        "Country": "United Kingdom",
+        "State": "-Unknown-",
+        "County": "-Unknown-",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ballachulish Quarry junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/ballachulishquarry-juniors\">parkrun.org.uk/ballachulishquarry-juniors</a></td></tr></table>"
       }
     },
     {
