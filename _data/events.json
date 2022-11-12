@@ -13468,13 +13468,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Wascana Park (Marina Rentals)",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-11-12",
+            "ReasonCancelled": "Windchill of -30c"
+          }
+        ],
         "Website": "https://www.parkrun.ca/wascana",
         "Country": "Canada",
         "State": "Saskatchewan",
         "County": "-Unknown-",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Wascana parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/wascana\">parkrun.ca/wascana</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Wascana parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;November&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Windchill of -30c</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/wascana\">parkrun.ca/wascana</a></td></tr></table>"
       }
     },
     {
@@ -14777,13 +14782,18 @@
         "countrycode": 32,
         "seriesid": 1,
         "EventLocation": "Bugasee, Kassel",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-11-12",
+            "ReasonCancelled": "Blocking of the track due to a film shoot"
+          }
+        ],
         "Website": "https://www.parkrun.com.de/bugasee",
         "Country": "Germany",
         "State": "Hesse",
         "County": "Regierungsbezirk Kassel",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bugasee parkrun, Kassel</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/bugasee\">parkrun.com.de/bugasee</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bugasee parkrun, Kassel</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;November&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Blocking of the track due to a film shoot</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/bugasee\">parkrun.com.de/bugasee</a></td></tr></table>"
       }
     },
     {
@@ -32679,6 +32689,33 @@
         "State": "Scotland",
         "County": "Highland",
         "description": "<h4 style=\"margin: 0 0 8px;\">Millbank Boating Pond junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/millbankboatingpond-juniors\">parkrun.org.uk/millbankboatingpond-juniors</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 3164,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.129042,
+          56.678115
+        ]
+      },
+      "properties": {
+        "eventname": "ballachulishquarry-juniors",
+        "EventLongName": "Ballachulish Quarry junior parkrun",
+        "EventShortName": "Ballachulish Quarry juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Ballachulish Slate Quarry",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/ballachulishquarry-juniors",
+        "Country": "United Kingdom",
+        "State": "-Unknown-",
+        "County": "-Unknown-",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ballachulish Quarry junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/ballachulishquarry-juniors\">parkrun.org.uk/ballachulishquarry-juniors</a></td></tr></table>"
       }
     },
     {
