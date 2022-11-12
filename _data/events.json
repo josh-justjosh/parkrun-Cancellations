@@ -5498,13 +5498,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Werrington Lakes Reserve",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-11-12",
+            "ReasonCancelled": "David the RD was held up due to work commitments"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/werringtonlakesreserve",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Penrith Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Werrington Lakes Reserve parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/werringtonlakesreserve\">parkrun.com.au/werringtonlakesreserve</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Werrington Lakes Reserve parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;November&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>David the RD was held up due to work commitments</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/werringtonlakesreserve\">parkrun.com.au/werringtonlakesreserve</a></td></tr></table>"
       }
     },
     {
@@ -10308,6 +10313,33 @@
       }
     },
     {
+      "id": 3157,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.037533,
+          -30.302452
+        ]
+      },
+      "properties": {
+        "eventname": "dobbynpark",
+        "EventLongName": "Dobbyn Park parkrun",
+        "EventShortName": "Dobbyn Park",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "Dobbyn Park",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.au/dobbynpark",
+        "Country": "Australia",
+        "State": "Western Australia",
+        "County": "Dandaragan",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Dobbyn Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/dobbynpark\">parkrun.com.au/dobbynpark</a></td></tr></table>"
+      }
+    },
+    {
       "id": 446,
       "type": "Feature",
       "geometry": {
@@ -11280,13 +11312,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "The Esplanade",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-11-12",
+            "ReasonCancelled": "Electrical storm activity"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/aldingabeach",
         "Country": "Australia",
         "State": "South Australia",
         "County": "Onkaparinga",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Aldinga Beach parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/aldingabeach\">parkrun.com.au/aldingabeach</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Aldinga Beach parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;November&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Electrical storm activity</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/aldingabeach\">parkrun.com.au/aldingabeach</a></td></tr></table>"
       }
     },
     {
@@ -11334,13 +11371,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Port Lincoln",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-11-12",
+            "ReasonCancelled": "lightning storm"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/portlincoln",
         "Country": "Australia",
         "State": "South Australia",
         "County": "Port Lincoln",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Port Lincoln parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/portlincoln\">parkrun.com.au/portlincoln</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Port Lincoln parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;November&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>lightning storm</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/portlincoln\">parkrun.com.au/portlincoln</a></td></tr></table>"
       }
     },
     {
@@ -11938,13 +11980,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Anstey Hill Recreation",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-11-12",
+            "ReasonCancelled": "Forecast lightning and strong winds"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/ansteyhillrecreation",
         "Country": "Australia",
         "State": "South Australia",
         "County": "Tea Tree Gully",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Anstey Hill Recreation parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/ansteyhillrecreation\">parkrun.com.au/ansteyhillrecreation</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Anstey Hill Recreation parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;November&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Forecast lightning and strong winds</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/ansteyhillrecreation\">parkrun.com.au/ansteyhillrecreation</a></td></tr></table>"
       }
     },
     {
@@ -12100,13 +12147,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Memorial Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-11-12",
+            "ReasonCancelled": "lightning - advised EA."
+          }
+        ],
         "Website": "https://www.parkrun.com.au/memorialpark",
         "Country": "Australia",
         "State": "South Australia",
         "County": "Port Pirie City and Dists",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Memorial Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/memorialpark\">parkrun.com.au/memorialpark</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Memorial Park parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;November&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>lightning - advised EA.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/memorialpark\">parkrun.com.au/memorialpark</a></td></tr></table>"
       }
     },
     {
@@ -12802,13 +12854,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Victoria Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-11-12",
+            "ReasonCancelled": "Inclement Weather Forecast"
+          }
+        ],
         "Website": "https://www.parkrun.ca/victoriatruro",
         "Country": "Canada",
         "State": "Nova Scotia",
         "County": "Colchester",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Victoria parkrun, Truro</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/victoriatruro\">parkrun.ca/victoriatruro</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Victoria parkrun, Truro</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;November&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Inclement Weather Forecast</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/victoriatruro\">parkrun.ca/victoriatruro</a></td></tr></table>"
       }
     },
     {
@@ -13158,13 +13215,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Gillies Lake",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-11-12",
+            "ReasonCancelled": "Build up of freezing rain. Course made unsafe"
+          }
+        ],
         "Website": "https://www.parkrun.ca/gillieslake",
         "Country": "Canada",
         "State": "Ontario",
         "County": "Cochrane District",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Gillies Lake parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/gillieslake\">parkrun.ca/gillieslake</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Gillies Lake parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;November&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Build up of freezing rain. Course made unsafe</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/gillieslake\">parkrun.ca/gillieslake</a></td></tr></table>"
       }
     },
     {
@@ -20251,6 +20313,33 @@
       }
     },
     {
+      "id": 3162,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.449093,
+          36.154306
+        ]
+      },
+      "properties": {
+        "eventname": "gyodashisogokoen",
+        "EventLongName": "Gyodashi sogokoen parkrun",
+        "EventShortName": "Gyodashi sogokoen",
+        "LocalisedEventLongName": "\u884c\u7530\u5e02\u7dcf\u5408\u516c\u5712parkrun",
+        "countrycode": 46,
+        "seriesid": 1,
+        "EventLocation": "",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.jp/gyodashisogokoen",
+        "Country": "Japan",
+        "State": "Saitama",
+        "County": "Gy\u014dda Shi",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Gyodashi sogokoen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/gyodashisogokoen\">parkrun.jp/gyodashisogokoen</a></td></tr></table>"
+      }
+    },
+    {
       "id": 1922,
       "type": "Feature",
       "geometry": {
@@ -20975,13 +21064,18 @@
         "countrycode": 65,
         "seriesid": 1,
         "EventLocation": "Two Mile Bay Reserve",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-11-12",
+            "ReasonCancelled": "Due to this mornings Weather (Thunder & lightning)"
+          }
+        ],
         "Website": "https://www.parkrun.co.nz/taupo",
         "Country": "New Zealand",
         "State": "Waikato",
         "County": "Taupo District",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Taup\u014d parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/taupo\">parkrun.co.nz/taupo</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Taup\u014d parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;November&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Due to this mornings Weather (Thunder & lightning)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/taupo\">parkrun.co.nz/taupo</a></td></tr></table>"
       }
     },
     {
@@ -29715,13 +29809,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Bapsfontein Hotel",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-11-12",
+            "ReasonCancelled": "Route is very slippery and muddy."
+          }
+        ],
         "Website": "https://www.parkrun.co.za/bapsfonteinhotel",
         "Country": "South Africa",
         "State": "Gauteng",
         "County": "Ekurhuleni Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bapsfontein Hotel parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/bapsfonteinhotel\">parkrun.co.za/bapsfonteinhotel</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bapsfontein Hotel parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;November&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Route is very slippery and muddy.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/bapsfonteinhotel\">parkrun.co.za/bapsfonteinhotel</a></td></tr></table>"
       }
     },
     {
@@ -35017,13 +35116,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Padiham Greenway",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-11-13",
+            "ReasonCancelled": "Core volunteer team attending Remembrance services"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/padihamgreenway-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Lancashire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Padiham Greenway junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/padihamgreenway-juniors\">parkrun.org.uk/padihamgreenway-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Padiham Greenway junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 13&nbsp;November&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Core volunteer team attending Remembrance services</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/padihamgreenway-juniors\">parkrun.org.uk/padihamgreenway-juniors</a></td></tr></table>"
       }
     },
     {
@@ -41193,13 +41297,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Great Cornard Sports Centre",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-11-13",
+            "ReasonCancelled": "LACK OF VOLUNTEERS"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/greatcornard-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Suffolk",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Great Cornard junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/greatcornard-juniors\">parkrun.org.uk/greatcornard-juniors</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Great Cornard junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 13&nbsp;November&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>LACK OF VOLUNTEERS</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/greatcornard-juniors\">parkrun.org.uk/greatcornard-juniors</a></td></tr></table>"
       }
     },
     {
@@ -43144,6 +43253,33 @@
         "State": "England",
         "County": "Hertfordshire",
         "description": "<h4 style=\"margin: 0 0 8px;\">Leavesden Country parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/leavesdencountry\">parkrun.org.uk/leavesdencountry</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 3159,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.416726,
+          52.085098
+        ]
+      },
+      "properties": {
+        "eventname": "castleplayingfields-juniors",
+        "EventLongName": "Castle Playing Fields junior parkrun",
+        "EventShortName": "Castle Playing Fields juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Castle Playing Fields",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/castleplayingfields-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Suffolk",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Castle Playing Fields junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/castleplayingfields-juniors\">parkrun.org.uk/castleplayingfields-juniors</a></td></tr></table>"
       }
     },
     {
