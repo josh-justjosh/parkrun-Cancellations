@@ -8791,6 +8791,33 @@
       }
     },
     {
+      "id": 3137,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.816194,
+          -37.548659
+        ]
+      },
+      "properties": {
+        "eventname": "princeofwales",
+        "EventLongName": "Prince of Wales parkrun",
+        "EventShortName": "Prince of Wales",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "Prince of Wales Park",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.au/princeofwales",
+        "Country": "Australia",
+        "State": "Victoria",
+        "County": "City of Ballarat",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Prince of Wales parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/princeofwales\">parkrun.com.au/princeofwales</a></td></tr></table>"
+      }
+    },
+    {
       "id": 364,
       "type": "Feature",
       "geometry": {
@@ -12824,6 +12851,38 @@
         "State": "Nova Scotia",
         "County": "Colchester",
         "description": "<h4 style=\"margin: 0 0 8px;\">Victoria parkrun, Truro</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/victoriatruro\">parkrun.ca/victoriatruro</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 3166,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.505609,
+          45.38438
+        ]
+      },
+      "properties": {
+        "eventname": "guysboroughnaturetrail",
+        "EventLongName": "Guysborough Nature Trail parkrun",
+        "EventShortName": "Guysborough Nature Trail",
+        "LocalisedEventLongName": null,
+        "countrycode": 14,
+        "seriesid": 1,
+        "EventLocation": "Guysborough Nature Trail",
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-11-19",
+            "ReasonCancelled": "bereavement in community"
+          }
+        ],
+        "Website": "https://www.parkrun.ca/guysboroughnaturetrail",
+        "Country": "Canada",
+        "State": "Nova Scotia",
+        "County": "Guysborough County",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Guysborough Nature Trail parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;November&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>bereavement in community</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/guysboroughnaturetrail\">parkrun.ca/guysboroughnaturetrail</a></td></tr></table>"
       }
     },
     {
@@ -32550,6 +32609,33 @@
         "State": "Scotland",
         "County": "Highland",
         "description": "<h4 style=\"margin: 0 0 8px;\">Millbank Boating Pond junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/millbankboatingpond-juniors\">parkrun.org.uk/millbankboatingpond-juniors</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 3160,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.447774,
+          55.907749
+        ]
+      },
+      "properties": {
+        "eventname": "erskinewaterfront",
+        "EventLongName": "Erskine Waterfront parkrun",
+        "EventShortName": "Erskine Waterfront",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Erskine Waterfront",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/erskinewaterfront",
+        "Country": "United Kingdom",
+        "State": "Scotland",
+        "County": "Renfrewshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Erskine Waterfront parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/erskinewaterfront\">parkrun.org.uk/erskinewaterfront</a></td></tr></table>"
       }
     },
     {
@@ -57905,6 +57991,33 @@
         "State": "England",
         "County": "Kent",
         "description": "<h4 style=\"margin: 0 0 8px;\">Mote Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/motepark\">parkrun.org.uk/motepark</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 3165,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.464821,
+          51.009374
+        ]
+      },
+      "properties": {
+        "eventname": "gangerfarm",
+        "EventLongName": "Ganger Farm parkrun",
+        "EventShortName": "Ganger Farm",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Ganger Farm Sports Park",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/gangerfarm",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Hampshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ganger Farm parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/gangerfarm\">parkrun.org.uk/gangerfarm</a></td></tr></table>"
       }
     },
     {
