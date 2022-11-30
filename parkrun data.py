@@ -1165,8 +1165,8 @@ cancellations_additions = []
 cancellations_removals = []
 
 for i in old_cancellations_data:
-    oldwebsite = i[4]
-    i.pop(4)
+    oldwebsite = i[3]
+    i.pop(3)
     if i not in cancellations_data:
         #i.append('Removed')
         out = i
