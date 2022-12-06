@@ -19790,13 +19790,18 @@
         "countrycode": 46,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-12-10",
+            "ReasonCancelled": "Public event at the park"
+          }
+        ],
         "Website": "https://www.parkrun.jp/momoiharappakoen",
         "Country": "Japan",
         "State": "Tokyo",
         "County": "Suginami",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Momoi harappa koen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/momoiharappakoen\">parkrun.jp/momoiharappakoen</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Momoi harappa koen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 10&nbsp;December&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Public event at the park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/momoiharappakoen\">parkrun.jp/momoiharappakoen</a></td></tr></table>"
       }
     },
     {
@@ -20779,6 +20784,33 @@
         "State": "Auckland",
         "County": "Auckland",
         "description": "<h4 style=\"margin: 0 0 8px;\">Barry Curtis parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 10&nbsp;December&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Spartan Auckland event at park;key paths unusable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/barrycurtis\">parkrun.co.nz/barrycurtis</a></td></tr></table>"
+      }
+    },
+    {
+      "id": 583,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.854161,
+          -41.134246
+        ]
+      },
+      "properties": {
+        "eventname": "porirua",
+        "EventLongName": "Porirua parkrun",
+        "EventShortName": "Porirua",
+        "LocalisedEventLongName": null,
+        "countrycode": 65,
+        "seriesid": 1,
+        "EventLocation": "Bothamley Park",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.nz/porirua",
+        "Country": "New Zealand",
+        "State": "Wellington",
+        "County": "Porirua City",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Porirua parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/porirua\">parkrun.co.nz/porirua</a></td></tr></table>"
       }
     },
     {
