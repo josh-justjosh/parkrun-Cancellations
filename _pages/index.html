@@ -1,0 +1,947 @@
+---
+layout: blank
+title: Special Events
+tag: parkrun
+date: 2022-12-17
+permalink: /specials/
+---
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+        <link href="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+        <script src="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js"></script>
+        <style>
+        #map { 
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%; 
+        }
+        .textbox {
+            width: max-content;
+            padding: 6px 12px;
+            border: none;
+            border-radius: 4px;
+            font-family: "Open Sans", "Helvetica Neue", Arial, Helvetica, sans-serif ;
+            font-size: 15px;
+            line-height: 24px;
+            text-align: center;
+            color: #222;
+            background: #fff;
+            max-width: 80%;
+            transition-duration: 1s;
+        }
+        p.textbox {
+            margin: 0;
+        }
+
+        .flex-container {
+            display:flex;
+            flex-wrap: wrap;
+            text-align: center;
+            width: max-content;
+            padding: 6px 12px;
+            border: none;
+            border-radius: 4px;
+            font-family: "Open Sans", "Helvetica Neue", Arial, Helvetica, sans-serif ;
+            font-size: 15px;
+            line-height: 24px;
+            text-align: center;
+            color: #222;
+            background: #fff;
+            max-width: 80%;
+            transition-duration: 1s;
+        }
+        .flex-key {
+            margin: 10px 5px;
+            flex-grow: 1;
+        }
+        p.key {
+            padding: 6px 12px;
+            margin: 5px 0;
+            border: none;
+            border-radius: 4px;
+            color: #fff
+        }
+
+        #lastupdated {
+            display: block;
+            position: absolute;
+            top: 10px;
+            right: 260px;
+            }
+        #dates {
+            display: block;
+            position: absolute;
+            bottom: 10px;
+            left: 100px;
+            }
+
+        #share {
+            display: block;
+            position: absolute;
+            bottom: 73px;
+            right: 10px;
+            padding: 12px 15px 12px 12px;
+            border-radius: 50px;
+            line-height: normal;
+            }
+        #more {
+            display: block;
+            position: absolute;
+            bottom: 33px;
+            right: 10px;
+        }
+        #key {
+            display: block;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        #menu {
+            display: block;
+            position: absolute;
+            top: -50px;
+            left: 10px;
+        }
+        #close {
+            display: none;
+        }
+        
+        @media (max-width: 865px) {
+            #key {
+                top: 55px;
+            }
+        }
+
+        @media (max-width: 672px) {
+            .textbox {
+                font-size: 13px;
+                line-height: 18px;
+            }
+            #lastupdated {
+                top: 55px;
+                right: 50px;
+                transition-duration: 0.25s;
+            }
+            #key {
+                top: -500px;
+            }
+            #menu {
+                top: 10px
+            }
+            #close {
+                display: grid;
+            }
+        }
+
+        @media (max-height: 693px) and (max-width: 714px) {
+            #key {
+                top: -500px;
+            }       
+        }
+
+        @media (max-height: 558px) {
+            #key {
+                top: -500px;
+            }       
+        }
+
+        @media (max-width: 714px) {
+            #dates {
+                bottom: 33px;
+                left: 33px;
+            }
+        }
+
+        @media (max-width: 522px) {
+            #dates {
+                bottom: 33px;
+                left: 10px;
+            }
+        }
+
+        @media (max-width: 636px) {
+            #lastupdated {
+                top: 69px;
+            }
+        }
+        @media (max-width: 552px) {
+            #more {
+                bottom: 90px;
+            }
+            #share {
+                bottom: 33px;
+            }
+        }
+        @media (max-width: 390px) {
+            #menu {
+                top: 125px
+            }
+        }
+        .mapboxgl-popup-content {
+            width: min-content
+        }
+        </style>
+    </head>
+    <body>
+        <script>
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+            const zoom = urlParams.get('zoom')
+            const lat = urlParams.get('lat')
+            const long = urlParams.get('long')
+            const center = [long,lat]
+            var maxn = urlParams.get('n')
+            var maxe = urlParams.get('e')
+            var maxs = urlParams.get('s')
+            var maxw = urlParams.get('w')
+            try {
+                var area = urlParams.get('country').toLowerCase()
+            }
+            catch(err) {
+                var area = null
+            }
+            try {
+                var area = urlParams.get('area').toLowerCase()
+            }
+            catch(err) {
+                var area = null
+            }
+            try {
+                var docluster = urlParams.get('cluster').toLowerCase()
+            }
+            catch(err) {
+                var docluster = true
+            }
+            try {
+                var showlayers = urlParams.get('layers').toLowerCase()
+            }
+            catch(err) {
+                var showlayers = 'true,true,true,true'
+            }
+            if (area == "united kingdom" || area == "uk" ) {
+                maxn = 60.9094
+                maxe = 1.8628
+                maxs = 49.8024
+                maxw = -8.7497
+            } else if (area == "northern ireland" || area == "ni" || area == "nir" ) {
+                maxn = 55.3692
+                maxe = -5.3331
+                maxs = 53.9730
+                maxw = -8.1775
+            } else if (area == "england" || area == "en" || area == "eng" ) {
+                maxn = 55.8504
+                maxe = 1.8628
+                maxs = 49.8024
+                maxw = -6.5027
+            }  else if (area == "wales" || area == "wls" || area == "wal" ) {
+                maxn = 53.4894
+                maxe = -2.6498
+                maxs = 51.3135
+                maxw = -5.7688
+            } else if (area == "scotland" || area == "sc" || area == "sct" ) {
+                maxn = 60.9094
+                maxe = -0.6252
+                maxs = 54.5759
+                maxw = -8.7497
+            } else if (area == "ireland" || area == "ie" || area == "irl" ) {
+                maxn = 55.4917
+                maxe = -5.8946
+                maxs = 51.3579
+                maxw = -10.7628
+            } else if (area == "australia" || area == "aus" || area == "au" ) {
+                maxn = -9.1397
+                maxe = 153.6333
+                maxs = -43.6432
+                maxw = 112.9333
+            } else if (area == "newzealand" || area == "nzl" || area == "nz" ) {
+                maxn = -34.3935
+                maxe = 178.5503
+                maxs = -47.2898
+                maxw = 166.4250
+            } else if (area == "" || area == "" || area == "" ) {
+                maxn = 0
+                maxe = 0
+                maxs = 0
+                maxw = 0
+            } else if (area == "bedfordshire") {
+                maxn = 52.3229568
+                maxe = -0.1439574
+                maxs = 51.8050872
+                maxw = -0.7021802
+            } else if (area == "derbyshire") {
+                maxn = 53.5404524
+                maxe = -1.1664888
+                maxs = 52.6965218
+                maxw = -2.0340970
+            }
+            if (docluster == "on" || docluster == "true") {
+                docluster = true
+            } else {
+                var docluster = false
+            }
+            if (showlayers.split(',')[0] == 'false' ) {
+                var incparkrunning = false
+            } else {var incparkrunning = true}
+            if (showlayers.split(',')[1] == 'false' ) {
+                var incjuniorrunning = false
+            } else {var incjuniorrunning = true}
+            if (showlayers.split(',')[2] == 'false' ) {
+                var inccancelled5k = false
+            } else {var inccancelled5k = true}
+            if (showlayers.split(',')[3] == 'false' ) {
+                var inccancelled2k = false
+            } else {var inccancelled2k = true}
+            if (showlayers.split(',')[4] == 'false' ) {
+                var incptr = false
+            } else {var incptr = true}
+
+            //console.log(zoom);
+            //console.log(lat);
+            //console.log(long);
+            //console.log(center);
+            //console.log(area);
+            //console.log(docluster);
+            //console.log(showlayers);
+            //console.log(maxn);
+            //console.log(maxe);
+            //console.log(maxs);
+            //console.log(maxw);
+        </script>
+        <!-- Load the `mapbox-gl-geocoder` plugin. -->
+        <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.min.js"></script>
+        <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.css" type="text/css">
+        
+        <!-- Promise polyfill script is required -->
+        <!-- to use Mapbox GL Geocoder in IE 11. -->
+        <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
+
+        <div id="map"></div>
+        {% for stuff in site.data.raw.time %}
+        {% assign last_modified_at = stuff.time %}
+        {% endfor %}
+
+        {% if last_modified_at contains "00:00" %}
+        <p class="textbox" id="lastupdated" datetime="{{ last_modified_at | date_to_xmlschema }}">Data Last Refreshed: {{ last_modified_at | date: "%A, %e&nbsp;%B&nbsp;%Y" }}
+        {% else %}
+        <p class="textbox" id="lastupdated" datetime="{{ last_modified_at | date_to_xmlschema }}">Data Last Refreshed: {{ last_modified_at | date: "%R" }} UTC {{ last_modified_at | date: "%A, %e&nbsp;%B&nbsp;%Y" }}
+        {% endif %}
+        <br/>Always check the event's website and social media before setting out</p>
+        <p class="textbox" id="dates">Showing data for {% for i in site.data.cancellation-dates %}{% if forloop.last and forloop.length != 1 %} and {% elsif forloop.first %}{% else %}, {% endif %}{{ i['Dates'] | date: "%A, %e&nbsp;%B&nbsp;%Y" }}{% endfor %}</p>
+        <button onclick="copy()" href="{{ site.baseurl }}" class="textbox" id="share"><span class="material-icons-outlined">share</span></button>
+        <a class="textbox" id="more" href="{{ site.baseurl }}/more">Find out more</a>
+        <script>
+            let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZoneName: 'short', hour:'2-digit', minute:'2-digit'};
+            var last_modified_at = new Date("{{ last_modified_at }}").getTime();
+            var lm_date = new Date(last_modified_at)
+            var out = lm_date.toLocaleString('default', options);
+            document.getElementById("lastupdated").innerHTML = 'Data Last Refreshed: ' + out + "<br/>Always check the event's website and social media before setting out"
+        </script>
+        <style>
+            /* The switch - the box around the slider */
+            .switch {
+                position: sticky;
+                display: inline-block;
+                width: 60px;
+                height: 34px;
+            }
+
+            /* Hide default HTML checkbox */
+            .switch input {
+                opacity: 0;
+                width: 0;
+                height: 0;
+            }
+            
+            /* Hide default HTML button */
+            .button input {
+                opacity: 0;
+                width: 0;
+                height: 0;
+                padding: 0;
+                border: 0;
+            }
+
+            /* The slider */
+            .slider {
+                position: absolute;
+                cursor: pointer;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: #ccc;
+                -webkit-transition: .4s;
+                transition: .4s;
+            }
+
+            .slider:before {
+                position: absolute;
+                content: "";
+                height: 26px;
+                width: 26px;
+                left: 4px;
+                bottom: 4px;
+                background-color: white;
+                -webkit-transition: .4s;
+                transition: .4s;
+            }
+            
+            input:checked + .slider#switch1 {
+                background-color: #7CB342;
+            }
+            input:checked + .slider#switch2 {
+                background-color: #0288D1;
+            }
+            input:checked + .slider#switch3 {
+                background-color: #A52714;
+            }
+            input:checked + .slider#switch4 {
+                background-color: #1A237E;
+            }
+            input:checked + .slider#switch5 {
+                background-color: #F9A825;
+            }
+
+            input:focus + .slider {
+                box-shadow: 0 0 1px #2196F3;
+            }
+
+            input:checked + .slider:before {
+                -webkit-transform: translateX(26px);
+                -ms-transform: translateX(26px);
+                transform: translateX(26px);
+            }
+
+            /* Rounded sliders */
+            .slider.round {
+                border-radius: 34px;
+            }
+
+            .slider.round:before {
+                border-radius: 50%;
+            }
+        </style>
+        <div class="flex-container" id="key">
+            <div id="close" style="text-align: end;">
+                <label class="button"><input type="button" onclick="hidetoggles()"><span class="material-icons-outlined">close</span></label>
+            </div>
+            <div class="flex-key">
+                <p id="key1" class="key">Thanksgiving</p>
+                <label class="switch"><input type="checkbox" id="check1" checked onclick="checktoggles()"><span class="slider round" id="switch1"></span></label>
+                <!--<p id="text" style="display:block; color: #000000">CHECKED!</p>-->
+            </div>
+            <div class="flex-key">
+                <p id="key2" class="key">Christmas Day</p>
+                <label class="switch"><input type="checkbox" id="check2" checked onclick="checktoggles()"><span class="slider round" id="switch2"></span></label>
+            </div>
+            <div class="flex-key">
+                <p id="key3" class="key">Boxing Day</p>
+                <label class="switch"><input type="checkbox" id="check3" checked onclick="checktoggles()"><span class="slider round" id="switch3"></span></label>
+            </div>
+            <div class="flex-key">
+                <p id="key4" class="key">New Year's Day</p>
+                <label class="switch"><input type="checkbox" id="check4" checked onclick="checktoggles()"><span class="slider round" id="switch4"></span></label>
+            </div>
+            <!--<div class="flex-key">
+                <p id="key5" class="key">Permission to Return Received</p>
+                <label class="switch"><input type="checkbox" id="check5" checked onclick="checktoggles()"><span class="slider round" id="switch5"></span></label>
+            </div>-->
+        </div>
+        <div class="textbox" id="menu">
+            <label class="button"><input type="button" onclick="showtoggles()"><span class="material-icons-outlined">menu</span></label>
+        </div>
+        <script>
+            function showtoggles() {
+                document.getElementById('key').style.top = "125px" ;
+                document.getElementById('menu').style.top = "-50px" ;
+            }
+            function hidetoggles() {
+                document.getElementById('key').style.top = "" ;
+                document.getElementById('menu').style.top = "" ;
+            }
+            mapboxgl.accessToken = 'pk.eyJ1Ijoiam9zaC1qdXN0am9zaCIsImEiOiJja3A2eHdmajIwNGFvMndtcmNsbnZycm44In0.SvsoxpdU7NRLYLVRFIu2kw';
+            if (maxn != null && maxe != null && maxs != null && maxw != null) {
+                //console.log("using bounds")
+                var map = new mapboxgl.Map({
+                    container: 'map',
+                    bounds: [maxw,maxs,maxe,maxn],
+                    style: 'mapbox://styles/mapbox/streets-v11'
+                });
+            } else if (zoom != null && lat != null && long != null) {
+                //console.log("using given zoom & center values")
+                var map = new mapboxgl.Map({
+                    container: 'map',
+                    zoom: zoom,
+                    center: center,
+                    style: 'mapbox://styles/mapbox/streets-v11'
+                });
+            } else if (zoom != null && lat == null && long == null) {
+                //console.log("using given zoom value")
+                var map = new mapboxgl.Map({
+                    container: 'map',
+                    zoom: zoom,
+                    center: [15.9691, 13.5502],
+                    style: 'mapbox://styles/mapbox/streets-v11'
+                });
+            } else if (zoom == null && lat != null && long != null) { 
+                //console.log("using given center values")
+                var map = new mapboxgl.Map({
+                    container: 'map',
+                    zoom: 1.9664,
+                    center: center,
+                    style: 'mapbox://styles/mapbox/streets-v11'
+                });   
+            } else {
+                //console.log("using default zoom & center values")
+                var map = new mapboxgl.Map({
+                    container: 'map',
+                    zoom: 1.9664,
+                    center: [15.9691, 13.5502],
+                    style: 'mapbox://styles/mapbox/streets-v11'
+                });
+            }
+
+            // filters for classifying parkruns into five categories based on value
+            var parkrunning = ['==', ['get', 'Thanksgiving'], 'parkrunning'];
+            var juniorrunning = ['==', ['get', 'Christmas'], 'parkrunning'];
+            var cancelled5k = ['==', ['get', 'Boxing Day'], 'parkrunning'];
+            var cancelled2k = ['==', ['get', 'NYD'], 'parkrunning'];
+            var ptr = ['==', ['get', 'Status'], 'PtR'];
+
+            // colors to use for the categories
+            var colors = ['#7CB342', '#0288D1', '#A52714', '#1A237E', '#F9A825'];
+
+            //var incparkrunning = true
+            //var incjuniorrunning = true
+            //var inccancelled5k = false
+            //var inccancelled2k = false
+            //var incptr = false
+
+            var sourcefilter = ['any',['==', ['get', 'Thanksgiving'], 'parkrunning'],['==', ['get', 'Christmas'], 'parkrunning'],['==', ['get', 'Boxing Day'], 'parkrunning'],['==', ['get', 'NYD'], 'parkrunning'],['==', ['get', 'Status'], 'PtR']]
+
+            function updatefilter(incparkrunning,incjuniorrunning,inccancelled5k,inccancelled2k) {//,incptr) {
+                var sourcefilter = ['any']
+
+                if (incparkrunning == true) {
+                    sourcefilter.push(['==', ['get', 'Thanksgiving'], 'parkrunning'])
+                    document.getElementById("check1").checked = true
+                    //console.log('incparkrunning')
+                } else {document.getElementById("check1").checked = false}
+                if (incjuniorrunning == true) {
+                    sourcefilter.push(['==', ['get', 'Christmas'], 'parkrunning'])
+                    document.getElementById("check2").checked = true
+                    //console.log('incjuniorrunning')
+                } else {document.getElementById("check2").checked = false}
+                if (inccancelled5k == true) {
+                    sourcefilter.push(['==', ['get', 'Boxing Day'], 'parkrunning'])
+                    document.getElementById("check3").checked = true
+                    //console.log('inccancelled5k')
+                } else {document.getElementById("check3").checked = false}
+                if (inccancelled2k == true) {
+                    sourcefilter.push(['==', ['get', 'NYD'], 'parkrunning'])
+                    document.getElementById("check4").checked = true
+                    //console.log('inccancelled2k')
+                } else {document.getElementById("check4").checked = false}
+                //if (incptr == true) {
+                //    sourcefilter.push(['==', ['get', 'Status'], 'PtR'])
+                //    document.getElementById("check5").checked = true
+                    //console.log('incptr')
+                //} else {document.getElementById("check5").checked = false}
+                map.removeLayer('parkrun_circle')
+                map.removeLayer('parkrun_label')
+                map.removeSource('parkruns')
+                // add a clustered GeoJSON source for a sample set of parkruns
+                map.addSource('parkruns', {
+                    'type': 'geojson',
+                    'data': {{ site.data.events | jsonify}},
+                    'filter': sourcefilter,
+                    'cluster': docluster,
+                    'clusterRadius': 50,
+                    'clusterProperties': {
+                        // keep separate counts for each magnitude category in a cluster
+                        'parkrunning': ['+', ['case', parkrunning, 1, 0]],
+                        'juniorrunning': ['+', ['case', juniorrunning, 1, 0]],
+                        'cancelled5k': ['+', ['case', cancelled5k, 1, 0]],
+                        'cancelled2k': ['+', ['case', cancelled2k, 1, 0]],
+                        'ptr': ['+', ['case', ptr, 1, 0]],
+                    }
+                });
+                // circle and symbol layers for rendering individual parkruns (unclustered points)
+                map.addLayer({
+                    'id': 'parkrun_circle',
+                    'type': 'circle',
+                    'source': 'parkruns',
+                    'filter': ['!=', 'cluster', true],
+                    'paint': {
+                        'circle-color': [
+                            'case',
+                            parkrunning,
+                            colors[0],
+                            juniorrunning,
+                            colors[1],
+                            cancelled5k,
+                            colors[2],
+                            cancelled2k,
+                            colors[3],
+                            colors[4]
+                        ],
+                        'circle-opacity': 0.6,
+                        'circle-radius': 12
+                    }
+                });
+                map.addLayer({
+                    'id': 'parkrun_label',
+                    'type': 'symbol',
+                    'source': 'parkruns',
+                    'filter': ['!=', 'cluster', true],
+                    'layout': {
+                        'text-field': ['get', 'EventShortName'],
+                        'text-font': ['Open Sans Semibold', 'Arial Unicode MS Bold'],
+                        'text-size': 12
+                    },
+                    'paint': {
+                        'text-color': '#000000'
+                    }
+                });
+            };
+            
+            map.on('load', function () {
+                // add a clustered GeoJSON source for a sample set of parkruns
+                document.getElementsByClassName('mapboxgl-ctrl-geocoder mapboxgl-ctrl')[0].style.maxWidth = '92.5%';
+                map.addSource('parkruns', {
+                    'type': 'geojson',
+                    'data': {{ site.data.events | jsonify}},
+                    'filter': sourcefilter,
+                    'cluster': docluster,
+                    'clusterRadius': 45,
+                    'clusterProperties': {
+                        // keep separate counts for each magnitude category in a cluster
+                        'parkrunning': ['+', ['case', parkrunning, 1, 0]],
+                        'juniorrunning': ['+', ['case', juniorrunning, 1, 0]],
+                        'cancelled5k': ['+', ['case', cancelled5k, 1, 0]],
+                        'cancelled2k': ['+', ['case', cancelled2k, 1, 0]],
+                        'ptr': ['+', ['case', ptr, 1, 0]],
+                    }
+                });
+                // circle and symbol layers for rendering individual parkruns (unclustered points)
+                map.addLayer({
+                    'id': 'parkrun_circle',
+                    'type': 'circle',
+                    'source': 'parkruns',
+                    'filter': ['!=', 'cluster', true],
+                    'paint': {
+                        'circle-color': [
+                            'case',
+                            parkrunning,
+                            colors[0],
+                            juniorrunning,
+                            colors[1],
+                            cancelled5k,
+                            colors[2],
+                            cancelled2k,
+                            colors[3],
+                            colors[4]
+                        ],
+                        'circle-opacity': 0.6,
+                        'circle-radius': 15
+                    }
+                });
+                map.addLayer({
+                    'id': 'parkrun_label',
+                    'type': 'symbol',
+                    'source': 'parkruns',
+                    'filter': ['!=', 'cluster', true],
+                    'layout': {
+                        'text-field': ['get', 'EventShortName'],
+                        'text-font': ['Open Sans Semibold', 'Arial Unicode MS Bold'],
+                        'text-size': 14
+                    },
+                    'paint': {
+                        'text-color': '#000000'
+                    }
+                });
+
+                // objects for caching and keeping track of HTML marker objects (for performance)
+                var markers = {};
+                var markersOnScreen = {};
+
+                function updateMarkers() {
+                    var newMarkers = {};
+                    var features = map.querySourceFeatures('parkruns');
+
+                    // for every cluster on the screen, create an HTML marker for it (if we didn't yet),
+                    // and add it to the map if it's not there already
+                    for (var i = 0; i < features.length; i++) {
+                        var coords = features[i].geometry.coordinates;
+                        var props = features[i].properties;
+                        if (!props.cluster) continue;
+                        var id = props.cluster_id;
+
+                        var marker = markers[id];
+                        if (!marker) {
+                            var el = createDonutChart(props);
+                            marker = markers[id] = new mapboxgl.Marker({
+                                element: el
+                            }).setLngLat(coords);
+                        }
+                        newMarkers[id] = marker;
+
+                        if (!markersOnScreen[id]) marker.addTo(map);
+                    }
+                    // for every marker we've added previously, remove those that are no longer visible
+                    for (id in markersOnScreen) {
+                        if (!newMarkers[id]) markersOnScreen[id].remove();
+                    }
+                    markersOnScreen = newMarkers;
+                }
+
+                // after the GeoJSON data are loaded, update markers on the screen on every frame
+                map.on('render', function () {
+                    if (!map.isSourceLoaded('parkruns')) return;
+                    updateMarkers();
+                });
+                // When a click event occurs on a feature in the places layer, open a popup at the
+                // location of the feature, with description HTML from its properties.
+                map.on('click', 'parkrun_circle', function (e) {
+                    var coordinates = e.features[0].geometry.coordinates.slice();
+                    var description = e.features[0].properties.description;
+                    
+                    // Ensure that if the map is zoomed out such that multiple
+                    // copies of the feature are visible, the popup appears
+                    // over the copy being pointed to.
+                    while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+                        coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+                }
+                
+                new mapboxgl.Popup()
+                    .setLngLat(coordinates)
+                    .setHTML(description)
+                    .addTo(map);
+                });
+                
+                // Change the cursor to a pointer when the mouse is over the places layer.
+                map.on('mouseenter', 'parkrun_circle', function () {
+                    map.getCanvas().style.cursor = 'pointer';
+                });
+                
+                // Change it back to a pointer when it leaves.
+                map.on('mouseleave', 'parkrun_circle', function () {
+                    map.getCanvas().style.cursor = '';
+                });
+                updatefilter(incparkrunning,incjuniorrunning,inccancelled5k,inccancelled2k)
+            });
+
+            // code for creating an SVG donut chart from feature properties
+            function createDonutChart(props) {
+                var offsets = [];
+                var counts = [
+                    props.parkrunning,
+                    props.juniorrunning,
+                    props.cancelled5k,
+                    props.cancelled2k,
+                    props.ptr
+                ];
+                var total = 0;
+                for (var i = 0; i < counts.length; i++) {
+                    offsets.push(total);
+                    total += counts[i];
+                }
+                var fontSize =
+                    total >= 1000 ? 22 : total >= 100 ? 20 : total >= 10 ? 18 : 16;
+                var r = total >= 1000 ? 50 : total >= 100 ? 32 : total >= 10 ? 24 : 18;
+                var r0 = Math.round(r * 0.6);
+                var w = r * 2;
+
+                var html =
+                    '<div><svg width="' +
+                    w +
+                    '" height="' +
+                    w +
+                    '" viewbox="0 0 ' +
+                    w +
+                    ' ' +
+                    w +
+                    '" text-anchor="middle" style="font: ' +
+                    fontSize +
+                    'px sans-serif; display: block">';
+
+                for (i = 0; i < counts.length; i++) {
+                    html += donutSegment(
+                        offsets[i] / total,
+                        (offsets[i] + counts[i]) / total,
+                        r,
+                        r0,
+                        colors[i]
+                    );
+                }
+                html +=
+                    '<circle cx="' +
+                    r +
+                    '" cy="' +
+                    r +
+                    '" r="' +
+                    r0 +
+                    '" fill="white" /><text dominant-baseline="central" transform="translate(' +
+                    r +
+                    ', ' +
+                    r +
+                    ')">' +
+                    total.toLocaleString() +
+                    '</text></svg></div>';
+
+                var el = document.createElement('div');
+                el.innerHTML = html;
+                return el.firstChild;
+            }
+
+            function donutSegment(start, end, r, r0, color) {
+                if (end - start === 1) end -= 0.00001;
+                var a0 = 2 * Math.PI * (start - 0.25);
+                var a1 = 2 * Math.PI * (end - 0.25);
+                var x0 = Math.cos(a0),
+                    y0 = Math.sin(a0);
+                var x1 = Math.cos(a1),
+                    y1 = Math.sin(a1);
+                var largeArc = end - start > 0.5 ? 1 : 0;
+
+                return [
+                    '<path d="M',
+                    r + r0 * x0,
+                    r + r0 * y0,
+                    'L',
+                    r + r * x0,
+                    r + r * y0,
+                    'A',
+                    r,
+                    r,
+                    0,
+                    largeArc,
+                    1,
+                    r + r * x1,
+                    r + r * y1,
+                    'L',
+                    r + r0 * x1,
+                    r + r0 * y1,
+                    'A',
+                    r0,
+                    r0,
+                    0,
+                    largeArc,
+                    0,
+                    r + r0 * x0,
+                    r + r0 * y0,
+                    '" fill="' + color + '" />'
+                ].join(' ');
+            }
+            // Add the control to the map.
+            map.addControl(
+                new MapboxGeocoder({
+                    accessToken: mapboxgl.accessToken,
+                    mapboxgl: mapboxgl
+                })
+            );
+            var ourGeoLocator = new mapboxgl.GeolocateControl({
+                positionOptions: {
+                enableHighAccuracy: false
+                },
+                fitBoundsOptions: {
+                maxZoom: 10
+                }
+            })
+
+            map.addControl(ourGeoLocator);
+
+            map.addControl(new mapboxgl.NavigationControl({showCompass: false}));
+            map.addControl(new mapboxgl.FullscreenControl());
+            // disable map rotation using right click + drag
+            map.dragRotate.disable();
+
+            // disable map rotation using touch rotation gesture
+            map.touchZoomRotate.disableRotation();
+
+            // Center the map on the coordinates of any clicked circle from the 'parkrun_circle' layer.
+            //map.on('click', 'parkrun_circle', function (e) {
+            //    map.flyTo({
+            //    center: e.features[0].geometry.coordinates
+            //    });
+            //});
+
+            map.on('render', function() {
+                //    var center =  map.getCenter();
+                //    var lat = center['lat'].toFixed(4);
+                //    var long = center['lng'].toFixed(4);
+                //    var zoom =  map.getZoom().toFixed(4);
+                //    var loclink = "https://parkruncancellations.com/?lat=" + lat + "&long=" + long + "&zoom=" + zoom
+                    var bounds = map.getBounds()
+                    var n = bounds["_ne"]["lat"].toFixed(4);
+                    var e = bounds["_ne"]["lng"].toFixed(4);
+                    var s = bounds["_sw"]["lat"].toFixed(4);
+                    var w = bounds["_sw"]["lng"].toFixed(4);
+                    var loclink = "https://parkruncancellations.com/?n=" + n + "&e=" + e + "&s=" + s +"&w=" + w
+                    if (docluster == false) {
+                        loclink += '&cluster=off'
+                    }
+                    if (incparkrunning == false || incjuniorrunning == false || inccancelled5k == false || inccancelled2k == false) {
+                        loclink += '&layers=' + incparkrunning + ','  + incjuniorrunning + ',' + inccancelled5k + ',' + inccancelled2k
+                    }
+                    document.getElementById('share').href = loclink
+                });
+            function copy() {
+                const el = document.createElement('textarea');
+                el.value = document.getElementById('share').href;
+                document.body.appendChild(el);
+                el.select();
+                el.setSelectionRange(0, 99999);
+                document.execCommand('copy');
+                alert('Link copied to clipboard!');
+                document.body.removeChild(el);
+                };
+                
+            document.getElementById('key1').style.backgroundColor = colors[0] ;
+            document.getElementById('key2').style.backgroundColor = colors[1] ;
+            document.getElementById('key3').style.backgroundColor = colors[2] ;
+            document.getElementById('key4').style.backgroundColor = colors[3] ;
+            //document.getElementById('key5').style.backgroundColor = colors[4] ;
+            
+            function checktoggles() {
+                var checkBox = document.getElementById("check1");
+                if (checkBox.checked == true){
+                    incparkrunning = true;
+                } else {
+                    incparkrunning = false;
+                }
+                var checkBox = document.getElementById("check2");
+                if (checkBox.checked == true){
+                    incjuniorrunning = true;
+                } else {
+                    incjuniorrunning = false;
+                }
+                var checkBox = document.getElementById("check3");
+                if (checkBox.checked == true){
+                    inccancelled5k = true;
+                } else {
+                    inccancelled5k = false;
+                }
+                var checkBox = document.getElementById("check4");
+                if (checkBox.checked == true){
+                    inccancelled2k = true;
+                } else {
+                    inccancelled2k = false;
+                }
+                //var checkBox = document.getElementById("check5");
+                //if (checkBox.checked == true){
+                //    incptr = true;
+                //} else {
+                //    incptr = false;
+                //}
+                updatefilter(incparkrunning,incjuniorrunning,inccancelled5k,inccancelled2k)//,incptr)
+            }
+        </script>
+    </body>
+</html>

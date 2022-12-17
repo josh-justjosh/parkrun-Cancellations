@@ -131,6 +131,239 @@ x = 0
 #upcoming_events.append('Penryn Campus parkrun')         #01/01/99   https://www.parkrun.org.uk/penryncampus/
 #upcoming_events.append('Roberts Park parkrun')          #01/01/99   https://www.parkrun.org.uk/robertspark/
 
+#se_au = requests.get('https://www.parkrun.com.au/special-events').text
+#se_ca = requests.get('https://www.parkrun.ca/special-events').text
+#se_dk = requests.get('https://www.parkrun.dk/special-events').text
+#se_fi = requests.get('https://www.parkrun.fi/special-events').text
+#se_fr = requests.get('https://www.parkrun.fr/special-events').text
+#se_de = requests.get('https://www.parkrun.com.de/special-events').text
+#se_ie = requests.get('https://www.parkrun.ie/special-events').text
+#se_it = requests.get('https://www.parkrun.it/special-events').text
+#se_jp = requests.get('https://www.parkrun.jp/special-events').text
+#se_my = requests.get('https://www.parkrun.my/special-events').text
+#se_nl = requests.get('https://www.parkrun.co.nl/special-events').text
+#se_nz = requests.get('https://www.parkrun.co.nz/special-events').text
+#se_no = requests.get('https://www.parkrun.no/special-events').text
+#se_pl = requests.get('https://www.parkrun.pl/special-events').text
+#se_sg = requests.get('https://www.parkrun.sg/special-events').text
+#se_za = requests.get('https://www.parkrun.co.za/special-events').text
+#se_se = requests.get('https://www.parkrun.se/special-events').text
+#se_uk = requests.get('https://www.parkrun.org.uk/special-events').text
+#se_us = requests.get('https://www.parkrun.us/special-events').text
+
+with open('_data/special_events/au.html','r', encoding='utf-8', newline='\n') as f:
+    soup = BeautifulSoup(f, 'html.parser')
+
+    extractor = Extractor(soup)
+    extractor.parse()
+    se_au_table = extractor.return_list()
+    se_au_table.pop(0)
+
+with open('_data/special_events/ca.html','r', encoding='utf-8', newline='\n') as f:
+    soup = BeautifulSoup(f, 'html.parser')
+
+    extractor = Extractor(soup)
+    extractor.parse()
+    se_ca_table = extractor.return_list()
+    se_ca_table.pop(0)
+
+with open('_data/special_events/dk.html','r', encoding='utf-8', newline='\n') as f:
+    soup = BeautifulSoup(f, 'html.parser')
+
+    extractor = Extractor(soup)
+    extractor.parse()
+    se_dk_table = extractor.return_list()
+    se_dk_table.pop(0)
+
+with open('_data/special_events/de.html','r', encoding='utf-8', newline='\n') as f:
+    soup = BeautifulSoup(f, 'html.parser')
+
+    extractor = Extractor(soup)
+    extractor.parse()
+    se_de_table = extractor.return_list()
+    se_de_table.pop(0)
+
+with open('_data/special_events/fi.html','r', encoding='utf-8', newline='\n') as f:
+    soup = BeautifulSoup(f, 'html.parser')
+
+    extractor = Extractor(soup)
+    extractor.parse()
+    se_fi_table = extractor.return_list()
+    se_fi_table.pop(0)
+
+with open('_data/special_events/ie.html','r', encoding='utf-8', newline='\n') as f:
+    soup = BeautifulSoup(f, 'html.parser')
+
+    extractor = Extractor(soup)
+    extractor.parse()
+    se_ie_table = extractor.return_list()
+    se_ie_table.pop(0)
+
+with open('_data/special_events/it.html','r', encoding='utf-8', newline='\n') as f:
+    soup = BeautifulSoup(f, 'html.parser')
+
+    extractor = Extractor(soup)
+    extractor.parse()
+    se_it_table = extractor.return_list()
+    se_it_table.pop(0)
+
+with open('_data/special_events/jp.html','r', encoding='utf-8', newline='\n') as f:
+    soup = BeautifulSoup(f, 'html.parser')
+
+    extractor = Extractor(soup)
+    extractor.parse()
+    se_jp_table = extractor.return_list()
+    se_jp_table.pop(0)
+
+with open('_data/special_events/my.html','r', encoding='utf-8', newline='\n') as f:
+    soup = BeautifulSoup(f, 'html.parser')
+
+    extractor = Extractor(soup)
+    extractor.parse()
+    se_my_table = extractor.return_list()
+    se_my_table.pop(0)
+
+with open('_data/special_events/nl.html','r', encoding='utf-8', newline='\n') as f:
+    soup = BeautifulSoup(f, 'html.parser')
+
+    extractor = Extractor(soup)
+    extractor.parse()
+    se_nl_table = extractor.return_list()
+    se_nl_table.pop(0)
+
+with open('_data/special_events/no.html','r', encoding='utf-8', newline='\n') as f:
+    soup = BeautifulSoup(f, 'html.parser')
+
+    extractor = Extractor(soup)
+    extractor.parse()
+    se_no_table = extractor.return_list()
+    se_no_table.pop(0)
+
+with open('_data/special_events/nz.html','r', encoding='utf-8', newline='\n') as f:
+    soup = BeautifulSoup(f, 'html.parser')
+
+    extractor = Extractor(soup)
+    extractor.parse()
+    se_nz_table = extractor.return_list()
+    se_nz_table.pop(0)
+
+with open('_data/special_events/pl.html','r', encoding='utf-8', newline='\n') as f:
+    soup = BeautifulSoup(f, 'html.parser')
+
+    extractor = Extractor(soup)
+    extractor.parse()
+    se_pl_table = extractor.return_list()
+    se_pl_table.pop(0)
+
+with open('_data/special_events/se.html','r', encoding='utf-8', newline='\n') as f:
+    soup = BeautifulSoup(f, 'html.parser')
+
+    extractor = Extractor(soup)
+    extractor.parse()
+    se_se_table = extractor.return_list()
+    se_se_table.pop(0)
+
+with open('_data/special_events/sg.html','r', encoding='utf-8', newline='\n') as f:
+    soup = BeautifulSoup(f, 'html.parser')
+
+    extractor = Extractor(soup)
+    extractor.parse()
+    se_sg_table = extractor.return_list()
+    se_sg_table.pop(0)
+
+with open('_data/special_events/uk.html','r', encoding='utf-8', newline='\n') as f:
+    soup = BeautifulSoup(f, 'html.parser')
+
+    extractor = Extractor(soup)
+    extractor.parse()
+    se_uk_table = extractor.return_list()
+    se_uk_table.pop(0)
+
+with open('_data/special_events/us.html','r', encoding='utf-8', newline='\n') as f:
+    soup = BeautifulSoup(f, 'html.parser')
+
+    extractor = Extractor(soup)
+    extractor.parse()
+    se_us_table = extractor.return_list()
+    se_us_table.pop(0)
+
+with open('_data/special_events/za.html','r', encoding='utf-8', newline='\n') as f:
+    soup = BeautifulSoup(f, 'html.parser')
+
+    extractor = Extractor(soup)
+    extractor.parse()
+    se_za_table = extractor.return_list()
+    se_za_table.pop(0)
+
+special_events = []
+
+se_table1 = se_au_table + se_ie_table + se_it_table + se_nz_table + se_uk_table
+se_table1.sort()
+for row in se_table1:
+    out = {}
+    out["EventLongName"] = row[0]
+    if row[2] == '❌':
+        out["2022-12-25"] = False
+    elif row[2] == '✅':
+        out["2022-12-25"] = True
+
+    if row[3] == '❌':
+        out["2023-01-01"] = False
+    elif row[3] == '✅':
+        out["2023-01-01"] = True 
+    
+    special_events.append(out)
+
+se_table2 = se_ca_table + se_dk_table + se_fi_table + se_de_table + se_jp_table + se_my_table + se_nl_table + se_no_table + se_sg_table + se_za_table + se_se_table
+se_table2.sort()
+for row in se_table2:
+    out = {}
+    out["EventLongName"] = row[0]
+    if row[2] == '❌':
+        out["2023-01-01"] = False
+    elif row[2] == '✅':
+        out["2023-01-01"] = True 
+    
+    special_events.append(out)
+
+se_table3 = se_pl_table
+for row in se_table3:
+    out = {}
+    out["EventLongName"] = row[0]
+    if row[2] == '❌':
+        out["2022-12-26"] = False
+    elif row[2] == '✅':
+        out["2022-12-26"] = True
+
+    if row[3] == '❌':
+        out["2023-01-01"] = False
+    elif row[3] == '✅':
+        out["2023-01-01"] = True
+        
+    special_events.append(out)
+
+se_table4 = se_us_table
+for row in se_table4:
+    out = {}
+    out["EventLongName"] = row[0]
+    if row[2] == '❌':
+        out["2022-11-24"] = False
+    elif row[2] == '✅':
+        out["2022-11-24"] = True
+
+    if row[3] == '❌':
+        out["2023-01-01"] = False
+    elif row[3] == '✅':
+        out["2023-01-01"] = True
+        
+    special_events.append(out)
+
+se_table = se_table1 + se_table2 + se_table3 + se_table4
+
+with open('_data/special_events.json','wt', encoding='utf-8', newline='') as f:
+    f.write(json.dumps(special_events, indent=2))
+    print(now(),"special_events.json saved")
+
 for parkrun in events['features']:
     if parkrun['properties']['EventLongName'] in upcoming_events:
         #print(now(),parkrun)
@@ -291,7 +524,31 @@ for parkrun in events['features']:
     #print(now(),x,"/",len(events['features']),'-',parkrun['properties']['EventShortName'],"processed")
     #if x == 1750:
      #   break
-    
+
+    parkrun['properties']['Special Days'] = {}
+    for event in special_events:
+        if parkrun['properties']['EventLongName'] == event['EventLongName']:
+            try:
+                if event["2022-11-24"] == True:
+                    parkrun['properties']["Thanksgiving"] = "parkrunning"
+            except KeyError:
+                pass
+            try:
+                if event["2022-12-25"] == True:
+                    parkrun['properties']["Christmas"] = "parkrunning"
+            except KeyError:
+                pass
+            try:
+                if event["2022-12-26"] == True:
+                    parkrun['properties']["Boxing Day"] = "parkrunning"
+            except KeyError:
+                pass
+            try:
+                if event["2023-01-01"] == True:
+                    parkrun['properties']["NYD"] = "parkrunning"
+            except KeyError:
+                pass
+                
 with open('_data/events.json','w', encoding='utf-8') as f:
     f.write(json.dumps(events, indent=2))
 print(now(),'events.json saved')
@@ -1502,6 +1759,26 @@ for state in usstateslist:
     try:
         writehistory('usa/'+state['code']+'.json',usa_states[state['name']])
     except KeyError:
-        print(now(),"No parkruns in", state['name'])        
+        print(now(),"No parkruns in", state['name'])
+        
+#se_au = requests.get('https://www.parkrun.com.au/special-events').text
+#se_ca = requests.get('https://www.parkrun.ca/special-events').text
+#se_dk = requests.get('https://www.parkrun.dk/special-events').text
+#se_fi = requests.get('https://www.parkrun.fi/special-events').text
+#se_fr = requests.get('https://www.parkrun.fr/special-events').text
+#se_de = requests.get('https://www.parkrun.com.de/special-events').text
+#se_ie = requests.get('https://www.parkrun.ie/special-events').text
+#se_it = requests.get('https://www.parkrun.it/special-events').text
+#se_jp = requests.get('https://www.parkrun.jp/special-events').text
+#se_my = requests.get('https://www.parkrun.my/special-events').text
+#se_nl = requests.get('https://www.parkrun.co.nl/special-events').text
+#se_nz = requests.get('https://www.parkrun.co.nz/special-events').text
+#se_no = requests.get('https://www.parkrun.no/special-events').text
+#se_pl = requests.get('https://www.parkrun.pl/special-events').text
+#se_sg = requests.get('https://www.parkrun.sg/special-events').text
+#se_za = requests.get('https://www.parkrun.co.za/special-events').text
+#se_se = requests.get('https://www.parkrun.se/special-events').text
+#se_uk = requests.get('https://www.parkrun.org.uk/special-events').text
+#se_us = requests.get('https://www.parkrun.us/special-events').text
 
 print(now(),'Script End')
