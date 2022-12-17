@@ -9713,13 +9713,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Civic Centre Gardens",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-12-17",
+            "ReasonCancelled": "No Run Director available."
+          }
+        ],
         "Website": "https://www.parkrun.com.au/porthedland",
         "Country": "Australia",
         "State": "Western Australia",
         "County": "Port Hedland",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Port Hedland parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/porthedland\">parkrun.com.au/porthedland</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Port Hedland parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 17&nbsp;December&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>No Run Director available.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/porthedland\">parkrun.com.au/porthedland</a></td></tr></table>"
       }
     },
     {
@@ -12848,13 +12853,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Chain of Lakes Trail",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-12-17",
+            "ReasonCancelled": "Local wind and rainfall warnings."
+          }
+        ],
         "Website": "https://www.parkrun.ca/chainoflakes",
         "Country": "Canada",
         "State": "Nova Scotia",
         "County": "Halifax Regional Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Chain of Lakes parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/chainoflakes\">parkrun.ca/chainoflakes</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Chain of Lakes parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 17&nbsp;December&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Local wind and rainfall warnings.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/chainoflakes\">parkrun.ca/chainoflakes</a></td></tr></table>"
       }
     },
     {
@@ -13020,13 +13030,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "The Beaver Pond Trail",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-12-17",
+            "ReasonCancelled": "Snow storm - safety reasons for course and road"
+          }
+        ],
         "Website": "https://www.parkrun.ca/kanata",
         "Country": "Canada",
         "State": "Ontario",
         "County": "Ottawa",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Kanata parkrun, Ottawa</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/kanata\">parkrun.ca/kanata</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Kanata parkrun, Ottawa</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 17&nbsp;December&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Snow storm - safety reasons for course and road</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/kanata\">parkrun.ca/kanata</a></td></tr></table>"
       }
     },
     {
@@ -13381,13 +13396,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "New York Central Fitness Trail",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-12-17",
+            "ReasonCancelled": "Snowstorm overnight - trail not safe"
+          }
+        ],
         "Website": "https://www.parkrun.ca/newyorkcentralfitnesstrail",
         "Country": "Canada",
         "State": "Ontario",
         "County": "United Counties of Prescott and Russell",
-        "description": "<h4 style=\"margin: 0 0 8px;\">New York Central Fitness Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/newyorkcentralfitnesstrail\">parkrun.ca/newyorkcentralfitnesstrail</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">New York Central Fitness Trail parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 17&nbsp;December&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Snowstorm overnight - trail not safe</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/newyorkcentralfitnesstrail\">parkrun.ca/newyorkcentralfitnesstrail</a></td></tr></table>"
       }
     },
     {
@@ -27096,6 +27116,33 @@
       }
     },
     {
+      "id": 1623,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.133236,
+          -28.083038
+        ]
+      },
+      "properties": {
+        "eventname": "ventersburg",
+        "EventLongName": "Ventersburg parkrun",
+        "EventShortName": "Ventersburg",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Ventersburg",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.za/ventersburg",
+        "Country": "South Africa",
+        "State": "Orange Free State",
+        "County": "Lejweleputswa District Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ventersburg parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ventersburg\">parkrun.co.za/ventersburg</a></td></tr></table>"
+      }
+    },
+    {
       "id": 1653,
       "type": "Feature",
       "geometry": {
@@ -27545,13 +27592,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Matlosana Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-12-17",
+            "ReasonCancelled": "Due to rain during the night still raining"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/matlosanabird",
         "Country": "South Africa",
         "State": "North-West",
         "County": "Dr Kenneth Kaunda District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Matlosana Bird parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/matlosanabird\">parkrun.co.za/matlosanabird</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Matlosana Bird parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 17&nbsp;December&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Due to rain during the night still raining</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/matlosanabird\">parkrun.co.za/matlosanabird</a></td></tr></table>"
       }
     },
     {
@@ -50697,13 +50749,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Falls Park, Belfast",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-12-17",
+            "ReasonCancelled": "Icy conditions"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/falls",
         "Country": "United Kingdom",
         "State": "Northern Ireland",
         "County": "Belfast",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Falls parkrun, Belfast</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/falls\">parkrun.org.uk/falls</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Falls parkrun, Belfast</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 17&nbsp;December&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Icy conditions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/falls\">parkrun.org.uk/falls</a></td></tr></table>"
       }
     },
     {
@@ -51196,13 +51253,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Blackburn Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-12-17",
+            "ReasonCancelled": "icy conditions"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/limavady",
         "Country": "United Kingdom",
         "State": "Northern Ireland",
         "County": "Derry",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Limavady parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/limavady\">parkrun.org.uk/limavady</a></td></tr></table>"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Limavady parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 17&nbsp;December&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>icy conditions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/limavady\">parkrun.org.uk/limavady</a></td></tr></table>"
       }
     },
     {
