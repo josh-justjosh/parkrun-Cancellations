@@ -208,7 +208,7 @@ for parkrun in events['features']:
         parkrun['properties']['Website'] = 'https://www.parkrun.co.za/'+parkrun['properties']['eventname']
         if parkrun['properties']['EventLongName'] in ['Windhoek parkrun','Omeya parkrun','Swakopmund parkrun','Walvis Bay parkrun']:
             parkrun['properties']['Country'] = 'Namibia'
-        elif parkrun['properties']['EventLongName'] in ['Mbabane parkrun']:
+        elif parkrun['properties']['EventLongName'] in ['Mbabane parkrun','Manzini parkrun']:
             parkrun['properties']['Country'] = 'Eswatini'
         else:
             parkrun['properties']['Country'] = 'South Africa'
@@ -231,8 +231,14 @@ for parkrun in events['features']:
         if event[0] == parkrun['properties']['EventLongName']:
             #print(now(),parkrun['properties']['EventShortName'],'already saved state')
             new_states_list.append(event)
-            parkrun['properties']['State'] = event[2]
-            parkrun['properties']['County'] = event[3]
+            try:
+                parkrun['properties']['State'] = event[2]
+            except IndexError:
+                parkrun['properties']['State'] = "-Unknown-"
+            try:
+                parkrun['properties']['County'] = event[3]
+            except IndexError:
+                parkrun['properties']['County'] = "-Unknown-"
             new = False
 
     if new == True:
