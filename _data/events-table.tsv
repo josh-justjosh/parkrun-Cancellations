@@ -20,7 +20,7 @@ Albury Wodonga parkrun	-36.0873	146.88886	Australia	New South Wales	Albury Munic
 Aldenham parkrun	51.647953	-0.316507	United Kingdom	England	Hertfordshire	5k Cancellation	[{'DateCancelled': '2022-12-17', 'ReasonCancelled': 'Course is unsafe due to icy conditions'}]	https://www.parkrun.org.uk/aldenham
 Alderford Lake parkrun	52.953181	-2.675436	United Kingdom	England	Shropshire	5k Cancellation	[{'DateCancelled': '2022-12-17', 'ReasonCancelled': 'Icy conditions on the course, land owner request'}]	https://www.parkrun.org.uk/alderfordlake
 Alderley Park parkrun	53.2793	-2.231854	United Kingdom	England	Cheshire East	5k Cancellation	[{'DateCancelled': '2022-12-17', 'ReasonCancelled': 'couse is unsafe due to ice on the paths'}]	https://www.parkrun.org.uk/alderleypark
-Alderman Kneeshaw junior parkrun	53.769454	-0.262291	United Kingdom	England	Kingston upon Hull	junior parkrunning	[]	https://www.parkrun.org.uk/aldermankneeshaw-juniors
+Alderman Kneeshaw junior parkrun	53.769454	-0.262291	United Kingdom	England	Kingston upon Hull	junior Cancellation	[{'DateCancelled': '2022-12-18', 'ReasonCancelled': 'Dangerous conditions'}]	https://www.parkrun.org.uk/aldermankneeshaw-juniors
 Aldinga Beach parkrun	-35.287768	138.444983	Australia	South Australia	Onkaparinga	parkrunning	[]	https://www.parkrun.com.au/aldingabeach
 Alexandra junior parkrun, Moss Side	53.450725	-2.248631	United Kingdom	England	Manchester	junior parkrunning	[]	https://www.parkrun.org.uk/alexandramossside-juniors
 Alexandra parkrun, Moss Side	53.450142	-2.248827	United Kingdom	England	Manchester	5k Cancellation	[{'DateCancelled': '2022-12-17', 'ReasonCancelled': 'Heavy ice buildup on the paths'}]	https://www.parkrun.org.uk/alexandra
@@ -333,7 +333,7 @@ Carlisle Park parkrun, Morpeth	55.165172	-1.691159	United Kingdom	England	Northu
 Carlisle junior parkrun	54.899555	-2.936575	United Kingdom	England	Cumbria	junior Cancellation	[{'DateCancelled': '2022-12-18', 'ReasonCancelled': 'Snow and ice forecast.'}]	https://www.parkrun.org.uk/carlisle-juniors
 Carlisle parkrun	54.886025	-2.963455	United Kingdom	England	Cumbria	5k Cancellation	[{'DateCancelled': '2022-12-17', 'ReasonCancelled': 'Ice on park'}]	https://www.parkrun.org.uk/carlisle
 Carlow Town parkrun	52.838536	-6.93414	Ireland	Leinster	Carlow	5k Cancellation	[{'DateCancelled': '2022-12-17', 'ReasonCancelled': 'Risk of icy conditions'}]	https://www.parkrun.ie/carlowtown
-Carmarthen junior parkrun	51.854169	-4.315982	United Kingdom	Wales	Carmarthenshire	junior parkrunning	[]	https://www.parkrun.org.uk/carmarthen-juniors
+Carmarthen junior parkrun	51.854169	-4.315982	United Kingdom	Wales	Carmarthenshire	junior Cancellation	[{'DateCancelled': '2022-12-18', 'ReasonCancelled': 'Park unsafe due to ice'}]	https://www.parkrun.org.uk/carmarthen-juniors
 Carnival City parkrun	-26.257116	28.312658	South Africa	Gauteng	Ekurhuleni Metropolitan Municipality	parkrunning	[]	https://www.parkrun.co.za/carnivalcity
 Carrickfergus parkrun	54.719992	-5.805285	United Kingdom	Northern Ireland	Antrim	parkrunning	[]	https://www.parkrun.org.uk/carrickfergus
 Cascades on Clyde Wetlands parkrun	-38.100383	145.325835	Australia	Victoria	Casey	parkrunning	[]	https://www.parkrun.com.au/cascadesonclydewetlands
@@ -427,7 +427,7 @@ Clonakilty parkrun	51.617636	-8.89884	Ireland	Munster	Cork	parkrunning	[]	https:
 Clonbur Woods parkrun	53.547406	-9.361828	Ireland	Connacht	Galway	5k Cancellation	[{'DateCancelled': '2022-12-17', 'ReasonCancelled': 'Roads lethal, we want to keep our parkrunners safe'}]	https://www.parkrun.ie/clonburwoods
 Cloncurry parkrun	-20.70873	140.519814	Australia	Queensland	Cloncurry	parkrunning	[]	https://www.parkrun.com.au/cloncurry
 Clonmel parkrun	52.352179	-7.694956	Ireland	Munster	Tipperary	5k Cancellation	[{'DateCancelled': '2022-12-17', 'ReasonCancelled': 'Black ice'}]	https://www.parkrun.ie/clonmel
-Clough Hall junior parkrun	53.083194	-2.249699	United Kingdom	England	Staffordshire	junior parkrunning	[]	https://www.parkrun.org.uk/cloughhall-juniors
+Clough Hall junior parkrun	53.083194	-2.249699	United Kingdom	England	Staffordshire	junior Cancellation	[{'DateCancelled': '2022-12-18', 'ReasonCancelled': 'Weather - ice'}]	https://www.parkrun.org.uk/cloughhall-juniors
 Clover Point parkrun	48.40457	-123.350007	Canada	British Columbia	Capital Regional District	parkrunning	[]	https://www.parkrun.ca/cloverpoint
 Clumber Park parkrun	53.268022	-1.065717	United Kingdom	England	Nottinghamshire	parkrunning	[]	https://www.parkrun.org.uk/clumberpark
 Cobar parkrun	-31.509832	145.831405	Australia	New South Wales	Cobar	parkrunning	[]	https://www.parkrun.com.au/cobar
@@ -838,7 +838,7 @@ Harris Avenue parkrun	-27.171876	152.94537	Australia	Queensland	Moreton Bay	park
 Harrismith parkrun	-28.279106	29.151059	South Africa	Orange Free State	Thabo Mofutsanyana District Municipality	parkrunning	[]	https://www.parkrun.co.za/harrismith
 Harrogate junior parkrun	53.991699	-1.550192	United Kingdom	England	North Yorkshire	junior parkrunning	[]	https://www.parkrun.org.uk/harrogate-juniors
 Harrogate parkrun	53.992428	-1.521435	United Kingdom	England	North Yorkshire	parkrunning	[]	https://www.parkrun.org.uk/harrogate
-Harrow Lodge junior parkrun	51.555718	0.202013	United Kingdom	England	Greater London	junior parkrunning	[]	https://www.parkrun.org.uk/harrowlodge-juniors
+Harrow Lodge junior parkrun	51.555718	0.202013	United Kingdom	England	Greater London	junior Cancellation	[{'DateCancelled': '2022-12-18', 'ReasonCancelled': 'Paths too icy to run event safely.'}]	https://www.parkrun.org.uk/harrowlodge-juniors
 Harrow Lodge parkrun	51.555606	0.200715	United Kingdom	England	Greater London	5k Cancellation	[{'DateCancelled': '2022-12-17', 'ReasonCancelled': 'Ice on route unsafe for running'}]	https://www.parkrun.org.uk/harrowlodge
 Harrow parkrun	51.581781	-0.342734	United Kingdom	England	Greater London	5k Cancellation	[{'DateCancelled': '2022-12-17', 'ReasonCancelled': 'Significant ice patches on the course'}]	https://www.parkrun.org.uk/harrow
 Hart & Bosch Village parkrun	-34.112649	22.106174	South Africa	Western Cape	Eden District Municipality	parkrunning	[]	https://www.parkrun.co.za/hartenboschvillage
@@ -1148,7 +1148,7 @@ Longton junior parkrun	52.976222	-2.138212	United Kingdom	England	Stoke-on-Trent
 Lordship Recreation Ground parkrun	51.594341	-0.086951	United Kingdom	England	Greater London	5k Cancellation	[{'DateCancelled': '2022-12-17', 'ReasonCancelled': 'Snow and ice on the paths making it too risky'}]	https://www.parkrun.org.uk/lordshiprecreationground
 Lota parkrun	-27.468558	153.193225	Australia	Queensland	Brisbane	parkrunning	[]	https://www.parkrun.com.au/lota
 Lough Key parkrun	53.984896	-8.235512	Ireland	Connacht	Roscommon	5k Cancellation	[{'DateCancelled': '2022-12-17', 'ReasonCancelled': 'Roads, paths + car park surface frozen + slippery'}]	https://www.parkrun.ie/loughkey
-Lough Moss junior parkrun	54.514716	-5.900203	United Kingdom	Northern Ireland	Down	junior parkrunning	[]	https://www.parkrun.org.uk/loughmoss-juniors
+Lough Moss junior parkrun	54.514716	-5.900203	United Kingdom	Northern Ireland	Down	junior Cancellation	[{'DateCancelled': '2022-12-18', 'ReasonCancelled': 'Weather, icy'}]	https://www.parkrun.org.uk/loughmoss-juniors
 Louis Hamon Park parkrun	-36.094049	145.442706	Australia	Victoria	Moira	parkrunning	[]	https://www.parkrun.com.au/louishamonpark
 Louis Trichardt parkrun	-23.042459	29.916763	South Africa	Limpopo	Vhembe District Municipality	parkrunning	[]	https://www.parkrun.co.za/louistrichardt
 Lower Hutt parkrun	-41.210738	174.899498	New Zealand	Wellington	Lower Hutt City	parkrunning	[]	https://www.parkrun.co.nz/lowerhutt
@@ -1425,7 +1425,7 @@ Omagh parkrun	54.602837	-7.296222	United Kingdom	Northern Ireland	Tyrone	5k Canc
 Ome kyuryo parkrun	35.792819	139.261258	Japan	Tokyo	Ōme-shi	parkrunning	[]	https://www.parkrun.jp/omekyuryo
 Orange parkrun	-33.325825	149.089749	Australia	New South Wales	Orange Municipality	parkrunning	[]	https://www.parkrun.com.au/orange
 Orangefield parkrun	54.588509	-5.884361	United Kingdom	Northern Ireland	Belfast	parkrunning	[]	https://www.parkrun.org.uk/orangefield
-Oranmore junior parkrun	53.248913	-8.96191	Ireland	Connacht	Galway	junior parkrunning	[]	https://www.parkrun.ie/oranmore-juniors
+Oranmore junior parkrun	53.248913	-8.96191	Ireland	Connacht	Galway	junior Cancellation	[{'DateCancelled': '2022-12-18', 'ReasonCancelled': 'Ice on the course'}]	https://www.parkrun.ie/oranmore-juniors
 Oranmore parkrun	53.246377	-8.959767	Ireland	Connacht	Galway	5k Cancellation	[{'DateCancelled': '2022-12-17', 'ReasonCancelled': 'Too dangerous to go ahead because of ice'}]	https://www.parkrun.ie/oranmore
 Oriam parkrun	55.909754	-3.31715	United Kingdom	Scotland	Edinburgh	5k Cancellation	[{'DateCancelled': '2022-12-17', 'ReasonCancelled': 'Too much black ice that won’t clear by 9:30am.'}]	https://www.parkrun.org.uk/oriam
 Orleans parkrun	45.482673	-75.542182	Canada	Ontario	Ottawa	parkrunning	[]	https://www.parkrun.ca/orleans
@@ -1610,7 +1610,7 @@ Rickmansworth parkrun	51.633087	-0.47589	United Kingdom	England	Hertfordshire	5k
 Riddlesdown parkrun	51.318485	-0.079549	United Kingdom	England	Greater London	parkrunning	[]	https://www.parkrun.org.uk/riddlesdown
 Riemer parkrun	48.12678	11.692037	Germany	Bavaria	Upper Bavaria	5k Cancellation	[{'DateCancelled': '2022-12-17', 'ReasonCancelled': 'Slippery/Icy course, safety cannot be guaranteed'}]	https://www.parkrun.com.de/riemer
 Rietvlei parkrun, JHB South	-26.31107	28.079971	South Africa	Gauteng	City of Johannesburg Metropolitan Municipality	parkrunning	[]	https://www.parkrun.co.za/rietvlei
-Ringsend junior parkrun	53.340373	-6.221004	Ireland	Leinster	Dublin	junior parkrunning	[]	https://www.parkrun.ie/ringsend-juniors
+Ringsend junior parkrun	53.340373	-6.221004	Ireland	Leinster	Dublin	junior Cancellation	[{'DateCancelled': '2022-12-18', 'ReasonCancelled': 'course not safe due to ice'}]	https://www.parkrun.ie/ringsend-juniors
 Risdon Brook parkrun	-42.804471	147.332352	Australia	Tasmania	Clarence	parkrunning	[]	https://www.parkrun.com.au/risdonbrook
 Rising Sun parkrun	55.01998	-1.532028	United Kingdom	England	North Tyneside	5k Cancellation	[{'DateCancelled': '2022-12-17', 'ReasonCancelled': 'Snow and black ice'}]	https://www.parkrun.org.uk/risingsun
 River Oaks parkrun	43.470367	-79.722099	Canada	Ontario	Halton	parkrunning	[]	https://www.parkrun.ca/riveroaks
