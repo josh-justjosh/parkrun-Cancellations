@@ -18300,13 +18300,18 @@
         "countrycode": 42,
         "seriesid": 1,
         "EventLocation": "Russborough House & Parklands",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-12-31",
+            "ReasonCancelled": "Venue closed for Christmas Holidays"
+          }
+        ],
         "Website": "https://www.parkrun.ie/russborough",
         "Country": "Ireland",
         "State": "Leinster",
         "County": "Wicklow",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Russborough parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/russborough\">parkrun.ie/russborough</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Russborough parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 31&nbsp;December&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Venue closed for Christmas Holidays</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/russborough\">parkrun.ie/russborough</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -28582,34 +28587,6 @@
         "State": "Mpumalanga",
         "County": "Gert Sibande District Municipality",
         "description": "<h4 style=\"margin: 0 0 8px;\">Piet Retief parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/pietretief\">parkrun.co.za/pietretief</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 2696,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          30.167911,
-          -27.331118
-        ]
-      },
-      "properties": {
-        "eventname": "weaverscountryestate",
-        "EventLongName": "Weavers Country Estate parkrun",
-        "EventShortName": "Weavers Country Estate",
-        "LocalisedEventLongName": null,
-        "countrycode": 85,
-        "seriesid": 1,
-        "EventLocation": "Weavers Country Estate",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.co.za/weaverscountryestate",
-        "Country": "South Africa",
-        "State": "Mpumalanga",
-        "County": "Gert Sibande District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Weavers Country Estate parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/weaverscountryestate\">parkrun.co.za/weaverscountryestate</a></td></tr></table>",
         "Special Days": {}
       }
     },
