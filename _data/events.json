@@ -9982,13 +9982,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Marine Parade",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-01-01",
+            "ReasonCancelled": "Not enough volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/cottesloe",
         "Country": "Australia",
         "State": "Western Australia",
         "County": "Cottesloe",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cottesloe parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/cottesloe\">parkrun.com.au/cottesloe</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cottesloe parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  1&nbsp;January&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Not enough volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/cottesloe\">parkrun.com.au/cottesloe</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -21109,13 +21114,18 @@
         "countrycode": 46,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-12-31",
+            "ReasonCancelled": "\u30dc\u30e9\u30f3\u30c6\u30a3\u30a2\u90fd\u5408\u3067\u4e2d\u6b62\u3057\u307e\u3059\u3002"
+          }
+        ],
         "Website": "https://www.parkrun.jp/nagaragawakoen",
         "Country": "Japan",
         "State": "Gifu",
         "County": "Gifu-shi",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Nagaragawa koen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/nagaragawakoen\">parkrun.jp/nagaragawakoen</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Nagaragawa koen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 31&nbsp;December&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>\u30dc\u30e9\u30f3\u30c6\u30a3\u30a2\u90fd\u5408\u3067\u4e2d\u6b62\u3057\u307e\u3059\u3002</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/nagaragawakoen\">parkrun.jp/nagaragawakoen</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -53072,18 +53082,13 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Parkway",
-        "Status": "junior Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-01-01",
-            "ReasonCancelled": "New Year's Day *"
-          }
-        ],
+        "Status": "junior parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/comber-juniors",
         "Country": "United Kingdom",
         "State": "Northern Ireland",
         "County": "Down",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Comber junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  1&nbsp;January&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>New Year's Day *</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/comber-juniors\">parkrun.org.uk/comber-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Comber junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/comber-juniors\">parkrun.org.uk/comber-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -56229,13 +56234,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Victoria Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-01-01",
+            "ReasonCancelled": "No Run Directors"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/windmillhill-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Bristol",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Windmill Hill junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/windmillhill-juniors\">parkrun.org.uk/windmillhill-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Windmill Hill junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  1&nbsp;January&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>No Run Directors</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/windmillhill-juniors\">parkrun.org.uk/windmillhill-juniors</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -56762,13 +56772,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Somerdale Pavilion",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-12-31",
+            "ReasonCancelled": "Parts of course severely flooded"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/somerdalepavilion",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Bath and North East Somerset",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Somerdale Pavilion parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/somerdalepavilion\">parkrun.org.uk/somerdalepavilion</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Somerdale Pavilion parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 31&nbsp;December&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>Parts of course severely flooded</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/somerdalepavilion\">parkrun.org.uk/somerdalepavilion</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -56906,18 +56921,13 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Par Track",
-        "Status": "junior Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-01-01",
-            "ReasonCancelled": "New Year's Day *"
-          }
-        ],
+        "Status": "junior parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/partrack-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Cornwall",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Par Track junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  1&nbsp;January&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>New Year's Day *</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/partrack-juniors\">parkrun.org.uk/partrack-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Par Track junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/partrack-juniors\">parkrun.org.uk/partrack-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
