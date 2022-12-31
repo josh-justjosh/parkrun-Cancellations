@@ -14856,13 +14856,18 @@
         "countrycode": 30,
         "seriesid": 1,
         "EventLocation": "V\u00e4\u00e4ksyn kanava",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-12-31",
+            "ReasonCancelled": "icy condition"
+          }
+        ],
         "Website": "https://www.parkrun.fi/vaaksynkanava",
         "Country": "Finland",
         "State": "Paijat-Hame",
         "County": "Lahti",
-        "description": "<h4 style=\"margin: 0 0 8px;\">V\u00e4\u00e4ksyn kanava parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fi/vaaksynkanava\">parkrun.fi/vaaksynkanava</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">V\u00e4\u00e4ksyn kanava parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 31&nbsp;December&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>icy condition</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fi/vaaksynkanava\">parkrun.fi/vaaksynkanava</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -14950,13 +14955,18 @@
         "countrycode": 30,
         "seriesid": 1,
         "EventLocation": "Lahden satama",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2022-12-31",
+            "ReasonCancelled": "The route is too icy - Reitti j\u00e4inen"
+          }
+        ],
         "Website": "https://www.parkrun.fi/lahdensatama",
         "Country": "Finland",
         "State": "Paijat-Hame",
         "County": "Lahti",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Lahden satama parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fi/lahdensatama\">parkrun.fi/lahdensatama</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Lahden satama parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 31&nbsp;December&nbsp;2022</td></tr><tr><th>Cancellation Note:</th><td>The route is too icy - Reitti j\u00e4inen</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fi/lahdensatama\">parkrun.fi/lahdensatama</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
