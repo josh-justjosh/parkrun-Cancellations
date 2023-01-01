@@ -60497,13 +60497,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Bridge Street Skate Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-01-01",
+            "ReasonCancelled": "Course flooded, river about to burst banks"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/buckingham",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Buckinghamshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Buckingham parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/buckingham\">parkrun.org.uk/buckingham</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Buckingham parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  1&nbsp;January&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course flooded, river about to burst banks</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/buckingham\">parkrun.org.uk/buckingham</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
