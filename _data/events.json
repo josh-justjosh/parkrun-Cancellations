@@ -15819,13 +15819,18 @@
         "countrycode": 32,
         "seriesid": 1,
         "EventLocation": "Uraca Parkplatz",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-01-07",
+            "ReasonCancelled": "Kann wegen Waldarbeiten nicht genutzt werden."
+          }
+        ],
         "Website": "https://www.parkrun.com.de/gruenerweg",
         "Country": "Germany",
         "State": "Baden-W\u00fcrttemberg",
         "County": "T\u00fcbingen Region",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Gr\u00fcner Weg parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/gruenerweg\">parkrun.com.de/gruenerweg</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Gr\u00fcner Weg parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  7&nbsp;January&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Kann wegen Waldarbeiten nicht genutzt werden.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/gruenerweg\">parkrun.com.de/gruenerweg</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -29363,13 +29368,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Greenpoint Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-01-07",
+            "ReasonCancelled": "New course awaiting approval."
+          }
+        ],
         "Website": "https://www.parkrun.co.za/greenpoint",
         "Country": "South Africa",
         "State": "Western Cape",
         "County": "City of Cape Town",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Greenpoint parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/greenpoint\">parkrun.co.za/greenpoint</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Greenpoint parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  7&nbsp;January&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>New course awaiting approval.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/greenpoint\">parkrun.co.za/greenpoint</a></td></tr></table>",
         "Special Days": {}
       }
     },
