@@ -11741,13 +11741,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Sturt Reserve",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-01-07",
+            "ReasonCancelled": "Course closed due to flooding"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/murraybridge",
         "Country": "Australia",
         "State": "South Australia",
         "County": "Murray Bridge",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Murray Bridge parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/murraybridge\">parkrun.com.au/murraybridge</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Murray Bridge parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  7&nbsp;January&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course closed due to flooding</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/murraybridge\">parkrun.com.au/murraybridge</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -58512,13 +58517,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Oaklands Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-01-07",
+            "ReasonCancelled": "waterlogged and extremely muddy course"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/chichester",
         "Country": "United Kingdom",
         "State": "England",
         "County": "West Sussex",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Chichester parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/chichester\">parkrun.org.uk/chichester</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Chichester parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  7&nbsp;January&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>waterlogged and extremely muddy course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/chichester\">parkrun.org.uk/chichester</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
