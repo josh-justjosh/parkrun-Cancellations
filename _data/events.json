@@ -30124,13 +30124,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Manzini Golf Course",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-01-07",
+            "ReasonCancelled": "Core volunteers are all not available this weekend"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/manzini",
         "Country": "Eswatini",
         "State": "Manzini",
         "County": "Inkhundla",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Manzini parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/manzini\">parkrun.co.za/manzini</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Manzini parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  7&nbsp;January&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Core volunteers are all not available this weekend</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/manzini\">parkrun.co.za/manzini</a></td></tr></table>",
         "Special Days": {}
       }
     },
