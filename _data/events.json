@@ -8830,13 +8830,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Dandenong Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-01-07",
+            "ReasonCancelled": "No automated external defibrillator available."
+          }
+        ],
         "Website": "https://www.parkrun.com.au/dandenong",
         "Country": "Australia",
         "State": "Victoria",
         "County": "Greater Dandenong",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Dandenong parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/dandenong\">parkrun.com.au/dandenong</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Dandenong parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  7&nbsp;January&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>No automated external defibrillator available.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/dandenong\">parkrun.com.au/dandenong</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -14233,13 +14238,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "New York Central Fitness Trail",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-01-07",
+            "ReasonCancelled": "Trail ice covered."
+          }
+        ],
         "Website": "https://www.parkrun.ca/newyorkcentralfitnesstrail",
         "Country": "Canada",
         "State": "Ontario",
         "County": "United Counties of Prescott and Russell",
-        "description": "<h4 style=\"margin: 0 0 8px;\">New York Central Fitness Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/newyorkcentralfitnesstrail\">parkrun.ca/newyorkcentralfitnesstrail</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">New York Central Fitness Trail parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  7&nbsp;January&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Trail ice covered.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/newyorkcentralfitnesstrail\">parkrun.ca/newyorkcentralfitnesstrail</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -21363,13 +21373,18 @@
         "countrycode": 46,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-01-07",
+            "ReasonCancelled": "\u516c\u5712\u5de5\u4e8b\u306e\u305f\u3081\u30b3\u30fc\u30b9\u5229\u7528\u4e0d\u53ef"
+          }
+        ],
         "Website": "https://www.parkrun.jp/tennogawakoen",
         "Country": "Japan",
         "State": "Aichi",
         "County": "Tsushima-shi",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Tennogawa koen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/tennogawakoen\">parkrun.jp/tennogawakoen</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Tennogawa koen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  7&nbsp;January&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>\u516c\u5712\u5de5\u4e8b\u306e\u305f\u3081\u30b3\u30fc\u30b9\u5229\u7528\u4e0d\u53ef</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/tennogawakoen\">parkrun.jp/tennogawakoen</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -34559,6 +34574,34 @@
       }
     },
     {
+      "id": 3182,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.477658,
+          55.963327
+        ]
+      },
+      "properties": {
+        "eventname": "auldcathiedistrict",
+        "EventLongName": "Auldcathie District parkrun",
+        "EventShortName": "Auldcathie District",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Auldcathie District Park",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/auldcathiedistrict",
+        "Country": "United Kingdom",
+        "State": "Scotland",
+        "County": "West Lothian",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Auldcathie District parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/auldcathiedistrict\">parkrun.org.uk/auldcathiedistrict</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 6,
       "type": "Feature",
       "geometry": {
@@ -38996,6 +39039,34 @@
       }
     },
     {
+      "id": 3180,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.424229,
+          55.003069
+        ]
+      },
+      "properties": {
+        "eventname": "northmarine-juniors",
+        "EventLongName": "North Marine junior parkrun",
+        "EventShortName": "North Marine juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "North Marine Park",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/northmarine-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "South Tyneside",
+        "description": "<h4 style=\"margin: 0 0 8px;\">North Marine junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/northmarine-juniors\">parkrun.org.uk/northmarine-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 1,
       "type": "Feature",
       "geometry": {
@@ -41839,6 +41910,34 @@
         "State": "England",
         "County": "Greater London",
         "description": "<h4 style=\"margin: 0 0 8px;\">Lordship Recreation Ground parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/lordshiprecreationground\">parkrun.org.uk/lordshiprecreationground</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3184,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.458739,
+          51.51492
+        ]
+      },
+      "properties": {
+        "eventname": "stockleycountry",
+        "EventLongName": "Stockley Country parkrun",
+        "EventShortName": "Stockley Country",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Stockley Country Park",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/stockleycountry",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Greater London",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Stockley Country parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/stockleycountry\">parkrun.org.uk/stockleycountry</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -51707,6 +51806,34 @@
       }
     },
     {
+      "id": 3191,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.465487,
+          52.518482
+        ]
+      },
+      "properties": {
+        "eventname": "riversleypark-juniors",
+        "EventLongName": "Riversley Park junior parkrun",
+        "EventShortName": "Riversley Park juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Riversley Park",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/riversleypark-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Warwickshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Riversley Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/riversleypark-juniors\">parkrun.org.uk/riversleypark-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 63,
       "type": "Feature",
       "geometry": {
@@ -55999,13 +56126,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Bolberry Down",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-01-07",
+            "ReasonCancelled": "Strong coastal winds and rain."
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/bolberrydown",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Devon",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bolberry Down parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/bolberrydown\">parkrun.org.uk/bolberrydown</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bolberry Down parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  7&nbsp;January&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Strong coastal winds and rain.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/bolberrydown\">parkrun.org.uk/bolberrydown</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -65984,6 +66116,34 @@
         "description": "<h4 style=\"margin: 0 0 8px;\">Exploration Place parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/explorationplace\">parkrun.us/explorationplace</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
+      }
+    },
+    {
+      "id": 3178,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.525322,
+          47.580654
+        ]
+      },
+      "properties": {
+        "eventname": "fortward",
+        "EventLongName": "Fort Ward parkrun",
+        "EventShortName": "Fort Ward",
+        "LocalisedEventLongName": null,
+        "countrycode": 98,
+        "seriesid": 1,
+        "EventLocation": "Fort Ward Trail",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.us/fortward",
+        "Country": "USA",
+        "State": "Washington",
+        "County": "Kitsap",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Fort Ward parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/fortward\">parkrun.us/fortward</a></td></tr></table>",
+        "Special Days": {}
       }
     }
   ]
