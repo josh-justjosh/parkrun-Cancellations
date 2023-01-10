@@ -9203,13 +9203,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Werribee Park Mansion",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-01-14",
+            "ReasonCancelled": "Damage to course"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/werribeeparkmansion",
         "Country": "Australia",
         "State": "Victoria",
         "County": "Wyndham",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Werribee Park Mansion parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/werribeeparkmansion\">parkrun.com.au/werribeeparkmansion</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Werribee Park Mansion parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 14&nbsp;January&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Damage to course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/werribeeparkmansion\">parkrun.com.au/werribeeparkmansion</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -55146,13 +55151,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Henstridge Airfield",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-01-14",
+            "ReasonCancelled": "Remedial work to ease flooding is underway."
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/henstridgeairfield",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Somerset",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Henstridge Airfield parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/henstridgeairfield\">parkrun.org.uk/henstridgeairfield</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Henstridge Airfield parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 14&nbsp;January&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Remedial work to ease flooding is underway.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/henstridgeairfield\">parkrun.org.uk/henstridgeairfield</a></td></tr></table>",
         "Special Days": {}
       }
     },
