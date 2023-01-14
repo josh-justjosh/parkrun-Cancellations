@@ -36117,13 +36117,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Platt Fields Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-01-15",
+            "ReasonCancelled": "Deep puddles & obstacles on course. unsafe to run"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/southmanchester-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Manchester",
-        "description": "<h4 style=\"margin: 0 0 8px;\">South Manchester junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/southmanchester-juniors\">parkrun.org.uk/southmanchester-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">South Manchester junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 15&nbsp;January&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Deep puddles & obstacles on course. unsafe to run</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/southmanchester-juniors\">parkrun.org.uk/southmanchester-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
