@@ -28313,39 +28313,6 @@
       }
     },
     {
-      "id": 971,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          29.510178,
-          -25.732228
-        ]
-      },
-      "properties": {
-        "eventname": "middelburg",
-        "EventLongName": "Middelburg parkrun",
-        "EventShortName": "Middelburg",
-        "LocalisedEventLongName": null,
-        "countrycode": 85,
-        "seriesid": 1,
-        "EventLocation": "Middelburg",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-01-21",
-            "ReasonCancelled": "Venue not available."
-          }
-        ],
-        "Website": "https://www.parkrun.co.za/middelburg",
-        "Country": "South Africa",
-        "State": "Mpumalanga",
-        "County": "Nkangala District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Middelburg parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 21&nbsp;January&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Venue not available.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/middelburg\">parkrun.co.za/middelburg</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
       "id": 994,
       "type": "Feature",
       "geometry": {
@@ -42114,13 +42081,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Paddington Recreation Ground",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-01-22",
+            "ReasonCancelled": "Icy pathways and sub zero temperatures forecast"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/paddingtonrec-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Greater London",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Paddington Rec junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/paddingtonrec-juniors\">parkrun.org.uk/paddingtonrec-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Paddington Rec junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 22&nbsp;January&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Icy pathways and sub zero temperatures forecast</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/paddingtonrec-juniors\">parkrun.org.uk/paddingtonrec-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -45158,13 +45130,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "The Walks",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-01-22",
+            "ReasonCancelled": "weather forecast - ice and fog"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/kingslynn-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Norfolk",
-        "description": "<h4 style=\"margin: 0 0 8px;\">King\u2019s Lynn junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/kingslynn-juniors\">parkrun.org.uk/kingslynn-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">King\u2019s Lynn junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 22&nbsp;January&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>weather forecast - ice and fog</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/kingslynn-juniors\">parkrun.org.uk/kingslynn-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -55350,13 +55327,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Page Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-01-22",
+            "ReasonCancelled": "Frost and ice, slippery turns in the course"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/pagepark-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "South Gloucestershire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Page Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/pagepark-juniors\">parkrun.org.uk/pagepark-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Page Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 22&nbsp;January&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Frost and ice, slippery turns in the course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/pagepark-juniors\">parkrun.org.uk/pagepark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -56935,13 +56917,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Churchill Gardens Leisure Centre",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-01-22",
+            "ReasonCancelled": "Risk of ice on paths and close to flood water"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/churchillgardens-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Wiltshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Churchill Gardens junior parkrun, Salisbury</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/churchillgardens-juniors\">parkrun.org.uk/churchillgardens-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Churchill Gardens junior parkrun, Salisbury</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 22&nbsp;January&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Risk of ice on paths and close to flood water</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/churchillgardens-juniors\">parkrun.org.uk/churchillgardens-juniors</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -60033,13 +60020,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Horsham Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-01-22",
+            "ReasonCancelled": "Ice on the paths making it unsafe to run"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/horsham-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "West Sussex",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Horsham junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/horsham-juniors\">parkrun.org.uk/horsham-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Horsham junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 22&nbsp;January&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Ice on the paths making it unsafe to run</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/horsham-juniors\">parkrun.org.uk/horsham-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -64692,13 +64684,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "The Valley Gardens",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-01-22",
+            "ReasonCancelled": "Ice on the course"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/harrogate-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "North Yorkshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Harrogate junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/harrogate-juniors\">parkrun.org.uk/harrogate-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Harrogate junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 22&nbsp;January&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Ice on the course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/harrogate-juniors\">parkrun.org.uk/harrogate-juniors</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
