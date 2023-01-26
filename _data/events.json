@@ -13663,13 +13663,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Churchill Parkway Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-01-28",
+            "ReasonCancelled": "Extreme Cold"
+          }
+        ],
         "Website": "https://www.parkrun.ca/churchillparkway",
         "Country": "Canada",
         "State": "Manitoba",
         "County": "",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Churchill Parkway parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/churchillparkway\">parkrun.ca/churchillparkway</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Churchill Parkway parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 28&nbsp;January&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Extreme Cold</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/churchillparkway\">parkrun.ca/churchillparkway</a></td></tr></table>",
         "Special Days": {}
       }
     },
