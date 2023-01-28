@@ -63052,13 +63052,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Hambleton Leisure Centre",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-01-28",
+            "ReasonCancelled": "Ice on new tarmac path on top field"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/northallerton",
         "Country": "United Kingdom",
         "State": "England",
         "County": "North Yorkshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Northallerton parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/northallerton\">parkrun.org.uk/northallerton</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Northallerton parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 28&nbsp;January&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Ice on new tarmac path on top field</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/northallerton\">parkrun.org.uk/northallerton</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning"
       }
