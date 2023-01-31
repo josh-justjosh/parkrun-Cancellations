@@ -65750,13 +65750,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Merrymeeting Dog Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-02-04",
+            "ReasonCancelled": "Exp temp with windchill is -39.. a smidge cold"
+          }
+        ],
         "Website": "https://www.parkrun.us/merrymeeting",
         "Country": "USA",
         "State": "Maine",
         "County": "Cumberland",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Merrymeeting parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/merrymeeting\">parkrun.us/merrymeeting</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Merrymeeting parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;February&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Exp temp with windchill is -39.. a smidge cold</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/merrymeeting\">parkrun.us/merrymeeting</a></td></tr></table>",
         "Special Days": {}
       }
     },
