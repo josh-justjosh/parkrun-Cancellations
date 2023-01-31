@@ -4367,13 +4367,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Mt Penang Parklands",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-02-04",
+            "ReasonCancelled": "Park infrastructure upgrades disrupting course"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/mtpenang",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Central Coast",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Mt Penang parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/mtpenang\">parkrun.com.au/mtpenang</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Mt Penang parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;February&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Park infrastructure upgrades disrupting course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/mtpenang\">parkrun.com.au/mtpenang</a></td></tr></table>",
         "Special Days": {}
       }
     },
