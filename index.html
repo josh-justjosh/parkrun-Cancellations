@@ -9,9 +9,9 @@ date: 2021-06-22
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
-        <link href="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css" rel="stylesheet">
+        <link href="https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
-        <script src="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js"></script>
+        <script src="https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.js"></script>
         <style>
         #map { 
             position: absolute;
@@ -469,40 +469,45 @@ date: 2021-06-22
                 //console.log("using bounds")
                 var map = new mapboxgl.Map({
                     container: 'map',
+                    projection: 'globe',
                     bounds: [maxw,maxs,maxe,maxn],
-                    style: 'mapbox://styles/mapbox/streets-v11'
+                    style: 'mapbox://styles/josh-justjosh/cldqk4nuu006301p4brg0gju5'
                 });
             } else if (zoom != null && lat != null && long != null) {
                 //console.log("using given zoom & center values")
                 var map = new mapboxgl.Map({
                     container: 'map',
+                    projection: 'globe',
                     zoom: zoom,
                     center: center,
-                    style: 'mapbox://styles/mapbox/streets-v11'
+                    style: 'mapbox://styles/josh-justjosh/cldqk4nuu006301p4brg0gju5'
                 });
             } else if (zoom != null && lat == null && long == null) {
                 //console.log("using given zoom value")
                 var map = new mapboxgl.Map({
                     container: 'map',
+                    projection: 'globe',
                     zoom: zoom,
                     center: [15.9691, 13.5502],
-                    style: 'mapbox://styles/mapbox/streets-v11'
+                    style: 'mapbox://styles/josh-justjosh/cldqk4nuu006301p4brg0gju5'
                 });
             } else if (zoom == null && lat != null && long != null) { 
                 //console.log("using given center values")
                 var map = new mapboxgl.Map({
                     container: 'map',
+                    projection: 'globe',
                     zoom: 1.9664,
                     center: center,
-                    style: 'mapbox://styles/mapbox/streets-v11'
+                    style: 'mapbox://styles/josh-justjosh/cldqk4nuu006301p4brg0gju5'
                 });   
             } else {
                 //console.log("using default zoom & center values")
                 var map = new mapboxgl.Map({
                     container: 'map',
+                    projection: 'globe',
                     zoom: 1.9664,
                     center: [15.9691, 13.5502],
-                    style: 'mapbox://styles/mapbox/streets-v11'
+                    style: 'mapbox://styles/josh-justjosh/cldqk4nuu006301p4brg0gju5'
                 });
             }
 
@@ -856,13 +861,13 @@ date: 2021-06-22
 
             map.addControl(ourGeoLocator);
 
-            map.addControl(new mapboxgl.NavigationControl({showCompass: false}));
+            map.addControl(new mapboxgl.NavigationControl({visualizePitch: true}));
             map.addControl(new mapboxgl.FullscreenControl());
             // disable map rotation using right click + drag
-            map.dragRotate.disable();
+            //map.dragRotate.disable();
 
             // disable map rotation using touch rotation gesture
-            map.touchZoomRotate.disableRotation();
+            //map.touchZoomRotate.disableRotation();
 
             // Center the map on the coordinates of any clicked circle from the 'parkrun_circle' layer.
             //map.on('click', 'parkrun_circle', function (e) {

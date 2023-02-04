@@ -13,8 +13,8 @@ permalink: /more
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
-        <link href="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css" rel="stylesheet">
-        <script src="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js"></script>
+        <link href="https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.css" rel="stylesheet">
+        <script src="https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.js"></script>
         <style>
         #map { 
             width: 100%; height: 400pt
@@ -133,30 +133,34 @@ permalink: /more
             if (zoom != null && lat != null && long != null) {
                 var map = new mapboxgl.Map({
                     container: 'map',
+                    projection: 'mercator',
                     zoom: zoom,
                     center: center,
-                    style: 'mapbox://styles/mapbox/streets-v11'
+                    style: 'mapbox://styles/josh-justjosh/cldqk4nuu006301p4brg0gju5'
                 });
             } else if (zoom != null && lat == null && long == null) {
                 var map = new mapboxgl.Map({
                     container: 'map',
+                    projection: 'mercator',
                     zoom: zoom,
                     center: [10, 20],
-                    style: 'mapbox://styles/mapbox/streets-v11'
+                    style: 'mapbox://styles/josh-justjosh/cldqk4nuu006301p4brg0gju5'
                 });
             } else if (zoom == null && lat != null && long != null) { 
                 var map = new mapboxgl.Map({
                     container: 'map',
+                    projection: 'mercator',
                     zoom: 0.9,
                     center: center,
-                    style: 'mapbox://styles/mapbox/streets-v11'
+                    style: 'mapbox://styles/josh-justjosh/cldqk4nuu006301p4brg0gju5'
                 });   
             } else {
                 var map = new mapboxgl.Map({
                     container: 'map',
+                    projection: 'mercator',
                     zoom: 0.9,
                     center: [10, 20],
-                    style: 'mapbox://styles/mapbox/streets-v11'
+                    style: 'mapbox://styles/josh-justjosh/cldqk4nuu006301p4brg0gju5'
                 });
             }
             // filters for classifying parkruns into five categories based on value
