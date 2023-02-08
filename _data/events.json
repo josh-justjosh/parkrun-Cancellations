@@ -25830,13 +25830,18 @@
         "countrycode": 74,
         "seriesid": 1,
         "EventLocation": "Las \u0141agiewnicki",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-02-11",
+            "ReasonCancelled": "Brak zgody zarz\u0105dcy terenu na organizacj\u0119 parkrun"
+          }
+        ],
         "Website": "https://www.parkrun.pl/laslagiewnicki",
         "Country": "Poland",
         "State": "\u0141\u00f3d\u017a Voivodeship",
         "County": "Lodz",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Las \u0141agiewnicki</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/laslagiewnicki\">parkrun.pl/laslagiewnicki</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Las \u0141agiewnicki</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 11&nbsp;February&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Brak zgody zarz\u0105dcy terenu na organizacj\u0119 parkrun</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/laslagiewnicki\">parkrun.pl/laslagiewnicki</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -58483,13 +58488,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Horsham Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-02-12",
+            "ReasonCancelled": "No Run Director avaliable"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/horsham-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "West Sussex",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Horsham junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/horsham-juniors\">parkrun.org.uk/horsham-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Horsham junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 12&nbsp;February&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>No Run Director avaliable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/horsham-juniors\">parkrun.org.uk/horsham-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
