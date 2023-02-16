@@ -28389,13 +28389,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "River Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-02-18",
+            "ReasonCancelled": "Park has flooded, route is not safe"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/standerton",
         "Country": "South Africa",
         "State": "Mpumalanga",
         "County": "Gert Sibande District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Standerton parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/standerton\">parkrun.co.za/standerton</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Standerton parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 18&nbsp;February&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Park has flooded, route is not safe</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/standerton\">parkrun.co.za/standerton</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -30610,13 +30615,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Midvaal Sports and Conference Centre",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-02-18",
+            "ReasonCancelled": "Kliprivier flooded"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/meyerton",
         "Country": "South Africa",
         "State": "Gauteng",
         "County": "Sedibeng District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Meyerton parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/meyerton\">parkrun.co.za/meyerton</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Meyerton parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 18&nbsp;February&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Kliprivier flooded</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/meyerton\">parkrun.co.za/meyerton</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
