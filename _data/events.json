@@ -2294,13 +2294,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Mary K Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-02-18",
+            "ReasonCancelled": "Wet weather"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/cloncurry",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Cloncurry",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cloncurry parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/cloncurry\">parkrun.com.au/cloncurry</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cloncurry parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 18&nbsp;February&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Wet weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/cloncurry\">parkrun.com.au/cloncurry</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -28242,13 +28247,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "c/o R38 and R40 (across the street from ",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-02-18",
+            "ReasonCancelled": "170mm rain this week, course too muddy + slippery"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/barberton",
         "Country": "South Africa",
         "State": "Mpumalanga",
         "County": "Ehlanzeni District",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Barberton parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/barberton\">parkrun.co.za/barberton</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Barberton parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 18&nbsp;February&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>170mm rain this week, course too muddy + slippery</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/barberton\">parkrun.co.za/barberton</a></td></tr></table>",
         "Special Days": {}
       }
     },
