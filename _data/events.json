@@ -29648,13 +29648,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Somerset East Golf Club",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-02-18",
+            "ReasonCancelled": "paths unusable due to rain"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/somerseteast",
         "Country": "South Africa",
         "State": "Eastern Cape",
         "County": "Sarah Baartman District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Somerset East parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/somerseteast\">parkrun.co.za/somerseteast</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Somerset East parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 18&nbsp;February&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>paths unusable due to rain</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/somerseteast\">parkrun.co.za/somerseteast</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -59972,13 +59977,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Victoria park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-02-19",
+            "ReasonCancelled": "No available Run Director"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/ashford-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Kent",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ashford junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/ashford-juniors\">parkrun.org.uk/ashford-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ashford junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 19&nbsp;February&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>No available Run Director</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/ashford-juniors\">parkrun.org.uk/ashford-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
