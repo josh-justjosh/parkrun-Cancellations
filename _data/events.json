@@ -66356,13 +66356,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Riverside Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-02-18",
+            "ReasonCancelled": "Volunteers  were out of town."
+          }
+        ],
         "Website": "https://www.parkrun.us/riversidepark",
         "Country": "USA",
         "State": "Idaho",
         "County": "Madison",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Riverside Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/riversidepark\">parkrun.us/riversidepark</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Riverside Park parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 18&nbsp;February&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Volunteers  were out of town.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/riversidepark\">parkrun.us/riversidepark</a></td></tr></table>",
         "Special Days": {}
       }
     },
