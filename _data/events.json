@@ -59864,13 +59864,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Manor Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-02-19",
+            "ReasonCancelled": "The course is blocked by a fallen tree"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/manorpark-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Kent",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Manor Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/manorpark-juniors\">parkrun.org.uk/manorpark-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Manor Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 19&nbsp;February&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>The course is blocked by a fallen tree</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/manorpark-juniors\">parkrun.org.uk/manorpark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
