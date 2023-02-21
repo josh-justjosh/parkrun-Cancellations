@@ -21680,34 +21680,6 @@
       }
     },
     {
-      "id": 1922,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          101.733362,
-          3.122979
-        ]
-      },
-      "properties": {
-        "eventname": "tamanpuduulu",
-        "EventLongName": "Taman Pudu Ulu parkrun",
-        "EventShortName": "Taman Pudu Ulu",
-        "LocalisedEventLongName": null,
-        "countrycode": 57,
-        "seriesid": 1,
-        "EventLocation": "Taman Pudu Ulu",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.my/tamanpuduulu",
-        "Country": "Malaysia",
-        "State": "Kuala Lumpur",
-        "County": "WP. Kuala Lumpur",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Taman Pudu Ulu parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.my/tamanpuduulu\">parkrun.my/tamanpuduulu</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
       "id": 2170,
       "type": "Feature",
       "geometry": {
@@ -21732,39 +21704,6 @@
         "State": "Putrajaya",
         "County": "W.P. Putrajaya",
         "description": "<h4 style=\"margin: 0 0 8px;\">Presint 18 parkrun, Putrajaya</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.my/presint18\">parkrun.my/presint18</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 2725,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          101.718006,
-          3.205579
-        ]
-      },
-      "properties": {
-        "eventname": "tamantasikdanaukota",
-        "EventLongName": "Taman Tasik Danau Kota parkrun",
-        "EventShortName": "Taman Tasik Danau Kota",
-        "LocalisedEventLongName": null,
-        "countrycode": 57,
-        "seriesid": 1,
-        "EventLocation": "Taman Tasik Danau Kota",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-02-25",
-            "ReasonCancelled": "This event is closed until further notice"
-          }
-        ],
-        "Website": "https://www.parkrun.my/tamantasikdanaukota",
-        "Country": "Malaysia",
-        "State": "Kuala Lumpur",
-        "County": "WP. Kuala Lumpur",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Taman Tasik Danau Kota parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 25&nbsp;February&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>This event is closed until further notice</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.my/tamantasikdanaukota\">parkrun.my/tamantasikdanaukota</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -26554,13 +26493,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Eldorado Park Stadium",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-02-25",
+            "ReasonCancelled": "JHB Central Athletics, using up most of the route."
+          }
+        ],
         "Website": "https://www.parkrun.co.za/eldoradopark",
         "Country": "South Africa",
         "State": "Gauteng",
         "County": "City of Johannesburg Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Eldorado Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/eldoradopark\">parkrun.co.za/eldoradopark</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Eldorado Park parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 25&nbsp;February&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>JHB Central Athletics, using up most of the route.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/eldoradopark\">parkrun.co.za/eldoradopark</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -63201,13 +63145,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "The Knavesmire",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-02-26",
+            "ReasonCancelled": "Lack of run directors"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/knavesmire-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "York",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Knavesmire junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/knavesmire-juniors\">parkrun.org.uk/knavesmire-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Knavesmire junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 26&nbsp;February&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Lack of run directors</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/knavesmire-juniors\">parkrun.org.uk/knavesmire-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
