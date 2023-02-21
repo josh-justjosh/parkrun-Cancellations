@@ -28156,13 +28156,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Sabi River Sun",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-02-25",
+            "ReasonCancelled": "Course unsafe after heavy rain."
+          }
+        ],
         "Website": "https://www.parkrun.co.za/hazyview",
         "Country": "South Africa",
         "State": "Mpumalanga",
         "County": "Ehlanzeni District",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hazyview parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/hazyview\">parkrun.co.za/hazyview</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hazyview parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 25&nbsp;February&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe after heavy rain.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/hazyview\">parkrun.co.za/hazyview</a></td></tr></table>",
         "Special Days": {}
       }
     },
