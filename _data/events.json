@@ -28161,13 +28161,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Jock Trail, Graskop Horse Stables",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-02-25",
+            "ReasonCancelled": "due to rain and resulting route safety concerns"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/jocktrail",
         "Country": "South Africa",
         "State": "Mpumalanga",
         "County": "Ehlanzeni District",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Jock Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/jocktrail\">parkrun.co.za/jocktrail</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Jock Trail parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 25&nbsp;February&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>due to rain and resulting route safety concerns</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/jocktrail\">parkrun.co.za/jocktrail</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -29520,13 +29525,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Greenpoint Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-02-25",
+            "ReasonCancelled": "New route pending approval. Also Formula E"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/greenpoint",
         "Country": "South Africa",
         "State": "Western Cape",
         "County": "City of Cape Town",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Greenpoint parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/greenpoint\">parkrun.co.za/greenpoint</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Greenpoint parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 25&nbsp;February&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>New route pending approval. Also Formula E</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/greenpoint\">parkrun.co.za/greenpoint</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -63145,18 +63155,13 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "The Knavesmire",
-        "Status": "junior Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-02-26",
-            "ReasonCancelled": "Lack of run directors"
-          }
-        ],
+        "Status": "junior parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/knavesmire-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "York",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Knavesmire junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 26&nbsp;February&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Lack of run directors</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/knavesmire-juniors\">parkrun.org.uk/knavesmire-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Knavesmire junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/knavesmire-juniors\">parkrun.org.uk/knavesmire-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
