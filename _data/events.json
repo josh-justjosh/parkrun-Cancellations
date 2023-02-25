@@ -13940,14 +13940,14 @@
         "Cancellations": [
           {
             "DateCancelled": "2023-02-25",
-            "ReasonCancelled": ""
+            "ReasonCancelled": "Weather"
           }
         ],
         "Website": "https://www.parkrun.ca/whitby",
         "Country": "Canada",
         "State": "Ontario",
         "County": "Durham",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Whitby parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 25&nbsp;February&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td></td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/whitby\">parkrun.ca/whitby</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Whitby parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 25&nbsp;February&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/whitby\">parkrun.ca/whitby</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -36595,13 +36595,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Lytham Hall",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-02-25",
+            "ReasonCancelled": "Emergency medical incident during event"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/lythamhall",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Lancashire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Lytham Hall parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/lythamhall\">parkrun.org.uk/lythamhall</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Lytham Hall parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 25&nbsp;February&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Emergency medical incident during event</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/lythamhall\">parkrun.org.uk/lythamhall</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -46184,6 +46189,34 @@
       }
     },
     {
+      "id": 3234,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.499085,
+          52.342965
+        ]
+      },
+      "properties": {
+        "eventname": "mildenhallhub-juniors",
+        "EventLongName": "Mildenhall Hub junior parkrun",
+        "EventShortName": "Mildenhall Hub juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Mildenhall Hub",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/mildenhallhub-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Suffolk",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Mildenhall Hub junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/mildenhallhub-juniors\">parkrun.org.uk/mildenhallhub-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 9,
       "type": "Feature",
       "geometry": {
@@ -50317,6 +50350,34 @@
         "State": "England",
         "County": "Lincolnshire",
         "description": "<h4 style=\"margin: 0 0 8px;\">Yarborough Leisure Centre parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/yarboroughleisurecentre\">parkrun.org.uk/yarboroughleisurecentre</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3204,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.233675,
+          52.730411
+        ]
+      },
+      "properties": {
+        "eventname": "beaconhillcountrypark",
+        "EventLongName": "Beacon Hill Country Park parkrun",
+        "EventShortName": "Beacon Hill Country Park",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Beacon Hill Country Park",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/beaconhillcountrypark",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Leicestershire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Beacon Hill Country Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/beaconhillcountrypark\">parkrun.org.uk/beaconhillcountrypark</a></td></tr></table>",
         "Special Days": {}
       }
     },
