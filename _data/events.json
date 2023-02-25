@@ -3323,13 +3323,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Glenoma Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-02-25",
+            "ReasonCancelled": "Flooding over path"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/glenoma",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Cairns",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Glenoma parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/glenoma\">parkrun.com.au/glenoma</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Glenoma parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 25&nbsp;February&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Flooding over path</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/glenoma\">parkrun.com.au/glenoma</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -65585,13 +65590,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Rock Creek Trail",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-02-25",
+            "ReasonCancelled": "Snow and ice on trail. Significant risk to runners"
+          }
+        ],
         "Website": "https://www.parkrun.us/rockcreektrail",
         "Country": "USA",
         "State": "Oregon",
         "County": "Washington",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Rock Creek Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/rockcreektrail\">parkrun.us/rockcreektrail</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Rock Creek Trail parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 25&nbsp;February&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Snow and ice on trail. Significant risk to runners</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/rockcreektrail\">parkrun.us/rockcreektrail</a></td></tr></table>",
         "Special Days": {}
       }
     },
