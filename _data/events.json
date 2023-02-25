@@ -13700,13 +13700,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Shawnigan Hills Athletic Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-02-25",
+            "ReasonCancelled": "Ice on the course - unsafe conditions."
+          }
+        ],
         "Website": "https://www.parkrun.ca/shawniganhills",
         "Country": "Canada",
         "State": "British Columbia",
         "County": "Cowichan Valley Regional District",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Shawnigan Hills parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/shawniganhills\">parkrun.ca/shawniganhills</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Shawnigan Hills parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 25&nbsp;February&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Ice on the course - unsafe conditions.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/shawniganhills\">parkrun.ca/shawniganhills</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -14225,13 +14230,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Duffins Trail",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-02-25",
+            "ReasonCancelled": "Trail isn't runnable condition, and snow forecast"
+          }
+        ],
         "Website": "https://www.parkrun.ca/duffinstrail",
         "Country": "Canada",
         "State": "Ontario",
         "County": "Durham",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Duffins Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/duffinstrail\">parkrun.ca/duffinstrail</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Duffins Trail parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 25&nbsp;February&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Trail isn't runnable condition, and snow forecast</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/duffinstrail\">parkrun.ca/duffinstrail</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -30870,13 +30880,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Handicap Road",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-02-25",
+            "ReasonCancelled": "Another event at the venue"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/ruimsig",
         "Country": "South Africa",
         "State": "Gauteng",
         "County": "City of Johannesburg Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ruimsig parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ruimsig\">parkrun.co.za/ruimsig</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ruimsig parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 25&nbsp;February&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Another event at the venue</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ruimsig\">parkrun.co.za/ruimsig</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -46164,34 +46179,6 @@
       }
     },
     {
-      "id": 3234,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.499085,
-          52.342965
-        ]
-      },
-      "properties": {
-        "eventname": "mildenhallhub-juniors",
-        "EventLongName": "Mildenhall Hub junior parkrun",
-        "EventShortName": "Mildenhall Hub juniors",
-        "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 2,
-        "EventLocation": "Mildenhall Hub",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/mildenhallhub-juniors",
-        "Country": "United Kingdom",
-        "State": "England",
-        "County": "Suffolk",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Mildenhall Hub junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/mildenhallhub-juniors\">parkrun.org.uk/mildenhallhub-juniors</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
       "id": 9,
       "type": "Feature",
       "geometry": {
@@ -50325,34 +50312,6 @@
         "State": "England",
         "County": "Lincolnshire",
         "description": "<h4 style=\"margin: 0 0 8px;\">Yarborough Leisure Centre parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/yarboroughleisurecentre\">parkrun.org.uk/yarboroughleisurecentre</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 3204,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.233675,
-          52.730411
-        ]
-      },
-      "properties": {
-        "eventname": "beaconhillcountrypark",
-        "EventLongName": "Beacon Hill Country Park parkrun",
-        "EventShortName": "Beacon Hill Country Park",
-        "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 1,
-        "EventLocation": "Beacon Hill Country Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/beaconhillcountrypark",
-        "Country": "United Kingdom",
-        "State": "England",
-        "County": "Leicestershire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Beacon Hill Country Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/beaconhillcountrypark\">parkrun.org.uk/beaconhillcountrypark</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -65820,13 +65779,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Danehy Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-02-25",
+            "ReasonCancelled": "Ice on course"
+          }
+        ],
         "Website": "https://www.parkrun.us/danehypark",
         "Country": "USA",
         "State": "Massachusetts",
         "County": "Middlesex",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Danehy Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/danehypark\">parkrun.us/danehypark</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Danehy Park parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 25&nbsp;February&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Ice on course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/danehypark\">parkrun.us/danehypark</a></td></tr></table>",
         "Special Days": {},
         "Thanksgiving": "parkrunning",
         "NYD": "parkrunning"
