@@ -33704,13 +33704,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Meadowmill Sports Centre",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-02-25",
+            "ReasonCancelled": "Sports centre power outage. No access to defib."
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/meadowmill",
         "Country": "United Kingdom",
         "State": "Scotland",
         "County": "East Lothian",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Meadowmill parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/meadowmill\">parkrun.org.uk/meadowmill</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Meadowmill parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 25&nbsp;February&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Sports centre power outage. No access to defib.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/meadowmill\">parkrun.org.uk/meadowmill</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -55309,13 +55314,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "King George V Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-02-25",
+            "ReasonCancelled": "Surface ice on the course making it very slippery"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/melksham",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Wiltshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Melksham parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/melksham\">parkrun.org.uk/melksham</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Melksham parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 25&nbsp;February&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Surface ice on the course making it very slippery</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/melksham\">parkrun.org.uk/melksham</a></td></tr></table>",
         "Special Days": {}
       }
     },
