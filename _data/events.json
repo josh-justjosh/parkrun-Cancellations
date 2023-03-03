@@ -66347,30 +66347,58 @@
       }
     },
     {
-      "id": 3232,
+      "id": 3211,
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.276402,
-          39.461468
+          -0.413769,
+          51.658524
         ]
       },
       "properties": {
-        "eventname": "warrencountyarmco",
-        "EventLongName": "Warren County Armco parkrun",
-        "EventShortName": "Warren County Armco",
+        "eventname": "cassiobury-juniors",
+        "EventLongName": "Cassiobury junior parkrun",
+        "EventShortName": "Cassiobury juniors",
         "LocalisedEventLongName": null,
-        "countrycode": 98,
-        "seriesid": 1,
-        "EventLocation": "Warren County Armco Park",
-        "Status": "parkrunning",
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Cassiobury Park",
+        "Status": "junior parkrunning",
         "Cancellations": [],
-        "Website": "https://www.parkrun.us/warrencountyarmco",
-        "Country": "USA",
-        "State": "Ohio",
-        "County": "Warren",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Warren County Armco parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/warrencountyarmco\">parkrun.us/warrencountyarmco</a></td></tr></table>",
+        "Website": "https://www.parkrun.org.uk/cassiobury-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Hertfordshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cassiobury junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cassiobury-juniors\">parkrun.org.uk/cassiobury-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3234,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.499085,
+          52.342965
+        ]
+      },
+      "properties": {
+        "eventname": "mildenhallhub-juniors",
+        "EventLongName": "Mildenhall Hub junior parkrun",
+        "EventShortName": "Mildenhall Hub juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Mildenhall Hub",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/mildenhallhub-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Suffolk",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Mildenhall Hub junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/mildenhallhub-juniors\">parkrun.org.uk/mildenhallhub-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     }
