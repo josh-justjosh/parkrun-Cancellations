@@ -46345,6 +46345,26 @@
         }
       },
       {
+        "id": 3201,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.785758,
+            -41.291725
+          ]
+        },
+        "properties": {
+          "eventname": "waitangi",
+          "EventLongName": "Waitangi parkrun",
+          "EventShortName": "Waitangi",
+          "LocalisedEventLongName": null,
+          "countrycode": 65,
+          "seriesid": 1,
+          "EventLocation": "Waitangi Pathway"
+        }
+      },
+      {
         "id": 3202,
         "type": "Feature",
         "geometry": {
@@ -46382,6 +46402,26 @@
           "countrycode": 97,
           "seriesid": 1,
           "EventLocation": "Beacon Hill Country Park"
+        }
+      },
+      {
+        "id": 3207,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            27.831154,
+            -26.401835
+          ]
+        },
+        "properties": {
+          "eventname": "ennerdalestadium",
+          "EventLongName": "Ennerdale Stadium parkrun",
+          "EventShortName": "Ennerdale Stadium",
+          "LocalisedEventLongName": null,
+          "countrycode": 85,
+          "seriesid": 1,
+          "EventLocation": "Ennerdale Stadium"
         }
       },
       {
@@ -46442,6 +46482,26 @@
           "countrycode": 97,
           "seriesid": 2,
           "EventLocation": "Mildenhall Hub"
+        }
+      },
+      {
+        "id": 3235,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -79.063261,
+            35.921291
+          ]
+        },
+        "properties": {
+          "eventname": "umsteadpark",
+          "EventLongName": "Umstead Park parkrun",
+          "EventShortName": "Umstead Park",
+          "LocalisedEventLongName": null,
+          "countrycode": 98,
+          "seriesid": 1,
+          "EventLocation": "Umstead Park"
         }
       }
     ]
