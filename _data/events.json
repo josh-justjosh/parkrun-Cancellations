@@ -44522,13 +44522,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Lillie Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-03-04",
+            "ReasonCancelled": "snow storm left parking lots impassable"
+          }
+        ],
         "Website": "https://www.parkrun.us/lillie",
         "Country": "USA",
         "State": "Michigan",
         "County": "Washtenaw",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Lillie parkrun, Ann Arbor</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/lillie\">parkrun.us/lillie</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Lillie parkrun, Ann Arbor</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;March&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>snow storm left parking lots impassable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/lillie\">parkrun.us/lillie</a></td></tr></table>",
         "Special Days": {},
         "Thanksgiving": "parkrunning",
         "NYD": "parkrunning"
@@ -58224,13 +58229,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "The Station Yard",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-03-05",
+            "ReasonCancelled": "insufficient volunteers to safely operate"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/thestationyard-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "North Yorkshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">The Station Yard junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/thestationyard-juniors\">parkrun.org.uk/thestationyard-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">The Station Yard junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  5&nbsp;March&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>insufficient volunteers to safely operate</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/thestationyard-juniors\">parkrun.org.uk/thestationyard-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
