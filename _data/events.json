@@ -61068,13 +61068,18 @@
         "countrycode": 74,
         "seriesid": 1,
         "EventLocation": "Las \u0141agiewnicki",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-03-11",
+            "ReasonCancelled": "Brak zgody zarz\u0105dcy terenu na organizacj\u0119 parkrun"
+          }
+        ],
         "Website": "https://www.parkrun.pl/laslagiewnicki",
         "Country": "Poland",
         "State": "\u0141\u00f3d\u017a Voivodeship",
         "County": "Lodz",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Las \u0141agiewnicki</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/laslagiewnicki\">parkrun.pl/laslagiewnicki</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Las \u0141agiewnicki</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 11&nbsp;March&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Brak zgody zarz\u0105dcy terenu na organizacj\u0119 parkrun</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/laslagiewnicki\">parkrun.pl/laslagiewnicki</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -66078,34 +66083,6 @@
         "State": "Australian Capital Territory",
         "County": "-Unknown-",
         "description": "<h4 style=\"margin: 0 0 8px;\">Point Hut Pond parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/pointhutpond\">parkrun.com.au/pointhutpond</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 3197,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -6.168358,
-          53.486144
-        ]
-      },
-      "properties": {
-        "eventname": "newbridgehouse-juniors",
-        "EventLongName": "Newbridge House junior parkrun",
-        "EventShortName": "Newbridge House juniors",
-        "LocalisedEventLongName": null,
-        "countrycode": 42,
-        "seriesid": 2,
-        "EventLocation": "Newbridge House Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.ie/newbridgehouse-juniors",
-        "Country": "Ireland",
-        "State": "Leinster",
-        "County": "Fingal",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Newbridge House junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/newbridgehouse-juniors\">parkrun.ie/newbridgehouse-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
