@@ -48528,6 +48528,39 @@
       }
     },
     {
+      "id": 2385,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.616605,
+          -32.155414
+        ]
+      },
+      "properties": {
+        "eventname": "cradock",
+        "EventLongName": "Cradock parkrun",
+        "EventShortName": "Cradock",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Voortrekker Hall",
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-03-11",
+            "ReasonCancelled": "Event Closed"
+          }
+        ],
+        "Website": "https://www.parkrun.co.za/cradock",
+        "Country": "South Africa",
+        "State": "Eastern Cape",
+        "County": "Chris Hani District Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cradock parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 11&nbsp;March&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Event Closed</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/cradock\">parkrun.co.za/cradock</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 2386,
       "type": "Feature",
       "geometry": {
@@ -56665,13 +56698,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "TYTO Wetlands",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-03-11",
+            "ReasonCancelled": "Unsafe to run at - Boggy Ground - Too much water."
+          }
+        ],
         "Website": "https://www.parkrun.com.au/tytowetlands",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Hinchinbrook",
-        "description": "<h4 style=\"margin: 0 0 8px;\">TYTO Wetlands parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/tytowetlands\">parkrun.com.au/tytowetlands</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">TYTO Wetlands parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 11&nbsp;March&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Unsafe to run at - Boggy Ground - Too much water.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/tytowetlands\">parkrun.com.au/tytowetlands</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -62861,13 +62899,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Cotlands Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-03-12",
+            "ReasonCancelled": "Unable to access kit/facilities on day of the even"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/cotlandspark-juniors",
         "Country": "United Kingdom",
         "State": "Scotland",
         "County": "Fife",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cotlands Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cotlandspark-juniors\">parkrun.org.uk/cotlandspark-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cotlands Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 12&nbsp;March&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Unable to access kit/facilities on day of the even</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cotlandspark-juniors\">parkrun.org.uk/cotlandspark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
