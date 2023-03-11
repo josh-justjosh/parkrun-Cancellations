@@ -3727,13 +3727,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Gnoll Estate Country Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-03-12",
+            "ReasonCancelled": "Not enough volunteers to hold the event safely."
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/gnoll-juniors",
         "Country": "United Kingdom",
         "State": "Wales",
         "County": "Neath Port Talbot",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Gnoll junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/gnoll-juniors\">parkrun.org.uk/gnoll-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Gnoll junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 12&nbsp;March&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Not enough volunteers to hold the event safely.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/gnoll-juniors\">parkrun.org.uk/gnoll-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -26556,13 +26561,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Great Cornard Sports Centre",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-03-12",
+            "ReasonCancelled": "Waterlogged Course"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/greatcornard-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Suffolk",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Great Cornard junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/greatcornard-juniors\">parkrun.org.uk/greatcornard-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Great Cornard junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 12&nbsp;March&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Waterlogged Course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/greatcornard-juniors\">parkrun.org.uk/greatcornard-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -54580,13 +54590,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Sutton Lawn",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-03-12",
+            "ReasonCancelled": "Icy conditions"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/suttonlawn-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Nottinghamshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Sutton Lawn junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/suttonlawn-juniors\">parkrun.org.uk/suttonlawn-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Sutton Lawn junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 12&nbsp;March&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Icy conditions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/suttonlawn-juniors\">parkrun.org.uk/suttonlawn-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -67571,30 +67586,30 @@
       }
     },
     {
-      "id": 3211,
+      "id": 3207,
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.413769,
-          51.658524
+          27.831154,
+          -26.401835
         ]
       },
       "properties": {
-        "eventname": "cassiobury-juniors",
-        "EventLongName": "Cassiobury junior parkrun",
-        "EventShortName": "Cassiobury juniors",
+        "eventname": "ennerdalestadium",
+        "EventLongName": "Ennerdale Stadium parkrun",
+        "EventShortName": "Ennerdale Stadium",
         "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 2,
-        "EventLocation": "Cassiobury Park",
-        "Status": "junior parkrunning",
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Ennerdale Stadium",
+        "Status": "parkrunning",
         "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/cassiobury-juniors",
-        "Country": "United Kingdom",
-        "State": "England",
-        "County": "Hertfordshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cassiobury junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cassiobury-juniors\">parkrun.org.uk/cassiobury-juniors</a></td></tr></table>",
+        "Website": "https://www.parkrun.co.za/ennerdalestadium",
+        "Country": "South Africa",
+        "State": "Gauteng",
+        "County": "City of Johannesburg Metropolitan Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ennerdale Stadium parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ennerdalestadium\">parkrun.co.za/ennerdalestadium</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -67651,6 +67666,34 @@
         "State": "North Carolina",
         "County": "Orange",
         "description": "<h4 style=\"margin: 0 0 8px;\">Umstead Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/umsteadpark\">parkrun.us/umsteadpark</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3237,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.192484,
+          53.488346
+        ]
+      },
+      "properties": {
+        "eventname": "philipspark",
+        "EventLongName": "Philips Park parkrun",
+        "EventShortName": "Philips Park",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Philips Park",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/philipspark",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Manchester",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Philips Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/philipspark\">parkrun.org.uk/philipspark</a></td></tr></table>",
         "Special Days": {}
       }
     }
