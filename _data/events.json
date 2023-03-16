@@ -33208,13 +33208,18 @@
         "countrycode": 42,
         "seriesid": 1,
         "EventLocation": "Gas House Bridge",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-03-18",
+            "ReasonCancelled": "Course flooded"
+          }
+        ],
         "Website": "https://www.parkrun.ie/clonmel",
         "Country": "Ireland",
         "State": "Munster",
         "County": "Tipperary",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Clonmel parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/clonmel\">parkrun.ie/clonmel</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Clonmel parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 18&nbsp;March&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course flooded</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/clonmel\">parkrun.ie/clonmel</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -40661,13 +40666,18 @@
         "countrycode": 42,
         "seriesid": 2,
         "EventLocation": "Griffeen Valley Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-03-19",
+            "ReasonCancelled": "The weather forecast predicts bad weather"
+          }
+        ],
         "Website": "https://www.parkrun.ie/griffeen-juniors",
         "Country": "Ireland",
         "State": "Leinster",
         "County": "Dublin",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Griffeen junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/griffeen-juniors\">parkrun.ie/griffeen-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Griffeen junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 19&nbsp;March&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>The weather forecast predicts bad weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/griffeen-juniors\">parkrun.ie/griffeen-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -55250,13 +55260,18 @@
         "countrycode": 46,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-03-18",
+            "ReasonCancelled": "\u60aa\u5929\u5019\u306e\u305f\u3081"
+          }
+        ],
         "Website": "https://www.parkrun.jp/maborikaiganyuhodo",
         "Country": "Japan",
         "State": "Kanagawa",
         "County": "Yokosuka",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Maborikaigan yuhodo parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/maborikaiganyuhodo\">parkrun.jp/maborikaiganyuhodo</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Maborikaigan yuhodo parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 18&nbsp;March&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>\u60aa\u5929\u5019\u306e\u305f\u3081</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/maborikaiganyuhodo\">parkrun.jp/maborikaiganyuhodo</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -66357,6 +66372,34 @@
         "State": "Gauteng",
         "County": "City of Johannesburg Metropolitan Municipality",
         "description": "<h4 style=\"margin: 0 0 8px;\">Ennerdale Stadium parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ennerdalestadium\">parkrun.co.za/ennerdalestadium</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3208,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.402143,
+          -25.172624
+        ]
+      },
+      "properties": {
+        "eventname": "hoerskoolbenviljoen",
+        "EventLongName": "Ho\u00ebrskool Ben Viljoen parkrun",
+        "EventShortName": "Ho\u00ebrskool Ben Viljoen",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Ho\u00ebrskool Ben Viljoen",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.za/hoerskoolbenviljoen",
+        "Country": "South Africa",
+        "State": "Limpopo",
+        "County": "Sekhukhune District Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ho\u00ebrskool Ben Viljoen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/hoerskoolbenviljoen\">parkrun.co.za/hoerskoolbenviljoen</a></td></tr></table>",
         "Special Days": {}
       }
     },
