@@ -13200,13 +13200,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "The Ridings",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-03-25",
+            "ReasonCancelled": "Roadworks/closed roads - limited access to site"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/chippingsodbury",
         "Country": "United Kingdom",
         "State": "England",
         "County": "South Gloucestershire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Chipping Sodbury parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/chippingsodbury\">parkrun.org.uk/chippingsodbury</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Chipping Sodbury parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 25&nbsp;March&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Roadworks/closed roads - limited access to site</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/chippingsodbury\">parkrun.org.uk/chippingsodbury</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning"
       }
