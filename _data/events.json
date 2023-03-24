@@ -42966,13 +42966,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Lemoenplaas Campsite",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-03-25",
+            "ReasonCancelled": "Route closed due to construction of new pipeline"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/aggeneys",
         "Country": "South Africa",
         "State": "Northern Cape",
         "County": "Namakwa District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Aggeneys parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/aggeneys\">parkrun.co.za/aggeneys</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Aggeneys parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 25&nbsp;March&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Route closed due to construction of new pipeline</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/aggeneys\">parkrun.co.za/aggeneys</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -49735,6 +49740,39 @@
       }
     },
     {
+      "id": 2437,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.125989,
+          52.245739
+        ]
+      },
+      "properties": {
+        "eventname": "waterfordnature",
+        "EventLongName": "Waterford Nature parkrun",
+        "EventShortName": "Waterford Nature",
+        "LocalisedEventLongName": null,
+        "countrycode": 42,
+        "seriesid": 1,
+        "EventLocation": "The Waterford Regional Sports Centre",
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-03-25",
+            "ReasonCancelled": "Event suspended until further notice."
+          }
+        ],
+        "Website": "https://www.parkrun.ie/waterfordnature",
+        "Country": "Ireland",
+        "State": "Munster",
+        "County": "Waterford",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Waterford Nature parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 25&nbsp;March&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Event suspended until further notice.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/waterfordnature\">parkrun.ie/waterfordnature</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 2438,
       "type": "Feature",
       "geometry": {
@@ -55247,13 +55285,18 @@
         "countrycode": 46,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-03-25",
+            "ReasonCancelled": "\u60aa\u5929\u5019\u306e\u305f\u3081"
+          }
+        ],
         "Website": "https://www.parkrun.jp/maborikaiganyuhodo",
         "Country": "Japan",
         "State": "Kanagawa",
         "County": "Yokosuka",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Maborikaigan yuhodo parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/maborikaiganyuhodo\">parkrun.jp/maborikaiganyuhodo</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Maborikaigan yuhodo parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 25&nbsp;March&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>\u60aa\u5929\u5019\u306e\u305f\u3081</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/maborikaiganyuhodo\">parkrun.jp/maborikaiganyuhodo</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
