@@ -46496,8 +46496,8 @@
         },
         "properties": {
           "eventname": "hoerskoolbenviljoen",
-          "EventLongName": "Hoerskool Ben Viljoen parkrun",
-          "EventShortName": "Hoerskool Ben Viljoen",
+          "EventLongName": "Ho\u00ebrskool Ben Viljoen parkrun",
+          "EventShortName": "Ho\u00ebrskool Ben Viljoen",
           "LocalisedEventLongName": null,
           "countrycode": 85,
           "seriesid": 1,
@@ -46522,6 +46522,26 @@
           "countrycode": 97,
           "seriesid": 2,
           "EventLocation": "Cassiobury Park"
+        }
+      },
+      {
+        "id": 3224,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            26.717566,
+            -30.699253
+          ]
+        },
+        "properties": {
+          "eventname": "aliwalnorthgolfclub",
+          "EventLongName": "Aliwal North Golf Club parkrun",
+          "EventShortName": "Aliwal North Golf Club",
+          "LocalisedEventLongName": null,
+          "countrycode": 85,
+          "seriesid": 1,
+          "EventLocation": "Aliwal North Golf Club"
         }
       },
       {
@@ -46602,6 +46622,66 @@
           "countrycode": 97,
           "seriesid": 1,
           "EventLocation": "Philips Park"
+        }
+      },
+      {
+        "id": 3239,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -3.682105,
+            50.424904
+          ]
+        },
+        "properties": {
+          "eventname": "sharphamestate",
+          "EventLongName": "Sharpham Estate parkrun",
+          "EventShortName": "Sharpham Estate",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 1,
+          "EventLocation": "Sharpham Estate"
+        }
+      },
+      {
+        "id": 3242,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5.727314,
+            53.033831
+          ]
+        },
+        "properties": {
+          "eventname": "depotten",
+          "EventLongName": "De Potten parkrun",
+          "EventShortName": "De Potten",
+          "LocalisedEventLongName": null,
+          "countrycode": 64,
+          "seriesid": 1,
+          "EventLocation": ""
+        }
+      },
+      {
+        "id": 3251,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -88.248271,
+            41.930491
+          ]
+        },
+        "properties": {
+          "eventname": "cornerstonelakes",
+          "EventLongName": "Cornerstone Lakes parkrun",
+          "EventShortName": "Cornerstone Lakes",
+          "LocalisedEventLongName": null,
+          "countrycode": 98,
+          "seriesid": 1,
+          "EventLocation": "Cornerstone Lakes"
         }
       },
       {
