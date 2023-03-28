@@ -21086,13 +21086,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Stockton",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-01",
+            "ReasonCancelled": "Another Event on in the park."
+          }
+        ],
         "Website": "https://www.parkrun.com.au/stockton",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Newcastle",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Stockton parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/stockton\">parkrun.com.au/stockton</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Stockton parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Another Event on in the park.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/stockton\">parkrun.com.au/stockton</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning"
       }
@@ -58503,13 +58508,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Barton Trail",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-01",
+            "ReasonCancelled": "Unsafe trail condition"
+          }
+        ],
         "Website": "https://www.parkrun.ca/bartontrail",
         "Country": "Canada",
         "State": "Ontario",
         "County": "Durham",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Barton Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/bartontrail\">parkrun.ca/bartontrail</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Barton Trail parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Unsafe trail condition</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/bartontrail\">parkrun.ca/bartontrail</a></td></tr></table>",
         "Special Days": {}
       }
     },
