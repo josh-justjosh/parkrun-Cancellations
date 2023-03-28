@@ -11317,8 +11317,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.642326,
-          50.808304
+          -1.567457,
+          50.821883
         ]
       },
       "properties": {
@@ -11386,13 +11386,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Wimpole Estate",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-01",
+            "ReasonCancelled": "Landowner Request (Waterlogged Course)"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/wimpoleestate",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Cambridgeshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Wimpole Estate parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wimpoleestate\">parkrun.org.uk/wimpoleestate</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Wimpole Estate parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Landowner Request (Waterlogged Course)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wimpoleestate\">parkrun.org.uk/wimpoleestate</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -16623,13 +16628,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Riverside Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-02",
+            "ReasonCancelled": "Southampton marathon & half marathon in park"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/southampton-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Southampton",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Southampton junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/southampton-juniors\">parkrun.org.uk/southampton-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Southampton junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  2&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Southampton marathon & half marathon in park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/southampton-juniors\">parkrun.org.uk/southampton-juniors</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
