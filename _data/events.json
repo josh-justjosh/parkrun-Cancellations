@@ -62772,13 +62772,18 @@
         "countrycode": 88,
         "seriesid": 1,
         "EventLocation": "Lillsj\u00f6n",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-01",
+            "ReasonCancelled": "Fortfarande is och sn\u00f6 p\u00e5 banan"
+          }
+        ],
         "Website": "https://www.parkrun.se/lillsjon",
         "Country": "Sweden",
         "State": "Stockholm",
         "County": "Upplands-Bro Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Lillsj\u00f6n parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.se/lillsjon\">parkrun.se/lillsjon</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Lillsj\u00f6n parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Fortfarande is och sn\u00f6 p\u00e5 banan</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.se/lillsjon\">parkrun.se/lillsjon</a></td></tr></table>",
         "Special Days": {}
       }
     },
