@@ -10581,13 +10581,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Wynnum Manly Foreshore, QLD",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-01",
+            "ReasonCancelled": "Jellyfish in Wading Pool caused path closure"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/wynnum",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Brisbane",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Wynnum parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/wynnum\">parkrun.com.au/wynnum</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Wynnum parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Jellyfish in Wading Pool caused path closure</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/wynnum\">parkrun.com.au/wynnum</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -14740,13 +14745,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Condamine River",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-01",
+            "ReasonCancelled": "Debris on path from flooding"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/warwick",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Southern Downs",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Warwick parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/warwick\">parkrun.com.au/warwick</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Warwick parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Debris on path from flooding</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/warwick\">parkrun.com.au/warwick</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -56755,13 +56765,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "TYTO Wetlands",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-01",
+            "ReasonCancelled": "Unsafe to run at - Boggy Ground - Too much water."
+          }
+        ],
         "Website": "https://www.parkrun.com.au/tytowetlands",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Hinchinbrook",
-        "description": "<h4 style=\"margin: 0 0 8px;\">TYTO Wetlands parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/tytowetlands\">parkrun.com.au/tytowetlands</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">TYTO Wetlands parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Unsafe to run at - Boggy Ground - Too much water.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/tytowetlands\">parkrun.com.au/tytowetlands</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -66598,34 +66613,6 @@
         "State": "Friesland",
         "County": "S\u00fbdwest Frysl\u00e2n",
         "description": "<h4 style=\"margin: 0 0 8px;\">De Potten parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nl/depotten\">parkrun.co.nl/depotten</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 3251,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.248271,
-          41.930491
-        ]
-      },
-      "properties": {
-        "eventname": "cornerstonelakes",
-        "EventLongName": "Cornerstone Lakes parkrun",
-        "EventShortName": "Cornerstone Lakes",
-        "LocalisedEventLongName": null,
-        "countrycode": 98,
-        "seriesid": 1,
-        "EventLocation": "Cornerstone Lakes",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.us/cornerstonelakes",
-        "Country": "USA",
-        "State": "Illinois",
-        "County": "DuPage",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cornerstone Lakes parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/cornerstonelakes\">parkrun.us/cornerstonelakes</a></td></tr></table>",
         "Special Days": {}
       }
     },
