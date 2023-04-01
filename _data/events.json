@@ -59367,13 +59367,18 @@
         "countrycode": 46,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-01",
+            "ReasonCancelled": "\u516c\u5712\u5185\u306e\u5927\u898f\u6a21\u5de5\u4e8b\u306e\u305f\u3081"
+          }
+        ],
         "Website": "https://www.parkrun.jp/tennogawakoen",
         "Country": "Japan",
         "State": "Aichi",
         "County": "Tsushima-shi",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Tennogawa koen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/tennogawakoen\">parkrun.jp/tennogawakoen</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Tennogawa koen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>\u516c\u5712\u5185\u306e\u5927\u898f\u6a21\u5de5\u4e8b\u306e\u305f\u3081</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/tennogawakoen\">parkrun.jp/tennogawakoen</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -59739,13 +59744,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Courthouse Lake",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-01",
+            "ReasonCancelled": "Weather - Blizzard warning"
+          }
+        ],
         "Website": "https://www.parkrun.us/courthouselake",
         "Country": "USA",
         "State": "Minnesota",
         "County": "Carver",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Courthouse Lake parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/courthouselake\">parkrun.us/courthouselake</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Courthouse Lake parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Weather - Blizzard warning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/courthouselake\">parkrun.us/courthouselake</a></td></tr></table>",
         "Special Days": {},
         "Thanksgiving": "parkrunning"
       }
