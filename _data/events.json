@@ -9456,13 +9456,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Pinehill Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-02",
+            "ReasonCancelled": "Waterlogged course. Dangerously slippy on slopes."
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/pinehill-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Hertfordshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Pinehill junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/pinehill-juniors\">parkrun.org.uk/pinehill-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Pinehill junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  2&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Waterlogged course. Dangerously slippy on slopes.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/pinehill-juniors\">parkrun.org.uk/pinehill-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -42027,13 +42032,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "248 Esplanade",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-01",
+            "ReasonCancelled": "No participants only Volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/meningie",
         "Country": "Australia",
         "State": "South Australia",
         "County": "The Coorong",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Meningie parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/meningie\">parkrun.com.au/meningie</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Meningie parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>No participants only Volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/meningie\">parkrun.com.au/meningie</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -66843,6 +66853,34 @@
         "State": "Gauteng",
         "County": "City of Johannesburg Metropolitan Municipality",
         "description": "<h4 style=\"margin: 0 0 8px;\">Ennerdale Stadium parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ennerdalestadium\">parkrun.co.za/ennerdalestadium</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3210,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.191797,
+          52.613948
+        ]
+      },
+      "properties": {
+        "eventname": "havelkanal",
+        "EventLongName": "Havelkanal parkrun",
+        "EventShortName": "Havelkanal",
+        "LocalisedEventLongName": null,
+        "countrycode": 32,
+        "seriesid": 1,
+        "EventLocation": "Havelkanal",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.de/havelkanal",
+        "Country": "Germany",
+        "State": "Brandenburg",
+        "County": "-Unknown-",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Havelkanal parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/havelkanal\">parkrun.com.de/havelkanal</a></td></tr></table>",
         "Special Days": {}
       }
     },
