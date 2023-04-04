@@ -55936,13 +55936,18 @@
         "countrycode": 42,
         "seriesid": 2,
         "EventLocation": "Beechpark",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-09",
+            "ReasonCancelled": "Easter Sunday"
+          }
+        ],
         "Website": "https://www.parkrun.ie/beechpark-juniors",
         "Country": "Ireland",
         "State": "Leinster",
         "County": "Dublin",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Beechpark junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/beechpark-juniors\">parkrun.ie/beechpark-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Beechpark junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  9&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Easter Sunday</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/beechpark-juniors\">parkrun.ie/beechpark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
