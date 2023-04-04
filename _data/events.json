@@ -18094,13 +18094,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Mofolo Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-08",
+            "ReasonCancelled": "The's an Musicjam camp at the park from 6-9 April"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/mofolo",
         "Country": "South Africa",
         "State": "Gauteng",
         "County": "City of Johannesburg Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Mofolo parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/mofolo\">parkrun.co.za/mofolo</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Mofolo parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>The's an Musicjam camp at the park from 6-9 April</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/mofolo\">parkrun.co.za/mofolo</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -40232,13 +40237,18 @@
         "countrycode": 42,
         "seriesid": 2,
         "EventLocation": "John Murphy Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-09",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.ie/cobh-juniors",
         "Country": "Ireland",
         "State": "Munster",
         "County": "Cork",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cobh junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/cobh-juniors\">parkrun.ie/cobh-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cobh junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  9&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/cobh-juniors\">parkrun.ie/cobh-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -55203,13 +55213,18 @@
         "countrycode": 42,
         "seriesid": 2,
         "EventLocation": "St Mary\u2019s Health Campus",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-09",
+            "ReasonCancelled": "Easter Break- shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.ie/stmaryscampus-juniors",
         "Country": "Ireland",
         "State": "Munster",
         "County": "Cork City",
-        "description": "<h4 style=\"margin: 0 0 8px;\">St Mary\u2019s Campus junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/stmaryscampus-juniors\">parkrun.ie/stmaryscampus-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">St Mary\u2019s Campus junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  9&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Easter Break- shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/stmaryscampus-juniors\">parkrun.ie/stmaryscampus-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -66641,34 +66656,6 @@
       }
     },
     {
-      "id": 3253,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -7.368254,
-          53.517129
-        ]
-      },
-      "properties": {
-        "eventname": "theoldrailtrail-juniors",
-        "EventLongName": "The Old Rail Trail junior parkrun",
-        "EventShortName": "The Old Rail Trail juniors",
-        "LocalisedEventLongName": null,
-        "countrycode": 42,
-        "seriesid": 2,
-        "EventLocation": "The Old Rail Trail Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.ie/theoldrailtrail-juniors",
-        "Country": "Ireland",
-        "State": "Leinster",
-        "County": "County Westmeath",
-        "description": "<h4 style=\"margin: 0 0 8px;\">The Old Rail Trail junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/theoldrailtrail-juniors\">parkrun.ie/theoldrailtrail-juniors</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
       "id": 3257,
       "type": "Feature",
       "geometry": {
@@ -66693,34 +66680,6 @@
         "State": "Munster",
         "County": "Cork City",
         "description": "<h4 style=\"margin: 0 0 8px;\">Nursery Drive junior parkrun, Ballinlough</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/nurserydrive-juniors\">parkrun.ie/nurserydrive-juniors</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 3269,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.500452,
-          51.63791
-        ]
-      },
-      "properties": {
-        "eventname": "kinggeorgevplayingfield-juniors",
-        "EventLongName": "King GeorgeV Playing Field junior parkrun, MillEnd",
-        "EventShortName": "King George V Playing Field juniors",
-        "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 2,
-        "EventLocation": "King George V Playing Field",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/kinggeorgevplayingfield-juniors",
-        "Country": "United Kingdom",
-        "State": "England",
-        "County": "Hertfordshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">King GeorgeV Playing Field junior parkrun, MillEnd</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/kinggeorgevplayingfield-juniors\">parkrun.org.uk/kinggeorgevplayingfield-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     }
