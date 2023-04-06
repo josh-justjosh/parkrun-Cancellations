@@ -19,7 +19,7 @@ Clare	Ireland	4				4	Clarisford|Lees Road|Vandeleur|Illaunmanagh|
 Clwyd	Wales	5	3	1		9	Conwy|Wepre|Nova Prestatyn|Greenfield Valley|Ruthin Memorial Playing Fields|	Alyn Waters juniors|Prestatyn Prom juniors|Conwy Nature Reserve juniors|	Erddig|	
 Cork	Ireland	10	1		1	12	Clonakilty|Macroom Castle Demesne|Bere Island|Tramore Valley|Glengarriff|Castlehaven|Ballincollig|Glen River|Mallow Castle|Pobalscoil na Tríonóide|	Ballincollig Regional juniors|		Cobh juniors|
 Cork City	Ireland		1		1	2		Nursery Drive juniors|		St Mary’s Campus juniors|
-Cornwall	England	9	3			12	Trelissick|Eden Project|Lanhydrock|Tamar Lakes|Penrose|Mount Edgcumbe|Heartlands|Land’s End|Penryn Campus|	Bodmin juniors|Par Track juniors|Bude Marshes juniors|		
+Cornwall	England	8	3	1		12	Trelissick|Eden Project|Lanhydrock|Tamar Lakes|Penrose|Mount Edgcumbe|Heartlands|Land’s End|	Bodmin juniors|Par Track juniors|Bude Marshes juniors|	Penryn Campus|	
 County Westmeath	Ireland		1			1		The Old Rail Trail juniors|		
 Cumbria	England	14	3			17	Millom|Carlisle|Barrow|Workington|Penrith|Keswick|Whinlatter Forest|Fell Foot|Whitehaven|Ford|Rothay Park|Bower Park|Talkin Tarn Country Park|Maryport Prom|	Keswick juniors|Carlisle juniors|Barrow juniors|		
 Derbyshire	England	10	5		1	16	Shipley Country|Rosliston|Markeaton|Long Eaton|Glossop|Poolsbrook|Monsal Trail|Alvaston|Ashbourne Recreation Ground|Pavilion Gardens|	Swadlincote juniors|Long Eaton juniors|Whaley Bridge juniors|Staveley juniors|Shipley Country juniors|		Markeaton juniors|
@@ -51,7 +51,7 @@ Greater London	England	61	36		2	99	Bushy Park|Wimbledon Common|Richmond Park|Bed
 Greater Manchester	England	23	12			35	Bramhall Park|Heaton Park|Woodbank|South Manchester|Oldham|Hyde|Pennington Flash|Bolton|Wythenshawe|Worsley Woods|Marple|Burnage|Cheadle Hulme|Watergrove|Stamford Park|Haigh Woodland|Stretford|Chadderton Hall|Sale Water|Fletcher Moss|Alexandra|Peel|Philips Park|	Queen’s Park juniors, Rochdale|Queen’s Park juniors, Bolton|Salford juniors|Hyde juniors|Marple juniors|South Manchester juniors|Ramsbottom juniors|Uppermill juniors|Seymour Park juniors|Alexandra juniors, Moss Side|Milnrow Memorial Park juniors|Leigh juniors|		
 Gwent	Wales	10	4	1	3	18	Riverfront|Newport|Bryn Bach|Penallta|Pontypool|Cwmbran|Severn Bridge|Aberbeeg|Coed Cefn-pwll-du|Chippenham Playing Fields, Monmouth|	Penallta juniors|Bryn Bach juniors|Newport juniors|Pontypool juniors|	Rogiet|	Bailey juniors|Dixton juniors|Rogiet juniors|
 Gwynedd	Wales	6				6	Penrhyn|Dolgellau|Newborough Forest|Nant y Pandy|Hafan Pwllheli|Pont y Bala|			
-Hampshire	England	22	13	1		36	Basingstoke|Southampton|Andover|Southsea|Havant|Whiteley|Eastleigh|Lymington Woodside|Winchester|Netley Abbey|Alice Holt|Queen Elizabeth|Rushmoor|Lee-on-the-Solent|Portsmouth Lakeside|Fareham|Hogmoor Inclosure|Itchen Valley Country|Bartley Park|Great Salterns|Edenbrook Country|Ganger Farm|	Andover juniors|Netley Abbey juniors|Stokes Bay juniors|Southampton juniors|Basingstoke juniors|Eastney juniors|Waterlooville juniors|Winchester juniors|New Milton juniors|Queen’s Parade juniors, Aldershot|Hogmoor Inclosure juniors|Dowds Farm juniors|Southampton Common juniors|	Brockenhurst|	
+Hampshire	England	21	13	2		36	Basingstoke|Southampton|Andover|Southsea|Havant|Whiteley|Lymington Woodside|Winchester|Netley Abbey|Alice Holt|Queen Elizabeth|Rushmoor|Lee-on-the-Solent|Portsmouth Lakeside|Fareham|Hogmoor Inclosure|Itchen Valley Country|Bartley Park|Great Salterns|Edenbrook Country|Ganger Farm|	Andover juniors|Netley Abbey juniors|Stokes Bay juniors|Southampton juniors|Basingstoke juniors|Eastney juniors|Waterlooville juniors|Winchester juniors|New Milton juniors|Queen’s Parade juniors, Aldershot|Hogmoor Inclosure juniors|Dowds Farm juniors|Southampton Common juniors|	Eastleigh|Brockenhurst|	
 Herefordshire	England	3	1			4	Hereford|Ludlow|Ross-on-Wye|	Hereford Leisure Centre juniors|		
 Hertfordshire	England	14	12		1	27	St Albans|Rickmansworth|Westmill|Stevenage|Gadebridge|Panshanger|South Oxhey|Cassiobury|Barclay|Aldenham|Castle Park|Letchworth|Jersey Farm|Leavesden Country|	Beehive juniors|Stevenage juniors|Leavesden juniors|Pinehill juniors|Cheshunt juniors|Hertford juniors|King George juniors|Grange Paddocks juniors|Verulamium juniors|Gadebridge Park juniors|Cassiobury juniors|King George V Playing Field juniors|		Ashlyns juniors|
 Highland	Scotland	5	2			7	Aviemore|Alness|Thurso|Fort William|Torvean|	Torvean juniors|Millbank Boating Pond juniors|		
@@ -122,9 +122,9 @@ Wexford	Ireland	3	1			4	Wexford Racecourse|New Ross|Gorey|	Heritage Park juniors
 Wicklow	Ireland	3	2			5	Russborough|Tullow|Avondale Forest|	Bray juniors|Arklow Duck Pond juniors|		
 Wiltshire	England	8	5			13	Lydiard|Southwick Country Park|Chippenham|Salisbury|Melksham|Marlborough Common|Seven Fields|Tidworth|	Lydiard juniors|Chippenham juniors|Churchill Gardens juniors|King George V juniors|Calne Recreation Ground juniors|		
 Worcestershire	England	5	3			8	Arrow Valley|Worcester|Worcester Pitchcroft|Evesham|Wyre Forest|	Evesham juniors|Bromsgrove juniors|Wyre Forest juniors|		
-England Total	England	595	310	9	13	927				
+England Total	England	593	310	11	13	927				
 NI Total	Northern Ireland	36	16			52				
 Scotland Total	Scotland	65	27	2	1	95				
 Wales Total	Wales	45	16	2	3	66				
 Ireland Total	Ireland	101	28	1	5	135				
-Total		842	397	14	22	1275				
+Total		840	397	16	22	1275				
