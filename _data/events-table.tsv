@@ -949,7 +949,6 @@ Humber Bridge parkrun	53.71723	-0.453352	United Kingdom	England	East Yorkshire	p
 Hunstanton Promenade parkrun	52.941684	0.486526	United Kingdom	England	Norfolk	parkrunning	[]	https://www.parkrun.org.uk/hunstantonpromenade
 Huntingdon parkrun	52.32936	-0.211025	United Kingdom	England	Cambridgeshire	parkrunning	[]	https://www.parkrun.org.uk/huntingdon
 Huskisson parkrun	-35.049429	150.677109	Australia	New South Wales	Shoalhaven Shire	parkrunning	[]	https://www.parkrun.com.au/huskisson
-Hutton Recreation Ground junior parkrun	51.634782	0.353999	United Kingdom	England	Essex	junior parkrunning	[]	https://www.parkrun.org.uk/huttonrecreationground-juniors
 Hyde junior parkrun	53.458379	-2.07756	United Kingdom	England	Tameside	junior parkrunning	[]	https://www.parkrun.org.uk/hyde-juniors
 Hyde parkrun	53.45713	-2.076554	United Kingdom	England	Tameside	parkrunning	[]	https://www.parkrun.org.uk/hyde
 Hyndburn parkrun	53.781711	-2.376734	United Kingdom	England	Lancashire	parkrunning	[]	https://www.parkrun.org.uk/hyndburn
@@ -1029,6 +1028,7 @@ King George Playing Fields junior parkrun, Hull	53.771471	-0.376956	United Kingd
 King George V Playing Field parkrun, Cheltenham	51.901883	-2.110018	United Kingdom	England	Gloucestershire	parkrunning	[]	https://www.parkrun.org.uk/kinggeorgevplayingfield
 King George V junior parkrun	51.37731	-2.136166	United Kingdom	England	Wiltshire	junior parkrunning	[]	https://www.parkrun.org.uk/kinggeorgev-juniors
 King George junior parkrun	51.642943	-0.352275	United Kingdom	England	Hertfordshire	junior parkrunning	[]	https://www.parkrun.org.uk/kinggeorge-juniors
+King GeorgeV Playing Field junior parkrun, MillEnd	51.63791	-0.500452	United Kingdom	England	Hertfordshire	junior parkrunning	[]	https://www.parkrun.org.uk/kinggeorgevplayingfield-juniors
 Kingdom parkrun	51.162408	0.162768	United Kingdom	England	Kent	parkrunning	[]	https://www.parkrun.org.uk/kingdom
 Kings Weston junior parkrun	51.493696	-2.660036	United Kingdom	England	Bristol	junior parkrunning	[]	https://www.parkrun.org.uk/kingsweston-juniors
 Kingsbury Water parkrun	52.561983	-1.698718	United Kingdom	England	Warwickshire	parkrunning	[]	https://www.parkrun.org.uk/kingsburywater
@@ -1535,7 +1535,7 @@ Pobalscoil na Tríonóide parkrun	51.950567	-7.873244	Ireland	Munster	Cork	parkr
 Pocket parkrun	52.214797	-0.275327	United Kingdom	England	Cambridgeshire	parkrunning	[]	https://www.parkrun.org.uk/pocket
 Point Cook parkrun	-37.862086	144.72952	Australia	Victoria	Wyndham	parkrunning	[]	https://www.parkrun.com.au/pointcook
 Point Hut Pond parkrun	-35.454104	149.084343	Australia	Australian Capital Territory	-Unknown-	parkrunning	[]	https://www.parkrun.com.au/pointhutpond
-Pokkinen parkrun	65.015719	25.4689	Finland	North Ostrobothnia	Oulu	parkrunning	[]	https://www.parkrun.fi/pokkinen
+Pokkinen parkrun	65.015719	25.4689	Finland	North Ostrobothnia	Oulu	5k Cancellation	[{'DateCancelled': '2023-04-08', 'ReasonCancelled': 'Large sections of the route are covered by ice.'}]	https://www.parkrun.fi/pokkinen
 Polkemmet Country parkrun	55.866214	-3.720256	United Kingdom	Scotland	West Lothian	parkrunning	[]	https://www.parkrun.org.uk/polkemmetcountry
 Pollok parkrun, Glasgow	55.82992	-4.307882	United Kingdom	Scotland	Glasgow City	parkrunning	[]	https://www.parkrun.org.uk/pollok
 Polokwane parkrun	-23.885076	29.457428	South Africa	Limpopo	Capricorn District Municipality	parkrunning	[]	https://www.parkrun.co.za/polokwane
@@ -1606,7 +1606,7 @@ Railton parkrun	-41.347581	146.424482	Australia	Tasmania	Kentish	parkrunning	[]	
 Railway Park parkrun	-26.164413	151.600195	Australia	Queensland	South Burnett	parkrunning	[]	https://www.parkrun.com.au/railwaypark
 Ramsbottom junior parkrun	53.643199	-2.312222	United Kingdom	England	Bury	junior parkrunning	[]	https://www.parkrun.org.uk/ramsbottom-juniors
 Raphael parkrun	51.585798	0.19249	United Kingdom	England	Greater London	parkrunning	[]	https://www.parkrun.org.uk/raphael
-Reading parkrun	51.460384	-0.941573	United Kingdom	England	Wokingham	parkrunning	[]	https://www.parkrun.org.uk/reading
+Reading parkrun	51.460384	-0.941573	United Kingdom	England	Wokingham	5k Cancellation	[{'DateCancelled': '2023-04-08', 'ReasonCancelled': 'Course not dried out from previous flooding'}]	https://www.parkrun.org.uk/reading
 Rec Plex North parkrun	30.546055	-87.212516	USA	Florida	Escambia	parkrunning	[]	https://www.parkrun.us/recplexnorth
 Red Star parkrun	-26.075092	28.755141	South Africa	Mpumalanga	Nkangala District Municipality	parkrunning	[]	https://www.parkrun.co.za/redstar
 Redcar junior parkrun	54.61403	-1.080751	United Kingdom	England	Redcar and Cleveland	junior parkrunning	[]	https://www.parkrun.org.uk/redcar-juniors
@@ -1776,7 +1776,7 @@ Shrewsbury parkrun	52.706942	-2.75921	United Kingdom	England	Shropshire	parkrunn
 Silksworth parkrun	54.883911	-1.409099	United Kingdom	England	Sunderland	parkrunning	[]	https://www.parkrun.org.uk/silksworth
 Silveroaks parkrun	-26.567052	28.423224	South Africa	Gauteng	Sedibeng District Municipality	5k Cancellation	[{'DateCancelled': '2023-04-08', 'ReasonCancelled': 'Not enough volunteers'}]	https://www.parkrun.co.za/silveroaks
 Singleton parkrun	-32.565281	151.160776	Australia	New South Wales	Singleton	parkrunning	[]	https://www.parkrun.com.au/singleton
-Sippo Lake parkrun	40.808339	-81.460174	USA	Ohio	Stark	parkrunning	[]	https://www.parkrun.us/sippolake
+Sippo Lake parkrun	40.808339	-81.460174	USA	Ohio	Stark	5k Cancellation	[{'DateCancelled': '2023-04-08', 'ReasonCancelled': 'Park rescheduled event - conflicts with volunteers'}]	https://www.parkrun.us/sippolake
 Sirromet parkrun	-27.593935	153.230817	Australia	Queensland	Redland	parkrunning	[]	https://www.parkrun.com.au/sirromet
 Sittingbourne parkrun	51.354976	0.740569	United Kingdom	England	Kent	parkrunning	[]	https://www.parkrun.org.uk/sittingbourne
 Sixfields Upton parkrun	52.228528	-0.942236	United Kingdom	England	Northamptonshire	parkrunning	[]	https://www.parkrun.org.uk/sixfieldsupton
@@ -1864,7 +1864,7 @@ Stokes Bay junior parkrun	50.781474	-1.153797	United Kingdom	England	Hampshire	j
 Stonehaven parkrun	56.969993	-2.212502	United Kingdom	Scotland	Aberdeenshire	parkrunning	[]	https://www.parkrun.org.uk/stonehaven
 Stonehouse junior parkrun	51.752965	-2.287006	United Kingdom	England	Gloucestershire	junior parkrunning	[]	https://www.parkrun.org.uk/stonehouse-juniors
 Stonehouse parkrun	51.752554	-2.287804	United Kingdom	England	Gloucestershire	parkrunning	[]	https://www.parkrun.org.uk/stonehouse
-Stones Corner parkrun	-27.498722	153.042469	Australia	Queensland	Brisbane	parkrunning	[]	https://www.parkrun.com.au/stonescorner
+Stones Corner parkrun	-27.498722	153.042469	Australia	Queensland	Brisbane	5k Cancellation	[{'DateCancelled': '2023-04-08', 'ReasonCancelled': 'Flooding of the path at Cornwall St underpass.'}]	https://www.parkrun.com.au/stonescorner
 Stopline Way junior parkrun	50.791451	-2.992325	United Kingdom	England	Devon	junior parkrunning	[]	https://www.parkrun.org.uk/stoplineway-juniors
 Storeys Field parkrun	52.219098	0.089579	United Kingdom	England	Cambridgeshire	parkrunning	[]	https://www.parkrun.org.uk/storeysfield
 Stormont parkrun	54.598318	-5.837749	United Kingdom	Northern Ireland	Belfast	parkrunning	[]	https://www.parkrun.org.uk/stormont

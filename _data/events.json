@@ -486,13 +486,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Thames Riverside, Reading",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-08",
+            "ReasonCancelled": "Course not dried out from previous flooding"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/reading",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Wokingham",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Reading parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/reading\">parkrun.org.uk/reading</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Reading parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course not dried out from previous flooding</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/reading\">parkrun.org.uk/reading</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -17995,13 +18000,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Hanlon Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-08",
+            "ReasonCancelled": "Flooding of the path at Cornwall St underpass."
+          }
+        ],
         "Website": "https://www.parkrun.com.au/stonescorner",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Brisbane",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Stones Corner parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/stonescorner\">parkrun.com.au/stonescorner</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Stones Corner parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Flooding of the path at Cornwall St underpass.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/stonescorner\">parkrun.com.au/stonescorner</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -46773,13 +46783,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Sippo Lake Park (North)",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-08",
+            "ReasonCancelled": "Park rescheduled event - conflicts with volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.us/sippolake",
         "Country": "USA",
         "State": "Ohio",
         "County": "Stark",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Sippo Lake parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/sippolake\">parkrun.us/sippolake</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Sippo Lake parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Park rescheduled event - conflicts with volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/sippolake\">parkrun.us/sippolake</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -58962,13 +58977,18 @@
         "countrycode": 30,
         "seriesid": 1,
         "EventLocation": "Pokkinen",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-08",
+            "ReasonCancelled": "Large sections of the route are covered by ice."
+          }
+        ],
         "Website": "https://www.parkrun.fi/pokkinen",
         "Country": "Finland",
         "State": "North Ostrobothnia",
         "County": "Oulu",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Pokkinen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fi/pokkinen\">parkrun.fi/pokkinen</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Pokkinen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Large sections of the route are covered by ice.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fi/pokkinen\">parkrun.fi/pokkinen</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -66812,30 +66832,30 @@
       }
     },
     {
-      "id": 3267,
+      "id": 3269,
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.353999,
-          51.634782
+          -0.500452,
+          51.63791
         ]
       },
       "properties": {
-        "eventname": "huttonrecreationground-juniors",
-        "EventLongName": "Hutton Recreation Ground junior parkrun",
-        "EventShortName": "Hutton Recreation Ground juniors",
+        "eventname": "kinggeorgevplayingfield-juniors",
+        "EventLongName": "King GeorgeV Playing Field junior parkrun, MillEnd",
+        "EventShortName": "King George V Playing Field juniors",
         "LocalisedEventLongName": null,
         "countrycode": 97,
         "seriesid": 2,
-        "EventLocation": "Hutton Recreation Ground",
+        "EventLocation": "King George V Playing Field",
         "Status": "junior parkrunning",
         "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/huttonrecreationground-juniors",
+        "Website": "https://www.parkrun.org.uk/kinggeorgevplayingfield-juniors",
         "Country": "United Kingdom",
         "State": "England",
-        "County": "Essex",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hutton Recreation Ground junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/huttonrecreationground-juniors\">parkrun.org.uk/huttonrecreationground-juniors</a></td></tr></table>",
+        "County": "Hertfordshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">King GeorgeV Playing Field junior parkrun, MillEnd</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/kinggeorgevplayingfield-juniors\">parkrun.org.uk/kinggeorgevplayingfield-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     }
