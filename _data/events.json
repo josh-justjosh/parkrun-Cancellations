@@ -19826,13 +19826,18 @@
         "countrycode": 82,
         "seriesid": 1,
         "EventLocation": "East Coast Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-15",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.sg/eastcoastpark",
         "Country": "Singapore",
         "State": "",
         "County": "",
-        "description": "<h4 style=\"margin: 0 0 8px;\">East Coast Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.sg/eastcoastpark\">parkrun.sg/eastcoastpark</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">East Coast Park parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 15&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.sg/eastcoastpark\">parkrun.sg/eastcoastpark</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -59418,13 +59423,18 @@
         "countrycode": 30,
         "seriesid": 1,
         "EventLocation": "Espoon keskuspuisto, Puolarmaari 12",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-15",
+            "ReasonCancelled": "Awaiting season restart"
+          }
+        ],
         "Website": "https://www.parkrun.fi/puolarmaari",
         "Country": "Finland",
         "State": "Uusimaa",
         "County": "Helsinki",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Puolarmaari parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fi/puolarmaari\">parkrun.fi/puolarmaari</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Puolarmaari parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 15&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Awaiting season restart</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fi/puolarmaari\">parkrun.fi/puolarmaari</a></td></tr></table>",
         "Special Days": {}
       }
     },
