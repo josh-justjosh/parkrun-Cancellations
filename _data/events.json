@@ -486,13 +486,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Thames Riverside, Reading",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-15",
+            "ReasonCancelled": "Paths still flooded following recent heavy rain"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/reading",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Wokingham",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Reading parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/reading\">parkrun.org.uk/reading</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Reading parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 15&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Paths still flooded following recent heavy rain</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/reading\">parkrun.org.uk/reading</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -24515,34 +24520,6 @@
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
-      }
-    },
-    {
-      "id": 1247,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          26.727413,
-          -30.682118
-        ]
-      },
-      "properties": {
-        "eventname": "aliwalnorth",
-        "EventLongName": "Aliwal North parkrun",
-        "EventShortName": "Aliwal North",
-        "LocalisedEventLongName": null,
-        "countrycode": 85,
-        "seriesid": 1,
-        "EventLocation": "Aliwal North",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.co.za/aliwalnorth",
-        "Country": "South Africa",
-        "State": "Eastern Cape",
-        "County": "Joe Gqabi District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Aliwal North parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/aliwalnorth\">parkrun.co.za/aliwalnorth</a></td></tr></table>",
-        "Special Days": {}
       }
     },
     {
@@ -62181,13 +62158,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "City Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-15",
+            "ReasonCancelled": "DocDash 5k happening in the park"
+          }
+        ],
         "Website": "https://www.parkrun.us/cityparkiowa",
         "Country": "USA",
         "State": "Iowa",
         "County": "Johnson",
-        "description": "<h4 style=\"margin: 0 0 8px;\">City Park parkrun, Iowa</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/cityparkiowa\">parkrun.us/cityparkiowa</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">City Park parkrun, Iowa</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 15&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>DocDash 5k happening in the park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/cityparkiowa\">parkrun.us/cityparkiowa</a></td></tr></table>",
         "Special Days": {}
       }
     },
