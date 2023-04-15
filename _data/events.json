@@ -3439,6 +3439,34 @@
       }
     },
     {
+      "id": 128,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.161906,
+          52.236675
+        ]
+      },
+      "properties": {
+        "eventname": "miltoncountry",
+        "EventLongName": "Milton Country parkrun",
+        "EventShortName": "Milton Country",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Milton Country Park, Cambridge",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/miltoncountry",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Cambridgeshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Milton Country parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/miltoncountry\">parkrun.org.uk/miltoncountry</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 129,
       "type": "Feature",
       "geometry": {
@@ -47740,13 +47768,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Gillies Lake",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-15",
+            "ReasonCancelled": "Snow is rapidly melting; many muddy sections"
+          }
+        ],
         "Website": "https://www.parkrun.ca/gillieslake",
         "Country": "Canada",
         "State": "Ontario",
         "County": "Cochrane District",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Gillies Lake parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/gillieslake\">parkrun.ca/gillieslake</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Gillies Lake parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 15&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Snow is rapidly melting; many muddy sections</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/gillieslake\">parkrun.ca/gillieslake</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -64911,13 +64944,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Memorial Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-15",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/memorialpark",
         "Country": "Australia",
         "State": "South Australia",
         "County": "Port Pirie City and Dists",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Memorial Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/memorialpark\">parkrun.com.au/memorialpark</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Memorial Park parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 15&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/memorialpark\">parkrun.com.au/memorialpark</a></td></tr></table>",
         "Special Days": {}
       }
     },
