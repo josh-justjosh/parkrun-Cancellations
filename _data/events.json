@@ -42153,13 +42153,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Lakeland Forum",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-16",
+            "ReasonCancelled": "Poor track conditions, impassable due to flooding"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/broadmeadow-juniors",
         "Country": "United Kingdom",
         "State": "Northern Ireland",
         "County": "Fermanagh",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Broadmeadow junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/broadmeadow-juniors\">parkrun.org.uk/broadmeadow-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Broadmeadow junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 16&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Poor track conditions, impassable due to flooding</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/broadmeadow-juniors\">parkrun.org.uk/broadmeadow-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
