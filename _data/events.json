@@ -66593,6 +66593,34 @@
       }
     },
     {
+      "id": 3241,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.844099,
+          -36.316612
+        ]
+      },
+      "properties": {
+        "eventname": "yackandandahrailtrail",
+        "EventLongName": "Yackandandah Rail Trail parkrun",
+        "EventShortName": "Yackandandah Rail Trail",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "Yackandandah Rail Trail",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.au/yackandandahrailtrail",
+        "Country": "Australia",
+        "State": "Victoria",
+        "County": "Indigo",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Yackandandah Rail Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/yackandandahrailtrail\">parkrun.com.au/yackandandahrailtrail</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 3242,
       "type": "Feature",
       "geometry": {
@@ -66617,6 +66645,39 @@
         "State": "Friesland",
         "County": "S\u00fbdwest Frysl\u00e2n",
         "description": "<h4 style=\"margin: 0 0 8px;\">De Potten parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nl/depotten\">parkrun.co.nl/depotten</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3248,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.306102,
+          -25.827579
+        ]
+      },
+      "properties": {
+        "eventname": "moreletaparkgemeente",
+        "EventLongName": "Moreletapark Gemeente parkrun",
+        "EventShortName": "Moreletapark Gemeente",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Moreletapark Gemeente",
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-22",
+            "ReasonCancelled": "Event starts on 29 April 2023"
+          }
+        ],
+        "Website": "https://www.parkrun.co.za/moreletaparkgemeente",
+        "Country": "South Africa",
+        "State": "Gauteng",
+        "County": "City of Tshwane Metropolitan Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Moreletapark Gemeente parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Event starts on 29 April 2023</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/moreletaparkgemeente\">parkrun.co.za/moreletaparkgemeente</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -66733,30 +66794,58 @@
       }
     },
     {
-      "id": 3267,
+      "id": 3261,
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.353999,
-          51.634782
+          -70.487389,
+          43.476602
         ]
       },
       "properties": {
-        "eventname": "huttonrecreationground-juniors",
-        "EventLongName": "Hutton Recreation Ground junior parkrun",
-        "EventShortName": "Hutton Recreation Ground juniors",
+        "eventname": "easterntrailbiddeford",
+        "EventLongName": "Eastern Trail parkrun, Biddeford",
+        "EventShortName": "Eastern Trail, Biddeford",
+        "LocalisedEventLongName": null,
+        "countrycode": 98,
+        "seriesid": 1,
+        "EventLocation": "Biddeford Eastern Trail",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.us/easterntrailbiddeford",
+        "Country": "USA",
+        "State": "Maine",
+        "County": "York",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Eastern Trail parkrun, Biddeford</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/easterntrailbiddeford\">parkrun.us/easterntrailbiddeford</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3269,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.500452,
+          51.63791
+        ]
+      },
+      "properties": {
+        "eventname": "kinggeorgevplayingfield-juniors",
+        "EventLongName": "King GeorgeV Playing Field junior parkrun, MillEnd",
+        "EventShortName": "King George V Playing Field juniors",
         "LocalisedEventLongName": null,
         "countrycode": 97,
         "seriesid": 2,
-        "EventLocation": "Hutton Recreation Ground",
+        "EventLocation": "King George V Playing Field",
         "Status": "junior parkrunning",
         "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/huttonrecreationground-juniors",
+        "Website": "https://www.parkrun.org.uk/kinggeorgevplayingfield-juniors",
         "Country": "United Kingdom",
         "State": "England",
-        "County": "Essex",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hutton Recreation Ground junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/huttonrecreationground-juniors\">parkrun.org.uk/huttonrecreationground-juniors</a></td></tr></table>",
+        "County": "Hertfordshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">King GeorgeV Playing Field junior parkrun, MillEnd</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/kinggeorgevplayingfield-juniors\">parkrun.org.uk/kinggeorgevplayingfield-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     }
