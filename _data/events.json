@@ -23657,13 +23657,18 @@
         "countrycode": 42,
         "seriesid": 1,
         "EventLocation": "Lees Road Sport and Amenity Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-22",
+            "ReasonCancelled": "No available Volunteer for Run Director"
+          }
+        ],
         "Website": "https://www.parkrun.ie/leesroad",
         "Country": "Ireland",
         "State": "Munster",
         "County": "Clare",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Lees Road parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/leesroad\">parkrun.ie/leesroad</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Lees Road parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>No available Volunteer for Run Director</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/leesroad\">parkrun.ie/leesroad</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -38670,13 +38675,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Aspen Recreation Centre",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-22",
+            "ReasonCancelled": "winter conditions"
+          }
+        ],
         "Website": "https://www.parkrun.us/aspen",
         "Country": "USA",
         "State": "Colorado",
         "County": "Pitkin",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Aspen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/aspen\">parkrun.us/aspen</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Aspen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>winter conditions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/aspen\">parkrun.us/aspen</a></td></tr></table>",
         "Special Days": {}
       }
     },
