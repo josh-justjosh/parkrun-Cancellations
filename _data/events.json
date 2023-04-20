@@ -24012,13 +24012,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Forest Lake Sports Fields",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-22",
+            "ReasonCancelled": "Council maintenance work on the course"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/forestlake",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Brisbane",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Forest Lake parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/forestlake\">parkrun.com.au/forestlake</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Forest Lake parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Council maintenance work on the course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/forestlake\">parkrun.com.au/forestlake</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning"
       }
