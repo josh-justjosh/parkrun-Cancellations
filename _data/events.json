@@ -718,18 +718,13 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Platt Fields Park",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Major EID event in the park"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/southmanchester",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Manchester",
-        "description": "<h4 style=\"margin: 0 0 8px;\">South Manchester parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Major EID event in the park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/southmanchester\">parkrun.org.uk/southmanchester</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">South Manchester parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/southmanchester\">parkrun.org.uk/southmanchester</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -2138,13 +2133,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Victoria Park, Belfast",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-30",
+            "ReasonCancelled": "Due to Belfast city marathon on the same day"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/belfastvictoria-juniors",
         "Country": "United Kingdom",
         "State": "Northern Ireland",
         "County": "Belfast",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Belfast Victoria junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/belfastvictoria-juniors\">parkrun.org.uk/belfastvictoria-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Belfast Victoria junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 30&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Due to Belfast city marathon on the same day</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/belfastvictoria-juniors\">parkrun.org.uk/belfastvictoria-juniors</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -3067,13 +3067,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Arena Sports Centre",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-30",
+            "ReasonCancelled": "Football event at venue"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/bognorregis-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "West Sussex",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bognor Regis junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/bognorregis-juniors\">parkrun.org.uk/bognorregis-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bognor Regis junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 30&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Football event at venue</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/bognorregis-juniors\">parkrun.org.uk/bognorregis-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -4870,13 +4875,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Markeaton",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-29",
+            "ReasonCancelled": "Circus Starr event in park."
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/markeaton",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Derby",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Markeaton parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/markeaton\">parkrun.org.uk/markeaton</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Markeaton parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Circus Starr event in park.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/markeaton\">parkrun.org.uk/markeaton</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -6751,18 +6761,13 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Acton Park",
-        "Status": "junior Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-23",
-            "ReasonCancelled": "Eid in the park"
-          }
-        ],
+        "Status": "junior parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/acton-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Greater London",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Acton junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 23&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Eid in the park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/acton-juniors\">parkrun.org.uk/acton-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Acton junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/acton-juniors\">parkrun.org.uk/acton-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -7355,18 +7360,13 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Maldon Promenade Park",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Another event in the park"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/maldonprom",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Essex",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Maldon Prom parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Another event in the park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/maldonprom\">parkrun.org.uk/maldonprom</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Maldon Prom parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/maldonprom\">parkrun.org.uk/maldonprom</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -7506,18 +7506,13 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "The Rye",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "High capacity Eid event in park;key paths unusable"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/wycomberye",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Buckinghamshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Wycombe Rye parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>High capacity Eid event in park;key paths unusable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wycomberye\">parkrun.org.uk/wycomberye</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Wycombe Rye parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wycomberye\">parkrun.org.uk/wycomberye</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -7998,18 +7993,13 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Bryn Bach country park",
-        "Status": "junior Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-23",
-            "ReasonCancelled": "Venue unavailable"
-          }
-        ],
+        "Status": "junior parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/brynbach-juniors",
         "Country": "United Kingdom",
         "State": "Wales",
         "County": "Blaenau Gwent",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bryn Bach junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 23&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/brynbach-juniors\">parkrun.org.uk/brynbach-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bryn Bach junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/brynbach-juniors\">parkrun.org.uk/brynbach-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -8375,18 +8365,13 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Hanley Park, Hanley",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Venue unavailable"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/hanley",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Stoke-on-Trent",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hanley parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hanley\">parkrun.org.uk/hanley</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hanley parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hanley\">parkrun.org.uk/hanley</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -9592,18 +9577,13 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Wallace Park",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Mayors Family Fun Day in park"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/wallace",
         "Country": "United Kingdom",
         "State": "Northern Ireland",
         "County": "Antrim",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Wallace parkrun, Lisburn</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Mayors Family Fun Day in park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wallace\">parkrun.org.uk/wallace</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Wallace parkrun, Lisburn</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wallace\">parkrun.org.uk/wallace</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning"
       }
@@ -9743,13 +9723,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Reigate Priory Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-30",
+            "ReasonCancelled": "YMCA hosting Festival of Sport in Priory Park"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/reigatepriory-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Surrey",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Reigate Priory junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/reigatepriory-juniors\">parkrun.org.uk/reigatepriory-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Reigate Priory junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 30&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>YMCA hosting Festival of Sport in Priory Park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/reigatepriory-juniors\">parkrun.org.uk/reigatepriory-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -10635,7 +10620,7 @@
         "Status": "5k Cancellation",
         "Cancellations": [
           {
-            "DateCancelled": "2023-04-22",
+            "DateCancelled": "2023-04-29",
             "ReasonCancelled": "parkrun est actuellement suspendu en France"
           }
         ],
@@ -10643,7 +10628,7 @@
         "Country": "France",
         "State": "Nouvelle-Aquitaine",
         "County": "Gironde",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun des Dougnes, Cubnezais</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>parkrun est actuellement suspendu en France</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fr/lesdougnes\">parkrun.fr/lesdougnes</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun des Dougnes, Cubnezais</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>parkrun est actuellement suspendu en France</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fr/lesdougnes\">parkrun.fr/lesdougnes</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -11128,13 +11113,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Big Bay",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-27",
+            "ReasonCancelled": "No volunteer team available to host the event"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/bigbay",
         "Country": "South Africa",
         "State": "Western Cape",
         "County": "City of Cape Town",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Big Bay parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/bigbay\">parkrun.co.za/bigbay</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Big Bay parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Thursday, 27&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>No volunteer team available to host the event</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/bigbay\">parkrun.co.za/bigbay</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -11212,18 +11202,13 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Clermont",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "City using park"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.us/clermontwaterfront",
         "Country": "USA",
         "State": "Florida",
         "County": "Lake",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Clermont Waterfront parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>City using park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/clermontwaterfront\">parkrun.us/clermontwaterfront</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Clermont Waterfront parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/clermontwaterfront\">parkrun.us/clermontwaterfront</a></td></tr></table>",
         "Special Days": {},
         "Thanksgiving": "parkrunning",
         "NYD": "parkrunning"
@@ -11250,7 +11235,7 @@
         "Status": "5k Cancellation",
         "Cancellations": [
           {
-            "DateCancelled": "2023-04-22",
+            "DateCancelled": "2023-04-29",
             "ReasonCancelled": "Another event in the park"
           }
         ],
@@ -11258,7 +11243,7 @@
         "Country": "USA",
         "State": "Virginia",
         "County": "Henrico",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Deep Run parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Another event in the park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/deeprun\">parkrun.us/deeprun</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Deep Run parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Another event in the park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/deeprun\">parkrun.us/deeprun</a></td></tr></table>",
         "Special Days": {},
         "Thanksgiving": "parkrunning"
       }
@@ -11658,18 +11643,13 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Hackworth Park",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "low number of volunteers"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/hackworth",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Durham",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hackworth parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>low number of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hackworth\">parkrun.org.uk/hackworth</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hackworth parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hackworth\">parkrun.org.uk/hackworth</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning"
       }
@@ -11779,18 +11759,13 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Telford Town Park",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Event in the Park"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/telford",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Telford and Wrekin",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Telford parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Event in the Park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/telford\">parkrun.org.uk/telford</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Telford parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/telford\">parkrun.org.uk/telford</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -12133,18 +12108,13 @@
         "countrycode": 74,
         "seriesid": 1,
         "EventLocation": "Krakowskie B\u0142onia, Krakow",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "ODWO\u0141ANY ze wzgl\u0119du na Cracovia Maraton na Rolkach"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.pl/krakow",
         "Country": "Poland",
         "State": "Lesser Poland",
         "County": "Krak\u00f3w",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Krak\u00f3w</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>ODWO\u0141ANY ze wzgl\u0119du na Cracovia Maraton na Rolkach</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/krakow\">parkrun.pl/krakow</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Krak\u00f3w</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/krakow\">parkrun.pl/krakow</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -12312,18 +12282,13 @@
         "countrycode": 42,
         "seriesid": 1,
         "EventLocation": "Marlay Park",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Requested by DLRCoCo due to 'Pups In The Park'"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.ie/marlay",
         "Country": "Ireland",
         "State": "Leinster",
         "County": "Dublin",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Marlay parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Requested by DLRCoCo due to 'Pups In The Park'</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/marlay\">parkrun.ie/marlay</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Marlay parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/marlay\">parkrun.ie/marlay</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -12521,7 +12486,7 @@
         "Status": "5k Cancellation",
         "Cancellations": [
           {
-            "DateCancelled": "2023-04-22",
+            "DateCancelled": "2023-04-29",
             "ReasonCancelled": "Course unsafe or blocked"
           }
         ],
@@ -12529,7 +12494,7 @@
         "Country": "Australia",
         "State": "Western Australia",
         "County": "City of Canning",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Canning River parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/canningriver\">parkrun.com.au/canningriver</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Canning River parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/canningriver\">parkrun.com.au/canningriver</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -12930,18 +12895,13 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Central Park",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Aveley Community Festival on that day"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.com.au/aveley",
         "Country": "Australia",
         "State": "Western Australia",
         "County": "Swan",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Aveley parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Aveley Community Festival on that day</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/aveley\">parkrun.com.au/aveley</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Aveley parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/aveley\">parkrun.com.au/aveley</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -13079,18 +13039,13 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "North Shore",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Unable to fulfil the required number of volunteer"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.com.au/northshore",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Townsville",
-        "description": "<h4 style=\"margin: 0 0 8px;\">North Shore parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Unable to fulfil the required number of volunteer</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/northshore\">parkrun.com.au/northshore</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">North Shore parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/northshore\">parkrun.com.au/northshore</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -14323,18 +14278,13 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Clumber Park",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Duathlon taking place in park"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/clumberpark",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Nottinghamshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Clumber Park parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Duathlon taking place in park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/clumberpark\">parkrun.org.uk/clumberpark</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Clumber Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/clumberpark\">parkrun.org.uk/clumberpark</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -14530,18 +14480,13 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Greenpoint Park",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "New course awaiting approval"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.co.za/greenpoint",
         "Country": "South Africa",
         "State": "Western Cape",
         "County": "City of Cape Town",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Greenpoint parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>New course awaiting approval</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/greenpoint\">parkrun.co.za/greenpoint</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Greenpoint parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/greenpoint\">parkrun.co.za/greenpoint</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -14737,13 +14682,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "St Francis Links",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-27",
+            "ReasonCancelled": "Unfortunately the venue cannot accommodate"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/stfrancis",
         "Country": "South Africa",
         "State": "Eastern Cape",
         "County": "Sarah Baartman District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">St Francis parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/stfrancis\">parkrun.co.za/stfrancis</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">St Francis parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Thursday, 27&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Unfortunately the venue cannot accommodate</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/stfrancis\">parkrun.co.za/stfrancis</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -14995,13 +14945,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Port Macquarie",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-29",
+            "ReasonCancelled": "Ride the Wave festival taking over Alban Place"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/portmacquarie",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Port Macquarie-Hastings",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Port Macquarie parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/portmacquarie\">parkrun.com.au/portmacquarie</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Port Macquarie parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Ride the Wave festival taking over Alban Place</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/portmacquarie\">parkrun.com.au/portmacquarie</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -18353,18 +18308,13 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Maribyrnong",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "path upgrade works (Maribyrnong City Council)"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.com.au/maribyrnong",
         "Country": "Australia",
         "State": "Victoria",
         "County": "Maribyrnong",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Maribyrnong parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>path upgrade works (Maribyrnong City Council)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/maribyrnong\">parkrun.com.au/maribyrnong</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Maribyrnong parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/maribyrnong\">parkrun.com.au/maribyrnong</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -18388,18 +18338,13 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Pittsworth",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Major horse event using venue"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.com.au/pittsworth",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Toowoomba",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Pittsworth parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Major horse event using venue</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/pittsworth\">parkrun.com.au/pittsworth</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Pittsworth parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/pittsworth\">parkrun.com.au/pittsworth</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -18538,18 +18483,13 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Parsloes Park",
-        "Status": "junior Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-23",
-            "ReasonCancelled": "Core team unavailable due to TCS London Marathon"
-          }
-        ],
+        "Status": "junior parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/barkinganddagenham-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Greater London",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Barking and Dagenham junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 23&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Core team unavailable due to TCS London Marathon</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/barkinganddagenham-juniors\">parkrun.org.uk/barkinganddagenham-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Barking and Dagenham junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/barkinganddagenham-juniors\">parkrun.org.uk/barkinganddagenham-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -18832,13 +18772,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Queens Avenue",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-29",
+            "ReasonCancelled": "military requirements"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/rushmoor",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Hampshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Rushmoor parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/rushmoor\">parkrun.org.uk/rushmoor</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Rushmoor parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>military requirements</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/rushmoor\">parkrun.org.uk/rushmoor</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -19841,7 +19786,7 @@
         "Status": "5k Cancellation",
         "Cancellations": [
           {
-            "DateCancelled": "2023-04-22",
+            "DateCancelled": "2023-04-29",
             "ReasonCancelled": "Course closed due to flooding"
           }
         ],
@@ -19849,7 +19794,7 @@
         "Country": "Australia",
         "State": "South Australia",
         "County": "Murray Bridge",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Murray Bridge parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course closed due to flooding</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/murraybridge\">parkrun.com.au/murraybridge</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Murray Bridge parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course closed due to flooding</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/murraybridge\">parkrun.com.au/murraybridge</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -20245,7 +20190,7 @@
         "Status": "5k Cancellation",
         "Cancellations": [
           {
-            "DateCancelled": "2023-04-22",
+            "DateCancelled": "2023-04-29",
             "ReasonCancelled": "Final stages of park redevelopment"
           }
         ],
@@ -20253,7 +20198,7 @@
         "Country": "United Kingdom",
         "State": "England",
         "County": "Surrey",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cranleigh parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Final stages of park redevelopment</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cranleigh\">parkrun.org.uk/cranleigh</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cranleigh parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Final stages of park redevelopment</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cranleigh\">parkrun.org.uk/cranleigh</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -20275,13 +20220,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Geographe Bay Rd",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-29",
+            "ReasonCancelled": "due to Busselton 100 event"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/geographebay",
         "Country": "Australia",
         "State": "Western Australia",
         "County": "Busselton",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Geographe Bay parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/geographebay\">parkrun.com.au/geographebay</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Geographe Bay parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>due to Busselton 100 event</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/geographebay\">parkrun.com.au/geographebay</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -21934,18 +21884,13 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Tonga Village",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-23",
-            "ReasonCancelled": "lack of volunteers"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.co.za/nkomazi",
         "Country": "South Africa",
         "State": "Mpumalanga",
         "County": "Ehlanzeni District",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Nkomazi parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 23&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>lack of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/nkomazi\">parkrun.co.za/nkomazi</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Nkomazi parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/nkomazi\">parkrun.co.za/nkomazi</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -22593,18 +22538,13 @@
         "countrycode": 65,
         "seriesid": 1,
         "EventLocation": "Otaihanga Domain",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Flooding;Waikanae River has overtopped the course"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.co.nz/kapiticoast",
         "Country": "New Zealand",
         "State": "Wellington",
         "County": "Kapiti Coast District",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Kapiti Coast parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Flooding;Waikanae River has overtopped the course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/kapiticoast\">parkrun.co.nz/kapiticoast</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Kapiti Coast parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/kapiticoast\">parkrun.co.nz/kapiticoast</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -23692,18 +23632,13 @@
         "countrycode": 42,
         "seriesid": 1,
         "EventLocation": "Lees Road Sport and Amenity Park",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "No available Volunteer for Run Director"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.ie/leesroad",
         "Country": "Ireland",
         "State": "Munster",
         "County": "Clare",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Lees Road parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>No available Volunteer for Run Director</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/leesroad\">parkrun.ie/leesroad</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Lees Road parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/leesroad\">parkrun.ie/leesroad</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -24042,18 +23977,13 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Forest Lake Sports Fields",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Council maintenance work on the course"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.com.au/forestlake",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Brisbane",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Forest Lake parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Council maintenance work on the course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/forestlake\">parkrun.com.au/forestlake</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Forest Lake parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/forestlake\">parkrun.com.au/forestlake</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning"
       }
@@ -24076,18 +24006,13 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Lesnes Abbey Woods Park",
-        "Status": "junior Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-23",
-            "ReasonCancelled": "Run Directors helping at London marathon event"
-          }
-        ],
+        "Status": "junior parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/lesnesabbeywoods-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Greater London",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Lesnes Abbey Woods junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 23&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Run Directors helping at London marathon event</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/lesnesabbeywoods-juniors\">parkrun.org.uk/lesnesabbeywoods-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Lesnes Abbey Woods junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/lesnesabbeywoods-juniors\">parkrun.org.uk/lesnesabbeywoods-juniors</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -24366,13 +24291,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Sugar Rush Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-27",
+            "ReasonCancelled": "No volunteers available"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/ballito",
         "Country": "South Africa",
         "State": "KwaZulu-Natal",
         "County": "iLembe District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ballito parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ballito\">parkrun.co.za/ballito</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ballito parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Thursday, 27&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>No volunteers available</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ballito\">parkrun.co.za/ballito</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -25561,13 +25491,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Victoria Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-30",
+            "ReasonCancelled": "Mid-Sussex Marathon Event in park"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/haywardsheath-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "West Sussex",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Haywards Heath junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/haywardsheath-juniors\">parkrun.org.uk/haywardsheath-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Haywards Heath junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 30&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Mid-Sussex Marathon Event in park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/haywardsheath-juniors\">parkrun.org.uk/haywardsheath-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -25930,13 +25865,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Witton Country Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-29",
+            "ReasonCancelled": "Restricted Rocks Festival"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/witton",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Blackburn with Darwen",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Witton parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/witton\">parkrun.org.uk/witton</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Witton parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Restricted Rocks Festival</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/witton\">parkrun.org.uk/witton</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning"
       }
@@ -27915,13 +27855,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Monkton Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-30",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/chippenham-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Wiltshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Chippenham junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/chippenham-juniors\">parkrun.org.uk/chippenham-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Chippenham junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 30&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/chippenham-juniors\">parkrun.org.uk/chippenham-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -28118,7 +28063,7 @@
         "Status": "5k Cancellation",
         "Cancellations": [
           {
-            "DateCancelled": "2023-04-22",
+            "DateCancelled": "2023-04-29",
             "ReasonCancelled": "parkrun est actuellement suspendu en France"
           }
         ],
@@ -28126,7 +28071,7 @@
         "Country": "France",
         "State": "\u00cele-de-France",
         "County": "Paris",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun du Bois de Boulogne, Paris</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>parkrun est actuellement suspendu en France</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fr/boisdeboulogne\">parkrun.fr/boisdeboulogne</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun du Bois de Boulogne, Paris</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>parkrun est actuellement suspendu en France</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fr/boisdeboulogne\">parkrun.fr/boisdeboulogne</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -28151,7 +28096,7 @@
         "Status": "5k Cancellation",
         "Cancellations": [
           {
-            "DateCancelled": "2023-04-22",
+            "DateCancelled": "2023-04-29",
             "ReasonCancelled": "parkrun est actuellement suspendu en France"
           }
         ],
@@ -28159,7 +28104,7 @@
         "Country": "France",
         "State": "Bourgogne-Franche-Comt\u00e9",
         "County": "Sa\u00f4ne-et-Loire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun du Ch\u00e2teau de Pierre de Bresse</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>parkrun est actuellement suspendu en France</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fr/chateaudepierredebresse\">parkrun.fr/chateaudepierredebresse</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun du Ch\u00e2teau de Pierre de Bresse</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>parkrun est actuellement suspendu en France</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fr/chateaudepierredebresse\">parkrun.fr/chateaudepierredebresse</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -28554,13 +28499,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Botha\u2019s Hill",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-27",
+            "ReasonCancelled": "Insufficient volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/thousandhills",
         "Country": "South Africa",
         "State": "KwaZulu-Natal",
         "County": "eThekwini Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Thousand Hills parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/thousandhills\">parkrun.co.za/thousandhills</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Thousand Hills parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Thursday, 27&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Insufficient volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/thousandhills\">parkrun.co.za/thousandhills</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -28643,15 +28593,15 @@
         "Status": "5k Cancellation",
         "Cancellations": [
           {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Speyside Stages Rally taking place in the park"
+            "DateCancelled": "2023-04-29",
+            "ReasonCancelled": "MacMoray Music Festival taking place in the park"
           }
         ],
         "Website": "https://www.parkrun.org.uk/elgin",
         "Country": "United Kingdom",
         "State": "Scotland",
         "County": "Moray",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Elgin parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Speyside Stages Rally taking place in the park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/elgin\">parkrun.org.uk/elgin</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Elgin parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>MacMoray Music Festival taking place in the park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/elgin\">parkrun.org.uk/elgin</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -28761,18 +28711,13 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Central Park",
-        "Status": "junior Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-23",
-            "ReasonCancelled": "St George's day parade taking place in the park"
-          }
-        ],
+        "Status": "junior parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/dartford-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Kent",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Dartford junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 23&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>St George's day parade taking place in the park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/dartford-juniors\">parkrun.org.uk/dartford-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Dartford junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/dartford-juniors\">parkrun.org.uk/dartford-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -29372,7 +29317,11 @@
         "Status": "5k Cancellation",
         "Cancellations": [
           {
-            "DateCancelled": "2023-04-22",
+            "DateCancelled": "2023-04-27",
+            "ReasonCancelled": "The park is not accessible on this holiday"
+          },
+          {
+            "DateCancelled": "2023-04-29",
             "ReasonCancelled": "Route is being changed"
           }
         ],
@@ -29380,7 +29329,7 @@
         "Country": "South Africa",
         "State": "KwaZulu-Natal",
         "County": "uThungulu District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Richards Bay parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Route is being changed</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/richardsbay\">parkrun.co.za/richardsbay</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Richards Bay parkrun</h4><table><tr><th>Status:</th><td colspan=2 >5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Thursday, 27&nbsp;April&nbsp;2023</td><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>The park is not accessible on this holiday</td><td>Route is being changed</td></tr><tr><th>Website:</th><td colspan=2 ><a href=\"https://www.parkrun.co.za/richardsbay\">parkrun.co.za/richardsbay</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -29486,18 +29435,13 @@
         "countrycode": 74,
         "seriesid": 1,
         "EventLocation": "Park Zwierzyniecki, Bia\u0142ystok",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Absence of coordinators and volunteers"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.pl/bialystok",
         "Country": "Poland",
         "State": "Podlasie",
         "County": "Bia\u0142ystok",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Bia\u0142ystok</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Absence of coordinators and volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/bialystok\">parkrun.pl/bialystok</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Bia\u0142ystok</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/bialystok\">parkrun.pl/bialystok</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -29581,7 +29525,7 @@
         "Status": "5k Cancellation",
         "Cancellations": [
           {
-            "DateCancelled": "2023-04-22",
+            "DateCancelled": "2023-04-29",
             "ReasonCancelled": "parkrun est actuellement suspendu en France"
           }
         ],
@@ -29589,7 +29533,7 @@
         "Country": "France",
         "State": "Occitanie",
         "County": "Upper Garonne",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun de la Ram\u00e9e</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>parkrun est actuellement suspendu en France</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fr/laramee\">parkrun.fr/laramee</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun de la Ram\u00e9e</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>parkrun est actuellement suspendu en France</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fr/laramee\">parkrun.fr/laramee</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -29697,13 +29641,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Ormeau Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-30",
+            "ReasonCancelled": "Belfast City Marathon taking place in park"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/ormeau-juniors",
         "Country": "United Kingdom",
         "State": "Northern Ireland",
         "County": "Belfast",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ormeau junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/ormeau-juniors\">parkrun.org.uk/ormeau-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ormeau junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 30&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Belfast City Marathon taking place in park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/ormeau-juniors\">parkrun.org.uk/ormeau-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -29781,18 +29730,13 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Bitts Park",
-        "Status": "junior Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-23",
-            "ReasonCancelled": "RA not signed off & in place"
-          }
-        ],
+        "Status": "junior parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/carlisle-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Cumbria",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Carlisle junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 23&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>RA not signed off & in place</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/carlisle-juniors\">parkrun.org.uk/carlisle-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Carlisle junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/carlisle-juniors\">parkrun.org.uk/carlisle-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -29814,18 +29758,13 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Carmarthen Park",
-        "Status": "junior Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-23",
-            "ReasonCancelled": "Park being used for cycling event"
-          }
-        ],
+        "Status": "junior parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/carmarthen-juniors",
         "Country": "United Kingdom",
         "State": "Wales",
         "County": "Carmarthenshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Carmarthen junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 23&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Park being used for cycling event</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/carmarthen-juniors\">parkrun.org.uk/carmarthen-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Carmarthen junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/carmarthen-juniors\">parkrun.org.uk/carmarthen-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -31310,7 +31249,7 @@
         "Status": "5k Cancellation",
         "Cancellations": [
           {
-            "DateCancelled": "2023-04-22",
+            "DateCancelled": "2023-04-29",
             "ReasonCancelled": "parkrun est actuellement suspendu en France"
           }
         ],
@@ -31318,7 +31257,7 @@
         "Country": "France",
         "State": "\u00cele-de-France",
         "County": "Paris",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun de Montsouris</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>parkrun est actuellement suspendu en France</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fr/montsouris\">parkrun.fr/montsouris</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun de Montsouris</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>parkrun est actuellement suspendu en France</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fr/montsouris\">parkrun.fr/montsouris</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -31544,7 +31483,7 @@
         "Status": "5k Cancellation",
         "Cancellations": [
           {
-            "DateCancelled": "2023-04-22",
+            "DateCancelled": "2023-04-29",
             "ReasonCancelled": "parkrun est actuellement suspendu en France"
           }
         ],
@@ -31552,7 +31491,7 @@
         "Country": "France",
         "State": "\u00cele-de-France",
         "County": "Seine-et-Marne",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun de Fontainebleau</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>parkrun est actuellement suspendu en France</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fr/fontainebleau\">parkrun.fr/fontainebleau</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun de Fontainebleau</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>parkrun est actuellement suspendu en France</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fr/fontainebleau\">parkrun.fr/fontainebleau</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -32026,13 +31965,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Westridge Gardens",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-27",
+            "ReasonCancelled": "No parkrun will be held on this day"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/mitchellsplain",
         "Country": "South Africa",
         "State": "Western Cape",
         "County": "City of Cape Town",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Mitchells Plain parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/mitchellsplain\">parkrun.co.za/mitchellsplain</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Mitchells Plain parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Thursday, 27&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>No parkrun will be held on this day</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/mitchellsplain\">parkrun.co.za/mitchellsplain</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -32851,13 +32795,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Kroonstad",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-27",
+            "ReasonCancelled": "Freedom day run; no core volunteers available"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/kroonstad",
         "Country": "South Africa",
         "State": "Orange Free State",
         "County": "Fezile Dabi District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Kroonstad parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kroonstad\">parkrun.co.za/kroonstad</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Kroonstad parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Thursday, 27&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Freedom day run; no core volunteers available</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kroonstad\">parkrun.co.za/kroonstad</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -32908,18 +32857,13 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "St Dominic\u2019s College Sports Fields",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "School Sport"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.co.za/welkom",
         "Country": "South Africa",
         "State": "Orange Free State",
         "County": "Lejweleputswa District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Welkom parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>School Sport</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/welkom\">parkrun.co.za/welkom</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Welkom parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/welkom\">parkrun.co.za/welkom</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -33084,18 +33028,13 @@
         "countrycode": 42,
         "seriesid": 1,
         "EventLocation": "The Demesne",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Lack of Volunteers"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.ie/castlerea",
         "Country": "Ireland",
         "State": "Connacht",
         "County": "Roscommon",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Castlerea parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Lack of Volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/castlerea\">parkrun.ie/castlerea</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Castlerea parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/castlerea\">parkrun.ie/castlerea</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -33207,7 +33146,7 @@
         "Status": "5k Cancellation",
         "Cancellations": [
           {
-            "DateCancelled": "2023-04-22",
+            "DateCancelled": "2023-04-29",
             "ReasonCancelled": "parkrun est actuellement suspendu en France"
           }
         ],
@@ -33215,7 +33154,7 @@
         "Country": "France",
         "State": "Auvergne-Rh\u00f4ne-Alpes",
         "County": "Ain",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun du Lac de Divonne</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>parkrun est actuellement suspendu en France</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fr/lacdedivonne\">parkrun.fr/lacdedivonne</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun du Lac de Divonne</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>parkrun est actuellement suspendu en France</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fr/lacdedivonne\">parkrun.fr/lacdedivonne</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -33889,18 +33828,13 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Kathu",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Horse club have compitions on."
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.co.za/kathu",
         "Country": "South Africa",
         "State": "Northern Cape",
         "County": "John Taolo Gaetsewe District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Kathu parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Horse club have compitions on.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kathu\">parkrun.co.za/kathu</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Kathu parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kathu\">parkrun.co.za/kathu</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -34150,7 +34084,7 @@
         "Status": "5k Cancellation",
         "Cancellations": [
           {
-            "DateCancelled": "2023-04-22",
+            "DateCancelled": "2023-04-29",
             "ReasonCancelled": "parkrun est actuellement suspendu en France"
           }
         ],
@@ -34158,7 +34092,7 @@
         "Country": "France",
         "State": "Normandy",
         "County": "Seine-Maritime",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun de Rouen</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>parkrun est actuellement suspendu en France</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fr/rouen\">parkrun.fr/rouen</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun de Rouen</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>parkrun est actuellement suspendu en France</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fr/rouen\">parkrun.fr/rouen</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -34981,13 +34915,18 @@
         "countrycode": 42,
         "seriesid": 1,
         "EventLocation": "Darndale",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-29",
+            "ReasonCancelled": "due to another event taken place in the park"
+          }
+        ],
         "Website": "https://www.parkrun.ie/darndale",
         "Country": "Ireland",
         "State": "Leinster",
         "County": "Dublin",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Darndale parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/darndale\">parkrun.ie/darndale</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Darndale parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>due to another event taken place in the park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/darndale\">parkrun.ie/darndale</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -35037,13 +34976,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Heidelberg",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-27",
+            "ReasonCancelled": "Key volunteers not available - holiday celebration"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/rondebult",
         "Country": "South Africa",
         "State": "Gauteng",
         "County": "Ekurhuleni Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Rondebult parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/rondebult\">parkrun.co.za/rondebult</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Rondebult parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Thursday, 27&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Key volunteers not available - holiday celebration</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/rondebult\">parkrun.co.za/rondebult</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -35323,18 +35267,13 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Mary K Park",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Not enough volunteers."
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.com.au/cloncurry",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Cloncurry",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cloncurry parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Not enough volunteers.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/cloncurry\">parkrun.com.au/cloncurry</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cloncurry parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/cloncurry\">parkrun.com.au/cloncurry</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -35812,18 +35751,13 @@
         "countrycode": 42,
         "seriesid": 2,
         "EventLocation": "Marlay Park",
-        "Status": "junior Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-23",
-            "ReasonCancelled": "Dog event in park at weekend. Course not available"
-          }
-        ],
+        "Status": "junior parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.ie/marlay-juniors",
         "Country": "Ireland",
         "State": "Leinster",
         "County": "Dublin",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Marlay junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 23&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Dog event in park at weekend. Course not available</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/marlay-juniors\">parkrun.ie/marlay-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Marlay junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/marlay-juniors\">parkrun.ie/marlay-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -36841,13 +36775,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Seaclose Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-30",
+            "ReasonCancelled": "football tournament in park"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/medina-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Isle of Wight",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Medina I.O.W junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/medina-juniors\">parkrun.org.uk/medina-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Medina I.O.W junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 30&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>football tournament in park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/medina-juniors\">parkrun.org.uk/medina-juniors</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -37298,18 +37237,13 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Bodington Cycle Circuit and Playing Fiel",
-        "Status": "junior Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-23",
-            "ReasonCancelled": "Venue unavailable"
-          }
-        ],
+        "Status": "junior parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/bodington-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Leeds",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bodington junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 23&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/bodington-juniors\">parkrun.org.uk/bodington-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bodington junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/bodington-juniors\">parkrun.org.uk/bodington-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -38017,18 +37951,13 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Hazelwood Centre",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Land owner event preventing parkrun evrnt"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/hazelwood",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Surrey",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hazelwood parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Land owner event preventing parkrun evrnt</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hazelwood\">parkrun.org.uk/hazelwood</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hazelwood parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hazelwood\">parkrun.org.uk/hazelwood</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -38223,13 +38152,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "The Walks",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-30",
+            "ReasonCancelled": "GEAR event in park, key paths unusable"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/kingslynn-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Norfolk",
-        "description": "<h4 style=\"margin: 0 0 8px;\">King\u2019s Lynn junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/kingslynn-juniors\">parkrun.org.uk/kingslynn-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">King\u2019s Lynn junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 30&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>GEAR event in park, key paths unusable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/kingslynn-juniors\">parkrun.org.uk/kingslynn-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -38393,13 +38327,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Vaal Marina",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-29",
+            "ReasonCancelled": "Do 27 April instead"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/vaalmarina",
         "Country": "South Africa",
         "State": "Gauteng",
         "County": "Sedibeng District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Vaal Marina parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/vaalmarina\">parkrun.co.za/vaalmarina</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Vaal Marina parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Do 27 April instead</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/vaalmarina\">parkrun.co.za/vaalmarina</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -38740,18 +38679,13 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Aspen Recreation Centre",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "winter conditions"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.us/aspen",
         "Country": "USA",
         "State": "Colorado",
         "County": "Pitkin",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Aspen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>winter conditions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/aspen\">parkrun.us/aspen</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Aspen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/aspen\">parkrun.us/aspen</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -39005,13 +38939,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Brakpan Sport Centre",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-27",
+            "ReasonCancelled": "Lack of volunteer support due to a long weekend."
+          }
+        ],
         "Website": "https://www.parkrun.co.za/brakpan",
         "Country": "South Africa",
         "State": "Gauteng",
         "County": "Ekurhuleni Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Brakpan parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/brakpan\">parkrun.co.za/brakpan</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Brakpan parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Thursday, 27&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Lack of volunteer support due to a long weekend.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/brakpan\">parkrun.co.za/brakpan</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -39034,18 +38973,13 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "c/o R38 and R40 (across the street from ",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Current course abandoned-moving to new course soon"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.co.za/barberton",
         "Country": "South Africa",
         "State": "Mpumalanga",
         "County": "Ehlanzeni District",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Barberton parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Current course abandoned-moving to new course soon</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/barberton\">parkrun.co.za/barberton</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Barberton parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/barberton\">parkrun.co.za/barberton</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -39153,13 +39087,18 @@
         "countrycode": 42,
         "seriesid": 2,
         "EventLocation": "Shelbourne Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-30",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.ie/shelbourne-juniors",
         "Country": "Ireland",
         "State": "Munster",
         "County": "Limerick",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Shelbourne junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/shelbourne-juniors\">parkrun.ie/shelbourne-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Shelbourne junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 30&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/shelbourne-juniors\">parkrun.ie/shelbourne-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -39355,18 +39294,13 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Mountsfield Park",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Eid festival taking place in the park"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/catford",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Greater London",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Catford parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Eid festival taking place in the park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/catford\">parkrun.org.uk/catford</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Catford parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/catford\">parkrun.org.uk/catford</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -39873,18 +39807,13 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Fawcetts Field",
-        "Status": "junior Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-23",
-            "ReasonCancelled": "Lack of volunteers"
-          }
-        ],
+        "Status": "junior parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/newmilton-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Hampshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">New Milton junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 23&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Lack of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/newmilton-juniors\">parkrun.org.uk/newmilton-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">New Milton junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/newmilton-juniors\">parkrun.org.uk/newmilton-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -41387,18 +41316,13 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Teza Game Reserve",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Venue not available"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.co.za/umfolozi",
         "Country": "South Africa",
         "State": "KwaZulu-Natal",
         "County": "uThungulu District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Umfolozi parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Venue not available</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/umfolozi\">parkrun.co.za/umfolozi</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Umfolozi parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/umfolozi\">parkrun.co.za/umfolozi</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -41990,18 +41914,13 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Pakapakanthi/Victoria Park",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Equestrian event utilising park and paths"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.com.au/pakapakanthi",
         "Country": "Australia",
         "State": "South Australia",
         "County": "Adelaide",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Pakapakanthi parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Equestrian event utilising park and paths</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/pakapakanthi\">parkrun.com.au/pakapakanthi</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Pakapakanthi parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/pakapakanthi\">parkrun.com.au/pakapakanthi</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -42683,18 +42602,13 @@
         "countrycode": 74,
         "seriesid": 1,
         "EventLocation": "Lasy Komunalne, Grudzi\u0105dz",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Inny bieg na trasie parkrunu o podobnej godzinie"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.pl/grudziadz",
         "Country": "Poland",
         "State": "Kujawsko-Pomorskie",
         "County": "Grudzi\u0105dz",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Grudzi\u0105dz</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Inny bieg na trasie parkrunu o podobnej godzinie</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/grudziadz\">parkrun.pl/grudziadz</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Grudzi\u0105dz</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/grudziadz\">parkrun.pl/grudziadz</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -42886,18 +42800,13 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Henstridge Airfield",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Other event at Airfield"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/henstridgeairfield",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Somerset",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Henstridge Airfield parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Other event at Airfield</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/henstridgeairfield\">parkrun.org.uk/henstridgeairfield</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Henstridge Airfield parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/henstridgeairfield\">parkrun.org.uk/henstridgeairfield</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -43036,7 +42945,7 @@
         "Status": "5k Cancellation",
         "Cancellations": [
           {
-            "DateCancelled": "2023-04-22",
+            "DateCancelled": "2023-04-29",
             "ReasonCancelled": "Route closed due to construction of new pipeline"
           }
         ],
@@ -43044,7 +42953,7 @@
         "Country": "South Africa",
         "State": "Northern Cape",
         "County": "Namakwa District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Aggeneys parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Route closed due to construction of new pipeline</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/aggeneys\">parkrun.co.za/aggeneys</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Aggeneys parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Route closed due to construction of new pipeline</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/aggeneys\">parkrun.co.za/aggeneys</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -43097,7 +43006,7 @@
         "Status": "5k Cancellation",
         "Cancellations": [
           {
-            "DateCancelled": "2023-04-22",
+            "DateCancelled": "2023-04-29",
             "ReasonCancelled": "Works being done at showground; cannot use course"
           }
         ],
@@ -43105,7 +43014,7 @@
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Queanbeyan-Palerang Regional",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Braidwood Showground parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Works being done at showground; cannot use course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/braidwoodshowground\">parkrun.com.au/braidwoodshowground</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Braidwood Showground parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Works being done at showground; cannot use course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/braidwoodshowground\">parkrun.com.au/braidwoodshowground</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -43242,13 +43151,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Sterkfontein Heritage Lodge",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-27",
+            "ReasonCancelled": "No Event"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/sterkfontein",
         "Country": "South Africa",
         "State": "Gauteng",
         "County": "West Rand District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Sterkfontein parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/sterkfontein\">parkrun.co.za/sterkfontein</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Sterkfontein parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Thursday, 27&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>No Event</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/sterkfontein\">parkrun.co.za/sterkfontein</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -43751,18 +43665,13 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Red Star Raceway",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Event at Red Star Raceway; key paths unusable"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.co.za/redstar",
         "Country": "South Africa",
         "State": "Mpumalanga",
         "County": "Nkangala District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Red Star parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Event at Red Star Raceway; key paths unusable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/redstar\">parkrun.co.za/redstar</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Red Star parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/redstar\">parkrun.co.za/redstar</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -44235,13 +44144,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Rose Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-27",
+            "ReasonCancelled": "Volunteers are not available."
+          }
+        ],
         "Website": "https://www.parkrun.co.za/roselenasia",
         "Country": "South Africa",
         "State": "Gauteng",
         "County": "City of Johannesburg Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Rose parkrun, Lenasia</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/roselenasia\">parkrun.co.za/roselenasia</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Rose parkrun, Lenasia</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Thursday, 27&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Volunteers are not available.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/roselenasia\">parkrun.co.za/roselenasia</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -44322,18 +44236,13 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Fletcher Moss Park",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "No run directors available to go ahead"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/fletchermoss",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Manchester",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Fletcher Moss parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>No run directors available to go ahead</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/fletchermoss\">parkrun.org.uk/fletchermoss</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Fletcher Moss parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/fletchermoss\">parkrun.org.uk/fletchermoss</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -46599,18 +46508,13 @@
         "countrycode": 74,
         "seriesid": 1,
         "EventLocation": "Park na Wyspie, Pi\u0142a",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Venue unavailable"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.pl/parknawyspie",
         "Country": "Poland",
         "State": "Greater Poland",
         "County": "Powiat pilski",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Park na Wyspie, Pi\u0142a</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/parknawyspie\">parkrun.pl/parknawyspie</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Park na Wyspie, Pi\u0142a</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/parknawyspie\">parkrun.pl/parknawyspie</a></td></tr></table>",
         "Special Days": {},
         "Boxing Day": "parkrunning",
         "NYD": "parkrunning"
@@ -46862,18 +46766,13 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Glass House Mountains Conservation Park",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Unsafe area on track. Under review"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.com.au/glasshousemountainsconservation",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Moreton Bay",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Glass House Mountains Conservation parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Unsafe area on track. Under review</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/glasshousemountainsconservation\">parkrun.com.au/glasshousemountainsconservation</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Glass House Mountains Conservation parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/glasshousemountainsconservation\">parkrun.com.au/glasshousemountainsconservation</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -49063,7 +48962,7 @@
         "Status": "5k Cancellation",
         "Cancellations": [
           {
-            "DateCancelled": "2023-04-22",
+            "DateCancelled": "2023-04-29",
             "ReasonCancelled": "Flood mitigation measures"
           }
         ],
@@ -49071,7 +48970,7 @@
         "Country": "Canada",
         "State": "Alberta",
         "County": "Wood Buffalo",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Snye Point parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Flood mitigation measures</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/snyepoint\">parkrun.ca/snyepoint</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Snye Point parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Flood mitigation measures</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/snyepoint\">parkrun.ca/snyepoint</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -49406,13 +49305,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Leazes Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-29",
+            "ReasonCancelled": "Other event in park; route inaccessible"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/leazes",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Newcastle upon Tyne",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Leazes parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/leazes\">parkrun.org.uk/leazes</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Leazes parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Other event in park; route inaccessible</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/leazes\">parkrun.org.uk/leazes</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning"
       }
@@ -50263,18 +50167,13 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Milford Waterfront",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Permission issue"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/milfordwaterfront",
         "Country": "United Kingdom",
         "State": "Wales",
         "County": "Pembrokeshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Milford Waterfront parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Permission issue</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/milfordwaterfront\">parkrun.org.uk/milfordwaterfront</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Milford Waterfront parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/milfordwaterfront\">parkrun.org.uk/milfordwaterfront</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -52220,18 +52119,13 @@
         "countrycode": 46,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Venue unavailable"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.jp/hironokaigankoen",
         "Country": "Japan",
         "State": "Shizuoka",
         "County": "Shizuoka-shi",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hirono kaigankoen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/hironokaigankoen\">parkrun.jp/hironokaigankoen</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hirono kaigankoen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/hironokaigankoen\">parkrun.jp/hironokaigankoen</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -53022,18 +52916,13 @@
         "countrycode": 46,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "\u30e9\u30f3\u30c7\u30a3\u30ec\u30af\u30bf\u30fc\u4e0d\u5728"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.jp/meijokoen",
         "Country": "Japan",
         "State": "Aichi",
         "County": "Nagoya",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Meijo koen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>\u30e9\u30f3\u30c7\u30a3\u30ec\u30af\u30bf\u30fc\u4e0d\u5728</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/meijokoen\">parkrun.jp/meijokoen</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Meijo koen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/meijokoen\">parkrun.jp/meijokoen</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -53539,18 +53428,13 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Gardenhurst Estate Park",
-        "Status": "junior Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-23",
-            "ReasonCancelled": "No availability of core team"
-          }
-        ],
+        "Status": "junior parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/gardenhurstestate-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Cheshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Gardenhurst Estate junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 23&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>No availability of core team</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/gardenhurstestate-juniors\">parkrun.org.uk/gardenhurstestate-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Gardenhurst Estate junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/gardenhurstestate-juniors\">parkrun.org.uk/gardenhurstestate-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -53684,18 +53568,13 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Sutton Lawn",
-        "Status": "junior Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-23",
-            "ReasonCancelled": "Lack of volunteers"
-          }
-        ],
+        "Status": "junior parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/suttonlawn-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Nottinghamshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Sutton Lawn junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 23&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Lack of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/suttonlawn-juniors\">parkrun.org.uk/suttonlawn-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Sutton Lawn junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/suttonlawn-juniors\">parkrun.org.uk/suttonlawn-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -54514,13 +54393,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Bendigo Botanic Gardens",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-29",
+            "ReasonCancelled": "Another event approved by Council on course"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/bendigobotanicgardens",
         "Country": "Australia",
         "State": "Victoria",
         "County": "Greater Bendigo",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bendigo Botanic Gardens parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/bendigobotanicgardens\">parkrun.com.au/bendigobotanicgardens</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bendigo Botanic Gardens parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Another event approved by Council on course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/bendigobotanicgardens\">parkrun.com.au/bendigobotanicgardens</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -55170,15 +55054,15 @@
         "Status": "5k Cancellation",
         "Cancellations": [
           {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Another event is scheduled at our location."
+            "DateCancelled": "2023-04-29",
+            "ReasonCancelled": "Falls 2 Falls event happening on this date"
           }
         ],
         "Website": "https://www.parkrun.us/canyonrimtrail",
         "Country": "USA",
         "State": "Idaho",
         "County": "Twin Falls",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Canyon Rim Trail parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Another event is scheduled at our location.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/canyonrimtrail\">parkrun.us/canyonrimtrail</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Canyon Rim Trail parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Falls 2 Falls event happening on this date</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/canyonrimtrail\">parkrun.us/canyonrimtrail</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -55228,18 +55112,13 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Edgbaston Reservoir",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Another event in the park"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/edgbastonreservoir",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Birmingham",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Edgbaston Reservoir parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Another event in the park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/edgbastonreservoir\">parkrun.org.uk/edgbastonreservoir</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Edgbaston Reservoir parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/edgbastonreservoir\">parkrun.org.uk/edgbastonreservoir</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -55771,18 +55650,13 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Creekside Park",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "a charity 5k utilizing the trail"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.us/creekside",
         "Country": "USA",
         "State": "North Carolina",
         "County": "Randolph",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Creekside parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>a charity 5k utilizing the trail</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/creekside\">parkrun.us/creekside</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Creekside parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/creekside\">parkrun.us/creekside</a></td></tr></table>",
         "Special Days": {},
         "Thanksgiving": "parkrunning"
       }
@@ -55805,18 +55679,13 @@
         "countrycode": 67,
         "seriesid": 1,
         "EventLocation": "Nansenparken",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Flea market at school making a key path a H&S risk"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.no/nansenparken",
         "Country": "Norway",
         "State": "Viken",
         "County": "B\u00e6rum",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Nansenparken parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Flea market at school making a key path a H&S risk</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.no/nansenparken\">parkrun.no/nansenparken</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Nansenparken parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.no/nansenparken\">parkrun.no/nansenparken</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -55838,18 +55707,13 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "West End Park",
-        "Status": "junior Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-23",
-            "ReasonCancelled": "St George's Day event in the park."
-          }
-        ],
+        "Status": "junior parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/westend-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Cambridgeshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">West End junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 23&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>St George's Day event in the park.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/westend-juniors\">parkrun.org.uk/westend-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">West End junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/westend-juniors\">parkrun.org.uk/westend-juniors</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -56612,18 +56476,13 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Penryn Campus",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Shortage of volunteers"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/penryncampus",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Cornwall",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Penryn Campus parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/penryncampus\">parkrun.org.uk/penryncampus</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Penryn Campus parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/penryncampus\">parkrun.org.uk/penryncampus</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -57071,13 +56930,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Gracepoint Church",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-27",
+            "ReasonCancelled": "Core volunteers travelling over the long weekend"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/gracepoint",
         "Country": "South Africa",
         "State": "Gauteng",
         "County": "City of Johannesburg Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Gracepoint parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/gracepoint\">parkrun.co.za/gracepoint</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Gracepoint parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Thursday, 27&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Core volunteers travelling over the long weekend</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/gracepoint\">parkrun.co.za/gracepoint</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -57298,18 +57162,13 @@
         "countrycode": 46,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "\u30dc\u30e9\u30f3\u30c6\u30a3\u30a2\u4e0d\u8db3\u306e\u305f\u3081"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.jp/hondajima",
         "Country": "Japan",
         "State": "Aichi",
         "County": "K\u014dnan-shi",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hondajima parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>\u30dc\u30e9\u30f3\u30c6\u30a3\u30a2\u4e0d\u8db3\u306e\u305f\u3081</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/hondajima\">parkrun.jp/hondajima</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hondajima parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/hondajima\">parkrun.jp/hondajima</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -57731,18 +57590,13 @@
         "countrycode": 42,
         "seriesid": 2,
         "EventLocation": "Ringsend Park",
-        "Status": "junior Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-23",
-            "ReasonCancelled": "key paths unusable. work getting done in park"
-          }
-        ],
+        "Status": "junior parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.ie/ringsend-juniors",
         "Country": "Ireland",
         "State": "Leinster",
         "County": "Dublin",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ringsend junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 23&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>key paths unusable. work getting done in park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/ringsend-juniors\">parkrun.ie/ringsend-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ringsend junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/ringsend-juniors\">parkrun.ie/ringsend-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -58787,18 +58641,13 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Nathan Road Sports Ground",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Lack of mandatory volunteers"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.com.au/nathanroadsportsground",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Moreton Bay",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Nathan Road Sports Ground parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Lack of mandatory volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/nathanroadsportsground\">parkrun.com.au/nathanroadsportsground</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Nathan Road Sports Ground parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/nathanroadsportsground\">parkrun.com.au/nathanroadsportsground</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -59227,7 +59076,7 @@
         "Status": "5k Cancellation",
         "Cancellations": [
           {
-            "DateCancelled": "2023-04-22",
+            "DateCancelled": "2023-04-29",
             "ReasonCancelled": "\u85e4\u307e\u3064\u308a\u671f\u9593\u4e2d\u306e\u305f\u3081\u3001\u30b3\u30fc\u30b9\u4e0a\u3092\u5b89\u5168\u306b\u8d70\u308c\u306a\u3044\u305f\u3081"
           }
         ],
@@ -59235,7 +59084,7 @@
         "Country": "Japan",
         "State": "Aichi",
         "County": "Tsushima-shi",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Tennogawa koen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>\u85e4\u307e\u3064\u308a\u671f\u9593\u4e2d\u306e\u305f\u3081\u3001\u30b3\u30fc\u30b9\u4e0a\u3092\u5b89\u5168\u306b\u8d70\u308c\u306a\u3044\u305f\u3081</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/tennogawakoen\">parkrun.jp/tennogawakoen</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Tennogawa koen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>\u85e4\u307e\u3064\u308a\u671f\u9593\u4e2d\u306e\u305f\u3081\u3001\u30b3\u30fc\u30b9\u4e0a\u3092\u5b89\u5168\u306b\u8d70\u308c\u306a\u3044\u305f\u3081</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/tennogawakoen\">parkrun.jp/tennogawakoen</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -59257,18 +59106,13 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Harleston Magpies Hockey Club",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Major Hockey Tournament on Site."
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/harlestonmagpies",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Suffolk",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Harleston Magpies parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Major Hockey Tournament on Site.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/harlestonmagpies\">parkrun.org.uk/harlestonmagpies</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Harleston Magpies parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/harlestonmagpies\">parkrun.org.uk/harlestonmagpies</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -59663,18 +59507,13 @@
         "countrycode": 30,
         "seriesid": 1,
         "EventLocation": "Espoon keskuspuisto, Puolarmaari 12",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Preparing for spring restart"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.fi/puolarmaari",
         "Country": "Finland",
         "State": "Uusimaa",
         "County": "Helsinki",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Puolarmaari parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Preparing for spring restart</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fi/puolarmaari\">parkrun.fi/puolarmaari</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Puolarmaari parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fi/puolarmaari\">parkrun.fi/puolarmaari</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -59754,13 +59593,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Dallas Burston Polo Club",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-29",
+            "ReasonCancelled": "Polo Championship taking place"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/dallasburstonpoloclub",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Warwickshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Dallas Burston Polo Club parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/dallasburstonpoloclub\">parkrun.org.uk/dallasburstonpoloclub</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Dallas Burston Polo Club parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Polo Championship taking place</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/dallasburstonpoloclub\">parkrun.org.uk/dallasburstonpoloclub</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -60035,18 +59879,13 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Wentworth Common",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Sydney Royal Easter Show, course inaccessible"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.com.au/wentworthcommon",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Parramatta",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Wentworth Common parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Sydney Royal Easter Show, course inaccessible</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/wentworthcommon\">parkrun.com.au/wentworthcommon</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Wentworth Common parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/wentworthcommon\">parkrun.com.au/wentworthcommon</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -60498,18 +60337,13 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Bill Thorpe Walking Bridge",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Flooding along riverfront trail"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.ca/billthorpewalkingbridge",
         "Country": "Canada",
         "State": "New Brunswick",
         "County": "York County",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bill Thorpe Walking Bridge parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Flooding along riverfront trail</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/billthorpewalkingbridge\">parkrun.ca/billthorpewalkingbridge</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bill Thorpe Walking Bridge parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/billthorpewalkingbridge\">parkrun.ca/billthorpewalkingbridge</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -60901,13 +60735,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Southall Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-29",
+            "ReasonCancelled": "Mela in park; key path unusable"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/southall",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Greater London",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Southall parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/southall\">parkrun.org.uk/southall</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Southall parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Mela in park; key path unusable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/southall\">parkrun.org.uk/southall</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -60957,18 +60796,13 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Marine Parade",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "High Tide - No park'wade' this time!!"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/marineparade",
         "Country": "United Kingdom",
         "State": "England",
         "County": "North Somerset",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Marine Parade parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>High Tide - No park'wade' this time!!</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/marineparade\">parkrun.org.uk/marineparade</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Marine Parade parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/marineparade\">parkrun.org.uk/marineparade</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -61021,13 +60855,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Eldorado Park Stadium",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-27",
+            "ReasonCancelled": "X"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/eldoradopark",
         "Country": "South Africa",
         "State": "Gauteng",
         "County": "City of Johannesburg Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Eldorado Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/eldoradopark\">parkrun.co.za/eldoradopark</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Eldorado Park parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Thursday, 27&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>X</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/eldoradopark\">parkrun.co.za/eldoradopark</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -61477,13 +61316,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Trentham Gardens",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-29",
+            "ReasonCancelled": "Course blocked-food festival, all RDs eating cake"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/trenthamgardens",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Staffordshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Trentham Gardens parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/trenthamgardens\">parkrun.org.uk/trenthamgardens</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Trentham Gardens parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course blocked-food festival, all RDs eating cake</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/trenthamgardens\">parkrun.org.uk/trenthamgardens</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -61790,13 +61634,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Noordwyk Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-27",
+            "ReasonCancelled": "Event Core Volunteer Team Not available"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/noordwyk",
         "Country": "South Africa",
         "State": "Gauteng",
         "County": "City of Johannesburg Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Noordwyk parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/noordwyk\">parkrun.co.za/noordwyk</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Noordwyk parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Thursday, 27&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Event Core Volunteer Team Not available</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/noordwyk\">parkrun.co.za/noordwyk</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -62188,7 +62037,7 @@
         "Status": "5k Cancellation",
         "Cancellations": [
           {
-            "DateCancelled": "2023-04-22",
+            "DateCancelled": "2023-04-29",
             "ReasonCancelled": "Damage to course"
           }
         ],
@@ -62196,7 +62045,7 @@
         "Country": "Australia",
         "State": "Victoria",
         "County": "Wyndham",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Werribee Park Mansion parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Damage to course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/werribeeparkmansion\">parkrun.com.au/werribeeparkmansion</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Werribee Park Mansion parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Damage to course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/werribeeparkmansion\">parkrun.com.au/werribeeparkmansion</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -62671,18 +62520,13 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Southern Highlands Botanic Gardens",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Weekend Garden plant fair, part course unavailable"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.com.au/southernhighlandsbotanicgardens",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Wingecarribee",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Southern Highlands Botanic Gardens parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Weekend Garden plant fair, part course unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/southernhighlandsbotanicgardens\">parkrun.com.au/southernhighlandsbotanicgardens</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Southern Highlands Botanic Gardens parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/southernhighlandsbotanicgardens\">parkrun.com.au/southernhighlandsbotanicgardens</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -62929,18 +62773,13 @@
         "countrycode": 88,
         "seriesid": 1,
         "EventLocation": "Lillsj\u00f6n",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "En annan event (Lillsj\u00f6loppet) som \u00e4ger rum"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.se/lillsjon",
         "Country": "Sweden",
         "State": "Stockholm",
         "County": "Upplands-Bro Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Lillsj\u00f6n parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>En annan event (Lillsj\u00f6loppet) som \u00e4ger rum</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.se/lillsjon\">parkrun.se/lillsjon</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Lillsj\u00f6n parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.se/lillsjon\">parkrun.se/lillsjon</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -63046,13 +62885,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Horsforth Hall Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-30",
+            "ReasonCancelled": "Fun fair in the park"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/horsforthhall-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Leeds",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Horsforth Hall junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/horsforthhall-juniors\">parkrun.org.uk/horsforthhall-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Horsforth Hall junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 30&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Fun fair in the park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/horsforthhall-juniors\">parkrun.org.uk/horsforthhall-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -63617,18 +63461,13 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Alderley Park",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "conquer fitness event taking place"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/alderleypark",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Cheshire East",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Alderley Park parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>conquer fitness event taking place</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/alderleypark\">parkrun.org.uk/alderleypark</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Alderley Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/alderleypark\">parkrun.org.uk/alderleypark</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -63678,18 +63517,13 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Ward End Playing Fields",
-        "Status": "junior Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-23",
-            "ReasonCancelled": "Eid Celebrations"
-          }
-        ],
+        "Status": "junior parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/wardend-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Birmingham",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ward End junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 23&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Eid Celebrations</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wardend-juniors\">parkrun.org.uk/wardend-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ward End junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wardend-juniors\">parkrun.org.uk/wardend-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -64306,13 +64140,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Bretton Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-30",
+            "ReasonCancelled": "Another event using the course"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/brettonpark-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Peterborough",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bretton Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/brettonpark-juniors\">parkrun.org.uk/brettonpark-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bretton Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 30&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Another event using the course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/brettonpark-juniors\">parkrun.org.uk/brettonpark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -66024,18 +65863,13 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Australian Standing Stones",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-04-22",
-            "ReasonCancelled": "Construction is commencing on the Skywalks"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.com.au/australianstandingstones",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Glen Innes Severn",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Australian Standing Stones parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Construction is commencing on the Skywalks</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/australianstandingstones\">parkrun.com.au/australianstandingstones</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Australian Standing Stones parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/australianstandingstones\">parkrun.com.au/australianstandingstones</a></td></tr></table>",
         "Special Days": {}
       }
     },
