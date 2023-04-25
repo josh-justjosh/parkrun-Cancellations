@@ -55178,13 +55178,18 @@
         "countrycode": 42,
         "seriesid": 2,
         "EventLocation": "St Mary\u2019s Health Campus",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-30",
+            "ReasonCancelled": "Bank holiday weekend - volunteer shortage"
+          }
+        ],
         "Website": "https://www.parkrun.ie/stmaryscampus-juniors",
         "Country": "Ireland",
         "State": "Munster",
         "County": "Cork City",
-        "description": "<h4 style=\"margin: 0 0 8px;\">St Mary\u2019s Campus junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/stmaryscampus-juniors\">parkrun.ie/stmaryscampus-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">St Mary\u2019s Campus junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 30&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Bank holiday weekend - volunteer shortage</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/stmaryscampus-juniors\">parkrun.ie/stmaryscampus-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
