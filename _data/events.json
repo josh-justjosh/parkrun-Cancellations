@@ -7119,13 +7119,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Rossmere Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-30",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/rossmere-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Hartlepool",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Rossmere junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/rossmere-juniors\">parkrun.org.uk/rossmere-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Rossmere junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 30&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/rossmere-juniors\">parkrun.org.uk/rossmere-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -57699,13 +57704,18 @@
         "countrycode": 42,
         "seriesid": 2,
         "EventLocation": "Ringsend Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-04-30",
+            "ReasonCancelled": "waiting for confirmation from the council"
+          }
+        ],
         "Website": "https://www.parkrun.ie/ringsend-juniors",
         "Country": "Ireland",
         "State": "Leinster",
         "County": "Dublin",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ringsend junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/ringsend-juniors\">parkrun.ie/ringsend-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ringsend junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 30&nbsp;April&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>waiting for confirmation from the council</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/ringsend-juniors\">parkrun.ie/ringsend-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -67175,34 +67185,6 @@
         "State": "England",
         "County": "Hertfordshire",
         "description": "<h4 style=\"margin: 0 0 8px;\">King GeorgeV Playing Field junior parkrun, MillEnd</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/kinggeorgevplayingfield-juniors\">parkrun.org.uk/kinggeorgevplayingfield-juniors</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 3288,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.871282,
-          51.445499
-        ]
-      },
-      "properties": {
-        "eventname": "dintonpastures-juniors",
-        "EventLongName": "Dinton Pastures junior parkrun",
-        "EventShortName": "Dinton Pastures juniors",
-        "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 2,
-        "EventLocation": "Dinton Pastures Country Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/dintonpastures-juniors",
-        "Country": "United Kingdom",
-        "State": "England",
-        "County": "Wokingham",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Dinton Pastures junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/dintonpastures-juniors\">parkrun.org.uk/dintonpastures-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     }
