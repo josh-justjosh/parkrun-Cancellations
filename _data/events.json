@@ -33074,13 +33074,18 @@
         "countrycode": 42,
         "seriesid": 1,
         "EventLocation": "The Demesne",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-05-06",
+            "ReasonCancelled": "Darkness to Light Event in the Town"
+          }
+        ],
         "Website": "https://www.parkrun.ie/castlerea",
         "Country": "Ireland",
         "State": "Connacht",
         "County": "Roscommon",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Castlerea parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/castlerea\">parkrun.ie/castlerea</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Castlerea parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;May&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Darkness to Light Event in the Town</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/castlerea\">parkrun.ie/castlerea</a></td></tr></table>",
         "Special Days": {}
       }
     },
