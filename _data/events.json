@@ -253,13 +253,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Albert Park, Middlesbrough",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-05-06",
+            "ReasonCancelled": "Unable to safely run event due to lack of voluntee"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/albert",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Middlesbrough",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Albert parkrun, Middlesbrough</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/albert\">parkrun.org.uk/albert</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Albert parkrun, Middlesbrough</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;May&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Unable to safely run event due to lack of voluntee</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/albert\">parkrun.org.uk/albert</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -11824,18 +11829,13 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Highams Park",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-05-06",
-            "ReasonCancelled": "Peter May Centre Closed - Coronation Bank Holiday"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/walthamstow",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Greater London",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Walthamstow parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;May&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Peter May Centre Closed - Coronation Bank Holiday</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/walthamstow\">parkrun.org.uk/walthamstow</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Walthamstow parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/walthamstow\">parkrun.org.uk/walthamstow</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -13489,13 +13489,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Romilly Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-05-07",
+            "ReasonCancelled": "All core team are involved with another event"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/barry-juniors",
         "Country": "United Kingdom",
         "State": "Wales",
         "County": "Vale of Glamorgan",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Barry junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/barry-juniors\">parkrun.org.uk/barry-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Barry junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  7&nbsp;May&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>All core team are involved with another event</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/barry-juniors\">parkrun.org.uk/barry-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -33909,18 +33914,13 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Kathu",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-05-06",
-            "ReasonCancelled": "Venue unavailable"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.co.za/kathu",
         "Country": "South Africa",
         "State": "Northern Cape",
         "County": "John Taolo Gaetsewe District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Kathu parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;May&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kathu\">parkrun.co.za/kathu</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Kathu parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kathu\">parkrun.co.za/kathu</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -39044,13 +39044,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "c/o R38 and R40 (across the street from ",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-05-06",
+            "ReasonCancelled": "Current course abandoned-moving to new course soon"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/barberton",
         "Country": "South Africa",
         "State": "Mpumalanga",
         "County": "Ehlanzeni District",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Barberton parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/barberton\">parkrun.co.za/barberton</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Barberton parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;May&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Current course abandoned-moving to new course soon</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/barberton\">parkrun.co.za/barberton</a></td></tr></table>",
         "Special Days": {}
       }
     },
