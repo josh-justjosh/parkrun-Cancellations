@@ -62826,13 +62826,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Cottenham Recreation Ground",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-05-07",
+            "ReasonCancelled": "waterlogged course, unsafe for runners"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/cottenhamrecground-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Cambridgeshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cottenham Recreation Ground junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cottenhamrecground-juniors\">parkrun.org.uk/cottenhamrecground-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cottenham Recreation Ground junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  7&nbsp;May&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>waterlogged course, unsafe for runners</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cottenhamrecground-juniors\">parkrun.org.uk/cottenhamrecground-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
