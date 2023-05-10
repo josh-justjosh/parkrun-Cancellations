@@ -19786,6 +19786,39 @@
       }
     },
     {
+      "id": 906,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.285558,
+          -35.121567
+        ]
+      },
+      "properties": {
+        "eventname": "murraybridge",
+        "EventLongName": "Murray Bridge parkrun",
+        "EventShortName": "Murray Bridge",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "Sturt Reserve",
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-05-13",
+            "ReasonCancelled": "Course closed due to flooding"
+          }
+        ],
+        "Website": "https://www.parkrun.com.au/murraybridge",
+        "Country": "Australia",
+        "State": "South Australia",
+        "County": "Murray Bridge",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Murray Bridge parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 13&nbsp;May&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course closed due to flooding</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/murraybridge\">parkrun.com.au/murraybridge</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 907,
       "type": "Feature",
       "geometry": {
@@ -38906,6 +38939,39 @@
         "description": "<h4 style=\"margin: 0 0 8px;\">Brakpan parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/brakpan\">parkrun.co.za/brakpan</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
+      }
+    },
+    {
+      "id": 1928,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.049736,
+          -25.76011
+        ]
+      },
+      "properties": {
+        "eventname": "barberton",
+        "EventLongName": "Barberton parkrun",
+        "EventShortName": "Barberton",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "c/o R38 and R40 (across the street from ",
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-05-13",
+            "ReasonCancelled": "Current course abandoned-moving to new course soon"
+          }
+        ],
+        "Website": "https://www.parkrun.co.za/barberton",
+        "Country": "South Africa",
+        "State": "Mpumalanga",
+        "County": "Ehlanzeni District",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Barberton parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 13&nbsp;May&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Current course abandoned-moving to new course soon</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/barberton\">parkrun.co.za/barberton</a></td></tr></table>",
+        "Special Days": {}
       }
     },
     {
@@ -67317,34 +67383,6 @@
         "State": "England",
         "County": "Wokingham",
         "description": "<h4 style=\"margin: 0 0 8px;\">Dinton Pastures junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/dintonpastures-juniors\">parkrun.org.uk/dintonpastures-juniors</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 3295,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.732898,
-          62.229396
-        ]
-      },
-      "properties": {
-        "eventname": "mattilanniemi",
-        "EventLongName": "Mattilanniemi parkrun",
-        "EventShortName": "Mattilanniemi",
-        "LocalisedEventLongName": null,
-        "countrycode": 30,
-        "seriesid": 1,
-        "EventLocation": "Ravintola Piato, Mattilanniemi 2",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.fi/mattilanniemi",
-        "Country": "Finland",
-        "State": "Central Finland",
-        "County": "Jyv\u00e4skyl\u00e4",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Mattilanniemi parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fi/mattilanniemi\">parkrun.fi/mattilanniemi</a></td></tr></table>",
         "Special Days": {}
       }
     }
