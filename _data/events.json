@@ -6012,18 +6012,13 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "The Pitchcroft, Worcester Racecourse",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-05-13",
-            "ReasonCancelled": "Balloon Festival event, no public access"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/worcesterpitchcroft",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Worcestershire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Worcester Pitchcroft parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 13&nbsp;May&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Balloon Festival event, no public access</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/worcesterpitchcroft\">parkrun.org.uk/worcesterpitchcroft</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Worcester Pitchcroft parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/worcesterpitchcroft\">parkrun.org.uk/worcesterpitchcroft</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -21871,13 +21866,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Tonga Village",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-05-13",
+            "ReasonCancelled": "lack of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/nkomazi",
         "Country": "South Africa",
         "State": "Mpumalanga",
         "County": "Ehlanzeni District",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Nkomazi parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/nkomazi\">parkrun.co.za/nkomazi</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Nkomazi parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 13&nbsp;May&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>lack of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/nkomazi\">parkrun.co.za/nkomazi</a></td></tr></table>",
         "Special Days": {}
       }
     },
