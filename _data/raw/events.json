@@ -41,7 +41,7 @@
       "bounds": [
         23.759243,
         60.177056,
-        25.645077,
+        25.732898,
         65.015719
       ]
     },
@@ -166,8 +166,8 @@
       "url": "www.parkrun.org.uk",
       "bounds": [
         -7.643103,
-        49.186471,
-        1.747338,
+        35.092016,
+        33.892814,
         60.158081
       ]
     },
@@ -13865,26 +13865,6 @@
         }
       },
       {
-        "id": 906,
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            139.285558,
-            -35.121567
-          ]
-        },
-        "properties": {
-          "eventname": "murraybridge",
-          "EventLongName": "Murray Bridge parkrun",
-          "EventShortName": "Murray Bridge",
-          "LocalisedEventLongName": null,
-          "countrycode": 3,
-          "seriesid": 1,
-          "EventLocation": "Sturt Reserve"
-        }
-      },
-      {
         "id": 907,
         "type": "Feature",
         "geometry": {
@@ -27202,26 +27182,6 @@
           "countrycode": 85,
           "seriesid": 1,
           "EventLocation": "Brakpan Sport Centre"
-        }
-      },
-      {
-        "id": 1928,
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            31.049736,
-            -25.76011
-          ]
-        },
-        "properties": {
-          "eventname": "barberton",
-          "EventLongName": "Barberton parkrun",
-          "EventShortName": "Barberton",
-          "LocalisedEventLongName": null,
-          "countrycode": 85,
-          "seriesid": 1,
-          "EventLocation": "c/o R38 and R40 (across the street from "
         }
       },
       {
@@ -47162,6 +47122,26 @@
           "countrycode": 97,
           "seriesid": 2,
           "EventLocation": "Dinton Pastures Country Park"
+        }
+      },
+      {
+        "id": 3295,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            25.732898,
+            62.229396
+          ]
+        },
+        "properties": {
+          "eventname": "mattilanniemi",
+          "EventLongName": "Mattilanniemi parkrun",
+          "EventShortName": "Mattilanniemi",
+          "LocalisedEventLongName": null,
+          "countrycode": 30,
+          "seriesid": 1,
+          "EventLocation": "Ravintola Piato, Mattilanniemi 2"
         }
       }
     ]
