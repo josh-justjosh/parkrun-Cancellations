@@ -64778,13 +64778,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Play Close Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-05-14",
+            "ReasonCancelled": "40's weekend in the park"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/playclosepark-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Leicestershire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Play Close Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/playclosepark-juniors\">parkrun.org.uk/playclosepark-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Play Close Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 14&nbsp;May&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>40's weekend in the park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/playclosepark-juniors\">parkrun.org.uk/playclosepark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
