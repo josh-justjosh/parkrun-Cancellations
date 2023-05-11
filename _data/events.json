@@ -18328,13 +18328,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Maribyrnong",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-05-13",
+            "ReasonCancelled": "path upgrade works (Maribyrnong City Council)"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/maribyrnong",
         "Country": "Australia",
         "State": "Victoria",
         "County": "Maribyrnong",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Maribyrnong parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/maribyrnong\">parkrun.com.au/maribyrnong</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Maribyrnong parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 13&nbsp;May&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>path upgrade works (Maribyrnong City Council)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/maribyrnong\">parkrun.com.au/maribyrnong</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -23068,8 +23073,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.398653,
-          51.632255
+          -0.393135,
+          51.631433
         ]
       },
       "properties": {
@@ -40369,39 +40374,6 @@
       }
     },
     {
-      "id": 1996,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          30.468107,
-          -29.641673
-        ]
-      },
-      "properties": {
-        "eventname": "ashburton",
-        "EventLongName": "Ashburton parkrun",
-        "EventShortName": "Ashburton",
-        "LocalisedEventLongName": null,
-        "countrycode": 85,
-        "seriesid": 1,
-        "EventLocation": "Ashburton Training Centre",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-05-13",
-            "ReasonCancelled": "Venue unavailable"
-          }
-        ],
-        "Website": "https://www.parkrun.co.za/ashburton",
-        "Country": "South Africa",
-        "State": "KwaZulu-Natal",
-        "County": "uMgungundlovu District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ashburton parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 13&nbsp;May&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ashburton\">parkrun.co.za/ashburton</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
       "id": 1997,
       "type": "Feature",
       "geometry": {
@@ -41596,18 +41568,13 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Cnr Mudjimba Beach Esplanade and Mudjimb",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-05-13",
-            "ReasonCancelled": "Swim the Island event in local park"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.com.au/mudjimbabeach",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Sunshine Coast",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Mudjimba Beach parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 13&nbsp;May&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Swim the Island event in local park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/mudjimbabeach\">parkrun.com.au/mudjimbabeach</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Mudjimba Beach parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/mudjimbabeach\">parkrun.com.au/mudjimbabeach</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
