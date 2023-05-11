@@ -23073,8 +23073,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.393135,
-          51.631433
+          -0.398653,
+          51.632255
         ]
       },
       "properties": {
@@ -40371,6 +40371,39 @@
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
+      }
+    },
+    {
+      "id": 1996,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.468107,
+          -29.641673
+        ]
+      },
+      "properties": {
+        "eventname": "ashburton",
+        "EventLongName": "Ashburton parkrun",
+        "EventShortName": "Ashburton",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Ashburton Training Centre",
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-05-13",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
+        "Website": "https://www.parkrun.co.za/ashburton",
+        "Country": "South Africa",
+        "State": "KwaZulu-Natal",
+        "County": "uMgungundlovu District Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ashburton parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 13&nbsp;May&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ashburton\">parkrun.co.za/ashburton</a></td></tr></table>",
+        "Special Days": {}
       }
     },
     {
