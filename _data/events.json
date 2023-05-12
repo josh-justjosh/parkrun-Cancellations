@@ -57379,13 +57379,18 @@
         "countrycode": 3,
         "seriesid": 2,
         "EventLocation": "Bellevue Park State School",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-05-14",
+            "ReasonCancelled": "lack of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/bellevuepark-juniors",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Gold Coast",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bellevue Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/bellevuepark-juniors\">parkrun.com.au/bellevuepark-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bellevue Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 14&nbsp;May&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>lack of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/bellevuepark-juniors\">parkrun.com.au/bellevuepark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -64983,13 +64988,18 @@
         "countrycode": 32,
         "seriesid": 1,
         "EventLocation": "Traumschleife B\u00e4renbachpfad",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-05-13",
+            "ReasonCancelled": "Conflict with another run in the community."
+          }
+        ],
         "Website": "https://www.parkrun.com.de/traumschleifebaerenbachpfad",
         "Country": "Germany",
         "State": "Rheinland-Pfalz",
         "County": "Landkreis Birkenfeld",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Traumschleife B\u00e4renbachpfad parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/traumschleifebaerenbachpfad\">parkrun.com.de/traumschleifebaerenbachpfad</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Traumschleife B\u00e4renbachpfad parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 13&nbsp;May&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Conflict with another run in the community.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/traumschleifebaerenbachpfad\">parkrun.com.de/traumschleifebaerenbachpfad</a></td></tr></table>",
         "Special Days": {}
       }
     },
