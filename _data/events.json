@@ -35858,13 +35858,18 @@
         "countrycode": 44,
         "seriesid": 1,
         "EventLocation": "Etna",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-05-20",
+            "ReasonCancelled": "the forecast weather is bad for too wind"
+          }
+        ],
         "Website": "https://www.parkrun.it/etna",
         "Country": "Italy",
         "State": "Sicily",
         "County": "Catania",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Etna parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.it/etna\">parkrun.it/etna</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Etna parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 20&nbsp;May&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>the forecast weather is bad for too wind</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.it/etna\">parkrun.it/etna</a></td></tr></table>",
         "Special Days": {}
       }
     },
