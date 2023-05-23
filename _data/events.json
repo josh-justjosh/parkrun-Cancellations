@@ -10461,6 +10461,34 @@
       }
     },
     {
+      "id": 408,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.111272,
+          -26.15999
+        ]
+      },
+      "properties": {
+        "eventname": "huddle",
+        "EventLongName": "Huddle parkrun",
+        "EventShortName": "Huddle",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Huddle Park Golf and Recreation",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.za/huddle",
+        "Country": "South Africa",
+        "State": "Gauteng",
+        "County": "City of Johannesburg Metropolitan Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Huddle parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/huddle\">parkrun.co.za/huddle</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 410,
       "type": "Feature",
       "geometry": {
@@ -14015,13 +14043,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Durban Shongweni Club",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-05-27",
+            "ReasonCancelled": "Course unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/shongweni",
         "Country": "South Africa",
         "State": "KwaZulu-Natal",
         "County": "eThekwini Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Shongweni parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/shongweni\">parkrun.co.za/shongweni</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Shongweni parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 27&nbsp;May&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/shongweni\">parkrun.co.za/shongweni</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -18512,39 +18545,6 @@
         "State": "Western Australia",
         "County": "Stirling",
         "description": "<h4 style=\"margin: 0 0 8px;\">Carine Glades parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/carineglades\">parkrun.com.au/carineglades</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 826,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.125871,
-          51.544937
-        ]
-      },
-      "properties": {
-        "eventname": "barkinganddagenham-juniors",
-        "EventLongName": "Barking and Dagenham junior parkrun",
-        "EventShortName": "Barking and Dagenham juniors",
-        "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 2,
-        "EventLocation": "Parsloes Park",
-        "Status": "junior Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-05-28",
-            "ReasonCancelled": "Shortage of volunteers"
-          }
-        ],
-        "Website": "https://www.parkrun.org.uk/barkinganddagenham-juniors",
-        "Country": "United Kingdom",
-        "State": "England",
-        "County": "Greater London",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Barking and Dagenham junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 28&nbsp;May&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/barkinganddagenham-juniors\">parkrun.org.uk/barkinganddagenham-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -32870,13 +32870,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "St Dominic\u2019s College Sports Fields",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-05-27",
+            "ReasonCancelled": "School Sport - using all the fields"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/welkom",
         "Country": "South Africa",
         "State": "Orange Free State",
         "County": "Lejweleputswa District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Welkom parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/welkom\">parkrun.co.za/welkom</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Welkom parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 27&nbsp;May&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>School Sport - using all the fields</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/welkom\">parkrun.co.za/welkom</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -35804,6 +35809,39 @@
         "State": "Connacht",
         "County": "Galway",
         "description": "<h4 style=\"margin: 0 0 8px;\">Oughterard parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/oughterard\">parkrun.ie/oughterard</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 1783,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.998427,
+          -27.106368
+        ]
+      },
+      "properties": {
+        "eventname": "northharbour",
+        "EventLongName": "North Harbour parkrun",
+        "EventShortName": "North Harbour",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "North Harbour Heritage Park",
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-05-27",
+            "ReasonCancelled": "Event Closed"
+          }
+        ],
+        "Website": "https://www.parkrun.com.au/northharbour",
+        "Country": "Australia",
+        "State": "Queensland",
+        "County": "Moreton Bay",
+        "description": "<h4 style=\"margin: 0 0 8px;\">North Harbour parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 27&nbsp;May&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Event Closed</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/northharbour\">parkrun.com.au/northharbour</a></td></tr></table>",
         "Special Days": {}
       }
     },
