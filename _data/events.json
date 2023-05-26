@@ -47012,13 +47012,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Birdsland Reserve",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-05-27",
+            "ReasonCancelled": "Police Incident"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/birdslandreserve",
         "Country": "Australia",
         "State": "Victoria",
         "County": "Yarra Ranges",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Birdsland Reserve parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/birdslandreserve\">parkrun.com.au/birdslandreserve</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Birdsland Reserve parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 27&nbsp;May&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Police Incident</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/birdslandreserve\">parkrun.com.au/birdslandreserve</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -50924,13 +50929,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Sheffield Olympic Legacy Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-05-28",
+            "ReasonCancelled": "Shortage of volunteers due to bank holiday"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/sheffieldolp-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Sheffield",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Sheffield Olympic Legacy Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/sheffieldolp-juniors\">parkrun.org.uk/sheffieldolp-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Sheffield Olympic Legacy Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 28&nbsp;May&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers due to bank holiday</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/sheffieldolp-juniors\">parkrun.org.uk/sheffieldolp-juniors</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
