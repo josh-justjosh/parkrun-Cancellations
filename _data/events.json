@@ -6209,13 +6209,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Poole Park, Poole",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-06-03",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/poole",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Bournemouth, Christchurch and Poole Council",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Poole parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/poole\">parkrun.org.uk/poole</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Poole parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  3&nbsp;June&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/poole\">parkrun.org.uk/poole</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning"
       }
@@ -25757,13 +25762,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Kings Weston Estate",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-06-04",
+            "ReasonCancelled": "Event within the grounds of Kings Weston House"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/kingsweston-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Bristol",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Kings Weston junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/kingsweston-juniors\">parkrun.org.uk/kingsweston-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Kings Weston junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  4&nbsp;June&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Event within the grounds of Kings Weston House</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/kingsweston-juniors\">parkrun.org.uk/kingsweston-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
