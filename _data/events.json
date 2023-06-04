@@ -40703,13 +40703,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Wardown Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-06-04",
+            "ReasonCancelled": "We are unable to access the parkrun equipment"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/wardown-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Luton",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Wardown junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wardown-juniors\">parkrun.org.uk/wardown-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Wardown junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  4&nbsp;June&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>We are unable to access the parkrun equipment</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wardown-juniors\">parkrun.org.uk/wardown-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
