@@ -58199,13 +58199,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "King George Playing Fields",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-06-11",
+            "ReasonCancelled": "Road closures surrounding the park for running eve"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/kinggeorgeplayingfields-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Kingston upon Hull",
-        "description": "<h4 style=\"margin: 0 0 8px;\">King George Playing Fields junior parkrun, Hull</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/kinggeorgeplayingfields-juniors\">parkrun.org.uk/kinggeorgeplayingfields-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">King George Playing Fields junior parkrun, Hull</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 11&nbsp;June&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Road closures surrounding the park for running eve</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/kinggeorgeplayingfields-juniors\">parkrun.org.uk/kinggeorgeplayingfields-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
