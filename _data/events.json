@@ -30850,13 +30850,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Daisy Country Lodge",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-06-10",
+            "ReasonCancelled": "flooding on course"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/somersetwest",
         "Country": "South Africa",
         "State": "Western Cape",
         "County": "City of Cape Town",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Somerset West parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/somersetwest\">parkrun.co.za/somersetwest</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Somerset West parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 10&nbsp;June&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>flooding on course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/somersetwest\">parkrun.co.za/somersetwest</a></td></tr></table>",
         "Special Days": {}
       }
     },
