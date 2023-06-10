@@ -24,7 +24,7 @@
         -123.650306,
         42.990553,
         -61.505609,
-        56.733336
+        56.730253
       ]
     },
     "23": {
@@ -34165,6 +34165,26 @@
         }
       },
       {
+        "id": 2406,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.365367,
+            56.730253
+          ]
+        },
+        "properties": {
+          "eventname": "snyepoint",
+          "EventLongName": "Snye Point parkrun",
+          "EventShortName": "Snye Point",
+          "LocalisedEventLongName": null,
+          "countrycode": 14,
+          "seriesid": 1,
+          "EventLocation": "Snye Point Park"
+        }
+      },
+      {
         "id": 2407,
         "type": "Feature",
         "geometry": {
@@ -47405,26 +47425,6 @@
         }
       },
       {
-        "id": 3294,
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -3.160221,
-            52.97016
-          ]
-        },
-        "properties": {
-          "eventname": "oldrailwaytrailllangollen",
-          "EventLongName": "Old Railway Trail parkrun, Llangollen",
-          "EventShortName": "Old Railway Trail, Llangollen",
-          "LocalisedEventLongName": null,
-          "countrycode": 97,
-          "seriesid": 1,
-          "EventLocation": "Old Railway Trail"
-        }
-      },
-      {
         "id": 3295,
         "type": "Feature",
         "geometry": {
@@ -47462,26 +47462,6 @@
           "countrycode": 74,
           "seriesid": 1,
           "EventLocation": "Las Klasztorny"
-        }
-      },
-      {
-        "id": 3312,
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -111.438878,
-            56.733336
-          ]
-        },
-        "properties": {
-          "eventname": "birchwoodtrails",
-          "EventLongName": "Birchwood Trails parkrun",
-          "EventShortName": "Birchwood Trails",
-          "LocalisedEventLongName": null,
-          "countrycode": 14,
-          "seriesid": 1,
-          "EventLocation": "Birchwood Trails"
         }
       }
     ]
