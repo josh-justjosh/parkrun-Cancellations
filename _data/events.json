@@ -63656,13 +63656,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Phear Park Playing Fields",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-06-11",
+            "ReasonCancelled": "Travellers in Phear Park again"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/phearpark-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Devon",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Phear Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/phearpark-juniors\">parkrun.org.uk/phearpark-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Phear Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 11&nbsp;June&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Travellers in Phear Park again</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/phearpark-juniors\">parkrun.org.uk/phearpark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
