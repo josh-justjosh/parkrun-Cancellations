@@ -5862,13 +5862,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "North Lake Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-06-10",
+            "ReasonCancelled": "Another event on trail"
+          }
+        ],
         "Website": "https://www.parkrun.us/mansfieldoh",
         "Country": "USA",
         "State": "Ohio",
         "County": "Richland",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Mansfield OH parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/mansfieldoh\">parkrun.us/mansfieldoh</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Mansfield OH parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 10&nbsp;June&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Another event on trail</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/mansfieldoh\">parkrun.us/mansfieldoh</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -37653,13 +37658,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Polepatrick",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-06-11",
+            "ReasonCancelled": "Due to insufficient volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/magherafelt-juniors",
         "Country": "United Kingdom",
         "State": "Northern Ireland",
         "County": "Derry",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Magherafelt junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/magherafelt-juniors\">parkrun.org.uk/magherafelt-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Magherafelt junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 11&nbsp;June&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Due to insufficient volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/magherafelt-juniors\">parkrun.org.uk/magherafelt-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
