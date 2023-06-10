@@ -49062,39 +49062,6 @@
       }
     },
     {
-      "id": 2406,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.365367,
-          56.730253
-        ]
-      },
-      "properties": {
-        "eventname": "snyepoint",
-        "EventLongName": "Snye Point parkrun",
-        "EventShortName": "Snye Point",
-        "LocalisedEventLongName": null,
-        "countrycode": 14,
-        "seriesid": 1,
-        "EventLocation": "Snye Point Park",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-06-10",
-            "ReasonCancelled": "This event is no longer operating"
-          }
-        ],
-        "Website": "https://www.parkrun.ca/snyepoint",
-        "Country": "Canada",
-        "State": "Alberta",
-        "County": "Wood Buffalo",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Snye Point parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 10&nbsp;June&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>This event is no longer operating</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/snyepoint\">parkrun.ca/snyepoint</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
       "id": 2407,
       "type": "Feature",
       "geometry": {
@@ -68006,6 +67973,34 @@
       }
     },
     {
+      "id": 3294,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.160221,
+          52.97016
+        ]
+      },
+      "properties": {
+        "eventname": "oldrailwaytrailllangollen",
+        "EventLongName": "Old Railway Trail parkrun, Llangollen",
+        "EventShortName": "Old Railway Trail, Llangollen",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Old Railway Trail",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/oldrailwaytrailllangollen",
+        "Country": "United Kingdom",
+        "State": "Wales",
+        "County": "Denbighshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Old Railway Trail parkrun, Llangollen</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/oldrailwaytrailllangollen\">parkrun.org.uk/oldrailwaytrailllangollen</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 3295,
       "type": "Feature",
       "geometry": {
@@ -68058,6 +68053,34 @@
         "State": "Greater Poland",
         "County": "Powiat ostrzeszowski",
         "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Las Klasztorny</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/lasklasztorny\">parkrun.pl/lasklasztorny</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3312,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.438878,
+          56.733336
+        ]
+      },
+      "properties": {
+        "eventname": "birchwoodtrails",
+        "EventLongName": "Birchwood Trails parkrun",
+        "EventShortName": "Birchwood Trails",
+        "LocalisedEventLongName": null,
+        "countrycode": 14,
+        "seriesid": 1,
+        "EventLocation": "Birchwood Trails",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.ca/birchwoodtrails",
+        "Country": "Canada",
+        "State": "Alberta",
+        "County": "Wood Buffalo",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Birchwood Trails parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/birchwoodtrails\">parkrun.ca/birchwoodtrails</a></td></tr></table>",
         "Special Days": {}
       }
     }
