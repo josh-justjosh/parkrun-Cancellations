@@ -13166,7 +13166,7 @@
         "LocalisedEventLongName": null,
         "countrycode": 3,
         "seriesid": 1,
-        "EventLocation": "Stuart Park",
+        "EventLocation": "Fairy Meadow Beach",
         "Status": "parkrunning",
         "Cancellations": [],
         "Website": "https://www.parkrun.com.au/northwollongong",
@@ -49393,13 +49393,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Downsview Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-06-17",
+            "ReasonCancelled": "\u2018Walk to End ALS\u2019 event happening in the park"
+          }
+        ],
         "Website": "https://www.parkrun.ca/downsview",
         "Country": "Canada",
         "State": "Ontario",
         "County": "Toronto",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Downsview parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/downsview\">parkrun.ca/downsview</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Downsview parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 17&nbsp;June&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>\u2018Walk to End ALS\u2019 event happening in the park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/downsview\">parkrun.ca/downsview</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -62340,40 +62345,6 @@
       }
     },
     {
-      "id": 3039,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          148.616972,
-          -36.433908
-        ]
-      },
-      "properties": {
-        "eventname": "jindabynesportandrecreation",
-        "EventLongName": "Jindabyne Sport and Recreation parkrun",
-        "EventShortName": "Jindabyne Sport and Recreation",
-        "LocalisedEventLongName": null,
-        "countrycode": 3,
-        "seriesid": 1,
-        "EventLocation": "Jindabyne Sport and Recreation Centre",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-06-17",
-            "ReasonCancelled": "Event finished"
-          }
-        ],
-        "Website": "https://www.parkrun.com.au/jindabynesportandrecreation",
-        "Country": "Australia",
-        "State": "New South Wales",
-        "County": "Snowy Monaro Regional",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Jindabyne Sport and Recreation parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 17&nbsp;June&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Event finished</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/jindabynesportandrecreation\">parkrun.com.au/jindabynesportandrecreation</a></td></tr></table>",
-        "Special Days": {},
-        "NYD": "parkrunning"
-      }
-    },
-    {
       "id": 3040,
       "type": "Feature",
       "geometry": {
@@ -64853,13 +64824,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Play Close Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-06-18",
+            "ReasonCancelled": "Paint the Town Red Event - access required"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/playclosepark-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Leicestershire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Play Close Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/playclosepark-juniors\">parkrun.org.uk/playclosepark-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Play Close Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 18&nbsp;June&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Paint the Town Red Event - access required</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/playclosepark-juniors\">parkrun.org.uk/playclosepark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
