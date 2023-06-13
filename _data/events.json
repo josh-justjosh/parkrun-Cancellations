@@ -13166,7 +13166,7 @@
         "LocalisedEventLongName": null,
         "countrycode": 3,
         "seriesid": 1,
-        "EventLocation": "Stuart Park",
+        "EventLocation": "Fairy Meadow Beach",
         "Status": "parkrunning",
         "Cancellations": [],
         "Website": "https://www.parkrun.com.au/northwollongong",
@@ -34292,13 +34292,18 @@
         "countrycode": 65,
         "seriesid": 1,
         "EventLocation": "Queens Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-06-17",
+            "ReasonCancelled": "council tree felling works in the park"
+          }
+        ],
         "Website": "https://www.parkrun.co.nz/invercargill",
         "Country": "New Zealand",
         "State": "Southland",
         "County": "Invercargill City",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Invercargill parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/invercargill\">parkrun.co.nz/invercargill</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Invercargill parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 17&nbsp;June&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>council tree felling works in the park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/invercargill\">parkrun.co.nz/invercargill</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -62340,40 +62345,6 @@
         "State": "Minnesota",
         "County": "Washington",
         "description": "<h4 style=\"margin: 0 0 8px;\">Hamlet Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/hamletpark\">parkrun.us/hamletpark</a></td></tr></table>",
-        "Special Days": {},
-        "NYD": "parkrunning"
-      }
-    },
-    {
-      "id": 3039,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          148.616972,
-          -36.433908
-        ]
-      },
-      "properties": {
-        "eventname": "jindabynesportandrecreation",
-        "EventLongName": "Jindabyne Sport and Recreation parkrun",
-        "EventShortName": "Jindabyne Sport and Recreation",
-        "LocalisedEventLongName": null,
-        "countrycode": 3,
-        "seriesid": 1,
-        "EventLocation": "Jindabyne Sport and Recreation Centre",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-06-17",
-            "ReasonCancelled": "Event finished"
-          }
-        ],
-        "Website": "https://www.parkrun.com.au/jindabynesportandrecreation",
-        "Country": "Australia",
-        "State": "New South Wales",
-        "County": "Snowy Monaro Regional",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Jindabyne Sport and Recreation parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 17&nbsp;June&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Event finished</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/jindabynesportandrecreation\">parkrun.com.au/jindabynesportandrecreation</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
