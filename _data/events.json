@@ -21322,13 +21322,18 @@
         "countrycode": 42,
         "seriesid": 1,
         "EventLocation": "Castle Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-06-17",
+            "ReasonCancelled": "Weather Conditions - especially with Lightening"
+          }
+        ],
         "Website": "https://www.parkrun.ie/kilkenny",
         "Country": "Ireland",
         "State": "Leinster",
         "County": "Kilkenny",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Kilkenny parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/kilkenny\">parkrun.ie/kilkenny</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Kilkenny parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 17&nbsp;June&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Weather Conditions - especially with Lightening</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/kilkenny\">parkrun.ie/kilkenny</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -22388,13 +22393,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Ratanga Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-06-17",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/centurycity",
         "Country": "South Africa",
         "State": "Western Cape",
         "County": "City of Cape Town",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Century City parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/centurycity\">parkrun.co.za/centurycity</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Century City parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 17&nbsp;June&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/centurycity\">parkrun.co.za/centurycity</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -35030,13 +35040,18 @@
         "countrycode": 42,
         "seriesid": 1,
         "EventLocation": "Barrow Trail",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-06-17",
+            "ReasonCancelled": "Course flooded in places upon inspection"
+          }
+        ],
         "Website": "https://www.parkrun.ie/carlowtown",
         "Country": "Ireland",
         "State": "Leinster",
         "County": "Carlow",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Carlow Town parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/carlowtown\">parkrun.ie/carlowtown</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Carlow Town parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 17&nbsp;June&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course flooded in places upon inspection</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/carlowtown\">parkrun.ie/carlowtown</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -67856,6 +67871,34 @@
       }
     },
     {
+      "id": 3286,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.694872,
+          54.977492
+        ]
+      },
+      "properties": {
+        "eventname": "dentondene",
+        "EventLongName": "Denton Dene parkrun",
+        "EventShortName": "Denton Dene",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Denton Dene",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/dentondene",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Newcastle upon Tyne",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Denton Dene parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/dentondene\">parkrun.org.uk/dentondene</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 3287,
       "type": "Feature",
       "geometry": {
@@ -68216,6 +68259,34 @@
         "State": "Alberta",
         "County": "Wood Buffalo",
         "description": "<h4 style=\"margin: 0 0 8px;\">Birchwood Trails parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/birchwoodtrails\">parkrun.ca/birchwoodtrails</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3313,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.663276,
+          43.018661
+        ]
+      },
+      "properties": {
+        "eventname": "riversidegrandrapids",
+        "EventLongName": "Riverside parkrun, Grand Rapids",
+        "EventShortName": "Riverside, Grand Rapids",
+        "LocalisedEventLongName": null,
+        "countrycode": 98,
+        "seriesid": 1,
+        "EventLocation": "Riverside Park",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.us/riversidegrandrapids",
+        "Country": "USA",
+        "State": "Michigan",
+        "County": "Kent",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Riverside parkrun, Grand Rapids</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/riversidegrandrapids\">parkrun.us/riversidegrandrapids</a></td></tr></table>",
         "Special Days": {}
       }
     }
