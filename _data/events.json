@@ -33555,13 +33555,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Bellevue Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-06-24",
+            "ReasonCancelled": "other event"
+          }
+        ],
         "Website": "https://www.parkrun.ca/bellevue",
         "Country": "Canada",
         "State": "Ontario",
         "County": "Algoma",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bellevue parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/bellevue\">parkrun.ca/bellevue</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bellevue parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 24&nbsp;June&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>other event</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/bellevue\">parkrun.ca/bellevue</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -38435,13 +38440,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Waterfall Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-06-24",
+            "ReasonCancelled": "Another event in the park"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/waterfall",
         "Country": "South Africa",
         "State": "Gauteng",
         "County": "City of Johannesburg Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Waterfall parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/waterfall\">parkrun.co.za/waterfall</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Waterfall parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 24&nbsp;June&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Another event in the park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/waterfall\">parkrun.co.za/waterfall</a></td></tr></table>",
         "Special Days": {}
       }
     },
