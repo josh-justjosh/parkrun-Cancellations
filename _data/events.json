@@ -55528,13 +55528,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Centenary Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-06-24",
+            "ReasonCancelled": "no volunteers available"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/centenary",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Isaac",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Centenary parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/centenary\">parkrun.com.au/centenary</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Centenary parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 24&nbsp;June&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>no volunteers available</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/centenary\">parkrun.com.au/centenary</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -62805,13 +62810,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Torvean Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-06-25",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/torvean-juniors",
         "Country": "United Kingdom",
         "State": "Scotland",
         "County": "Highland",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Torvean junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/torvean-juniors\">parkrun.org.uk/torvean-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Torvean junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 25&nbsp;June&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/torvean-juniors\">parkrun.org.uk/torvean-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
