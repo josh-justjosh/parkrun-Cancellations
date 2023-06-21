@@ -12496,13 +12496,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Cross Flatts Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-06-24",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/crossflatts",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Leeds",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cross Flatts parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/crossflatts\">parkrun.org.uk/crossflatts</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cross Flatts parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 24&nbsp;June&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/crossflatts\">parkrun.org.uk/crossflatts</a></td></tr></table>",
         "Special Days": {}
       }
     },
