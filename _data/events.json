@@ -1889,18 +1889,13 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Stoke Park, Guildford",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-06-24",
-            "ReasonCancelled": "Unauthorised encampment in Stoke Park"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/guildford",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Surrey",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Guildford parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 24&nbsp;June&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Unauthorised encampment in Stoke Park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/guildford\">parkrun.org.uk/guildford</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Guildford parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/guildford\">parkrun.org.uk/guildford</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -2740,13 +2735,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Torbay Velopark",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-06-24",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/torbayvelopark",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Torbay",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Torbay Velopark parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/torbayvelopark\">parkrun.org.uk/torbayvelopark</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Torbay Velopark parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 24&nbsp;June&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/torbayvelopark\">parkrun.org.uk/torbayvelopark</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -44575,13 +44575,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Mapetla Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-06-24",
+            "ReasonCancelled": "The key volunteers are not available"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/mapetla",
         "Country": "South Africa",
         "State": "Gauteng",
         "County": "City of Johannesburg Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Mapetla parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/mapetla\">parkrun.co.za/mapetla</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Mapetla parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 24&nbsp;June&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>The key volunteers are not available</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/mapetla\">parkrun.co.za/mapetla</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -44661,13 +44666,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Torbay Velopark",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-06-25",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/torbayvelopark-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Torbay",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Torbay Velopark junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/torbayvelopark-juniors\">parkrun.org.uk/torbayvelopark-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Torbay Velopark junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 25&nbsp;June&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/torbayvelopark-juniors\">parkrun.org.uk/torbayvelopark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -68027,6 +68037,34 @@
       }
     },
     {
+      "id": 3293,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.62613,
+          55.967387
+        ]
+      },
+      "properties": {
+        "eventname": "westlothiancyclecircuit-juniors",
+        "EventLongName": "West Lothian Cycle Circuit junior parkrun",
+        "EventShortName": "West Lothian Cycle Circuit juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "West Lothian Cycle Circuit",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/westlothiancyclecircuit-juniors",
+        "Country": "United Kingdom",
+        "State": "Scotland",
+        "County": "West Lothian",
+        "description": "<h4 style=\"margin: 0 0 8px;\">West Lothian Cycle Circuit junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/westlothiancyclecircuit-juniors\">parkrun.org.uk/westlothiancyclecircuit-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 3294,
       "type": "Feature",
       "geometry": {
@@ -68139,6 +68177,62 @@
       }
     },
     {
+      "id": 3300,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.237403,
+          -17.968407
+        ]
+      },
+      "properties": {
+        "eventname": "townbeach",
+        "EventLongName": "Town Beach parkrun",
+        "EventShortName": "Town Beach",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "Town Beach",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.au/townbeach",
+        "Country": "Australia",
+        "State": "Western Australia",
+        "County": "Broome",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Town Beach parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/townbeach\">parkrun.com.au/townbeach</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3301,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.379874,
+          54.902339
+        ]
+      },
+      "properties": {
+        "eventname": "mowbraypark-juniors",
+        "EventLongName": "Mowbray Park junior parkrun",
+        "EventShortName": "Mowbray Park juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Mowbray Park",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/mowbraypark-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Sunderland",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Mowbray Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/mowbraypark-juniors\">parkrun.org.uk/mowbraypark-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 3304,
       "type": "Feature",
       "geometry": {
@@ -68191,6 +68285,62 @@
         "State": "Bay of Plenty",
         "County": "Tauranga City",
         "description": "<h4 style=\"margin: 0 0 8px;\">Gordon Spratt Reserve parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/gordonsprattreserve\">parkrun.co.nz/gordonsprattreserve</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3306,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.086875,
+          51.594357
+        ]
+      },
+      "properties": {
+        "eventname": "lordshiprecground-juniors",
+        "EventLongName": "Lordship Rec Ground junior parkrun",
+        "EventShortName": "Lordship Rec Ground juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Lordship Recreation Ground",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/lordshiprecground-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Greater London",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Lordship Rec Ground junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/lordshiprecground-juniors\">parkrun.org.uk/lordshiprecground-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3307,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.201216,
+          49.131341
+        ]
+      },
+      "properties": {
+        "eventname": "wertwiesen",
+        "EventLongName": "Wertwiesen parkrun",
+        "EventShortName": "Wertwiesen",
+        "LocalisedEventLongName": null,
+        "countrycode": 32,
+        "seriesid": 1,
+        "EventLocation": "Wertwiesen",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.de/wertwiesen",
+        "Country": "Germany",
+        "State": "Baden-Wurttemberg",
+        "County": "Regierungsbezirk Stuttgart",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Wertwiesen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/wertwiesen\">parkrun.com.de/wertwiesen</a></td></tr></table>",
         "Special Days": {}
       }
     },
