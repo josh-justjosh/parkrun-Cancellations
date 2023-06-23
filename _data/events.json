@@ -36975,13 +36975,18 @@
         "countrycode": 65,
         "seriesid": 1,
         "EventLocation": "Waikanae Beach Playground",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-06-24",
+            "ReasonCancelled": "Flooding in the course, more rain to come.\u00a0:("
+          }
+        ],
         "Website": "https://www.parkrun.co.nz/gisborne",
         "Country": "New Zealand",
         "State": "Gisborne",
         "County": "Gisborne District",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Gisborne parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/gisborne\">parkrun.co.nz/gisborne</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Gisborne parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 24&nbsp;June&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Flooding in the course, more rain to come.\u00a0:(</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/gisborne\">parkrun.co.nz/gisborne</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -59536,13 +59541,18 @@
         "countrycode": 65,
         "seriesid": 1,
         "EventLocation": "Russell Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-06-24",
+            "ReasonCancelled": "Weather, Park Closures and River levels. Safety."
+          }
+        ],
         "Website": "https://www.parkrun.co.nz/russellpark",
         "Country": "New Zealand",
         "State": "Hawke's Bay",
         "County": "Central Hawke's Bay District",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Russell Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/russellpark\">parkrun.co.nz/russellpark</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Russell Park parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 24&nbsp;June&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Weather, Park Closures and River levels. Safety.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/russellpark\">parkrun.co.nz/russellpark</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -68100,6 +68110,34 @@
         "State": "Greater Poland",
         "County": "Powiat ostrzeszowski",
         "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Las Klasztorny</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/lasklasztorny\">parkrun.pl/lasklasztorny</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3304,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.641721,
+          49.734621
+        ]
+      },
+      "properties": {
+        "eventname": "mattheiserweiher",
+        "EventLongName": "Mattheiser Weiher parkrun",
+        "EventShortName": "Mattheiser Weiher",
+        "LocalisedEventLongName": null,
+        "countrycode": 32,
+        "seriesid": 1,
+        "EventLocation": "Mattheiser Weiher",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.de/mattheiserweiher",
+        "Country": "Germany",
+        "State": "Rheinland-Pfalz",
+        "County": "-Unknown-",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Mattheiser Weiher parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/mattheiserweiher\">parkrun.com.de/mattheiserweiher</a></td></tr></table>",
         "Special Days": {}
       }
     },
