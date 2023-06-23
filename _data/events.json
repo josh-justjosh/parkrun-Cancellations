@@ -36062,13 +36062,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Rotary Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-06-24",
+            "ReasonCancelled": "large tree has come down, unsafe condition"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/margaretriver",
         "Country": "Australia",
         "State": "Western Australia",
         "County": "Augusta-Margaret River Shire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Margaret River parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/margaretriver\">parkrun.com.au/margaretriver</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Margaret River parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 24&nbsp;June&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>large tree has come down, unsafe condition</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/margaretriver\">parkrun.com.au/margaretriver</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -39301,13 +39306,18 @@
         "countrycode": 44,
         "seriesid": 1,
         "EventLocation": "Foro Umberto I\u00b0",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-06-24",
+            "ReasonCancelled": "Percorso interrotto"
+          }
+        ],
         "Website": "https://www.parkrun.it/foroitalico",
         "Country": "Italy",
         "State": "Sicily",
         "County": "Province of Palermo",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Foro Italico parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.it/foroitalico\">parkrun.it/foroitalico</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Foro Italico parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 24&nbsp;June&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Percorso interrotto</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.it/foroitalico\">parkrun.it/foroitalico</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning"
       }
