@@ -1428,8 +1428,11 @@ cancellations_additions = []
 cancellations_removals = []
 
 for i in old_cancellations_data:
-    oldwebsite = i[4]
-    i.pop(4)
+    try:
+        oldwebsite = i[4]
+        i.pop(4)
+    except IndexError:
+        oldwebsite = None
     if i not in cancellations_data:
         #i.append('Removed')
         out = i
@@ -1542,7 +1545,7 @@ if cancellations_changes != []:
         out += 'title: '+str(now_saved.year)+'/'+month+'/'+ day +' '+hour+':'+minute+' UTC Update' + '\n'
         out += 'date: '+str(now_saved.year)+'-'+month+'-'+day+' '+hour+':'+minute+':'+second+' +0000' + '\n'
         out += 'author: Cancellations Bot' + '\n'
-        out += "category: 'Cancellation Update'" + '\n'
+        out += "category: 'Cancellation Update'" + '\n\n'
         out += '---' + '\n'
         out += '\n'
         if cancellations_additions != []:
@@ -1557,7 +1560,7 @@ if cancellations_changes != []:
             out += '    </tr>' + '\n'
             for event in cancellations_additions:
                 out += '    <tr>' + '\n'
-                if event[3] not in ['','Added']:
+                if event[4] not in ['','Added']:
                     out += '        <td><a href="' + event[4] + '">' + event[1] + '</a></td>' + '\n'
                 else:
                     out += '        <td>' + event[1] + '</td>' + '\n'
