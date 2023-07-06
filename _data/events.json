@@ -19285,13 +19285,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Apex Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-07-08",
+            "ReasonCancelled": "River level flooding pathway and bridge closed"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/wangaratta",
         "Country": "Australia",
         "State": "Victoria",
         "County": "Wangaratta",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Wangaratta parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/wangaratta\">parkrun.com.au/wangaratta</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Wangaratta parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;July&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>River level flooding pathway and bridge closed</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/wangaratta\">parkrun.com.au/wangaratta</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -32208,13 +32213,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Saint-Paulin",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-07-08",
+            "ReasonCancelled": "\u00c9v\u00e9nements sp\u00e9ciaux \u00e0 l'emplacement du parkrun"
+          }
+        ],
         "Website": "https://www.parkrun.ca/saintpaulin",
         "Country": "Canada",
         "State": "Quebec",
         "County": "Mauricie",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Saint-Paulin parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/saintpaulin\">parkrun.ca/saintpaulin</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Saint-Paulin parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;July&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>\u00c9v\u00e9nements sp\u00e9ciaux \u00e0 l'emplacement du parkrun</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/saintpaulin\">parkrun.ca/saintpaulin</a></td></tr></table>",
         "Special Days": {}
       }
     },
