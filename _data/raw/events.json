@@ -47545,6 +47545,26 @@
         }
       },
       {
+        "id": 3303,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.886741,
+            52.230017
+          ]
+        },
+        "properties": {
+          "eventname": "universityofnorthampton",
+          "EventLongName": "University of Northampton parkrun",
+          "EventShortName": "University of Northampton",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 1,
+          "EventLocation": "University of Northampton"
+        }
+      },
+      {
         "id": 3304,
         "type": "Feature",
         "geometry": {
@@ -47722,6 +47742,46 @@
           "countrycode": 98,
           "seriesid": 1,
           "EventLocation": "ITC Community Sports Park"
+        }
+      },
+      {
+        "id": 3318,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -8.497105,
+            51.880197
+          ]
+        },
+        "properties": {
+          "eventname": "clashduv-juniors",
+          "EventLongName": "Clashduv junior parkrun",
+          "EventShortName": "Clashduv juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 42,
+          "seriesid": 2,
+          "EventLocation": "Clashduv Park"
+        }
+      },
+      {
+        "id": 3319,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -8.235138,
+            53.984878
+          ]
+        },
+        "properties": {
+          "eventname": "loughkey-juniors",
+          "EventLongName": "Lough Key junior parkrun",
+          "EventShortName": "Lough Key juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 42,
+          "seriesid": 2,
+          "EventLocation": "Lough Key Forest and Activity Park"
         }
       }
     ]
