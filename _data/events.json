@@ -3082,13 +3082,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Arena Sports Centre",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-07-09",
+            "ReasonCancelled": "Netball event arranged. Safeguarding issue."
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/bognorregis-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "West Sussex",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bognor Regis junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/bognorregis-juniors\">parkrun.org.uk/bognorregis-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bognor Regis junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  9&nbsp;July&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Netball event arranged. Safeguarding issue.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/bognorregis-juniors\">parkrun.org.uk/bognorregis-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -40660,13 +40665,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "NSRI Station",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-07-08",
+            "ReasonCancelled": "Beach unsafe, very high tide, waves upto road"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/melkbosstrand",
         "Country": "South Africa",
         "State": "Western Cape",
         "County": "City of Cape Town",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Melkbosstrand parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/melkbosstrand\">parkrun.co.za/melkbosstrand</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Melkbosstrand parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;July&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Beach unsafe, very high tide, waves upto road</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/melkbosstrand\">parkrun.co.za/melkbosstrand</a></td></tr></table>",
         "Special Days": {}
       }
     },
