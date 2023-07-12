@@ -24424,13 +24424,18 @@
         "countrycode": 44,
         "seriesid": 1,
         "EventLocation": "Piazza Einstein, 90145 Palermo",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-07-15",
+            "ReasonCancelled": "parco Uditore chiuso"
+          }
+        ],
         "Website": "https://www.parkrun.it/uditore",
         "Country": "Italy",
         "State": "Sicily",
         "County": "Province of Palermo",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Uditore parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.it/uditore\">parkrun.it/uditore</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Uditore parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 15&nbsp;July&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>parco Uditore chiuso</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.it/uditore\">parkrun.it/uditore</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -26680,13 +26685,18 @@
         "countrycode": 42,
         "seriesid": 1,
         "EventLocation": "Castletown House",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-07-15",
+            "ReasonCancelled": "Safety issue with the run route."
+          }
+        ],
         "Website": "https://www.parkrun.ie/castletown",
         "Country": "Ireland",
         "State": "Leinster",
         "County": "Kildare",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Castletown parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/castletown\">parkrun.ie/castletown</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Castletown parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 15&nbsp;July&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Safety issue with the run route.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/castletown\">parkrun.ie/castletown</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning"
       }
