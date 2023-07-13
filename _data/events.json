@@ -39151,13 +39151,18 @@
         "countrycode": 44,
         "seriesid": 1,
         "EventLocation": "Foro Umberto I\u00b0",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-07-15",
+            "ReasonCancelled": "Percorso interrotto causa festa del patrono"
+          }
+        ],
         "Website": "https://www.parkrun.it/foroitalico",
         "Country": "Italy",
         "State": "Sicily",
         "County": "Province of Palermo",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Foro Italico parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.it/foroitalico\">parkrun.it/foroitalico</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Foro Italico parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 15&nbsp;July&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Percorso interrotto causa festa del patrono</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.it/foroitalico\">parkrun.it/foroitalico</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning"
       }
@@ -49224,13 +49229,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Lea Bridges Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-07-16",
+            "ReasonCancelled": "Core event team are taking part in Run Norwich"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/leabridges-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Norfolk",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Lea Bridges junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/leabridges-juniors\">parkrun.org.uk/leabridges-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Lea Bridges junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 16&nbsp;July&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Core event team are taking part in Run Norwich</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/leabridges-juniors\">parkrun.org.uk/leabridges-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
