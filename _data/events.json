@@ -39910,13 +39910,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Fawcetts Field",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-07-16",
+            "ReasonCancelled": "Traveller caravans on event site close to course"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/newmilton-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Hampshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">New Milton junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/newmilton-juniors\">parkrun.org.uk/newmilton-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">New Milton junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 16&nbsp;July&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Traveller caravans on event site close to course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/newmilton-juniors\">parkrun.org.uk/newmilton-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -53955,13 +53960,18 @@
         "countrycode": 42,
         "seriesid": 2,
         "EventLocation": "Rockfield Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-07-16",
+            "ReasonCancelled": "Sufficent volunteers unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.ie/rockfield-juniors",
         "Country": "Ireland",
         "State": "Leinster",
         "County": "Dublin",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Rockfield junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/rockfield-juniors\">parkrun.ie/rockfield-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Rockfield junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 16&nbsp;July&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Sufficent volunteers unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/rockfield-juniors\">parkrun.ie/rockfield-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -66778,13 +66788,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Sharpham Estate",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-07-15",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/sharphamestate",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Devon",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Sharpham Estate parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/sharphamestate\">parkrun.org.uk/sharphamestate</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Sharpham Estate parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 15&nbsp;July&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/sharphamestate\">parkrun.org.uk/sharphamestate</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -68480,6 +68495,34 @@
         "State": "Connacht",
         "County": "County Roscommon",
         "description": "<h4 style=\"margin: 0 0 8px;\">Lough Key junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/loughkey-juniors\">parkrun.ie/loughkey-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3322,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.286367,
+          45.711271
+        ]
+      },
+      "properties": {
+        "eventname": "buttertrail",
+        "EventLongName": "Butter Trail parkrun",
+        "EventShortName": "Butter Trail",
+        "LocalisedEventLongName": null,
+        "countrycode": 14,
+        "seriesid": 1,
+        "EventLocation": "",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.ca/buttertrail",
+        "Country": "Canada",
+        "State": "Nova Scotia",
+        "County": "Colchester",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Butter Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/buttertrail\">parkrun.ca/buttertrail</a></td></tr></table>",
         "Special Days": {}
       }
     }
