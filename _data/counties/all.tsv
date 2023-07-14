@@ -5,7 +5,7 @@ Angus	Scotland	3				3	Montrose|West Links|Forfar Loch|
 Antrim	Northern Ireland	9	4			13	Ecos|Portrush|Wallace|Antrim|Larne|Carrickfergus|Valley|Sixmilewater|Limepark Playing Fields|	Jordanstown juniors|Portrush juniors|Larne juniors|Riverside juniors, Ballymoney|		
 Argyll and Bute	Scotland	2				2	Ganavan Sands|Mount Stuart|			
 Armagh	Northern Ireland	2	1			3	Citypark|Armagh|	Lurgan juniors|		
-Bedfordshire	England	7	4			11	Luton Wardown|Bedford|Houghton Hall|Great Denham|Dunstable Downs|Millennium Country|Henlow Bridge Lakes|	Houghton Hall juniors|Bedford juniors|Leighton Buzzard juniors|Wardown juniors|		
+Bedfordshire	England	6	4	1		11	Luton Wardown|Bedford|Houghton Hall|Great Denham|Millennium Country|Henlow Bridge Lakes|	Houghton Hall juniors|Bedford juniors|Leighton Buzzard juniors|Wardown juniors|	Dunstable Downs|	
 Belfast	Northern Ireland	8	4			12	Waterworks|Belfast Victoria|Queen’s, Belfast|Falls|Ormeau|Stormont|Colin Glen|Orangefield|	Belfast Victoria juniors|Waterworks juniors|Ormeau juniors|Musgrave juniors|		
 Berkshire	England	9	5	1		15	Reading|Newbury|Bracknell|Woodley|Upton Court|Maidenhead|Dinton Pastures|California Country|Sandhurst Memorial|	Bracknell juniors|Woodley juniors|Ockwells juniors|Salt Hill juniors|Dinton Pastures juniors|	Prospect|	
 Bristol	England	2	3			5	Eastville|Blaise Castle|	Eastville juniors|Kings Weston juniors|Windmill Hill juniors|		
@@ -25,7 +25,7 @@ County Westmeath	Ireland		1			1		The Old Rail Trail juniors|
 Cumbria	England	14	3			17	Millom|Carlisle|Barrow|Workington|Penrith|Keswick|Whinlatter Forest|Fell Foot|Whitehaven|Ford|Rothay Park|Bower Park|Talkin Tarn Country Park|Maryport Prom|	Keswick juniors|Carlisle juniors|Barrow juniors|		
 Derbyshire	England	10	6			16	Shipley Country|Rosliston|Markeaton|Long Eaton|Glossop|Poolsbrook|Monsal Trail|Alvaston|Ashbourne Recreation Ground|Pavilion Gardens|	Swadlincote juniors|Markeaton juniors|Long Eaton juniors|Whaley Bridge juniors|Staveley juniors|Shipley Country juniors|		
 Derry	Northern Ireland	4	1		1	6	Derry City|Limavady|Garvagh Forest|Derrynoid Forest|	Magherafelt juniors|		Derry City juniors|
-Devon	England	14	7	3	1	25	Tamar Trails|Torbay Velopark|Killerton|Barnstaple|Seaton|Parke|Exeter Riverside|Exmouth|Teignmouth Promenade|Woolacombe Dunes|Haldon Forest|Central, Plymouth|Cranbrook Country Park|Sharpham Estate|	Heavitree juniors|Barnstaple juniors|Devonport juniors|Torbay Velopark juniors|Cranbrook Country Park juniors|Phear Park juniors|Stopline Way juniors|	Plymvalley|Bideford|Bolberry Down|	Torridge juniors|
+Devon	England	13	7	4	1	25	Tamar Trails|Torbay Velopark|Killerton|Barnstaple|Seaton|Parke|Exeter Riverside|Exmouth|Teignmouth Promenade|Woolacombe Dunes|Haldon Forest|Cranbrook Country Park|Sharpham Estate|	Heavitree juniors|Barnstaple juniors|Devonport juniors|Torbay Velopark juniors|Cranbrook Country Park juniors|Phear Park juniors|Stopline Way juniors|	Plymvalley|Bideford|Bolberry Down|Central, Plymouth|	Torridge juniors|
 Donegal	Ireland	5				5	Letterkenny|Falcarragh|Dungloe|Buncrana|Narin Beach|			
 Dorset	England	9	6			15	Moors Valley|Bournemouth|Poole|Upton House|Weymouth|Blandford|St Mary’s|The Great Field|Durlston Country Park|	Moors Valley juniors|Weymouth juniors|Upton House juniors|Slades juniors|Cobb Gate juniors|The Great Field juniors|		
 Down	Northern Ireland	7	4	1		12	Rostrevor|Bangor|Comber|Crawfordsburn Country|Knockbracken Reservoir|Hillsborough Forest|Dunleath Playing Fields|	Comber juniors|Moira juniors|Bangor juniors|Lough Moss juniors|	Castlewellan|	
@@ -33,7 +33,7 @@ Dublin	Ireland	22	10	1	3	36	Malahide|Marlay|Griffeen|Ardgillan|Tymon|Waterstown|
 Dumfries and Galloway	Scotland	2	1			3	Crichton|Agnew|	Dumfries juniors|		
 Dundee City	Scotland	1	1			2	Camperdown|	Baxter Park juniors|		
 Durham	England	10	6			16	Durham|Sedgefield|Blackhill|Riverside|Darlington South Park|Hackworth|Hartlepool|Cotsford Fields|Jubilee|Hamsterley Forest|	Rossmere juniors|Billingham juniors|Durham City juniors|Sedgefield juniors|South Park juniors|Riverside juniors|		
-Dyfed	Wales	7	3			10	Aberystwyth|Llyn Llech Owain|Haverfordwest|Colby|Llanerchaeron|Milford Waterfront|Sandy Water|	Aberystwyth juniors|Carmarthen juniors|Peoples Park juniors|		
+Dyfed	Wales	6	3	1		10	Aberystwyth|Llyn Llech Owain|Haverfordwest|Colby|Llanerchaeron|Milford Waterfront|	Aberystwyth juniors|Carmarthen juniors|Peoples Park juniors|	Sandy Water|	
 East Ayrshire	Scotland	1				1	Dean Castle Country Park|			
 East Lothian	Scotland	2	1			3	Meadowmill|Lochend Woods|	Archerfield Walled Garden juniors|		
 East Renfrewshire	Scotland		1			1		Rouken Glen juniors|		
@@ -124,9 +124,9 @@ Wexford	Ireland	3	1			4	Wexford Racecourse|New Ross|Gorey|	Heritage Park juniors
 Wicklow	Ireland	3	1		1	5	Russborough|Tullow|Avondale Forest|	Bray juniors|		Arklow Duck Pond juniors|
 Wiltshire	England	8	5			13	Lydiard|Southwick Country Park|Chippenham|Salisbury|Melksham|Marlborough Common|Seven Fields|Tidworth|	Lydiard juniors|Chippenham juniors|Churchill Gardens juniors|King George V juniors|Calne Recreation Ground juniors|		
 Worcestershire	England	5	3			8	Arrow Valley|Worcester|Worcester Pitchcroft|Evesham|Wyre Forest|	Evesham juniors|Bromsgrove juniors|Wyre Forest juniors|		
-England Total	England	574	317	38	15	944				
+England Total	England	572	317	40	15	944				
 NI Total	Northern Ireland	35	15	1	1	52				
 Scotland Total	Scotland	66	30	1		97				
-Wales Total	Wales	47	17	1	2	67				
+Wales Total	Wales	46	17	2	2	67				
 Ireland Total	Ireland	101	30	2	6	139				
-Total		823	409	43	24	1299				
+Total		820	409	46	24	1299				
