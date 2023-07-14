@@ -51811,13 +51811,18 @@
         "countrycode": 42,
         "seriesid": 2,
         "EventLocation": "Arklow Duck Pond",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-07-16",
+            "ReasonCancelled": "Local festival taking place"
+          }
+        ],
         "Website": "https://www.parkrun.ie/arklowduckpond-juniors",
         "Country": "Ireland",
         "State": "Leinster",
         "County": "Wicklow",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Arklow Duck Pond junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/arklowduckpond-juniors\">parkrun.ie/arklowduckpond-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Arklow Duck Pond junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 16&nbsp;July&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Local festival taking place</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/arklowduckpond-juniors\">parkrun.ie/arklowduckpond-juniors</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -56663,13 +56668,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "TYTO Wetlands",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-07-15",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/tytowetlands",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Hinchinbrook",
-        "description": "<h4 style=\"margin: 0 0 8px;\">TYTO Wetlands parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/tytowetlands\">parkrun.com.au/tytowetlands</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">TYTO Wetlands parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 15&nbsp;July&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/tytowetlands\">parkrun.com.au/tytowetlands</a></td></tr></table>",
         "Special Days": {}
       }
     },
