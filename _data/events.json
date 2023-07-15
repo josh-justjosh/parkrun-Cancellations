@@ -68411,13 +68411,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Birchwood Trails",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-07-15",
+            "ReasonCancelled": "Air quality"
+          }
+        ],
         "Website": "https://www.parkrun.ca/birchwoodtrails",
         "Country": "Canada",
         "State": "Alberta",
         "County": "Wood Buffalo",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Birchwood Trails parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/birchwoodtrails\">parkrun.ca/birchwoodtrails</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Birchwood Trails parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 15&nbsp;July&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Air quality</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/birchwoodtrails\">parkrun.ca/birchwoodtrails</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -68558,6 +68563,34 @@
         "State": "Nova Scotia",
         "County": "Colchester",
         "description": "<h4 style=\"margin: 0 0 8px;\">Butter Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/buttertrail\">parkrun.ca/buttertrail</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3325,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.914603,
+          44.841776
+        ]
+      },
+      "properties": {
+        "eventname": "kingstonparkcottagegrove",
+        "EventLongName": "Kingston Park parkrun, Cottage Grove",
+        "EventShortName": "Kingston Park, Cottage Grove",
+        "LocalisedEventLongName": null,
+        "countrycode": 98,
+        "seriesid": 1,
+        "EventLocation": "Kingston Park",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.us/kingstonparkcottagegrove",
+        "Country": "USA",
+        "State": "Minnesota",
+        "County": "Washington",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Kingston Park parkrun, Cottage Grove</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/kingstonparkcottagegrove\">parkrun.us/kingstonparkcottagegrove</a></td></tr></table>",
         "Special Days": {}
       }
     }
