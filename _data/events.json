@@ -47906,13 +47906,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "The Mystery Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-07-23",
+            "ReasonCancelled": "Weather warning in place"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/themystery-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Liverpool",
-        "description": "<h4 style=\"margin: 0 0 8px;\">The Mystery junior parkrun, Wavertree</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/themystery-juniors\">parkrun.org.uk/themystery-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">The Mystery junior parkrun, Wavertree</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 23&nbsp;July&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Weather warning in place</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/themystery-juniors\">parkrun.org.uk/themystery-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
