@@ -42484,13 +42484,18 @@
         "countrycode": 42,
         "seriesid": 1,
         "EventLocation": "Strokestown House Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-07-29",
+            "ReasonCancelled": "Funfest Event In Park"
+          }
+        ],
         "Website": "https://www.parkrun.ie/strokestown",
         "Country": "Ireland",
         "State": "Connacht",
         "County": "Roscommon",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Strokestown parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/strokestown\">parkrun.ie/strokestown</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Strokestown parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;July&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Funfest Event In Park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/strokestown\">parkrun.ie/strokestown</a></td></tr></table>",
         "Special Days": {}
       }
     },
