@@ -47963,6 +47963,46 @@
           "seriesid": 1,
           "EventLocation": "Red Point Church"
         }
+      },
+      {
+        "id": 3331,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            30.472345,
+            -29.684661
+          ]
+        },
+        "properties": {
+          "eventname": "lynnfield",
+          "EventLongName": "Lynnfield parkrun",
+          "EventShortName": "Lynnfield",
+          "LocalisedEventLongName": null,
+          "countrycode": 85,
+          "seriesid": 1,
+          "EventLocation": "Lynnfield Park"
+        }
+      },
+      {
+        "id": 3332,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            29.455077,
+            -25.670437
+          ]
+        },
+        "properties": {
+          "eventname": "lavendermill",
+          "EventLongName": "Lavender Mill parkrun",
+          "EventShortName": "Lavender Mill",
+          "LocalisedEventLongName": null,
+          "countrycode": 85,
+          "seriesid": 1,
+          "EventLocation": "Lavender Mill"
+        }
       }
     ]
   }
