@@ -12434,13 +12434,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Hillsborough Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-07-29",
+            "ReasonCancelled": "Ongoing delays to the clear-up following Tramlines"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/hillsborough",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Sheffield",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hillsborough parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hillsborough\">parkrun.org.uk/hillsborough</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hillsborough parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;July&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Ongoing delays to the clear-up following Tramlines</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hillsborough\">parkrun.org.uk/hillsborough</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -58625,13 +58630,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Hillsborough Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-07-30",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/hillsborough-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Sheffield",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hillsborough junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hillsborough-juniors\">parkrun.org.uk/hillsborough-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hillsborough junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 30&nbsp;July&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hillsborough-juniors\">parkrun.org.uk/hillsborough-juniors</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -68568,6 +68578,34 @@
         "State": "Mpumalanga",
         "County": "Nkangala District Municipality",
         "description": "<h4 style=\"margin: 0 0 8px;\">Lavender Mill parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/lavendermill\">parkrun.co.za/lavendermill</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3333,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.179186,
+          -25.654647
+        ]
+      },
+      "properties": {
+        "eventname": "onderstepoortcampus",
+        "EventLongName": "Onderstepoort Campus parkrun",
+        "EventShortName": "Onderstepoort Campus",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Onderstepoort Campus",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.za/onderstepoortcampus",
+        "Country": "South Africa",
+        "State": "Gauteng",
+        "County": "City of Tshwane Metropolitan Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Onderstepoort Campus parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/onderstepoortcampus\">parkrun.co.za/onderstepoortcampus</a></td></tr></table>",
         "Special Days": {}
       }
     }

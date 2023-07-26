@@ -166,8 +166,8 @@
       "url": "www.parkrun.org.uk",
       "bounds": [
         -7.643103,
-        49.186471,
-        3.974794,
+        40.929141,
+        14.046913,
         60.158081
       ]
     },
@@ -48002,6 +48002,26 @@
           "countrycode": 85,
           "seriesid": 1,
           "EventLocation": "Lavender Mill"
+        }
+      },
+      {
+        "id": 3333,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            28.179186,
+            -25.654647
+          ]
+        },
+        "properties": {
+          "eventname": "onderstepoortcampus",
+          "EventLongName": "Onderstepoort Campus parkrun",
+          "EventShortName": "Onderstepoort Campus",
+          "LocalisedEventLongName": null,
+          "countrycode": 85,
+          "seriesid": 1,
+          "EventLocation": "Onderstepoort Campus"
         }
       }
     ]
