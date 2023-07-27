@@ -32312,13 +32312,18 @@
         "countrycode": 42,
         "seriesid": 1,
         "EventLocation": "Bushy Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-07-29",
+            "ReasonCancelled": "Course unavailable. Woodland area closed to piblic"
+          }
+        ],
         "Website": "https://www.parkrun.ie/bushydublin",
         "Country": "Ireland",
         "State": "Leinster",
         "County": "Dublin",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bushy parkrun, Dublin</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/bushydublin\">parkrun.ie/bushydublin</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bushy parkrun, Dublin</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;July&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unavailable. Woodland area closed to piblic</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/bushydublin\">parkrun.ie/bushydublin</a></td></tr></table>",
         "Special Days": {}
       }
     },
