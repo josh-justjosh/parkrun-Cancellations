@@ -57091,13 +57091,18 @@
         "countrycode": 46,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-07-29",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.jp/hondajima",
         "Country": "Japan",
         "State": "Aichi",
         "County": "K\u014dnan-shi",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hondajima parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/hondajima\">parkrun.jp/hondajima</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hondajima parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;July&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/hondajima\">parkrun.jp/hondajima</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -58119,13 +58124,18 @@
         "countrycode": 46,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-07-29",
+            "ReasonCancelled": "\u30dc\u30e9\u30f3\u30c6\u30a3\u30a2\u90fd\u5408\u306b\u3088\u308a\u958b\u50ac\u4e2d\u6b62"
+          }
+        ],
         "Website": "https://www.parkrun.jp/shingashigawaukima",
         "Country": "Japan",
         "State": "Tokyo",
         "County": "Kita",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Shingashigawa Ukima parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/shingashigawaukima\">parkrun.jp/shingashigawaukima</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Shingashigawa Ukima parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;July&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>\u30dc\u30e9\u30f3\u30c6\u30a3\u30a2\u90fd\u5408\u306b\u3088\u308a\u958b\u50ac\u4e2d\u6b62</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/shingashigawaukima\">parkrun.jp/shingashigawaukima</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -68399,6 +68409,34 @@
         "State": "Connacht",
         "County": "Roscommon",
         "description": "<h4 style=\"margin: 0 0 8px;\">Lough Key junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/loughkey-juniors\">parkrun.ie/loughkey-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3321,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.059891,
+          -26.738409
+        ]
+      },
+      "properties": {
+        "eventname": "harmonyboulevard",
+        "EventLongName": "Harmony Boulevard parkrun",
+        "EventShortName": "Harmony Boulevard",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "Harmony Boulevard Park",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.au/harmonyboulevard",
+        "Country": "Australia",
+        "State": "Queensland",
+        "County": "Sunshine Coast",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Harmony Boulevard parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/harmonyboulevard\">parkrun.com.au/harmonyboulevard</a></td></tr></table>",
         "Special Days": {}
       }
     },
