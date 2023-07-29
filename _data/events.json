@@ -51726,13 +51726,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Ohio and Erie Canal Reservation",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-07-29",
+            "ReasonCancelled": "Morning thunderstorms"
+          }
+        ],
         "Website": "https://www.parkrun.us/ohioanderiecanalreservation",
         "Country": "USA",
         "State": "Ohio",
         "County": "Cuyahoga",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ohio and Erie Canal Reservation parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/ohioanderiecanalreservation\">parkrun.us/ohioanderiecanalreservation</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ohio and Erie Canal Reservation parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;July&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Morning thunderstorms</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/ohioanderiecanalreservation\">parkrun.us/ohioanderiecanalreservation</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -68463,34 +68468,6 @@
         "State": "Michigan",
         "County": "Oakland",
         "description": "<h4 style=\"margin: 0 0 8px;\">ITC Community Sports parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/itccommunitysports\">parkrun.us/itccommunitysports</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 3317,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.87384,
-          53.539368
-        ]
-      },
-      "properties": {
-        "eventname": "epworthequestrian",
-        "EventLongName": "Epworth Equestrian parkrun",
-        "EventShortName": "Epworth Equestrian",
-        "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 1,
-        "EventLocation": "Epworth Equestrian Centre",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/epworthequestrian",
-        "Country": "United Kingdom",
-        "State": "England",
-        "County": "North Lincolnshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Epworth Equestrian parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/epworthequestrian\">parkrun.org.uk/epworthequestrian</a></td></tr></table>",
         "Special Days": {}
       }
     },
