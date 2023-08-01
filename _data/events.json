@@ -62283,6 +62283,40 @@
       }
     },
     {
+      "id": 3036,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.957775,
+          44.821408
+        ]
+      },
+      "properties": {
+        "eventname": "hamletpark",
+        "EventLongName": "Hamlet Park parkrun",
+        "EventShortName": "Hamlet Park",
+        "LocalisedEventLongName": null,
+        "countrycode": 98,
+        "seriesid": 1,
+        "EventLocation": "Hamlet Park",
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-08-05",
+            "ReasonCancelled": "parkrun moves to Kingston Park beginning Aug 5th"
+          }
+        ],
+        "Website": "https://www.parkrun.us/hamletpark",
+        "Country": "USA",
+        "State": "Minnesota",
+        "County": "Washington",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hamlet Park parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;August&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>parkrun moves to Kingston Park beginning Aug 5th</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/hamletpark\">parkrun.us/hamletpark</a></td></tr></table>",
+        "Special Days": {},
+        "NYD": "parkrunning"
+      }
+    },
+    {
       "id": 3040,
       "type": "Feature",
       "geometry": {
