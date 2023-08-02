@@ -7685,13 +7685,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Evesham",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-08-06",
+            "ReasonCancelled": "Due to Battle of Evesham camping"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/evesham-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Worcestershire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Evesham junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/evesham-juniors\">parkrun.org.uk/evesham-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Evesham junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  6&nbsp;August&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Due to Battle of Evesham camping</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/evesham-juniors\">parkrun.org.uk/evesham-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
