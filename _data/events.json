@@ -29660,13 +29660,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Bitts Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-08-13",
+            "ReasonCancelled": "No core team available"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/carlisle-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Cumbria",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Carlisle junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/carlisle-juniors\">parkrun.org.uk/carlisle-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Carlisle junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 13&nbsp;August&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>No core team available</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/carlisle-juniors\">parkrun.org.uk/carlisle-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -52342,13 +52347,18 @@
         "countrycode": 46,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-08-12",
+            "ReasonCancelled": "\u30a4\u30d9\u30f3\u30c8\u4f1a\u5834\u306e\u90fd\u5408\u3067\u4e2d\u6b62\u3057\u307e\u3059\u3002"
+          }
+        ],
         "Website": "https://www.parkrun.jp/nagaragawakoen",
         "Country": "Japan",
         "State": "Gifu",
         "County": "Gifu-shi",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Nagaragawa koen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/nagaragawakoen\">parkrun.jp/nagaragawakoen</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Nagaragawa koen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;August&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>\u30a4\u30d9\u30f3\u30c8\u4f1a\u5834\u306e\u90fd\u5408\u3067\u4e2d\u6b62\u3057\u307e\u3059\u3002</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/nagaragawakoen\">parkrun.jp/nagaragawakoen</a></td></tr></table>",
         "Special Days": {}
       }
     },
