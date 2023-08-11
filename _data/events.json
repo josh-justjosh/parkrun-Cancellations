@@ -61108,13 +61108,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "North Walsham High School and Sports Centre",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-08-12",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/northwalsham",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Norfolk",
-        "description": "<h4 style=\"margin: 0 0 8px;\">North Walsham parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/northwalsham\">parkrun.org.uk/northwalsham</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">North Walsham parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;August&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/northwalsham\">parkrun.org.uk/northwalsham</a></td></tr></table>",
         "Special Days": {}
       }
     },
