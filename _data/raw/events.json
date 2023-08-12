@@ -48045,6 +48045,26 @@
         }
       },
       {
+        "id": 3335,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            114.15228,
+            -27.733275
+          ]
+        },
+        "properties": {
+          "eventname": "jakespoint",
+          "EventLongName": "Jakes Point parkrun",
+          "EventShortName": "Jakes Point",
+          "LocalisedEventLongName": null,
+          "countrycode": 3,
+          "seriesid": 1,
+          "EventLocation": "Jakes Point Lookout"
+        }
+      },
+      {
         "id": 3336,
         "type": "Feature",
         "geometry": {
@@ -48122,6 +48142,46 @@
           "countrycode": 97,
           "seriesid": 2,
           "EventLocation": "Plas Newydd House and Garden"
+        }
+      },
+      {
+        "id": 3345,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            27.782625,
+            -25.696386
+          ]
+        },
+        "properties": {
+          "eventname": "aviatorsparadise",
+          "EventLongName": "Aviators Paradise parkrun",
+          "EventShortName": "Aviators Paradise",
+          "LocalisedEventLongName": null,
+          "countrycode": 85,
+          "seriesid": 1,
+          "EventLocation": "Aviators Paradise"
+        }
+      },
+      {
+        "id": 3346,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            24.695644,
+            -29.983414
+          ]
+        },
+        "properties": {
+          "eventname": "lieberwaltfarm",
+          "EventLongName": "Lieberwalt Farm parkrun",
+          "EventShortName": "Lieberwalt Farm",
+          "LocalisedEventLongName": null,
+          "countrycode": 85,
+          "seriesid": 1,
+          "EventLocation": "Lieberwalt Farm"
         }
       }
     ]
