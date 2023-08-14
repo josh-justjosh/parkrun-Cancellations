@@ -68741,13 +68741,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Plas Newydd House and Garden",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-08-20",
+            "ReasonCancelled": "Event begins on September 3rd"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/plasnewydd-juniors",
         "Country": "United Kingdom",
         "State": "Wales",
         "County": "Anglesey",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Plas Newydd junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/plasnewydd-juniors\">parkrun.org.uk/plasnewydd-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Plas Newydd junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 20&nbsp;August&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Event begins on September 3rd</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/plasnewydd-juniors\">parkrun.org.uk/plasnewydd-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
