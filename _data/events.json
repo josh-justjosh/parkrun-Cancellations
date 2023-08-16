@@ -12419,13 +12419,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Hillsborough Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-08-19",
+            "ReasonCancelled": "Unsafe to run event due to ongoing Tramlines works"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/hillsborough",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Sheffield",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hillsborough parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hillsborough\">parkrun.org.uk/hillsborough</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hillsborough parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;August&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Unsafe to run event due to ongoing Tramlines works</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hillsborough\">parkrun.org.uk/hillsborough</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -24346,13 +24351,18 @@
         "countrycode": 44,
         "seriesid": 1,
         "EventLocation": "Piazza Einstein, 90145 Palermo",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-08-19",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.it/uditore",
         "Country": "Italy",
         "State": "Sicily",
         "County": "Province of Palermo",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Uditore parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.it/uditore\">parkrun.it/uditore</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Uditore parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;August&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.it/uditore\">parkrun.it/uditore</a></td></tr></table>",
         "Special Days": {}
       }
     },
