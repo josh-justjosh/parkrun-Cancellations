@@ -41150,13 +41150,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Christiana Golf Club",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-08-19",
+            "ReasonCancelled": "Run Director get surgery and no body as replacemen"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/christiana",
         "Country": "South Africa",
         "State": "North-West",
         "County": "Dr Ruth Segomotsi Mompati District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Christiana parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/christiana\">parkrun.co.za/christiana</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Christiana parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;August&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Run Director get surgery and no body as replacemen</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/christiana\">parkrun.co.za/christiana</a></td></tr></table>",
         "Special Days": {}
       }
     },
