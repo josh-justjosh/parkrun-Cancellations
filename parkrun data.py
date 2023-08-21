@@ -1582,7 +1582,7 @@ if cancellations_changes != []:
             out += '    </tr>' + '\n'
             for event in cancellations_removals:
                 out += '    <tr>' + '\n'
-                if event[3] not in ['','Removed']:
+                if event[4] not in ['','Removed']:
                     out += '        <td><a href="' + event[4] + '">' + event[1] + '</a></td>' + '\n'
                 else:
                     out += '        <td>' + event[1] + '</td>' + '\n'
