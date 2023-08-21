@@ -1244,12 +1244,70 @@ uk_ie_counties['Ireland Total'] = ireland_totals
 uk_ie_counties['Total'] = uk_ie_counties_totals        
 #print(json.dumps(uk_ie_counties, indent=4))
 
+usstateslist = [
+    {'name':'Alabama','code':'al'},
+    {'name':'Alaska','code':'ak'},
+    {'name':'Arizona','code':'az'},
+    {'name':'Arkansas','code':'ar'},
+    {'name':'California','code':'ca'},
+    {'name':'Colorado','code':'co'},
+    {'name':'Connecticut','code':'ct'},
+    {'name':'Delaware','code':'de'},
+    {'name':'Washington, D.C.','code':'dc'},
+    {'name':'Florida','code':'fl'},
+    {'name':'Georgia','code':'ga'},
+    {'name':'Hawaii','code':'hi'},
+    {'name':'Idaho','code':'id'},
+    {'name':'Illinois','code':'il'},
+    {'name':'Indiana','code':'in'},
+    {'name':'Iowa','code':'ia'},
+    {'name':'Kansas','code':'ks'},
+    {'name':'Kentucky','code':'ky'},
+    {'name':'Louisiana','code':'la'},
+    {'name':'Maine','code':'me'},
+    {'name':'Maryland','code':'md'},
+    {'name':'Massachusetts','code':'ma'},
+    {'name':'Michigan','code':'mi'},
+    {'name':'Minnesota','code':'mn'},
+    {'name':'Mississippi','code':'ms'},
+    {'name':'Missouri','code':'mo'},
+    {'name':'Montana','code':'mt'},
+    {'name':'Nebraska','code':'ne'},
+    {'name':'Nevada','code':'nv'},
+    {'name':'New Hampshire','code':'nh'},
+    {'name':'New Jersey','code':'nj'},
+    {'name':'New Mexico','code':'nm'},
+    {'name':'New York','code':'ny'},
+    {'name':'North Carolina','code':'nc'},
+    {'name':'North Dakota','code':'nd'},
+    {'name':'Ohio','code':'oh'},
+    {'name':'Oklahoma','code':'ok'},
+    {'name':'Oregon','code':'or'},
+    {'name':'Pennsylvania','code':'pa'},
+    {'name':'Rhode Island','code':'ri'},
+    {'name':'South Carolina','code':'sc'},
+    {'name':'South Dakota','code':'sd'},
+    {'name':'Tennessee','code':'tn'},
+    {'name':'Texas','code':'tx'},
+    {'name':'Utah','code':'ut'},
+    {'name':'Vermont','code':'vt'},
+    {'name':'Virginia','code':'va'},
+    {'name':'Washington','code':'wa'},
+    {'name':'West Virginia','code':'wv'},
+    {'name':'Wisconsin','code':'wi'},
+    {'name':'Wyoming','code':'wy'}
+    ]
+
 usa_states = {}
+
+for i in usstateslist:
+    usa_states[i['name']] = {'country': parkrun['properties']['Country'],'parkrunning': 0,'junior parkrunning':0,'5k Cancellations':0,'junior Cancellations':0,'Total':0,'events parkrunning':'','events junior parkrunning':'','events 5k cancellation':'','events junior cancellation':''}
+
 for parkrun in events['features']:
     if parkrun['properties']['Country'] in ["USA"]:
         if parkrun['properties']['State'] not in usa_states.keys():
             usa_states[parkrun['properties']['State']] = {'country': parkrun['properties']['Country'],'parkrunning': 0,'junior parkrunning':0,'5k Cancellations':0,'junior Cancellations':0,'Total':0,'events parkrunning':'','events junior parkrunning':'','events 5k cancellation':'','events junior cancellation':''}
-            
+        
         if parkrun['properties']['Status'] == 'parkrunning':
             usa_states[parkrun['properties']['State']]['parkrunning'] += 1
             usa_states[parkrun['properties']['State']]['Total'] += 1
@@ -1667,60 +1725,6 @@ def writehistory(file, data):
         f.write(json.dumps(old_data,indent=4)+"\n")
     print(now(),"history/"+file+" saved")
 
-usstateslist = [
-    {'name':'Alabama','code':'al'},
-    {'name':'Alaska','code':'ak'},
-    {'name':'Arizona','code':'az'},
-    {'name':'Arkansas','code':'ar'},
-    {'name':'California','code':'ca'},
-    {'name':'Colorado','code':'co'},
-    {'name':'Connecticut','code':'ct'},
-    {'name':'Delaware','code':'de'},
-    {'name':'Washington, D.C.','code':'dc'},
-    {'name':'Florida','code':'fl'},
-    {'name':'Georgia','code':'ga'},
-    {'name':'Hawaii','code':'hi'},
-    {'name':'Idaho','code':'id'},
-    {'name':'Illinois','code':'il'},
-    {'name':'Indiana','code':'in'},
-    {'name':'Iowa','code':'ia'},
-    {'name':'Kansas','code':'ks'},
-    {'name':'Kentucky','code':'ky'},
-    {'name':'Louisiana','code':'la'},
-    {'name':'Maine','code':'me'},
-    {'name':'Maryland','code':'md'},
-    {'name':'Massachusetts','code':'ma'},
-    {'name':'Michigan','code':'mi'},
-    {'name':'Minnesota','code':'mn'},
-    {'name':'Mississippi','code':'ms'},
-    {'name':'Missouri','code':'mo'},
-    {'name':'Montana','code':'mt'},
-    {'name':'Nebraska','code':'ne'},
-    {'name':'Nevada','code':'nv'},
-    {'name':'New Hampshire','code':'nh'},
-    {'name':'New Jersey','code':'nj'},
-    {'name':'New Mexico','code':'nm'},
-    {'name':'New York','code':'ny'},
-    {'name':'North Carolina','code':'nc'},
-    {'name':'North Dakota','code':'nd'},
-    {'name':'Ohio','code':'oh'},
-    {'name':'Oklahoma','code':'ok'},
-    {'name':'Oregon','code':'or'},
-    {'name':'Pennsylvania','code':'pa'},
-    {'name':'Rhode Island','code':'ri'},
-    {'name':'South Carolina','code':'sc'},
-    {'name':'South Dakota','code':'sd'},
-    {'name':'Tennessee','code':'tn'},
-    {'name':'Texas','code':'tx'},
-    {'name':'Utah','code':'ut'},
-    {'name':'Vermont','code':'vt'},
-    {'name':'Virginia','code':'va'},
-    {'name':'Washington','code':'wa'},
-    {'name':'West Virginia','code':'wv'},
-    {'name':'Wisconsin','code':'wi'},
-    {'name':'Wyoming','code':'wy'}
-    ]
-
 writehistory('global.json',countries['Total'])
 writehistory('australia.json',countries['Australia'])
 writehistory('austria.json',countries['Austria'])
@@ -1759,10 +1763,7 @@ writehistory('aus/vic.json',aus['Victoria'])
 writehistory('aus/wa.json',aus['Western Australia'])
 
 for state in usstateslist:
-    try:
-        writehistory('usa/'+state['code']+'.json',usa_states[state['name']])
-    except KeyError:
-        print(now(),"No parkruns in", state['name'])
+    writehistory('usa/'+state['code']+'.json',usa_states[state['name']])
         
 #se_au = requests.get('https://www.parkrun.com.au/special-events').text
 #se_ca = requests.get('https://www.parkrun.ca/special-events').text
