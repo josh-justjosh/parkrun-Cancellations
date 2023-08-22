@@ -7683,13 +7683,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Rock Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-08-26",
+            "ReasonCancelled": "Inflatables in the park"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/barnstaple",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Devon",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Barnstaple parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/barnstaple\">parkrun.org.uk/barnstaple</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Barnstaple parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 26&nbsp;August&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Inflatables in the park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/barnstaple\">parkrun.org.uk/barnstaple</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -69115,6 +69120,34 @@
         "State": "England",
         "County": "North Somerset",
         "description": "<h4 style=\"margin: 0 0 8px;\">Golden Valley Playing Field junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/goldenvalleyplayingfield-juniors\">parkrun.org.uk/goldenvalleyplayingfield-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3351,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.863624,
+          50.989588
+        ]
+      },
+      "properties": {
+        "eventname": "stadsparksittard",
+        "EventLongName": "Stadspark parkrun, Sittard",
+        "EventShortName": "Stadspark, Sittard",
+        "LocalisedEventLongName": null,
+        "countrycode": 64,
+        "seriesid": 1,
+        "EventLocation": "",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.nl/stadsparksittard",
+        "Country": "Netherlands",
+        "State": "Limburg",
+        "County": "Gemeente Sittard-Geleen",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Stadspark parkrun, Sittard</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nl/stadsparksittard\">parkrun.co.nl/stadsparksittard</a></td></tr></table>",
         "Special Days": {}
       }
     }
