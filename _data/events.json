@@ -19144,13 +19144,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Holt House Playing Fields",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-08-26",
+            "ReasonCancelled": "Campers"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/pendle",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Lancashire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Pendle parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/pendle\">parkrun.org.uk/pendle</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Pendle parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 26&nbsp;August&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Campers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/pendle\">parkrun.org.uk/pendle</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -69000,6 +69005,34 @@
         "State": "Western Cape",
         "County": "West Coast District Municipality",
         "description": "<h4 style=\"margin: 0 0 8px;\">Velskoendraai parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/velskoendraai\">parkrun.co.za/velskoendraai</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3344,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.032903,
+          -29.591575
+        ]
+      },
+      "properties": {
+        "eventname": "hazelmeredam",
+        "EventLongName": "Hazelmere Dam parkrun",
+        "EventShortName": "Hazelmere Dam",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Hazelmere Dam & Resort",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.za/hazelmeredam",
+        "Country": "South Africa",
+        "State": "KwaZulu-Natal",
+        "County": "eThekwini Metropolitan Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hazelmere Dam parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/hazelmeredam\">parkrun.co.za/hazelmeredam</a></td></tr></table>",
         "Special Days": {}
       }
     },
