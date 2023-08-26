@@ -33194,13 +33194,18 @@
         "countrycode": 42,
         "seriesid": 1,
         "EventLocation": "Gas House Bridge",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-08-26",
+            "ReasonCancelled": "As a mark of respect for a local tragedy"
+          }
+        ],
         "Website": "https://www.parkrun.ie/clonmel",
         "Country": "Ireland",
         "State": "Munster",
         "County": "Tipperary",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Clonmel parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/clonmel\">parkrun.ie/clonmel</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Clonmel parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 26&nbsp;August&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>As a mark of respect for a local tragedy</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/clonmel\">parkrun.ie/clonmel</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -67597,13 +67602,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Canton Lower Rouge Trail",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-08-26",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.us/cantonlowerrougetrail",
         "Country": "USA",
         "State": "Michigan",
         "County": "Wayne",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Canton Lower Rouge Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/cantonlowerrougetrail\">parkrun.us/cantonlowerrougetrail</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Canton Lower Rouge Trail parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 26&nbsp;August&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/cantonlowerrougetrail\">parkrun.us/cantonlowerrougetrail</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -69046,6 +69056,34 @@
       }
     },
     {
+      "id": 3342,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.366188,
+          -34.968285
+        ]
+      },
+      "properties": {
+        "eventname": "wilsoninletheritagetrail",
+        "EventLongName": "Wilson Inlet Heritage Trail parkrun",
+        "EventShortName": "Wilson Inlet Heritage Trail",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "Wilson Inlet Heritage Trail",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.au/wilsoninletheritagetrail",
+        "Country": "Australia",
+        "State": "Western Australia",
+        "County": "Denmark",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Wilson Inlet Heritage Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/wilsoninletheritagetrail\">parkrun.com.au/wilsoninletheritagetrail</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 3343,
       "type": "Feature",
       "geometry": {
@@ -69266,6 +69304,34 @@
         "State": "Limburg",
         "County": "Gemeente Sittard-Geleen",
         "description": "<h4 style=\"margin: 0 0 8px;\">Stadspark parkrun, Sittard</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nl/stadsparksittard\">parkrun.co.nl/stadsparksittard</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3352,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.208328,
+          51.702931
+        ]
+      },
+      "properties": {
+        "eventname": "furzefieldleisurecentre-juniors",
+        "EventLongName": "Furzefield Leisure Centre junior parkrun",
+        "EventShortName": "Furzefield Leisure Centre juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Furzefield Leisure Centre",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/furzefieldleisurecentre-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Hertfordshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Furzefield Leisure Centre junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/furzefieldleisurecentre-juniors\">parkrun.org.uk/furzefieldleisurecentre-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     }
