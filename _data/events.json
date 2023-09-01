@@ -12462,13 +12462,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Kingsbury Water Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-09-02",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/kingsburywater",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Warwickshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Kingsbury Water parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/kingsburywater\">parkrun.org.uk/kingsburywater</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Kingsbury Water parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  2&nbsp;September&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/kingsburywater\">parkrun.org.uk/kingsburywater</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -49854,13 +49859,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Alderford Lake",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-09-02",
+            "ReasonCancelled": "RD illness and no other RD available to cover"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/alderfordlake",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Shropshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Alderford Lake parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/alderfordlake\">parkrun.org.uk/alderfordlake</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Alderford Lake parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  2&nbsp;September&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>RD illness and no other RD available to cover</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/alderfordlake\">parkrun.org.uk/alderfordlake</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -69235,6 +69245,34 @@
         "State": "Greater Poland",
         "County": "Powiat wrzesi\u0144ski",
         "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Zalew Wrzesi\u0144ski</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/zalewwrzesinski\">parkrun.pl/zalewwrzesinski</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3357,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.324597,
+          51.612815
+        ]
+      },
+      "properties": {
+        "eventname": "palacksiazecy",
+        "EventLongName": "parkrun Pa\u0142ac Ksi\u0105\u017c\u0119cy",
+        "EventShortName": "Pa\u0142ac Ksi\u0105\u017c\u0119cy",
+        "LocalisedEventLongName": null,
+        "countrycode": 74,
+        "seriesid": 1,
+        "EventLocation": "Pa\u0142ac Ksi\u0105\u017c\u0119cy",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.pl/palacksiazecy",
+        "Country": "Poland",
+        "State": "Lubusz",
+        "County": "\u017baga\u0144 County",
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Pa\u0142ac Ksi\u0105\u017c\u0119cy</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/palacksiazecy\">parkrun.pl/palacksiazecy</a></td></tr></table>",
         "Special Days": {}
       }
     }
