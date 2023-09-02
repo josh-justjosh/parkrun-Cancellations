@@ -56778,13 +56778,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Gadebridge Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-09-03",
+            "ReasonCancelled": "shortage of volunteers and event in park"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/gadebridgepark-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Hertfordshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Gadebridge Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/gadebridgepark-juniors\">parkrun.org.uk/gadebridgepark-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Gadebridge Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  3&nbsp;September&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>shortage of volunteers and event in park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/gadebridgepark-juniors\">parkrun.org.uk/gadebridgepark-juniors</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -68981,34 +68986,6 @@
       }
     },
     {
-      "id": 3341,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.6042,
-          54.261285
-        ]
-      },
-      "properties": {
-        "eventname": "thorpperrow",
-        "EventLongName": "Thorp Perrow parkrun",
-        "EventShortName": "Thorp Perrow",
-        "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 1,
-        "EventLocation": "Thorp Perrow",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/thorpperrow",
-        "Country": "United Kingdom",
-        "State": "England",
-        "County": "North Yorkshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Thorp Perrow parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/thorpperrow\">parkrun.org.uk/thorpperrow</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
       "id": 3342,
       "type": "Feature",
       "geometry": {
@@ -69369,90 +69346,6 @@
         "State": "British Columbia",
         "County": "Thompson-Nicola",
         "description": "<h4 style=\"margin: 0 0 8px;\">Riverside parkrun, Kamloops</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/riversidekamloops\">parkrun.ca/riversidekamloops</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 3359,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.007122,
-          51.432132
-        ]
-      },
-      "properties": {
-        "eventname": "forstermemorialpark-juniors",
-        "EventLongName": "Forster Memorial Park junior parkrun",
-        "EventShortName": "Forster Memorial Park juniors",
-        "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 2,
-        "EventLocation": "Forster Memorial Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/forstermemorialpark-juniors",
-        "Country": "United Kingdom",
-        "State": "England",
-        "County": "Greater London",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Forster Memorial Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/forstermemorialpark-juniors\">parkrun.org.uk/forstermemorialpark-juniors</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 3363,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.942842,
-          52.477393
-        ]
-      },
-      "properties": {
-        "eventname": "edgbastonreservoir-juniors",
-        "EventLongName": "Edgbaston Reservoir junior parkrun",
-        "EventShortName": "Edgbaston Reservoir juniors",
-        "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 2,
-        "EventLocation": "Edgbaston Reservoir",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/edgbastonreservoir-juniors",
-        "Country": "United Kingdom",
-        "State": "England",
-        "County": "Birmingham",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Edgbaston Reservoir junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/edgbastonreservoir-juniors\">parkrun.org.uk/edgbastonreservoir-juniors</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 3364,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.889525,
-          53.567433
-        ]
-      },
-      "properties": {
-        "eventname": "coronationpark-juniors",
-        "EventLongName": "Coronation Park junior parkrun",
-        "EventShortName": "Coronation Park juniors",
-        "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 2,
-        "EventLocation": "Coronation Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/coronationpark-juniors",
-        "Country": "United Kingdom",
-        "State": "England",
-        "County": "Lancashire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Coronation Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/coronationpark-juniors\">parkrun.org.uk/coronationpark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     }
