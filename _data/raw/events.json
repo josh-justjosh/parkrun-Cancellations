@@ -13,7 +13,7 @@
       "url": "www.parkrun.co.at",
       "bounds": [
         13.065462,
-        47.761065,
+        47.075123,
         16.419671,
         48.318131
       ]
@@ -48542,6 +48542,26 @@
           "countrycode": 97,
           "seriesid": 2,
           "EventLocation": "Coronation Park"
+        }
+      },
+      {
+        "id": 3365,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            15.442919,
+            47.075123
+          ]
+        },
+        "properties": {
+          "eventname": "stadtparkgraz",
+          "EventLongName": "Stadtpark parkrun, Graz",
+          "EventShortName": "Stadtpark, Graz",
+          "LocalisedEventLongName": null,
+          "countrycode": 4,
+          "seriesid": 1,
+          "EventLocation": ""
         }
       }
     ]
