@@ -66791,7 +66791,7 @@
         "LocalisedEventLongName": null,
         "countrycode": 97,
         "seriesid": 1,
-        "EventLocation": "Wynyard Woodland",
+        "EventLocation": "Wynyard Woodland, Stockton-on-Tees",
         "Status": "parkrunning",
         "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/wynyardwoodland",
@@ -69469,6 +69469,62 @@
         "State": "Styria",
         "County": "Graz Stadt",
         "description": "<h4 style=\"margin: 0 0 8px;\">Stadtpark parkrun, Graz</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.at/stadtparkgraz\">parkrun.co.at/stadtparkgraz</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3366,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.873083,
+          53.214822
+        ]
+      },
+      "properties": {
+        "eventname": "groenester",
+        "EventLongName": "Groene Ster parkrun",
+        "EventShortName": "Groene Ster",
+        "LocalisedEventLongName": null,
+        "countrycode": 64,
+        "seriesid": 1,
+        "EventLocation": "",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.nl/groenester",
+        "Country": "Netherlands",
+        "State": "Friesland",
+        "County": "Leeuwarden Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Groene Ster parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nl/groenester\">parkrun.co.nl/groenester</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3367,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.664843,
+          49.401453
+        ]
+      },
+      "properties": {
+        "eventname": "bahnstadtpromenade",
+        "EventLongName": "Bahnstadt Promenade parkrun",
+        "EventShortName": "Bahnstadt Promenade",
+        "LocalisedEventLongName": null,
+        "countrycode": 32,
+        "seriesid": 1,
+        "EventLocation": "",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.de/bahnstadtpromenade",
+        "Country": "Germany",
+        "State": "Baden-Wurttemberg",
+        "County": "Karlsruhe Region",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bahnstadt Promenade parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/bahnstadtpromenade\">parkrun.com.de/bahnstadtpromenade</a></td></tr></table>",
         "Special Days": {}
       }
     }

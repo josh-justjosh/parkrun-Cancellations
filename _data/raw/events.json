@@ -105,7 +105,7 @@
         4.290593,
         50.843369,
         6.540406,
-        53.203176
+        53.214822
       ]
     },
     "65": {
@@ -46681,7 +46681,7 @@
           "LocalisedEventLongName": null,
           "countrycode": 97,
           "seriesid": 1,
-          "EventLocation": "Wynyard Woodland"
+          "EventLocation": "Wynyard Woodland, Stockton-on-Tees"
         }
       },
       {
@@ -48580,6 +48580,46 @@
           "EventShortName": "Stadtpark, Graz",
           "LocalisedEventLongName": null,
           "countrycode": 4,
+          "seriesid": 1,
+          "EventLocation": ""
+        }
+      },
+      {
+        "id": 3366,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5.873083,
+            53.214822
+          ]
+        },
+        "properties": {
+          "eventname": "groenester",
+          "EventLongName": "Groene Ster parkrun",
+          "EventShortName": "Groene Ster",
+          "LocalisedEventLongName": null,
+          "countrycode": 64,
+          "seriesid": 1,
+          "EventLocation": ""
+        }
+      },
+      {
+        "id": 3367,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8.664843,
+            49.401453
+          ]
+        },
+        "properties": {
+          "eventname": "bahnstadtpromenade",
+          "EventLongName": "Bahnstadt Promenade parkrun",
+          "EventShortName": "Bahnstadt Promenade",
+          "LocalisedEventLongName": null,
+          "countrycode": 32,
           "seriesid": 1,
           "EventLocation": ""
         }
