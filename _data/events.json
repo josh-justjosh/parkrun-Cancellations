@@ -5619,13 +5619,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Parkway",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-09-17",
+            "ReasonCancelled": "Lack of Volunteers due to Belfast Half Marathon"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/comber-juniors",
         "Country": "United Kingdom",
         "State": "Northern Ireland",
         "County": "Down",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Comber junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/comber-juniors\">parkrun.org.uk/comber-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Comber junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 17&nbsp;September&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Lack of Volunteers due to Belfast Half Marathon</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/comber-juniors\">parkrun.org.uk/comber-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -12358,13 +12363,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Forest Recreation Gound, Nottingham",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-09-16",
+            "ReasonCancelled": "Ground Works"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/forestrec",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Nottingham",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Forest Rec parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/forestrec\">parkrun.org.uk/forestrec</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Forest Rec parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 16&nbsp;September&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Ground Works</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/forestrec\">parkrun.org.uk/forestrec</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -30042,6 +30052,39 @@
       }
     },
     {
+      "id": 1488,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.104298,
+          53.533022
+        ]
+      },
+      "properties": {
+        "eventname": "alexandra-juniors",
+        "EventLongName": "Alexandra junior parkrun, Oldham",
+        "EventShortName": "Alexandra juniors, Oldham",
+        "LocalisedEventLongName": "Alexandra junior parkrun",
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Alexandra Park",
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-09-17",
+            "ReasonCancelled": "Event Closed"
+          }
+        ],
+        "Website": "https://www.parkrun.org.uk/alexandra-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Oldham",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Alexandra junior parkrun, Oldham</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 17&nbsp;September&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Event Closed</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/alexandra-juniors\">parkrun.org.uk/alexandra-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 1489,
       "type": "Feature",
       "geometry": {
@@ -42735,13 +42778,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Henstridge Airfield",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-09-16",
+            "ReasonCancelled": "Site not available"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/henstridgeairfield",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Somerset",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Henstridge Airfield parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/henstridgeairfield\">parkrun.org.uk/henstridgeairfield</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Henstridge Airfield parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 16&nbsp;September&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Site not available</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/henstridgeairfield\">parkrun.org.uk/henstridgeairfield</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -66636,13 +66684,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Caledon Golf Course",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-09-16",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/caledongolfcourse",
         "Country": "South Africa",
         "State": "Western Cape",
         "County": "Overberg District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Caledon Golf Course parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/caledongolfcourse\">parkrun.co.za/caledongolfcourse</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Caledon Golf Course parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 16&nbsp;September&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/caledongolfcourse\">parkrun.co.za/caledongolfcourse</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -69542,6 +69595,34 @@
         "State": "Lesser Poland",
         "County": "Krak\u00f3w",
         "description": "<h4 style=\"margin: 0 0 8px;\">parkrun M\u0142yn\u00f3wka Kr\u00f3lewska</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/mlynowkakrolewska\">parkrun.pl/mlynowkakrolewska</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3370,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.178233,
+          52.251535
+        ]
+      },
+      "properties": {
+        "eventname": "setuarena",
+        "EventLongName": "SETU Arena parkrun",
+        "EventShortName": "SETU Arena",
+        "LocalisedEventLongName": null,
+        "countrycode": 42,
+        "seriesid": 1,
+        "EventLocation": "SETU Arena West Campus",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.ie/setuarena",
+        "Country": "Ireland",
+        "State": "Munster",
+        "County": "Waterford",
+        "description": "<h4 style=\"margin: 0 0 8px;\">SETU Arena parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/setuarena\">parkrun.ie/setuarena</a></td></tr></table>",
         "Special Days": {}
       }
     }
