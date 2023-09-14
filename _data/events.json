@@ -32783,13 +32783,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Kroonstad",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-09-16",
+            "ReasonCancelled": "School sport event taking place"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/kroonstad",
         "Country": "South Africa",
         "State": "Orange Free State",
         "County": "Fezile Dabi District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Kroonstad parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kroonstad\">parkrun.co.za/kroonstad</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Kroonstad parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 16&nbsp;September&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>School sport event taking place</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kroonstad\">parkrun.co.za/kroonstad</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -42772,39 +42777,6 @@
         "State": "England",
         "County": "Hertfordshire",
         "description": "<h4 style=\"margin: 0 0 8px;\">King George junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/kinggeorge-juniors\">parkrun.org.uk/kinggeorge-juniors</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 2096,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.352992,
-          50.985278
-        ]
-      },
-      "properties": {
-        "eventname": "henstridgeairfield",
-        "EventLongName": "Henstridge Airfield parkrun",
-        "EventShortName": "Henstridge Airfield",
-        "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 1,
-        "EventLocation": "Henstridge Airfield",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-09-16",
-            "ReasonCancelled": "Site not available"
-          }
-        ],
-        "Website": "https://www.parkrun.org.uk/henstridgeairfield",
-        "Country": "United Kingdom",
-        "State": "England",
-        "County": "Somerset",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Henstridge Airfield parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 16&nbsp;September&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Site not available</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/henstridgeairfield\">parkrun.org.uk/henstridgeairfield</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -60471,13 +60443,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Bartley Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-09-16",
+            "ReasonCancelled": "Bridge over Bartley Water closed for repair"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/bartleypark",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Hampshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bartley Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/bartleypark\">parkrun.org.uk/bartleypark</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bartley Park parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 16&nbsp;September&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Bridge over Bartley Water closed for repair</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/bartleypark\">parkrun.org.uk/bartleypark</a></td></tr></table>",
         "Special Days": {}
       }
     },
