@@ -42781,6 +42781,39 @@
       }
     },
     {
+      "id": 2096,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.352992,
+          50.985278
+        ]
+      },
+      "properties": {
+        "eventname": "henstridgeairfield",
+        "EventLongName": "Henstridge Airfield parkrun",
+        "EventShortName": "Henstridge Airfield",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Henstridge Airfield",
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-09-16",
+            "ReasonCancelled": "Site not available"
+          }
+        ],
+        "Website": "https://www.parkrun.org.uk/henstridgeairfield",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Somerset",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Henstridge Airfield parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 16&nbsp;September&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Site not available</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/henstridgeairfield\">parkrun.org.uk/henstridgeairfield</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 2097,
       "type": "Feature",
       "geometry": {
@@ -53911,13 +53944,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Victoria Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-09-16",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.ca/victoriatruro",
         "Country": "Canada",
         "State": "Nova Scotia",
         "County": "Colchester",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Victoria parkrun, Truro</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/victoriatruro\">parkrun.ca/victoriatruro</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Victoria parkrun, Truro</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 16&nbsp;September&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/victoriatruro\">parkrun.ca/victoriatruro</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -67022,13 +67060,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Biddeford Eastern Trail",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-09-16",
+            "ReasonCancelled": "Tropical Storm Warning/ Unsafe Conditions."
+          }
+        ],
         "Website": "https://www.parkrun.us/easterntrailbiddeford",
         "Country": "USA",
         "State": "Maine",
         "County": "York",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Eastern Trail parkrun, Biddeford</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/easterntrailbiddeford\">parkrun.us/easterntrailbiddeford</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Eastern Trail parkrun, Biddeford</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 16&nbsp;September&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Tropical Storm Warning/ Unsafe Conditions.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/easterntrailbiddeford\">parkrun.us/easterntrailbiddeford</a></td></tr></table>",
         "Special Days": {}
       }
     },
