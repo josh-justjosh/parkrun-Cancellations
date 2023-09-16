@@ -21988,13 +21988,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Pretoria Botanical Garden",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-09-16",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/botanicalgarden",
         "Country": "South Africa",
         "State": "Gauteng",
         "County": "City of Tshwane Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Botanical Garden parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/botanicalgarden\">parkrun.co.za/botanicalgarden</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Botanical Garden parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 16&nbsp;September&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/botanicalgarden\">parkrun.co.za/botanicalgarden</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -69353,90 +69358,6 @@
       }
     },
     {
-      "id": 3353,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.644542,
-          56.033364
-        ]
-      },
-      "properties": {
-        "eventname": "whitekirkhill",
-        "EventLongName": "Whitekirk Hill parkrun",
-        "EventShortName": "Whitekirk Hill",
-        "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 1,
-        "EventLocation": "Whitekirk Hill",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/whitekirkhill",
-        "Country": "United Kingdom",
-        "State": "Scotland",
-        "County": "East Lothian",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Whitekirk Hill parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/whitekirkhill\">parkrun.org.uk/whitekirkhill</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 3354,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -3.388267,
-          54.357004
-        ]
-      },
-      "properties": {
-        "eventname": "muncastercastle",
-        "EventLongName": "Muncaster Castle parkrun",
-        "EventShortName": "Muncaster Castle",
-        "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 1,
-        "EventLocation": "Muncaster Castle",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/muncastercastle",
-        "Country": "United Kingdom",
-        "State": "England",
-        "County": "Cumbria",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Muncaster Castle parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/muncastercastle\">parkrun.org.uk/muncastercastle</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 3355,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -3.387605,
-          54.873987
-        ]
-      },
-      "properties": {
-        "eventname": "sillothpromenade",
-        "EventLongName": "Silloth Promenade parkrun",
-        "EventShortName": "Silloth Promenade",
-        "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 1,
-        "EventLocation": "Silloth Promenade",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/sillothpromenade",
-        "Country": "United Kingdom",
-        "State": "England",
-        "County": "Cumbria",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Silloth Promenade parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/sillothpromenade\">parkrun.org.uk/sillothpromenade</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
       "id": 3356,
       "type": "Feature",
       "geometry": {
@@ -69745,30 +69666,35 @@
       }
     },
     {
-      "id": 3372,
+      "id": 3370,
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.28857,
-          52.644457
+          -7.178233,
+          52.251535
         ]
       },
       "properties": {
-        "eventname": "waterloopark-juniors",
-        "EventLongName": "Waterloo Park junior parkrun",
-        "EventShortName": "Waterloo Park juniors",
+        "eventname": "setuarena",
+        "EventLongName": "SETU Arena parkrun",
+        "EventShortName": "SETU Arena",
         "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 2,
-        "EventLocation": "Waterloo Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/waterloopark-juniors",
-        "Country": "United Kingdom",
-        "State": "England",
-        "County": "Norfolk",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Waterloo Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/waterloopark-juniors\">parkrun.org.uk/waterloopark-juniors</a></td></tr></table>",
+        "countrycode": 42,
+        "seriesid": 1,
+        "EventLocation": "SETU Arena West Campus",
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-09-16",
+            "ReasonCancelled": "Launch date of SETU parkrun not yet finalised"
+          }
+        ],
+        "Website": "https://www.parkrun.ie/setuarena",
+        "Country": "Ireland",
+        "State": "Munster",
+        "County": "Waterford",
+        "description": "<h4 style=\"margin: 0 0 8px;\">SETU Arena parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 16&nbsp;September&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Launch date of SETU parkrun not yet finalised</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/setuarena\">parkrun.ie/setuarena</a></td></tr></table>",
         "Special Days": {}
       }
     }
