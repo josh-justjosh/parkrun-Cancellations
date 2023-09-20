@@ -27406,13 +27406,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Orford Jubilee Neighbourhood Hub",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-09-24",
+            "ReasonCancelled": "Insufficient volunteers due to Running Festival"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/warrington-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Warrington",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Warrington junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/warrington-juniors\">parkrun.org.uk/warrington-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Warrington junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 24&nbsp;September&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Insufficient volunteers due to Running Festival</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/warrington-juniors\">parkrun.org.uk/warrington-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -60378,13 +60383,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Bartley Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-09-23",
+            "ReasonCancelled": "Bridge restrictions made it unusable"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/bartleypark",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Hampshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bartley Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/bartleypark\">parkrun.org.uk/bartleypark</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bartley Park parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 23&nbsp;September&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Bridge restrictions made it unusable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/bartleypark\">parkrun.org.uk/bartleypark</a></td></tr></table>",
         "Special Days": {}
       }
     },
