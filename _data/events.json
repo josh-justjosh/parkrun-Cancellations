@@ -28693,13 +28693,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Studley Park Boathouse",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-09-23",
+            "ReasonCancelled": "Engineering problems with Keynes Bridge"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/studley",
         "Country": "Australia",
         "State": "Victoria",
         "County": "Boroondara",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Studley parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/studley\">parkrun.com.au/studley</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Studley parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 23&nbsp;September&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Engineering problems with Keynes Bridge</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/studley\">parkrun.com.au/studley</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning"
       }
