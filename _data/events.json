@@ -42770,13 +42770,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "King George Recreation Ground",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-09-24",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/kinggeorge-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Hertfordshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">King George junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/kinggeorge-juniors\">parkrun.org.uk/kinggeorge-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">King George junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 24&nbsp;September&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/kinggeorge-juniors\">parkrun.org.uk/kinggeorge-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
