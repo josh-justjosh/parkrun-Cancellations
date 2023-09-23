@@ -1,7 +1,7 @@
 Event	Latitude	Longitude	Country	State	County	Status	Cancellations	Website
 Aachener Weiher parkrun	50.934298	6.927553	Germany	North Rhine-Westphalia	Cologne District	parkrunning	[]	https://www.parkrun.com.de/aachenerweiher
 Abbey Park parkrun	52.645191	-1.132222	United Kingdom	England	Leicester	parkrunning	[]	https://www.parkrun.org.uk/abbeypark
-Aberbeeg parkrun	51.711165	-3.144286	United Kingdom	Wales	Blaenau Gwent	parkrunning	[]	https://www.parkrun.org.uk/aberbeeg
+Aberbeeg parkrun	51.711165	-3.144286	United Kingdom	Wales	Blaenau Gwent	5k Cancellation	[{'DateCancelled': '2023-09-23', 'ReasonCancelled': 'Course unsafe or blocked'}]	https://www.parkrun.org.uk/aberbeeg
 Aberdare parkrun	51.718796	-3.460089	United Kingdom	Wales	Rhondda Cynon Taf	parkrunning	[]	https://www.parkrun.org.uk/aberdare
 Aberdeen parkrun	57.173898	-2.086256	United Kingdom	Scotland	Aberdeen City	parkrunning	[]	https://www.parkrun.org.uk/aberdeen
 Aberfields parkrun	51.614631	-3.538198	United Kingdom	Wales	County Borough of Bridgend	parkrunning	[]	https://www.parkrun.org.uk/aberfields
@@ -427,7 +427,6 @@ Clapham Common parkrun	51.455873	-0.151331	United Kingdom	England	Greater London
 Clare Castle parkrun	52.076428	0.581882	United Kingdom	England	Suffolk	parkrunning	[]	https://www.parkrun.org.uk/clarecastle
 Clare Valley parkrun	-33.866335	138.625011	Australia	South Australia	Clare and Gilbert Valleys	parkrunning	[]	https://www.parkrun.com.au/clarevalley
 Claremorris parkrun	53.712598	-8.997864	Ireland	Connacht	Mayo	parkrunning	[]	https://www.parkrun.ie/claremorris
-Clarence parkrun	53.604665	-2.289921	United Kingdom	England	Bury	parkrunning	[]	https://www.parkrun.org.uk/clarence
 Clarens parkrun	-28.514776	28.419728	South Africa	Orange Free State	Thabo Mofutsanyana District Municipality	parkrunning	[]	https://www.parkrun.co.za/clarens
 Clarisford parkrun	52.796642	-8.441796	Ireland	Munster	Clare	parkrunning	[]	https://www.parkrun.ie/clarisford
 Clashduv junior parkrun	51.880197	-8.497105	Ireland	Munster	Cork	junior parkrunning	[]	https://www.parkrun.ie/clashduv-juniors
@@ -708,7 +707,6 @@ Figges Marsh junior parkrun	51.414902	-0.16132	United Kingdom	England	Greater Lo
 Fingal Bay parkrun	-32.742887	152.170644	Australia	New South Wales	Port Stephens Shire	parkrunning	[]	https://www.parkrun.com.au/fingalbay
 Finsbury parkrun	51.569595	-0.104145	United Kingdom	England	Greater London	parkrunning	[]	https://www.parkrun.org.uk/finsbury
 Fish Hoek parkrun	-34.120577	18.398581	South Africa	Western Cape	City of Cape Town	parkrunning	[]	https://www.parkrun.co.za/fishhoek
-Five Arches parkrun	51.292354	-2.452787	United Kingdom	England	Bath and North East Somerset	parkrunning	[]	https://www.parkrun.org.uk/fivearches
 Flatts Lane parkrun	54.543872	-1.151741	United Kingdom	England	Redcar and Cleveland	parkrunning	[]	https://www.parkrun.org.uk/flattslane
 Flaxmere parkrun	-39.62549	176.789073	New Zealand	Hawke's Bay	Hastings District	parkrunning	[]	https://www.parkrun.co.nz/flaxmere
 Fleetwood Promenade parkrun	53.927366	-3.016919	United Kingdom	England	Lancashire	parkrunning	[]	https://www.parkrun.org.uk/fleetwoodpromenade
@@ -922,7 +920,7 @@ Hereford Leisure Centre junior parkrun	52.070452	-2.7242	United Kingdom	England	
 Hereford parkrun	52.068892	-2.724152	United Kingdom	England	Herefordshire	parkrunning	[]	https://www.parkrun.org.uk/hereford
 Heritage Harbor parkrun, Ottawa	41.341177	-88.785212	USA	Illinois	LaSalle	parkrunning	[]	https://www.parkrun.us/heritageharbor
 Heritage Park junior parkrun	52.346748	-6.515645	Ireland	Leinster	Wexford	junior parkrunning	[]	https://www.parkrun.ie/heritagepark-juniors
-Hermanus parkrun	-34.397417	19.215074	South Africa	Western Cape	Overberg District Municipality	parkrunning	[]	https://www.parkrun.co.za/hermanus
+Hermanus parkrun	-34.397417	19.215074	South Africa	Western Cape	Overberg District Municipality	5k Cancellation	[{'DateCancelled': '2023-09-23', 'ReasonCancelled': 'Weather'}]	https://www.parkrun.co.za/hermanus
 Herne Bay Memorial Park junior parkrun	51.369128	1.124931	United Kingdom	England	Kent	junior parkrunning	[]	https://www.parkrun.org.uk/hernebaymemorialpark-juniors
 Herrington Country parkrun	54.876573	-1.476809	United Kingdom	England	Sunderland	parkrunning	[]	https://www.parkrun.org.uk/herringtoncountry
 Hertford junior parkrun	51.801059	-0.077451	United Kingdom	England	Hertfordshire	junior parkrunning	[]	https://www.parkrun.org.uk/hertford-juniors
@@ -1817,7 +1815,6 @@ Sedgefield junior parkrun	54.653037	-1.466979	United Kingdom	England	Durham	juni
 Sedgefield parkrun	54.653008	-1.466289	United Kingdom	England	Durham	parkrunning	[]	https://www.parkrun.org.uk/sedgefield
 Seewoog parkrun	49.459034	7.565463	Germany	Rheinland-Pfalz		parkrunning	[]	https://www.parkrun.com.de/seewoog
 Selby parkrun	53.751824	-1.078398	United Kingdom	England	North Yorkshire	parkrunning	[]	https://www.parkrun.org.uk/selby
-Sence Valley Forest Park parkrun	52.696067	-1.408816	United Kingdom	England	Leicestershire	parkrunning	[]	https://www.parkrun.org.uk/sencevalleyforestpark
 Senekal parkrun	-28.31856	27.617928	South Africa	Orange Free State	Thabo Mofutsanyana District Municipality	parkrunning	[]	https://www.parkrun.co.za/senekal
 Seotlong Agriculture School parkrun	-28.459059	28.854683	South Africa	Orange Free State	Thabo Mofutsanyana District Municipality	parkrunning	[]	https://www.parkrun.co.za/seotlongagricultureschool
 Settlers Park parkrun	-29.578627	30.363324	South Africa	KwaZulu-Natal	uMgungundlovu District Municipality	parkrunning	[]	https://www.parkrun.co.za/settlerspark
@@ -2314,7 +2311,7 @@ Yackandandah Rail Trail parkrun	-36.316082	146.838391	Australia	Victoria	Indigo	
 Yamba parkrun	-29.435742	153.357271	Australia	New South Wales	Clarence Valley	parkrunning	[]	https://www.parkrun.com.au/yamba
 Yarborough Leisure Centre parkrun	53.247281	-0.542854	United Kingdom	England	Lincolnshire	parkrunning	[]	https://www.parkrun.org.uk/yarboroughleisurecentre
 Yarrabilba parkrun	-27.80288	153.10409	Australia	Queensland	Logan	parkrunning	[]	https://www.parkrun.com.au/yarrabilba
-Yatton Recreation junior parkrun	51.387275	-2.813883	United Kingdom	England	North Somerset	junior parkrunning	[]	https://www.parkrun.org.uk/yattonrecreation-juniors
+Yatton Recreation junior parkrun	51.387275	-2.813883	United Kingdom	England	North Somerset	junior Cancellation	[{'DateCancelled': '2023-09-24', 'ReasonCancelled': 'Shortage of volunteers'}]	https://www.parkrun.org.uk/yattonrecreation-juniors
 Yeldulknie Weir Trail parkrun	-33.70206	136.50305	Australia	South Australia	Cleve	parkrunning	[]	https://www.parkrun.com.au/yeldulknieweirtrail
 Yeovil Rec junior parkrun	50.954606	-2.63893	United Kingdom	England	Somerset	junior parkrunning	[]	https://www.parkrun.org.uk/yeovilrec-juniors
 Yeppoon parkrun	-23.128177	150.739086	Australia	Queensland	Livingstone	parkrunning	[]	https://www.parkrun.com.au/yeppoon

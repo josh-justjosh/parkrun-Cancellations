@@ -26586,13 +26586,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Hermanus",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-09-23",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/hermanus",
         "Country": "South Africa",
         "State": "Western Cape",
         "County": "Overberg District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hermanus parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/hermanus\">parkrun.co.za/hermanus</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hermanus parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 23&nbsp;September&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/hermanus\">parkrun.co.za/hermanus</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -43987,13 +43992,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Ebbw Valley Cycle Track",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-09-23",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/aberbeeg",
         "Country": "United Kingdom",
         "State": "Wales",
         "County": "Blaenau Gwent",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Aberbeeg parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/aberbeeg\">parkrun.org.uk/aberbeeg</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Aberbeeg parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 23&nbsp;September&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/aberbeeg\">parkrun.org.uk/aberbeeg</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -50603,13 +50613,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Yatton Recreation Ground",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-09-24",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/yattonrecreation-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "North Somerset",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Yatton Recreation junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/yattonrecreation-juniors\">parkrun.org.uk/yattonrecreation-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Yatton Recreation junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 24&nbsp;September&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/yattonrecreation-juniors\">parkrun.org.uk/yattonrecreation-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -69515,90 +69530,6 @@
         "State": "England",
         "County": "Greater London",
         "description": "<h4 style=\"margin: 0 0 8px;\">Forster Memorial Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/forstermemorialpark-juniors\">parkrun.org.uk/forstermemorialpark-juniors</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 3360,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.289921,
-          53.604665
-        ]
-      },
-      "properties": {
-        "eventname": "clarence",
-        "EventLongName": "Clarence parkrun",
-        "EventShortName": "Clarence",
-        "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 1,
-        "EventLocation": "Clarence Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/clarence",
-        "Country": "United Kingdom",
-        "State": "England",
-        "County": "Bury",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Clarence parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/clarence\">parkrun.org.uk/clarence</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 3361,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.408816,
-          52.696067
-        ]
-      },
-      "properties": {
-        "eventname": "sencevalleyforestpark",
-        "EventLongName": "Sence Valley Forest Park parkrun",
-        "EventShortName": "Sence Valley Forest Park",
-        "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 1,
-        "EventLocation": "Sence Valley Forest Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/sencevalleyforestpark",
-        "Country": "United Kingdom",
-        "State": "England",
-        "County": "Leicestershire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Sence Valley Forest Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/sencevalleyforestpark\">parkrun.org.uk/sencevalleyforestpark</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 3362,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.452787,
-          51.292354
-        ]
-      },
-      "properties": {
-        "eventname": "fivearches",
-        "EventLongName": "Five Arches parkrun",
-        "EventShortName": "Five Arches",
-        "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 1,
-        "EventLocation": "Norton-Radstock Greenway",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/fivearches",
-        "Country": "United Kingdom",
-        "State": "England",
-        "County": "Bath and North East Somerset",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Five Arches parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/fivearches\">parkrun.org.uk/fivearches</a></td></tr></table>",
         "Special Days": {}
       }
     },
