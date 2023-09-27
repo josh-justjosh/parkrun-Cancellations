@@ -3485,22 +3485,21 @@
         ]
       },
       "properties": {
-        "eventname": "bradford",
-        "EventLongName": "Bradford parkrun",
-        "EventShortName": "Bradford",
+        "eventname": "listerpark",
+        "EventLongName": "Lister Park parkrun, Bradford",
+        "EventShortName": "Lister Park, Bradford",
         "LocalisedEventLongName": null,
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Lister Park, Bradford",
         "Status": "parkrunning",
         "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/bradford",
+        "Website": "https://www.parkrun.org.uk/listerpark",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Bradford",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bradford parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/bradford\">parkrun.org.uk/bradford</a></td></tr></table>",
-        "Special Days": {},
-        "NYD": "parkrunning"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Lister Park parkrun, Bradford</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/listerpark\">parkrun.org.uk/listerpark</a></td></tr></table>",
+        "Special Days": {}
       }
     },
     {
@@ -11612,7 +11611,7 @@
       },
       "properties": {
         "eventname": "newent",
-        "EventLongName": "Newent parkrun, Forest of Dean",
+        "EventLongName": "Newent parkrun",
         "EventShortName": "Newent",
         "LocalisedEventLongName": null,
         "countrycode": 97,
@@ -11624,7 +11623,7 @@
         "Country": "United Kingdom",
         "State": "England",
         "County": "Gloucestershire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Newent parkrun, Forest of Dean</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/newent\">parkrun.org.uk/newent</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Newent parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/newent\">parkrun.org.uk/newent</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -30740,13 +30739,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Daisy Country Lodge",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-09-30",
+            "ReasonCancelled": "Course too flooded-Sections unpassable/dangerous"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/somersetwest",
         "Country": "South Africa",
         "State": "Western Cape",
         "County": "City of Cape Town",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Somerset West parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/somersetwest\">parkrun.co.za/somersetwest</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Somerset West parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 30&nbsp;September&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course too flooded-Sections unpassable/dangerous</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/somersetwest\">parkrun.co.za/somersetwest</a></td></tr></table>",
         "Special Days": {}
       }
     },
