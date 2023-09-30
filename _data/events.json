@@ -9883,13 +9883,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Citypark Park, Craigavon",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-09-30",
+            "ReasonCancelled": "Tunnel part of course flooded and not safe to hold"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/citypark",
         "Country": "United Kingdom",
         "State": "Northern Ireland",
         "County": "Armagh",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Citypark parkrun, Craigavon</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/citypark\">parkrun.org.uk/citypark</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Citypark parkrun, Craigavon</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 30&nbsp;September&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Tunnel part of course flooded and not safe to hold</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/citypark\">parkrun.org.uk/citypark</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -30144,13 +30149,18 @@
         "countrycode": 42,
         "seriesid": 1,
         "EventLocation": "The Regional Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-09-30",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.ie/ballincollig",
         "Country": "Ireland",
         "State": "Munster",
         "County": "Cork",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ballincollig parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/ballincollig\">parkrun.ie/ballincollig</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ballincollig parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 30&nbsp;September&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/ballincollig\">parkrun.ie/ballincollig</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
