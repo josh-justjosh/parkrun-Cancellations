@@ -62706,13 +62706,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Ryelands Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-10-01",
+            "ReasonCancelled": "Run director illness, cover unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/ryelandspark-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Lancashire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ryelands Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/ryelandspark-juniors\">parkrun.org.uk/ryelandspark-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ryelands Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  1&nbsp;October&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Run director illness, cover unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/ryelandspark-juniors\">parkrun.org.uk/ryelandspark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
