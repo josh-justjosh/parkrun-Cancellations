@@ -68075,13 +68075,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Mowbray Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-10-15",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/mowbraypark-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Sunderland",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Mowbray Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/mowbraypark-juniors\">parkrun.org.uk/mowbraypark-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Mowbray Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 15&nbsp;October&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/mowbraypark-juniors\">parkrun.org.uk/mowbraypark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
