@@ -15851,13 +15851,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Hazlehead Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-10-21",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/hazlehead",
         "Country": "United Kingdom",
         "State": "Scotland",
         "County": "Aberdeen City",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hazlehead parkrun, Aberdeen</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hazlehead\">parkrun.org.uk/hazlehead</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hazlehead parkrun, Aberdeen</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 21&nbsp;October&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hazlehead\">parkrun.org.uk/hazlehead</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
