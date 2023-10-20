@@ -70272,6 +70272,62 @@
         "description": "<h4 style=\"margin: 0 0 8px;\">Fig Tree parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/figtree\">parkrun.co.za/figtree</a></td></tr></table>",
         "Special Days": {}
       }
+    },
+    {
+      "id": 3388,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.713764,
+          -36.728682
+        ]
+      },
+      "properties": {
+        "eventname": "northernpathway",
+        "EventLongName": "Northern Pathway parkrun",
+        "EventShortName": "Northern Pathway",
+        "LocalisedEventLongName": null,
+        "countrycode": 65,
+        "seriesid": 1,
+        "EventLocation": "Northern Pathway",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.nz/northernpathway",
+        "Country": "New Zealand",
+        "State": "Auckland",
+        "County": "Auckland",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Northern Pathway parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/northernpathway\">parkrun.co.nz/northernpathway</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3389,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.476741,
+          50.918824
+        ]
+      },
+      "properties": {
+        "eventname": "battlerecreationground-juniors",
+        "EventLongName": "Battle Recreation Ground junior parkrun",
+        "EventShortName": "Battle Recreation Ground juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Battle Recreation Ground juniors",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/battlerecreationground-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "East Sussex",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Battle Recreation Ground junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/battlerecreationground-juniors\">parkrun.org.uk/battlerecreationground-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
     }
   ]
 }
