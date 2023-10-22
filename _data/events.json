@@ -64027,13 +64027,18 @@
         "countrycode": 42,
         "seriesid": 2,
         "EventLocation": "St Fergal\u2019s College",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-10-22",
+            "ReasonCancelled": "Weather conditions - FOG-"
+          }
+        ],
         "Website": "https://www.parkrun.ie/stfergalscollege-juniors",
         "Country": "Ireland",
         "State": "Leinster",
         "County": "Laois",
-        "description": "<h4 style=\"margin: 0 0 8px;\">St Fergal\u2019s College junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/stfergalscollege-juniors\">parkrun.ie/stfergalscollege-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">St Fergal\u2019s College junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 22&nbsp;October&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Weather conditions - FOG-</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/stfergalscollege-juniors\">parkrun.ie/stfergalscollege-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
