@@ -28402,13 +28402,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Rickety Bridge Winery",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-10-28",
+            "ReasonCancelled": "Route still being repaired after extreme weather"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/franschhoek",
         "Country": "South Africa",
         "State": "Western Cape",
         "County": "Cape Winelands District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Franschhoek parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/franschhoek\">parkrun.co.za/franschhoek</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Franschhoek parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 28&nbsp;October&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Route still being repaired after extreme weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/franschhoek\">parkrun.co.za/franschhoek</a></td></tr></table>",
         "Special Days": {}
       }
     },
