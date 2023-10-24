@@ -14,7 +14,7 @@ Aggeneys parkrun	-29.230412	18.845229	South Africa	Northern Cape	Namakwa Distric
 Agnew parkrun	54.908188	-5.0349	United Kingdom	Scotland	Dumfries and Galloway	parkrunning	[]	https://www.parkrun.org.uk/agnew
 Airlie Beach parkrun	-20.267153	148.711122	Australia	Queensland	Whitsunday	parkrunning	[]	https://www.parkrun.com.au/airliebeach
 Akkerendam Nature Reserve parkrun	-31.455321	19.773753	South Africa	Northern Cape	Namakwa District Municipality	parkrunning	[]	https://www.parkrun.co.za/akkerendamnaturereserve
-Albert College junior parkrun	53.38333	-6.261935	Ireland	Leinster	Dublin	junior parkrunning	[]	https://www.parkrun.ie/albertcollege-juniors
+Albert College junior parkrun	53.38333	-6.261935	Ireland	Leinster	Dublin	junior Cancellation	[{'DateCancelled': '2023-10-29', 'ReasonCancelled': 'Shortage of volunteers'}]	https://www.parkrun.ie/albertcollege-juniors
 Albert parkrun, Melbourne	-37.843521	144.96312	Australia	Victoria	Port Phillip	parkrunning	[]	https://www.parkrun.com.au/albertmelbourne
 Albert parkrun, Middlesbrough	54.564972	-1.231788	United Kingdom	England	Middlesbrough	parkrunning	[]	https://www.parkrun.org.uk/albert
 Alberts Farm parkrun	-26.161115	27.968273	South Africa	Gauteng	City of Johannesburg Metropolitan Municipality	parkrunning	[]	https://www.parkrun.co.za/albertsfarm
@@ -327,12 +327,12 @@ Cambridge NZ parkrun	-37.890281	175.435891	New Zealand	Waikato	Waipa District	pa
 Cambridge junior parkrun	52.236606	0.163389	United Kingdom	England	Cambridgeshire	junior parkrunning	[]	https://www.parkrun.org.uk/cambridge-juniors
 Campaspe parkrun	-37.354683	144.531445	Australia	Victoria	Macedon Ranges	parkrunning	[]	https://www.parkrun.com.au/campaspe
 Campbelltown parkrun	-34.018301	150.814819	Australia	New South Wales	Campbelltown Municipality	parkrunning	[]	https://www.parkrun.com.au/campbelltown
-Camperdown parkrun, Dundee	56.483681	-3.030896	United Kingdom	Scotland	Dundee City	parkrunning	[]	https://www.parkrun.org.uk/camperdown
+Camperdown parkrun, Dundee	56.483681	-3.030896	United Kingdom	Scotland	Dundee City	5k Cancellation	[{'DateCancelled': '2023-10-28', 'ReasonCancelled': 'Course unsafe due to storm damage'}]	https://www.parkrun.org.uk/camperdown
 Cannibals Cave parkrun	-28.682918	28.976784	South Africa	KwaZulu-Natal	uThukela District Municipality	parkrunning	[]	https://www.parkrun.co.za/cannibalscave
 Canning River parkrun	-32.020912	115.92266	Australia	Western Australia	City of Canning	parkrunning	[]	https://www.parkrun.com.au/canningriver
 Cannock Chase parkrun	52.73744	-1.99542	United Kingdom	England	Staffordshire	parkrunning	[]	https://www.parkrun.org.uk/cannockchase
 Cannon Hill junior parkrun, Birmingham	52.449976	-1.904225	United Kingdom	England	Birmingham	junior parkrunning	[]	https://www.parkrun.org.uk/cannonhill-juniors
-Cannon Hill parkrun, Birmingham	52.452637	-1.89997	United Kingdom	England	Birmingham	parkrunning	[]	https://www.parkrun.org.uk/cannonhill
+Cannon Hill parkrun, Birmingham	52.452637	-1.89997	United Kingdom	England	Birmingham	5k Cancellation	[{'DateCancelled': '2023-10-28', 'ReasonCancelled': 'Venue unavailable'}]	https://www.parkrun.org.uk/cannonhill
 Canons Park parkrun	51.612291	-0.296184	United Kingdom	England	Greater London	parkrunning	[]	https://www.parkrun.org.uk/canonspark
 Canterbury parkrun	51.299468	1.057002	United Kingdom	England	Kent	parkrunning	[]	https://www.parkrun.org.uk/canterbury
 Canton Lower Rouge Trail parkrun	42.285578	-83.485271	USA	Michigan	Wayne	parkrunning	[]	https://www.parkrun.us/cantonlowerrougetrail
@@ -363,7 +363,7 @@ Castleblayney parkrun	54.1219	-6.728947	Ireland	Ulster	Monaghan	parkrunning	[]	h
 Castlehaven parkrun	51.551575	-9.170294	Ireland	Munster	Cork	parkrunning	[]	https://www.parkrun.ie/castlehaven
 Castlemaine parkrun	-37.050794	144.217649	Australia	Victoria	Mount Alexander	parkrunning	[]	https://www.parkrun.com.au/castlemaine
 Castlerea parkrun	53.767763	-8.480996	Ireland	Connacht	Roscommon	parkrunning	[]	https://www.parkrun.ie/castlerea
-Castletown parkrun	53.348946	-6.528707	Ireland	Leinster	Kildare	parkrunning	[]	https://www.parkrun.ie/castletown
+Castletown parkrun	53.348946	-6.528707	Ireland	Leinster	Kildare	5k Cancellation	[{'DateCancelled': '2023-10-28', 'ReasonCancelled': 'Venue unavailable'}]	https://www.parkrun.ie/castletown
 Castlewellan parkrun	54.262147	-5.95386	United Kingdom	Northern Ireland	Down	parkrunning	[]	https://www.parkrun.org.uk/castlewellan
 Casula Parklands parkrun	-33.948703	150.91369	Australia	New South Wales	Liverpool	parkrunning	[]	https://www.parkrun.com.au/casulaparklands
 Catford parkrun	51.44824	-0.00863	United Kingdom	England	Greater London	parkrunning	[]	https://www.parkrun.org.uk/catford
@@ -448,7 +448,7 @@ Clitheroe Castle parkrun	53.870346	-2.39478	United Kingdom	England	Lancashire	pa
 Clonakilty parkrun	51.617636	-8.89884	Ireland	Munster	Cork	parkrunning	[]	https://www.parkrun.ie/clonakilty
 Clonbur Woods parkrun	53.547406	-9.361828	Ireland	Connacht	Galway	parkrunning	[]	https://www.parkrun.ie/clonburwoods
 Cloncurry parkrun	-20.70873	140.519814	Australia	Queensland	Cloncurry	parkrunning	[]	https://www.parkrun.com.au/cloncurry
-Clonmel parkrun	52.352179	-7.694956	Ireland	Munster	Tipperary	parkrunning	[]	https://www.parkrun.ie/clonmel
+Clonmel parkrun	52.352179	-7.694956	Ireland	Munster	Tipperary	5k Cancellation	[{'DateCancelled': '2023-10-28', 'ReasonCancelled': 'Course flooded'}]	https://www.parkrun.ie/clonmel
 Clough Hall junior parkrun	53.083194	-2.249699	United Kingdom	England	Staffordshire	junior parkrunning	[]	https://www.parkrun.org.uk/cloughhall-juniors
 Clover Point parkrun	48.40457	-123.350007	Canada	British Columbia	Capital Regional District	parkrunning	[]	https://www.parkrun.ca/cloverpoint
 Clumber Park parkrun	53.268022	-1.065717	United Kingdom	England	Nottinghamshire	parkrunning	[]	https://www.parkrun.org.uk/clumberpark
