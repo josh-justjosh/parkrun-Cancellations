@@ -38704,13 +38704,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Aspen Recreation Centre",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-10-28",
+            "ReasonCancelled": "Winter weather warning"
+          }
+        ],
         "Website": "https://www.parkrun.us/aspen",
         "Country": "USA",
         "State": "Colorado",
         "County": "Pitkin",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Aspen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/aspen\">parkrun.us/aspen</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Aspen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 28&nbsp;October&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Winter weather warning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/aspen\">parkrun.us/aspen</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -69894,34 +69899,6 @@
         "State": "New South Wales",
         "County": "Muswellbrook",
         "description": "<h4 style=\"margin: 0 0 8px;\">Two Rivers Wines parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/tworiverswines\">parkrun.com.au/tworiverswines</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 3377,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.884016,
-          52.504265
-        ]
-      },
-      "properties": {
-        "eventname": "astonhall",
-        "EventLongName": "Aston Hall parkrun",
-        "EventShortName": "Aston Hall",
-        "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 1,
-        "EventLocation": "Aston Hall",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/astonhall",
-        "Country": "United Kingdom",
-        "State": "England",
-        "County": "Birmingham",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Aston Hall parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/astonhall\">parkrun.org.uk/astonhall</a></td></tr></table>",
         "Special Days": {}
       }
     },
