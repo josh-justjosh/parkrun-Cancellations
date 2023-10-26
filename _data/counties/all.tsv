@@ -11,7 +11,7 @@ Berkshire	England	9	4	1	1	15	Reading|Newbury|Bracknell|Woodley|Upton Court|Maide
 Bristol	England	2	3			5	Eastville|Blaise Castle|	Eastville juniors|Kings Weston juniors|Windmill Hill juniors|		
 Buckinghamshire	England	10	4	1		15	Black Park|Milton Keynes|Wycombe Rye|Linford Wood|Buckingham|Rushmere|Higginson, Marlow|Wendover Woods|Church Mead|Bury Field|	Wycombe Rye juniors|Milton Keynes juniors|Aylesbury juniors|Buckingham juniors|	Aylesbury|	
 Cambridgeshire	England	13	11		1	25	Milton Country|Ferry Meadows|Wimpole Estate|Huntingdon|March|Pocket|Littleport|Manor Field, Whittlesey|Coldham’s Common|Soham Village College|Fulbourn Hospital|Storeys Field|Wisbech|	Central Park juniors|Jubilee juniors|Cambridge juniors|Wisbech juniors|Riverside juniors, St Neots|Coldham’s Common juniors|West End juniors|Cambourne juniors|Ely Country juniors|Cottenham Recreation Ground juniors|Bretton Park juniors|		Wimpole Estate juniors|
-Carlow	Ireland	1				1	Carlow Town|			
+Carlow	Ireland			1		1			Carlow Town|	
 Cavan	Ireland	3				3	Cootehill|Deerpark Forest|Edwin Carolan Community|			
 Cavank	Ireland	1				1	Con Smith|			
 Cheshire	England	13	8			21	Phoenix|Warrington|Congleton|Chester|Delamere|Lyme Park|Ellesmere Port|Widnes|Wilmslow|Crewe|Macclesfield|Northwich|Alderley Park|	Widnes juniors|Wilmslow juniors|Warrington juniors|Victoria juniors, Macclesfield|The Wirral Way juniors|Phoenix juniors|Gardenhurst Estate juniors|Queens Park juniors, Crewe|		
@@ -21,7 +21,7 @@ Co Kerry	Ireland	1				1	Fenit Greenway|
 Cork	Ireland	9	6	1	1	17	Clonakilty|Macroom Castle Demesne|Bere Island|Tramore Valley|Glengarriff|Castlehaven|Ballincollig|Mallow Castle|Pobalscoil na Tríonóide|	Cobh juniors|Ballincollig Regional juniors|Nursery Drive juniors|Mallow Castle juniors|Clashduv juniors|Dromlena Lawn juniors|	Glen River|	St Mary’s Campus juniors|
 Cornwall	England	9	3			12	Trelissick|Eden Project|Lanhydrock|Tamar Lakes|Penrose|Mount Edgcumbe|Heartlands|Land’s End|Penryn Campus|	Bodmin juniors|Par Track juniors|Bude Marshes juniors|		
 Cumbria	England	15	3	1		19	Millom|Carlisle|Barrow|Workington|Penrith|Keswick|Whinlatter Forest|Fell Foot|Whitehaven|Ford|Rothay Park|Bower Park|Talkin Tarn Country Park|Maryport Prom|Silloth Promenade|	Keswick juniors|Carlisle juniors|Barrow juniors|	Muncaster Castle|	
-Derbyshire	England	10	6			16	Shipley Country|Rosliston|Markeaton|Long Eaton|Glossop|Poolsbrook|Monsal Trail|Alvaston|Ashbourne Recreation Ground|Pavilion Gardens|	Swadlincote juniors|Markeaton juniors|Long Eaton juniors|Whaley Bridge juniors|Staveley juniors|Shipley Country juniors|		
+Derbyshire	England	9	6	1		16	Shipley Country|Rosliston|Markeaton|Glossop|Poolsbrook|Monsal Trail|Alvaston|Ashbourne Recreation Ground|Pavilion Gardens|	Swadlincote juniors|Markeaton juniors|Long Eaton juniors|Whaley Bridge juniors|Staveley juniors|Shipley Country juniors|	Long Eaton|	
 Derry	Northern Ireland	4	2			6	Derry City|Limavady|Garvagh Forest|Derrynoid Forest|	Derry City juniors|Magherafelt juniors|		
 Devon	England	17	8			25	Tamar Trails|Plymvalley|Torbay Velopark|Killerton|Barnstaple|Seaton|Parke|Exeter Riverside|Bideford|Exmouth|Teignmouth Promenade|Woolacombe Dunes|Haldon Forest|Bolberry Down|Central, Plymouth|Cranbrook Country Park|Sharpham Estate|	Torridge juniors|Heavitree juniors|Barnstaple juniors|Devonport juniors|Torbay Velopark juniors|Cranbrook Country Park juniors|Phear Park juniors|Stopline Way juniors|		
 Donegal	Ireland	5				5	Letterkenny|Falcarragh|Dungloe|Buncrana|Narin Beach|			
@@ -66,7 +66,7 @@ Leicestershire	England	12	5	1		18	Braunstone|Market Harborough|Conkers|Melton Mo
 Leitrim	Ireland	1				1	Ballinamore Greenway|			
 Limerick	Ireland	3	1			4	Limerick|Newcastle West|Mungret|	Shelbourne juniors|		
 Lincolnshire	England	13	3	1	1	18	Boston|Lincoln|Normanby Hall|Scunthorpe|Cleethorpes|Market Rasen Racecourse|Snowden Field|Doddington Hall|Ancholme Valley Way|Yarborough Leisure Centre|Epworth Equestrian|Baysgarth Park|Thonock Lane Farm|	Wyndham juniors|Boston Road Rec juniors|Brumby Wood Rec Ground juniors|	Belton House|	Central Park juniors, Boston|
-Longford	Ireland	1	1			2	Longford|	Longford juniors|		
+Longford	Ireland	1			1	2	Longford|			Longford juniors|
 Louth	Ireland	1	1			2	Dundalk|	Dundalk IT juniors|		
 Mayo	Ireland	6				6	Westport|Castlebar|Ballina|Erris|Claremorris|Achill Greenway|			
 Meath	Ireland	4				4	Navan|Oldbridge|Deerpark, Carlanstown|Porch Field|			
@@ -121,9 +121,9 @@ Wexford	Ireland	3	1			4	Wexford Racecourse|New Ross|Gorey|	Heritage Park juniors
 Wicklow	Ireland	3	2			5	Russborough|Tullow|Avondale Forest|	Bray juniors|Arklow Duck Pond juniors|		
 Wiltshire	England	9	5			14	Lydiard|Southwick Country Park|Chippenham|Salisbury|Melksham|Marlborough Common|Seven Fields|Tidworth|Quakers Walk|	Lydiard juniors|Chippenham juniors|Churchill Gardens juniors|King George V juniors|Calne Recreation Ground juniors|		
 Worcestershire	England	5	3			8	Arrow Valley|Worcester|Worcester Pitchcroft|Evesham|Wyre Forest|	Evesham juniors|Bromsgrove juniors|Wyre Forest juniors|		
-England Total	England	619	335	9	8	971				
+England Total	England	618	335	10	8	971				
 NI Total	Northern Ireland	35	16	1		52				
 Scotland Total	Scotland	67	31	2		100				
 Wales Total	Wales	48	19	2	1	70				
-Ireland Total	Ireland	100	31	4	6	141				
-Total		869	432	18	15	1334				
+Ireland Total	Ireland	99	30	5	7	141				
+Total		867	431	20	16	1334				
