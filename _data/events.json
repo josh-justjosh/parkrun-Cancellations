@@ -47439,13 +47439,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Avery Beach Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-11-04",
+            "ReasonCancelled": "Trail not maintained in the late fall/winter."
+          }
+        ],
         "Website": "https://www.parkrun.ca/averybeach",
         "Country": "Canada",
         "State": "Ontario",
         "County": "District Municipality of Muskoka",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Avery Beach parkrun, Huntsville</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/averybeach\">parkrun.ca/averybeach</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Avery Beach parkrun, Huntsville</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;November&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Trail not maintained in the late fall/winter.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/averybeach\">parkrun.ca/averybeach</a></td></tr></table>",
         "Special Days": {}
       }
     },
