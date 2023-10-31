@@ -12313,18 +12313,13 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Rotherham",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-11-04",
-            "ReasonCancelled": "Course unsafe or blocked"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/rotherham",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Rotherham",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Rotherham parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;November&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/rotherham\">parkrun.org.uk/rotherham</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Rotherham parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/rotherham\">parkrun.org.uk/rotherham</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -62822,13 +62817,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Cotlands Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-11-05",
+            "ReasonCancelled": "Storm damage, paths unsafe"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/cotlandspark-juniors",
         "Country": "United Kingdom",
         "State": "Scotland",
         "County": "Fife",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cotlands Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cotlandspark-juniors\">parkrun.org.uk/cotlandspark-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cotlands Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  5&nbsp;November&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Storm damage, paths unsafe</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cotlandspark-juniors\">parkrun.org.uk/cotlandspark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -68806,13 +68806,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Lynnfield Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-11-04",
+            "ReasonCancelled": "Part of route compromised by flooding."
+          }
+        ],
         "Website": "https://www.parkrun.co.za/lynnfield",
         "Country": "South Africa",
         "State": "KwaZulu-Natal",
         "County": "uMgungundlovu District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Lynnfield parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/lynnfield\">parkrun.co.za/lynnfield</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Lynnfield parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;November&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Part of route compromised by flooding.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/lynnfield\">parkrun.co.za/lynnfield</a></td></tr></table>",
         "Special Days": {}
       }
     },
