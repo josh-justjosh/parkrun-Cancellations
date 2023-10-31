@@ -28527,13 +28527,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Rickety Bridge Winery",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-11-04",
+            "ReasonCancelled": "Route still being repaired after extreme weather"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/franschhoek",
         "Country": "South Africa",
         "State": "Western Cape",
         "County": "Cape Winelands District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Franschhoek parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/franschhoek\">parkrun.co.za/franschhoek</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Franschhoek parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;November&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Route still being repaired after extreme weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/franschhoek\">parkrun.co.za/franschhoek</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -70546,34 +70551,6 @@
         "State": "England",
         "County": "Worcestershire",
         "description": "<h4 style=\"margin: 0 0 8px;\">Diglis Fields junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/diglisfields-juniors\">parkrun.org.uk/diglisfields-juniors</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 3395,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.317858,
-          51.364375
-        ]
-      },
-      "properties": {
-        "eventname": "lovelaceprimaryschool-juniors",
-        "EventLongName": "Lovelace Primary School junior parkrun",
-        "EventShortName": "Lovelace Primary School juniors",
-        "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 2,
-        "EventLocation": "Lovelace Primary School juniors",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/lovelaceprimaryschool-juniors",
-        "Country": "United Kingdom",
-        "State": "England",
-        "County": "Greater London",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Lovelace Primary School junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/lovelaceprimaryschool-juniors\">parkrun.org.uk/lovelaceprimaryschool-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     }
