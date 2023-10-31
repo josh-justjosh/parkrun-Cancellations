@@ -1683,13 +1683,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Kilbroney Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-11-04",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/rostrevor",
         "Country": "United Kingdom",
         "State": "Northern Ireland",
         "County": "Down",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Rostrevor parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/rostrevor\">parkrun.org.uk/rostrevor</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Rostrevor parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;November&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/rostrevor\">parkrun.org.uk/rostrevor</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -17017,13 +17022,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Wimbledon Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-11-05",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/wimbledonpark-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Greater London",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Wimbledon Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wimbledonpark-juniors\">parkrun.org.uk/wimbledonpark-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Wimbledon Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  5&nbsp;November&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wimbledonpark-juniors\">parkrun.org.uk/wimbledonpark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -70584,6 +70594,34 @@
         "State": "England",
         "County": "Greater London",
         "description": "<h4 style=\"margin: 0 0 8px;\">Lovelace Primary School junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/lovelaceprimaryschool-juniors\">parkrun.org.uk/lovelaceprimaryschool-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3396,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.987455,
+          -25.732858
+        ]
+      },
+      "properties": {
+        "eventname": "aronicasnursery",
+        "EventLongName": "Aronica\u2019s Nursery parkrun",
+        "EventShortName": "Aronica\u2019s Nursery",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Aronica\u2019s Nursery",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.za/aronicasnursery",
+        "Country": "South Africa",
+        "State": "Mpumalanga",
+        "County": "Ehlanzeni District",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Aronica\u2019s Nursery parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/aronicasnursery\">parkrun.co.za/aronicasnursery</a></td></tr></table>",
         "Special Days": {}
       }
     }
