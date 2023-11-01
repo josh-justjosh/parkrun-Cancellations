@@ -11652,13 +11652,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Opposite the Quarrendeon & Meadowcroft C",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-11-04",
+            "ReasonCancelled": "Both courses are still under water."
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/aylesbury",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Buckinghamshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Aylesbury parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/aylesbury\">parkrun.org.uk/aylesbury</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Aylesbury parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;November&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Both courses are still under water.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/aylesbury\">parkrun.org.uk/aylesbury</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -69022,13 +69027,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-11-04",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.ca/millennium",
         "Country": "Canada",
         "State": "Alberta",
         "County": "Canmore",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Millennium parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/millennium\">parkrun.ca/millennium</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Millennium parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;November&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/millennium\">parkrun.ca/millennium</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -70599,6 +70609,34 @@
         "State": "England",
         "County": "Greater London",
         "description": "<h4 style=\"margin: 0 0 8px;\">Lovelace Primary School junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/lovelaceprimaryschool-juniors\">parkrun.org.uk/lovelaceprimaryschool-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3396,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.987455,
+          -25.732858
+        ]
+      },
+      "properties": {
+        "eventname": "aronicasnursery",
+        "EventLongName": "Aronica\u2019s Nursery parkrun",
+        "EventShortName": "Aronica\u2019s Nursery",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Aronica\u2019s Nursery",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.za/aronicasnursery",
+        "Country": "South Africa",
+        "State": "Mpumalanga",
+        "County": "Ehlanzeni District",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Aronica\u2019s Nursery parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/aronicasnursery\">parkrun.co.za/aronicasnursery</a></td></tr></table>",
         "Special Days": {}
       }
     }
