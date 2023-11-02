@@ -25150,13 +25150,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Tewkesbury",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-11-04",
+            "ReasonCancelled": "Ground to boggy to run on after flooding"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/tewkesbury",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Gloucestershire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Tewkesbury parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/tewkesbury\">parkrun.org.uk/tewkesbury</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Tewkesbury parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;November&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Ground to boggy to run on after flooding</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/tewkesbury\">parkrun.org.uk/tewkesbury</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -62824,13 +62829,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Community Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-11-05",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/communitypark-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "North Yorkshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Community Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/communitypark-juniors\">parkrun.org.uk/communitypark-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Community Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  5&nbsp;November&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/communitypark-juniors\">parkrun.org.uk/communitypark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
