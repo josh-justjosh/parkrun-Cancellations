@@ -6350,13 +6350,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Royal Victoria Country Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-11-05",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/netleyabbey-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Hampshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Netley Abbey junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/netleyabbey-juniors\">parkrun.org.uk/netleyabbey-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Netley Abbey junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  5&nbsp;November&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/netleyabbey-juniors\">parkrun.org.uk/netleyabbey-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -24382,13 +24387,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Longrun Meadow",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-11-05",
+            "ReasonCancelled": "course flooded"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/longrunmeadow-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Somerset",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Longrun Meadow junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/longrunmeadow-juniors\">parkrun.org.uk/longrunmeadow-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Longrun Meadow junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  5&nbsp;November&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>course flooded</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/longrunmeadow-juniors\">parkrun.org.uk/longrunmeadow-juniors</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -65668,13 +65678,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Watermead Country Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-11-05",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/watermeadcountrypark-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Leicestershire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Watermead Country Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/watermeadcountrypark-juniors\">parkrun.org.uk/watermeadcountrypark-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Watermead Country Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  5&nbsp;November&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/watermeadcountrypark-juniors\">parkrun.org.uk/watermeadcountrypark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -71070,6 +71085,34 @@
         "State": "Mpumalanga",
         "County": "Ehlanzeni District",
         "description": "<h4 style=\"margin: 0 0 8px;\">Aronica\u2019s Nursery parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/aronicasnursery\">parkrun.co.za/aronicasnursery</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3399,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.324982,
+          53.69812
+        ]
+      },
+      "properties": {
+        "eventname": "victoriaparkhaslingden-juniors",
+        "EventLongName": "Victoria Park junior parkrun, Haslingden",
+        "EventShortName": "Victoria Park juniors, Haslingden",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Victoria Park juniors, Haslingden",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/victoriaparkhaslingden-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Lancashire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Victoria Park junior parkrun, Haslingden</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/victoriaparkhaslingden-juniors\">parkrun.org.uk/victoriaparkhaslingden-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     }
