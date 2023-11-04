@@ -44259,13 +44259,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Roding Valley Recreational Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-11-05",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/rodingvalley-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Essex",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Roding Valley junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/rodingvalley-juniors\">parkrun.org.uk/rodingvalley-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Roding Valley junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  5&nbsp;November&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/rodingvalley-juniors\">parkrun.org.uk/rodingvalley-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -56023,13 +56028,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Northampton Racecourse",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-11-05",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/northamptonracecourse-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Northamptonshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Northampton Racecourse junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/northamptonracecourse-juniors\">parkrun.org.uk/northamptonracecourse-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Northampton Racecourse junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  5&nbsp;November&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/northamptonracecourse-juniors\">parkrun.org.uk/northamptonracecourse-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -71060,34 +71070,6 @@
         "State": "Mpumalanga",
         "County": "Ehlanzeni District",
         "description": "<h4 style=\"margin: 0 0 8px;\">Aronica\u2019s Nursery parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/aronicasnursery\">parkrun.co.za/aronicasnursery</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 3399,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.324982,
-          53.69812
-        ]
-      },
-      "properties": {
-        "eventname": "victoriaparkhaslingden-juniors",
-        "EventLongName": "Victoria Park junior parkrun, Haslingden",
-        "EventShortName": "Victoria Park juniors, Haslingden",
-        "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 2,
-        "EventLocation": "Victoria Park juniors, Haslingden",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/victoriaparkhaslingden-juniors",
-        "Country": "United Kingdom",
-        "State": "England",
-        "County": "Lancashire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Victoria Park junior parkrun, Haslingden</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/victoriaparkhaslingden-juniors\">parkrun.org.uk/victoriaparkhaslingden-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     }
