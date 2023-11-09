@@ -24736,13 +24736,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Churchill Gardens",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-11-11",
+            "ReasonCancelled": "Flooding to the park"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/salisbury",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Wiltshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Salisbury parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/salisbury\">parkrun.org.uk/salisbury</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Salisbury parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 11&nbsp;November&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Flooding to the park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/salisbury\">parkrun.org.uk/salisbury</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning"
       }
@@ -60621,13 +60626,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Forfar Loch",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-11-11",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/forfarloch",
         "Country": "United Kingdom",
         "State": "Scotland",
         "County": "Angus",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Forfar Loch parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/forfarloch\">parkrun.org.uk/forfarloch</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Forfar Loch parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 11&nbsp;November&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/forfarloch\">parkrun.org.uk/forfarloch</a></td></tr></table>",
         "Special Days": {}
       }
     },
