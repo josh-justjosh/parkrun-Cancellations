@@ -49104,13 +49104,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Sixmilewater Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-11-11",
+            "ReasonCancelled": "Penguins are skating"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/sixmilewater",
         "Country": "United Kingdom",
         "State": "Northern Ireland",
         "County": "Antrim",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Sixmilewater parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/sixmilewater\">parkrun.org.uk/sixmilewater</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Sixmilewater parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 11&nbsp;November&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Penguins are skating</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/sixmilewater\">parkrun.org.uk/sixmilewater</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -62005,13 +62010,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Dunleath Playing Fields",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-11-11",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/dunleathplayingfields",
         "Country": "United Kingdom",
         "State": "Northern Ireland",
         "County": "Down",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Dunleath Playing Fields parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/dunleathplayingfields\">parkrun.org.uk/dunleathplayingfields</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Dunleath Playing Fields parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 11&nbsp;November&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/dunleathplayingfields\">parkrun.org.uk/dunleathplayingfields</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -70487,6 +70497,34 @@
         "State": "England",
         "County": "East Sussex",
         "description": "<h4 style=\"margin: 0 0 8px;\">Battle Recreation Ground junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/battlerecreationground-juniors\">parkrun.org.uk/battlerecreationground-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3390,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.654475,
+          -31.885091
+        ]
+      },
+      "properties": {
+        "eventname": "dhunggaarrreserve",
+        "EventLongName": "Dhunggaarr Reserve parkrun",
+        "EventShortName": "Dhunggaarr Reserve",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "Dhunggaarr Reserve",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.au/dhunggaarrreserve",
+        "Country": "Australia",
+        "State": "New South Wales",
+        "County": "Mid-Coast",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Dhunggaarr Reserve parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/dhunggaarrreserve\">parkrun.com.au/dhunggaarrreserve</a></td></tr></table>",
         "Special Days": {}
       }
     },
