@@ -52797,13 +52797,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Battery Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-11-12",
+            "ReasonCancelled": "Icy all around the park; paths unusable."
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/batterypark-juniors",
         "Country": "United Kingdom",
         "State": "Scotland",
         "County": "Inverclyde",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Battery Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/batterypark-juniors\">parkrun.org.uk/batterypark-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Battery Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 12&nbsp;November&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Icy all around the park; paths unusable.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/batterypark-juniors\">parkrun.org.uk/batterypark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
