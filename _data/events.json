@@ -13992,13 +13992,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Durban Shongweni Club",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-11-18",
+            "ReasonCancelled": "Core volunteer team unavailable, no ED`s or RD`s"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/shongweni",
         "Country": "South Africa",
         "State": "KwaZulu-Natal",
         "County": "eThekwini Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Shongweni parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/shongweni\">parkrun.co.za/shongweni</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Shongweni parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 18&nbsp;November&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Core volunteer team unavailable, no ED`s or RD`s</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/shongweni\">parkrun.co.za/shongweni</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -68835,13 +68840,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-11-18",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.ca/millennium",
         "Country": "Canada",
         "State": "Alberta",
         "County": "Canmore",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Millennium parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/millennium\">parkrun.ca/millennium</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Millennium parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 18&nbsp;November&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/millennium\">parkrun.ca/millennium</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -70471,6 +70481,34 @@
         "State": "England",
         "County": "Lancashire",
         "description": "<h4 style=\"margin: 0 0 8px;\">Victoria Park junior parkrun, Haslingden</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/victoriaparkhaslingden-juniors\">parkrun.org.uk/victoriaparkhaslingden-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3402,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.07094,
+          53.291747
+        ]
+      },
+      "properties": {
+        "eventname": "universityofgalway",
+        "EventLongName": "University of Galway parkrun",
+        "EventShortName": "University of Galway",
+        "LocalisedEventLongName": null,
+        "countrycode": 42,
+        "seriesid": 1,
+        "EventLocation": "University of Galway",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.ie/universityofgalway",
+        "Country": "Ireland",
+        "State": "Connacht",
+        "County": "Galway City",
+        "description": "<h4 style=\"margin: 0 0 8px;\">University of Galway parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/universityofgalway\">parkrun.ie/universityofgalway</a></td></tr></table>",
         "Special Days": {}
       }
     }
