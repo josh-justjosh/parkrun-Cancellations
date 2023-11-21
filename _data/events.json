@@ -23365,13 +23365,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Wimple Estate",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-11-26",
+            "ReasonCancelled": "Run Director Availability"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/wimpoleestate-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Cambridgeshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Wimpole Estate junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wimpoleestate-juniors\">parkrun.org.uk/wimpoleestate-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Wimpole Estate junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 26&nbsp;November&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Run Director Availability</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wimpoleestate-juniors\">parkrun.org.uk/wimpoleestate-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -70507,34 +70512,6 @@
         "State": "Connacht",
         "County": "Galway City",
         "description": "<h4 style=\"margin: 0 0 8px;\">University of Galway parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/universityofgalway\">parkrun.ie/universityofgalway</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 3404,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.335302,
-          52.065971
-        ]
-      },
-      "properties": {
-        "eventname": "spiceballcountrypark-juniors",
-        "EventLongName": "Spiceball Country Park junior parkrun",
-        "EventShortName": "Spiceball Country Park juniors",
-        "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 2,
-        "EventLocation": "Spiceball Country Park juniors",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/spiceballcountrypark-juniors",
-        "Country": "United Kingdom",
-        "State": "England",
-        "County": "Oxfordshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Spiceball Country Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/spiceballcountrypark-juniors\">parkrun.org.uk/spiceballcountrypark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     }
