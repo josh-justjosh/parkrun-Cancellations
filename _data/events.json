@@ -2600,13 +2600,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Whinfield Recreation Ground",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-12-02",
+            "ReasonCancelled": "Course in need of repair post firework display"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/rugby",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Warwickshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Rugby parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/rugby\">parkrun.org.uk/rugby</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Rugby parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  2&nbsp;December&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course in need of repair post firework display</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/rugby\">parkrun.org.uk/rugby</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -6996,13 +7001,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Stanley Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-12-03",
+            "ReasonCancelled": "Clash with Liverpool Santa Dash"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/stanleypark-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Liverpool",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Stanley Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/stanleypark-juniors\">parkrun.org.uk/stanleypark-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Stanley Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  3&nbsp;December&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Clash with Liverpool Santa Dash</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/stanleypark-juniors\">parkrun.org.uk/stanleypark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
