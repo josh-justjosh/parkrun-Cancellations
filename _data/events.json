@@ -24054,6 +24054,34 @@
       }
     },
     {
+      "id": 1216,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.024823,
+          -33.214602
+        ]
+      },
+      "properties": {
+        "eventname": "odendaalstadium",
+        "EventLongName": "Odendaal Stadium parkrun",
+        "EventShortName": "Odendaal Stadium",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Odendaal Stadium",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.za/odendaalstadium",
+        "Country": "South Africa",
+        "State": "Western Cape",
+        "County": "Central Karoo District Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Odendaal Stadium parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/odendaalstadium\">parkrun.co.za/odendaalstadium</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 1221,
       "type": "Feature",
       "geometry": {
@@ -33803,13 +33831,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Kathu",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-12-02",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/kathu",
         "Country": "South Africa",
         "State": "Northern Cape",
         "County": "John Taolo Gaetsewe District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Kathu parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kathu\">parkrun.co.za/kathu</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Kathu parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  2&nbsp;December&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kathu\">parkrun.co.za/kathu</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -56617,34 +56650,6 @@
         "State": "England",
         "County": "Central Bedfordshire",
         "description": "<h4 style=\"margin: 0 0 8px;\">Henlow Bridge Lakes parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/henlowbridgelakes\">parkrun.org.uk/henlowbridgelakes</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 2778,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.149126,
-          -18.656953
-        ]
-      },
-      "properties": {
-        "eventname": "tytowetlands",
-        "EventLongName": "TYTO Wetlands parkrun",
-        "EventShortName": "TYTO Wetlands",
-        "LocalisedEventLongName": null,
-        "countrycode": 3,
-        "seriesid": 1,
-        "EventLocation": "TYTO Wetlands",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.com.au/tytowetlands",
-        "Country": "Australia",
-        "State": "Queensland",
-        "County": "Hinchinbrook",
-        "description": "<h4 style=\"margin: 0 0 8px;\">TYTO Wetlands parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/tytowetlands\">parkrun.com.au/tytowetlands</a></td></tr></table>",
         "Special Days": {}
       }
     },
