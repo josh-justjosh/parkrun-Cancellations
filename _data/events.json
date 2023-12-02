@@ -67821,13 +67821,18 @@
         "countrycode": 32,
         "seriesid": 1,
         "EventLocation": "Stadtpark",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-12-02",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.com.de/stadtpark",
         "Country": "Germany",
         "State": "Bavaria",
         "County": "Middle Franconia",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Stadtpark parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/stadtpark\">parkrun.com.de/stadtpark</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Stadtpark parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  2&nbsp;December&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/stadtpark\">parkrun.com.de/stadtpark</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -71541,62 +71546,6 @@
         "State": "England",
         "County": "Oxfordshire",
         "description": "<h4 style=\"margin: 0 0 8px;\">Spiceball Country Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/spiceballcountrypark-juniors\">parkrun.org.uk/spiceballcountrypark-juniors</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 3406,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          138.636344,
-          -35.011616
-        ]
-      },
-      "properties": {
-        "eventname": "belairnationalpark",
-        "EventLongName": "Belair National Park parkrun",
-        "EventShortName": "Belair National Park",
-        "LocalisedEventLongName": null,
-        "countrycode": 3,
-        "seriesid": 1,
-        "EventLocation": "Belair National Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.com.au/belairnationalpark",
-        "Country": "Australia",
-        "State": "South Australia",
-        "County": "Mitcham",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Belair National Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/belairnationalpark\">parkrun.com.au/belairnationalpark</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 3407,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          146.161677,
-          -18.651491
-        ]
-      },
-      "properties": {
-        "eventname": "palmcreek",
-        "EventLongName": "Palm Creek parkrun",
-        "EventShortName": "Palm Creek",
-        "LocalisedEventLongName": null,
-        "countrycode": 3,
-        "seriesid": 1,
-        "EventLocation": "Palm Creek",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.com.au/palmcreek",
-        "Country": "Australia",
-        "State": "Queensland",
-        "County": "Hinchinbrook",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Palm Creek parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/palmcreek\">parkrun.com.au/palmcreek</a></td></tr></table>",
         "Special Days": {}
       }
     }
