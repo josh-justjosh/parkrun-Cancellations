@@ -53295,7 +53295,7 @@
       },
       "properties": {
         "eventname": "stadspark",
-        "EventLongName": "Stadspark parkrun, Groningen",
+        "EventLongName": "Stadspark parkrun",
         "EventShortName": "Stadspark",
         "LocalisedEventLongName": null,
         "countrycode": 64,
@@ -53306,8 +53306,8 @@
         "Website": "https://www.parkrun.co.nl/stadspark",
         "Country": "Netherlands",
         "State": "Groningen",
-        "County": "Groningen",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Stadspark parkrun, Groningen</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nl/stadspark\">parkrun.co.nl/stadspark</a></td></tr></table>",
+        "County": "Groningen. Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Stadspark parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nl/stadspark\">parkrun.co.nl/stadspark</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -57176,13 +57176,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Maleny Trail",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-12-09",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/malenytrail",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Sunshine Coast",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Maleny Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/malenytrail\">parkrun.com.au/malenytrail</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Maleny Trail parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  9&nbsp;December&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/malenytrail\">parkrun.com.au/malenytrail</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -70708,34 +70713,6 @@
       }
     },
     {
-      "id": 3405,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          115.112646,
-          -33.615733
-        ]
-      },
-      "properties": {
-        "eventname": "centennialparkdunsborough",
-        "EventLongName": "Centennial Park parkrun, Dunsborough",
-        "EventShortName": "Centennial Park, Dunsborough",
-        "LocalisedEventLongName": null,
-        "countrycode": 3,
-        "seriesid": 1,
-        "EventLocation": "Centennial Park, Dunsborough",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.com.au/centennialparkdunsborough",
-        "Country": "Australia",
-        "State": "Western Australia",
-        "County": "Busselton",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Centennial Park parkrun, Dunsborough</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/centennialparkdunsborough\">parkrun.com.au/centennialparkdunsborough</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
       "id": 3406,
       "type": "Feature",
       "geometry": {
@@ -70816,34 +70793,6 @@
         "State": "Okayama",
         "County": "Okayama Shi",
         "description": "<h4 style=\"margin: 0 0 8px;\">Kitanagase Mirai Fureai Sogokoen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/kitanagasemiraifureaisogokoen\">parkrun.jp/kitanagasemiraifureaisogokoen</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 3409,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.331033,
-          51.82316
-        ]
-      },
-      "properties": {
-        "eventname": "katherinewaringtonschool-juniors",
-        "EventLongName": "Katherine Warington School junior parkrun",
-        "EventShortName": "Katherine Warington School juniors",
-        "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 2,
-        "EventLocation": "Katherine Warington School juniors",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/katherinewaringtonschool-juniors",
-        "Country": "United Kingdom",
-        "State": "England",
-        "County": "Hertfordshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Katherine Warington School junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/katherinewaringtonschool-juniors\">parkrun.org.uk/katherinewaringtonschool-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     }
