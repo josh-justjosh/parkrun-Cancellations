@@ -37276,7 +37276,7 @@
         },
         "properties": {
           "eventname": "stadspark",
-          "EventLongName": "Stadspark parkrun",
+          "EventLongName": "Stadspark parkrun, Groningen",
           "EventShortName": "Stadspark",
           "LocalisedEventLongName": null,
           "countrycode": 64,
@@ -49525,6 +49525,26 @@
         }
       },
       {
+        "id": 3405,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            115.112646,
+            -33.615733
+          ]
+        },
+        "properties": {
+          "eventname": "centennialparkdunsborough",
+          "EventLongName": "Centennial Park parkrun, Dunsborough",
+          "EventShortName": "Centennial Park, Dunsborough",
+          "LocalisedEventLongName": null,
+          "countrycode": 3,
+          "seriesid": 1,
+          "EventLocation": "Centennial Park, Dunsborough"
+        }
+      },
+      {
         "id": 3406,
         "type": "Feature",
         "geometry": {
@@ -49582,6 +49602,26 @@
           "countrycode": 46,
           "seriesid": 1,
           "EventLocation": "Kitanagase Mirai Fureai Sogokoen"
+        }
+      },
+      {
+        "id": 3409,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.331033,
+            51.82316
+          ]
+        },
+        "properties": {
+          "eventname": "katherinewaringtonschool-juniors",
+          "EventLongName": "Katherine Warington School junior parkrun",
+          "EventShortName": "Katherine Warington School juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Katherine Warington School juniors"
         }
       }
     ]
