@@ -33618,13 +33618,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Bellevue Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-12-09",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.ca/bellevue",
         "Country": "Canada",
         "State": "Ontario",
         "County": "Algoma",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bellevue parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/bellevue\">parkrun.ca/bellevue</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bellevue parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  9&nbsp;December&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/bellevue\">parkrun.ca/bellevue</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -70971,6 +70976,34 @@
         "State": "Connacht",
         "County": "Galway City",
         "description": "<h4 style=\"margin: 0 0 8px;\">University of Galway parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/universityofgalway\">parkrun.ie/universityofgalway</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3403,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.683952,
+          52.78924
+        ]
+      },
+      "properties": {
+        "eventname": "battlesteadcroft",
+        "EventLongName": "Battlestead Croft parkrun",
+        "EventShortName": "Battlestead Croft",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Battlestead Croft",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/battlesteadcroft",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Staffordshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Battlestead Croft parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/battlesteadcroft\">parkrun.org.uk/battlesteadcroft</a></td></tr></table>",
         "Special Days": {}
       }
     },
