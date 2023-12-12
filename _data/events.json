@@ -2381,8 +2381,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.046276,
-          50.785432
+          -1.081316,
+          50.778853
         ]
       },
       "properties": {
@@ -66206,13 +66206,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Ennerdale Stadium",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-12-16",
+            "ReasonCancelled": "No volunteers available"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/ennerdalestadium",
         "Country": "South Africa",
         "State": "Gauteng",
         "County": "City of Johannesburg Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ennerdale Stadium parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ennerdalestadium\">parkrun.co.za/ennerdalestadium</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ennerdale Stadium parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 16&nbsp;December&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>No volunteers available</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ennerdalestadium\">parkrun.co.za/ennerdalestadium</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -66860,13 +66865,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Blaise Castle Estate",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-12-16",
+            "ReasonCancelled": "Course looking muddy after recent weather"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/blaisecastle",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Bristol",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Blaise Castle parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/blaisecastle\">parkrun.org.uk/blaisecastle</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Blaise Castle parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 16&nbsp;December&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course looking muddy after recent weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/blaisecastle\">parkrun.org.uk/blaisecastle</a></td></tr></table>",
         "Special Days": {}
       }
     },
