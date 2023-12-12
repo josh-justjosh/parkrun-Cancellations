@@ -2381,8 +2381,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.081316,
-          50.778853
+          -1.046276,
+          50.785432
         ]
       },
       "properties": {
@@ -70324,13 +70324,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Zuurfontein",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-12-16",
+            "ReasonCancelled": "Finalising amended route, could be ready by 30 Dec"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/zuurfontein",
         "Country": "South Africa",
         "State": "Gauteng",
         "County": "Ekurhuleni Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Zuurfontein parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/zuurfontein\">parkrun.co.za/zuurfontein</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Zuurfontein parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 16&nbsp;December&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Finalising amended route, could be ready by 30 Dec</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/zuurfontein\">parkrun.co.za/zuurfontein</a></td></tr></table>",
         "Special Days": {}
       }
     },
