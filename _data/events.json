@@ -52876,13 +52876,18 @@
         "countrycode": 46,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-12-16",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.jp/meijokoen",
         "Country": "Japan",
         "State": "Aichi",
         "County": "Nagoya",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Meijo koen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/meijokoen\">parkrun.jp/meijokoen</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Meijo koen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 16&nbsp;December&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/meijokoen\">parkrun.jp/meijokoen</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -69743,34 +69748,6 @@
         "State": "Lesser Poland",
         "County": "Krak\u00f3w",
         "description": "<h4 style=\"margin: 0 0 8px;\">parkrun M\u0142yn\u00f3wka Kr\u00f3lewska</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/mlynowkakrolewska\">parkrun.pl/mlynowkakrolewska</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 3370,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -7.178233,
-          52.251535
-        ]
-      },
-      "properties": {
-        "eventname": "setuarena",
-        "EventLongName": "SETU Arena parkrun",
-        "EventShortName": "SETU Arena",
-        "LocalisedEventLongName": null,
-        "countrycode": 42,
-        "seriesid": 1,
-        "EventLocation": "SETU Arena West Campus",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.ie/setuarena",
-        "Country": "Ireland",
-        "State": "Munster",
-        "County": "Waterford",
-        "description": "<h4 style=\"margin: 0 0 8px;\">SETU Arena parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/setuarena\">parkrun.ie/setuarena</a></td></tr></table>",
         "Special Days": {}
       }
     },
