@@ -166,8 +166,8 @@
       "url": "www.parkrun.org.uk",
       "bounds": [
         -7.643103,
-        34.670552,
-        32.820662,
+        40.929141,
+        14.046913,
         60.158081
       ]
     },
@@ -178,6 +178,15 @@
         27.84707,
         -69.954915,
         48.468375
+      ]
+    },
+    "0": {
+      "url": null,
+      "bounds": [
+        -123.650306,
+        -46.404097,
+        178.018082,
+        65.015719
       ]
     }
   },
@@ -17742,6 +17751,26 @@
           "countrycode": 97,
           "seriesid": 2,
           "EventLocation": "Wednesfield Park"
+        }
+      },
+      {
+        "id": 1278,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -2.445683,
+            52.671256
+          ]
+        },
+        "properties": {
+          "eventname": "telford-juniors",
+          "EventLongName": "Telford junior parkrun",
+          "EventShortName": "Telford juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Telford Town Park"
         }
       },
       {
@@ -49662,6 +49691,106 @@
           "countrycode": 97,
           "seriesid": 2,
           "EventLocation": "Katherine Warington School juniors"
+        }
+      },
+      {
+        "id": 3410,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            29.114952,
+            -25.867359
+          ]
+        },
+        "properties": {
+          "eventname": "mapulesindaneschool",
+          "EventLongName": "Mapule Sindane School parkrun",
+          "EventShortName": "Mapule Sindane School",
+          "LocalisedEventLongName": null,
+          "countrycode": 85,
+          "seriesid": 1,
+          "EventLocation": "Mapule Sindane School"
+        }
+      },
+      {
+        "id": 3411,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            7.609343,
+            50.360641
+          ]
+        },
+        "properties": {
+          "eventname": "ehrenbreitstein",
+          "EventLongName": "Ehrenbreitstein parkrun",
+          "EventShortName": "Ehrenbreitstein",
+          "LocalisedEventLongName": null,
+          "countrycode": 32,
+          "seriesid": 1,
+          "EventLocation": "Ehrenbreitstein"
+        }
+      },
+      {
+        "id": 3412,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.686521,
+            52.141498
+          ]
+        },
+        "properties": {
+          "eventname": "zegerplas",
+          "EventLongName": "Zegerplas parkrun",
+          "EventShortName": "Zegerplas",
+          "LocalisedEventLongName": null,
+          "countrycode": 64,
+          "seriesid": 1,
+          "EventLocation": "Zegerplas"
+        }
+      },
+      {
+        "id": 3413,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.446862,
+            53.368576
+          ]
+        },
+        "properties": {
+          "eventname": "norfolkheritagepark-juniors",
+          "EventLongName": "Norfolk Heritage Park junior parkrun",
+          "EventShortName": "Norfolk Heritage Park juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Norfolk Heritage Park juniors"
+        }
+      },
+      {
+        "id": 3414,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -8.296732,
+            51.839412
+          ]
+        },
+        "properties": {
+          "eventname": "haulbowlineisland-juniors",
+          "EventLongName": "Haulbowline Island junior parkrun",
+          "EventShortName": "Haulbowline Island juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 42,
+          "seriesid": 2,
+          "EventLocation": "Haulbowline Island juniors"
         }
       }
     ]
