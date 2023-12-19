@@ -29958,13 +29958,18 @@
         "countrycode": 42,
         "seriesid": 2,
         "EventLocation": "Albert College Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-12-24",
+            "ReasonCancelled": "Christmas Break"
+          }
+        ],
         "Website": "https://www.parkrun.ie/albertcollege-juniors",
         "Country": "Ireland",
         "State": "Leinster",
         "County": "Dublin",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Albert College junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/albertcollege-juniors\">parkrun.ie/albertcollege-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Albert College junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 24&nbsp;December&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Christmas Break</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/albertcollege-juniors\">parkrun.ie/albertcollege-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -57819,13 +57824,18 @@
         "countrycode": 32,
         "seriesid": 1,
         "EventLocation": "Kastanienallee",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-12-23",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.com.de/kastanienallee",
         "Country": "Germany",
         "State": "Baden-W\u00fcrttemberg",
         "County": "T\u00fcbingen Region",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Kastanienallee parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/kastanienallee\">parkrun.com.de/kastanienallee</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Kastanienallee parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 23&nbsp;December&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/kastanienallee\">parkrun.com.de/kastanienallee</a></td></tr></table>",
         "Special Days": {}
       }
     },
