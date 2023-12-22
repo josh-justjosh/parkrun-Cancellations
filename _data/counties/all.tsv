@@ -1,6 +1,6 @@
 County	Country	parkrunning	junior parkrunning	5k Cancellations	junior Cancellations	Total	5k Events Running	junior Events Running	5k Events Cancelled	junior Events Cancelled
 Aberdeen City	Scotland	2	1			3	Aberdeen|Hazlehead|	Duthie juniors|		
-Aberdeenshire	Scotland	4	1			5	Stonehaven|Ellon|Crathes Castle|Ury Riverside|	Gordon Park juniors|		
+Aberdeenshire	Scotland	3	1	1		5	Stonehaven|Ellon|Crathes Castle|	Gordon Park juniors|	Ury Riverside|	
 Angus	Scotland	3				3	Montrose|West Links|Forfar Loch|			
 Antrim	Northern Ireland	9	4			13	Ecos|Portrush|Wallace|Antrim|Larne|Carrickfergus|Valley|Sixmilewater|Limepark Playing Fields|	Jordanstown juniors|Portrush juniors|Larne juniors|Riverside juniors, Ballymoney|		
 Antrim and Newtownabbey	Northern Ireland		1			1		Antrim Castle Gardens juniors|		
@@ -85,7 +85,7 @@ North Lanarkshire	Scotland	3			1	4	Strathclyde|Drumpellier Country|Palacerigg Co
 North Yorkshire	England	19	9		1	29	Albert|York|Harrogate|Redcar|Stewart|Skipton|Flatts Lane|Fountains Abbey|Northallerton|Heslington|Dalby Forest|Selby|New Earswick|Marshall Drive|Conyngham Hall|Millfield|The Cinder Track|North Yorkshire Water Park|Thorp Perrow|	Harrogate juniors|Knavesmire juniors|Redcar juniors|Northallerton juniors|Brayton Academy juniors|The Station Yard juniors|Community Park juniors|Millfield juniors|Albert Park juniors|		Hemlington Lake juniors|
 Northamptonshire	England	10	6			16	Northampton|Kettering|Corby|Daventry|Sixfields Upton|Watermeadows|Salcey Forest|Irchester Country|Brixworth Country|University of Northampton|	Desborough Green Space juniors|Wicksteed juniors|Northampton Racecourse juniors|Spencer Park juniors|Daventry Country Park juniors|Croyland Park juniors|		
 Northumberland	England	8	3			11	Prudhoe Riverside|Newbiggin-by-the-Sea|Druridge Bay|The Pastures|Tyne Green|Blyth Links|Carlisle Park|Ashington Community Woodland|	Prudhoe Riverside juniors|South Beach Estate juniors|Tyne Green juniors|		
-Nottinghamshire	England	12	8	1		21	Colwick|Bestwood Village|Mansfield|Brierley Forest|Rushcliffe|Forest Rec|Newark|Clumber Park|Beeston|Gedling|Sherwood Pines|Clifton|	Forest Rec juniors|Rushcliffe juniors|Hucknall juniors|Gedling juniors|Newark juniors|Worksop College juniors|Dukeries juniors|Sutton Lawn juniors|	Wollaton Hall|	
+Nottinghamshire	England	11	8	2		21	Colwick|Bestwood Village|Mansfield|Brierley Forest|Rushcliffe|Forest Rec|Newark|Clumber Park|Beeston|Gedling|Sherwood Pines|	Forest Rec juniors|Rushcliffe juniors|Hucknall juniors|Gedling juniors|Newark juniors|Worksop College juniors|Dukeries juniors|Sutton Lawn juniors|	Clifton|Wollaton Hall|	
 Offaly	Ireland	2				2	Mountlucas|The Grand Canal Way|			
 Orkney Islands	Scotland	1				1	Kirkwall|			
 Oxfordshire	England	11	6	1	2	20	Banbury|Oxford|Henley-on-Thames|Abingdon|Didcot|Bicester|Witney|Chipping Norton School|Horspath|Grove Fields|University Parks|	Florence Park juniors|Whitelands Farm juniors|Millennium Green juniors|Park Hill Recreation Ground juniors|Kingsgrove Woodland juniors|Spiceball Country Park juniors|	Harcourt Hill|	Harcourt Hill juniors|Wood Green juniors|
@@ -98,7 +98,7 @@ Scottish Borders	Scotland	2	1			3	Hay Lodge|Wallaceneuk|	Eyemouth Primary Playin
 Shetland Islands	Scotland	1				1	Bressay|			
 Shropshire	England	5	1		1	7	Telford|Shrewsbury|Henley Wood, Oswestry|Severn Valley Country|Alderford Lake|	Shrewsbury juniors|		Telford juniors|
 Sligo	Ireland	1				1	Sligo|			
-Somerset	England	14	7		2	23	Ashton Court|Bath Skyline|Shepton Mallet|Minehead|Longrun Meadow|Burnham and Highbridge|Street|Somerdale Pavilion|The Old Showfield|Clevedon Salthouse Fields|Sharpham Road Playing Fields|Marine Parade|Frogmary Green Farm|Five Arches|	Cheddar juniors|Longrun Meadow juniors|Weston-super-Mare juniors|Collett Park juniors|Yatton Recreation juniors|Clevedon Seafront juniors|Golden Valley Playing Field juniors|		Bath Odd Down juniors|Yeovil Rec juniors|
+Somerset	England	13	7	1	2	23	Ashton Court|Bath Skyline|Shepton Mallet|Minehead|Longrun Meadow|Burnham and Highbridge|Street|The Old Showfield|Clevedon Salthouse Fields|Sharpham Road Playing Fields|Marine Parade|Frogmary Green Farm|Five Arches|	Cheddar juniors|Longrun Meadow juniors|Weston-super-Mare juniors|Collett Park juniors|Yatton Recreation juniors|Clevedon Seafront juniors|Golden Valley Playing Field juniors|	Somerdale Pavilion|	Bath Odd Down juniors|Yeovil Rec juniors|
 South Ayrshire	Scotland	3	1			4	Troon|Ayr|Girvan Prom|	Prestwick Oval juniors|		
 South Glamorgan	Wales	7	2			9	Cardiff|Barry Island|Grangemoor|Tremorfa|Cosmeston Lakes|Trelai Park|Llanishen Park|	Barry juniors|Cardiff juniors|		
 South Lanarkshire	Scotland	1				1	Lanark Moor|			
@@ -118,16 +118,16 @@ West Glamorgan	Wales	3	2			5	Swansea Bay|Gnoll|Brynaman|	Gnoll juniors|Swansea P
 West Lothian	Scotland	3	2			5	Livingston|Polkemmet Country|Auldcathie District|	Bankton Mains Park juniors|West Lothian Cycle Circuit juniors|		
 West Midlands	England	16	7		1	24	Coventry|Dudley|Brueton|Cannon Hill|Wolverhampton|Walsall Arboretum|Sandwell Valley|Perry Hall|Sutton Park|Babbs Mill|Oaklands|East Park|Edgbaston Reservoir|Woodgate Valley Country Park|Holbrooks|Aston Hall|	Bloxwich juniors|Wednesfield juniors|Cannon Hill juniors|War Memorial Park juniors|Malvern Park juniors|Ward End juniors|Edgbaston Reservoir juniors|		Stevens Park juniors|
 West Sussex	England	10	5		1	16	Horsham|Tilgate|Clair|East Grinstead|Bognor Regis|Chichester|Worthing|Lancing Beach Green|Littlehampton Prom|Ifield Mill Pond|	Horsham juniors|Chichester juniors|Haywards Heath juniors|Tilgate juniors|Worthing Leisure Centre juniors|		Bognor Regis juniors|
-West Yorkshire	England	27	16		2	45	Woodhouse Moor|Wakefield Thornes|Halifax|Lister Park, Bradford|Pontefract|Brighouse|Rothwell|Huddersfield|Roundhay|Dewsbury|Temple Newsam|Cross Flatts|Wetherby|Oakwell Hall|Nostell|Horton Park|Bramley|Middleton Woods|Armley|Cliffe Castle|Myrtle|Potternewton|Frickley Country|Centre Vale|Bowling Park|Chevin Forest|Roberts Park|	Cross Flatts juniors|Bramley juniors|Brighouse juniors|Roundhay juniors|Huddersfield juniors|Temple Newsam juniors|Dewsbury juniors|Saltaire juniors|Tolson juniors|Wakefield Thornes juniors|Pontefract juniors|Shelley juniors|Beaumont Park juniors|Riverside Gardens juniors|Horsforth Hall juniors|People’s Park juniors, Halifax|		Bodington juniors|Wilton Park juniors|
+West Yorkshire	England	27	15		3	45	Woodhouse Moor|Wakefield Thornes|Halifax|Lister Park, Bradford|Pontefract|Brighouse|Rothwell|Huddersfield|Roundhay|Dewsbury|Temple Newsam|Cross Flatts|Wetherby|Oakwell Hall|Nostell|Horton Park|Bramley|Middleton Woods|Armley|Cliffe Castle|Myrtle|Potternewton|Frickley Country|Centre Vale|Bowling Park|Chevin Forest|Roberts Park|	Cross Flatts juniors|Bramley juniors|Brighouse juniors|Roundhay juniors|Huddersfield juniors|Temple Newsam juniors|Dewsbury juniors|Saltaire juniors|Tolson juniors|Wakefield Thornes juniors|Pontefract juniors|Beaumont Park juniors|Riverside Gardens juniors|Horsforth Hall juniors|People’s Park juniors, Halifax|		Bodington juniors|Shelley juniors|Wilton Park juniors|
 Western Isles	Scotland	1				1	Lews Castle|			
 Westmeath	Ireland	2	1			3	Athlone|Mullingar|	The Old Rail Trail juniors|		
 Wexford	Ireland	3	1			4	Wexford Racecourse|New Ross|Gorey|	Heritage Park juniors|		
 Wicklow	Ireland	3	2			5	Russborough|Tullow|Avondale Forest|	Bray juniors|Arklow Duck Pond juniors|		
 Wiltshire	England	9	5			14	Lydiard|Southwick Country Park|Chippenham|Salisbury|Melksham|Marlborough Common|Seven Fields|Tidworth|Quakers Walk|	Lydiard juniors|Chippenham juniors|Churchill Gardens juniors|King George V juniors|Calne Recreation Ground juniors|		
 Worcestershire	England	5	4			9	Arrow Valley|Worcester|Worcester Pitchcroft|Evesham|Wyre Forest|	Evesham juniors|Bromsgrove juniors|Wyre Forest juniors|Diglis Fields juniors|		
-England Total	England	617	320	12	32	981				
+England Total	England	615	319	14	33	981				
 NI Total	Northern Ireland	36	18		1	55				
-Scotland Total	Scotland	69	27		4	100				
+Scotland Total	Scotland	68	27	1	4	100				
 Wales Total	Wales	50	17	1	3	71				
 Ireland Total	Ireland	104	23	2	15	144				
-Total		876	405	15	55	1351				
+Total		873	404	18	56	1351				
