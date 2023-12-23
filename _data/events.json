@@ -59852,13 +59852,18 @@
         "countrycode": 30,
         "seriesid": 1,
         "EventLocation": "Espoon keskuspuisto, Puolarmaari 12",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-12-23",
+            "ReasonCancelled": "No run directors available"
+          }
+        ],
         "Website": "https://www.parkrun.fi/puolarmaari",
         "Country": "Finland",
         "State": "Uusimaa",
         "County": "Helsinki",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Puolarmaari parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fi/puolarmaari\">parkrun.fi/puolarmaari</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Puolarmaari parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 23&nbsp;December&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>No run directors available</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fi/puolarmaari\">parkrun.fi/puolarmaari</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -69459,13 +69464,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Cooper Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-12-24",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/cooperpark-juniors",
         "Country": "United Kingdom",
         "State": "Scotland",
         "County": "Moray",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cooper Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cooperpark-juniors\">parkrun.org.uk/cooperpark-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cooper Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 24&nbsp;December&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cooperpark-juniors\">parkrun.org.uk/cooperpark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
