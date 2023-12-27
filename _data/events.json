@@ -25553,18 +25553,13 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "The Park",
-        "Status": "junior Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2023-12-25",
-            "ReasonCancelled": "Core Team unavailable"
-          }
-        ],
+        "Status": "junior parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/cheltenham-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Gloucestershire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cheltenham junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Monday, 25&nbsp;December&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Core Team unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cheltenham-juniors\">parkrun.org.uk/cheltenham-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cheltenham junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cheltenham-juniors\">parkrun.org.uk/cheltenham-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -35330,13 +35325,18 @@
         "countrycode": 30,
         "seriesid": 1,
         "EventLocation": "Ratinanniemi",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2023-12-30",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.fi/tampere",
         "Country": "Finland",
         "State": "Pirkanmaa",
         "County": "Tampere",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Tampere parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fi/tampere\">parkrun.fi/tampere</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Tampere parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 30&nbsp;December&nbsp;2023</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fi/tampere\">parkrun.fi/tampere</a></td></tr></table>",
         "Special Days": {}
       }
     },
