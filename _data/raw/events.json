@@ -57,7 +57,7 @@
     "32": {
       "url": "www.parkrun.com.de",
       "bounds": [
-        6.634672,
+        6.084436,
         47.586611,
         13.762586,
         53.573708
@@ -49871,6 +49871,26 @@
           "countrycode": 97,
           "seriesid": 2,
           "EventLocation": "Belfast YMCA juniors"
+        }
+      },
+      {
+        "id": 3421,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.084436,
+            50.785869
+          ]
+        },
+        "properties": {
+          "eventname": "lousberg",
+          "EventLongName": "Lousberg parkrun",
+          "EventShortName": "Lousberg",
+          "LocalisedEventLongName": null,
+          "countrycode": 32,
+          "seriesid": 1,
+          "EventLocation": "Lousberg"
         }
       }
     ]
