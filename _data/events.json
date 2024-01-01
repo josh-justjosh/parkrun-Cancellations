@@ -11607,13 +11607,17 @@
           {
             "DateCancelled": "2024-01-01",
             "ReasonCancelled": "Both courses flooded"
+          },
+          {
+            "DateCancelled": "2024-01-06",
+            "ReasonCancelled": "Significant flooding on both courses."
           }
         ],
         "Website": "https://www.parkrun.org.uk/aylesbury",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Buckinghamshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Aylesbury parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Monday,  1&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Both courses flooded</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/aylesbury\">parkrun.org.uk/aylesbury</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Aylesbury parkrun</h4><table><tr><th>Status:</th><td colspan=2 >5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Monday,  1&nbsp;January&nbsp;2024</td><td>Saturday,  6&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Both courses flooded</td><td>Significant flooding on both courses.</td></tr><tr><th>Website:</th><td colspan=2 ><a href=\"https://www.parkrun.org.uk/aylesbury\">parkrun.org.uk/aylesbury</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -69489,13 +69493,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-01-01",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.ca/sheepriver",
         "Country": "Canada",
         "State": "Alberta",
         "County": "Okotoks",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Sheep River parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/sheepriver\">parkrun.ca/sheepriver</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Sheep River parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Monday,  1&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/sheepriver\">parkrun.ca/sheepriver</a></td></tr></table>",
         "Special Days": {}
       }
     },
