@@ -49892,6 +49892,46 @@
           "seriesid": 1,
           "EventLocation": "Lousberg"
         }
+      },
+      {
+        "id": 3422,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -7.321047,
+            54.382383
+          ]
+        },
+        "properties": {
+          "eventname": "roundlake-juniors",
+          "EventLongName": "Round Lake junior parkrun",
+          "EventShortName": "Round Lake juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Round Lake juniors"
+        }
+      },
+      {
+        "id": 3423,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.523837,
+            50.803727
+          ]
+        },
+        "properties": {
+          "eventname": "mewsbrook-juniors",
+          "EventLongName": "Mewsbrook junior parkrun",
+          "EventShortName": "Mewsbrook juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Mewsbrook juniors"
+        }
       }
     ]
   }
