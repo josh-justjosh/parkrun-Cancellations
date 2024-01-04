@@ -2551,13 +2551,17 @@
           {
             "DateCancelled": "2024-01-01",
             "ReasonCancelled": "Course unsafe or blocked"
+          },
+          {
+            "DateCancelled": "2024-01-06",
+            "ReasonCancelled": "The course is a lake."
           }
         ],
         "Website": "https://www.parkrun.org.uk/york",
         "Country": "United Kingdom",
         "State": "England",
         "County": "York",
-        "description": "<h4 style=\"margin: 0 0 8px;\">York parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Monday,  1&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/york\">parkrun.org.uk/york</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">York parkrun</h4><table><tr><th>Status:</th><td colspan=2 >5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Monday,  1&nbsp;January&nbsp;2024</td><td>Saturday,  6&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td><td>The course is a lake.</td></tr><tr><th>Website:</th><td colspan=2 ><a href=\"https://www.parkrun.org.uk/york\">parkrun.org.uk/york</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -3825,13 +3829,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Fleming Park Old Golf Course, Eastleigh",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-01-06",
+            "ReasonCancelled": "Course waterlogged with more rain forecast"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/eastleigh",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Hampshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Eastleigh parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/eastleigh\">parkrun.org.uk/eastleigh</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Eastleigh parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course waterlogged with more rain forecast</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/eastleigh\">parkrun.org.uk/eastleigh</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -6561,13 +6570,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Nowton Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-01-06",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/burystedmunds",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Suffolk",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bury St Edmunds parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/burystedmunds\">parkrun.org.uk/burystedmunds</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bury St Edmunds parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/burystedmunds\">parkrun.org.uk/burystedmunds</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -7368,13 +7382,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Ferry Meadows Country Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-01-06",
+            "ReasonCancelled": "Park has disappeared under water"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/ferrymeadows",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Peterborough",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ferry Meadows parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/ferrymeadows\">parkrun.org.uk/ferrymeadows</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ferry Meadows parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Park has disappeared under water</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/ferrymeadows\">parkrun.org.uk/ferrymeadows</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -8845,13 +8864,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Oldends Lane Playing Fields",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-01-06",
+            "ReasonCancelled": "Course waterlogged"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/stonehouse",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Gloucestershire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Stonehouse parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/stonehouse\">parkrun.org.uk/stonehouse</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Stonehouse parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course waterlogged</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/stonehouse\">parkrun.org.uk/stonehouse</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -17701,13 +17725,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Great Cornard Sports Centre",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-01-06",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/greatcornard",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Suffolk",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Great Cornard parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/greatcornard\">parkrun.org.uk/greatcornard</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Great Cornard parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/greatcornard\">parkrun.org.uk/greatcornard</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -19007,13 +19036,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Capalaba Regional Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-01-06",
+            "ReasonCancelled": "Permission issue"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/capalaba",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Redland",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Capalaba parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/capalaba\">parkrun.com.au/capalaba</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Capalaba parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Permission issue</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/capalaba\">parkrun.com.au/capalaba</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -19070,13 +19104,17 @@
           {
             "DateCancelled": "2024-01-01",
             "ReasonCancelled": "River has burst its banks in multiple locations"
+          },
+          {
+            "DateCancelled": "2024-01-06",
+            "ReasonCancelled": "River has burst its bank and tree has fallen"
           }
         ],
         "Website": "https://www.parkrun.org.uk/buckingham",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Buckinghamshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Buckingham parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Monday,  1&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>River has burst its banks in multiple locations</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/buckingham\">parkrun.org.uk/buckingham</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Buckingham parkrun</h4><table><tr><th>Status:</th><td colspan=2 >5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Monday,  1&nbsp;January&nbsp;2024</td><td>Saturday,  6&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>River has burst its banks in multiple locations</td><td>River has burst its bank and tree has fallen</td></tr><tr><th>Website:</th><td colspan=2 ><a href=\"https://www.parkrun.org.uk/buckingham\">parkrun.org.uk/buckingham</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -19213,13 +19251,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Humber Bridge Country Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-01-06",
+            "ReasonCancelled": "Flood damage"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/humberbridge",
         "Country": "United Kingdom",
         "State": "England",
         "County": "East Yorkshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Humber Bridge parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/humberbridge\">parkrun.org.uk/humberbridge</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Humber Bridge parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Flood damage</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/humberbridge\">parkrun.org.uk/humberbridge</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -19832,13 +19875,18 @@
         "countrycode": 42,
         "seriesid": 1,
         "EventLocation": "St Conals Hospital Campus",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-01-06",
+            "ReasonCancelled": "Heavy Construction  on Park Run Health & Safety"
+          }
+        ],
         "Website": "https://www.parkrun.ie/letterkenny",
         "Country": "Ireland",
         "State": "Ulster",
         "County": "Donegal",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Letterkenny parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/letterkenny\">parkrun.ie/letterkenny</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Letterkenny parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Heavy Construction  on Park Run Health & Safety</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/letterkenny\">parkrun.ie/letterkenny</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -24898,13 +24946,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Churchill Gardens",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-01-06",
+            "ReasonCancelled": "Flooding of the park"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/salisbury",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Wiltshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Salisbury parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/salisbury\">parkrun.org.uk/salisbury</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Salisbury parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Flooding of the park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/salisbury\">parkrun.org.uk/salisbury</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning"
       }
@@ -25595,13 +25648,17 @@
           {
             "DateCancelled": "2024-01-01",
             "ReasonCancelled": "#798555"
+          },
+          {
+            "DateCancelled": "2024-01-07",
+            "ReasonCancelled": "Weather"
           }
         ],
         "Website": "https://www.parkrun.org.uk/cheltenham-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Gloucestershire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cheltenham junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Monday,  1&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>#798555</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cheltenham-juniors\">parkrun.org.uk/cheltenham-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cheltenham junior parkrun</h4><table><tr><th>Status:</th><td colspan=2 >junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Monday,  1&nbsp;January&nbsp;2024</td><td>Sunday,  7&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>#798555</td><td>Weather</td></tr><tr><th>Website:</th><td colspan=2 ><a href=\"https://www.parkrun.org.uk/cheltenham-juniors\">parkrun.org.uk/cheltenham-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -29723,13 +29780,17 @@
           {
             "DateCancelled": "2024-01-01",
             "ReasonCancelled": "Flooding."
+          },
+          {
+            "DateCancelled": "2024-01-06",
+            "ReasonCancelled": "Flooding"
           }
         ],
         "Website": "https://www.parkrun.org.uk/bicester",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Oxfordshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bicester parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Monday,  1&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Flooding.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/bicester\">parkrun.org.uk/bicester</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bicester parkrun</h4><table><tr><th>Status:</th><td colspan=2 >5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Monday,  1&nbsp;January&nbsp;2024</td><td>Saturday,  6&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Flooding.</td><td>Flooding</td></tr><tr><th>Website:</th><td colspan=2 ><a href=\"https://www.parkrun.org.uk/bicester\">parkrun.org.uk/bicester</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -37414,13 +37475,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Great Denham",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-01-06",
+            "ReasonCancelled": "course flooded"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/greatdenham",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Bedford",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Great Denham parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/greatdenham\">parkrun.org.uk/greatdenham</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Great Denham parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>course flooded</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/greatdenham\">parkrun.org.uk/greatdenham</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -37679,13 +37745,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Oldends Lane Playing Fields",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-01-07",
+            "ReasonCancelled": "waterlogged field"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/stonehouse-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Gloucestershire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Stonehouse junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/stonehouse-juniors\">parkrun.org.uk/stonehouse-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Stonehouse junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  7&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>waterlogged field</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/stonehouse-juniors\">parkrun.org.uk/stonehouse-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -44184,13 +44255,18 @@
         "countrycode": 30,
         "seriesid": 1,
         "EventLocation": "V\u00e4\u00e4ksyn kanava",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-01-06",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.fi/vaaksynkanava",
         "Country": "Finland",
         "State": "Paijat-Hame",
         "County": "Lahti",
-        "description": "<h4 style=\"margin: 0 0 8px;\">V\u00e4\u00e4ksyn kanava parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fi/vaaksynkanava\">parkrun.fi/vaaksynkanava</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">V\u00e4\u00e4ksyn kanava parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fi/vaaksynkanava\">parkrun.fi/vaaksynkanava</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -44359,13 +44435,17 @@
           {
             "DateCancelled": "2024-01-01",
             "ReasonCancelled": "Weather"
+          },
+          {
+            "DateCancelled": "2024-01-06",
+            "ReasonCancelled": "Weather"
           }
         ],
         "Website": "https://www.parkrun.no/lovstien",
         "Country": "Norway",
         "State": "Vestland",
         "County": "Bergen",
-        "description": "<h4 style=\"margin: 0 0 8px;\">L\u00f8vstien parkrun, Bergen</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Monday,  1&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.no/lovstien\">parkrun.no/lovstien</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">L\u00f8vstien parkrun, Bergen</h4><table><tr><th>Status:</th><td colspan=2 >5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Monday,  1&nbsp;January&nbsp;2024</td><td>Saturday,  6&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Weather</td><td>Weather</td></tr><tr><th>Website:</th><td colspan=2 ><a href=\"https://www.parkrun.no/lovstien\">parkrun.no/lovstien</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -49307,13 +49387,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Beverley Westwood",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-01-06",
+            "ReasonCancelled": "Saturated course"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/beverleywestwood",
         "Country": "United Kingdom",
         "State": "England",
         "County": "East Yorkshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Beverley Westwood parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/beverleywestwood\">parkrun.org.uk/beverleywestwood</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Beverley Westwood parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Saturated course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/beverleywestwood\">parkrun.org.uk/beverleywestwood</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -55126,13 +55211,17 @@
           {
             "DateCancelled": "2024-01-01",
             "ReasonCancelled": "Course unsafe or blocked"
+          },
+          {
+            "DateCancelled": "2024-01-06",
+            "ReasonCancelled": "Course unsafe or blocked"
           }
         ],
         "Website": "https://www.parkrun.org.uk/horspath",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Oxfordshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Horspath parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Monday,  1&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/horspath\">parkrun.org.uk/horspath</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Horspath parkrun</h4><table><tr><th>Status:</th><td colspan=2 >5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Monday,  1&nbsp;January&nbsp;2024</td><td>Saturday,  6&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td colspan=2 ><a href=\"https://www.parkrun.org.uk/horspath\">parkrun.org.uk/horspath</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -62784,13 +62873,18 @@
         "countrycode": 32,
         "seriesid": 1,
         "EventLocation": "Fuldaaue",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-01-06",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.com.de/fuldaaue",
         "Country": "Germany",
         "State": "Hesse",
         "County": "Regierungsbezirk Kassel",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Fuldaaue parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/fuldaaue\">parkrun.com.de/fuldaaue</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Fuldaaue parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/fuldaaue\">parkrun.com.de/fuldaaue</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -66137,13 +66231,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Wolford Wood",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-01-06",
+            "ReasonCancelled": "Course remains waterlogged"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/wolfordwood",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Warwickshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Wolford Wood parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wolfordwood\">parkrun.org.uk/wolfordwood</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Wolford Wood parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course remains waterlogged</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wolfordwood\">parkrun.org.uk/wolfordwood</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -71438,13 +71537,18 @@
         "countrycode": 32,
         "seriesid": 1,
         "EventLocation": "Ehrenbreitstein",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-01-06",
+            "ReasonCancelled": "course is set under water"
+          }
+        ],
         "Website": "https://www.parkrun.com.de/ehrenbreitstein",
         "Country": "Germany",
         "State": "Rheinland-Pfalz",
         "County": "-Unknown-",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ehrenbreitstein parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/ehrenbreitstein\">parkrun.com.de/ehrenbreitstein</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ehrenbreitstein parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>course is set under water</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/ehrenbreitstein\">parkrun.com.de/ehrenbreitstein</a></td></tr></table>",
         "Special Days": {}
       }
     },
