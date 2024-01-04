@@ -17524,13 +17524,17 @@
           {
             "DateCancelled": "2024-01-01",
             "ReasonCancelled": "Course unsafe or blocked"
+          },
+          {
+            "DateCancelled": "2024-01-06",
+            "ReasonCancelled": "Course unsafe or blocked"
           }
         ],
         "Website": "https://www.parkrun.com.au/sale",
         "Country": "Australia",
         "State": "Victoria",
         "County": "Wellington",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Sale parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Monday,  1&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/sale\">parkrun.com.au/sale</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Sale parkrun</h4><table><tr><th>Status:</th><td colspan=2 >5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Monday,  1&nbsp;January&nbsp;2024</td><td>Saturday,  6&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td colspan=2 ><a href=\"https://www.parkrun.com.au/sale\">parkrun.com.au/sale</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -19380,13 +19384,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Bruntwood Park, Cheadle",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-01-06",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/cheadlehulme",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Stockport",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cheadle Hulme parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cheadlehulme\">parkrun.org.uk/cheadlehulme</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cheadle Hulme parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cheadlehulme\">parkrun.org.uk/cheadlehulme</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -23530,13 +23539,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Wimple Estate",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-01-07",
+            "ReasonCancelled": "Track waterlogged - cancelled at estate request"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/wimpoleestate-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Cambridgeshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Wimpole Estate junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wimpoleestate-juniors\">parkrun.org.uk/wimpoleestate-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Wimpole Estate junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  7&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Track waterlogged - cancelled at estate request</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wimpoleestate-juniors\">parkrun.org.uk/wimpoleestate-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
