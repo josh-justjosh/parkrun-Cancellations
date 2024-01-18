@@ -62422,13 +62422,18 @@
         "countrycode": 67,
         "seriesid": 1,
         "EventLocation": "Ekebergsletta",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-01-20",
+            "ReasonCancelled": "too cold, expected temperatures below -15 degrees"
+          }
+        ],
         "Website": "https://www.parkrun.no/ekebergsletta",
         "Country": "Norway",
         "State": "Oslo",
         "County": "Oslo",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ekebergsletta parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.no/ekebergsletta\">parkrun.no/ekebergsletta</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ekebergsletta parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 20&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>too cold, expected temperatures below -15 degrees</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.no/ekebergsletta\">parkrun.no/ekebergsletta</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -62769,13 +62774,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Hereford Leisure Centre",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-01-21",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/herefordleisurecentre-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Herefordshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hereford Leisure Centre junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/herefordleisurecentre-juniors\">parkrun.org.uk/herefordleisurecentre-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hereford Leisure Centre junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 21&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/herefordleisurecentre-juniors\">parkrun.org.uk/herefordleisurecentre-juniors</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
