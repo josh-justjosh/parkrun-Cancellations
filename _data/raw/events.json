@@ -104,7 +104,7 @@
       "bounds": [
         4.290593,
         50.843369,
-        6.540406,
+        6.883689,
         53.214822
       ]
     },
@@ -31345,9 +31345,9 @@
         },
         "properties": {
           "eventname": "cannockchaseforest-juniors",
-          "EventLongName": "Cannock Chase Forest",
-          "EventShortName": "Cannock Chase Forest",
-          "LocalisedEventLongName": "Birches Valley junior parkrun",
+          "EventLongName": "Cannock Chase Forest junior parkrun",
+          "EventShortName": "Cannock Chase Forest juniors",
+          "LocalisedEventLongName": "Cannock Chase Forest junior parkrun",
           "countrycode": 97,
           "seriesid": 2,
           "EventLocation": "Birches Valley"
@@ -41674,26 +41674,6 @@
         }
       },
       {
-        "id": 2920,
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -1.417387,
-            52.25721
-          ]
-        },
-        "properties": {
-          "eventname": "dallasburstonpoloclub",
-          "EventLongName": "Dallas Burston Polo Club parkrun",
-          "EventShortName": "Dallas Burston Polo Club",
-          "LocalisedEventLongName": null,
-          "countrycode": 97,
-          "seriesid": 1,
-          "EventLocation": "Dallas Burston Polo Club"
-        }
-      },
-      {
         "id": 2921,
         "type": "Feature",
         "geometry": {
@@ -49991,6 +49971,46 @@
           "countrycode": 97,
           "seriesid": 2,
           "EventLocation": "Mote Park juniors"
+        }
+      },
+      {
+        "id": 3426,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.393936,
+            -36.000667
+          ]
+        },
+        "properties": {
+          "eventname": "ballpark",
+          "EventLongName": "Ball Park parkrun",
+          "EventShortName": "Ball Park",
+          "LocalisedEventLongName": null,
+          "countrycode": 3,
+          "seriesid": 1,
+          "EventLocation": "Ball Park"
+        }
+      },
+      {
+        "id": 3427,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.883689,
+            52.22753
+          ]
+        },
+        "properties": {
+          "eventname": "vanheekpark",
+          "EventLongName": "van Heekpark parkrun",
+          "EventShortName": "van Heekpark",
+          "LocalisedEventLongName": null,
+          "countrycode": 64,
+          "seriesid": 1,
+          "EventLocation": "van Heekpark"
         }
       }
     ]
