@@ -32224,39 +32224,6 @@
       }
     },
     {
-      "id": 1621,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.554325,
-          51.238375
-        ]
-      },
-      "properties": {
-        "eventname": "parkwood-juniors",
-        "EventLongName": "Park Wood junior parkrun",
-        "EventShortName": "Park Wood juniors",
-        "LocalisedEventLongName": "Park Wood junior parkrun",
-        "countrycode": 97,
-        "seriesid": 2,
-        "EventLocation": "Park Wood",
-        "Status": "junior Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2024-01-28",
-            "ReasonCancelled": "Venue unavailable"
-          }
-        ],
-        "Website": "https://www.parkrun.org.uk/parkwood-juniors",
-        "Country": "United Kingdom",
-        "State": "England",
-        "County": "Kent",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Park Wood junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 28&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/parkwood-juniors\">parkrun.org.uk/parkwood-juniors</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
       "id": 1625,
       "type": "Feature",
       "geometry": {
@@ -54023,13 +53990,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Victoria Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-01-27",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.ca/victoriatruro",
         "Country": "Canada",
         "State": "Nova Scotia",
         "County": "Colchester",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Victoria parkrun, Truro</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/victoriatruro\">parkrun.ca/victoriatruro</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Victoria parkrun, Truro</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 27&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/victoriatruro\">parkrun.ca/victoriatruro</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
