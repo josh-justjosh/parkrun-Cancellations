@@ -11572,13 +11572,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Opposite the Quarrendeon & Meadowcroft C",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-01-27",
+            "ReasonCancelled": "Main and Alternate courses still have flooding on"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/aylesbury",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Buckinghamshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Aylesbury parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/aylesbury\">parkrun.org.uk/aylesbury</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Aylesbury parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 27&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Main and Alternate courses still have flooding on</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/aylesbury\">parkrun.org.uk/aylesbury</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -43481,13 +43486,18 @@
         "countrycode": 30,
         "seriesid": 1,
         "EventLocation": "Tokoinranta",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-01-27",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.fi/tokoinranta",
         "Country": "Finland",
         "State": "Uusimaa",
         "County": "Helsinki",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Tokoinranta parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fi/tokoinranta\">parkrun.fi/tokoinranta</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Tokoinranta parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 27&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fi/tokoinranta\">parkrun.fi/tokoinranta</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -44162,13 +44172,18 @@
         "countrycode": 67,
         "seriesid": 1,
         "EventLocation": "Kristiansten Festningen",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-01-27",
+            "ReasonCancelled": "Icy conditions in the park"
+          }
+        ],
         "Website": "https://www.parkrun.no/festningen",
         "Country": "Norway",
         "State": "Tr\u00f8ndelag",
         "County": "Trondheim",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Festningen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.no/festningen\">parkrun.no/festningen</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Festningen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 27&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Icy conditions in the park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.no/festningen\">parkrun.no/festningen</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -65685,13 +65700,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Wolford Wood",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-01-27",
+            "ReasonCancelled": "Course remains waterlogged"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/wolfordwood",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Warwickshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Wolford Wood parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wolfordwood\">parkrun.org.uk/wolfordwood</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Wolford Wood parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 27&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course remains waterlogged</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wolfordwood\">parkrun.org.uk/wolfordwood</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -71363,6 +71383,34 @@
         "State": "Overijssel",
         "County": "Enschede Municipality",
         "description": "<h4 style=\"margin: 0 0 8px;\">van Heekpark parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nl/vanheekpark\">parkrun.co.nl/vanheekpark</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3429,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.220709,
+          51.774268
+        ]
+      },
+      "properties": {
+        "eventname": "birchwoodleisurecentre-juniors",
+        "EventLongName": "Birchwood Leisure Centre junior parkrun",
+        "EventShortName": "Birchwood Leisure Centre juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Birchwood Leisure Centre juniors",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/birchwoodleisurecentre-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Hertfordshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Birchwood Leisure Centre junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/birchwoodleisurecentre-juniors\">parkrun.org.uk/birchwoodleisurecentre-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     }
