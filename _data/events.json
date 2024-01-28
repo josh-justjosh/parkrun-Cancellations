@@ -27620,13 +27620,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Old Heath Recreation Ground",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-01-28",
+            "ReasonCancelled": "Frozen paths"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/colchester-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Essex",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Colchester junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/colchester-juniors\">parkrun.org.uk/colchester-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Colchester junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 28&nbsp;January&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Frozen paths</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/colchester-juniors\">parkrun.org.uk/colchester-juniors</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning"
       }
