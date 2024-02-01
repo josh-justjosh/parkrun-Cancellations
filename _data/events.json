@@ -28932,13 +28932,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Lakeside North Harbour",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-02-03",
+            "ReasonCancelled": "To allow recovery time for the paths/land."
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/portsmouthlakeside",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Portsmouth",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Portsmouth Lakeside parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/portsmouthlakeside\">parkrun.org.uk/portsmouthlakeside</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Portsmouth Lakeside parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  3&nbsp;February&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>To allow recovery time for the paths/land.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/portsmouthlakeside\">parkrun.org.uk/portsmouthlakeside</a></td></tr></table>",
         "Special Days": {}
       }
     },
