@@ -37540,13 +37540,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "King Edwards Parade",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-02-04",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/eastbourne-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "East Sussex",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Eastbourne junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/eastbourne-juniors\">parkrun.org.uk/eastbourne-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Eastbourne junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  4&nbsp;February&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/eastbourne-juniors\">parkrun.org.uk/eastbourne-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -45412,13 +45417,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Terry Hershey Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-02-03",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.us/terryhershey",
         "Country": "USA",
         "State": "Texas",
         "County": "Harris",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Terry Hershey parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/terryhershey\">parkrun.us/terryhershey</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Terry Hershey parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  3&nbsp;February&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/terryhershey\">parkrun.us/terryhershey</a></td></tr></table>",
         "Special Days": {}
       }
     },
