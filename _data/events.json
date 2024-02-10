@@ -18878,13 +18878,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Parke Estate",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-02-10",
+            "ReasonCancelled": "Course blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/parke",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Devon",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Parke parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/parke\">parkrun.org.uk/parke</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Parke parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 10&nbsp;February&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/parke\">parkrun.org.uk/parke</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -49144,13 +49149,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "The Recreation Ground",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-02-11",
+            "ReasonCancelled": "River has flooded course"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/stratforduponavonrec-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Warwickshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Stratford-upon-Avon Rec junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/stratforduponavonrec-juniors\">parkrun.org.uk/stratforduponavonrec-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Stratford-upon-Avon Rec junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 11&nbsp;February&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>River has flooded course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/stratforduponavonrec-juniors\">parkrun.org.uk/stratforduponavonrec-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
