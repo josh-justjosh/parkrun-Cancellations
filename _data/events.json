@@ -34237,13 +34237,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Cheshunt Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-02-18",
+            "ReasonCancelled": "Field flooded"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/cheshunt-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Hertfordshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cheshunt junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cheshunt-juniors\">parkrun.org.uk/cheshunt-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cheshunt junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 18&nbsp;February&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Field flooded</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cheshunt-juniors\">parkrun.org.uk/cheshunt-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
