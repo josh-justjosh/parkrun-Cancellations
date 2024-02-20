@@ -44519,13 +44519,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Somerdale Pavilion",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-02-24",
+            "ReasonCancelled": "In solidarity with Neptune god of water (flood)"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/somerdalepavilion",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Bath and North East Somerset",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Somerdale Pavilion parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/somerdalepavilion\">parkrun.org.uk/somerdalepavilion</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Somerdale Pavilion parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 24&nbsp;February&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>In solidarity with Neptune god of water (flood)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/somerdalepavilion\">parkrun.org.uk/somerdalepavilion</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -70404,13 +70409,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Zuurfontein",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-02-24",
+            "ReasonCancelled": "Waiting Council Permission on Property next door"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/zuurfontein",
         "Country": "South Africa",
         "State": "Gauteng",
         "County": "Ekurhuleni Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Zuurfontein parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/zuurfontein\">parkrun.co.za/zuurfontein</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Zuurfontein parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 24&nbsp;February&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Waiting Council Permission on Property next door</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/zuurfontein\">parkrun.co.za/zuurfontein</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -70980,8 +70990,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.446862,
-          53.368576
+          -1.446852,
+          53.368694
         ]
       },
       "properties": {
@@ -71531,6 +71541,34 @@
         "State": "England",
         "County": "Kent",
         "description": "<h4 style=\"margin: 0 0 8px;\">Swanscombe Heritage Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/swanscombeheritagepark-juniors\">parkrun.org.uk/swanscombeheritagepark-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3435,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.025046,
+          51.94983
+        ]
+      },
+      "properties": {
+        "eventname": "norfolkroadplayingfields-juniors",
+        "EventLongName": "Norfolk Road Playing Fields junior parkrun",
+        "EventShortName": "Norfolk Road Playing Fields juniors ",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Norfolk Road Playing Fields juniors ",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/norfolkroadplayingfields-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Hertfordshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Norfolk Road Playing Fields junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/norfolkroadplayingfields-juniors\">parkrun.org.uk/norfolkroadplayingfields-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     }
