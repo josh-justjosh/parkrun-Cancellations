@@ -1066,7 +1066,7 @@ for parkrun in events['features']:
                 parkrun['properties']['County'] = 'Devon'
             elif parkrun['properties']['County'] in ['Dorset','Bournemouth, Christchurch and Poole Council']:
                 parkrun['properties']['County'] = 'Dorset'
-            elif parkrun['properties']['County'] in ['Durham','Darlington','Hartlepool']:
+            elif parkrun['properties']['County'] in ['Durham','Darlington','Hartlepool','Stockton-on-Tees']:
                 parkrun['properties']['County'] = 'Durham'
             elif parkrun['properties']['EventLongName'] in ['Tees Barrage parkrun','Billingham junior parkrun']:
                 parkrun['properties']['County'] = 'Durham'
