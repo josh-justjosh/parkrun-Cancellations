@@ -47,15 +47,15 @@ with open('_data/raw/events.json','wt', encoding='utf-8', newline='') as f:
 
 technical_event_info = requests.get('https://wiki.parkrun.com/index.php/Technical_Event_Information').text
 
-#with open('_data/raw/tei.html','wt', encoding='utf-8', newline='') as f:
-#    f.write(technical_event_info)
-#    print(now(),"raw/tei.html saved")
+with open('_data/raw/tei.html','wt', encoding='utf-8', newline='') as f:
+    f.write(technical_event_info)
+    print(now(),"raw/tei.html saved")
 
 cancellations = requests.get('https://wiki.parkrun.com/index.php/Cancellations/Global').text
 
-#with open('_data/raw/cancellations.html','wt', encoding='utf-8', newline='') as f:
-#    f.write(cancellations)
-#    print(now(),"raw/cancellations.html saved")
+with open('_data/raw/cancellations.html','wt', encoding='utf-8', newline='') as f:
+    f.write(cancellations)
+    print(now(),"raw/cancellations.html saved")
 
 events = json.loads(events)['events']
 
@@ -86,8 +86,12 @@ soup = BeautifulSoup(cancellations, 'html.parser')
 extractor = Extractor(soup)
 extractor.parse()
 cancellation_table = extractor.return_list()
-cancellation_table.pop(-1)
-cancellation_table.pop(0)
+try:
+    cancellation_table.pop(-1)
+    cancellation_table.pop(0)
+except IndexError as e:
+    print(now(),"- Ln: 93",e,"- Failed to Parse Cancellations")
+
 
 cancellations_data = []
 cancellations_list = []
