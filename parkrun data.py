@@ -13,6 +13,10 @@ import xml.etree.ElementTree as ET
 import os
 import collections
 
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
+}
+
 def rem_dups(x):
     return list(dict.fromkeys(x))
 
@@ -39,19 +43,19 @@ def same_week(dateString):
     d2 = datetime.datetime.today()
     return d1.isocalendar()[1] == d2.isocalendar()[1]
 
-events = requests.get('https://images.parkrun.com/events.json').text
+events = requests.get('https://images.parkrun.com/events.json', headers=headers, timeout=10).text
 
 with open('_data/raw/events.json','wt', encoding='utf-8', newline='') as f:
     f.write(json.dumps(json.loads(events), indent=2))
     print(now(),"raw/events.json saved")
 
-technical_event_info = requests.get('https://wiki.parkrun.com/index.php/Technical_Event_Information').text
+technical_event_info = requests.get('https://wiki.parkrun.com/index.php/Technical_Event_Information', headers=headers, timeout=10).text
 
 with open('_data/raw/tei.html','wt', encoding='utf-8', newline='') as f:
     f.write(technical_event_info)
     print(now(),"raw/tei.html saved")
 
-cancellations = requests.get('https://wiki.parkrun.com/index.php/Cancellations/Global').text
+cancellations = requests.get('https://wiki.parkrun.com/index.php/Cancellations/Global', headers=headers, timeout=10).text
 
 with open('_data/raw/cancellations.html','wt', encoding='utf-8', newline='') as f:
     f.write(cancellations)
@@ -135,25 +139,25 @@ x = 0
 #upcoming_events.append('Penryn Campus parkrun')         #01/01/99   https://www.parkrun.org.uk/penryncampus/
 #upcoming_events.append('Roberts Park parkrun')          #01/01/99   https://www.parkrun.org.uk/robertspark/
 
-#se_au = requests.get('https://www.parkrun.com.au/special-events').text
-#se_ca = requests.get('https://www.parkrun.ca/special-events').text
-#se_dk = requests.get('https://www.parkrun.dk/special-events').text
-#se_fi = requests.get('https://www.parkrun.fi/special-events').text
-#se_fr = requests.get('https://www.parkrun.fr/special-events').text
-#se_de = requests.get('https://www.parkrun.com.de/special-events').text
-#se_ie = requests.get('https://www.parkrun.ie/special-events').text
-#se_it = requests.get('https://www.parkrun.it/special-events').text
-#se_jp = requests.get('https://www.parkrun.jp/special-events').text
-#se_my = requests.get('https://www.parkrun.my/special-events').text
-#se_nl = requests.get('https://www.parkrun.co.nl/special-events').text
-#se_nz = requests.get('https://www.parkrun.co.nz/special-events').text
-#se_no = requests.get('https://www.parkrun.no/special-events').text
-#se_pl = requests.get('https://www.parkrun.pl/special-events').text
-#se_sg = requests.get('https://www.parkrun.sg/special-events').text
-#se_za = requests.get('https://www.parkrun.co.za/special-events').text
-#se_se = requests.get('https://www.parkrun.se/special-events').text
-#se_uk = requests.get('https://www.parkrun.org.uk/special-events').text
-#se_us = requests.get('https://www.parkrun.us/special-events').text
+#se_au = requests.get('https://www.parkrun.com.au/special-events', headers=headers, timeout=10).text
+#se_ca = requests.get('https://www.parkrun.ca/special-events', headers=headers, timeout=10).text
+#se_dk = requests.get('https://www.parkrun.dk/special-events', headers=headers, timeout=10).text
+#se_fi = requests.get('https://www.parkrun.fi/special-events', headers=headers, timeout=10).text
+#se_fr = requests.get('https://www.parkrun.fr/special-events', headers=headers, timeout=10).text
+#se_de = requests.get('https://www.parkrun.com.de/special-events', headers=headers, timeout=10).text
+#se_ie = requests.get('https://www.parkrun.ie/special-events', headers=headers, timeout=10).text
+#se_it = requests.get('https://www.parkrun.it/special-events', headers=headers, timeout=10).text
+#se_jp = requests.get('https://www.parkrun.jp/special-events', headers=headers, timeout=10).text
+#se_my = requests.get('https://www.parkrun.my/special-events', headers=headers, timeout=10).text
+#se_nl = requests.get('https://www.parkrun.co.nl/special-events', headers=headers, timeout=10).text
+#se_nz = requests.get('https://www.parkrun.co.nz/special-events', headers=headers, timeout=10).text
+#se_no = requests.get('https://www.parkrun.no/special-events', headers=headers, timeout=10).text
+#se_pl = requests.get('https://www.parkrun.pl/special-events', headers=headers, timeout=10).text
+#se_sg = requests.get('https://www.parkrun.sg/special-events', headers=headers, timeout=10).text
+#se_za = requests.get('https://www.parkrun.co.za/special-events', headers=headers, timeout=10).text
+#se_se = requests.get('https://www.parkrun.se/special-events', headers=headers, timeout=10).text
+#se_uk = requests.get('https://www.parkrun.org.uk/special-events', headers=headers, timeout=10).text
+#se_us = requests.get('https://www.parkrun.us/special-events', headers=headers, timeout=10).text
 
 with open('_data/special_events/au.html','r', encoding='utf-8', newline='\n') as f:
     soup = BeautifulSoup(f, 'html.parser')
