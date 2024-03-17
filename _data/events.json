@@ -28817,13 +28817,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Titchfield Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-03-17",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/hucknall-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Nottinghamshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hucknall junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hucknall-juniors\">parkrun.org.uk/hucknall-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hucknall junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 17&nbsp;March&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hucknall-juniors\">parkrun.org.uk/hucknall-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
