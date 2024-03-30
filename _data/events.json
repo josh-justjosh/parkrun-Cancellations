@@ -4005,13 +4005,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Boultham Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-03-30",
+            "ReasonCancelled": "Body found in the park whilst doing course check"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/lincoln",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Lincolnshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Lincoln parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/lincoln\">parkrun.org.uk/lincoln</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Lincoln parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 30&nbsp;March&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Body found in the park whilst doing course check</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/lincoln\">parkrun.org.uk/lincoln</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning"
       }
