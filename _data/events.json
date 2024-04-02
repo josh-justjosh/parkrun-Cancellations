@@ -14446,13 +14446,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Canons Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-04-06",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/canonspark",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Greater London",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Canons Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/canonspark\">parkrun.org.uk/canonspark</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Canons Park parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;April&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/canonspark\">parkrun.org.uk/canonspark</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -71766,6 +71771,34 @@
         "State": "Leinster",
         "County": "County Kilkenny",
         "description": "<h4 style=\"margin: 0 0 8px;\">Kilkenny Countryside Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/kilkennycountrysidepark-juniors\">parkrun.ie/kilkennycountrysidepark-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3456,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.174603,
+          53.128883
+        ]
+      },
+      "properties": {
+        "eventname": "berryhill-juniors",
+        "EventLongName": "Berry Hill junior parkrun",
+        "EventShortName": "Berry Hill juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Berry Hill juniors",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/berryhill-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Nottinghamshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Berry Hill junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/berryhill-juniors\">parkrun.org.uk/berryhill-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     }
