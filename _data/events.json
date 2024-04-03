@@ -3637,13 +3637,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Gnoll Estate Country Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-04-07",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/gnoll-juniors",
         "Country": "United Kingdom",
         "State": "Wales",
         "County": "Neath Port Talbot",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Gnoll junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/gnoll-juniors\">parkrun.org.uk/gnoll-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Gnoll junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  7&nbsp;April&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/gnoll-juniors\">parkrun.org.uk/gnoll-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -10340,8 +10345,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.83814,
-          51.168607
+          -0.836903,
+          51.16858
         ]
       },
       "properties": {
@@ -25110,13 +25115,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Tewkesbury",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-04-06",
+            "ReasonCancelled": "Course too wet to run after the floods"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/tewkesbury",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Gloucestershire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Tewkesbury parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/tewkesbury\">parkrun.org.uk/tewkesbury</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Tewkesbury parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;April&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course too wet to run after the floods</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/tewkesbury\">parkrun.org.uk/tewkesbury</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -67343,13 +67353,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Thornham Walks",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-04-06",
+            "ReasonCancelled": "Permission issue"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/thornhamwalks",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Suffolk",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Thornham Walks parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/thornhamwalks\">parkrun.org.uk/thornhamwalks</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Thornham Walks parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;April&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Permission issue</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/thornhamwalks\">parkrun.org.uk/thornhamwalks</a></td></tr></table>",
         "Special Days": {}
       }
     },
