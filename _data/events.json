@@ -17102,13 +17102,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Ford Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-04-06",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/yamba",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Clarence Valley",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Yamba parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/yamba\">parkrun.com.au/yamba</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Yamba parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;April&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/yamba\">parkrun.com.au/yamba</a></td></tr></table>",
         "Special Days": {}
       }
     },
