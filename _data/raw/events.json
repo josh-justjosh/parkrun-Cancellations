@@ -49259,8 +49259,8 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            28.213233,
-            -26.103518
+            28.217276,
+            -26.103947
           ]
         },
         "properties": {
@@ -50371,6 +50371,46 @@
           "countrycode": 97,
           "seriesid": 2,
           "EventLocation": "Berry Hill juniors"
+        }
+      },
+      {
+        "id": 3460,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.939551,
+            53.448255
+          ]
+        },
+        "properties": {
+          "eventname": "manorparkglossop-juniors",
+          "EventLongName": "Manor Park junior parkrun, Glossop",
+          "EventShortName": "Manor Park juniors, Glossop",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Manor Park, Glossop"
+        }
+      },
+      {
+        "id": 3461,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            19.412511,
+            53.260214
+          ]
+        },
+        "properties": {
+          "eventname": "lasekmiejski",
+          "EventLongName": "parkrun Lasek Miejski",
+          "EventShortName": "Lasek Miejski",
+          "LocalisedEventLongName": null,
+          "countrycode": 74,
+          "seriesid": 1,
+          "EventLocation": "Lasek Miejski"
         }
       }
     ]
