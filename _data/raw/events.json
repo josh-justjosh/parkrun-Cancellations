@@ -50432,6 +50432,66 @@
           "seriesid": 1,
           "EventLocation": "Lasek Miejski"
         }
+      },
+      {
+        "id": 3462,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.544284,
+            61.770948
+          ]
+        },
+        "properties": {
+          "eventname": "loftsgardsbrua",
+          "EventLongName": "Loftsgardsbrua parkrun",
+          "EventShortName": "Loftsgardsbrua",
+          "LocalisedEventLongName": null,
+          "countrycode": 67,
+          "seriesid": 1,
+          "EventLocation": "Loftsgardsbrua"
+        }
+      },
+      {
+        "id": 3463,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -75.905183,
+            45.267695
+          ]
+        },
+        "properties": {
+          "eventname": "ottawacarletontrailway",
+          "EventLongName": "Ottawa-Carleton Trailway parkrun",
+          "EventShortName": "Ottawa-Carleton Trailway",
+          "LocalisedEventLongName": null,
+          "countrycode": 14,
+          "seriesid": 1,
+          "EventLocation": "Ottawa-Carleton Trailway"
+        }
+      },
+      {
+        "id": 3464,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.756237,
+            49.184318
+          ]
+        },
+        "properties": {
+          "eventname": "tyneheadregional",
+          "EventLongName": "Tynehead Regional parkrun",
+          "EventShortName": "Tynehead Regional",
+          "LocalisedEventLongName": null,
+          "countrycode": 14,
+          "seriesid": 1,
+          "EventLocation": "Tynehead Regional"
+        }
       }
     ]
   }
