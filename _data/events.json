@@ -6960,13 +6960,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Stanley Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-04-14",
+            "ReasonCancelled": "Clash with Tunnel 10k"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/stanleypark-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Liverpool",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Stanley Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/stanleypark-juniors\">parkrun.org.uk/stanleypark-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Stanley Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 14&nbsp;April&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Clash with Tunnel 10k</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/stanleypark-juniors\">parkrun.org.uk/stanleypark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
