@@ -33094,26 +33094,6 @@
         }
       },
       {
-        "id": 2319,
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -79.232377,
-            45.321961
-          ]
-        },
-        "properties": {
-          "eventname": "averybeach",
-          "EventLongName": "Avery Beach parkrun, Huntsville",
-          "EventShortName": "Avery Beach",
-          "LocalisedEventLongName": null,
-          "countrycode": 14,
-          "seriesid": 1,
-          "EventLocation": "Avery Beach Park"
-        }
-      },
-      {
         "id": 2320,
         "type": "Feature",
         "geometry": {
@@ -50334,6 +50314,46 @@
         }
       },
       {
+        "id": 3449,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            137.585902,
+            -33.040603
+          ]
+        },
+        "properties": {
+          "eventname": "whyallaforeshore",
+          "EventLongName": "Whyalla Foreshore parkrun",
+          "EventShortName": "Whyalla Foreshore",
+          "LocalisedEventLongName": null,
+          "countrycode": 3,
+          "seriesid": 1,
+          "EventLocation": "Whyalla Foreshore"
+        }
+      },
+      {
+        "id": 3450,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            115.714384,
+            -33.275814
+          ]
+        },
+        "properties": {
+          "eventname": "ridleyplaceforeshore",
+          "EventLongName": "Ridley Place Foreshore parkrun",
+          "EventShortName": "Ridley Place Foreshore",
+          "LocalisedEventLongName": null,
+          "countrycode": 3,
+          "seriesid": 1,
+          "EventLocation": "Ridley Place Foreshore"
+        }
+      },
+      {
         "id": 3453,
         "type": "Feature",
         "geometry": {
@@ -50471,6 +50491,46 @@
           "countrycode": 14,
           "seriesid": 1,
           "EventLocation": "Tynehead Regional"
+        }
+      },
+      {
+        "id": 3465,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -78.881377,
+            38.428261
+          ]
+        },
+        "properties": {
+          "eventname": "purcell",
+          "EventLongName": "Purcell parkrun",
+          "EventShortName": "Purcell",
+          "LocalisedEventLongName": null,
+          "countrycode": 98,
+          "seriesid": 1,
+          "EventLocation": "Purcell"
+        }
+      },
+      {
+        "id": 3466,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -88.266416,
+            40.086144
+          ]
+        },
+        "properties": {
+          "eventname": "morrisseypark",
+          "EventLongName": "Morrissey Park parkrun",
+          "EventShortName": "Morrissey Park",
+          "LocalisedEventLongName": null,
+          "countrycode": 98,
+          "seriesid": 1,
+          "EventLocation": "Morrissey Park"
         }
       }
     ]

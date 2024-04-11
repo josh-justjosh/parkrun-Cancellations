@@ -6143,13 +6143,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Graham Sports Centre, Durham",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-04-13",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/durham",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Durham",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Durham parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/durham\">parkrun.org.uk/durham</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Durham parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 13&nbsp;April&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/durham\">parkrun.org.uk/durham</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -12099,13 +12104,18 @@
         "countrycode": 74,
         "seriesid": 1,
         "EventLocation": "Krakowskie B\u0142onia, Krakow",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-04-13",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.pl/krakow",
         "Country": "Poland",
         "State": "Lesser Poland",
         "County": "Krak\u00f3w",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Krak\u00f3w</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/krakow\">parkrun.pl/krakow</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Krak\u00f3w</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 13&nbsp;April&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/krakow\">parkrun.pl/krakow</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -47292,34 +47302,6 @@
       }
     },
     {
-      "id": 2319,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.232377,
-          45.321961
-        ]
-      },
-      "properties": {
-        "eventname": "averybeach",
-        "EventLongName": "Avery Beach parkrun, Huntsville",
-        "EventShortName": "Avery Beach",
-        "LocalisedEventLongName": null,
-        "countrycode": 14,
-        "seriesid": 1,
-        "EventLocation": "Avery Beach Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.ca/averybeach",
-        "Country": "Canada",
-        "State": "Ontario",
-        "County": "District Municipality of Muskoka",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Avery Beach parkrun, Huntsville</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/averybeach\">parkrun.ca/averybeach</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
       "id": 2320,
       "type": "Feature",
       "geometry": {
@@ -71740,6 +71722,62 @@
       }
     },
     {
+      "id": 3449,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.585902,
+          -33.040603
+        ]
+      },
+      "properties": {
+        "eventname": "whyallaforeshore",
+        "EventLongName": "Whyalla Foreshore parkrun",
+        "EventShortName": "Whyalla Foreshore",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "Whyalla Foreshore",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.au/whyallaforeshore",
+        "Country": "Australia",
+        "State": "South Australia",
+        "County": "Whyalla",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Whyalla Foreshore parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/whyallaforeshore\">parkrun.com.au/whyallaforeshore</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3450,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.714384,
+          -33.275814
+        ]
+      },
+      "properties": {
+        "eventname": "ridleyplaceforeshore",
+        "EventLongName": "Ridley Place Foreshore parkrun",
+        "EventShortName": "Ridley Place Foreshore",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "Ridley Place Foreshore",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.au/ridleyplaceforeshore",
+        "Country": "Australia",
+        "State": "Western Australia",
+        "County": "Harvey",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ridley Place Foreshore parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/ridleyplaceforeshore\">parkrun.com.au/ridleyplaceforeshore</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 3453,
       "type": "Feature",
       "geometry": {
@@ -71932,6 +71970,62 @@
         "State": "British Columbia",
         "County": "Metro Vancouver Regional District",
         "description": "<h4 style=\"margin: 0 0 8px;\">Tynehead Regional parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/tyneheadregional\">parkrun.ca/tyneheadregional</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3465,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.881377,
+          38.428261
+        ]
+      },
+      "properties": {
+        "eventname": "purcell",
+        "EventLongName": "Purcell parkrun",
+        "EventShortName": "Purcell",
+        "LocalisedEventLongName": null,
+        "countrycode": 98,
+        "seriesid": 1,
+        "EventLocation": "Purcell",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.us/purcell",
+        "Country": "USA",
+        "State": "Virginia",
+        "County": "Harrisonburg",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Purcell parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/purcell\">parkrun.us/purcell</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3466,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.266416,
+          40.086144
+        ]
+      },
+      "properties": {
+        "eventname": "morrisseypark",
+        "EventLongName": "Morrissey Park parkrun",
+        "EventShortName": "Morrissey Park",
+        "LocalisedEventLongName": null,
+        "countrycode": 98,
+        "seriesid": 1,
+        "EventLocation": "Morrissey Park",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.us/morrisseypark",
+        "Country": "USA",
+        "State": "Illinois",
+        "County": "Champaign",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Morrissey Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/morrisseypark\">parkrun.us/morrisseypark</a></td></tr></table>",
         "Special Days": {}
       }
     }
