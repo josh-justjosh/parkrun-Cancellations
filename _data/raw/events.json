@@ -50532,6 +50532,46 @@
           "seriesid": 1,
           "EventLocation": "Morrissey Park"
         }
+      },
+      {
+        "id": 3467,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -7.986112,
+            54.287475
+          ]
+        },
+        "properties": {
+          "eventname": "glenfarnewood",
+          "EventLongName": "Glenfarne Wood parkrun",
+          "EventShortName": "Glenfarne Wood",
+          "LocalisedEventLongName": null,
+          "countrycode": 42,
+          "seriesid": 1,
+          "EventLocation": "Glenfarne Wood"
+        }
+      },
+      {
+        "id": 3468,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.007716,
+            51.44823
+          ]
+        },
+        "properties": {
+          "eventname": "prospect-juniors",
+          "EventLongName": "Prospect junior parkrun",
+          "EventShortName": "Prospect juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Prospect juniors"
+        }
       }
     ]
   }
