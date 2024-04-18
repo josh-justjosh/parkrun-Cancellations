@@ -34897,13 +34897,18 @@
         "countrycode": 42,
         "seriesid": 1,
         "EventLocation": "Darndale",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-04-20",
+            "ReasonCancelled": "Another event taken place in the park"
+          }
+        ],
         "Website": "https://www.parkrun.ie/darndale",
         "Country": "Ireland",
         "State": "Leinster",
         "County": "Dublin",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Darndale parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/darndale\">parkrun.ie/darndale</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Darndale parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 20&nbsp;April&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Another event taken place in the park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/darndale\">parkrun.ie/darndale</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -71863,6 +71868,34 @@
       }
     },
     {
+      "id": 3451,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.893784,
+          -33.863295
+        ]
+      },
+      "properties": {
+        "eventname": "esperanceforeshore",
+        "EventLongName": "Esperance Foreshore parkrun",
+        "EventShortName": "Esperance Foreshore",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "Esperance Foreshore",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.au/esperanceforeshore",
+        "Country": "Australia",
+        "State": "Western Australia",
+        "County": "Shire of Esperance",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Esperance Foreshore parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/esperanceforeshore\">parkrun.com.au/esperanceforeshore</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 3453,
       "type": "Feature",
       "geometry": {
@@ -71887,6 +71920,34 @@
         "State": "Leinster",
         "County": "County Kilkenny",
         "description": "<h4 style=\"margin: 0 0 8px;\">Kilkenny Countryside Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/kilkennycountrysidepark-juniors\">parkrun.ie/kilkennycountrysidepark-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3454,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.01537,
+          -29.054042
+        ]
+      },
+      "properties": {
+        "eventname": "jubileetenterfield",
+        "EventLongName": "Jubilee parkrun, Tenterfield",
+        "EventShortName": "Jubilee, Tenterfield",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "Jubilee, Tenterfield",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.au/jubileetenterfield",
+        "Country": "Australia",
+        "State": "New South Wales",
+        "County": "Tenterfield Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Jubilee parkrun, Tenterfield</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/jubileetenterfield\">parkrun.com.au/jubileetenterfield</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -72223,6 +72284,62 @@
         "State": "Scotland",
         "County": "South Lanarkshire",
         "description": "<h4 style=\"margin: 0 0 8px;\">Strathaven junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/strathaven-juniors\">parkrun.org.uk/strathaven-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3475,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.669171,
+          40.21262
+        ]
+      },
+      "properties": {
+        "eventname": "veteranspark",
+        "EventLongName": "Veterans Park parkrun",
+        "EventShortName": "Veterans Park",
+        "LocalisedEventLongName": null,
+        "countrycode": 98,
+        "seriesid": 1,
+        "EventLocation": "Veterans Park",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.us/veteranspark",
+        "Country": "USA",
+        "State": "New Jersey",
+        "County": "Mercer",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Veterans Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/veteranspark\">parkrun.us/veteranspark</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3476,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.384943,
+          -45.236725
+        ]
+      },
+      "properties": {
+        "eventname": "otagocentralrailtrailalexandra",
+        "EventLongName": "Otago Central Rail Trail parkrun, Alexandra",
+        "EventShortName": "Otago Central Rail Trail, Alexandra",
+        "LocalisedEventLongName": null,
+        "countrycode": 65,
+        "seriesid": 1,
+        "EventLocation": "Otago Central Rail Trail, Alexandra",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.nz/otagocentralrailtrailalexandra",
+        "Country": "New Zealand",
+        "State": "Otago",
+        "County": "Central Otago District",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Otago Central Rail Trail parkrun, Alexandra</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/otagocentralrailtrailalexandra\">parkrun.co.nz/otagocentralrailtrailalexandra</a></td></tr></table>",
         "Special Days": {}
       }
     }
