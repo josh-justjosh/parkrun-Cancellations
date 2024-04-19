@@ -46072,13 +46072,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Centre Vale Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-04-20",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/centrevale",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Calderdale",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Centre Vale parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/centrevale\">parkrun.org.uk/centrevale</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Centre Vale parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 20&nbsp;April&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/centrevale\">parkrun.org.uk/centrevale</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -53692,13 +53697,18 @@
         "countrycode": 42,
         "seriesid": 1,
         "EventLocation": "Borrisokane Town Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-04-20",
+            "ReasonCancelled": "Park in Use, not available for parkrun"
+          }
+        ],
         "Website": "https://www.parkrun.ie/borrisokanetown",
         "Country": "Ireland",
         "State": "Munster",
         "County": "Tipperary",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Borrisokane Town parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/borrisokanetown\">parkrun.ie/borrisokanetown</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Borrisokane Town parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 20&nbsp;April&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Park in Use, not available for parkrun</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/borrisokanetown\">parkrun.ie/borrisokanetown</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -55410,13 +55420,18 @@
         "countrycode": 42,
         "seriesid": 1,
         "EventLocation": "Achill Greenway",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-04-20",
+            "ReasonCancelled": "Permission issue"
+          }
+        ],
         "Website": "https://www.parkrun.ie/achillgreenway",
         "Country": "Ireland",
         "State": "Connacht",
         "County": "Mayo",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Achill Greenway parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/achillgreenway\">parkrun.ie/achillgreenway</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Achill Greenway parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 20&nbsp;April&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Permission issue</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/achillgreenway\">parkrun.ie/achillgreenway</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -71786,6 +71801,34 @@
       }
     },
     {
+      "id": 3446,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.088633,
+          51.066755
+        ]
+      },
+      "properties": {
+        "eventname": "wakehurst",
+        "EventLongName": "Wakehurst parkrun",
+        "EventShortName": "Wakehurst",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Wakehurst",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/wakehurst",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "West Sussex",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Wakehurst parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wakehurst\">parkrun.org.uk/wakehurst</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 3447,
       "type": "Feature",
       "geometry": {
@@ -71922,6 +71965,34 @@
         "State": "Western Australia",
         "County": "Shire of Esperance",
         "description": "<h4 style=\"margin: 0 0 8px;\">Esperance Foreshore parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/esperanceforeshore\">parkrun.com.au/esperanceforeshore</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3452,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.862373,
+          -37.197017
+        ]
+      },
+      "properties": {
+        "eventname": "moanapointreserve",
+        "EventLongName": "Moana Point Reserve parkrun",
+        "EventShortName": "Moana Point Reserve",
+        "LocalisedEventLongName": null,
+        "countrycode": 65,
+        "seriesid": 1,
+        "EventLocation": "Moana Point Reserve",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.nz/moanapointreserve",
+        "Country": "New Zealand",
+        "State": "Waikato Region",
+        "County": "Thames-Coromandel District",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Moana Point Reserve parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/moanapointreserve\">parkrun.co.nz/moanapointreserve</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -72314,6 +72385,34 @@
         "State": "Scotland",
         "County": "South Lanarkshire",
         "description": "<h4 style=\"margin: 0 0 8px;\">Strathaven junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/strathaven-juniors\">parkrun.org.uk/strathaven-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3474,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.812349,
+          -36.863563
+        ]
+      },
+      "properties": {
+        "eventname": "orakeibay",
+        "EventLongName": "\u014cr\u0101kei Bay parkrun",
+        "EventShortName": "\u014cr\u0101kei Bay",
+        "LocalisedEventLongName": null,
+        "countrycode": 65,
+        "seriesid": 1,
+        "EventLocation": "\u014cr\u0101kei Bay",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.nz/orakeibay",
+        "Country": "New Zealand",
+        "State": "Auckland",
+        "County": "Auckland",
+        "description": "<h4 style=\"margin: 0 0 8px;\">\u014cr\u0101kei Bay parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/orakeibay\">parkrun.co.nz/orakeibay</a></td></tr></table>",
         "Special Days": {}
       }
     },
