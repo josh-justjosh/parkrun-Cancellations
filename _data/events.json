@@ -62741,13 +62741,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Horsforth Hall Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-04-21",
+            "ReasonCancelled": "Fair vehicles arriving in the park"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/horsforthhall-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Leeds",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Horsforth Hall junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/horsforthhall-juniors\">parkrun.org.uk/horsforthhall-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Horsforth Hall junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 21&nbsp;April&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Fair vehicles arriving in the park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/horsforthhall-juniors\">parkrun.org.uk/horsforthhall-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
