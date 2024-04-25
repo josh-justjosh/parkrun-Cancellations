@@ -49291,13 +49291,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Strathcona Island Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-04-27",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.ca/strathconaisland",
         "Country": "Canada",
         "State": "Alberta",
         "County": "Medicine Hat",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Strathcona Island parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/strathconaisland\">parkrun.ca/strathconaisland</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Strathcona Island parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 27&nbsp;April&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/strathconaisland\">parkrun.ca/strathconaisland</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -57277,13 +57282,18 @@
         "countrycode": 3,
         "seriesid": 2,
         "EventLocation": "Bellevue Park State School",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-04-28",
+            "ReasonCancelled": "School fields still closed due to fire ants"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/bellevuepark-juniors",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Gold Coast",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bellevue Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/bellevuepark-juniors\">parkrun.com.au/bellevuepark-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bellevue Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 28&nbsp;April&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>School fields still closed due to fire ants</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/bellevuepark-juniors\">parkrun.com.au/bellevuepark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
