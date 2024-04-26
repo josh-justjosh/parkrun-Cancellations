@@ -7584,8 +7584,8 @@
           ]
         },
         "properties": {
-          "eventname": "cornwall",
-          "EventLongName": "Cornwall parkrun",
+          "eventname": "cornwallpark",
+          "EventLongName": "Cornwall Park parkrun",
           "EventShortName": "Cornwall Park",
           "LocalisedEventLongName": null,
           "countrycode": 65,
@@ -50491,6 +50491,26 @@
           "countrycode": 97,
           "seriesid": 2,
           "EventLocation": "Berry Hill juniors"
+        }
+      },
+      {
+        "id": 3458,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -3.789728,
+            51.755941
+          ]
+        },
+        "properties": {
+          "eventname": "cycleroute43ystalyfera",
+          "EventLongName": "Cycle Route 43 parkrun, Ystalyfera",
+          "EventShortName": "Cycle Route 43, Ystalyfera",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 1,
+          "EventLocation": "Cycle Route 43, Ystalyfera"
         }
       },
       {

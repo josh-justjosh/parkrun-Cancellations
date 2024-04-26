@@ -4234,13 +4234,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Camperdown Country Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-04-27",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/camperdown",
         "Country": "United Kingdom",
         "State": "Scotland",
         "County": "Dundee City",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Camperdown parkrun, Dundee</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/camperdown\">parkrun.org.uk/camperdown</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Camperdown parkrun, Dundee</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 27&nbsp;April&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/camperdown\">parkrun.org.uk/camperdown</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -10654,8 +10659,8 @@
         ]
       },
       "properties": {
-        "eventname": "cornwall",
-        "EventLongName": "Cornwall parkrun",
+        "eventname": "cornwallpark",
+        "EventLongName": "Cornwall Park parkrun",
         "EventShortName": "Cornwall Park",
         "LocalisedEventLongName": null,
         "countrycode": 65,
@@ -10663,14 +10668,12 @@
         "EventLocation": "Cornwall Park, Auckland, New Zealand",
         "Status": "parkrunning",
         "Cancellations": [],
-        "Website": "https://www.parkrun.co.nz/cornwall",
+        "Website": "https://www.parkrun.co.nz/cornwallpark",
         "Country": "New Zealand",
         "State": "Auckland",
         "County": "Auckland",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cornwall parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/cornwall\">parkrun.co.nz/cornwall</a></td></tr></table>",
-        "Special Days": {},
-        "Christmas": "parkrunning",
-        "NYD": "parkrunning"
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cornwall Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/cornwallpark\">parkrun.co.nz/cornwallpark</a></td></tr></table>",
+        "Special Days": {}
       }
     },
     {
@@ -55510,13 +55513,18 @@
         "countrycode": 44,
         "seriesid": 1,
         "EventLocation": "Parco del Mensola",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-04-27",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.it/mensola",
         "Country": "Italy",
         "State": "Tuscany",
         "County": "Florence",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Mensola parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.it/mensola\">parkrun.it/mensola</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Mensola parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 27&nbsp;April&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.it/mensola\">parkrun.it/mensola</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -61299,13 +61307,18 @@
         "countrycode": 74,
         "seriesid": 1,
         "EventLocation": "Wzniesienie Osowy",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-04-27",
+            "ReasonCancelled": "Local health restrictions"
+          }
+        ],
         "Website": "https://www.parkrun.pl/wzniesienieosowy",
         "Country": "Poland",
         "State": "Pomerania",
         "County": "Gdynia",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Wzniesienie Osowy</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/wzniesienieosowy\">parkrun.pl/wzniesienieosowy</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Wzniesienie Osowy</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 27&nbsp;April&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Local health restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/wzniesienieosowy\">parkrun.pl/wzniesienieosowy</a></td></tr></table>",
         "Special Days": {},
         "Boxing Day": "parkrunning",
         "NYD": "parkrunning"
@@ -66838,13 +66851,18 @@
         "countrycode": 42,
         "seriesid": 2,
         "EventLocation": "Nursery Drive Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-04-28",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.ie/nurserydrive-juniors",
         "Country": "Ireland",
         "State": "Munster",
         "County": "Cork",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Nursery Drive junior parkrun, Ballinlough</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/nurserydrive-juniors\">parkrun.ie/nurserydrive-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Nursery Drive junior parkrun, Ballinlough</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 28&nbsp;April&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/nurserydrive-juniors\">parkrun.ie/nurserydrive-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -72055,6 +72073,34 @@
         "State": "England",
         "County": "Nottinghamshire",
         "description": "<h4 style=\"margin: 0 0 8px;\">Berry Hill junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/berryhill-juniors\">parkrun.org.uk/berryhill-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3458,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.789728,
+          51.755941
+        ]
+      },
+      "properties": {
+        "eventname": "cycleroute43ystalyfera",
+        "EventLongName": "Cycle Route 43 parkrun, Ystalyfera",
+        "EventShortName": "Cycle Route 43, Ystalyfera",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Cycle Route 43, Ystalyfera",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/cycleroute43ystalyfera",
+        "Country": "United Kingdom",
+        "State": "Wales",
+        "County": "Neath Port Talbot",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cycle Route 43 parkrun, Ystalyfera</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cycleroute43ystalyfera\">parkrun.org.uk/cycleroute43ystalyfera</a></td></tr></table>",
         "Special Days": {}
       }
     },
