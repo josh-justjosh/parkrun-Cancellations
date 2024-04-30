@@ -19242,13 +19242,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Bruntwood Park, Cheadle",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-05-04",
+            "ReasonCancelled": "Course Conditions & Core Team Availability"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/cheadlehulme",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Stockport",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cheadle Hulme parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cheadlehulme\">parkrun.org.uk/cheadlehulme</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cheadle Hulme parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;May&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course Conditions & Core Team Availability</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cheadlehulme\">parkrun.org.uk/cheadlehulme</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -27869,18 +27874,13 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Monkton Park",
-        "Status": "junior Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2024-05-05",
-            "ReasonCancelled": "Another event in park"
-          }
-        ],
+        "Status": "junior parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/chippenham-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Wiltshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Chippenham junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  5&nbsp;May&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Another event in park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/chippenham-juniors\">parkrun.org.uk/chippenham-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Chippenham junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/chippenham-juniors\">parkrun.org.uk/chippenham-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -62634,13 +62634,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Horsforth Hall Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-05-05",
+            "ReasonCancelled": "The fair is still in the park"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/horsforthhall-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Leeds",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Horsforth Hall junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/horsforthhall-juniors\">parkrun.org.uk/horsforthhall-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Horsforth Hall junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  5&nbsp;May&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>The fair is still in the park</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/horsforthhall-juniors\">parkrun.org.uk/horsforthhall-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
