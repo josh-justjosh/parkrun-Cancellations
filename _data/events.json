@@ -17772,13 +17772,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Weirfields Recreation Ground",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-05-04",
+            "ReasonCancelled": "Course still unsafe - no Star Wars fun for us\u00a0:("
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/beeston",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Nottinghamshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Beeston parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/beeston\">parkrun.org.uk/beeston</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Beeston parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;May&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course still unsafe - no Star Wars fun for us\u00a0:(</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/beeston\">parkrun.org.uk/beeston</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning"
       }
@@ -65286,13 +65291,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Guysborough Nature Trail",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-05-04",
+            "ReasonCancelled": "Parkrun closed"
+          }
+        ],
         "Website": "https://www.parkrun.ca/guysboroughnaturetrail",
         "Country": "Canada",
         "State": "Nova Scotia",
         "County": "Guysborough County",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Guysborough Nature Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/guysboroughnaturetrail\">parkrun.ca/guysboroughnaturetrail</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Guysborough Nature Trail parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;May&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Parkrun closed</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/guysboroughnaturetrail\">parkrun.ca/guysboroughnaturetrail</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -72567,6 +72577,34 @@
         "State": "England",
         "County": "Derbyshire",
         "description": "<h4 style=\"margin: 0 0 8px;\">Holmebrook Valley junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/holmebrookvalley-juniors\">parkrun.org.uk/holmebrookvalley-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3482,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.524757,
+          44.448915
+        ]
+      },
+      "properties": {
+        "eventname": "lakepacawa",
+        "EventLongName": "Lake Pacawa parkrun",
+        "EventShortName": "Lake Pacawa",
+        "LocalisedEventLongName": null,
+        "countrycode": 98,
+        "seriesid": 1,
+        "EventLocation": "Lake Pacawa",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.us/lakepacawa",
+        "Country": "USA",
+        "State": "Wisconsin",
+        "County": "Portage",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Lake Pacawa parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/lakepacawa\">parkrun.us/lakepacawa</a></td></tr></table>",
         "Special Days": {}
       }
     }
