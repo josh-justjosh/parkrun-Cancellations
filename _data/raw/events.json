@@ -50892,6 +50892,46 @@
           "seriesid": 1,
           "EventLocation": "Halsema Trailhead"
         }
+      },
+      {
+        "id": 3484,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.158938,
+            51.477324
+          ]
+        },
+        "properties": {
+          "eventname": "battersea-juniors",
+          "EventLongName": "Battersea junior parkrun",
+          "EventShortName": "Battersea juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Battersea juniors"
+        }
+      },
+      {
+        "id": 3485,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -7.922188,
+            53.428665
+          ]
+        },
+        "properties": {
+          "eventname": "athlonersc",
+          "EventLongName": "Athlone RSC parkrun",
+          "EventShortName": "Athlone RSC",
+          "LocalisedEventLongName": null,
+          "countrycode": 42,
+          "seriesid": 1,
+          "EventLocation": "Athlone RSC"
+        }
       }
     ]
   }
