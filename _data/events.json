@@ -19847,13 +19847,18 @@
         "countrycode": 82,
         "seriesid": 1,
         "EventLocation": "East Coast Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-05-04",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.sg/eastcoastpark",
         "Country": "Singapore",
         "State": "",
         "County": "",
-        "description": "<h4 style=\"margin: 0 0 8px;\">East Coast Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.sg/eastcoastpark\">parkrun.sg/eastcoastpark</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">East Coast Park parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;May&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.sg/eastcoastpark\">parkrun.sg/eastcoastpark</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -31997,13 +32002,18 @@
         "countrycode": 82,
         "seriesid": 1,
         "EventLocation": "West Coast Park Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-05-04",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.sg/westcoastpark",
         "Country": "Singapore",
         "State": "",
         "County": "",
-        "description": "<h4 style=\"margin: 0 0 8px;\">West Coast Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.sg/westcoastpark\">parkrun.sg/westcoastpark</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">West Coast Park parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;May&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.sg/westcoastpark\">parkrun.sg/westcoastpark</a></td></tr></table>",
         "Special Days": {}
       }
     },
