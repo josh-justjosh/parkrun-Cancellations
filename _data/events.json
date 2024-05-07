@@ -25117,34 +25117,6 @@
       }
     },
     {
-      "id": 1272,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -7.904069,
-          53.419271
-        ]
-      },
-      "properties": {
-        "eventname": "athlone",
-        "EventLongName": "Athlone parkrun",
-        "EventShortName": "Athlone",
-        "LocalisedEventLongName": null,
-        "countrycode": 42,
-        "seriesid": 1,
-        "EventLocation": "Athlone Institute of Technology",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.ie/athlone",
-        "Country": "Ireland",
-        "State": "Leinster",
-        "County": "Westmeath",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Athlone parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/athlone\">parkrun.ie/athlone</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
       "id": 1273,
       "type": "Feature",
       "geometry": {
@@ -53019,13 +52991,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Northlands Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-05-12",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/northlands-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Essex",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Northlands junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/northlands-juniors\">parkrun.org.uk/northlands-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Northlands junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 12&nbsp;May&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/northlands-juniors\">parkrun.org.uk/northlands-juniors</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
