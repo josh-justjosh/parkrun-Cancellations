@@ -50912,6 +50912,46 @@
           "seriesid": 1,
           "EventLocation": "Athlone RSC"
         }
+      },
+      {
+        "id": 3486,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            27.873641,
+            -26.73561
+          ]
+        },
+        "properties": {
+          "eventname": "emeraldresort",
+          "EventLongName": "Emerald Resort parkrun",
+          "EventShortName": "Emerald Resort",
+          "LocalisedEventLongName": null,
+          "countrycode": 85,
+          "seriesid": 1,
+          "EventLocation": "Emerald Resort"
+        }
+      },
+      {
+        "id": 3487,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.452331,
+            34.602931
+          ]
+        },
+        "properties": {
+          "eventname": "janalfanotrail",
+          "EventLongName": "Jan Alfano Trail parkrun",
+          "EventShortName": "Jan Alfano Trail",
+          "LocalisedEventLongName": null,
+          "countrycode": 98,
+          "seriesid": 1,
+          "EventLocation": "Jan Alfano Trail"
+        }
       }
     ]
   }

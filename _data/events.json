@@ -72633,6 +72633,62 @@
         "description": "<h4 style=\"margin: 0 0 8px;\">Athlone RSC parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/athlonersc\">parkrun.ie/athlonersc</a></td></tr></table>",
         "Special Days": {}
       }
+    },
+    {
+      "id": 3486,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.873641,
+          -26.73561
+        ]
+      },
+      "properties": {
+        "eventname": "emeraldresort",
+        "EventLongName": "Emerald Resort parkrun",
+        "EventShortName": "Emerald Resort",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Emerald Resort",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.za/emeraldresort",
+        "Country": "South Africa",
+        "State": "Gauteng",
+        "County": "Sedibeng District Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Emerald Resort parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/emeraldresort\">parkrun.co.za/emeraldresort</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3487,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.452331,
+          34.602931
+        ]
+      },
+      "properties": {
+        "eventname": "janalfanotrail",
+        "EventLongName": "Jan Alfano Trail parkrun",
+        "EventShortName": "Jan Alfano Trail",
+        "LocalisedEventLongName": null,
+        "countrycode": 98,
+        "seriesid": 1,
+        "EventLocation": "Jan Alfano Trail",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.us/janalfanotrail",
+        "Country": "USA",
+        "State": "Arizona",
+        "County": "Yavapai",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Jan Alfano Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/janalfanotrail\">parkrun.us/janalfanotrail</a></td></tr></table>",
+        "Special Days": {}
+      }
     }
   ]
 }
