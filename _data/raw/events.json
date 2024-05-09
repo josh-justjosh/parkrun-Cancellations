@@ -139,7 +139,7 @@
       "url": "www.parkrun.sg",
       "bounds": [
         103.762915,
-        1.294954,
+        1.294155,
         103.893129,
         1.360729
       ]
@@ -50694,6 +50694,46 @@
         }
       },
       {
+        "id": 3470,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.148185,
+            -36.786149
+          ]
+        },
+        "properties": {
+          "eventname": "nagambielake",
+          "EventLongName": "Nagambie Lake parkrun",
+          "EventShortName": "Nagambie Lake",
+          "LocalisedEventLongName": null,
+          "countrycode": 3,
+          "seriesid": 1,
+          "EventLocation": "Nagambie Lake"
+        }
+      },
+      {
+        "id": 3471,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            149.446987,
+            -35.250379
+          ]
+        },
+        "properties": {
+          "eventname": "bungendorecommon",
+          "EventLongName": "Bungendore Common parkrun",
+          "EventShortName": "Bungendore Common",
+          "LocalisedEventLongName": null,
+          "countrycode": 3,
+          "seriesid": 1,
+          "EventLocation": "Bungendore Common"
+        }
+      },
+      {
         "id": 3472,
         "type": "Feature",
         "geometry": {
@@ -50791,6 +50831,26 @@
           "countrycode": 65,
           "seriesid": 1,
           "EventLocation": "Otago Central Rail Trail, Alexandra"
+        }
+      },
+      {
+        "id": 3477,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -6.481169,
+            54.868789
+          ]
+        },
+        "properties": {
+          "eventname": "thefishermanswalk",
+          "EventLongName": "The Fisherman\u2018s Walk parkrun",
+          "EventShortName": "The Fisherman\u2018s Walk",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 1,
+          "EventLocation": "The Fisherman\u2018s Walk"
         }
       },
       {
@@ -50951,6 +51011,46 @@
           "countrycode": 98,
           "seriesid": 1,
           "EventLocation": "Jan Alfano Trail"
+        }
+      },
+      {
+        "id": 3488,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            29.237276,
+            -26.476844
+          ]
+        },
+        "properties": {
+          "eventname": "terranova",
+          "EventLongName": "Terra Nova parkrun",
+          "EventShortName": "Terra Nova",
+          "LocalisedEventLongName": null,
+          "countrycode": 85,
+          "seriesid": 1,
+          "EventLocation": "Terra Nova"
+        }
+      },
+      {
+        "id": 3489,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            103.866771,
+            1.294155
+          ]
+        },
+        "properties": {
+          "eventname": "bayeastgarden",
+          "EventLongName": "Bay East Garden parkrun",
+          "EventShortName": "Bay East Garden",
+          "LocalisedEventLongName": null,
+          "countrycode": 82,
+          "seriesid": 1,
+          "EventLocation": "Bay East Garden"
         }
       }
     ]

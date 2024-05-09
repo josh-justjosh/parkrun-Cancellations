@@ -43535,13 +43535,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Riviera on Vaal Country Club",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-05-11",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/rivieraonvaal",
         "Country": "South Africa",
         "State": "Gauteng",
         "County": "Sedibeng District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Riviera on Vaal parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/rivieraonvaal\">parkrun.co.za/rivieraonvaal</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Riviera on Vaal parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 11&nbsp;May&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/rivieraonvaal\">parkrun.co.za/rivieraonvaal</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -72352,6 +72357,62 @@
       }
     },
     {
+      "id": 3470,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.148185,
+          -36.786149
+        ]
+      },
+      "properties": {
+        "eventname": "nagambielake",
+        "EventLongName": "Nagambie Lake parkrun",
+        "EventShortName": "Nagambie Lake",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "Nagambie Lake",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.au/nagambielake",
+        "Country": "Australia",
+        "State": "Victoria",
+        "County": "Strathbogie",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Nagambie Lake parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/nagambielake\">parkrun.com.au/nagambielake</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3471,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.446987,
+          -35.250379
+        ]
+      },
+      "properties": {
+        "eventname": "bungendorecommon",
+        "EventLongName": "Bungendore Common parkrun",
+        "EventShortName": "Bungendore Common",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "Bungendore Common",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.au/bungendorecommon",
+        "Country": "Australia",
+        "State": "New South Wales",
+        "County": "Queanbeyan-Palerang Regional",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bungendore Common parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/bungendorecommon\">parkrun.com.au/bungendorecommon</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 3472,
       "type": "Feature",
       "geometry": {
@@ -72488,6 +72549,34 @@
         "State": "Otago",
         "County": "Central Otago District",
         "description": "<h4 style=\"margin: 0 0 8px;\">Otago Central Rail Trail parkrun, Alexandra</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/otagocentralrailtrailalexandra\">parkrun.co.nz/otagocentralrailtrailalexandra</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3477,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.481169,
+          54.868789
+        ]
+      },
+      "properties": {
+        "eventname": "thefishermanswalk",
+        "EventLongName": "The Fisherman\u2018s Walk parkrun",
+        "EventShortName": "The Fisherman\u2018s Walk",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "The Fisherman\u2018s Walk",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/thefishermanswalk",
+        "Country": "United Kingdom",
+        "State": "Northern Ireland",
+        "County": "Mid Ulster",
+        "description": "<h4 style=\"margin: 0 0 8px;\">The Fisherman\u2018s Walk parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/thefishermanswalk\">parkrun.org.uk/thefishermanswalk</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -72712,6 +72801,62 @@
         "State": "Arizona",
         "County": "Yavapai",
         "description": "<h4 style=\"margin: 0 0 8px;\">Jan Alfano Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/janalfanotrail\">parkrun.us/janalfanotrail</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3488,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.237276,
+          -26.476844
+        ]
+      },
+      "properties": {
+        "eventname": "terranova",
+        "EventLongName": "Terra Nova parkrun",
+        "EventShortName": "Terra Nova",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Terra Nova",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.za/terranova",
+        "Country": "South Africa",
+        "State": "Mpumalanga",
+        "County": "Gert Sibande District Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Terra Nova parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/terranova\">parkrun.co.za/terranova</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3489,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.866771,
+          1.294155
+        ]
+      },
+      "properties": {
+        "eventname": "bayeastgarden",
+        "EventLongName": "Bay East Garden parkrun",
+        "EventShortName": "Bay East Garden",
+        "LocalisedEventLongName": null,
+        "countrycode": 82,
+        "seriesid": 1,
+        "EventLocation": "Bay East Garden",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.sg/bayeastgarden",
+        "Country": "Singapore",
+        "State": "-Unknown-",
+        "County": "-Unknown-",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bay East Garden parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.sg/bayeastgarden\">parkrun.sg/bayeastgarden</a></td></tr></table>",
         "Special Days": {}
       }
     }
