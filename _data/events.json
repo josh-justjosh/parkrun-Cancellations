@@ -29631,39 +29631,6 @@
       }
     },
     {
-      "id": 1458,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -5.914541,
-          54.588264
-        ]
-      },
-      "properties": {
-        "eventname": "ormeau-juniors",
-        "EventLongName": "Ormeau junior parkrun",
-        "EventShortName": "Ormeau juniors",
-        "LocalisedEventLongName": "Ormeau junior parkrun",
-        "countrycode": 97,
-        "seriesid": 2,
-        "EventLocation": "Ormeau Park",
-        "Status": "junior Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2024-05-12",
-            "ReasonCancelled": "Event paused"
-          }
-        ],
-        "Website": "https://www.parkrun.org.uk/ormeau-juniors",
-        "Country": "United Kingdom",
-        "State": "Northern Ireland",
-        "County": "Belfast",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ormeau junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 12&nbsp;May&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Event paused</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/ormeau-juniors\">parkrun.org.uk/ormeau-juniors</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
       "id": 1459,
       "type": "Feature",
       "geometry": {
@@ -34126,13 +34093,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Tinley Manor",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-05-11",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/tinleymanor",
         "Country": "South Africa",
         "State": "KwaZulu-Natal",
         "County": "iLembe District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Tinley Manor parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/tinleymanor\">parkrun.co.za/tinleymanor</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Tinley Manor parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 11&nbsp;May&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/tinleymanor\">parkrun.co.za/tinleymanor</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -48565,13 +48537,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Voortrekker Hall",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-05-11",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/cradock",
         "Country": "South Africa",
         "State": "Eastern Cape",
         "County": "Chris Hani District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cradock parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/cradock\">parkrun.co.za/cradock</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cradock parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 11&nbsp;May&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/cradock\">parkrun.co.za/cradock</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -65326,39 +65303,6 @@
       }
     },
     {
-      "id": 3166,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -61.505609,
-          45.38438
-        ]
-      },
-      "properties": {
-        "eventname": "guysboroughnaturetrail",
-        "EventLongName": "Guysborough Nature Trail parkrun",
-        "EventShortName": "Guysborough Nature Trail",
-        "LocalisedEventLongName": null,
-        "countrycode": 14,
-        "seriesid": 1,
-        "EventLocation": "Guysborough Nature Trail",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2024-05-11",
-            "ReasonCancelled": "Parkrun closed"
-          }
-        ],
-        "Website": "https://www.parkrun.ca/guysboroughnaturetrail",
-        "Country": "Canada",
-        "State": "Nova Scotia",
-        "County": "Guysborough County",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Guysborough Nature Trail parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 11&nbsp;May&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Parkrun closed</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/guysboroughnaturetrail\">parkrun.ca/guysboroughnaturetrail</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
       "id": 3167,
       "type": "Feature",
       "geometry": {
@@ -69025,39 +68969,6 @@
         "State": "KwaZulu-Natal",
         "County": "eThekwini Metropolitan Municipality",
         "description": "<h4 style=\"margin: 0 0 8px;\">Hazelmere Dam parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/hazelmeredam\">parkrun.co.za/hazelmeredam</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 3345,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          27.782625,
-          -25.696386
-        ]
-      },
-      "properties": {
-        "eventname": "aviatorsparadise",
-        "EventLongName": "Aviators Paradise parkrun",
-        "EventShortName": "Aviators Paradise",
-        "LocalisedEventLongName": null,
-        "countrycode": 85,
-        "seriesid": 1,
-        "EventLocation": "Aviators Paradise",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2024-05-11",
-            "ReasonCancelled": "Course unsafe or blocked"
-          }
-        ],
-        "Website": "https://www.parkrun.co.za/aviatorsparadise",
-        "Country": "South Africa",
-        "State": "North-West",
-        "County": "Bojanala Platinum",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Aviators Paradise parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 11&nbsp;May&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/aviatorsparadise\">parkrun.co.za/aviatorsparadise</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -72927,6 +72838,34 @@
         "State": "-Unknown-",
         "County": "-Unknown-",
         "description": "<h4 style=\"margin: 0 0 8px;\">Bay East Garden parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.sg/bayeastgarden\">parkrun.sg/bayeastgarden</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3491,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.799587,
+          47.50298
+        ]
+      },
+      "properties": {
+        "eventname": "tollgatefarmparkbaqwab",
+        "EventLongName": "Tollgate Farm Park parkrun, baq\u02b7ab",
+        "EventShortName": "Tollgate Farm Park, baq\u02b7ab",
+        "LocalisedEventLongName": null,
+        "countrycode": 98,
+        "seriesid": 1,
+        "EventLocation": "Tollgate Farm Park, baq\u02b7ab",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.us/tollgatefarmparkbaqwab",
+        "Country": "USA",
+        "State": "Washington",
+        "County": "King",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Tollgate Farm Park parkrun, baq\u02b7ab</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/tollgatefarmparkbaqwab\">parkrun.us/tollgatefarmparkbaqwab</a></td></tr></table>",
         "Special Days": {}
       }
     }
