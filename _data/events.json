@@ -45489,13 +45489,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "University of West Florida, Rec Plex Nor",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-05-18",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.us/recplexnorth",
         "Country": "USA",
         "State": "Florida",
         "County": "Escambia",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Rec Plex North parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/recplexnorth\">parkrun.us/recplexnorth</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Rec Plex North parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 18&nbsp;May&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/recplexnorth\">parkrun.us/recplexnorth</a></td></tr></table>",
         "Special Days": {},
         "Thanksgiving": "parkrunning",
         "NYD": "parkrunning"
