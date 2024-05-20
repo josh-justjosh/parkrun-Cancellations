@@ -37239,13 +37239,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Bodington Cycle Circuit and Playing Fiel",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-05-26",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/bodington-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Leeds",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bodington junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/bodington-juniors\">parkrun.org.uk/bodington-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bodington junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 26&nbsp;May&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/bodington-juniors\">parkrun.org.uk/bodington-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -72887,6 +72892,62 @@
         "State": "Munster",
         "County": "County Tipperary",
         "description": "<h4 style=\"margin: 0 0 8px;\">Fethard junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/fethard-juniors\">parkrun.ie/fethard-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3495,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.69623,
+          51.813845
+        ]
+      },
+      "properties": {
+        "eventname": "wantijpark",
+        "EventLongName": "Wantijpark parkrun",
+        "EventShortName": "Wantijpark",
+        "LocalisedEventLongName": null,
+        "countrycode": 64,
+        "seriesid": 1,
+        "EventLocation": "Wantijpark",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.nl/wantijpark",
+        "Country": "Netherlands",
+        "State": "South Holland",
+        "County": "Dordrecht Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Wantijpark parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nl/wantijpark\">parkrun.co.nl/wantijpark</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3496,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.397451,
+          -39.414945
+        ]
+      },
+      "properties": {
+        "eventname": "mangawheroriverwalkohakune",
+        "EventLongName": "Mangawhero River Walk parkrun, Ohakune",
+        "EventShortName": "Mangawhero River Walk, Ohakune",
+        "LocalisedEventLongName": null,
+        "countrycode": 65,
+        "seriesid": 1,
+        "EventLocation": "Mangawhero River Walk, Ohakune",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.nz/mangawheroriverwalkohakune",
+        "Country": "New Zealand",
+        "State": "Manawatu-Wanganui",
+        "County": "Ruapehu District",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Mangawhero River Walk parkrun, Ohakune</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/mangawheroriverwalkohakune\">parkrun.co.nz/mangawheroriverwalkohakune</a></td></tr></table>",
         "Special Days": {}
       }
     }
