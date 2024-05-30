@@ -63527,13 +63527,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Coler Mountain Bike Preserve",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-06-01",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.us/colermountainbikepreserve",
         "Country": "USA",
         "State": "Arkansas",
         "County": "Benton",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Coler Mountain Bike Preserve parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/colermountainbikepreserve\">parkrun.us/colermountainbikepreserve</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Coler Mountain Bike Preserve parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;June&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/colermountainbikepreserve\">parkrun.us/colermountainbikepreserve</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -72077,6 +72082,34 @@
         "State": "Wales",
         "County": "Neath Port Talbot",
         "description": "<h4 style=\"margin: 0 0 8px;\">Cycle Route 43 parkrun, Ystalyfera</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cycleroute43ystalyfera\">parkrun.org.uk/cycleroute43ystalyfera</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3459,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.981697,
+          -34.188779
+        ]
+      },
+      "properties": {
+        "eventname": "rexjacksonoval",
+        "EventLongName": "Rex Jackson Oval parkrun",
+        "EventShortName": "Rex Jackson Oval",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "Rex Jackson Oval",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.au/rexjacksonoval",
+        "Country": "Australia",
+        "State": "New South Wales",
+        "County": "Wollongong",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Rex Jackson Oval parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/rexjacksonoval\">parkrun.com.au/rexjacksonoval</a></td></tr></table>",
         "Special Days": {}
       }
     },
