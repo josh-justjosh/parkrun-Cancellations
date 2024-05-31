@@ -12298,13 +12298,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Rother Valley Country Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-06-01",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/rothervalley",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Rotherham",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Rother Valley parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/rothervalley\">parkrun.org.uk/rothervalley</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Rother Valley parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;June&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/rothervalley\">parkrun.org.uk/rothervalley</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -21875,34 +21880,6 @@
       }
     },
     {
-      "id": 1040,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          31.788579,
-          -25.703683
-        ]
-      },
-      "properties": {
-        "eventname": "nkomazi",
-        "EventLongName": "Nkomazi parkrun",
-        "EventShortName": "Nkomazi",
-        "LocalisedEventLongName": null,
-        "countrycode": 85,
-        "seriesid": 1,
-        "EventLocation": "Tonga Village",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.co.za/nkomazi",
-        "Country": "South Africa",
-        "State": "Mpumalanga",
-        "County": "Ehlanzeni District",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Nkomazi parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/nkomazi\">parkrun.co.za/nkomazi</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
       "id": 1046,
       "type": "Feature",
       "geometry": {
@@ -30809,13 +30786,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Daisy Country Lodge",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-06-01",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/somersetwest",
         "Country": "South Africa",
         "State": "Western Cape",
         "County": "City of Cape Town",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Somerset West parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/somersetwest\">parkrun.co.za/somersetwest</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Somerset West parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;June&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/somersetwest\">parkrun.co.za/somersetwest</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -32361,13 +32343,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "White Rock",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-06-01",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/whiterock",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Ipswich",
-        "description": "<h4 style=\"margin: 0 0 8px;\">White Rock parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/whiterock\">parkrun.com.au/whiterock</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">White Rock parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;June&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/whiterock\">parkrun.com.au/whiterock</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -37927,13 +37914,18 @@
         "countrycode": 44,
         "seriesid": 1,
         "EventLocation": "Farfalle",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-06-01",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.it/farfalle",
         "Country": "Italy",
         "State": "Veneto",
         "County": "Padua",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Farfalle parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.it/farfalle\">parkrun.it/farfalle</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Farfalle parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;June&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.it/farfalle\">parkrun.it/farfalle</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -38387,13 +38379,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Harkerville Market",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-06-01",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/harkerville",
         "Country": "South Africa",
         "State": "Western Cape",
         "County": "Eden District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Harkerville parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/harkerville\">parkrun.co.za/harkerville</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Harkerville parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;June&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/harkerville\">parkrun.co.za/harkerville</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -48550,34 +48547,6 @@
       }
     },
     {
-      "id": 2385,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.616605,
-          -32.155414
-        ]
-      },
-      "properties": {
-        "eventname": "cradock",
-        "EventLongName": "Cradock parkrun",
-        "EventShortName": "Cradock",
-        "LocalisedEventLongName": null,
-        "countrycode": 85,
-        "seriesid": 1,
-        "EventLocation": "Voortrekker Hall",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.co.za/cradock",
-        "Country": "South Africa",
-        "State": "Eastern Cape",
-        "County": "Chris Hani District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cradock parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/cradock\">parkrun.co.za/cradock</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
       "id": 2386,
       "type": "Feature",
       "geometry": {
@@ -54330,13 +54299,18 @@
         "countrycode": 42,
         "seriesid": 2,
         "EventLocation": "Cherry Orchard Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-06-02",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.ie/cherryorchard-juniors",
         "Country": "Ireland",
         "State": "Leinster",
         "County": "Dublin",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cherry Orchard junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/cherryorchard-juniors\">parkrun.ie/cherryorchard-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cherry Orchard junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  2&nbsp;June&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/cherryorchard-juniors\">parkrun.ie/cherryorchard-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -70158,13 +70132,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Fig Tree",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-06-01",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/figtree",
         "Country": "South Africa",
         "State": "KwaZulu-Natal",
         "County": "eThekwini Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Fig Tree parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/figtree\">parkrun.co.za/figtree</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Fig Tree parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;June&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/figtree\">parkrun.co.za/figtree</a></td></tr></table>",
         "Special Days": {}
       }
     },
