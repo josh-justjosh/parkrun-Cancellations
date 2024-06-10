@@ -40326,34 +40326,6 @@
       }
     },
     {
-      "id": 1991,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.666806,
-          53.592777
-        ]
-      },
-      "properties": {
-        "eventname": "shelley-juniors",
-        "EventLongName": "Shelley junior parkrun",
-        "EventShortName": "Shelley juniors",
-        "LocalisedEventLongName": "Shelley junior parkrun",
-        "countrycode": 97,
-        "seriesid": 2,
-        "EventLocation": "Shelley College",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/shelley-juniors",
-        "Country": "United Kingdom",
-        "State": "England",
-        "County": "Kirklees",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Shelley junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/shelley-juniors\">parkrun.org.uk/shelley-juniors</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
       "id": 1992,
       "type": "Feature",
       "geometry": {
@@ -72279,13 +72251,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Prospect juniors",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-06-16",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/prospect-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Reading",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Prospect junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/prospect-juniors\">parkrun.org.uk/prospect-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Prospect junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 16&nbsp;June&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/prospect-juniors\">parkrun.org.uk/prospect-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
