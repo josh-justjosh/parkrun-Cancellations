@@ -25446,34 +25446,6 @@
       }
     },
     {
-      "id": 1285,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.019956,
-          -33.681943
-        ]
-      },
-      "properties": {
-        "eventname": "wellington",
-        "EventLongName": "Wellington parkrun",
-        "EventShortName": "Wellington",
-        "LocalisedEventLongName": null,
-        "countrycode": 85,
-        "seriesid": 1,
-        "EventLocation": "Wellington",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.co.za/wellington",
-        "Country": "South Africa",
-        "State": "Western Cape",
-        "County": "Cape Winelands District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Wellington parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/wellington\">parkrun.co.za/wellington</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
       "id": 1286,
       "type": "Feature",
       "geometry": {
@@ -61796,39 +61768,6 @@
       }
     },
     {
-      "id": 3026,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.670875,
-          -37.929679
-        ]
-      },
-      "properties": {
-        "eventname": "werribeeparkmansion",
-        "EventLongName": "Werribee Park Mansion parkrun",
-        "EventShortName": "Werribee Park Mansion",
-        "LocalisedEventLongName": null,
-        "countrycode": 3,
-        "seriesid": 1,
-        "EventLocation": "Werribee Park Mansion",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2024-06-22",
-            "ReasonCancelled": "Course closed due to flooding"
-          }
-        ],
-        "Website": "https://www.parkrun.com.au/werribeeparkmansion",
-        "Country": "Australia",
-        "State": "Victoria",
-        "County": "Wyndham",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Werribee Park Mansion parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;June&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course closed due to flooding</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/werribeeparkmansion\">parkrun.com.au/werribeeparkmansion</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
       "id": 3027,
       "type": "Feature",
       "geometry": {
@@ -73158,6 +73097,34 @@
         "State": "England",
         "County": "Oxfordshire",
         "description": "<h4 style=\"margin: 0 0 8px;\">Southern Town junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/southerntown-juniors\">parkrun.org.uk/southerntown-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3505,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.609747,
+          59.42457
+        ]
+      },
+      "properties": {
+        "eventname": "albygard",
+        "EventLongName": "Alby G\u00e5rd parkrun",
+        "EventShortName": "Alby G\u00e5rd",
+        "LocalisedEventLongName": null,
+        "countrycode": 67,
+        "seriesid": 1,
+        "EventLocation": "Alby G\u00e5rd",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.no/albygard",
+        "Country": "Norway",
+        "State": "\u00d8stfold",
+        "County": "Moss",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Alby G\u00e5rd parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.no/albygard\">parkrun.no/albygard</a></td></tr></table>",
         "Special Days": {}
       }
     }
