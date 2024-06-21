@@ -9253,13 +9253,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Ebotse Golf and Country Estate",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-06-22",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/ebotse",
         "Country": "South Africa",
         "State": "Gauteng",
         "County": "Ekurhuleni Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ebotse parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ebotse\">parkrun.co.za/ebotse</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ebotse parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;June&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ebotse\">parkrun.co.za/ebotse</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -22044,13 +22049,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Pretoria Botanical Garden",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-06-22",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/botanicalgarden",
         "Country": "South Africa",
         "State": "Gauteng",
         "County": "City of Tshwane Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Botanical Garden parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/botanicalgarden\">parkrun.co.za/botanicalgarden</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Botanical Garden parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;June&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/botanicalgarden\">parkrun.co.za/botanicalgarden</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -39193,13 +39203,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Robertson",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-06-22",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/robertson",
         "Country": "South Africa",
         "State": "Western Cape",
         "County": "Cape Winelands District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Robertson parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/robertson\">parkrun.co.za/robertson</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Robertson parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;June&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/robertson\">parkrun.co.za/robertson</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -73165,6 +73180,62 @@
         "State": "\u00d8stfold",
         "County": "Moss",
         "description": "<h4 style=\"margin: 0 0 8px;\">Alby G\u00e5rd parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.no/albygard\">parkrun.no/albygard</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3506,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.508851,
+          52.121891
+        ]
+      },
+      "properties": {
+        "eventname": "greatdenham-juniors",
+        "EventLongName": "Great Denham junior parkrun",
+        "EventShortName": "Great Denham juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Great Denham juniors",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/greatdenham-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Bedford",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Great Denham junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/greatdenham-juniors\">parkrun.org.uk/greatdenham-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3509,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.773264,
+          53.757146
+        ]
+      },
+      "properties": {
+        "eventname": "haroldpark-juniors",
+        "EventLongName": "Harold Park junior parkrun",
+        "EventShortName": "Harold Park juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Harold Park juniors",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/haroldpark-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Bradford",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Harold Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/haroldpark-juniors\">parkrun.org.uk/haroldpark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     }
