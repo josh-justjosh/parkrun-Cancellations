@@ -27653,13 +27653,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Promenade Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-06-30",
+            "ReasonCancelled": "Other event in park- military vehicles on course"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/maldonprom-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Essex",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Maldon Prom junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/maldonprom-juniors\">parkrun.org.uk/maldonprom-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Maldon Prom junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 30&nbsp;June&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Other event in park- military vehicles on course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/maldonprom-juniors\">parkrun.org.uk/maldonprom-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -73231,6 +73236,34 @@
         "State": "England",
         "County": "Bradford",
         "description": "<h4 style=\"margin: 0 0 8px;\">Harold Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/haroldpark-juniors\">parkrun.org.uk/haroldpark-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3510,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.881048,
+          35.759764
+        ]
+      },
+      "properties": {
+        "eventname": "shibamatakoenkadan",
+        "EventLongName": "Shibamata koen kadan parkrun",
+        "EventShortName": "Shibamata koen kadan",
+        "LocalisedEventLongName": "\u67f4\u53c8\u516c\u5712\u82b1\u58c7parkrun",
+        "countrycode": 46,
+        "seriesid": 1,
+        "EventLocation": "Shibamata koen kadan",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.jp/shibamatakoenkadan",
+        "Country": "Japan",
+        "State": "Tokyo",
+        "County": "Katsushika",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Shibamata koen kadan parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/shibamatakoenkadan\">parkrun.jp/shibamatakoenkadan</a></td></tr></table>",
         "Special Days": {}
       }
     }
