@@ -11863,13 +11863,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Telford Town Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-06-29",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/telford",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Telford and Wrekin",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Telford parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/telford\">parkrun.org.uk/telford</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Telford parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;June&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/telford\">parkrun.org.uk/telford</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
@@ -55323,13 +55328,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Casula Parklands",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-06-29",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/casulaparklands",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Liverpool",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Casula Parklands parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/casulaparklands\">parkrun.com.au/casulaparklands</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Casula Parklands parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;June&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/casulaparklands\">parkrun.com.au/casulaparklands</a></td></tr></table>",
         "Special Days": {}
       }
     },
