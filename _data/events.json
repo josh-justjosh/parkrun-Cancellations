@@ -9464,13 +9464,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Tyne Riverside Country Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-06-30",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/prudhoeriverside-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Northumberland",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Prudhoe Riverside junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/prudhoeriverside-juniors\">parkrun.org.uk/prudhoeriverside-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Prudhoe Riverside junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 30&nbsp;June&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/prudhoeriverside-juniors\">parkrun.org.uk/prudhoeriverside-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -68141,13 +68146,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Birchwood Trails",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-06-29",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.ca/birchwoodtrails",
         "Country": "Canada",
         "State": "Alberta",
         "County": "Wood Buffalo",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Birchwood Trails parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/birchwoodtrails\">parkrun.ca/birchwoodtrails</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Birchwood Trails parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 29&nbsp;June&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/birchwoodtrails\">parkrun.ca/birchwoodtrails</a></td></tr></table>",
         "Special Days": {}
       }
     },
