@@ -46057,13 +46057,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Groe Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-07-06",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/groe",
         "Country": "United Kingdom",
         "State": "Wales",
         "County": "Powys",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Groe parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/groe\">parkrun.org.uk/groe</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Groe parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;July&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/groe\">parkrun.org.uk/groe</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -73378,6 +73383,34 @@
         "State": "Tokyo",
         "County": "Katsushika",
         "description": "<h4 style=\"margin: 0 0 8px;\">Shibamata koen kadan parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/shibamatakoenkadan\">parkrun.jp/shibamatakoenkadan</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3513,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.19456,
+          43.155544
+        ]
+      },
+      "properties": {
+        "eventname": "wellandcanalstrail",
+        "EventLongName": "Welland Canals Trail parkrun",
+        "EventShortName": "Welland Canals Trail",
+        "LocalisedEventLongName": null,
+        "countrycode": 14,
+        "seriesid": 1,
+        "EventLocation": "Welland Canals Trail",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.ca/wellandcanalstrail",
+        "Country": "Canada",
+        "State": "Ontario",
+        "County": "Regional Municipality of Niagara",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Welland Canals Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/wellandcanalstrail\">parkrun.ca/wellandcanalstrail</a></td></tr></table>",
         "Special Days": {}
       }
     }
