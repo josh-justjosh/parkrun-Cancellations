@@ -7758,13 +7758,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Rye Meadow, Abingdon",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-07-06",
+            "ReasonCancelled": "Funfair on Rye Meadow"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/abingdon",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Oxfordshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Abingdon parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/abingdon\">parkrun.org.uk/abingdon</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Abingdon parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;July&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Funfair on Rye Meadow</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/abingdon\">parkrun.org.uk/abingdon</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -37270,13 +37275,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Upton Country Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-07-06",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/sixfieldsupton",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Northamptonshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Sixfields Upton parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/sixfieldsupton\">parkrun.org.uk/sixfieldsupton</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Sixfields Upton parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;July&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/sixfieldsupton\">parkrun.org.uk/sixfieldsupton</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -62127,6 +62137,35 @@
       }
     },
     {
+      "id": 3036,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.957775,
+          44.821408
+        ]
+      },
+      "properties": {
+        "eventname": "hamletpark",
+        "EventLongName": "Hamlet Park parkrun",
+        "EventShortName": "Hamlet Park",
+        "LocalisedEventLongName": null,
+        "countrycode": 98,
+        "seriesid": 1,
+        "EventLocation": "Hamlet Park",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.us/hamletpark",
+        "Country": "USA",
+        "State": "Minnesota",
+        "County": "Washington",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hamlet Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/hamletpark\">parkrun.us/hamletpark</a></td></tr></table>",
+        "Special Days": {},
+        "NYD": "parkrunning"
+      }
+    },
+    {
       "id": 3040,
       "type": "Feature",
       "geometry": {
@@ -68380,34 +68419,6 @@
       }
     },
     {
-      "id": 3325,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.914603,
-          44.841776
-        ]
-      },
-      "properties": {
-        "eventname": "kingstonparkcottagegrove",
-        "EventLongName": "Kingston Park parkrun, Cottage Grove",
-        "EventShortName": "Kingston Park, Cottage Grove",
-        "LocalisedEventLongName": null,
-        "countrycode": 98,
-        "seriesid": 1,
-        "EventLocation": "Kingston Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.us/kingstonparkcottagegrove",
-        "Country": "USA",
-        "State": "Minnesota",
-        "County": "Washington",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Kingston Park parkrun, Cottage Grove</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/kingstonparkcottagegrove\">parkrun.us/kingstonparkcottagegrove</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
       "id": 3326,
       "type": "Feature",
       "geometry": {
@@ -73307,6 +73318,34 @@
       }
     },
     {
+      "id": 3503,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.011973,
+          50.880478
+        ]
+      },
+      "properties": {
+        "eventname": "mallingrec",
+        "EventLongName": "Malling Rec parkrun",
+        "EventShortName": "Malling Rec",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Malling Rec",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/mallingrec",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "East Sussex",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Malling Rec parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/mallingrec\">parkrun.org.uk/mallingrec</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 3504,
       "type": "Feature",
       "geometry": {
@@ -73499,6 +73538,118 @@
         "State": "England",
         "County": "Kent",
         "description": "<h4 style=\"margin: 0 0 8px;\">Radnor Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/radnorpark-juniors\">parkrun.org.uk/radnorpark-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3517,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.378495,
+          57.279397
+        ]
+      },
+      "properties": {
+        "eventname": "kellandspark-juniors",
+        "EventLongName": "Kellands Park junior parkrun",
+        "EventShortName": "Kellands Park juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Kellands Park juniors",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/kellandspark-juniors",
+        "Country": "United Kingdom",
+        "State": "Scotland",
+        "County": "Aberdeenshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Kellands Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/kellandspark-juniors\">parkrun.org.uk/kellandspark-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3518,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.963881,
+          51.961777
+        ]
+      },
+      "properties": {
+        "eventname": "winchcombe-juniors",
+        "EventLongName": "Winchcombe junior parkrun",
+        "EventShortName": "Winchcombe juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Winchcombe juniors",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/winchcombe-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Gloucestershire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Winchcombe junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/winchcombe-juniors\">parkrun.org.uk/winchcombe-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3520,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.986136,
+          53.656229
+        ]
+      },
+      "properties": {
+        "eventname": "heskethpark-juniors",
+        "EventLongName": "Hesketh Park junior parkrun",
+        "EventShortName": "Hesketh Park juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Hesketh Park juniors",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/heskethpark-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Sefton",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hesketh Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/heskethpark-juniors\">parkrun.org.uk/heskethpark-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3521,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.044621,
+          51.476699
+        ]
+      },
+      "properties": {
+        "eventname": "hornfairpark-juniors",
+        "EventLongName": "Hornfair Park junior parkrun",
+        "EventShortName": "Hornfair Park juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Hornfair Park juniors",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/hornfairpark-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Greater London",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hornfair Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hornfairpark-juniors\">parkrun.org.uk/hornfairpark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     }

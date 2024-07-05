@@ -43294,6 +43294,26 @@
         }
       },
       {
+        "id": 3036,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -92.957775,
+            44.821408
+          ]
+        },
+        "properties": {
+          "eventname": "hamletpark",
+          "EventLongName": "Hamlet Park parkrun",
+          "EventShortName": "Hamlet Park",
+          "LocalisedEventLongName": null,
+          "countrycode": 98,
+          "seriesid": 1,
+          "EventLocation": "Hamlet Park"
+        }
+      },
+      {
         "id": 3040,
         "type": "Feature",
         "geometry": {
@@ -47714,26 +47734,6 @@
         }
       },
       {
-        "id": 3325,
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -92.914603,
-            44.841776
-          ]
-        },
-        "properties": {
-          "eventname": "kingstonparkcottagegrove",
-          "EventLongName": "Kingston Park parkrun, Cottage Grove",
-          "EventShortName": "Kingston Park, Cottage Grove",
-          "LocalisedEventLongName": null,
-          "countrycode": 98,
-          "seriesid": 1,
-          "EventLocation": "Kingston Park"
-        }
-      },
-      {
         "id": 3326,
         "type": "Feature",
         "geometry": {
@@ -51194,6 +51194,26 @@
         }
       },
       {
+        "id": 3503,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.011973,
+            50.880478
+          ]
+        },
+        "properties": {
+          "eventname": "mallingrec",
+          "EventLongName": "Malling Rec parkrun",
+          "EventShortName": "Malling Rec",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 1,
+          "EventLocation": "Malling Rec"
+        }
+      },
+      {
         "id": 3504,
         "type": "Feature",
         "geometry": {
@@ -51331,6 +51351,86 @@
           "countrycode": 97,
           "seriesid": 2,
           "EventLocation": "Radnor Park juniors"
+        }
+      },
+      {
+        "id": 3517,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -2.378495,
+            57.279397
+          ]
+        },
+        "properties": {
+          "eventname": "kellandspark-juniors",
+          "EventLongName": "Kellands Park junior parkrun",
+          "EventShortName": "Kellands Park juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Kellands Park juniors"
+        }
+      },
+      {
+        "id": 3518,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.963881,
+            51.961777
+          ]
+        },
+        "properties": {
+          "eventname": "winchcombe-juniors",
+          "EventLongName": "Winchcombe junior parkrun",
+          "EventShortName": "Winchcombe juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Winchcombe juniors"
+        }
+      },
+      {
+        "id": 3520,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -2.986136,
+            53.656229
+          ]
+        },
+        "properties": {
+          "eventname": "heskethpark-juniors",
+          "EventLongName": "Hesketh Park junior parkrun",
+          "EventShortName": "Hesketh Park juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Hesketh Park juniors"
+        }
+      },
+      {
+        "id": 3521,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.044621,
+            51.476699
+          ]
+        },
+        "properties": {
+          "eventname": "hornfairpark-juniors",
+          "EventLongName": "Hornfair Park junior parkrun",
+          "EventShortName": "Hornfair Park juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Hornfair Park juniors"
         }
       }
     ]
