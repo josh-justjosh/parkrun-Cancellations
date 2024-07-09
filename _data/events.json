@@ -33798,13 +33798,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Protrack training grounds",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-07-13",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/hoedspruit",
         "Country": "South Africa",
         "State": "Limpopo",
         "County": "Mopani District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hoedspruit parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/hoedspruit\">parkrun.co.za/hoedspruit</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hoedspruit parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 13&nbsp;July&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/hoedspruit\">parkrun.co.za/hoedspruit</a></td></tr></table>",
         "Special Days": {}
       }
     },
