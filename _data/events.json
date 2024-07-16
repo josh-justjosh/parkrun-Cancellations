@@ -51171,13 +51171,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Groeneweide",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-07-20",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/groeneweide",
         "Country": "South Africa",
         "State": "Western Cape",
         "County": "Overberg District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Groeneweide parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/groeneweide\">parkrun.co.za/groeneweide</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Groeneweide parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 20&nbsp;July&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/groeneweide\">parkrun.co.za/groeneweide</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -70912,13 +70917,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Mote Park juniors",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-07-21",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/motepark-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Kent",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Mote Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/motepark-juniors\">parkrun.org.uk/motepark-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Mote Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 21&nbsp;July&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/motepark-juniors\">parkrun.org.uk/motepark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
