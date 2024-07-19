@@ -24586,13 +24586,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Meerendal Wine Estate",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-07-20",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/durbanville",
         "Country": "South Africa",
         "State": "Western Cape",
         "County": "City of Cape Town",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Durbanville parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/durbanville\">parkrun.co.za/durbanville</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Durbanville parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 20&nbsp;July&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/durbanville\">parkrun.co.za/durbanville</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -73349,6 +73354,62 @@
       }
     },
     {
+      "id": 3511,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.81857,
+          52.446215
+        ]
+      },
+      "properties": {
+        "eventname": "theplens",
+        "EventLongName": "The Plens parkrun",
+        "EventShortName": "The Plens",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "The Plens",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/theplens",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Northamptonshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">The Plens parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/theplens\">parkrun.org.uk/theplens</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3512,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.53918,
+          51.531366
+        ]
+      },
+      "properties": {
+        "eventname": "threebrooks",
+        "EventLongName": "Three Brooks parkrun",
+        "EventShortName": "Three Brooks",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Three Brooks",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/threebrooks",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "South Gloucestershire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Three Brooks parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/threebrooks\">parkrun.org.uk/threebrooks</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 3513,
       "type": "Feature",
       "geometry": {
@@ -73513,6 +73574,34 @@
         "State": "England",
         "County": "Greater London",
         "description": "<h4 style=\"margin: 0 0 8px;\">Hornfair Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hornfairpark-juniors\">parkrun.org.uk/hornfairpark-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3522,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.96988,
+          52.684276
+        ]
+      },
+      "properties": {
+        "eventname": "dereham",
+        "EventLongName": "Dereham parkrun",
+        "EventShortName": "Dereham",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Dereham",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/dereham",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Norfolk",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Dereham parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/dereham\">parkrun.org.uk/dereham</a></td></tr></table>",
         "Special Days": {}
       }
     },
