@@ -64161,13 +64161,18 @@
         "countrycode": 30,
         "seriesid": 1,
         "EventLocation": "Lahden satama",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-07-27",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.fi/lahdensatama",
         "Country": "Finland",
         "State": "Paijat-Hame",
         "County": "Lahti",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Lahden satama parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fi/lahdensatama\">parkrun.fi/lahdensatama</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Lahden satama parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 27&nbsp;July&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fi/lahdensatama\">parkrun.fi/lahdensatama</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
