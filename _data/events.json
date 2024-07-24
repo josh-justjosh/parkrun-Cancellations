@@ -51236,13 +51236,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Groeneweide",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-07-27",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/groeneweide",
         "Country": "South Africa",
         "State": "Western Cape",
         "County": "Overberg District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Groeneweide parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/groeneweide\">parkrun.co.za/groeneweide</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Groeneweide parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 27&nbsp;July&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/groeneweide\">parkrun.co.za/groeneweide</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -56499,13 +56504,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Sharpham Road Playing Fields",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-07-27",
+            "ReasonCancelled": "Setup work for skate park / BMX event"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/sharphamroadplayingfields",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Somerset",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Sharpham Road Playing Fields parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/sharphamroadplayingfields\">parkrun.org.uk/sharphamroadplayingfields</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Sharpham Road Playing Fields parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 27&nbsp;July&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Setup work for skate park / BMX event</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/sharphamroadplayingfields\">parkrun.org.uk/sharphamroadplayingfields</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -73679,6 +73689,34 @@
         "State": "Leinster",
         "County": "Dublin City",
         "description": "<h4 style=\"margin: 0 0 8px;\">Iveagh Sports Ground junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/iveaghsportsground-juniors\">parkrun.ie/iveaghsportsground-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3530,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.068693,
+          60.803464
+        ]
+      },
+      "properties": {
+        "eventname": "ankerskogen",
+        "EventLongName": "Ankerskogen parkrun",
+        "EventShortName": "Ankerskogen",
+        "LocalisedEventLongName": null,
+        "countrycode": 67,
+        "seriesid": 1,
+        "EventLocation": "Ankerskogen",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.no/ankerskogen",
+        "Country": "Norway",
+        "State": "Innlandet",
+        "County": "Hamar",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ankerskogen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.no/ankerskogen\">parkrun.no/ankerskogen</a></td></tr></table>",
         "Special Days": {}
       }
     }
