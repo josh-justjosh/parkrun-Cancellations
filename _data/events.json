@@ -71363,13 +71363,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Benguela Cove",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-07-27",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/benguelacove",
         "Country": "South Africa",
         "State": "Western Cape",
         "County": "Overberg District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Benguela Cove parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/benguelacove\">parkrun.co.za/benguelacove</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Benguela Cove parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 27&nbsp;July&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/benguelacove\">parkrun.co.za/benguelacove</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -73452,6 +73457,62 @@
         "State": "England",
         "County": "Kent",
         "description": "<h4 style=\"margin: 0 0 8px;\">Radnor Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/radnorpark-juniors\">parkrun.org.uk/radnorpark-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3515,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.165504,
+          -21.035236
+        ]
+      },
+      "properties": {
+        "eventname": "seaview",
+        "EventLongName": "Seaview parkrun",
+        "EventShortName": "Seaview",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "Seaview",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.au/seaview",
+        "Country": "Australia",
+        "State": "Queensland",
+        "County": "Mackay",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Seaview parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/seaview\">parkrun.com.au/seaview</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3516,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.191857,
+          -33.865396
+        ]
+      },
+      "properties": {
+        "eventname": "pirrama",
+        "EventLongName": "Pirrama parkrun",
+        "EventShortName": "Pirrama",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "Pirrama",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.au/pirrama",
+        "Country": "Australia",
+        "State": "New South Wales",
+        "County": "Sydney",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Pirrama parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/pirrama\">parkrun.com.au/pirrama</a></td></tr></table>",
         "Special Days": {}
       }
     },
