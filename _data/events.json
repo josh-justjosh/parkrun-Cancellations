@@ -51613,13 +51613,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Tremorfa Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-08-03",
+            "ReasonCancelled": "Horses on course - unsafe to proceed"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/tremorfa",
         "Country": "United Kingdom",
         "State": "Wales",
         "County": "Cardiff",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Tremorfa parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/tremorfa\">parkrun.org.uk/tremorfa</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Tremorfa parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  3&nbsp;August&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Horses on course - unsafe to proceed</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/tremorfa\">parkrun.org.uk/tremorfa</a></td></tr></table>",
         "Special Days": {}
       }
     },
