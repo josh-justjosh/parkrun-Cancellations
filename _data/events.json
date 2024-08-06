@@ -20429,13 +20429,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Victoria Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-08-11",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/torridge-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Devon",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Torridge junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/torridge-juniors\">parkrun.org.uk/torridge-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Torridge junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 11&nbsp;August&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/torridge-juniors\">parkrun.org.uk/torridge-juniors</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
@@ -33541,13 +33546,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Global Leadership Academy",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-08-10",
+            "ReasonCancelled": "Local health restrictions"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/jeffreysbay",
         "Country": "South Africa",
         "State": "Eastern Cape",
         "County": "Sarah Baartman District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Jeffreys Bay parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/jeffreysbay\">parkrun.co.za/jeffreysbay</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Jeffreys Bay parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 10&nbsp;August&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Local health restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/jeffreysbay\">parkrun.co.za/jeffreysbay</a></td></tr></table>",
         "Special Days": {}
       }
     },
