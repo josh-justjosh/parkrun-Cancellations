@@ -26591,40 +26591,6 @@
       }
     },
     {
-      "id": 1338,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -6.528707,
-          53.348946
-        ]
-      },
-      "properties": {
-        "eventname": "castletown",
-        "EventLongName": "Castletown parkrun",
-        "EventShortName": "Castletown",
-        "LocalisedEventLongName": null,
-        "countrycode": 42,
-        "seriesid": 1,
-        "EventLocation": "Castletown House",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2024-08-17",
-            "ReasonCancelled": "Venue unavailable"
-          }
-        ],
-        "Website": "https://www.parkrun.ie/castletown",
-        "Country": "Ireland",
-        "State": "Leinster",
-        "County": "Kildare",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Castletown parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 17&nbsp;August&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/castletown\">parkrun.ie/castletown</a></td></tr></table>",
-        "Special Days": {},
-        "Christmas": "parkrunning"
-      }
-    },
-    {
       "id": 1339,
       "type": "Feature",
       "geometry": {
@@ -39059,13 +39025,18 @@
         "countrycode": 44,
         "seriesid": 1,
         "EventLocation": "Foro Umberto I\u00b0",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-08-17",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.it/foroitalico",
         "Country": "Italy",
         "State": "Sicily",
         "County": "Province of Palermo",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Foro Italico parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.it/foroitalico\">parkrun.it/foroitalico</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Foro Italico parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 17&nbsp;August&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.it/foroitalico\">parkrun.it/foroitalico</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning"
       }
@@ -59086,13 +59057,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Charlton Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-08-17",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/charlton",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Greater London",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Charlton parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/charlton\">parkrun.org.uk/charlton</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Charlton parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 17&nbsp;August&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/charlton\">parkrun.org.uk/charlton</a></td></tr></table>",
         "Special Days": {},
         "Christmas": "parkrunning",
         "NYD": "parkrunning"
