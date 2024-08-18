@@ -37439,13 +37439,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Polepatrick",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-08-18",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/magherafelt-juniors",
         "Country": "United Kingdom",
         "State": "Northern Ireland",
         "County": "Derry",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Magherafelt junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/magherafelt-juniors\">parkrun.org.uk/magherafelt-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Magherafelt junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 18&nbsp;August&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/magherafelt-juniors\">parkrun.org.uk/magherafelt-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -42008,13 +42013,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Lakeland Forum",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-08-18",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/broadmeadow-juniors",
         "Country": "United Kingdom",
         "State": "Northern Ireland",
         "County": "Fermanagh",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Broadmeadow junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/broadmeadow-juniors\">parkrun.org.uk/broadmeadow-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Broadmeadow junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 18&nbsp;August&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/broadmeadow-juniors\">parkrun.org.uk/broadmeadow-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -74172,6 +74182,34 @@
         "State": "Saxony",
         "County": "-Unknown-",
         "description": "<h4 style=\"margin: 0 0 8px;\">Stadtpark parkrun, Chemnitz</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/stadtparkchemnitz\">parkrun.com.de/stadtparkchemnitz</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3542,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.290937,
+          -26.045339
+        ]
+      },
+      "properties": {
+        "eventname": "serengetiestate",
+        "EventLongName": "Serengeti Estate parkrun",
+        "EventShortName": "Serengeti Estate",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Serengeti Estate",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.za/serengetiestate",
+        "Country": "South Africa",
+        "State": "Gauteng",
+        "County": "Ekurhuleni",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Serengeti Estate parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/serengetiestate\">parkrun.co.za/serengetiestate</a></td></tr></table>",
         "Special Days": {}
       }
     }
