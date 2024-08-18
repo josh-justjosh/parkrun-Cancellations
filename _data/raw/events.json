@@ -51872,6 +51872,46 @@
           "seriesid": 1,
           "EventLocation": "Serengeti Estate"
         }
+      },
+      {
+        "id": 3543,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            25.604333,
+            -33.966819
+          ]
+        },
+        "properties": {
+          "eventname": "stgeorges",
+          "EventLongName": "St George\u2019s parkrun",
+          "EventShortName": "St George\u2019s",
+          "LocalisedEventLongName": null,
+          "countrycode": 85,
+          "seriesid": 1,
+          "EventLocation": "St George\u2019s"
+        }
+      },
+      {
+        "id": 3544,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            19.203501,
+            50.201943
+          ]
+        },
+        "properties": {
+          "eventname": "zalewleg",
+          "EventLongName": "parkrun Zalew \u0141\u0119g",
+          "EventShortName": "Zalew \u0141\u0119g",
+          "LocalisedEventLongName": null,
+          "countrycode": 74,
+          "seriesid": 1,
+          "EventLocation": "Zalew \u0141\u0119g"
+        }
       }
     ]
   }
