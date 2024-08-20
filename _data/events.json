@@ -36392,13 +36392,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Gardiners Creek Reserve",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-08-24",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/gardinerscreek",
         "Country": "Australia",
         "State": "Victoria",
         "County": "Whitehorse",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Gardiners Creek parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/gardinerscreek\">parkrun.com.au/gardinerscreek</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Gardiners Creek parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 24&nbsp;August&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/gardinerscreek\">parkrun.com.au/gardinerscreek</a></td></tr></table>",
         "Special Days": {},
         "NYD": "parkrunning"
       }
