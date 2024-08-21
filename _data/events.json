@@ -195,13 +195,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Hove Park, Brighton",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-08-24",
+            "ReasonCancelled": "Shortage of Core Team to cover the important Roles"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/brighton",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Brighton and Hove",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Brighton & Hove parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/brighton\">parkrun.org.uk/brighton</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Brighton & Hove parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 24&nbsp;August&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Shortage of Core Team to cover the important Roles</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/brighton\">parkrun.org.uk/brighton</a></td></tr></table>",
         "Special Days": {}
       }
     },
