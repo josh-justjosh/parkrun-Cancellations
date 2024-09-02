@@ -90,6 +90,15 @@
         39.692853
       ]
     },
+    "54": {
+      "url": "www.parkrun.lt",
+      "bounds": [
+        25.245432,
+        54.682498,
+        25.245432,
+        54.682498
+      ]
+    },
     "57": {
       "url": "www.parkrun.my",
       "bounds": [
@@ -51714,6 +51723,26 @@
         }
       },
       {
+        "id": 3534,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.554954,
+            56.090978
+          ]
+        },
+        "properties": {
+          "eventname": "crinancanal",
+          "EventLongName": "Crinan Canal parkrun",
+          "EventShortName": "Crinan Canal",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 1,
+          "EventLocation": "Crinan Canal"
+        }
+      },
+      {
         "id": 3535,
         "type": "Feature",
         "geometry": {
@@ -51931,6 +51960,26 @@
           "countrycode": 98,
           "seriesid": 1,
           "EventLocation": "Salmon Creek Trail"
+        }
+      },
+      {
+        "id": 3549,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            25.245432,
+            54.682498
+          ]
+        },
+        "properties": {
+          "eventname": "vingis",
+          "EventLongName": "parkrun Vingis",
+          "EventShortName": "Vingis",
+          "LocalisedEventLongName": null,
+          "countrycode": 54,
+          "seriesid": 1,
+          "EventLocation": "Vingis"
         }
       }
     ]
