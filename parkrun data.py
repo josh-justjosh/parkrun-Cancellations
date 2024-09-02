@@ -427,6 +427,9 @@ for parkrun in events['features']:
     elif parkrun['properties']['countrycode'] == 46 :
         parkrun['properties']['Website'] = 'https://www.parkrun.jp/'+parkrun['properties']['eventname']
         parkrun['properties']['Country'] = 'Japan'
+    elif parkrun['properties']['countrycode'] == 54 :
+        parkrun['properties']['Website'] = 'https://www.parkrun.lt/'+parkrun['properties']['eventname']
+        parkrun['properties']['Country'] = 'Lithuania'
     elif parkrun['properties']['countrycode'] == 57 :
         parkrun['properties']['Website'] = 'https://www.parkrun.my/'+parkrun['properties']['eventname']
         parkrun['properties']['Country'] = 'Malaysia'
@@ -483,7 +486,7 @@ for parkrun in events['features']:
             new = False
 
     if new == True:
-        #print(now(),parkrun['properties']['EventShortName'],'not saved state')
+        print(now(),parkrun['properties']['EventShortName'],'not saved state')
         GEONAME_USERNAME = '_josh_justjosh'
         url = "http://api.geonames.org/countrySubdivision?lat="+str(parkrun['geometry']['coordinates'][1])+"&lng="+str(parkrun['geometry']['coordinates'][0])+"&radius=1.5&maxRows=1&level=2&username="+GEONAME_USERNAME
         root = ET.fromstring(requests.get(url).text.strip())
@@ -664,6 +667,13 @@ countries = {
         'Total':0
         },
     'Japan': {
+        'parkrunning': 0,
+        'junior parkrunning':0,
+        '5k Cancellations':0,
+        'junior Cancellations':0,
+        'Total':0
+        },
+    'Lithuania': {
         'parkrunning': 0,
         'junior parkrunning':0,
         '5k Cancellations':0,
@@ -1745,6 +1755,7 @@ writehistory('germany.json',countries['Germany'])
 writehistory('ireland.json',countries['Ireland'])
 writehistory('italy.json',countries['Italy'])
 writehistory('japan.json',countries['Japan'])
+writehistory('lithuania.json',countries['Lithuania'])
 writehistory('malaysia.json',countries['Malaysia'])
 writehistory('namibia.json',countries['Namibia'])
 writehistory('netherlands.json',countries['Netherlands'])
