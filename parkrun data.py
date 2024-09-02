@@ -82,7 +82,16 @@ for i in tei_table:
     if 'AcceptingRegistrations' in out:
         upcoming_events.append(out[0])
         upcoming_events_table.append(out)
-#print(now(),upcoming_events)
+
+#upcoming_events.append('Central parkrun, Plymouth')     #01/01/99   https://www.parkrun.org.uk/centralplymouth/
+#upcoming_events.append('Church Mead parkrun')           #01/01/99   https://www.parkrun.org.uk/churchmead/
+#upcoming_events.append('Edgbaston Reservoir parkrun')   #01/01/99   https://www.parkrun.org.uk/edgbastonreservoir/
+#upcoming_events.append('Henlow Bridge Lakes parkrun')   #01/01/99   https://www.parkrun.org.uk/henlowbridgelakes/
+#upcoming_events.append('Penryn Campus parkrun')         #01/01/99   https://www.parkrun.org.uk/penryncampus/
+#upcoming_events.append('Roberts Park parkrun')          #01/01/99   https://www.parkrun.org.uk/robertspark/
+upcoming_events.append('parkrun Vingis')          #2024-09-21   https://www.parkrun.lt/vingis/
+
+print(now(),'Upcoming Events:',upcoming_events)
 
     
 soup = BeautifulSoup(cancellations, 'html.parser')
@@ -99,6 +108,7 @@ except IndexError as e:
 
 cancellations_data = []
 cancellations_list = []
+cancellation_reasons = []
 
 for i in range(len(cancellation_table)):
     try:
@@ -111,6 +121,18 @@ for i in range(len(cancellation_table)):
         #print(now(),cancellation_table[i])
         cancellations_data.append([cancellation_table[i][0],cancellation_table[i][1],cancellation_table[i][3],cancellation_table[i][4]])
         cancellations_list.append(cancellation_table[i][1])
+        cancellation_reasons.append(cancellation_table[i][4])
+
+
+cancellation_reasons_count = collections.Counter(cancellation_reasons)
+cancellation_reasons_json = {}
+
+for i,j in cancellation_reasons_count.items():
+    cancellation_reasons_json[i] = j
+
+with open('_data/reasons.json','w', encoding='utf-8') as f:
+    f.write(json.dumps(cancellation_reasons_json, indent=2))
+print(now(),'reasons.json saved')
 
 def sortByIndex0(e):
     return e[0]
@@ -119,6 +141,7 @@ def sortByIndex1(e):
 
 cancellation_table.sort(key=sortByIndex0)
 cancellation_table.sort(key=sortByIndex1)
+
 
 with open('_data/all-cancellations.tsv','wt', encoding='utf-8', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
@@ -132,245 +155,397 @@ new_states_list = []
 
 x = 0
 
-#upcoming_events.append('Central parkrun, Plymouth')     #01/01/99   https://www.parkrun.org.uk/centralplymouth/
-#upcoming_events.append('Church Mead parkrun')           #01/01/99   https://www.parkrun.org.uk/churchmead/
-#upcoming_events.append('Edgbaston Reservoir parkrun')   #01/01/99   https://www.parkrun.org.uk/edgbastonreservoir/
-#upcoming_events.append('Henlow Bridge Lakes parkrun')   #01/01/99   https://www.parkrun.org.uk/henlowbridgelakes/
-#upcoming_events.append('Penryn Campus parkrun')         #01/01/99   https://www.parkrun.org.uk/penryncampus/
-#upcoming_events.append('Roberts Park parkrun')          #01/01/99   https://www.parkrun.org.uk/robertspark/
-
-#se_au = requests.get('https://www.parkrun.com.au/special-events', headers=headers, timeout=10).text
-#se_ca = requests.get('https://www.parkrun.ca/special-events', headers=headers, timeout=10).text
-#se_dk = requests.get('https://www.parkrun.dk/special-events', headers=headers, timeout=10).text
-#se_fi = requests.get('https://www.parkrun.fi/special-events', headers=headers, timeout=10).text
-#se_fr = requests.get('https://www.parkrun.fr/special-events', headers=headers, timeout=10).text
-#se_de = requests.get('https://www.parkrun.com.de/special-events', headers=headers, timeout=10).text
-#se_ie = requests.get('https://www.parkrun.ie/special-events', headers=headers, timeout=10).text
-#se_it = requests.get('https://www.parkrun.it/special-events', headers=headers, timeout=10).text
-#se_jp = requests.get('https://www.parkrun.jp/special-events', headers=headers, timeout=10).text
-#se_my = requests.get('https://www.parkrun.my/special-events', headers=headers, timeout=10).text
-#se_nl = requests.get('https://www.parkrun.co.nl/special-events', headers=headers, timeout=10).text
-#se_nz = requests.get('https://www.parkrun.co.nz/special-events', headers=headers, timeout=10).text
-#se_no = requests.get('https://www.parkrun.no/special-events', headers=headers, timeout=10).text
-#se_pl = requests.get('https://www.parkrun.pl/special-events', headers=headers, timeout=10).text
-#se_sg = requests.get('https://www.parkrun.sg/special-events', headers=headers, timeout=10).text
-#se_za = requests.get('https://www.parkrun.co.za/special-events', headers=headers, timeout=10).text
-#se_se = requests.get('https://www.parkrun.se/special-events', headers=headers, timeout=10).text
-#se_uk = requests.get('https://www.parkrun.org.uk/special-events', headers=headers, timeout=10).text
-#se_us = requests.get('https://www.parkrun.us/special-events', headers=headers, timeout=10).text
-
-with open('_data/special_events/au.html','r', encoding='utf-8', newline='\n') as f:
-    soup = BeautifulSoup(f, 'html.parser')
-
-    extractor = Extractor(soup)
-    extractor.parse()
-    se_au_table = extractor.return_list()
-    se_au_table.pop(0)
-
-with open('_data/special_events/ca.html','r', encoding='utf-8', newline='\n') as f:
-    soup = BeautifulSoup(f, 'html.parser')
-
-    extractor = Extractor(soup)
-    extractor.parse()
-    se_ca_table = extractor.return_list()
-    se_ca_table.pop(0)
-
-with open('_data/special_events/dk.html','r', encoding='utf-8', newline='\n') as f:
-    soup = BeautifulSoup(f, 'html.parser')
-
-    extractor = Extractor(soup)
-    extractor.parse()
-    se_dk_table = extractor.return_list()
-    se_dk_table.pop(0)
-
-with open('_data/special_events/de.html','r', encoding='utf-8', newline='\n') as f:
-    soup = BeautifulSoup(f, 'html.parser')
-
-    extractor = Extractor(soup)
-    extractor.parse()
-    se_de_table = extractor.return_list()
-    se_de_table.pop(0)
-
-with open('_data/special_events/fi.html','r', encoding='utf-8', newline='\n') as f:
-    soup = BeautifulSoup(f, 'html.parser')
-
-    extractor = Extractor(soup)
-    extractor.parse()
-    se_fi_table = extractor.return_list()
-    se_fi_table.pop(0)
-
-with open('_data/special_events/ie.html','r', encoding='utf-8', newline='\n') as f:
-    soup = BeautifulSoup(f, 'html.parser')
-
-    extractor = Extractor(soup)
-    extractor.parse()
-    se_ie_table = extractor.return_list()
-    se_ie_table.pop(0)
-
-with open('_data/special_events/it.html','r', encoding='utf-8', newline='\n') as f:
-    soup = BeautifulSoup(f, 'html.parser')
-
-    extractor = Extractor(soup)
-    extractor.parse()
-    se_it_table = extractor.return_list()
-    se_it_table.pop(0)
-
-with open('_data/special_events/jp.html','r', encoding='utf-8', newline='\n') as f:
-    soup = BeautifulSoup(f, 'html.parser')
-
-    extractor = Extractor(soup)
-    extractor.parse()
-    se_jp_table = extractor.return_list()
-    se_jp_table.pop(0)
-
-with open('_data/special_events/my.html','r', encoding='utf-8', newline='\n') as f:
-    soup = BeautifulSoup(f, 'html.parser')
-
-    extractor = Extractor(soup)
-    extractor.parse()
-    se_my_table = extractor.return_list()
-    se_my_table.pop(0)
-
-with open('_data/special_events/nl.html','r', encoding='utf-8', newline='\n') as f:
-    soup = BeautifulSoup(f, 'html.parser')
-
-    extractor = Extractor(soup)
-    extractor.parse()
-    se_nl_table = extractor.return_list()
-    se_nl_table.pop(0)
-
-with open('_data/special_events/no.html','r', encoding='utf-8', newline='\n') as f:
-    soup = BeautifulSoup(f, 'html.parser')
-
-    extractor = Extractor(soup)
-    extractor.parse()
-    se_no_table = extractor.return_list()
-    se_no_table.pop(0)
-
-with open('_data/special_events/nz.html','r', encoding='utf-8', newline='\n') as f:
-    soup = BeautifulSoup(f, 'html.parser')
-
-    extractor = Extractor(soup)
-    extractor.parse()
-    se_nz_table = extractor.return_list()
-    se_nz_table.pop(0)
-
-with open('_data/special_events/pl.html','r', encoding='utf-8', newline='\n') as f:
-    soup = BeautifulSoup(f, 'html.parser')
-
-    extractor = Extractor(soup)
-    extractor.parse()
-    se_pl_table = extractor.return_list()
-    se_pl_table.pop(0)
-
-with open('_data/special_events/se.html','r', encoding='utf-8', newline='\n') as f:
-    soup = BeautifulSoup(f, 'html.parser')
-
-    extractor = Extractor(soup)
-    extractor.parse()
-    se_se_table = extractor.return_list()
-    se_se_table.pop(0)
-
-with open('_data/special_events/sg.html','r', encoding='utf-8', newline='\n') as f:
-    soup = BeautifulSoup(f, 'html.parser')
-
-    extractor = Extractor(soup)
-    extractor.parse()
-    se_sg_table = extractor.return_list()
-    se_sg_table.pop(0)
-
-with open('_data/special_events/uk.html','r', encoding='utf-8', newline='\n') as f:
-    soup = BeautifulSoup(f, 'html.parser')
-
-    extractor = Extractor(soup)
-    extractor.parse()
-    se_uk_table = extractor.return_list()
-    se_uk_table.pop(0)
-
-with open('_data/special_events/us.html','r', encoding='utf-8', newline='\n') as f:
-    soup = BeautifulSoup(f, 'html.parser')
-
-    extractor = Extractor(soup)
-    extractor.parse()
-    se_us_table = extractor.return_list()
-    se_us_table.pop(0)
-
-with open('_data/special_events/za.html','r', encoding='utf-8', newline='\n') as f:
-    soup = BeautifulSoup(f, 'html.parser')
-
-    extractor = Extractor(soup)
-    extractor.parse()
-    se_za_table = extractor.return_list()
-    se_za_table.pop(0)
-
+##Special Events Handling
+fetch_updates = False
 special_events = []
 
-se_table1 = se_au_table + se_ie_table + se_it_table + se_nz_table + se_uk_table
-se_table1.sort()
-for row in se_table1:
-    out = {}
-    out["EventLongName"] = row[0]
-    if row[2] == '❌':
-        out["2022-12-25"] = False
-    elif row[2] == '✅':
-        out["2022-12-25"] = True
+if False:
+    #Australia
+    if fetch_updates == True:
+        se_au = requests.get('https://www.parkrun.com.au/special-events', headers=headers, timeout=10).text
+        with open('_data/special_events/au.html','wt', encoding='utf-8', newline='') as f:
+            f.write(se_au)
+            print(now(),"_data/special_events/au.html saved")
 
-    if row[3] == '❌':
-        out["2023-01-01"] = False
-    elif row[3] == '✅':
-        out["2023-01-01"] = True 
-    
-    special_events.append(out)
+    with open('_data/special_events/au.html','r', encoding='utf-8', newline='\n') as f:
+        soup = BeautifulSoup(f, 'html.parser')
 
-se_table2 = se_ca_table + se_dk_table + se_fi_table + se_de_table + se_jp_table + se_my_table + se_nl_table + se_no_table + se_sg_table + se_za_table + se_se_table
-se_table2.sort()
-for row in se_table2:
-    out = {}
-    out["EventLongName"] = row[0]
-    if row[2] == '❌':
-        out["2023-01-01"] = False
-    elif row[2] == '✅':
-        out["2023-01-01"] = True 
-    
-    special_events.append(out)
+        extractor = Extractor(soup)
+        extractor.parse()
+        se_au_table = extractor.return_list()
+        se_au_table.pop(0)
 
-se_table3 = se_pl_table
-for row in se_table3:
-    out = {}
-    out["EventLongName"] = row[0]
-    if row[2] == '❌':
-        out["2022-12-26"] = False
-    elif row[2] == '✅':
-        out["2022-12-26"] = True
+    #Canada
+    if fetch_updates == True:
+        se_ca = requests.get('https://www.parkrun.ca/special-events', headers=headers, timeout=10).text
+        with open('_data/special_events/ca.html','wt', encoding='utf-8', newline='') as f:
+            f.write(se_ca)
+            print(now(),"_data/special_events/ca.html saved")
 
-    if row[3] == '❌':
-        out["2023-01-01"] = False
-    elif row[3] == '✅':
-        out["2023-01-01"] = True
+    with open('_data/special_events/ca.html','r', encoding='utf-8', newline='\n') as f:
+        soup = BeautifulSoup(f, 'html.parser')
+
+        extractor = Extractor(soup)
+        extractor.parse()
+        se_ca_table = extractor.return_list()
+        se_ca_table.pop(0)
+
+
+    #Denmark
+    if fetch_updates == True:
+        se_dk = requests.get('https://www.parkrun.dk/special-events', headers=headers, timeout=10).text
+        with open('_data/special_events/dk.html','wt', encoding='utf-8', newline='') as f:
+            f.write(se_dk)
+            print(now(),"_data/special_events/dk.html saved")
+
+    with open('_data/special_events/dk.html','r', encoding='utf-8', newline='\n') as f:
+        soup = BeautifulSoup(f, 'html.parser')
+
+        extractor = Extractor(soup)
+        extractor.parse()
+        se_dk_table = extractor.return_list()
+        se_dk_table.pop(0)
         
-    special_events.append(out)
 
-se_table4 = se_us_table
-for row in se_table4:
-    out = {}
-    out["EventLongName"] = row[0]
-    if row[2] == '❌':
-        out["2022-11-24"] = False
-    elif row[2] == '✅':
-        out["2022-11-24"] = True
+    #Finland
+    if fetch_updates == True:
+        se_fi = requests.get('https://www.parkrun.fi/special-events', headers=headers, timeout=10).text
+        with open('_data/special_events/fi.html','wt', encoding='utf-8', newline='') as f:
+            f.write(se_fi)
+            print(now(),"_data/special_events/fi.html saved")
 
-    if row[3] == '❌':
-        out["2023-01-01"] = False
-    elif row[3] == '✅':
-        out["2023-01-01"] = True
+    with open('_data/special_events/fi.html','r', encoding='utf-8', newline='\n') as f:
+        soup = BeautifulSoup(f, 'html.parser')
+
+        extractor = Extractor(soup)
+        extractor.parse()
+        se_fi_table = extractor.return_list()
+        se_fi_table.pop(0)
         
-    special_events.append(out)
 
-se_table = se_table1 + se_table2 + se_table3 + se_table4
+    #France
+    if fetch_updates == True:
+        se_fr = requests.get('https://www.parkrun.fr/special-events', headers=headers, timeout=10).text
+        with open('_data/special_events/fr.html','wt', encoding='utf-8', newline='') as f:
+            f.write(se_fr)
+            print(now(),"_data/special_events/fr.html saved")
+    """
+    with open('_data/special_events/fr.html','r', encoding='utf-8', newline='\n') as f:
+        soup = BeautifulSoup(f, 'html.parser')
 
-with open('_data/special_events.json','wt', encoding='utf-8', newline='') as f:
-    f.write(json.dumps(special_events, indent=2))
-    print(now(),"special_events.json saved")
+        extractor = Extractor(soup)
+        extractor.parse()
+        se_fr_table = extractor.return_list()
+        se_fr_table.pop(0)"""
+
+    #Germany
+    if fetch_updates == True:
+        se_de = requests.get('https://www.parkrun.com.de/special-events', headers=headers, timeout=10).text
+        with open('_data/special_events/de.html','wt', encoding='utf-8', newline='') as f:
+            f.write(se_de)
+            print(now(),"_data/special_events/de.html saved")
+
+    with open('_data/special_events/de.html','r', encoding='utf-8', newline='\n') as f:
+        soup = BeautifulSoup(f, 'html.parser')
+
+        extractor = Extractor(soup)
+        extractor.parse()
+        se_de_table = extractor.return_list()
+        se_de_table.pop(0)
+        
+
+    #Ireland
+    if fetch_updates == True:
+        se_ie = requests.get('https://www.parkrun.ie/special-events', headers=headers, timeout=10).text
+        with open('_data/special_events/ie.html','wt', encoding='utf-8', newline='') as f:
+            f.write(se_ie)
+            print(now(),"_data/special_events/ie.html saved")
+        
+    with open('_data/special_events/ie.html','r', encoding='utf-8', newline='\n') as f:
+        soup = BeautifulSoup(f, 'html.parser')
+
+        extractor = Extractor(soup)
+        extractor.parse()
+        se_ie_table = extractor.return_list()
+        se_ie_table.pop(0)
+        
+
+    #Italy
+    if fetch_updates == True:
+        se_it = requests.get('https://www.parkrun.it/special-events', headers=headers, timeout=10).text
+        with open('_data/special_events/it.html','wt', encoding='utf-8', newline='') as f:
+            f.write(se_it)
+            print(now(),"_data/special_events/it.html saved")
+
+    with open('_data/special_events/it.html','r', encoding='utf-8', newline='\n') as f:
+        soup = BeautifulSoup(f, 'html.parser')
+
+        extractor = Extractor(soup)
+        extractor.parse()
+        se_it_table = extractor.return_list()
+        se_it_table.pop(0)
+        
+     
+    #Japan
+    if fetch_updates == True:
+        se_jp = requests.get('https://www.parkrun.jp/special-events', headers=headers, timeout=10).text
+        with open('_data/special_events/jp.html','wt', encoding='utf-8', newline='') as f:
+            f.write(se_jp)
+            print(now(),"_data/special_events/jp.html saved")
+
+    with open('_data/special_events/jp.html','r', encoding='utf-8', newline='\n') as f:
+        soup = BeautifulSoup(f, 'html.parser')
+
+        extractor = Extractor(soup)
+        extractor.parse()
+        se_jp_table = extractor.return_list()
+        se_jp_table.pop(0)
+        
+
+    #Lithuania
+    if fetch_updates == True:
+        se_lt = requests.get('https://www.parkrun.lt/special-events', headers=headers, timeout=10).text
+        with open('_data/special_events/lt.html','wt', encoding='utf-8', newline='') as f:
+            f.write(se_lt)
+            print(now(),"_data/special_events/lt.html saved")
+
+    with open('_data/special_events/lt.html','r', encoding='utf-8', newline='\n') as f:
+        soup = BeautifulSoup(f, 'html.parser')
+
+        extractor = Extractor(soup)
+        extractor.parse()
+        se_lt_table = extractor.return_list()
+        se_lt_table.pop(0)
+        
+
+    #Malaysia
+    if fetch_updates == True:
+        se_my = requests.get('https://www.parkrun.my/special-events', headers=headers, timeout=10).text
+        with open('_data/special_events/my.html','wt', encoding='utf-8', newline='') as f:
+            f.write(se_my)
+            print(now(),"_data/special_events/my.html saved")
+
+    with open('_data/special_events/my.html','r', encoding='utf-8', newline='\n') as f:
+        soup = BeautifulSoup(f, 'html.parser')
+
+        extractor = Extractor(soup)
+        extractor.parse()
+        se_my_table = extractor.return_list()
+        se_my_table.pop(0)
+        
+
+    #Netherlands
+    if fetch_updates == True:
+        se_nl = requests.get('https://www.parkrun.co.nl/special-events', headers=headers, timeout=10).text
+        with open('_data/special_events/nl.html','wt', encoding='utf-8', newline='') as f:
+            f.write(se_nl)
+            print(now(),"_data/special_events/nl.html saved")
+
+    with open('_data/special_events/nl.html','r', encoding='utf-8', newline='\n') as f:
+        soup = BeautifulSoup(f, 'html.parser')
+
+        extractor = Extractor(soup)
+        extractor.parse()
+        se_nl_table = extractor.return_list()
+        se_nl_table.pop(0)
+        
+
+    #New Zeland
+    if fetch_updates == True:
+        se_nz = requests.get('https://www.parkrun.co.nz/special-events', headers=headers, timeout=10).text
+        with open('_data/special_events/nz.html','wt', encoding='utf-8', newline='') as f:
+            f.write(se_nz)
+            print(now(),"_data/special_events/nz.html saved")
+
+    with open('_data/special_events/nz.html','r', encoding='utf-8', newline='\n') as f:
+        soup = BeautifulSoup(f, 'html.parser')
+
+        extractor = Extractor(soup)
+        extractor.parse()
+        se_nz_table = extractor.return_list()
+        se_nz_table.pop(0)
+        
+
+    #Norway
+    if fetch_updates == True:
+        se_no = requests.get('https://www.parkrun.no/special-events', headers=headers, timeout=10).text
+        with open('_data/special_events/no.html','wt', encoding='utf-8', newline='') as f:
+            f.write(se_no)
+            print(now(),"_data/special_events/no.html saved")
+
+    with open('_data/special_events/no.html','r', encoding='utf-8', newline='\n') as f:
+        soup = BeautifulSoup(f, 'html.parser')
+
+        extractor = Extractor(soup)
+        extractor.parse()
+        se_no_table = extractor.return_list()
+        se_no_table.pop(0)
+
+    #Poland
+    if fetch_updates == True:
+        se_pl = requests.get('https://www.parkrun.pl/special-events', headers=headers, timeout=10).text
+        with open('_data/special_events/pl.html','wt', encoding='utf-8', newline='') as f:
+            f.write(se_pl)
+            print(now(),"_data/special_events/pl.html saved")
+
+    with open('_data/special_events/pl.html','r', encoding='utf-8', newline='\n') as f:
+        soup = BeautifulSoup(f, 'html.parser')
+
+        extractor = Extractor(soup)
+        extractor.parse()
+        se_pl_table = extractor.return_list()
+        se_pl_table.pop(0)
+        
+
+    #Singapore
+    if fetch_updates == True:
+        se_sg = requests.get('https://www.parkrun.sg/special-events', headers=headers, timeout=10).text
+        with open('_data/special_events/sg.html','wt', encoding='utf-8', newline='') as f:
+            f.write(se_sg)
+            print(now(),"_data/special_events/sg.html saved")
+
+    with open('_data/special_events/sg.html','r', encoding='utf-8', newline='\n') as f:
+        soup = BeautifulSoup(f, 'html.parser')
+
+        extractor = Extractor(soup)
+        extractor.parse()
+        se_sg_table = extractor.return_list()
+        se_sg_table.pop(0)
+        
+
+    #South Africa
+    if fetch_updates == True:
+        se_za = requests.get('https://www.parkrun.co.za/special-events', headers=headers, timeout=10).text
+        with open('_data/special_events/za.html','wt', encoding='utf-8', newline='') as f:
+            f.write(se_za)
+            print(now(),"_data/special_events/za.html saved")
+    """
+    with open('_data/special_events/za.html','r', encoding='utf-8', newline='\n') as f:
+        soup = BeautifulSoup(f, 'html.parser')
+
+        extractor = Extractor(soup)
+        extractor.parse()
+        se_za_table = extractor.return_list()
+        se_za_table.pop(0)"""
+
+    #Sweden
+    if fetch_updates == True:
+        se_se = requests.get('https://www.parkrun.se/special-events', headers=headers, timeout=10).text
+        with open('_data/special_events/se.html','wt', encoding='utf-8', newline='') as f:
+            f.write(se_se)
+            print(now(),"_data/special_events/se.html saved")
+
+    with open('_data/special_events/se.html','r', encoding='utf-8', newline='\n') as f:
+        soup = BeautifulSoup(f, 'html.parser')
+
+        extractor = Extractor(soup)
+        extractor.parse()
+        se_se_table = extractor.return_list()
+        se_se_table.pop(0)
+        
+
+    #United Kingdom
+    if fetch_updates == True:
+        se_uk = requests.get('https://www.parkrun.org.uk/special-events', headers=headers, timeout=10).text
+        with open('_data/special_events/uk.html','wt', encoding='utf-8', newline='') as f:
+            f.write(se_uk)
+            print(now(),"_data/special_events/uk.html saved")
+
+    with open('_data/special_events/uk.html','r', encoding='utf-8', newline='\n') as f:
+        soup = BeautifulSoup(f, 'html.parser')
+
+        extractor = Extractor(soup)
+        extractor.parse()
+        se_uk_table = extractor.return_list()
+        se_uk_table.pop(0)
+
+    #United States
+    if fetch_updates == True:
+        se_us = requests.get('https://www.parkrun.us/special-events', headers=headers, timeout=10).text
+        with open('_data/special_events/us.html','wt', encoding='utf-8', newline='') as f:
+            f.write(se_us)
+            print(now(),"_data/special_events/us.html saved")
+
+    with open('_data/special_events/us.html','r', encoding='utf-8', newline='\n') as f:
+        soup = BeautifulSoup(f, 'html.parser')
+
+        extractor = Extractor(soup)
+        extractor.parse()
+        se_us_table = extractor.return_list()
+        se_us_table.pop(0)
+
+        
+
+    #Christmas Day
+    se_table1 = se_au_table + se_fr_table + se_ie_table + se_it_table + se_nz_table + se_uk_table
+    se_table1.sort()
+    for row in se_table1:
+        out = {}
+        out["EventLongName"] = row[0]
+        if row[2] == '❌':
+            out["2024-12-25"] = False
+        elif row[2] == '✅':
+            out["2024-12-25"] = True
+
+        if row[3] == '❌':
+            out["2025-01-01"] = False
+        elif row[3] == '✅':
+            out["2025-01-01"] = True 
+        
+        special_events.append(out)
+
+    #New Year's Day Only
+    se_table2 = se_ca_table + se_dk_table + se_fi_table + se_de_table + se_jp_table + se_my_table + se_nl_table + se_no_table + se_sg_table + se_za_table + se_se_table + se_lt_table
+    se_table2.sort()
+    for row in se_table2:
+        out = {}
+        out["EventLongName"] = row[0]
+        if row[2] == '❌':
+            out["2025-01-01"] = False
+        elif row[2] == '✅':
+            out["2025-01-01"] = True 
+        
+        special_events.append(out)
+
+    #Boxing Day
+    se_table3 = se_pl_table
+    for row in se_table3:
+        out = {}
+        out["EventLongName"] = row[0]
+        if row[2] == '❌':
+            out["2024-12-26"] = False
+        elif row[2] == '✅':
+            out["2024-12-26"] = True
+
+        if row[3] == '❌':
+            out["2025-01-01"] = False
+        elif row[3] == '✅':
+            out["2025-01-01"] = True
+            
+        special_events.append(out)
+
+    #Thanksgiving
+    se_table4 = se_us_table
+    for row in se_table4:
+        out = {}
+        out["EventLongName"] = row[0]
+        if row[2] == '❌':
+            out["2024-11-28"] = False
+        elif row[2] == '✅':
+            out["2024-11-28"] = True
+
+        if row[3] == '❌':
+            out["2025-01-01"] = False
+        elif row[3] == '✅':
+            out["2025-01-01"] = True
+            
+        special_events.append(out)
+
+    se_table = se_table1 + se_table2 + se_table3 + se_table4
+
+    with open('_data/special_events.json','wt', encoding='utf-8', newline='') as f:
+        f.write(json.dumps(special_events, indent=2))
+        print(now(),"special_events.json saved")
 
 for parkrun in events['features']:
     if parkrun['properties']['EventLongName'] in upcoming_events:
@@ -540,22 +715,22 @@ for parkrun in events['features']:
     for event in special_events:
         if parkrun['properties']['EventLongName'] == event['EventLongName']:
             try:
-                if event["2022-11-24"] == True:
+                if event["2024-11-28"] == True:
                     parkrun['properties']["Thanksgiving"] = "parkrunning"
             except KeyError:
                 pass
             try:
-                if event["2022-12-25"] == True:
+                if event["2024-12-25"] == True:
                     parkrun['properties']["Christmas"] = "parkrunning"
             except KeyError:
                 pass
             try:
-                if event["2022-12-26"] == True:
+                if event["2024-12-26"] == True:
                     parkrun['properties']["Boxing Day"] = "parkrunning"
             except KeyError:
                 pass
             try:
-                if event["2023-01-01"] == True:
+                if event["2025-01-01"] == True:
                     parkrun['properties']["NYD"] = "parkrunning"
             except KeyError:
                 pass
@@ -1793,6 +1968,7 @@ for state in usstateslist:
 #se_ie = requests.get('https://www.parkrun.ie/special-events').text
 #se_it = requests.get('https://www.parkrun.it/special-events').text
 #se_jp = requests.get('https://www.parkrun.jp/special-events').text
+#se_lt = requests.get('https://www.parkrun.lt/special-events').text
 #se_my = requests.get('https://www.parkrun.my/special-events').text
 #se_nl = requests.get('https://www.parkrun.co.nl/special-events').text
 #se_nz = requests.get('https://www.parkrun.co.nz/special-events').text
