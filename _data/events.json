@@ -11053,8 +11053,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.567457,
-          50.821883
+          -1.642492,
+          50.808103
         ]
       },
       "properties": {
@@ -14071,13 +14071,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Greenpoint Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-09-07",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/greenpoint",
         "Country": "South Africa",
         "State": "Western Cape",
         "County": "City of Cape Town",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Greenpoint parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/greenpoint\">parkrun.co.za/greenpoint</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Greenpoint parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  7&nbsp;September&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/greenpoint\">parkrun.co.za/greenpoint</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -39513,39 +39518,6 @@
         "State": "Gauteng",
         "County": "Ekurhuleni Metropolitan Municipality",
         "description": "<h4 style=\"margin: 0 0 8px;\">Atlasville parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/atlasville\">parkrun.co.za/atlasville</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 2005,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -6.44471,
-          53.343795
-        ]
-      },
-      "properties": {
-        "eventname": "griffeen-juniors",
-        "EventLongName": "Griffeen junior parkrun",
-        "EventShortName": "Griffeen juniors",
-        "LocalisedEventLongName": "Griffeen junior parkrun",
-        "countrycode": 42,
-        "seriesid": 2,
-        "EventLocation": "Griffeen Valley Park",
-        "Status": "junior Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2024-09-08",
-            "ReasonCancelled": "Event Defunct"
-          }
-        ],
-        "Website": "https://www.parkrun.ie/griffeen-juniors",
-        "Country": "Ireland",
-        "State": "Leinster",
-        "County": "Dublin",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Griffeen junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  8&nbsp;September&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Event Defunct</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/griffeen-juniors\">parkrun.ie/griffeen-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -71388,7 +71360,7 @@
         "LocalisedEventLongName": null,
         "countrycode": 97,
         "seriesid": 1,
-        "EventLocation": "Y Promen\u00e2d",
+        "EventLocation": "Y Promen\u00e2d, Aberhonddu\t",
         "Status": "parkrunning",
         "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/ypromenad",
@@ -72381,6 +72353,34 @@
         "State": "Scotland",
         "County": "Highland",
         "description": "<h4 style=\"margin: 0 0 8px;\">Skinadin parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/skinadin\">parkrun.org.uk/skinadin</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3528,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.305765,
+          53.329094
+        ]
+      },
+      "properties": {
+        "eventname": "iveaghsportsground-juniors",
+        "EventLongName": "Iveagh Sports Ground junior parkrun",
+        "EventShortName": "Iveagh Sports Ground juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 42,
+        "seriesid": 2,
+        "EventLocation": "Iveagh Sports Ground juniors",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.ie/iveaghsportsground-juniors",
+        "Country": "Ireland",
+        "State": "Leinster",
+        "County": "Dublin City",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Iveagh Sports Ground junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/iveaghsportsground-juniors\">parkrun.ie/iveaghsportsground-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
