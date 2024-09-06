@@ -51961,6 +51961,46 @@
           "seriesid": 1,
           "EventLocation": "Vingis"
         }
+      },
+      {
+        "id": 3551,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.826912,
+            55.864821
+          ]
+        },
+        "properties": {
+          "eventname": "bygholm",
+          "EventLongName": "Bygholm parkrun",
+          "EventShortName": "Bygholm",
+          "LocalisedEventLongName": null,
+          "countrycode": 23,
+          "seriesid": 1,
+          "EventLocation": "Bygholm"
+        }
+      },
+      {
+        "id": 3552,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            17.906337,
+            59.341533
+          ]
+        },
+        "properties": {
+          "eventname": "judarskogen",
+          "EventLongName": "Judarskogen parkrun",
+          "EventShortName": "Judarskogen",
+          "LocalisedEventLongName": null,
+          "countrycode": 88,
+          "seriesid": 1,
+          "EventLocation": "Judarskogen"
+        }
       }
     ]
   }
