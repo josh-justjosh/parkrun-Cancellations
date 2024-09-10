@@ -64979,18 +64979,13 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Caledon Golf Course",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2024-09-14",
-            "ReasonCancelled": "Venue unavailable"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.co.za/caledongolfcourse",
         "Country": "South Africa",
         "State": "Western Cape",
         "County": "Overberg District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Caledon Golf Course parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 14&nbsp;September&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/caledongolfcourse\">parkrun.co.za/caledongolfcourse</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Caledon Golf Course parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/caledongolfcourse\">parkrun.co.za/caledongolfcourse</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -65577,13 +65572,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Settlers Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-09-14",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/settlerspark",
         "Country": "South Africa",
         "State": "KwaZulu-Natal",
         "County": "uMgungundlovu District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Settlers Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/settlerspark\">parkrun.co.za/settlerspark</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Settlers Park parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 14&nbsp;September&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/settlerspark\">parkrun.co.za/settlerspark</a></td></tr></table>",
         "Special Days": {}
       }
     },
