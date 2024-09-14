@@ -28874,13 +28874,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Carmarthen Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-09-15",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/carmarthen-juniors",
         "Country": "United Kingdom",
         "State": "Wales",
         "County": "Carmarthenshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Carmarthen junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/carmarthen-juniors\">parkrun.org.uk/carmarthen-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Carmarthen junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 15&nbsp;September&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/carmarthen-juniors\">parkrun.org.uk/carmarthen-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -45247,13 +45252,18 @@
         "countrycode": 74,
         "seriesid": 1,
         "EventLocation": "Park Zdrojowy, Kudowa-Zdr\u00f3j",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-09-14",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.pl/parkzdrojowykudowazdroj",
         "Country": "Poland",
         "State": "Lower Silesia",
         "County": "K\u0142odzko County",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Park Zdrojowy, Kudowa-Zdr\u00f3j</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/parkzdrojowykudowazdroj\">parkrun.pl/parkzdrojowykudowazdroj</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Park Zdrojowy, Kudowa-Zdr\u00f3j</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 14&nbsp;September&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/parkzdrojowykudowazdroj\">parkrun.pl/parkzdrojowykudowazdroj</a></td></tr></table>",
         "Special Days": {}
       }
     },
