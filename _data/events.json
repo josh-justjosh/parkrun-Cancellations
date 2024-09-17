@@ -13295,13 +13295,18 @@
         "countrycode": 74,
         "seriesid": 1,
         "EventLocation": "Jaz Opatowicki, Wroclaw",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-09-21",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.pl/wroclaw",
         "Country": "Poland",
         "State": "Lower Silesia",
         "County": "Wroc\u0142aw",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Wroc\u0142aw</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/wroclaw\">parkrun.pl/wroclaw</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Wroc\u0142aw</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 21&nbsp;September&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/wroclaw\">parkrun.pl/wroclaw</a></td></tr></table>",
         "Special Days": {}
       }
     },
