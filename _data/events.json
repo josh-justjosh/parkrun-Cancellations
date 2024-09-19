@@ -21921,13 +21921,18 @@
         "countrycode": 74,
         "seriesid": 1,
         "EventLocation": "Park Miejski, K\u0119dzierzyn-Ko\u017ale",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-09-21",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.pl/kedzierzynkozle",
         "Country": "Poland",
         "State": "Opole Voivodeship",
         "County": "Powiat k\u0119dzierzy\u0144sko-kozielski",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun K\u0119dzierzyn-Ko\u017ale</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/kedzierzynkozle\">parkrun.pl/kedzierzynkozle</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun K\u0119dzierzyn-Ko\u017ale</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 21&nbsp;September&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/kedzierzynkozle\">parkrun.pl/kedzierzynkozle</a></td></tr></table>",
         "Special Days": {}
       }
     },
