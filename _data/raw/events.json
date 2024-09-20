@@ -51963,6 +51963,26 @@
         }
       },
       {
+        "id": 3550,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152.41977,
+            -27.241567
+          ]
+        },
+        "properties": {
+          "eventname": "oldeskrailwaystation",
+          "EventLongName": "Old Esk Railway Station parkrun",
+          "EventShortName": "Old Esk Railway Station",
+          "LocalisedEventLongName": null,
+          "countrycode": 3,
+          "seriesid": 1,
+          "EventLocation": "Old Esk Railway Station"
+        }
+      },
+      {
         "id": 3551,
         "type": "Feature",
         "geometry": {
@@ -52020,6 +52040,46 @@
           "countrycode": 32,
           "seriesid": 1,
           "EventLocation": "Naturlehrpfad, Wetzlar"
+        }
+      },
+      {
+        "id": 3555,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            172.579997,
+            -43.599389
+          ]
+        },
+        "properties": {
+          "eventname": "halswellquarry",
+          "EventLongName": "Halswell Quarry parkrun",
+          "EventShortName": "Halswell Quarry",
+          "LocalisedEventLongName": null,
+          "countrycode": 65,
+          "seriesid": 1,
+          "EventLocation": "Halswell Quarry"
+        }
+      },
+      {
+        "id": 3556,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -96.564031,
+            33.740918
+          ]
+        },
+        "properties": {
+          "eventname": "katytrail",
+          "EventLongName": "Katy Trail parkrun",
+          "EventShortName": "Katy Trail",
+          "LocalisedEventLongName": null,
+          "countrycode": 98,
+          "seriesid": 1,
+          "EventLocation": "Katy Trail"
         }
       }
     ]
