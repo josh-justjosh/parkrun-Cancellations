@@ -38167,13 +38167,18 @@
         "countrycode": 42,
         "seriesid": 2,
         "EventLocation": "Shelbourne Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-09-29",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.ie/shelbourne-juniors",
         "Country": "Ireland",
         "State": "Munster",
         "County": "Limerick",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Shelbourne junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/shelbourne-juniors\">parkrun.ie/shelbourne-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Shelbourne junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 29&nbsp;September&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/shelbourne-juniors\">parkrun.ie/shelbourne-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
