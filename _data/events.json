@@ -7472,13 +7472,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Rye Meadow, Abingdon",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-10-05",
+            "ReasonCancelled": "Flooding on the course"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/abingdon",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Oxfordshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Abingdon parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/abingdon\">parkrun.org.uk/abingdon</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Abingdon parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;October&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Flooding on the course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/abingdon\">parkrun.org.uk/abingdon</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -46905,13 +46910,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Riverside Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-10-06",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/riversidestneots-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Cambridgeshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Riverside junior parkrun, St Neots</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/riversidestneots-juniors\">parkrun.org.uk/riversidestneots-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Riverside junior parkrun, St Neots</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  6&nbsp;October&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/riversidestneots-juniors\">parkrun.org.uk/riversidestneots-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
