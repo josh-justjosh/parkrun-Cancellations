@@ -11241,13 +11241,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Opposite the Quarrendeon & Meadowcroft C",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-10-12",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/aylesbury",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Buckinghamshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Aylesbury parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/aylesbury\">parkrun.org.uk/aylesbury</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Aylesbury parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;October&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/aylesbury\">parkrun.org.uk/aylesbury</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -37119,13 +37124,18 @@
         "countrycode": 88,
         "seriesid": 1,
         "EventLocation": "Ribersborgsstranden",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-10-12",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.se/malmoribersborg",
         "Country": "Sweden",
         "State": "Sk\u00e5ne",
         "County": "Malm\u00f6 Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Malm\u00f6 Ribersborg parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.se/malmoribersborg\">parkrun.se/malmoribersborg</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Malm\u00f6 Ribersborg parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;October&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.se/malmoribersborg\">parkrun.se/malmoribersborg</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -73042,6 +73052,34 @@
         "State": "Free State",
         "County": "Thabo Mofutsanyana District Municipality",
         "description": "<h4 style=\"margin: 0 0 8px;\">Pine Forest parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/pineforest\">parkrun.co.za/pineforest</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3564,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.87856,
+          -29.273321
+        ]
+      },
+      "properties": {
+        "eventname": "kaikai",
+        "EventLongName": "Kai Kai parkrun",
+        "EventShortName": "Kai Kai",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Kai Kai",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.za/kaikai",
+        "Country": "South Africa",
+        "State": "Northern Cape",
+        "County": "Namakwa District Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Kai Kai parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kaikai\">parkrun.co.za/kaikai</a></td></tr></table>",
         "Special Days": {}
       }
     }
