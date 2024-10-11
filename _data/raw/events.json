@@ -52201,6 +52201,66 @@
           "seriesid": 1,
           "EventLocation": "Kai Kai"
         }
+      },
+      {
+        "id": 3565,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -3.545242,
+            50.711668
+          ]
+        },
+        "properties": {
+          "eventname": "cowickbartonpf-juniors",
+          "EventLongName": "Cowick Barton Playing Fields junior parkrun",
+          "EventShortName": "Cowick Barton Playing Fields juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Cowick Barton Playing Fields juniors"
+        }
+      },
+      {
+        "id": 3566,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            7.470435,
+            51.476712
+          ]
+        },
+        "properties": {
+          "eventname": "pferdebachtal",
+          "EventLongName": "Pferdebachtal parkrun",
+          "EventShortName": "Pferdebachtal",
+          "LocalisedEventLongName": null,
+          "countrycode": 32,
+          "seriesid": 1,
+          "EventLocation": "Pferdebachtal"
+        }
+      },
+      {
+        "id": 3567,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.127456,
+            51.35974
+          ]
+        },
+        "properties": {
+          "eventname": "wilsonsschool-juniors",
+          "EventLongName": "Wilson\u2019s School junior parkrun",
+          "EventShortName": "Wilson\u2019s School juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Wilson\u2019s School juniors"
+        }
       }
     ]
   }
