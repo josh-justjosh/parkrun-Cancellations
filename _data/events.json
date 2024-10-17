@@ -66341,18 +66341,13 @@
         "countrycode": 32,
         "seriesid": 1,
         "EventLocation": "Wertwiesen",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2024-10-19",
-            "ReasonCancelled": "Venue unavailable"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.com.de/wertwiesen",
         "Country": "Germany",
         "State": "Baden-Wurttemberg",
         "County": "Regierungsbezirk Stuttgart",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Wertwiesen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;October&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/wertwiesen\">parkrun.com.de/wertwiesen</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Wertwiesen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/wertwiesen\">parkrun.com.de/wertwiesen</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -73286,6 +73281,62 @@
         "State": "Aichi",
         "County": "Nagoya",
         "description": "<h4 style=\"margin: 0 0 8px;\">Heiwa koen Kurashino mori parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/heiwakoenkurashinomori\">parkrun.jp/heiwakoenkurashinomori</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3571,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.395883,
+          33.975692
+        ]
+      },
+      "properties": {
+        "eventname": "ryanbonaminio",
+        "EventLongName": "Ryan Bonaminio parkrun",
+        "EventShortName": "Ryan Bonaminio",
+        "LocalisedEventLongName": null,
+        "countrycode": 98,
+        "seriesid": 1,
+        "EventLocation": "Ryan Bonaminio",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.us/ryanbonaminio",
+        "Country": "USA",
+        "State": "California",
+        "County": "Riverside",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ryan Bonaminio parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/ryanbonaminio\">parkrun.us/ryanbonaminio</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3572,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.371549,
+          50.824705
+        ]
+      },
+      "properties": {
+        "eventname": "gangwarily-juniors",
+        "EventLongName": "Gang Warily junior parkrun",
+        "EventShortName": "Gang Warily juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Gang Warily juniors",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/gangwarily-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Hampshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Gang Warily junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/gangwarily-juniors\">parkrun.org.uk/gangwarily-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     }
