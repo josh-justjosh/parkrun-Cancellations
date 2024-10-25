@@ -51795,7 +51795,7 @@
         "properties": {
           "eventname": "stadtparkchemnitz",
           "EventLongName": "Stadtpark parkrun, Chemnitz",
-          "EventShortName": "Stadtpark,  Chemnitz",
+          "EventShortName": "Stadtpark, Chemnitz",
           "LocalisedEventLongName": null,
           "countrycode": 32,
           "seriesid": 1,
@@ -52143,6 +52143,26 @@
         }
       },
       {
+        "id": 3561,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -3.996543,
+            50.734898
+          ]
+        },
+        "properties": {
+          "eventname": "simmonspark",
+          "EventLongName": "Simmons Park parkrun",
+          "EventShortName": "Simmons Park",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 1,
+          "EventLocation": "Simmons Park"
+        }
+      },
+      {
         "id": 3562,
         "type": "Feature",
         "geometry": {
@@ -52400,6 +52420,26 @@
           "countrycode": 74,
           "seriesid": 1,
           "EventLocation": "Nowy Park Solankowy"
+        }
+      },
+      {
+        "id": 3579,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.913971,
+            -37.04751
+          ]
+        },
+        "properties": {
+          "eventname": "southernpath",
+          "EventLongName": "Southern Path parkrun",
+          "EventShortName": "Southern Path",
+          "LocalisedEventLongName": null,
+          "countrycode": 65,
+          "seriesid": 1,
+          "EventLocation": "Southern Path"
         }
       }
     ]

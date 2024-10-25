@@ -28824,13 +28824,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Carmarthen Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-10-27",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/carmarthen-juniors",
         "Country": "United Kingdom",
         "State": "Wales",
         "County": "Carmarthenshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Carmarthen junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/carmarthen-juniors\">parkrun.org.uk/carmarthen-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Carmarthen junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 27&nbsp;October&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/carmarthen-juniors\">parkrun.org.uk/carmarthen-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -54996,13 +55001,18 @@
         "countrycode": 42,
         "seriesid": 1,
         "EventLocation": "The Grand Canal Way",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-10-26",
+            "ReasonCancelled": "Insurance clarification"
+          }
+        ],
         "Website": "https://www.parkrun.ie/thegrandcanalway",
         "Country": "Ireland",
         "State": "Leinster",
         "County": "Offaly",
-        "description": "<h4 style=\"margin: 0 0 8px;\">The Grand Canal Way parkrun, Tullamore</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/thegrandcanalway\">parkrun.ie/thegrandcanalway</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">The Grand Canal Way parkrun, Tullamore</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 26&nbsp;October&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Insurance clarification</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/thegrandcanalway\">parkrun.ie/thegrandcanalway</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -64617,13 +64627,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Pirates Sport Club",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-10-26",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/piratessportclub",
         "Country": "South Africa",
         "State": "Eastern Cape",
         "County": "Buffalo City Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Pirates Sport Club parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/piratessportclub\">parkrun.co.za/piratessportclub</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Pirates Sport Club parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 26&nbsp;October&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/piratessportclub\">parkrun.co.za/piratessportclub</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -72596,7 +72611,7 @@
       "properties": {
         "eventname": "stadtparkchemnitz",
         "EventLongName": "Stadtpark parkrun, Chemnitz",
-        "EventShortName": "Stadtpark,  Chemnitz",
+        "EventShortName": "Stadtpark, Chemnitz",
         "LocalisedEventLongName": null,
         "countrycode": 32,
         "seriesid": 1,
@@ -73065,6 +73080,34 @@
       }
     },
     {
+      "id": 3561,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.996543,
+          50.734898
+        ]
+      },
+      "properties": {
+        "eventname": "simmonspark",
+        "EventLongName": "Simmons Park parkrun",
+        "EventShortName": "Simmons Park",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Simmons Park",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/simmonspark",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Devon",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Simmons Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/simmonspark\">parkrun.org.uk/simmonspark</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 3562,
       "type": "Feature",
       "geometry": {
@@ -73425,6 +73468,34 @@
         "State": "Kujawsko-Pomorskie",
         "County": "Inowroc\u0142aw County",
         "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Nowy Park Solankowy</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/nowyparksolankowy\">parkrun.pl/nowyparksolankowy</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3579,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.913971,
+          -37.04751
+        ]
+      },
+      "properties": {
+        "eventname": "southernpath",
+        "EventLongName": "Southern Path parkrun",
+        "EventShortName": "Southern Path",
+        "LocalisedEventLongName": null,
+        "countrycode": 65,
+        "seriesid": 1,
+        "EventLocation": "Southern Path",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.nz/southernpath",
+        "Country": "New Zealand",
+        "State": "Auckland",
+        "County": "Auckland",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Southern Path parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/southernpath\">parkrun.co.nz/southernpath</a></td></tr></table>",
         "Special Days": {}
       }
     }
