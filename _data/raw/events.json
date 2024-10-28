@@ -52441,6 +52441,46 @@
           "seriesid": 1,
           "EventLocation": "Southern Path"
         }
+      },
+      {
+        "id": 3580,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.499097,
+            53.342803
+          ]
+        },
+        "properties": {
+          "eventname": "millhouses-juniors",
+          "EventLongName": "Millhouses junior parkrun",
+          "EventShortName": "Millhouses juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Millhouses juniors"
+        }
+      },
+      {
+        "id": 3581,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.825872,
+            52.57628
+          ]
+        },
+        "properties": {
+          "eventname": "wattonsportscentre-juniors",
+          "EventLongName": "Watton Sports Centre junior parkrun",
+          "EventShortName": "Watton Sports Centre juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Watton Sports Centre juniors"
+        }
       }
     ]
   }
