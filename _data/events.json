@@ -50775,13 +50775,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Wicksteed Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-11-03",
+            "ReasonCancelled": "Fireworks display in the park the night before."
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/wicksteed-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Northamptonshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Wicksteed junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wicksteed-juniors\">parkrun.org.uk/wicksteed-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Wicksteed junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  3&nbsp;November&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Fireworks display in the park the night before.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wicksteed-juniors\">parkrun.org.uk/wicksteed-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
