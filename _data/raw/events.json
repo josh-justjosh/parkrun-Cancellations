@@ -23423,26 +23423,6 @@
         }
       },
       {
-        "id": 1693,
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            24.893197,
-            -34.035359
-          ]
-        },
-        "properties": {
-          "eventname": "jeffreysbay",
-          "EventLongName": "Jeffreys Bay parkrun",
-          "EventShortName": "Jeffreys Bay",
-          "LocalisedEventLongName": null,
-          "countrycode": 85,
-          "seriesid": 1,
-          "EventLocation": "Global Leadership Academy"
-        }
-      },
-      {
         "id": 1694,
         "type": "Feature",
         "geometry": {
@@ -52383,6 +52363,46 @@
         }
       },
       {
+        "id": 3573,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151.913142,
+            -24.211762
+          ]
+        },
+        "properties": {
+          "eventname": "workmansbeach",
+          "EventLongName": "Workman\u2019s Beach parkrun",
+          "EventShortName": "Workman\u2019s Beach",
+          "LocalisedEventLongName": null,
+          "countrycode": 3,
+          "seriesid": 1,
+          "EventLocation": "Workman\u2019s Beach"
+        }
+      },
+      {
+        "id": 3574,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            145.458234,
+            -37.930268
+          ]
+        },
+        "properties": {
+          "eventname": "emeraldlake",
+          "EventLongName": "Emerald Lake parkrun",
+          "EventShortName": "Emerald Lake",
+          "LocalisedEventLongName": null,
+          "countrycode": 3,
+          "seriesid": 1,
+          "EventLocation": "Emerald Lake   "
+        }
+      },
+      {
         "id": 3576,
         "type": "Feature",
         "geometry": {
@@ -52400,6 +52420,26 @@
           "countrycode": 44,
           "seriesid": 1,
           "EventLocation": "Sabine"
+        }
+      },
+      {
+        "id": 3577,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            139.638028,
+            35.46168
+          ]
+        },
+        "properties": {
+          "eventname": "rinkopark",
+          "EventLongName": "Rinko Park parkrun",
+          "EventShortName": "Rinko Park",
+          "LocalisedEventLongName": null,
+          "countrycode": 46,
+          "seriesid": 1,
+          "EventLocation": "Rinko Park"
         }
       },
       {
@@ -52520,6 +52560,46 @@
           "countrycode": 97,
           "seriesid": 2,
           "EventLocation": "Witton Park juniors"
+        }
+      },
+      {
+        "id": 3586,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.244033,
+            55.814092
+          ]
+        },
+        "properties": {
+          "eventname": "kingspark-juniors",
+          "EventLongName": "King\u2019s Park junior parkrun",
+          "EventShortName": "King\u2019s Park juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "King\u2019s Park juniors"
+        }
+      },
+      {
+        "id": 3587,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            175.871613,
+            -37.02786
+          ]
+        },
+        "properties": {
+          "eventname": "southendreserve",
+          "EventLongName": "South End Reserve parkrun",
+          "EventShortName": "South End Reserve",
+          "LocalisedEventLongName": null,
+          "countrycode": 65,
+          "seriesid": 1,
+          "EventLocation": "South End Reserve"
         }
       }
     ]
