@@ -89,7 +89,6 @@ for i in tei_table:
 #upcoming_events.append('Henlow Bridge Lakes parkrun')   #01/01/99   https://www.parkrun.org.uk/henlowbridgelakes/
 #upcoming_events.append('Penryn Campus parkrun')         #01/01/99   https://www.parkrun.org.uk/penryncampus/
 #upcoming_events.append('Roberts Park parkrun')          #01/01/99   https://www.parkrun.org.uk/robertspark/
-upcoming_events.append('parkrun Vingis')          #2024-09-21   https://www.parkrun.lt/vingis/
 
 print(now(),'Upcoming Events:',upcoming_events)
 
