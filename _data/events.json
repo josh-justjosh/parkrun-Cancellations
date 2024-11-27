@@ -24390,13 +24390,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Tewkesbury",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-11-30",
+            "ReasonCancelled": "Flooded course"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/tewkesbury",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Gloucestershire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Tewkesbury parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/tewkesbury\">parkrun.org.uk/tewkesbury</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Tewkesbury parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 30&nbsp;November&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Flooded course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/tewkesbury\">parkrun.org.uk/tewkesbury</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -38707,13 +38712,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Ynysangharad War Memorial Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-12-01",
+            "ReasonCancelled": "Park closed for flood recovery."
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/pontypridd-juniors",
         "Country": "United Kingdom",
         "State": "Wales",
         "County": "Rhondda Cynon Taf",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Pontypridd junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/pontypridd-juniors\">parkrun.org.uk/pontypridd-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Pontypridd junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  1&nbsp;December&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Park closed for flood recovery.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/pontypridd-juniors\">parkrun.org.uk/pontypridd-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
