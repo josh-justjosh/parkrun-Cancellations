@@ -19188,13 +19188,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Colby Woodland Garden",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-12-07",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/colby",
         "Country": "United Kingdom",
         "State": "Wales",
         "County": "Pembrokeshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Colby parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/colby\">parkrun.org.uk/colby</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Colby parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  7&nbsp;December&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/colby\">parkrun.org.uk/colby</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -50916,6 +50921,39 @@
       }
     },
     {
+      "id": 2564,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.920167,
+          1.341364
+        ]
+      },
+      "properties": {
+        "eventname": "bedokreservoir",
+        "EventLongName": "Bedok Reservoir parkrun",
+        "EventShortName": "Bedok Reservoir",
+        "LocalisedEventLongName": null,
+        "countrycode": 82,
+        "seriesid": 1,
+        "EventLocation": "Bedok Reservoir Park",
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-12-07",
+            "ReasonCancelled": "Event Closed"
+          }
+        ],
+        "Website": "https://www.parkrun.sg/bedokreservoir",
+        "Country": "Singapore",
+        "State": "-Unknown-",
+        "County": "-Unknown-",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bedok Reservoir parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  7&nbsp;December&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Event Closed</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.sg/bedokreservoir\">parkrun.sg/bedokreservoir</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 2565,
       "type": "Feature",
       "geometry": {
@@ -57831,13 +57869,18 @@
         "countrycode": 42,
         "seriesid": 2,
         "EventLocation": "Westside Playing Fields",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-12-08",
+            "ReasonCancelled": "Safeguarding compliance (paperwork)"
+          }
+        ],
         "Website": "https://www.parkrun.ie/westsideplayingfields-juniors",
         "Country": "Ireland",
         "State": "Connacht",
         "County": "Galway",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Westside Playing Fields junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/westsideplayingfields-juniors\">parkrun.ie/westsideplayingfields-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Westside Playing Fields junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  8&nbsp;December&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Safeguarding compliance (paperwork)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/westsideplayingfields-juniors\">parkrun.ie/westsideplayingfields-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -65487,13 +65530,18 @@
         "countrycode": 46,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-12-07",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.jp/miyagawakoen",
         "Country": "Japan",
         "State": "Kochi",
         "County": "Hata-gun",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Miyagawa koen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/miyagawakoen\">parkrun.jp/miyagawakoen</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Miyagawa koen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  7&nbsp;December&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/miyagawakoen\">parkrun.jp/miyagawakoen</a></td></tr></table>",
         "Special Days": {}
       }
     },
