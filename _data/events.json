@@ -54416,8 +54416,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.168829,
-          40.338192
+          -75.192769,
+          40.320986
         ]
       },
       "properties": {
@@ -72008,13 +72008,18 @@
         "countrycode": 42,
         "seriesid": 2,
         "EventLocation": "Walton Park juniors",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-12-22",
+            "ReasonCancelled": "Christmas Break"
+          }
+        ],
         "Website": "https://www.parkrun.ie/waltonpark-juniors",
         "Country": "Ireland",
         "State": "Munster",
         "County": "Waterford",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Walton Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/waltonpark-juniors\">parkrun.ie/waltonpark-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Walton Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 22&nbsp;December&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Christmas Break</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/waltonpark-juniors\">parkrun.ie/waltonpark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
