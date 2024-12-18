@@ -42401,13 +42401,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Duffins Trail",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-12-21",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.ca/duffinstrail",
         "Country": "Canada",
         "State": "Ontario",
         "County": "Durham",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Duffins Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/duffinstrail\">parkrun.ca/duffinstrail</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Duffins Trail parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 21&nbsp;December&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/duffinstrail\">parkrun.ca/duffinstrail</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -73911,6 +73916,34 @@
         "State": "England",
         "County": "Durham",
         "description": "<h4 style=\"margin: 0 0 8px;\">Victoria Jubilee junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/victoriajubilee-juniors\">parkrun.org.uk/victoriajubilee-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3597,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.740528,
+          53.779024
+        ]
+      },
+      "properties": {
+        "eventname": "bowlingpark-juniors",
+        "EventLongName": "Bowling Park junior parkrun",
+        "EventShortName": "Bowling Park juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Bowling Park juniors",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/bowlingpark-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Bradford",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bowling Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/bowlingpark-juniors\">parkrun.org.uk/bowlingpark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     }
