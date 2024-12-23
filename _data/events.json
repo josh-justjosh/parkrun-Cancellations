@@ -20617,18 +20617,13 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Makana Botanical Gardens",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2024-12-28",
-            "ReasonCancelled": "Shortage of volunteers"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.co.za/grahamstown",
         "Country": "South Africa",
         "State": "Eastern Cape",
         "County": "Sarah Baartman District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Grahamstown parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 28&nbsp;December&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/grahamstown\">parkrun.co.za/grahamstown</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Grahamstown parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/grahamstown\">parkrun.co.za/grahamstown</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -53405,13 +53400,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Horspath Sports Ground & Athletic Track",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-12-28",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/horspath",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Oxfordshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Horspath parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/horspath\">parkrun.org.uk/horspath</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Horspath parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 28&nbsp;December&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/horspath\">parkrun.org.uk/horspath</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -57943,13 +57943,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Peoples Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-12-29",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/peoplespark-juniors",
         "Country": "United Kingdom",
         "State": "Wales",
         "County": "Carmarthenshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Peoples Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/peoplespark-juniors\">parkrun.org.uk/peoplespark-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Peoples Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 29&nbsp;December&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/peoplespark-juniors\">parkrun.org.uk/peoplespark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -74358,6 +74363,34 @@
         "State": "England",
         "County": "Bradford",
         "description": "<h4 style=\"margin: 0 0 8px;\">Bowling Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/bowlingpark-juniors\">parkrun.org.uk/bowlingpark-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3603,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.992279,
+          52.512206
+        ]
+      },
+      "properties": {
+        "eventname": "akwentropicana",
+        "EventLongName": "parkrun Akwen Tropicana",
+        "EventShortName": "Akwen Tropicana",
+        "LocalisedEventLongName": null,
+        "countrycode": 74,
+        "seriesid": 1,
+        "EventLocation": "Akwen Tropicana",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.pl/akwentropicana",
+        "Country": "Poland",
+        "State": "Greater Poland",
+        "County": "Pozna\u0144 County",
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Akwen Tropicana</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/akwentropicana\">parkrun.pl/akwentropicana</a></td></tr></table>",
         "Special Days": {}
       }
     }
