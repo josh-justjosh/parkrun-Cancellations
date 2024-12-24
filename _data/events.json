@@ -58607,13 +58607,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Fife Cycle Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-12-29",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/fifecyclepark-juniors",
         "Country": "United Kingdom",
         "State": "Scotland",
         "County": "Fife",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Fife Cycle Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/fifecyclepark-juniors\">parkrun.org.uk/fifecyclepark-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Fife Cycle Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 29&nbsp;December&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/fifecyclepark-juniors\">parkrun.org.uk/fifecyclepark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -59032,13 +59037,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Blickling Estate",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-12-29",
+            "ReasonCancelled": "No run director available"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/blickling-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Norfolk",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Blickling junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/blickling-juniors\">parkrun.org.uk/blickling-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Blickling junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 29&nbsp;December&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>No run director available</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/blickling-juniors\">parkrun.org.uk/blickling-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -74406,6 +74416,62 @@
         "State": "Greater Poland",
         "County": "Pozna\u0144 County",
         "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Akwen Tropicana</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/akwentropicana\">parkrun.pl/akwentropicana</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3607,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.87603,
+          53.625176
+        ]
+      },
+      "properties": {
+        "eventname": "krupundersee",
+        "EventLongName": "Krupunder See parkrun",
+        "EventShortName": "Krupunder See",
+        "LocalisedEventLongName": null,
+        "countrycode": 32,
+        "seriesid": 1,
+        "EventLocation": "Krupunder See",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.de/krupundersee",
+        "Country": "Germany",
+        "State": "Schleswig-Holstein",
+        "County": "-Unknown-",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Krupunder See parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/krupundersee\">parkrun.com.de/krupundersee</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3609,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.162076,
+          51.51203
+        ]
+      },
+      "properties": {
+        "eventname": "niac-juniors",
+        "EventLongName": "NIAC junior parkrun",
+        "EventShortName": "NIAC juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "NIAC juniors",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/niac-juniors",
+        "Country": "United Kingdom",
+        "State": "Wales",
+        "County": "Cardiff",
+        "description": "<h4 style=\"margin: 0 0 8px;\">NIAC junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/niac-juniors\">parkrun.org.uk/niac-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     }
