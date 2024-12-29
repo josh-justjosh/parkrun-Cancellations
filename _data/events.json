@@ -42464,13 +42464,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Kralinbergh Guest Farm",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2024-12-28",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/kralinbergh",
         "Country": "South Africa",
         "State": "Mpumalanga",
         "County": "Gert Sibande District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Kralinbergh parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kralinbergh\">parkrun.co.za/kralinbergh</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Kralinbergh parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 28&nbsp;December&nbsp;2024</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kralinbergh\">parkrun.co.za/kralinbergh</a></td></tr></table>",
         "Special Days": {}
       }
     },
