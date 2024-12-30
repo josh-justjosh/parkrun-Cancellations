@@ -5769,13 +5769,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "North Inch and Riverside parks",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-01",
+            "ReasonCancelled": "Floodgates on course /alternative closed"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/perth",
         "Country": "United Kingdom",
         "State": "Scotland",
         "County": "Perth and Kinross",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Perth parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/perth\">parkrun.org.uk/perth</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Perth parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Wednesday,  1&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Floodgates on course /alternative closed</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/perth\">parkrun.org.uk/perth</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -26114,13 +26119,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Rushmere Country Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-01",
+            "ReasonCancelled": "predicted high winds"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/rushmere",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Buckinghamshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Rushmere parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/rushmere\">parkrun.org.uk/rushmere</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Rushmere parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Wednesday,  1&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>predicted high winds</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/rushmere\">parkrun.org.uk/rushmere</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -49731,13 +49741,17 @@
           {
             "DateCancelled": "2025-01-01",
             "ReasonCancelled": "path upgrade works still to be completed (22/12)"
+          },
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "prep work/remeasuring course prior to restart"
           }
         ],
         "Website": "https://www.parkrun.org.uk/uryriverside",
         "Country": "United Kingdom",
         "State": "Scotland",
         "County": "Aberdeenshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ury Riverside parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Wednesday,  1&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>path upgrade works still to be completed (22/12)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/uryriverside\">parkrun.org.uk/uryriverside</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ury Riverside parkrun</h4><table><tr><th>Status:</th><td colspan=2 >5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Wednesday,  1&nbsp;January&nbsp;2025</td><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>path upgrade works still to be completed (22/12)</td><td>prep work/remeasuring course prior to restart</td></tr><tr><th>Website:</th><td colspan=2 ><a href=\"https://www.parkrun.org.uk/uryriverside\">parkrun.org.uk/uryriverside</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -74160,6 +74174,62 @@
         "State": "Western Cape",
         "County": "West Coast District Municipality",
         "description": "<h4 style=\"margin: 0 0 8px;\">Letsatsi Lodge parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/letsatsilodge\">parkrun.co.za/letsatsilodge</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3612,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.490052,
+          34.779708
+        ]
+      },
+      "properties": {
+        "eventname": "hattoriryokuchi",
+        "EventLongName": "Hattori Ryokuchi parkrun",
+        "EventShortName": "Hattori Ryokuchi",
+        "LocalisedEventLongName": null,
+        "countrycode": 46,
+        "seriesid": 1,
+        "EventLocation": "Hattori Ryokuchi",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.jp/hattoriryokuchi",
+        "Country": "Japan",
+        "State": "Osaka",
+        "County": "Toyonaka",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hattori Ryokuchi parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/hattoriryokuchi\">parkrun.jp/hattoriryokuchi</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3615,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.256849,
+          46.621706
+        ]
+      },
+      "properties": {
+        "eventname": "europapark",
+        "EventLongName": "Europapark parkrun",
+        "EventShortName": "Europapark",
+        "LocalisedEventLongName": null,
+        "countrycode": 4,
+        "seriesid": 1,
+        "EventLocation": "Europapark",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.at/europapark",
+        "Country": "Austria",
+        "State": "Carinthia",
+        "County": "Klagenfurt am W\u00f6rthersee",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Europapark parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.at/europapark\">parkrun.co.at/europapark</a></td></tr></table>",
         "Special Days": {}
       }
     }

@@ -52921,6 +52921,46 @@
           "seriesid": 1,
           "EventLocation": "Letsatsi Lodge"
         }
+      },
+      {
+        "id": 3612,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            135.490052,
+            34.779708
+          ]
+        },
+        "properties": {
+          "eventname": "hattoriryokuchi",
+          "EventLongName": "Hattori Ryokuchi parkrun",
+          "EventShortName": "Hattori Ryokuchi",
+          "LocalisedEventLongName": null,
+          "countrycode": 46,
+          "seriesid": 1,
+          "EventLocation": "Hattori Ryokuchi"
+        }
+      },
+      {
+        "id": 3615,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            14.256849,
+            46.621706
+          ]
+        },
+        "properties": {
+          "eventname": "europapark",
+          "EventLongName": "Europapark parkrun",
+          "EventShortName": "Europapark",
+          "LocalisedEventLongName": null,
+          "countrycode": 4,
+          "seriesid": 1,
+          "EventLocation": "Europapark"
+        }
       }
     ]
   }
