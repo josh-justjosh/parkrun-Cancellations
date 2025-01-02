@@ -10258,17 +10258,13 @@
           {
             "DateCancelled": "2025-01-01",
             "ReasonCancelled": "Weather"
-          },
-          {
-            "DateCancelled": "2025-01-04",
-            "ReasonCancelled": "Weather"
           }
         ],
         "Website": "https://www.parkrun.org.uk/aliceholt",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Hampshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Alice Holt parkrun</h4><table><tr><th>Status:</th><td colspan=2 >5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Wednesday,  1&nbsp;January&nbsp;2025</td><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td><td>Weather</td></tr><tr><th>Website:</th><td colspan=2 ><a href=\"https://www.parkrun.org.uk/aliceholt\">parkrun.org.uk/aliceholt</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Alice Holt parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Wednesday,  1&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/aliceholt\">parkrun.org.uk/aliceholt</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -51125,13 +51121,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Clough Hall Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-05",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/cloughhall-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Staffordshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Clough Hall junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cloughhall-juniors\">parkrun.org.uk/cloughhall-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Clough Hall junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  5&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cloughhall-juniors\">parkrun.org.uk/cloughhall-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
