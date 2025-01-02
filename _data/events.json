@@ -68737,13 +68737,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Worden Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-01",
+            "ReasonCancelled": "Carparkunavailable"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/worden",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Lancashire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Worden parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/worden\">parkrun.org.uk/worden</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Worden parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Wednesday,  1&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Carparkunavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/worden\">parkrun.org.uk/worden</a></td></tr></table>",
         "Special Days": {}
       }
     },
