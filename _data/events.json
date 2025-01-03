@@ -319,13 +319,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Pollok Park, Glasgow",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Paths are very icy and will not be safe before eve"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/pollok",
         "Country": "United Kingdom",
         "State": "Scotland",
         "County": "Glasgow City",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Pollok parkrun, Glasgow</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/pollok\">parkrun.org.uk/pollok</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Pollok parkrun, Glasgow</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Paths are very icy and will not be safe before eve</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/pollok\">parkrun.org.uk/pollok</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -492,13 +497,17 @@
           {
             "DateCancelled": "2025-01-01",
             "ReasonCancelled": "Course unsafe or blocked"
+          },
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Course unsafe or blocked"
           }
         ],
         "Website": "https://www.parkrun.org.uk/reading",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Wokingham",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Reading parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Wednesday,  1&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/reading\">parkrun.org.uk/reading</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Reading parkrun</h4><table><tr><th>Status:</th><td colspan=2 >5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Wednesday,  1&nbsp;January&nbsp;2025</td><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td colspan=2 ><a href=\"https://www.parkrun.org.uk/reading\">parkrun.org.uk/reading</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -525,13 +534,17 @@
           {
             "DateCancelled": "2025-01-01",
             "ReasonCancelled": "Course flooded"
+          },
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Ice on course."
           }
         ],
         "Website": "https://www.parkrun.org.uk/woodbank",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Stockport",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Woodbank parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Wednesday,  1&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course flooded</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/woodbank\">parkrun.org.uk/woodbank</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Woodbank parkrun</h4><table><tr><th>Status:</th><td colspan=2 >5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Wednesday,  1&nbsp;January&nbsp;2025</td><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course flooded</td><td>Ice on course.</td></tr><tr><th>Website:</th><td colspan=2 ><a href=\"https://www.parkrun.org.uk/woodbank\">parkrun.org.uk/woodbank</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -3849,13 +3862,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Hemlington Lake",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-05",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/hemlingtonlake-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Middlesbrough",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hemlington Lake junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hemlingtonlake-juniors\">parkrun.org.uk/hemlingtonlake-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hemlington Lake junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  5&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hemlingtonlake-juniors\">parkrun.org.uk/hemlingtonlake-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -4228,13 +4246,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Strathclyde Country Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/strathclyde",
         "Country": "United Kingdom",
         "State": "Scotland",
         "County": "North Lanarkshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Strathclyde parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/strathclyde\">parkrun.org.uk/strathclyde</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Strathclyde parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/strathclyde\">parkrun.org.uk/strathclyde</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -8409,13 +8432,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Vogrie Country Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "We\u2019re too ice ice baby"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/vogrie",
         "Country": "United Kingdom",
         "State": "Scotland",
         "County": "Midlothian",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Vogrie parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/vogrie\">parkrun.org.uk/vogrie</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Vogrie parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>We\u2019re too ice ice baby</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/vogrie\">parkrun.org.uk/vogrie</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -9796,13 +9824,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Crow Nest Park, Dewsbury",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/dewsbury",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Kirklees",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Dewsbury parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/dewsbury\">parkrun.org.uk/dewsbury</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Dewsbury parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/dewsbury\">parkrun.org.uk/dewsbury</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -11305,13 +11338,17 @@
           {
             "DateCancelled": "2025-01-01",
             "ReasonCancelled": "Landowner Request: Estate Closed. High Winds"
+          },
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Landowner Request: Waterlogged Course."
           }
         ],
         "Website": "https://www.parkrun.org.uk/wimpoleestate",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Cambridgeshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Wimpole Estate parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Wednesday,  1&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Landowner Request: Estate Closed. High Winds</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wimpoleestate\">parkrun.org.uk/wimpoleestate</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Wimpole Estate parkrun</h4><table><tr><th>Status:</th><td colspan=2 >5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Wednesday,  1&nbsp;January&nbsp;2025</td><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Landowner Request: Estate Closed. High Winds</td><td>Landowner Request: Waterlogged Course.</td></tr><tr><th>Website:</th><td colspan=2 ><a href=\"https://www.parkrun.org.uk/wimpoleestate\">parkrun.org.uk/wimpoleestate</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -11445,13 +11482,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Opposite the Quarrendeon & Meadowcroft C",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "2 Icy areas which make the path too narrow."
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/aylesbury",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Buckinghamshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Aylesbury parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/aylesbury\">parkrun.org.uk/aylesbury</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Aylesbury parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>2 Icy areas which make the path too narrow.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/aylesbury\">parkrun.org.uk/aylesbury</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -16129,13 +16171,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Longrun Meadow Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/longrunmeadow",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Somerset",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Longrun Meadow parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/longrunmeadow\">parkrun.org.uk/longrunmeadow</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Longrun Meadow parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/longrunmeadow\">parkrun.org.uk/longrunmeadow</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -23484,13 +23531,17 @@
           {
             "DateCancelled": "2025-01-01",
             "ReasonCancelled": "Course unsafe or blocked"
+          },
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Course unsafe or blocked"
           }
         ],
         "Website": "https://www.parkrun.org.uk/wilmslow",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Cheshire East",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Wilmslow parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Wednesday,  1&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wilmslow\">parkrun.org.uk/wilmslow</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Wilmslow parkrun</h4><table><tr><th>Status:</th><td colspan=2 >5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Wednesday,  1&nbsp;January&nbsp;2025</td><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td colspan=2 ><a href=\"https://www.parkrun.org.uk/wilmslow\">parkrun.org.uk/wilmslow</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -24306,13 +24357,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Countryside Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Course frozen, with icy patches, so unsafe."
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/brundall",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Norfolk",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Brundall parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/brundall\">parkrun.org.uk/brundall</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Brundall parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course frozen, with icy patches, so unsafe.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/brundall\">parkrun.org.uk/brundall</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -30074,13 +30130,17 @@
           {
             "DateCancelled": "2025-01-01",
             "ReasonCancelled": "Course unsafe or blocked"
+          },
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Course unsafe or blocked"
           }
         ],
         "Website": "https://www.parkrun.org.uk/salewater",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Trafford",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Sale Water parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Wednesday,  1&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/salewater\">parkrun.org.uk/salewater</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Sale Water parkrun</h4><table><tr><th>Status:</th><td colspan=2 >5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Wednesday,  1&nbsp;January&nbsp;2025</td><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td colspan=2 ><a href=\"https://www.parkrun.org.uk/salewater\">parkrun.org.uk/salewater</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -33583,13 +33643,18 @@
         "countrycode": 42,
         "seriesid": 1,
         "EventLocation": "Corkagh Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Icy/Frosty conditions - paths unsafe in places"
+          }
+        ],
         "Website": "https://www.parkrun.ie/corkagh",
         "Country": "Ireland",
         "State": "Leinster",
         "County": "Dublin",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Corkagh parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/corkagh\">parkrun.ie/corkagh</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Corkagh parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Icy/Frosty conditions - paths unsafe in places</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/corkagh\">parkrun.ie/corkagh</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -37609,13 +37674,17 @@
           {
             "DateCancelled": "2025-01-01",
             "ReasonCancelled": "Course unsafe or blocked"
+          },
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Course unsafe or blocked"
           }
         ],
         "Website": "https://www.parkrun.org.uk/thurso",
         "Country": "United Kingdom",
         "State": "Scotland",
         "County": "Highland",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Thurso parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Wednesday,  1&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/thurso\">parkrun.org.uk/thurso</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Thurso parkrun</h4><table><tr><th>Status:</th><td colspan=2 >5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Wednesday,  1&nbsp;January&nbsp;2025</td><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td colspan=2 ><a href=\"https://www.parkrun.org.uk/thurso\">parkrun.org.uk/thurso</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -37973,13 +38042,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Carey Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/northwich",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Cheshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Northwich parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/northwich\">parkrun.org.uk/northwich</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Northwich parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/northwich\">parkrun.org.uk/northwich</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -38454,13 +38528,18 @@
         "countrycode": 42,
         "seriesid": 1,
         "EventLocation": "Avondale Forest Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.ie/avondaleforest",
         "Country": "Ireland",
         "State": "Leinster",
         "County": "Wicklow",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Avondale Forest parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/avondaleforest\">parkrun.ie/avondaleforest</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Avondale Forest parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/avondaleforest\">parkrun.ie/avondaleforest</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -41233,13 +41312,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Sutton Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Lots of icy patches on our route."
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/suttonpark",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Birmingham",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Sutton Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/suttonpark\">parkrun.org.uk/suttonpark</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Sutton Park parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Lots of icy patches on our route.</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/suttonpark\">parkrun.org.uk/suttonpark</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -42928,13 +43012,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Duffins Trail",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.ca/duffinstrail",
         "Country": "Canada",
         "State": "Ontario",
         "County": "Durham",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Duffins Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/duffinstrail\">parkrun.ca/duffinstrail</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Duffins Trail parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/duffinstrail\">parkrun.ca/duffinstrail</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -43320,13 +43409,18 @@
         "countrycode": 67,
         "seriesid": 1,
         "EventLocation": "Kristiansten Festningen",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Too much snow and weather conditions"
+          }
+        ],
         "Website": "https://www.parkrun.no/festningen",
         "Country": "Norway",
         "State": "Tr\u00f8ndelag",
         "County": "Trondheim",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Festningen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.no/festningen\">parkrun.no/festningen</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Festningen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Too much snow and weather conditions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.no/festningen\">parkrun.no/festningen</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -43465,13 +43559,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Hay Lodge Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/haylodge",
         "Country": "United Kingdom",
         "State": "Scotland",
         "County": "Scottish Borders",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hay Lodge parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/haylodge\">parkrun.org.uk/haylodge</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hay Lodge parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/haylodge\">parkrun.org.uk/haylodge</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -45801,13 +45900,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Penistone Show Ground",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/penistone",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Barnsley",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Penistone parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/penistone\">parkrun.org.uk/penistone</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Penistone parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/penistone\">parkrun.org.uk/penistone</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -47529,13 +47633,17 @@
           {
             "DateCancelled": "2025-01-01",
             "ReasonCancelled": "Weather"
+          },
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Weather"
           }
         ],
         "Website": "https://www.parkrun.pl/parkmiejskiwejherowo",
         "Country": "Poland",
         "State": "Pomerania",
         "County": "Powiat wejherowski",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Park Miejski, Wejherowo</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Wednesday,  1&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/parkmiejskiwejherowo\">parkrun.pl/parkmiejskiwejherowo</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Park Miejski, Wejherowo</h4><table><tr><th>Status:</th><td colspan=2 >5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Wednesday,  1&nbsp;January&nbsp;2025</td><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td><td>Weather</td></tr><tr><th>Website:</th><td colspan=2 ><a href=\"https://www.parkrun.pl/parkmiejskiwejherowo\">parkrun.pl/parkmiejskiwejherowo</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -48883,13 +48991,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Breakwater Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.ca/breakwater",
         "Country": "Canada",
         "State": "Ontario",
         "County": "Frontenac County",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Breakwater parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/breakwater\">parkrun.ca/breakwater</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Breakwater parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/breakwater\">parkrun.ca/breakwater</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -48967,13 +49080,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Dean Castle Country Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/deancastlecountrypark",
         "Country": "United Kingdom",
         "State": "Scotland",
         "County": "East Ayrshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Dean Castle Country Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/deancastlecountrypark\">parkrun.org.uk/deancastlecountrypark</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Dean Castle Country Park parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/deancastlecountrypark\">parkrun.org.uk/deancastlecountrypark</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -49476,13 +49594,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Dukeries Leisure Centre",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-05",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/dukeries-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Nottinghamshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Dukeries junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/dukeries-juniors\">parkrun.org.uk/dukeries-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Dukeries junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  5&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/dukeries-juniors\">parkrun.org.uk/dukeries-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -49728,13 +49851,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Ifield Mill Pond",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/ifieldmillpond",
         "Country": "United Kingdom",
         "State": "England",
         "County": "West Sussex",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ifield Mill Pond parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/ifieldmillpond\">parkrun.org.uk/ifieldmillpond</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ifield Mill Pond parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/ifieldmillpond\">parkrun.org.uk/ifieldmillpond</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -50760,13 +50888,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Ohio and Erie Canal Reservation",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Windchill and Unsafe Course (Icy)"
+          }
+        ],
         "Website": "https://www.parkrun.us/ohioanderiecanalreservation",
         "Country": "USA",
         "State": "Ohio",
         "County": "Cuyahoga",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ohio and Erie Canal Reservation parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/ohioanderiecanalreservation\">parkrun.us/ohioanderiecanalreservation</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ohio and Erie Canal Reservation parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Windchill and Unsafe Course (Icy)</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/ohioanderiecanalreservation\">parkrun.us/ohioanderiecanalreservation</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -51676,13 +51809,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Levengrove Park,",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/levengrove",
         "Country": "United Kingdom",
         "State": "Scotland",
         "County": "West Dunbartonshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Levengrove parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/levengrove\">parkrun.org.uk/levengrove</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Levengrove parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/levengrove\">parkrun.org.uk/levengrove</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -54225,13 +54363,18 @@
         "countrycode": 42,
         "seriesid": 2,
         "EventLocation": "St Mary\u2019s Health Campus",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-05",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.ie/stmaryscampus-juniors",
         "Country": "Ireland",
         "State": "Munster",
         "County": "Cork",
-        "description": "<h4 style=\"margin: 0 0 8px;\">St Mary\u2019s Campus junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/stmaryscampus-juniors\">parkrun.ie/stmaryscampus-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">St Mary\u2019s Campus junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  5&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/stmaryscampus-juniors\">parkrun.ie/stmaryscampus-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -55070,13 +55213,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Bower Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/bowerpark",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Cumbria",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bower Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/bowerpark\">parkrun.org.uk/bowerpark</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bower Park parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/bowerpark\">parkrun.org.uk/bowerpark</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -58014,13 +58162,17 @@
           {
             "DateCancelled": "2025-01-01",
             "ReasonCancelled": "Weather"
+          },
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Course unsafe or blocked"
           }
         ],
         "Website": "https://www.parkrun.org.uk/torvean",
         "Country": "United Kingdom",
         "State": "Scotland",
         "County": "Highland",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Torvean parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Wednesday,  1&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/torvean\">parkrun.org.uk/torvean</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Torvean parkrun</h4><table><tr><th>Status:</th><td colspan=2 >5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Wednesday,  1&nbsp;January&nbsp;2025</td><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td colspan=2 ><a href=\"https://www.parkrun.org.uk/torvean\">parkrun.org.uk/torvean</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -61181,13 +61333,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Edenbrook Country Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Cow field is ice rink"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/edenbrookcountry",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Hampshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Edenbrook Country parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/edenbrookcountry\">parkrun.org.uk/edenbrookcountry</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Edenbrook Country parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Cow field is ice rink</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/edenbrookcountry\">parkrun.org.uk/edenbrookcountry</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -61985,13 +62142,17 @@
           {
             "DateCancelled": "2025-01-01",
             "ReasonCancelled": "Weather"
+          },
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Weather"
           }
         ],
         "Website": "https://www.parkrun.org.uk/bramshallroad",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Staffordshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bramshall Road parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Wednesday,  1&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/bramshallroad\">parkrun.org.uk/bramshallroad</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bramshall Road parkrun</h4><table><tr><th>Status:</th><td colspan=2 >5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Wednesday,  1&nbsp;January&nbsp;2025</td><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td><td>Weather</td></tr><tr><th>Website:</th><td colspan=2 ><a href=\"https://www.parkrun.org.uk/bramshallroad\">parkrun.org.uk/bramshallroad</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -62527,13 +62688,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Limepark Playing Fields",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/limeparkplayingfields",
         "Country": "United Kingdom",
         "State": "Northern Ireland",
         "County": "Antrim",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Limepark Playing Fields parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/limeparkplayingfields\">parkrun.org.uk/limeparkplayingfields</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Limepark Playing Fields parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/limeparkplayingfields\">parkrun.org.uk/limeparkplayingfields</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -67703,13 +67869,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Aberfields",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Venue booked for Dancing on Ice practice"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/aberfields",
         "Country": "United Kingdom",
         "State": "Wales",
         "County": "County Borough of Bridgend",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Aberfields parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/aberfields\">parkrun.org.uk/aberfields</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Aberfields parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Venue booked for Dancing on Ice practice</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/aberfields\">parkrun.org.uk/aberfields</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -69156,13 +69327,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Fig Tree",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/figtree",
         "Country": "South Africa",
         "State": "KwaZulu-Natal",
         "County": "eThekwini Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Fig Tree parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/figtree\">parkrun.co.za/figtree</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Fig Tree parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/figtree\">parkrun.co.za/figtree</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -71632,13 +71808,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "The Fisherman\u2018s Walk",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/thefishermanswalk",
         "Country": "United Kingdom",
         "State": "Northern Ireland",
         "County": "Mid Ulster",
-        "description": "<h4 style=\"margin: 0 0 8px;\">The Fisherman\u2018s Walk parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/thefishermanswalk\">parkrun.org.uk/thefishermanswalk</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">The Fisherman\u2018s Walk parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/thefishermanswalk\">parkrun.org.uk/thefishermanswalk</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -72370,13 +72551,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Malling Rec",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/mallingrec",
         "Country": "United Kingdom",
         "State": "England",
         "County": "East Sussex",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Malling Rec parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/mallingrec\">parkrun.org.uk/mallingrec</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Malling Rec parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/mallingrec\">parkrun.org.uk/mallingrec</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -72599,13 +72785,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Three Brooks",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-04",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/threebrooks",
         "Country": "United Kingdom",
         "State": "England",
         "County": "South Gloucestershire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Three Brooks parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/threebrooks\">parkrun.org.uk/threebrooks</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Three Brooks parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  4&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/threebrooks\">parkrun.org.uk/threebrooks</a></td></tr></table>",
         "Special Days": {}
       }
     },
