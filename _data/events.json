@@ -50292,13 +50292,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Wyndham Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-12",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/wyndham-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Lincolnshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Wyndham junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wyndham-juniors\">parkrun.org.uk/wyndham-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Wyndham junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 12&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wyndham-juniors\">parkrun.org.uk/wyndham-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -73868,34 +73873,6 @@
         "State": "Limpopo",
         "County": "Capricorn District Municipality",
         "description": "<h4 style=\"margin: 0 0 8px;\">Ivydale parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ivydale\">parkrun.co.za/ivydale</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 3595,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.60786,
-          54.701027
-        ]
-      },
-      "properties": {
-        "eventname": "victoriajubilee-juniors",
-        "EventLongName": "Victoria Jubilee junior parkrun",
-        "EventShortName": "Victoria Jubilee juniors",
-        "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 2,
-        "EventLocation": "Victoria Jubilee juniors",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/victoriajubilee-juniors",
-        "Country": "United Kingdom",
-        "State": "England",
-        "County": "Durham",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Victoria Jubilee junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/victoriajubilee-juniors\">parkrun.org.uk/victoriajubilee-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
