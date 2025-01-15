@@ -52084,13 +52084,18 @@
         "countrycode": 64,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-18",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.co.nl/amsterdamsebos",
         "Country": "Netherlands",
         "State": "North Holland",
         "County": "Amstelveen",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Amsterdamse Bos parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nl/amsterdamsebos\">parkrun.co.nl/amsterdamsebos</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Amsterdamse Bos parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 18&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nl/amsterdamsebos\">parkrun.co.nl/amsterdamsebos</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -66928,13 +66933,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-18",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.ca/millennium",
         "Country": "Canada",
         "State": "Alberta",
         "County": "Canmore",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Millennium parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/millennium\">parkrun.ca/millennium</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Millennium parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 18&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/millennium\">parkrun.ca/millennium</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -74255,6 +74265,34 @@
         "State": "North West",
         "County": "Dr Kenneth Kaunda District Municipality",
         "description": "<h4 style=\"margin: 0 0 8px;\">Biki Byte parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/bikibyte\">parkrun.co.za/bikibyte</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3621,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.212029,
+          53.406138
+        ]
+      },
+      "properties": {
+        "eventname": "belcamp-juniors",
+        "EventLongName": "Belcamp junior parkrun",
+        "EventShortName": "Belcamp juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 42,
+        "seriesid": 2,
+        "EventLocation": "Belcamp juniors",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.ie/belcamp-juniors",
+        "Country": "Ireland",
+        "State": "Leinster",
+        "County": "Dublin City",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Belcamp junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/belcamp-juniors\">parkrun.ie/belcamp-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     }
