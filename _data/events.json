@@ -67666,13 +67666,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Coronation Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-01-26",
+            "ReasonCancelled": "No RD available"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/coronationpark-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Lancashire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Coronation Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/coronationpark-juniors\">parkrun.org.uk/coronationpark-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Coronation Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 26&nbsp;January&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>No RD available</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/coronationpark-juniors\">parkrun.org.uk/coronationpark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
