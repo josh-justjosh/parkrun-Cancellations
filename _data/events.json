@@ -22566,13 +22566,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Jells Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-02-01",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/jells",
         "Country": "Australia",
         "State": "Victoria",
         "County": "Monash",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Jells parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/jells\">parkrun.com.au/jells</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Jells parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;February&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/jells\">parkrun.com.au/jells</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -33238,13 +33243,18 @@
         "countrycode": 42,
         "seriesid": 2,
         "EventLocation": "Vicarstown",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-02-02",
+            "ReasonCancelled": "Juvenile athletics competition taking place"
+          }
+        ],
         "Website": "https://www.parkrun.ie/vicarstown-juniors",
         "Country": "Ireland",
         "State": "Leinster",
         "County": "Laois",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Vicarstown junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/vicarstown-juniors\">parkrun.ie/vicarstown-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Vicarstown junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  2&nbsp;February&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Juvenile athletics competition taking place</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/vicarstown-juniors\">parkrun.ie/vicarstown-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -52073,14 +52083,14 @@
         "Cancellations": [
           {
             "DateCancelled": "2025-02-01",
-            "ReasonCancelled": "Permission issue"
+            "ReasonCancelled": "Venue unavailable"
           }
         ],
         "Website": "https://www.parkrun.co.nl/amsterdamsebos",
         "Country": "Netherlands",
         "State": "North Holland",
         "County": "Amstelveen",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Amsterdamse Bos parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;February&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Permission issue</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nl/amsterdamsebos\">parkrun.co.nl/amsterdamsebos</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Amsterdamse Bos parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;February&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nl/amsterdamsebos\">parkrun.co.nl/amsterdamsebos</a></td></tr></table>",
         "Special Days": {}
       }
     },
