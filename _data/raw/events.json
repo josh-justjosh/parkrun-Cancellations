@@ -53223,6 +53223,26 @@
         }
       },
       {
+        "id": 3617,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138.640862,
+            -34.887194
+          ]
+        },
+        "properties": {
+          "eventname": "dragereserve",
+          "EventLongName": "Drage Reserve parkrun",
+          "EventShortName": "Drage Reserve",
+          "LocalisedEventLongName": null,
+          "countrycode": 3,
+          "seriesid": 1,
+          "EventLocation": "Drage Reserve"
+        }
+      },
+      {
         "id": 3618,
         "type": "Feature",
         "geometry": {
@@ -53300,6 +53320,26 @@
           "countrycode": 42,
           "seriesid": 2,
           "EventLocation": "Belcamp juniors"
+        }
+      },
+      {
+        "id": 3624,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.486713,
+            52.007399
+          ]
+        },
+        "properties": {
+          "eventname": "hinksleyparkrecground-juniors",
+          "EventLongName": "Hinksley Park Recreation Ground junior parkrun",
+          "EventShortName": "Hinksley Park Recreation Ground juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Hinksley Park Recreation Ground"
         }
       }
     ]
