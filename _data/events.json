@@ -48594,13 +48594,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Mount Stuart",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-02-08",
+            "ReasonCancelled": "Debris from storm still being cleared"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/mountstuart",
         "Country": "United Kingdom",
         "State": "Scotland",
         "County": "Argyll and Bute",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Mount Stuart parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/mountstuart\">parkrun.org.uk/mountstuart</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Mount Stuart parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;February&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Debris from storm still being cleared</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/mountstuart\">parkrun.org.uk/mountstuart</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -74266,13 +74271,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "NIAC juniors",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-02-09",
+            "ReasonCancelled": "Test event being run on 9th Feb"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/niac-juniors",
         "Country": "United Kingdom",
         "State": "Wales",
         "County": "Cardiff",
-        "description": "<h4 style=\"margin: 0 0 8px;\">NIAC junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/niac-juniors\">parkrun.org.uk/niac-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">NIAC junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  9&nbsp;February&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Test event being run on 9th Feb</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/niac-juniors\">parkrun.org.uk/niac-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
