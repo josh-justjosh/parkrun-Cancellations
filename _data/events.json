@@ -24610,13 +24610,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "The Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-02-23",
+            "ReasonCancelled": "Site has cancelled us to allow ground to recover"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/cheltenham-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Gloucestershire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cheltenham junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cheltenham-juniors\">parkrun.org.uk/cheltenham-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cheltenham junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 23&nbsp;February&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Site has cancelled us to allow ground to recover</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cheltenham-juniors\">parkrun.org.uk/cheltenham-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -74639,34 +74644,6 @@
         "State": "Leinster",
         "County": "Dublin City",
         "description": "<h4 style=\"margin: 0 0 8px;\">Belcamp junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/belcamp-juniors\">parkrun.ie/belcamp-juniors</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 3622,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -4.201428,
-          55.84069
-        ]
-      },
-      "properties": {
-        "eventname": "cuningarloop",
-        "EventLongName": "Cuningar Loop parkrun",
-        "EventShortName": "Cuningar Loop",
-        "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 1,
-        "EventLocation": "Cuningar Loop",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.org.uk/cuningarloop",
-        "Country": "United Kingdom",
-        "State": "Scotland",
-        "County": "South Lanarkshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cuningar Loop parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cuningarloop\">parkrun.org.uk/cuningarloop</a></td></tr></table>",
         "Special Days": {}
       }
     },
