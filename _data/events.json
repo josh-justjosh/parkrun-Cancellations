@@ -2511,13 +2511,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Whinfield Recreation Ground",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-02-22",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/rugby",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Warwickshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Rugby parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/rugby\">parkrun.org.uk/rugby</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Rugby parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;February&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/rugby\">parkrun.org.uk/rugby</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -34559,18 +34564,13 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Midvaal Sports and Conference Centre",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2025-02-22",
-            "ReasonCancelled": "Venue unavailable"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.co.za/meyerton",
         "Country": "South Africa",
         "State": "Gauteng",
         "County": "Sedibeng District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Meyerton parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 22&nbsp;February&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/meyerton\">parkrun.co.za/meyerton</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Meyerton parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/meyerton\">parkrun.co.za/meyerton</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -37493,34 +37493,6 @@
         "State": "England",
         "County": "Cheshire",
         "description": "<h4 style=\"margin: 0 0 8px;\">Northwich parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/northwich\">parkrun.org.uk/northwich</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 1910,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          153.306901,
-          -27.81877
-        ]
-      },
-      "properties": {
-        "eventname": "gainsboroughgreens",
-        "EventLongName": "Gainsborough Greens parkrun",
-        "EventShortName": "Gainsborough Greens",
-        "LocalisedEventLongName": null,
-        "countrycode": 3,
-        "seriesid": 1,
-        "EventLocation": "Wyperfield Circuit",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.com.au/gainsboroughgreens",
-        "Country": "Australia",
-        "State": "Queensland",
-        "County": "Gold Coast",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Gainsborough Greens parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/gainsboroughgreens\">parkrun.com.au/gainsboroughgreens</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -74743,6 +74715,34 @@
         "State": "England",
         "County": "Gloucestershire",
         "description": "<h4 style=\"margin: 0 0 8px;\">Burrow\u2019s Field junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/burrowsfield-juniors\">parkrun.org.uk/burrowsfield-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3629,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.299229,
+          -27.812345
+        ]
+      },
+      "properties": {
+        "eventname": "gainsboroughparklands",
+        "EventLongName": "Gainsborough Parklands parkrun",
+        "EventShortName": "Gainsborough Parklands",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "Gainsborough Parklands",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.au/gainsboroughparklands",
+        "Country": "Australia",
+        "State": "Queensland",
+        "County": "Gold Coast",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Gainsborough Parklands parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/gainsboroughparklands\">parkrun.com.au/gainsboroughparklands</a></td></tr></table>",
         "Special Days": {}
       }
     }
