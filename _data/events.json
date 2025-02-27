@@ -14085,6 +14085,39 @@
       }
     },
     {
+      "id": 583,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.854161,
+          -41.134246
+        ]
+      },
+      "properties": {
+        "eventname": "porirua",
+        "EventLongName": "Porirua parkrun",
+        "EventShortName": "Porirua",
+        "LocalisedEventLongName": null,
+        "countrycode": 65,
+        "seriesid": 1,
+        "EventLocation": "Bothamley Park",
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-03-01",
+            "ReasonCancelled": "Event Closed"
+          }
+        ],
+        "Website": "https://www.parkrun.co.nz/porirua",
+        "Country": "New Zealand",
+        "State": "Wellington Region",
+        "County": "Porirua City",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Porirua parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;March&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Event Closed</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/porirua\">parkrun.co.nz/porirua</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 584,
       "type": "Feature",
       "geometry": {
@@ -74895,6 +74928,34 @@
         "State": "England",
         "County": "Central Bedfordshire",
         "description": "<h4 style=\"margin: 0 0 8px;\">Hinksley Park Recreation Ground junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hinksleyparkrecground-juniors\">parkrun.org.uk/hinksleyparkrecground-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3625,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.278952,
+          -31.271095
+        ]
+      },
+      "properties": {
+        "eventname": "skyriverpath",
+        "EventLongName": "Sky River Path parkrun",
+        "EventShortName": "Sky River Path",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "Sky River Path",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.au/skyriverpath",
+        "Country": "Australia",
+        "State": "New South Wales",
+        "County": "Warrumbungle Shire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Sky River Path parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/skyriverpath\">parkrun.com.au/skyriverpath</a></td></tr></table>",
         "Special Days": {}
       }
     },
