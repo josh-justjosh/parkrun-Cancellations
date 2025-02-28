@@ -10313,39 +10313,6 @@
       }
     },
     {
-      "id": 418,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.42901,
-          45.065926
-        ]
-      },
-      "properties": {
-        "eventname": "lesdougnes",
-        "EventLongName": "parkrun des Dougnes, Cubnezais",
-        "EventShortName": "Les Dougnes",
-        "LocalisedEventLongName": null,
-        "countrycode": 31,
-        "seriesid": 1,
-        "EventLocation": "Espace de Loisirs des Dougnes",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2025-03-01",
-            "ReasonCancelled": "parkrun est actuellement suspendu en France"
-          }
-        ],
-        "Website": "https://www.parkrun.fr/lesdougnes",
-        "Country": "France",
-        "State": "Nouvelle-Aquitaine",
-        "County": "Gironde",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun des Dougnes, Cubnezais</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;March&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>parkrun est actuellement suspendu en France</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fr/lesdougnes\">parkrun.fr/lesdougnes</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
       "id": 419,
       "type": "Feature",
       "geometry": {
@@ -27287,72 +27254,6 @@
       }
     },
     {
-      "id": 1393,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.257737,
-          48.859573
-        ]
-      },
-      "properties": {
-        "eventname": "boisdeboulogne",
-        "EventLongName": "parkrun du Bois de Boulogne, Paris",
-        "EventShortName": "Bois de Boulogne",
-        "LocalisedEventLongName": null,
-        "countrycode": 31,
-        "seriesid": 1,
-        "EventLocation": "Bois de Boulogne",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2025-03-01",
-            "ReasonCancelled": "parkrun est actuellement suspendu en France"
-          }
-        ],
-        "Website": "https://www.parkrun.fr/boisdeboulogne",
-        "Country": "France",
-        "State": "\u00cele-de-France",
-        "County": "Paris",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun du Bois de Boulogne, Paris</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;March&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>parkrun est actuellement suspendu en France</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fr/boisdeboulogne\">parkrun.fr/boisdeboulogne</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 1394,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.267379,
-          46.882182
-        ]
-      },
-      "properties": {
-        "eventname": "chateaudepierredebresse",
-        "EventLongName": "parkrun du Ch\u00e2teau de Pierre de Bresse",
-        "EventShortName": "Ch\u00e2teau de Pierre de Bresse",
-        "LocalisedEventLongName": null,
-        "countrycode": 31,
-        "seriesid": 1,
-        "EventLocation": "Ch\u00e2teau de Pierre de Bresse",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2025-03-01",
-            "ReasonCancelled": "parkrun est actuellement suspendu en France"
-          }
-        ],
-        "Website": "https://www.parkrun.fr/chateaudepierredebresse",
-        "Country": "France",
-        "State": "Bourgogne-Franche-Comt\u00e9",
-        "County": "Sa\u00f4ne-et-Loire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun du Ch\u00e2teau de Pierre de Bresse</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;March&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>parkrun est actuellement suspendu en France</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fr/chateaudepierredebresse\">parkrun.fr/chateaudepierredebresse</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
       "id": 1395,
       "type": "Feature",
       "geometry": {
@@ -28533,13 +28434,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Zululand Multi Sport Club",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-03-01",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/richardsbay",
         "Country": "South Africa",
         "State": "KwaZulu-Natal",
         "County": "uThungulu District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Richards Bay parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/richardsbay\">parkrun.co.za/richardsbay</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Richards Bay parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;March&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/richardsbay\">parkrun.co.za/richardsbay</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -28708,39 +28614,6 @@
         "State": "England",
         "County": "Oxfordshire",
         "description": "<h4 style=\"margin: 0 0 8px;\">Bicester parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/bicester\">parkrun.org.uk/bicester</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 1453,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.348135,
-          43.564162
-        ]
-      },
-      "properties": {
-        "eventname": "laramee",
-        "EventLongName": "parkrun de la Ram\u00e9e",
-        "EventShortName": "la Ram\u00e9e",
-        "LocalisedEventLongName": "parkrun de la Ram\u00e9e",
-        "countrycode": 31,
-        "seriesid": 1,
-        "EventLocation": "Base de Sports et de Loisirs de la Ram\u00e9e",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2025-03-01",
-            "ReasonCancelled": "parkrun est actuellement suspendu en France"
-          }
-        ],
-        "Website": "https://www.parkrun.fr/laramee",
-        "Country": "France",
-        "State": "Occitanie",
-        "County": "Upper Garonne",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun de la Ram\u00e9e</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;March&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>parkrun est actuellement suspendu en France</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fr/laramee\">parkrun.fr/laramee</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -30402,39 +30275,6 @@
       }
     },
     {
-      "id": 1535,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.3408,
-          48.821115
-        ]
-      },
-      "properties": {
-        "eventname": "montsouris",
-        "EventLongName": "parkrun de Montsouris",
-        "EventShortName": "Montsouris",
-        "LocalisedEventLongName": null,
-        "countrycode": 31,
-        "seriesid": 1,
-        "EventLocation": "Montsouris",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2025-03-01",
-            "ReasonCancelled": "parkrun est actuellement suspendu en France"
-          }
-        ],
-        "Website": "https://www.parkrun.fr/montsouris",
-        "Country": "France",
-        "State": "\u00cele-de-France",
-        "County": "Paris",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun de Montsouris</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;March&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>parkrun est actuellement suspendu en France</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fr/montsouris\">parkrun.fr/montsouris</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
       "id": 1536,
       "type": "Feature",
       "geometry": {
@@ -30627,39 +30467,6 @@
         "State": "New South Wales",
         "County": "Penrith Municipality",
         "description": "<h4 style=\"margin: 0 0 8px;\">Nepean River parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/nepeanriver\">parkrun.com.au/nepeanriver</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 1545,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.705253,
-          48.403585
-        ]
-      },
-      "properties": {
-        "eventname": "fontainebleau",
-        "EventLongName": "parkrun de Fontainebleau",
-        "EventShortName": "Fontainebleau",
-        "LocalisedEventLongName": null,
-        "countrycode": 31,
-        "seriesid": 1,
-        "EventLocation": "Fontainebleau",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2025-03-01",
-            "ReasonCancelled": "parkrun est actuellement suspendu en France"
-          }
-        ],
-        "Website": "https://www.parkrun.fr/fontainebleau",
-        "Country": "France",
-        "State": "\u00cele-de-France",
-        "County": "Seine-et-Marne",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun de Fontainebleau</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;March&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>parkrun est actuellement suspendu en France</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fr/fontainebleau\">parkrun.fr/fontainebleau</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -31834,13 +31641,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Waterfront Trail, Whitby Shores",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-03-01",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.ca/whitby",
         "Country": "Canada",
         "State": "Ontario",
         "County": "Durham",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Whitby parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/whitby\">parkrun.ca/whitby</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Whitby parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;March&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/whitby\">parkrun.ca/whitby</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -32238,39 +32050,6 @@
         "State": "Western Australia",
         "County": "Melville",
         "description": "<h4 style=\"margin: 0 0 8px;\">Applecross parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/applecross\">parkrun.com.au/applecross</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 1669,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.146281,
-          46.352593
-        ]
-      },
-      "properties": {
-        "eventname": "lacdedivonne",
-        "EventLongName": "parkrun du Lac de Divonne",
-        "EventShortName": "Lac de Divonne",
-        "LocalisedEventLongName": "parkrun du Lac de Divonne",
-        "countrycode": 31,
-        "seriesid": 1,
-        "EventLocation": "Lac de Divonne",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2025-03-01",
-            "ReasonCancelled": "parkrun est actuellement suspendu en France"
-          }
-        ],
-        "Website": "https://www.parkrun.fr/lacdedivonne",
-        "Country": "France",
-        "State": "Auvergne-Rh\u00f4ne-Alpes",
-        "County": "Ain",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun du Lac de Divonne</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;March&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>parkrun est actuellement suspendu en France</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fr/lacdedivonne\">parkrun.fr/lacdedivonne</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -33154,39 +32933,6 @@
         "State": "Mpumalanga",
         "County": "Ehlanzeni District",
         "description": "<h4 style=\"margin: 0 0 8px;\">Hazyview parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/hazyview\">parkrun.co.za/hazyview</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 1710,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.072794,
-          49.44128
-        ]
-      },
-      "properties": {
-        "eventname": "rouen",
-        "EventLongName": "parkrun de Rouen",
-        "EventShortName": "Rouen",
-        "LocalisedEventLongName": "parkrun de Rouen",
-        "countrycode": 31,
-        "seriesid": 1,
-        "EventLocation": "Rouen",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2025-03-01",
-            "ReasonCancelled": "parkrun est actuellement suspendu en France"
-          }
-        ],
-        "Website": "https://www.parkrun.fr/rouen",
-        "Country": "France",
-        "State": "Normandy",
-        "County": "Seine-Maritime",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun de Rouen</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;March&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>parkrun est actuellement suspendu en France</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fr/rouen\">parkrun.fr/rouen</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -36415,13 +36161,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Oldends Lane Playing Fields",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-03-02",
+            "ReasonCancelled": "Waterlogged course"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/stonehouse-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Gloucestershire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Stonehouse junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/stonehouse-juniors\">parkrun.org.uk/stonehouse-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Stonehouse junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  2&nbsp;March&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Waterlogged course</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/stonehouse-juniors\">parkrun.org.uk/stonehouse-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -46076,13 +45827,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Hanworth Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-03-01",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/hanworth",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Greater London",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hanworth parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hanworth\">parkrun.org.uk/hanworth</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hanworth parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;March&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hanworth\">parkrun.org.uk/hanworth</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -57384,13 +57140,18 @@
         "countrycode": 30,
         "seriesid": 1,
         "EventLocation": "Pokkinen",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-03-01",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.fi/pokkinen",
         "Country": "Finland",
         "State": "North Ostrobothnia",
         "County": "Oulu",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Pokkinen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fi/pokkinen\">parkrun.fi/pokkinen</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Pokkinen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;March&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fi/pokkinen\">parkrun.fi/pokkinen</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -58766,13 +58527,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "East Coast Brewery",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-03-01",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/eastcoastbrewery",
         "Country": "South Africa",
         "State": "KwaZulu-Natal",
         "County": "eThekwini Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">East Coast Brewery parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/eastcoastbrewery\">parkrun.co.za/eastcoastbrewery</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">East Coast Brewery parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;March&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/eastcoastbrewery\">parkrun.co.za/eastcoastbrewery</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -66671,13 +66437,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Riverside Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-03-01",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.us/riversidegrandrapids",
         "Country": "USA",
         "State": "Michigan",
         "County": "Kent",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Riverside parkrun, Grand Rapids</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/riversidegrandrapids\">parkrun.us/riversidegrandrapids</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Riverside parkrun, Grand Rapids</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;March&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/riversidegrandrapids\">parkrun.us/riversidegrandrapids</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -70099,13 +69870,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Cutler Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-03-01",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.us/cutlerpark",
         "Country": "USA",
         "State": "Massachusetts",
         "County": "Norfolk",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cutler Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/cutlerpark\">parkrun.us/cutlerpark</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cutler Park parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  1&nbsp;March&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/cutlerpark\">parkrun.us/cutlerpark</a></td></tr></table>",
         "Special Days": {}
       }
     },
