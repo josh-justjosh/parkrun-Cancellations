@@ -43,7 +43,7 @@ jobs:
       run: python 'parkrun data.py'
     
     - name: Get Current Time
-      uses: gerred/actions/current-time@master
+      uses: josStorer/get-current-time@v2.1.2
       id: current-time
     
     - name: Write Time to File
