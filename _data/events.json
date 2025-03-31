@@ -21547,13 +21547,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "RSPB Nature Reserve, Conwy",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-04-05",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/conwy",
         "Country": "United Kingdom",
         "State": "Wales",
         "County": "Conwy",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Conwy parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/conwy\">parkrun.org.uk/conwy</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Conwy parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;April&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/conwy\">parkrun.org.uk/conwy</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -55325,34 +55330,6 @@
       }
     },
     {
-      "id": 2800,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          136.836501,
-          35.35618
-        ]
-      },
-      "properties": {
-        "eventname": "hondajima",
-        "EventLongName": "Hondajima parkrun",
-        "EventShortName": "Hondajima",
-        "LocalisedEventLongName": "\u672c\u7530\u5cf6parkrun",
-        "countrycode": 46,
-        "seriesid": 1,
-        "EventLocation": "",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.jp/hondajima",
-        "Country": "Japan",
-        "State": "Aichi",
-        "County": "K\u014dnan-shi",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hondajima parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/hondajima\">parkrun.jp/hondajima</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
       "id": 2801,
       "type": "Feature",
       "geometry": {
@@ -68723,13 +68700,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Mapule Sindane School",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-04-05",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/mapulesindaneschool",
         "Country": "South Africa",
         "State": "Mpumalanga",
         "County": "Nkangala District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Mapule Sindane School parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/mapulesindaneschool\">parkrun.co.za/mapulesindaneschool</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Mapule Sindane School parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;April&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/mapulesindaneschool\">parkrun.co.za/mapulesindaneschool</a></td></tr></table>",
         "Special Days": {}
       }
     },
