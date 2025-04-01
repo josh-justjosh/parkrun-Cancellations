@@ -43145,6 +43145,39 @@
       }
     },
     {
+      "id": 2188,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.675487,
+          51.990688
+        ]
+      },
+      "properties": {
+        "eventname": "fireservicecollege",
+        "EventLongName": "Fire Service College parkrun",
+        "EventShortName": "Fire Service College",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Fire Service College",
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-04-05",
+            "ReasonCancelled": "Event Closed"
+          }
+        ],
+        "Website": "https://www.parkrun.org.uk/fireservicecollege",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Gloucestershire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Fire Service College parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;April&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Event Closed</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/fireservicecollege\">parkrun.org.uk/fireservicecollege</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 2189,
       "type": "Feature",
       "geometry": {
@@ -63601,39 +63634,6 @@
         "State": "England",
         "County": "North Somerset",
         "description": "<h4 style=\"margin: 0 0 8px;\">Clevedon Seafront junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/clevedonseafront-juniors\">parkrun.org.uk/clevedonseafront-juniors</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 3177,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.655677,
-          51.995091
-        ]
-      },
-      "properties": {
-        "eventname": "wolfordwood",
-        "EventLongName": "Wolford Wood parkrun",
-        "EventShortName": "Wolford Wood",
-        "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 1,
-        "EventLocation": "Wolford Wood",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2025-04-05",
-            "ReasonCancelled": "Venue unavailable"
-          }
-        ],
-        "Website": "https://www.parkrun.org.uk/wolfordwood",
-        "Country": "United Kingdom",
-        "State": "England",
-        "County": "Warwickshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Wolford Wood parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;April&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wolfordwood\">parkrun.org.uk/wolfordwood</a></td></tr></table>",
         "Special Days": {}
       }
     },
