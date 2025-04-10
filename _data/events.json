@@ -1895,13 +1895,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Chantry Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-04-12",
+            "ReasonCancelled": "Permission issue"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/ipswich",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Suffolk",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ipswich parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/ipswich\">parkrun.org.uk/ipswich</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ipswich parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;April&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Permission issue</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/ipswich\">parkrun.org.uk/ipswich</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -42045,13 +42050,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Riviera on Vaal Country Club",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-04-12",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/rivieraonvaal",
         "Country": "South Africa",
         "State": "Gauteng",
         "County": "Sedibeng District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Riviera on Vaal parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/rivieraonvaal\">parkrun.co.za/rivieraonvaal</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Riviera on Vaal parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;April&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/rivieraonvaal\">parkrun.co.za/rivieraonvaal</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -52529,13 +52539,18 @@
         "countrycode": 64,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-04-12",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.co.nl/goffert",
         "Country": "Netherlands",
         "State": "Gelderland",
         "County": "Gemeente Nijmegen",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Goffert parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nl/goffert\">parkrun.co.nl/goffert</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Goffert parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;April&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nl/goffert\">parkrun.co.nl/goffert</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -75219,6 +75234,34 @@
         "State": "North West",
         "County": "Bojanala Platinum",
         "description": "<h4 style=\"margin: 0 0 8px;\">Sun City parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/suncity\">parkrun.co.za/suncity</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3651,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.493585,
+          52.618807
+        ]
+      },
+      "properties": {
+        "eventname": "lingwoodvillagehall-juniors",
+        "EventLongName": "Lingwood Village Hall junior parkrun",
+        "EventShortName": "Lingwood Village Hall juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Lingwood Village Hall juniors",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/lingwoodvillagehall-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Norfolk",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Lingwood Village Hall junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/lingwoodvillagehall-juniors\">parkrun.org.uk/lingwoodvillagehall-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     }
