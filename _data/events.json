@@ -31713,13 +31713,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Kroonstad",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-04-12",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/kroonstad",
         "Country": "South Africa",
         "State": "Orange Free State",
         "County": "Fezile Dabi District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Kroonstad parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kroonstad\">parkrun.co.za/kroonstad</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Kroonstad parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;April&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kroonstad\">parkrun.co.za/kroonstad</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -51416,13 +51421,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Matlosana Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-04-12",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/matlosanabird",
         "Country": "South Africa",
         "State": "North-West",
         "County": "Dr Kenneth Kaunda District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Matlosana Bird parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/matlosanabird\">parkrun.co.za/matlosanabird</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Matlosana Bird parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;April&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/matlosanabird\">parkrun.co.za/matlosanabird</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -58138,13 +58148,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Egweni River Lodge",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-04-12",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/egweniriverlodge",
         "Country": "South Africa",
         "State": "Orange Free State",
         "County": "Fezile Dabi District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Egweni River Lodge parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/egweniriverlodge\">parkrun.co.za/egweniriverlodge</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Egweni River Lodge parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;April&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/egweniriverlodge\">parkrun.co.za/egweniriverlodge</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -75153,6 +75168,62 @@
       }
     },
     {
+      "id": 3643,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.182258,
+          50.904574
+        ]
+      },
+      "properties": {
+        "eventname": "meonvalleytrailwickham",
+        "EventLongName": "Meon Valley Trail parkrun, Wickham",
+        "EventShortName": "Meon Valley Trail, Wickham",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Meon Valley Trail, Wickham",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/meonvalleytrailwickham",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Hampshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Meon Valley Trail parkrun, Wickham</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/meonvalleytrailwickham\">parkrun.org.uk/meonvalleytrailwickham</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3644,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.875777,
+          56.622075
+        ]
+      },
+      "properties": {
+        "eventname": "feldyroofitnesstrail",
+        "EventLongName": "FeldyRoo Fitness Trail parkrun",
+        "EventShortName": "FeldyRoo Fitness Trail",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "FeldyRoo Fitness Trail",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/feldyroofitnesstrail",
+        "Country": "United Kingdom",
+        "State": "Scotland",
+        "County": "Perth and Kinross",
+        "description": "<h4 style=\"margin: 0 0 8px;\">FeldyRoo Fitness Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/feldyroofitnesstrail\">parkrun.org.uk/feldyroofitnesstrail</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 3645,
       "type": "Feature",
       "geometry": {
@@ -75317,6 +75388,34 @@
         "State": "England",
         "County": "Norfolk",
         "description": "<h4 style=\"margin: 0 0 8px;\">Lingwood Village Hall junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/lingwoodvillagehall-juniors\">parkrun.org.uk/lingwoodvillagehall-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3653,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.161037,
+          43.958451
+        ]
+      },
+      "properties": {
+        "eventname": "victoriaparkbeachcobourg",
+        "EventLongName": "Victoria Park Beach parkrun, Cobourg",
+        "EventShortName": "Victoria Park Beach, Cobourg",
+        "LocalisedEventLongName": null,
+        "countrycode": 14,
+        "seriesid": 1,
+        "EventLocation": "Victoria Park Beach, Cobourg",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.ca/victoriaparkbeachcobourg",
+        "Country": "Canada",
+        "State": "Ontario",
+        "County": "Northumberland County",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Victoria Park Beach parkrun, Cobourg</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/victoriaparkbeachcobourg\">parkrun.ca/victoriaparkbeachcobourg</a></td></tr></table>",
         "Special Days": {}
       }
     }
