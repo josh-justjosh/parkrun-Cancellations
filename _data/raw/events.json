@@ -53812,6 +53812,46 @@
           "seriesid": 1,
           "EventLocation": "Victoria Park Beach, Cobourg"
         }
+      },
+      {
+        "id": 3655,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.067444,
+            51.61618
+          ]
+        },
+        "properties": {
+          "eventname": "pymmes-juniors",
+          "EventLongName": "Pymmes junior parkrun",
+          "EventShortName": "Pymmes juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Pymmes juniors"
+        }
+      },
+      {
+        "id": 3657,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.9663,
+            54.60855
+          ]
+        },
+        "properties": {
+          "eventname": "woodvale-juniors",
+          "EventLongName": "Woodvale junior parkrun",
+          "EventShortName": "Woodvale juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Woodvale juniors"
+        }
       }
     ]
   }
