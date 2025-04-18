@@ -53852,6 +53852,46 @@
           "seriesid": 2,
           "EventLocation": "Woodvale juniors"
         }
+      },
+      {
+        "id": 3660,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -98.515346,
+            33.919283
+          ]
+        },
+        "properties": {
+          "eventname": "lucypark",
+          "EventLongName": "Lucy Park parkrun",
+          "EventShortName": "Lucy Park",
+          "LocalisedEventLongName": null,
+          "countrycode": 98,
+          "seriesid": 1,
+          "EventLocation": "Lucy Park"
+        }
+      },
+      {
+        "id": 3661,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -70.39435,
+            43.690214
+          ]
+        },
+        "properties": {
+          "eventname": "shawcherryhillfarm",
+          "EventLongName": "Shaw Cherry Hill Farm parkrun",
+          "EventShortName": "Shaw Cherry Hill Farm",
+          "LocalisedEventLongName": null,
+          "countrycode": 98,
+          "seriesid": 1,
+          "EventLocation": "Shaw Cherry Hill Farm"
+        }
       }
     ]
   }
