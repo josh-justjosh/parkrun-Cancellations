@@ -33397,13 +33397,18 @@
         "countrycode": 42,
         "seriesid": 1,
         "EventLocation": "Aileach Rd, Buncrana",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-04-19",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.ie/buncrana",
         "Country": "Ireland",
         "State": "Ulster",
         "County": "Donegal",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Buncrana parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/buncrana\">parkrun.ie/buncrana</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Buncrana parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 19&nbsp;April&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/buncrana\">parkrun.ie/buncrana</a></td></tr></table>",
         "Special Days": {}
       }
     },
