@@ -47584,9 +47584,9 @@
           ]
         },
         "properties": {
-          "eventname": "dromlenalawn-juniors",
-          "EventLongName": "Dromlena Lawn junior parkrun",
-          "EventShortName": "Dromlena Lawn juniors",
+          "eventname": "dromleenalawn-juniors",
+          "EventLongName": "Dromleena Lawn junior parkrun",
+          "EventShortName": "Dromleena Lawn juniors",
           "LocalisedEventLongName": null,
           "countrycode": 42,
           "seriesid": 2,
@@ -53891,6 +53891,26 @@
           "countrycode": 98,
           "seriesid": 1,
           "EventLocation": "Shaw Cherry Hill Farm"
+        }
+      },
+      {
+        "id": 3662,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -79.990629,
+            40.453551
+          ]
+        },
+        "properties": {
+          "eventname": "threeriversheritagetrail",
+          "EventLongName": "Three Rivers Heritage Trail parkrun",
+          "EventShortName": "Three Rivers Heritage Trail",
+          "LocalisedEventLongName": null,
+          "countrycode": 98,
+          "seriesid": 1,
+          "EventLocation": "Three Rivers Heritage Trail"
         }
       }
     ]
