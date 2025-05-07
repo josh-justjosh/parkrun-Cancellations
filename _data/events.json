@@ -6835,13 +6835,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Woking Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-05-11",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/woking-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Surrey",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Woking junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/woking-juniors\">parkrun.org.uk/woking-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Woking junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 11&nbsp;May&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/woking-juniors\">parkrun.org.uk/woking-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -70082,13 +70087,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Jeune Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-05-10",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/jeunepark",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Scenic Rim",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Jeune Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/jeunepark\">parkrun.com.au/jeunepark</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Jeune Park parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 10&nbsp;May&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/jeunepark\">parkrun.com.au/jeunepark</a></td></tr></table>",
         "Special Days": {}
       }
     },
