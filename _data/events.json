@@ -71118,39 +71118,6 @@
       }
     },
     {
-      "id": 3492,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          147.97849,
-          -29.418312
-        ]
-      },
-      "properties": {
-        "eventname": "lightningridge",
-        "EventLongName": "Lightning Ridge parkrun",
-        "EventShortName": "Lightning Ridge",
-        "LocalisedEventLongName": null,
-        "countrycode": 3,
-        "seriesid": 1,
-        "EventLocation": "Lightning Ridge",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2025-05-17",
-            "ReasonCancelled": "Permission issue"
-          }
-        ],
-        "Website": "https://www.parkrun.com.au/lightningridge",
-        "Country": "Australia",
-        "State": "New South Wales",
-        "County": "Walgett",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Lightning Ridge parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 17&nbsp;May&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Permission issue</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/lightningridge\">parkrun.com.au/lightningridge</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
       "id": 3493,
       "type": "Feature",
       "geometry": {
@@ -76146,6 +76113,34 @@
         "State": "England",
         "County": "North Somerset",
         "description": "<h4 style=\"margin: 0 0 8px;\">Portishead Esplanade junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/portisheadesplanade-juniors\">parkrun.org.uk/portisheadesplanade-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3682,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.937769,
+          29.776255
+        ]
+      },
+      "properties": {
+        "eventname": "jenkinspark",
+        "EventLongName": "Jenkins Park parkrun",
+        "EventShortName": "Jenkins Park",
+        "LocalisedEventLongName": null,
+        "countrycode": 98,
+        "seriesid": 1,
+        "EventLocation": "Jenkins Park",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.us/jenkinspark",
+        "Country": "USA",
+        "State": "Texas",
+        "County": "Harris",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Jenkins Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/jenkinspark\">parkrun.us/jenkinspark</a></td></tr></table>",
         "Special Days": {}
       }
     }
