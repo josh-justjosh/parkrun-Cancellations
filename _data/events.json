@@ -76209,6 +76209,62 @@
         "description": "<h4 style=\"margin: 0 0 8px;\">Jenkins Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/jenkinspark\">parkrun.us/jenkinspark</a></td></tr></table>",
         "Special Days": {}
       }
+    },
+    {
+      "id": 3684,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.581454,
+          34.639798
+        ]
+      },
+      "properties": {
+        "eventname": "haysfarm",
+        "EventLongName": "Hays Farm parkrun",
+        "EventShortName": "Hays Farm",
+        "LocalisedEventLongName": null,
+        "countrycode": 98,
+        "seriesid": 1,
+        "EventLocation": "Hays Farm",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.us/haysfarm",
+        "Country": "USA",
+        "State": "Alabama",
+        "County": "Madison",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hays Farm parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/haysfarm\">parkrun.us/haysfarm</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3685,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.659856,
+          -43.521325
+        ]
+      },
+      "properties": {
+        "eventname": "riverlution",
+        "EventLongName": "Riverlution parkrun",
+        "EventShortName": "Riverlution",
+        "LocalisedEventLongName": null,
+        "countrycode": 65,
+        "seriesid": 1,
+        "EventLocation": "Riverlution",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.nz/riverlution",
+        "Country": "New Zealand",
+        "State": "Canterbury",
+        "County": "Christchurch City",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Riverlution parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/riverlution\">parkrun.co.nz/riverlution</a></td></tr></table>",
+        "Special Days": {}
+      }
     }
   ]
 }

@@ -54352,6 +54352,46 @@
           "seriesid": 1,
           "EventLocation": "Jenkins Park"
         }
+      },
+      {
+        "id": 3684,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -86.581454,
+            34.639798
+          ]
+        },
+        "properties": {
+          "eventname": "haysfarm",
+          "EventLongName": "Hays Farm parkrun",
+          "EventShortName": "Hays Farm",
+          "LocalisedEventLongName": null,
+          "countrycode": 98,
+          "seriesid": 1,
+          "EventLocation": "Hays Farm"
+        }
+      },
+      {
+        "id": 3685,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            172.659856,
+            -43.521325
+          ]
+        },
+        "properties": {
+          "eventname": "riverlution",
+          "EventLongName": "Riverlution parkrun",
+          "EventShortName": "Riverlution",
+          "LocalisedEventLongName": null,
+          "countrycode": 65,
+          "seriesid": 1,
+          "EventLocation": "Riverlution"
+        }
       }
     ]
   }
