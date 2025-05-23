@@ -21276,13 +21276,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Temple Newsam Estate",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-05-25",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/templenewsam-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Leeds",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Temple Newsam junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/templenewsam-juniors\">parkrun.org.uk/templenewsam-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Temple Newsam junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 25&nbsp;May&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/templenewsam-juniors\">parkrun.org.uk/templenewsam-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -32736,13 +32741,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Bethlehem Christian Centre and Caritas C",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-05-24",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/bethlehem",
         "Country": "South Africa",
         "State": "Orange Free State",
         "County": "Thabo Mofutsanyana District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bethlehem parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/bethlehem\">parkrun.co.za/bethlehem</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bethlehem parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 24&nbsp;May&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/bethlehem\">parkrun.co.za/bethlehem</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -63232,13 +63242,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Stopline Way",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-05-25",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/stoplineway-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Devon",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Stopline Way junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/stoplineway-juniors\">parkrun.org.uk/stoplineway-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Stopline Way junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 25&nbsp;May&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/stoplineway-juniors\">parkrun.org.uk/stoplineway-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -76228,6 +76243,34 @@
         "State": "Eastern Cape",
         "County": "Sarah Baartman District Municipality",
         "description": "<h4 style=\"margin: 0 0 8px;\">Plaatbos Nature Reserve parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/plaatbosnaturereserve\">parkrun.co.za/plaatbosnaturereserve</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3672,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.586547,
+          52.773488
+        ]
+      },
+      "properties": {
+        "eventname": "coronationpark",
+        "EventLongName": "Coronation Park parkrun",
+        "EventShortName": "Coronation Park",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Coronation Park",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/coronationpark",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Derbyshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Coronation Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/coronationpark\">parkrun.org.uk/coronationpark</a></td></tr></table>",
         "Special Days": {}
       }
     },
