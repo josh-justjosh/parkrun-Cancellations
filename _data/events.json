@@ -45604,13 +45604,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Tyne Green",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-05-31",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/tynegreen",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Northumberland",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Tyne Green parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/tynegreen\">parkrun.org.uk/tynegreen</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Tyne Green parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 31&nbsp;May&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/tynegreen\">parkrun.org.uk/tynegreen</a></td></tr></table>",
         "Special Days": {}
       }
     },
