@@ -1534,26 +1534,6 @@
         }
       },
       {
-        "id": 74,
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            1.116032,
-            52.050923
-          ]
-        },
-        "properties": {
-          "eventname": "ipswich",
-          "EventLongName": "Ipswich parkrun",
-          "EventShortName": "Ipswich",
-          "LocalisedEventLongName": null,
-          "countrycode": 97,
-          "seriesid": 1,
-          "EventLocation": "Chantry Park"
-        }
-      },
-      {
         "id": 75,
         "type": "Feature",
         "geometry": {
@@ -54471,6 +54451,26 @@
           "countrycode": 65,
           "seriesid": 1,
           "EventLocation": "Te Awa"
+        }
+      },
+      {
+        "id": 3694,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            137.212694,
+            36.708301
+          ]
+        },
+        "properties": {
+          "eventname": "fuganungakansuikoen",
+          "EventLongName": "Fugan unga kansui koen parkrun",
+          "EventShortName": "Fugan unga kansui koen",
+          "LocalisedEventLongName": "\u5bcc\u5ca9\u904b\u6cb3\u74b0\u6c34\u516c\u5712parkrun",
+          "countrycode": 46,
+          "seriesid": 1,
+          "EventLocation": "Fugan unga kansui koen"
         }
       }
     ]
