@@ -30356,13 +30356,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Worcester",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-06-07",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/breedevalley",
         "Country": "South Africa",
         "State": "Western Cape",
         "County": "Cape Winelands District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Breede Valley parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/breedevalley\">parkrun.co.za/breedevalley</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Breede Valley parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  7&nbsp;June&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/breedevalley\">parkrun.co.za/breedevalley</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -44270,13 +44275,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Newhaven and Seaford Sailing Club",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-06-07",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/seafordbeach",
         "Country": "United Kingdom",
         "State": "England",
         "County": "East Sussex",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Seaford Beach parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/seafordbeach\">parkrun.org.uk/seafordbeach</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Seaford Beach parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  7&nbsp;June&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/seafordbeach\">parkrun.org.uk/seafordbeach</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -62717,13 +62727,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Weltevrede Wine Estate",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-06-07",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/weltevredewineestate",
         "Country": "South Africa",
         "State": "Western Cape",
         "County": "Cape Winelands District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Weltevrede Wine Estate parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/weltevredewineestate\">parkrun.co.za/weltevredewineestate</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Weltevrede Wine Estate parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  7&nbsp;June&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/weltevredewineestate\">parkrun.co.za/weltevredewineestate</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -76466,6 +76481,34 @@
       }
     },
     {
+      "id": 3683,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.880411,
+          51.697844
+        ]
+      },
+      "properties": {
+        "eventname": "parccoedgwilym",
+        "EventLongName": "Parc Coed Gwilym parkrun",
+        "EventShortName": "Parc Coed Gwilym",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Parc Coed Gwilym",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/parccoedgwilym",
+        "Country": "United Kingdom",
+        "State": "Wales",
+        "County": "City and County of Swansea",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Parc Coed Gwilym parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/parccoedgwilym\">parkrun.org.uk/parccoedgwilym</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 3684,
       "type": "Feature",
       "geometry": {
@@ -76630,6 +76673,34 @@
         "State": "Toyama",
         "County": "Toyama Shi",
         "description": "<h4 style=\"margin: 0 0 8px;\">Fugan unga kansui koen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/fuganungakansuikoen\">parkrun.jp/fuganungakansuikoen</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3695,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.833296,
+          53.058341
+        ]
+      },
+      "properties": {
+        "eventname": "werdersee",
+        "EventLongName": "Werdersee parkrun",
+        "EventShortName": "Werdersee",
+        "LocalisedEventLongName": null,
+        "countrycode": 32,
+        "seriesid": 1,
+        "EventLocation": "Werdersee",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.de/werdersee",
+        "Country": "Germany",
+        "State": "City state Bremen",
+        "County": "-Unknown-",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Werdersee parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/werdersee\">parkrun.com.de/werdersee</a></td></tr></table>",
         "Special Days": {}
       }
     }
