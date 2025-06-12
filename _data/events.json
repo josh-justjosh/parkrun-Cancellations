@@ -1836,13 +1836,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Stoke Park, Guildford",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-06-14",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/guildford",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Surrey",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Guildford parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/guildford\">parkrun.org.uk/guildford</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Guildford parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 14&nbsp;June&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/guildford\">parkrun.org.uk/guildford</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -76556,6 +76561,34 @@
         "State": "City state Bremen",
         "County": "-Unknown-",
         "description": "<h4 style=\"margin: 0 0 8px;\">Werdersee parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/werdersee\">parkrun.com.de/werdersee</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3698,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.582634,
+          -40.234658
+        ]
+      },
+      "properties": {
+        "eventname": "orouariverwalkway",
+        "EventLongName": "\u014croua River Walkway parkrun",
+        "EventShortName": "\u014croua River Walkway",
+        "LocalisedEventLongName": null,
+        "countrycode": 65,
+        "seriesid": 1,
+        "EventLocation": "\u014croua River Walkway",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.nz/orouariverwalkway",
+        "Country": "New Zealand",
+        "State": "Manawatu-Wanganui",
+        "County": "Manawatu District",
+        "description": "<h4 style=\"margin: 0 0 8px;\">\u014croua River Walkway parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/orouariverwalkway\">parkrun.co.nz/orouariverwalkway</a></td></tr></table>",
         "Special Days": {}
       }
     }
