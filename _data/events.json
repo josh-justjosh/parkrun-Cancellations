@@ -439,13 +439,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Roundshaw Downs, near South Croydon",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-06-21",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/roundshaw",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Greater London",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Roundshaw Downs parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/roundshaw\">parkrun.org.uk/roundshaw</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Roundshaw Downs parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 21&nbsp;June&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/roundshaw\">parkrun.org.uk/roundshaw</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -32787,13 +32792,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Kathu",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-06-21",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/kathu",
         "Country": "South Africa",
         "State": "Northern Cape",
         "County": "John Taolo Gaetsewe District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Kathu parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kathu\">parkrun.co.za/kathu</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Kathu parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 21&nbsp;June&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kathu\">parkrun.co.za/kathu</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -76618,6 +76628,62 @@
         "State": "Waikato Region",
         "County": "Waikato District",
         "description": "<h4 style=\"margin: 0 0 8px;\">Te Awa parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/teawa\">parkrun.co.nz/teawa</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3691,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.447787,
+          52.121506
+        ]
+      },
+      "properties": {
+        "eventname": "jubileebedford",
+        "EventLongName": "Jubilee parkrun, Bedford",
+        "EventShortName": "Jubilee, Bedford",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Jubilee, Bedford",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/jubileebedford",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Bedford",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Jubilee parkrun, Bedford</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/jubileebedford\">parkrun.org.uk/jubileebedford</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3692,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.316448,
+          54.792693
+        ]
+      },
+      "properties": {
+        "eventname": "heritagecoastalpatheasington",
+        "EventLongName": "Heritage Coastal Path parkrun, Easington",
+        "EventShortName": "Heritage Coastal Path, Easington",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Heritage Coastal Path, Easington",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/heritagecoastalpatheasington",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Durham",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Heritage Coastal Path parkrun, Easington</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/heritagecoastalpatheasington\">parkrun.org.uk/heritagecoastalpatheasington</a></td></tr></table>",
         "Special Days": {}
       }
     },
