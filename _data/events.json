@@ -21634,13 +21634,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "RSPB Nature Reserve, Conwy",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-06-28",
+            "ReasonCancelled": "Permission issue"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/conwy",
         "Country": "United Kingdom",
         "State": "Wales",
         "County": "Conwy",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Conwy parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/conwy\">parkrun.org.uk/conwy</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Conwy parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 28&nbsp;June&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Permission issue</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/conwy\">parkrun.org.uk/conwy</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -41619,13 +41624,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Braidwood Showground",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-06-28",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/braidwoodshowground",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Queanbeyan-Palerang Regional",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Braidwood Showground parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/braidwoodshowground\">parkrun.com.au/braidwoodshowground</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Braidwood Showground parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 28&nbsp;June&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/braidwoodshowground\">parkrun.com.au/braidwoodshowground</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -47623,18 +47633,13 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Les Jardins de la Mer",
-        "Status": "junior Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2025-06-29",
-            "ReasonCancelled": "Venue unavailable"
-          }
-        ],
+        "Status": "junior parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/thewaterfront-juniors",
         "Country": "United Kingdom",
         "State": "Jersey",
         "County": "",
-        "description": "<h4 style=\"margin: 0 0 8px;\">The Waterfront junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 29&nbsp;June&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/thewaterfront-juniors\">parkrun.org.uk/thewaterfront-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">The Waterfront junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/thewaterfront-juniors\">parkrun.org.uk/thewaterfront-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -57000,13 +57005,18 @@
         "countrycode": 46,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-06-28",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.jp/chuokoen",
         "Country": "Japan",
         "State": "Iwate",
         "County": "Morioka-shi",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Chuo koen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/chuokoen\">parkrun.jp/chuokoen</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Chuo koen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 28&nbsp;June&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/chuokoen\">parkrun.jp/chuokoen</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -76712,6 +76722,34 @@
         "State": "Mazovia",
         "County": "Warszawa",
         "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Park Aktywno\u015bci Rodzinnej</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/parkaktywnoscirodzinnej\">parkrun.pl/parkaktywnoscirodzinnej</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3703,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.661699,
+          36.547551
+        ]
+      },
+      "properties": {
+        "eventname": "saigawaryokuchikoen",
+        "EventLongName": "Saigawa ryokuchi koen parkrun",
+        "EventShortName": "Saigawa ryokuchi koen",
+        "LocalisedEventLongName": "\u7280\u5ddd\u7dd1\u5730\u516c\u5712parkrun",
+        "countrycode": 46,
+        "seriesid": 1,
+        "EventLocation": "Saigawa ryokuchi koen",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.jp/saigawaryokuchikoen",
+        "Country": "Japan",
+        "State": "Ishikawa",
+        "County": "Kanazawa",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Saigawa ryokuchi koen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/saigawaryokuchikoen\">parkrun.jp/saigawaryokuchikoen</a></td></tr></table>",
         "Special Days": {}
       }
     }
