@@ -19903,13 +19903,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Exeter Quay & River Valley Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-06-28",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/exeterriverside",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Devon",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Exeter Riverside parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/exeterriverside\">parkrun.org.uk/exeterriverside</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Exeter Riverside parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 28&nbsp;June&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/exeterriverside\">parkrun.org.uk/exeterriverside</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -65297,13 +65302,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Hopkins Land",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-06-28",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/hopkinsland",
         "Country": "South Africa",
         "State": "Western Cape",
         "County": "Eden District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hopkins Land parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/hopkinsland\">parkrun.co.za/hopkinsland</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hopkins Land parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 28&nbsp;June&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/hopkinsland\">parkrun.co.za/hopkinsland</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -68893,13 +68903,18 @@
         "countrycode": 46,
         "seriesid": 1,
         "EventLocation": "Kitanagase Mirai Fureai Sogokoen",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-06-28",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.jp/kitanagasemiraifureaisogokoen",
         "Country": "Japan",
         "State": "Okayama",
         "County": "Okayama Shi",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Kitanagase Mirai Fureai Sogokoen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/kitanagasemiraifureaisogokoen\">parkrun.jp/kitanagasemiraifureaisogokoen</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Kitanagase Mirai Fureai Sogokoen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 28&nbsp;June&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/kitanagasemiraifureaisogokoen\">parkrun.jp/kitanagasemiraifureaisogokoen</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -76579,6 +76594,34 @@
         "State": "England",
         "County": "Durham",
         "description": "<h4 style=\"margin: 0 0 8px;\">Heritage Coastal Path parkrun, Easington</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/heritagecoastalpatheasington\">parkrun.org.uk/heritagecoastalpatheasington</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3693,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.155851,
+          -38.105426
+        ]
+      },
+      "properties": {
+        "eventname": "belvedere",
+        "EventLongName": "Belvedere parkrun",
+        "EventShortName": "Belvedere",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "Belvedere",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.au/belvedere",
+        "Country": "Australia",
+        "State": "Victoria",
+        "County": "Frankston",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Belvedere parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/belvedere\">parkrun.com.au/belvedere</a></td></tr></table>",
         "Special Days": {}
       }
     },
