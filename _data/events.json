@@ -12820,13 +12820,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Margate",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-06-28",
+            "ReasonCancelled": "Permission issue"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/margate",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Kent",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Margate parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/margate\">parkrun.org.uk/margate</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Margate parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 28&nbsp;June&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Permission issue</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/margate\">parkrun.org.uk/margate</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -61619,13 +61624,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Phear Park Playing Fields",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-06-29",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/phearpark-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Devon",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Phear Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/phearpark-juniors\">parkrun.org.uk/phearpark-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Phear Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 29&nbsp;June&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/phearpark-juniors\">parkrun.org.uk/phearpark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -76818,6 +76828,34 @@
         "State": "Ishikawa",
         "County": "Kanazawa",
         "description": "<h4 style=\"margin: 0 0 8px;\">Saigawa ryokuchi koen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/saigawaryokuchikoen\">parkrun.jp/saigawaryokuchikoen</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3704,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.134596,
+          49.730891
+        ]
+      },
+      "properties": {
+        "eventname": "mamquamspawningtrail",
+        "EventLongName": "Mamquam Spawning Trail parkrun",
+        "EventShortName": "Mamquam Spawning Trail",
+        "LocalisedEventLongName": null,
+        "countrycode": 14,
+        "seriesid": 1,
+        "EventLocation": "Mamquam Spawning Trail",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.ca/mamquamspawningtrail",
+        "Country": "Canada",
+        "State": "British Columbia",
+        "County": "Squamish-Lillooet Regional District",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Mamquam Spawning Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/mamquamspawningtrail\">parkrun.ca/mamquamspawningtrail</a></td></tr></table>",
         "Special Days": {}
       }
     }
