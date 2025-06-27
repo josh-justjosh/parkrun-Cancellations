@@ -28230,13 +28230,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Victoria Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-06-28",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/bideford",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Devon",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bideford parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/bideford\">parkrun.org.uk/bideford</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bideford parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 28&nbsp;June&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/bideford\">parkrun.org.uk/bideford</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -47805,13 +47810,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Drumpellier Country Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-06-28",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/drumpelliercountry",
         "Country": "United Kingdom",
         "State": "Scotland",
         "County": "North Lanarkshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Drumpellier Country parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/drumpelliercountry\">parkrun.org.uk/drumpelliercountry</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Drumpellier Country parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 28&nbsp;June&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/drumpelliercountry\">parkrun.org.uk/drumpelliercountry</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -73272,13 +73282,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Kleinevalleij",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-06-28",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/kleinevalleij",
         "Country": "South Africa",
         "State": "Western Cape",
         "County": "Cape Winelands District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Kleinevalleij parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kleinevalleij\">parkrun.co.za/kleinevalleij</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Kleinevalleij parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 28&nbsp;June&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kleinevalleij\">parkrun.co.za/kleinevalleij</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -76743,6 +76758,34 @@
         "State": "City state Bremen",
         "County": "-Unknown-",
         "description": "<h4 style=\"margin: 0 0 8px;\">Werdersee parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/werdersee\">parkrun.com.de/werdersee</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3696,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.417402,
+          54.28068
+        ]
+      },
+      "properties": {
+        "eventname": "woodlandsscarborough",
+        "EventLongName": "Woodlands parkrun, Scarborough",
+        "EventShortName": "Woodlands, Scarborough",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Woodlands, Scarborough",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/woodlandsscarborough",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "North Yorkshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Woodlands parkrun, Scarborough</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/woodlandsscarborough\">parkrun.org.uk/woodlandsscarborough</a></td></tr></table>",
         "Special Days": {}
       }
     },
