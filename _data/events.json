@@ -46427,13 +46427,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Tetbury Goods Shed",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-07-05",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/tetburygoodsshed",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Gloucestershire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Tetbury Goods Shed parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/tetburygoodsshed\">parkrun.org.uk/tetburygoodsshed</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Tetbury Goods Shed parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;July&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/tetburygoodsshed\">parkrun.org.uk/tetburygoodsshed</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -52957,39 +52962,6 @@
         "State": "Victoria",
         "County": "Hobsons Bay",
         "description": "<h4 style=\"margin: 0 0 8px;\">Cyril Curtain Reserve parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/cyrilcurtainreserve\">parkrun.com.au/cyrilcurtainreserve</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 2658,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -5.892928,
-          54.524392
-        ]
-      },
-      "properties": {
-        "eventname": "knockbrackenreservoir",
-        "EventLongName": "Knockbracken Reservoir parkrun",
-        "EventShortName": "Knockbracken Reservoir",
-        "LocalisedEventLongName": null,
-        "countrycode": 97,
-        "seriesid": 1,
-        "EventLocation": "Knockbracken Reservoir",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2025-07-05",
-            "ReasonCancelled": "Venue unavailable"
-          }
-        ],
-        "Website": "https://www.parkrun.org.uk/knockbrackenreservoir",
-        "Country": "United Kingdom",
-        "State": "Northern Ireland",
-        "County": "Down",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Knockbracken Reservoir parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;July&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/knockbrackenreservoir\">parkrun.org.uk/knockbrackenreservoir</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -64452,13 +64424,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Ho\u00ebrskool Ben Viljoen",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-07-05",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/hoerskoolbenviljoen",
         "Country": "South Africa",
         "State": "Limpopo",
         "County": "Sekhukhune District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ho\u00ebrskool Ben Viljoen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/hoerskoolbenviljoen\">parkrun.co.za/hoerskoolbenviljoen</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ho\u00ebrskool Ben Viljoen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;July&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/hoerskoolbenviljoen\">parkrun.co.za/hoerskoolbenviljoen</a></td></tr></table>",
         "Special Days": {}
       }
     },
