@@ -18608,13 +18608,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Foyle Arena",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-07-06",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/derrycity-juniors",
         "Country": "United Kingdom",
         "State": "Northern Ireland",
         "County": "Derry",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Derry City junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/derrycity-juniors\">parkrun.org.uk/derrycity-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Derry City junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  6&nbsp;July&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/derrycity-juniors\">parkrun.org.uk/derrycity-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
