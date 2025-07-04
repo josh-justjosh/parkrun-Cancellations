@@ -59,16 +59,6 @@ with open('_data/raw/events.json', 'wt', encoding='utf-8', newline='') as f:
     f.write(json.dumps(json.loads(events), indent=2))
     print(now(), "raw/events.json saved")
 
-tei = requests.get(
-    'https://wiki.parkrun.com/index.php/Technical_Event_Information',
-    headers=headers,
-    timeout=10).text
-
-technical_event_info = tei
-
-with open('_data/raw/tei.html', 'wt', encoding='utf-8', newline='') as f:
-    f.write(technical_event_info)
-    print(now(), "raw/tei.html saved")
 
 print(now(),
       'getting cancellations data from https://wiki.parkrun.com/index.php/Cancellations/Global')
@@ -87,6 +77,17 @@ with open('_data/raw/cancellations.html', 'wt', encoding='utf-8', newline='') as
 
 events = json.loads(events)['events']
 
+# This data has been removed from the wiki
+'''tei = requests.get(
+    'https://wiki.parkrun.com/index.php/Technical_Event_Information',
+    headers=headers,
+    timeout=10).text
+
+technical_event_info = tei
+
+with open('_data/raw/tei.html', 'wt', encoding='utf-8', newline='') as f:
+    f.write(technical_event_info)
+    print(now(), "raw/tei.html saved")
 soup = BeautifulSoup(technical_event_info, 'html.parser')
 
 extractor = Extractor(soup)
@@ -105,7 +106,10 @@ for i in tei_table:
     # print(now(),out)
     if 'AcceptingRegistrations' in out:
         upcoming_events.append(out[0])
-        upcoming_events_table.append(out)
+        upcoming_events_table.append(out)'''
+
+upcoming_events_table = []
+upcoming_events = []
 
 # upcoming_events.append('Central parkrun, Plymouth')
 # upcoming_events.append('Church Mead parkrun')
@@ -132,7 +136,7 @@ cancellations_data = []
 cancellations_list = []
 cancellation_reasons = []
 
-for i, cancellation in enumerate(cancellation_table):
+for i, cancellation in cancellation_table:
     try:
         for x in range(5):
             cancellation[x] = cancellation[x].strip()
