@@ -105,10 +105,13 @@ print(now(), 'Upcoming Events:', upcoming_events)
 print(now(),
       'getting cancellations data from https://wiki.parkrun.com/index.php/Cancellations/Global')
 
-cancellations = requests.get(
+cancellations_request = requests.get(
     'https://wiki.parkrun.com/index.php/Cancellations/Global',
     headers=headers,
-    timeout=60).text
+    timeout=60)
+
+print(cancellations_request)
+cancellations = cancellations_request.text
 
 with open('_data/raw/cancellations.html', 'wt', encoding='utf-8', newline='') as f:
     f.write(cancellations)
@@ -132,7 +135,7 @@ cancellations_data = []
 cancellations_list = []
 cancellation_reasons = []
 
-for i, cancellation in cancellation_table:
+for i, cancellation in enumerate(cancellation_table):
     try:
         for x in range(5):
             cancellation[x] = cancellation[x].strip()
