@@ -59,24 +59,6 @@ with open('_data/raw/events.json', 'wt', encoding='utf-8', newline='') as f:
     f.write(json.dumps(json.loads(events), indent=2))
     print(now(), "raw/events.json saved")
 
-
-print(now(),
-      'getting cancellations data from https://wiki.parkrun.com/index.php/Cancellations/Global')
-
-cancellation_request = requests.get(
-    'https://wiki.parkrun.com/index.php/Cancellations/Global',
-    headers=headers,
-    timeout=60)
-cancellations = cancellation_request.text
-if cancellations is None:
-    exit()
-
-with open('_data/raw/cancellations.html', 'wt', encoding='utf-8', newline='') as f:
-    f.write(cancellations)
-    print(now(), "raw/cancellations.html saved")
-
-events = json.loads(events)['events']
-
 # This data has been removed from the wiki
 '''tei = requests.get(
     'https://wiki.parkrun.com/index.php/Technical_Event_Information',
@@ -120,6 +102,20 @@ upcoming_events = []
 
 print(now(), 'Upcoming Events:', upcoming_events)
 
+print(now(),
+      'getting cancellations data from https://wiki.parkrun.com/index.php/Cancellations/Global')
+
+cancellations = requests.get(
+    'https://wiki.parkrun.com/index.php/Cancellations/Global',
+    headers=headers,
+    timeout=60).text
+
+with open('_data/raw/cancellations.html', 'wt', encoding='utf-8', newline='') as f:
+    f.write(cancellations)
+    print(now(), "raw/cancellations.html saved")
+
+events = json.loads(events)['events']
+
 soup = BeautifulSoup(cancellations, 'html.parser')
 
 extractor = Extractor(soup)
@@ -129,7 +125,7 @@ try:
     cancellation_table.pop(-1)
     cancellation_table.pop(0)
 except IndexError as e:
-    print(now(), "- Ln: 93", e, "- Failed to Parse Cancellations")
+    print(now(), "- Ln: 128", e, "- Failed to Parse Cancellations")
 
 
 cancellations_data = []
