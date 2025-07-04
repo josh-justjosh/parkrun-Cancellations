@@ -10,5 +10,5 @@ def minsleep(n=1):
     time.sleep(t)
 
 while True:
-    exec(open("parkrun data.py").read())
+    exec(open("parkrun_data.py").read())
     minsleep(5)

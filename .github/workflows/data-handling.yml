@@ -40,7 +40,7 @@ jobs:
         consumer_secret: ${{ secrets.TWITTER_CONSUMER_SECRET }}
         access_token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
         access_token_secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
-      run: python 'parkrun data.py'
+      run: python 'parkrun_data.py'
     
     - name: Get Current Time
       uses: josStorer/get-current-time@v2.1.2
