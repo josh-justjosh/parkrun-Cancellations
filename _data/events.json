@@ -15233,13 +15233,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Castlewellan Forest Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-07-05",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/castlewellan",
         "Country": "United Kingdom",
         "State": "Northern Ireland",
         "County": "Down",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Castlewellan parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/castlewellan\">parkrun.org.uk/castlewellan</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Castlewellan parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;July&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/castlewellan\">parkrun.org.uk/castlewellan</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -15541,13 +15546,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Carnfunnock Country Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-07-05",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/larne",
         "Country": "United Kingdom",
         "State": "Northern Ireland",
         "County": "Antrim",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Larne parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/larne\">parkrun.org.uk/larne</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Larne parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;July&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/larne\">parkrun.org.uk/larne</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -21364,13 +21374,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Riverside Leisure Area",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-07-06",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/gravesend-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Kent",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Gravesend junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/gravesend-juniors\">parkrun.org.uk/gravesend-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Gravesend junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  6&nbsp;July&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/gravesend-juniors\">parkrun.org.uk/gravesend-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -22371,39 +22386,6 @@
         "State": "England",
         "County": "Halton",
         "description": "<h4 style=\"margin: 0 0 8px;\">Widnes parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/widnes\">parkrun.org.uk/widnes</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 1113,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          29.151059,
-          -28.279106
-        ]
-      },
-      "properties": {
-        "eventname": "harrismith",
-        "EventLongName": "Harrismith parkrun",
-        "EventShortName": "Harrismith",
-        "LocalisedEventLongName": null,
-        "countrycode": 85,
-        "seriesid": 1,
-        "EventLocation": "Platberg Nature Reserve",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2025-07-05",
-            "ReasonCancelled": "Course unsafe or blocked"
-          }
-        ],
-        "Website": "https://www.parkrun.co.za/harrismith",
-        "Country": "South Africa",
-        "State": "Orange Free State",
-        "County": "Thabo Mofutsanyana District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Harrismith parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;July&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/harrismith\">parkrun.co.za/harrismith</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -24031,13 +24013,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Meerendal Wine Estate",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-07-05",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/durbanville",
         "Country": "South Africa",
         "State": "Western Cape",
         "County": "City of Cape Town",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Durbanville parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/durbanville\">parkrun.co.za/durbanville</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Durbanville parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;July&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/durbanville\">parkrun.co.za/durbanville</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -28706,13 +28693,18 @@
         "countrycode": 42,
         "seriesid": 1,
         "EventLocation": "Lough Key Forest Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-07-05",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.ie/loughkey",
         "Country": "Ireland",
         "State": "Connacht",
         "County": "Roscommon",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Lough Key parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/loughkey\">parkrun.ie/loughkey</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Lough Key parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;July&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/loughkey\">parkrun.ie/loughkey</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -34618,39 +34610,6 @@
         "State": "Gauteng",
         "County": "City of Tshwane Metropolitan Municipality",
         "description": "<h4 style=\"margin: 0 0 8px;\">Roses parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/roses\">parkrun.co.za/roses</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 1780,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.778901,
-          -29.132198
-        ]
-      },
-      "properties": {
-        "eventname": "jacobsdal",
-        "EventLongName": "Jacobsdal parkrun",
-        "EventShortName": "Jacobsdal",
-        "LocalisedEventLongName": null,
-        "countrycode": 85,
-        "seriesid": 1,
-        "EventLocation": "Jacobsdal Gholf course",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2025-07-05",
-            "ReasonCancelled": "Venue unavailable"
-          }
-        ],
-        "Website": "https://www.parkrun.co.za/jacobsdal",
-        "Country": "South Africa",
-        "State": "Orange Free State",
-        "County": "Xhariep District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Jacobsdal parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;July&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/jacobsdal\">parkrun.co.za/jacobsdal</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -68425,13 +68384,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Fig Tree",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-07-05",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/figtree",
         "Country": "South Africa",
         "State": "KwaZulu-Natal",
         "County": "eThekwini Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Fig Tree parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/figtree\">parkrun.co.za/figtree</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Fig Tree parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;July&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/figtree\">parkrun.co.za/figtree</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -69354,13 +69318,18 @@
         "countrycode": 32,
         "seriesid": 1,
         "EventLocation": "Lousberg",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-07-05",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.com.de/lousberg",
         "Country": "Germany",
         "State": "North Rhine-Westphalia",
         "County": "Cologne District",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Lousberg parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/lousberg\">parkrun.com.de/lousberg</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Lousberg parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;July&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/lousberg\">parkrun.com.de/lousberg</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -72375,13 +72344,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Crinan Canal",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-07-05",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/crinancanal",
         "Country": "United Kingdom",
         "State": "Scotland",
         "County": "Argyll and Bute",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Crinan Canal parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/crinancanal\">parkrun.org.uk/crinancanal</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Crinan Canal parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;July&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/crinancanal\">parkrun.org.uk/crinancanal</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -76813,6 +76787,34 @@
         "State": "England",
         "County": "North Yorkshire",
         "description": "<h4 style=\"margin: 0 0 8px;\">Woodlands parkrun, Scarborough</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/woodlandsscarborough\">parkrun.org.uk/woodlandsscarborough</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3697,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.190048,
+          -33.888306
+        ]
+      },
+      "properties": {
+        "eventname": "universityofsydney",
+        "EventLongName": "University of Sydney parkrun",
+        "EventShortName": "University of Sydney",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "University of Sydney",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.au/universityofsydney",
+        "Country": "Australia",
+        "State": "New South Wales",
+        "County": "Sydney",
+        "description": "<h4 style=\"margin: 0 0 8px;\">University of Sydney parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/universityofsydney\">parkrun.com.au/universityofsydney</a></td></tr></table>",
         "Special Days": {}
       }
     },
