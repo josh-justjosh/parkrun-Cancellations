@@ -70,10 +70,16 @@ with open('_data/raw/tei.html', 'wt', encoding='utf-8', newline='') as f:
     f.write(technical_event_info)
     print(now(), "raw/tei.html saved")
 
-cancellations = requests.get(
+print(now(),
+      'getting cancellations data from https://wiki.parkrun.com/index.php/Cancellations/Global')
+
+cancellation_request = requests.get(
     'https://wiki.parkrun.com/index.php/Cancellations/Global',
     headers=headers,
-    timeout=10).text
+    timeout=60)
+cancellations = cancellation_request.text
+if cancellations is None:
+    exit()
 
 with open('_data/raw/cancellations.html', 'wt', encoding='utf-8', newline='') as f:
     f.write(cancellations)
