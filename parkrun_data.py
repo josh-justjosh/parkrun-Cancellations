@@ -132,7 +132,7 @@ cancellations_data = []
 cancellations_list = []
 cancellation_reasons = []
 
-for i, cancellation in cancellation_table:
+for i, cancellation in enumerate(cancellation_table):
     try:
         for x in range(5):
             cancellation[x] = cancellation[x].strip()
