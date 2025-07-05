@@ -56257,13 +56257,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Somerset East Golf Club",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-07-05",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/somerseteast",
         "Country": "South Africa",
         "State": "Eastern Cape",
         "County": "Sarah Baartman District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Somerset East parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/somerseteast\">parkrun.co.za/somerseteast</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Somerset East parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  5&nbsp;July&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/somerseteast\">parkrun.co.za/somerseteast</a></td></tr></table>",
         "Special Days": {}
       }
     },
