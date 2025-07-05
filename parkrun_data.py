@@ -110,7 +110,7 @@ cancellations_request = requests.get(
     headers=headers,
     timeout=60)
 
-print(cancellations_request)
+print(now(), cancellations_request)
 cancellations = cancellations_request.text
 
 with open('_data/raw/cancellations.html', 'wt', encoding='utf-8', newline='') as f:
