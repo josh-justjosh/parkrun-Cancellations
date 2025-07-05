@@ -122,6 +122,7 @@ if cancellations_request.status_code != 200:
     headers=headers,
     timeout=60)
         if cancellations_request.status_code == 200:
+            print(now(), cancellations_request)
             break
             
 
