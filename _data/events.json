@@ -46227,13 +46227,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "GEC Recreational Ground",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-07-06",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/gecrec-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Warwickshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">GEC Rec junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/gecrec-juniors\">parkrun.org.uk/gecrec-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">GEC Rec junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  6&nbsp;July&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/gecrec-juniors\">parkrun.org.uk/gecrec-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -70865,7 +70870,7 @@
         "Website": "https://www.parkrun.org.uk/thefishermanswalk",
         "Country": "United Kingdom",
         "State": "Northern Ireland",
-        "County": "Mid Ulster",
+        "County": "Antrim",
         "description": "<h4 style=\"margin: 0 0 8px;\">The Fisherman\u2018s Walk parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/thefishermanswalk\">parkrun.org.uk/thefishermanswalk</a></td></tr></table>",
         "Special Days": {}
       }
@@ -75746,7 +75751,7 @@
         "Website": "https://www.parkrun.org.uk/lurganpark",
         "Country": "United Kingdom",
         "State": "Northern Ireland",
-        "County": "Armagh City Banbridge and Craigavon",
+        "County": "Armagh",
         "description": "<h4 style=\"margin: 0 0 8px;\">Lurgan Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/lurganpark\">parkrun.org.uk/lurganpark</a></td></tr></table>",
         "Special Days": {}
       }
@@ -75830,7 +75835,7 @@
         "Website": "https://www.parkrun.org.uk/loughmacrory",
         "Country": "United Kingdom",
         "State": "Northern Ireland",
-        "County": "Fermanagh and Omagh",
+        "County": "Tyrone",
         "description": "<h4 style=\"margin: 0 0 8px;\">Loughmacrory parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/loughmacrory\">parkrun.org.uk/loughmacrory</a></td></tr></table>",
         "Special Days": {}
       }
@@ -76082,7 +76087,7 @@
         "Website": "https://www.parkrun.org.uk/christie",
         "Country": "United Kingdom",
         "State": "Northern Ireland",
-        "County": "Causeway Coast and Glens",
+        "County": "Derry",
         "description": "<h4 style=\"margin: 0 0 8px;\">Christie parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/christie\">parkrun.org.uk/christie</a></td></tr></table>",
         "Special Days": {}
       }
@@ -76418,7 +76423,7 @@
         "Website": "https://www.parkrun.org.uk/newrygreenway",
         "Country": "United Kingdom",
         "State": "Northern Ireland",
-        "County": "Newry Mourne and Down",
+        "County": "Down",
         "description": "<h4 style=\"margin: 0 0 8px;\">Newry Greenway parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/newrygreenway\">parkrun.org.uk/newrygreenway</a></td></tr></table>",
         "Special Days": {}
       }
