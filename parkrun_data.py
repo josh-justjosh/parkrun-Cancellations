@@ -111,6 +111,20 @@ cancellations_request = requests.get(
     timeout=60)
 
 print(now(), cancellations_request)
+
+if cancellations_request.status_code != 200:
+    for i in range(9):
+        cancellations_request = requests.get(
+    'https://wiki.parkrun.com/index.php/Cancellations/Global',
+    headers=headers,
+    timeout=60)
+        if cancellations_request.status_code == 200:
+            print(now(), cancellations_request)
+            break
+        else:
+            print(now(), cancellations_request)
+            time.sleep(10)
+
 cancellations = cancellations_request.text
 
 with open('_data/raw/cancellations.html', 'wt', encoding='utf-8', newline='') as f:
