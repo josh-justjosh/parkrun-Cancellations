@@ -49230,13 +49230,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Yatton Recreation Ground",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-07-13",
+            "ReasonCancelled": "Permission issue"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/yattonrecreation-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "North Somerset",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Yatton Recreation junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/yattonrecreation-juniors\">parkrun.org.uk/yattonrecreation-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Yatton Recreation junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 13&nbsp;July&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Permission issue</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/yattonrecreation-juniors\">parkrun.org.uk/yattonrecreation-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -62528,13 +62533,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Mtunzini Country Club",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-07-12",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/mtunzini",
         "Country": "South Africa",
         "State": "KwaZulu-Natal",
         "County": "uThungulu District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Mtunzini parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/mtunzini\">parkrun.co.za/mtunzini</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Mtunzini parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 12&nbsp;July&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/mtunzini\">parkrun.co.za/mtunzini</a></td></tr></table>",
         "Special Days": {}
       }
     },
