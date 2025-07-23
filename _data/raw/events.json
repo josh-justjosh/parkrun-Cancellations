@@ -54732,6 +54732,66 @@
           "seriesid": 2,
           "EventLocation": "Perton Playing Fields juniors"
         }
+      },
+      {
+        "id": 3710,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.197557,
+            48.454808
+          ]
+        },
+        "properties": {
+          "eventname": "boulevardlake",
+          "EventLongName": "Boulevard Lake parkrun",
+          "EventShortName": "Boulevard Lake",
+          "LocalisedEventLongName": null,
+          "countrycode": 14,
+          "seriesid": 1,
+          "EventLocation": "Boulevard Lake"
+        }
+      },
+      {
+        "id": 3711,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.752808,
+            -34.18203
+          ]
+        },
+        "properties": {
+          "eventname": "bongamereserve",
+          "EventLongName": "Bon Game Reserve parkrun",
+          "EventShortName": "Bon Game Reserve",
+          "LocalisedEventLongName": null,
+          "countrycode": 85,
+          "seriesid": 1,
+          "EventLocation": "Bon Game Reserve"
+        }
+      },
+      {
+        "id": 3712,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            24.892898,
+            -34.017025
+          ]
+        },
+        "properties": {
+          "eventname": "mentorscountryestate",
+          "EventLongName": "Mentors Country Estate parkrun",
+          "EventShortName": "Mentors Country Estate",
+          "LocalisedEventLongName": null,
+          "countrycode": 85,
+          "seriesid": 1,
+          "EventLocation": "Mentors Country Estate"
+        }
       }
     ]
   }
