@@ -60825,13 +60825,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Horsforth Hall Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-08-10",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/horsforthhall-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Leeds",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Horsforth Hall junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/horsforthhall-juniors\">parkrun.org.uk/horsforthhall-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Horsforth Hall junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 10&nbsp;August&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/horsforthhall-juniors\">parkrun.org.uk/horsforthhall-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -76925,6 +76930,34 @@
         "State": "Mpumalanga",
         "County": "Ehlanzeni District",
         "description": "<h4 style=\"margin: 0 0 8px;\">Riverside Reserve parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/riversidereserve\">parkrun.co.za/riversidereserve</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3718,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.996763,
+          40.701797
+        ]
+      },
+      "properties": {
+        "eventname": "brooklynbridge",
+        "EventLongName": "Brooklyn Bridge parkrun",
+        "EventShortName": "Brooklyn Bridge",
+        "LocalisedEventLongName": null,
+        "countrycode": 98,
+        "seriesid": 1,
+        "EventLocation": "Brooklyn Bridge",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.us/brooklynbridge",
+        "Country": "USA",
+        "State": "New York",
+        "County": "New York",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Brooklyn Bridge parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/brooklynbridge\">parkrun.us/brooklynbridge</a></td></tr></table>",
         "Special Days": {}
       }
     }
