@@ -47718,13 +47718,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Leazes Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-08-09",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/leazes",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Newcastle upon Tyne",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Leazes parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/leazes\">parkrun.org.uk/leazes</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Leazes parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  9&nbsp;August&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/leazes\">parkrun.org.uk/leazes</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -74558,13 +74563,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Biki Byte",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-08-09",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/bikibyte",
         "Country": "South Africa",
         "State": "North West",
         "County": "Dr Kenneth Kaunda District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Biki Byte parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/bikibyte\">parkrun.co.za/bikibyte</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Biki Byte parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  9&nbsp;August&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/bikibyte\">parkrun.co.za/bikibyte</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -77128,6 +77138,146 @@
         "State": "New York",
         "County": "New York",
         "description": "<h4 style=\"margin: 0 0 8px;\">Brooklyn Bridge parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/brooklynbridge\">parkrun.us/brooklynbridge</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3720,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.717131,
+          51.809252
+        ]
+      },
+      "properties": {
+        "eventname": "chippenhamplayingfields-juniors",
+        "EventLongName": "Chippenham Playing Fields junior parkrun",
+        "EventShortName": "Chippenham Playing Fields juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Chippenham Playing Fields juniors",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/chippenhamplayingfields-juniors",
+        "Country": "United Kingdom",
+        "State": "Wales",
+        "County": "Monmouthshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Chippenham Playing Fields junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/chippenhamplayingfields-juniors\">parkrun.org.uk/chippenhamplayingfields-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3721,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.939646,
+          51.163615
+        ]
+      },
+      "properties": {
+        "eventname": "woolavingtonplayingfield-juniors",
+        "EventLongName": "Woolavington Playing Field junior parkrun",
+        "EventShortName": "Woolavington Playing Field juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Woolavington Playing Field juniors",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/woolavingtonplayingfield-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Somerset",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Woolavington Playing Field junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/woolavingtonplayingfield-juniors\">parkrun.org.uk/woolavingtonplayingfield-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3722,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.141836,
+          40.172336
+        ]
+      },
+      "properties": {
+        "eventname": "lukens",
+        "EventLongName": "Lukens parkrun",
+        "EventShortName": "Lukens",
+        "LocalisedEventLongName": null,
+        "countrycode": 98,
+        "seriesid": 1,
+        "EventLocation": "Lukens",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.us/lukens",
+        "Country": "USA",
+        "State": "Pennsylvania",
+        "County": "Montgomery",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Lukens parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/lukens\">parkrun.us/lukens</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3723,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.361748,
+          47.254719
+        ]
+      },
+      "properties": {
+        "eventname": "innpromenade",
+        "EventLongName": "Innpromenade parkrun",
+        "EventShortName": "Innpromenade",
+        "LocalisedEventLongName": null,
+        "countrycode": 4,
+        "seriesid": 1,
+        "EventLocation": "Innpromenade",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.at/innpromenade",
+        "Country": "Austria",
+        "State": "Tyrol",
+        "County": "Innsbruck",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Innpromenade parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.at/innpromenade\">parkrun.co.at/innpromenade</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3724,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.897542,
+          52.67501
+        ]
+      },
+      "properties": {
+        "eventname": "parkdrogowskazow",
+        "EventLongName": "parkrun Park Drogowskaz\u00f3w",
+        "EventShortName": "Park Drogowskaz\u00f3w",
+        "LocalisedEventLongName": null,
+        "countrycode": 74,
+        "seriesid": 1,
+        "EventLocation": "Park Drogowskaz\u00f3w",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.pl/parkdrogowskazow",
+        "Country": "Poland",
+        "State": "Lubusz",
+        "County": "Gorz\u00f3w County",
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Park Drogowskaz\u00f3w</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/parkdrogowskazow\">parkrun.pl/parkdrogowskazow</a></td></tr></table>",
         "Special Days": {}
       }
     }
