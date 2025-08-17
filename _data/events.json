@@ -70185,13 +70185,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Wepre juniors",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-08-17",
+            "ReasonCancelled": "Local health restrictions"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/wepre-juniors",
         "Country": "United Kingdom",
         "State": "Wales",
         "County": "Flintshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Wepre junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wepre-juniors\">parkrun.org.uk/wepre-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Wepre junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 17&nbsp;August&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Local health restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wepre-juniors\">parkrun.org.uk/wepre-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
