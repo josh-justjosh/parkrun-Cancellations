@@ -25582,13 +25582,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Whaley Bridge Memorial Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-08-24",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/whaleybridge-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Derbyshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Whaley Bridge junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/whaleybridge-juniors\">parkrun.org.uk/whaleybridge-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Whaley Bridge junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 24&nbsp;August&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/whaleybridge-juniors\">parkrun.org.uk/whaleybridge-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -36997,13 +37002,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Victoria Park Sports Grounds",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-08-23",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/ceres",
         "Country": "South Africa",
         "State": "Western Cape",
         "County": "Cape Winelands District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Ceres parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ceres\">parkrun.co.za/ceres</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Ceres parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 23&nbsp;August&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/ceres\">parkrun.co.za/ceres</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -66490,13 +66500,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-08-23",
+            "ReasonCancelled": "Local health restrictions"
+          }
+        ],
         "Website": "https://www.parkrun.ca/buttertrail",
         "Country": "Canada",
         "State": "Nova Scotia",
         "County": "Colchester",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Butter Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/buttertrail\">parkrun.ca/buttertrail</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Butter Trail parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 23&nbsp;August&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Local health restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/buttertrail\">parkrun.ca/buttertrail</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -77057,6 +77072,34 @@
         "State": "Mpumalanga",
         "County": "Ehlanzeni District",
         "description": "<h4 style=\"margin: 0 0 8px;\">Riverside Reserve parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/riversidereserve\">parkrun.co.za/riversidereserve</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3716,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.866257,
+          -34.539216
+        ]
+      },
+      "properties": {
+        "eventname": "reddallreserve",
+        "EventLongName": "Reddall Reserve parkrun",
+        "EventShortName": "Reddall Reserve",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "Reddall Reserve",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.au/reddallreserve",
+        "Country": "Australia",
+        "State": "New South Wales",
+        "County": "Shellharbour",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Reddall Reserve parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/reddallreserve\">parkrun.com.au/reddallreserve</a></td></tr></table>",
         "Special Days": {}
       }
     },
