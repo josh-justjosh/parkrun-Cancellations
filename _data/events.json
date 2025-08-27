@@ -10857,13 +10857,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Deep Run Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-08-30",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.us/deeprun",
         "Country": "USA",
         "State": "Virginia",
         "County": "Henrico",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Deep Run parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/deeprun\">parkrun.us/deeprun</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Deep Run parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 30&nbsp;August&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/deeprun\">parkrun.us/deeprun</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -43600,13 +43605,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Chain of Lakes Trail",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-08-30",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.ca/chainoflakes",
         "Country": "Canada",
         "State": "Nova Scotia",
         "County": "Halifax Regional Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Chain of Lakes parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/chainoflakes\">parkrun.ca/chainoflakes</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Chain of Lakes parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 30&nbsp;August&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/chainoflakes\">parkrun.ca/chainoflakes</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -72804,18 +72814,13 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Kleinevalleij",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2025-08-30",
-            "ReasonCancelled": "Venue unavailable"
-          }
-        ],
+        "Status": "parkrunning",
+        "Cancellations": [],
         "Website": "https://www.parkrun.co.za/kleinevalleij",
         "Country": "South Africa",
         "State": "Western Cape",
         "County": "Cape Winelands District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Kleinevalleij parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 30&nbsp;August&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kleinevalleij\">parkrun.co.za/kleinevalleij</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Kleinevalleij parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kleinevalleij\">parkrun.co.za/kleinevalleij</a></td></tr></table>",
         "Special Days": {}
       }
     },
