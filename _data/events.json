@@ -37193,13 +37193,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Carey Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-08-30",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/northwich",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Cheshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Northwich parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/northwich\">parkrun.org.uk/northwich</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Northwich parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 30&nbsp;August&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/northwich\">parkrun.org.uk/northwich</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -46768,13 +46773,18 @@
         "countrycode": 42,
         "seriesid": 1,
         "EventLocation": "Narin Beach",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-08-30",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.ie/narinbeach",
         "Country": "Ireland",
         "State": "Ulster",
         "County": "Donegal",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Narin Beach parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/narinbeach\">parkrun.ie/narinbeach</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Narin Beach parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 30&nbsp;August&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/narinbeach\">parkrun.ie/narinbeach</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -77268,6 +77278,62 @@
         "State": "Bavaria",
         "County": "Lower Franconia",
         "description": "<h4 style=\"margin: 0 0 8px;\">Sch\u00f6nbusch parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/schoenbusch\">parkrun.com.de/schoenbusch</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3735,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.757418,
+          -36.802002
+        ]
+      },
+      "properties": {
+        "eventname": "tuffcraterreserve",
+        "EventLongName": "Tuff Crater Reserve parkrun",
+        "EventShortName": "Tuff Crater Reserve",
+        "LocalisedEventLongName": null,
+        "countrycode": 65,
+        "seriesid": 1,
+        "EventLocation": "Tuff Crater Reserve",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.nz/tuffcraterreserve",
+        "Country": "New Zealand",
+        "State": "Auckland",
+        "County": "Auckland",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Tuff Crater Reserve parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/tuffcraterreserve\">parkrun.co.nz/tuffcraterreserve</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3737,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.209034,
+          55.864906
+        ]
+      },
+      "properties": {
+        "eventname": "alexandrapark-juniors",
+        "EventLongName": "Alexandra Park junior parkrun",
+        "EventShortName": "Alexandra Park juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Alexandra Park juniors",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/alexandrapark-juniors",
+        "Country": "United Kingdom",
+        "State": "Scotland",
+        "County": "Glasgow City",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Alexandra Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/alexandrapark-juniors\">parkrun.org.uk/alexandrapark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     }

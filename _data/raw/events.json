@@ -55092,6 +55092,46 @@
           "seriesid": 1,
           "EventLocation": "Sch\u00f6nbusch"
         }
+      },
+      {
+        "id": 3735,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.757418,
+            -36.802002
+          ]
+        },
+        "properties": {
+          "eventname": "tuffcraterreserve",
+          "EventLongName": "Tuff Crater Reserve parkrun",
+          "EventShortName": "Tuff Crater Reserve",
+          "LocalisedEventLongName": null,
+          "countrycode": 65,
+          "seriesid": 1,
+          "EventLocation": "Tuff Crater Reserve"
+        }
+      },
+      {
+        "id": 3737,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.209034,
+            55.864906
+          ]
+        },
+        "properties": {
+          "eventname": "alexandrapark-juniors",
+          "EventLongName": "Alexandra Park junior parkrun",
+          "EventShortName": "Alexandra Park juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Alexandra Park juniors"
+        }
       }
     ]
   }
