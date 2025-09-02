@@ -6823,8 +6823,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.143086,
-          50.725836
+          -1.285679,
+          50.713378
         ]
       },
       "properties": {
@@ -10992,8 +10992,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.642492,
-          50.808103
+          -1.642374,
+          50.808363
         ]
       },
       "properties": {
@@ -47574,13 +47574,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Lea Bridges Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-09-07",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/leabridges-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Norfolk",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Lea Bridges junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/leabridges-juniors\">parkrun.org.uk/leabridges-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Lea Bridges junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  7&nbsp;September&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/leabridges-juniors\">parkrun.org.uk/leabridges-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
