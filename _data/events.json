@@ -13623,13 +13623,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "St Phillips Christian College",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-09-06",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/nulkaba",
         "Country": "Australia",
         "State": "New South Wales",
         "County": "Cessnock",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Nulkaba parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/nulkaba\">parkrun.com.au/nulkaba</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Nulkaba parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;September&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/nulkaba\">parkrun.com.au/nulkaba</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -29098,13 +29103,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Springbok Golf Course, Springbok",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-09-06",
+            "ReasonCancelled": "AED unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/springbok",
         "Country": "South Africa",
         "State": "Northern Cape",
         "County": "Namakwa District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Springbok parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/springbok\">parkrun.co.za/springbok</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Springbok parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;September&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>AED unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/springbok\">parkrun.co.za/springbok</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -64611,39 +64621,6 @@
         "State": "Western Cape",
         "County": "Overberg District Municipality",
         "description": "<h4 style=\"margin: 0 0 8px;\">Caledon Golf Course parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/caledongolfcourse\">parkrun.co.za/caledongolfcourse</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 3248,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          28.306102,
-          -25.827579
-        ]
-      },
-      "properties": {
-        "eventname": "moreletaparkgemeente",
-        "EventLongName": "Moreletapark Gemeente parkrun",
-        "EventShortName": "Moreletapark Gemeente",
-        "LocalisedEventLongName": null,
-        "countrycode": 85,
-        "seriesid": 1,
-        "EventLocation": "Moreletapark Gemeente",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2025-09-06",
-            "ReasonCancelled": "Venue unavailable"
-          }
-        ],
-        "Website": "https://www.parkrun.co.za/moreletaparkgemeente",
-        "Country": "South Africa",
-        "State": "Gauteng",
-        "County": "City of Tshwane Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Moreletapark Gemeente parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;September&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/moreletaparkgemeente\">parkrun.co.za/moreletaparkgemeente</a></td></tr></table>",
         "Special Days": {}
       }
     },
