@@ -7927,13 +7927,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Wythenshawe Park, Wythenshawe",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-09-06",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/wythenshawe",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Manchester",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Wythenshawe parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wythenshawe\">parkrun.org.uk/wythenshawe</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Wythenshawe parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;September&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/wythenshawe\">parkrun.org.uk/wythenshawe</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -27532,39 +27537,6 @@
         "State": "England",
         "County": "Kent",
         "description": "<h4 style=\"margin: 0 0 8px;\">Sittingbourne parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/sittingbourne\">parkrun.org.uk/sittingbourne</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 1410,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.091445,
-          -33.898945
-        ]
-      },
-      "properties": {
-        "eventname": "franschhoek",
-        "EventLongName": "Franschhoek parkrun",
-        "EventShortName": "Franschhoek",
-        "LocalisedEventLongName": null,
-        "countrycode": 85,
-        "seriesid": 1,
-        "EventLocation": "Rickety Bridge Winery",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2025-09-06",
-            "ReasonCancelled": "Venue unavailable"
-          }
-        ],
-        "Website": "https://www.parkrun.co.za/franschhoek",
-        "Country": "South Africa",
-        "State": "Western Cape",
-        "County": "Cape Winelands District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Franschhoek parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;September&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/franschhoek\">parkrun.co.za/franschhoek</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -49770,13 +49742,18 @@
         "countrycode": 46,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-09-06",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.jp/sanukikodomonokuni",
         "Country": "Japan",
         "State": "Kagawa",
         "County": "Takamatsu Shi",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Sanukikodomonokuni parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/sanukikodomonokuni\">parkrun.jp/sanukikodomonokuni</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Sanukikodomonokuni parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;September&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/sanukikodomonokuni\">parkrun.jp/sanukikodomonokuni</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -56749,13 +56726,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Nathan Road Sports Ground",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-09-06",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/nathanroadsportsground",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Moreton Bay",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Nathan Road Sports Ground parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/nathanroadsportsground\">parkrun.com.au/nathanroadsportsground</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Nathan Road Sports Ground parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;September&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/nathanroadsportsground\">parkrun.com.au/nathanroadsportsground</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -65199,13 +65181,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Settlers Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-09-06",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/settlerspark",
         "Country": "South Africa",
         "State": "KwaZulu-Natal",
         "County": "uMgungundlovu District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Settlers Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/settlerspark\">parkrun.co.za/settlerspark</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Settlers Park parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;September&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/settlerspark\">parkrun.co.za/settlerspark</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -66719,39 +66706,6 @@
       }
     },
     {
-      "id": 3338,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.358215,
-          51.081714
-        ]
-      },
-      "properties": {
-        "eventname": "millennium",
-        "EventLongName": "Millennium parkrun",
-        "EventShortName": "Millennium",
-        "LocalisedEventLongName": null,
-        "countrycode": 14,
-        "seriesid": 1,
-        "EventLocation": "",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2025-09-06",
-            "ReasonCancelled": "Shortage of volunteers"
-          }
-        ],
-        "Website": "https://www.parkrun.ca/millennium",
-        "Country": "Canada",
-        "State": "Alberta",
-        "County": "Canmore",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Millennium parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;September&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/millennium\">parkrun.ca/millennium</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
       "id": 3339,
       "type": "Feature",
       "geometry": {
@@ -68067,13 +68021,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Fig Tree",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-09-06",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/figtree",
         "Country": "South Africa",
         "State": "KwaZulu-Natal",
         "County": "eThekwini Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Fig Tree parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/figtree\">parkrun.co.za/figtree</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Fig Tree parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;September&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/figtree\">parkrun.co.za/figtree</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -77220,6 +77179,34 @@
       }
     },
     {
+      "id": 3727,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.674389,
+          52.7274
+        ]
+      },
+      "properties": {
+        "eventname": "haughmondhill",
+        "EventLongName": "Haughmond Hill parkrun",
+        "EventShortName": "Haughmond Hill",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Haughmond Hill",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/haughmondhill",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Shropshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Haughmond Hill parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/haughmondhill\">parkrun.org.uk/haughmondhill</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 3728,
       "type": "Feature",
       "geometry": {
@@ -77384,6 +77371,34 @@
         "State": "Scotland",
         "County": "Glasgow City",
         "description": "<h4 style=\"margin: 0 0 8px;\">Alexandra Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/alexandrapark-juniors\">parkrun.org.uk/alexandrapark-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3741,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.773003,
+          61.47482
+        ]
+      },
+      "properties": {
+        "eventname": "porinmetsa",
+        "EventLongName": "Porin Mets\u00e4 parkrun",
+        "EventShortName": "Porin Mets\u00e4",
+        "LocalisedEventLongName": null,
+        "countrycode": 30,
+        "seriesid": 1,
+        "EventLocation": "Porin Mets\u00e4",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.fi/porinmetsa",
+        "Country": "Finland",
+        "State": "Satakunta",
+        "County": "Pori",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Porin Mets\u00e4 parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fi/porinmetsa\">parkrun.fi/porinmetsa</a></td></tr></table>",
         "Special Days": {}
       }
     }
