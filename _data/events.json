@@ -52244,13 +52244,18 @@
         "countrycode": 14,
         "seriesid": 1,
         "EventLocation": "Victoria Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-09-06",
+            "ReasonCancelled": "Local health restrictions"
+          }
+        ],
         "Website": "https://www.parkrun.ca/victoriatruro",
         "Country": "Canada",
         "State": "Nova Scotia",
         "County": "Colchester",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Victoria parkrun, Truro</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/victoriatruro\">parkrun.ca/victoriatruro</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Victoria parkrun, Truro</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;September&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Local health restrictions</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/victoriatruro\">parkrun.ca/victoriatruro</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -53560,13 +53565,18 @@
         "countrycode": 3,
         "seriesid": 2,
         "EventLocation": "Eynesbury Heritage Trail",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-09-07",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/eynesburyheritagetrail-juniors",
         "Country": "Australia",
         "State": "Victoria",
         "County": "Melton",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Eynesbury Heritage Trail junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/eynesburyheritagetrail-juniors\">parkrun.com.au/eynesburyheritagetrail-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Eynesbury Heritage Trail junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  7&nbsp;September&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/eynesburyheritagetrail-juniors\">parkrun.com.au/eynesburyheritagetrail-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -77150,6 +77160,34 @@
         "State": "Lubusz",
         "County": "Gorz\u00f3w County",
         "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Park Drogowskaz\u00f3w</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/parkdrogowskazow\">parkrun.pl/parkdrogowskazow</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3725,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.026784,
+          -38.380498
+        ]
+      },
+      "properties": {
+        "eventname": "redhillrailtrail",
+        "EventLongName": "Red Hill Rail Trail parkrun",
+        "EventShortName": "Red Hill Rail Trail",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "Red Hill Rail Trail",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.au/redhillrailtrail",
+        "Country": "Australia",
+        "State": "Victoria",
+        "County": "Mornington Peninsula",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Red Hill Rail Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/redhillrailtrail\">parkrun.com.au/redhillrailtrail</a></td></tr></table>",
         "Special Days": {}
       }
     },
