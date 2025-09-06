@@ -19332,13 +19332,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Berrinba Wetlands",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-09-06",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/berrinba",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Logan",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Berrinba parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/berrinba\">parkrun.com.au/berrinba</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Berrinba parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;September&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/berrinba\">parkrun.com.au/berrinba</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -55013,13 +55018,18 @@
         "countrycode": 46,
         "seriesid": 1,
         "EventLocation": "",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-09-06",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.jp/shirahamakoen",
         "Country": "Japan",
         "State": "Aichi",
         "County": "Toyota-shi",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Shirahama koen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/shirahamakoen\">parkrun.jp/shirahamakoen</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Shirahama koen parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;September&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/shirahamakoen\">parkrun.jp/shirahamakoen</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -61974,13 +61984,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Winthrop Trailhead",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-09-06",
+            "ReasonCancelled": "Air quality"
+          }
+        ],
         "Website": "https://www.parkrun.us/winthroptrailhead",
         "Country": "USA",
         "State": "Washington",
         "County": "Okanogan",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Winthrop Trailhead parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/winthroptrailhead\">parkrun.us/winthroptrailhead</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Winthrop Trailhead parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  6&nbsp;September&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Air quality</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/winthroptrailhead\">parkrun.us/winthroptrailhead</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -77231,6 +77246,34 @@
         "State": "Nova Scotia",
         "County": "Annapolis",
         "description": "<h4 style=\"margin: 0 0 8px;\">St Patrick\u2019s Lane parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/stpatrickslane\">parkrun.ca/stpatrickslane</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3729,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.082402,
+          52.218625
+        ]
+      },
+      "properties": {
+        "eventname": "brookleys",
+        "EventLongName": "Brook Leys parkrun",
+        "EventShortName": "Brook Leys",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Brook Leys",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/brookleys",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Cambridgeshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Brook Leys parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/brookleys\">parkrun.org.uk/brookleys</a></td></tr></table>",
         "Special Days": {}
       }
     },
