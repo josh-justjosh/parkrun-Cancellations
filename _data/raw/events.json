@@ -54754,6 +54754,26 @@
         }
       },
       {
+        "id": 3716,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150.866257,
+            -34.539216
+          ]
+        },
+        "properties": {
+          "eventname": "reddallreserve",
+          "EventLongName": "Reddall Reserve parkrun",
+          "EventShortName": "Reddall Reserve",
+          "LocalisedEventLongName": null,
+          "countrycode": 3,
+          "seriesid": 1,
+          "EventLocation": "Reddall Reserve"
+        }
+      },
+      {
         "id": 3717,
         "type": "Feature",
         "geometry": {
@@ -55054,6 +55074,26 @@
         }
       },
       {
+        "id": 3732,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153.062671,
+            -26.51794
+          ]
+        },
+        "properties": {
+          "eventname": "coolumeco",
+          "EventLongName": "Coolum Eco parkrun",
+          "EventShortName": "Coolum Eco",
+          "LocalisedEventLongName": null,
+          "countrycode": 3,
+          "seriesid": 1,
+          "EventLocation": "Coolum Eco"
+        }
+      },
+      {
         "id": 3734,
         "type": "Feature",
         "geometry": {
@@ -55125,12 +55165,12 @@
         },
         "properties": {
           "eventname": "porinmetsa",
-          "EventLongName": "Porin Mets\u00e4 parkrun",
-          "EventShortName": "Porin Mets\u00e4",
+          "EventLongName": "Porin mets\u00e4 parkrun",
+          "EventShortName": "Porin mets\u00e4",
           "LocalisedEventLongName": null,
           "countrycode": 30,
           "seriesid": 1,
-          "EventLocation": "Porin Mets\u00e4"
+          "EventLocation": "Porin mets\u00e4"
         }
       },
       {
@@ -55151,6 +55191,66 @@
           "countrycode": 85,
           "seriesid": 1,
           "EventLocation": "Innesfree Park"
+        }
+      },
+      {
+        "id": 3743,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.146213,
+            50.547186
+          ]
+        },
+        "properties": {
+          "eventname": "tavistockmeadows-juniors",
+          "EventLongName": "Tavistock Meadows junior parkrun",
+          "EventShortName": "Tavistock Meadows juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Tavistock Meadows juniors"
+        }
+      },
+      {
+        "id": 3744,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -2.200669,
+            53.691982
+          ]
+        },
+        "properties": {
+          "eventname": "stubbyleemoorlands-juniors",
+          "EventLongName": "Stubbylee Moorlands junior parkrun",
+          "EventShortName": "Stubbylee Moorlands juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Stubbylee Moorlands juniors"
+        }
+      },
+      {
+        "id": 3745,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -79.44766,
+            43.636743
+          ]
+        },
+        "properties": {
+          "eventname": "budapestpark",
+          "EventLongName": "Budapest Park parkrun",
+          "EventShortName": "Budapest Park",
+          "LocalisedEventLongName": null,
+          "countrycode": 14,
+          "seriesid": 1,
+          "EventLocation": "Budapest Park"
         }
       }
     ]

@@ -3091,13 +3091,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Dolerw Park Bridge",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-09-13",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/newtown",
         "Country": "United Kingdom",
         "State": "Wales",
         "County": "Powys",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Newtown parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/newtown\">parkrun.org.uk/newtown</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Newtown parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 13&nbsp;September&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/newtown\">parkrun.org.uk/newtown</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -28500,13 +28505,18 @@
         "countrycode": 97,
         "seriesid": 1,
         "EventLocation": "Langford Village",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-09-13",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/bicester",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Oxfordshire",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Bicester parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/bicester\">parkrun.org.uk/bicester</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Bicester parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 13&nbsp;September&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/bicester\">parkrun.org.uk/bicester</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -56492,13 +56502,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Nathalia Showgrounds and Recreation Reserve",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-09-13",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/nathaliashowgrounds",
         "Country": "Australia",
         "State": "Victoria",
         "County": "Moira",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Nathalia Showgrounds parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/nathaliashowgrounds\">parkrun.com.au/nathaliashowgrounds</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Nathalia Showgrounds parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 13&nbsp;September&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/nathaliashowgrounds\">parkrun.com.au/nathaliashowgrounds</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -76796,6 +76811,34 @@
       }
     },
     {
+      "id": 3716,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.866257,
+          -34.539216
+        ]
+      },
+      "properties": {
+        "eventname": "reddallreserve",
+        "EventLongName": "Reddall Reserve parkrun",
+        "EventShortName": "Reddall Reserve",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "Reddall Reserve",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.au/reddallreserve",
+        "Country": "Australia",
+        "State": "New South Wales",
+        "County": "Shellharbour",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Reddall Reserve parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/reddallreserve\">parkrun.com.au/reddallreserve</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 3717,
       "type": "Feature",
       "geometry": {
@@ -77216,6 +77259,34 @@
       }
     },
     {
+      "id": 3732,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.062671,
+          -26.51794
+        ]
+      },
+      "properties": {
+        "eventname": "coolumeco",
+        "EventLongName": "Coolum Eco parkrun",
+        "EventShortName": "Coolum Eco",
+        "LocalisedEventLongName": null,
+        "countrycode": 3,
+        "seriesid": 1,
+        "EventLocation": "Coolum Eco",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.au/coolumeco",
+        "Country": "Australia",
+        "State": "Queensland",
+        "County": "Sunshine Coast",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Coolum Eco parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/coolumeco\">parkrun.com.au/coolumeco</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 3734,
       "type": "Feature",
       "geometry": {
@@ -77311,19 +77382,19 @@
       },
       "properties": {
         "eventname": "porinmetsa",
-        "EventLongName": "Porin Mets\u00e4 parkrun",
-        "EventShortName": "Porin Mets\u00e4",
+        "EventLongName": "Porin mets\u00e4 parkrun",
+        "EventShortName": "Porin mets\u00e4",
         "LocalisedEventLongName": null,
         "countrycode": 30,
         "seriesid": 1,
-        "EventLocation": "Porin Mets\u00e4",
+        "EventLocation": "Porin mets\u00e4",
         "Status": "parkrunning",
         "Cancellations": [],
         "Website": "https://www.parkrun.fi/porinmetsa",
         "Country": "Finland",
         "State": "Satakunta",
         "County": "Pori",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Porin Mets\u00e4 parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fi/porinmetsa\">parkrun.fi/porinmetsa</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Porin mets\u00e4 parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.fi/porinmetsa\">parkrun.fi/porinmetsa</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -77352,6 +77423,90 @@
         "State": "Gauteng",
         "County": "City of Johannesburg Metropolitan Municipality",
         "description": "<h4 style=\"margin: 0 0 8px;\">Innesfree Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/innesfreepark\">parkrun.co.za/innesfreepark</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3743,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.146213,
+          50.547186
+        ]
+      },
+      "properties": {
+        "eventname": "tavistockmeadows-juniors",
+        "EventLongName": "Tavistock Meadows junior parkrun",
+        "EventShortName": "Tavistock Meadows juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Tavistock Meadows juniors",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/tavistockmeadows-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Devon",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Tavistock Meadows junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/tavistockmeadows-juniors\">parkrun.org.uk/tavistockmeadows-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3744,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.200669,
+          53.691982
+        ]
+      },
+      "properties": {
+        "eventname": "stubbyleemoorlands-juniors",
+        "EventLongName": "Stubbylee Moorlands junior parkrun",
+        "EventShortName": "Stubbylee Moorlands juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Stubbylee Moorlands juniors",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/stubbyleemoorlands-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Lancashire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Stubbylee Moorlands junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/stubbyleemoorlands-juniors\">parkrun.org.uk/stubbyleemoorlands-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3745,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.44766,
+          43.636743
+        ]
+      },
+      "properties": {
+        "eventname": "budapestpark",
+        "EventLongName": "Budapest Park parkrun",
+        "EventShortName": "Budapest Park",
+        "LocalisedEventLongName": null,
+        "countrycode": 14,
+        "seriesid": 1,
+        "EventLocation": "Budapest Park",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.ca/budapestpark",
+        "Country": "Canada",
+        "State": "Ontario",
+        "County": "Toronto",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Budapest Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/budapestpark\">parkrun.ca/budapestpark</a></td></tr></table>",
         "Special Days": {}
       }
     }
