@@ -13499,13 +13499,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Audacia Wine Farm",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-09-20",
+            "ReasonCancelled": "Permission issue"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/root44",
         "Country": "South Africa",
         "State": "Western Cape",
         "County": "Cape Winelands District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Root 44 parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/root44\">parkrun.co.za/root44</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Root 44 parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 20&nbsp;September&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Permission issue</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/root44\">parkrun.co.za/root44</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -29667,13 +29672,18 @@
         "countrycode": 74,
         "seriesid": 1,
         "EventLocation": "Park Pa\u0142acowy, Jab\u0142onna",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-09-20",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.pl/jablonna",
         "Country": "Poland",
         "State": "Mazovia",
         "County": "Powiat legionowski",
-        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Jab\u0142onna</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/jablonna\">parkrun.pl/jablonna</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Jab\u0142onna</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 20&nbsp;September&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/jablonna\">parkrun.pl/jablonna</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -49191,34 +49201,6 @@
         "State": "\u014csaka",
         "County": "Hirakata",
         "description": "<h4 style=\"margin: 0 0 8px;\">Yodogawa kasenkoen Hirakata chiku parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 20&nbsp;September&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/yodogawakasenkoenhirakatachiku\">parkrun.jp/yodogawakasenkoenhirakatachiku</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
-      "id": 2498,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.105993,
-          37.451055
-        ]
-      },
-      "properties": {
-        "eventname": "byxbee",
-        "EventLongName": "Byxbee parkrun",
-        "EventShortName": "Byxbee",
-        "LocalisedEventLongName": null,
-        "countrycode": 98,
-        "seriesid": 1,
-        "EventLocation": "Byxbee Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.us/byxbee",
-        "Country": "USA",
-        "State": "California",
-        "County": "Santa Clara",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Byxbee parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/byxbee\">parkrun.us/byxbee</a></td></tr></table>",
         "Special Days": {}
       }
     },
