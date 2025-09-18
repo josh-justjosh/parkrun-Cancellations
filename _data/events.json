@@ -9779,7 +9779,7 @@
         "LocalisedEventLongName": null,
         "countrycode": 3,
         "seriesid": 1,
-        "EventLocation": "George Kendell Riverside Park",
+        "EventLocation": "Eric Primrose Reserve",
         "Status": "parkrunning",
         "Cancellations": [],
         "Website": "https://www.parkrun.com.au/parramatta",
@@ -77585,6 +77585,34 @@
         "State": "California",
         "County": "Santa Clara",
         "description": "<h4 style=\"margin: 0 0 8px;\">Baylands Nature Preserve parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/baylandsnaturepreserve\">parkrun.us/baylandsnaturepreserve</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3759,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.486299,
+          -25.103554
+        ]
+      },
+      "properties": {
+        "eventname": "gustavklingbielnaturereserve",
+        "EventLongName": "Gustav Klingbiel Nature Reserve parkrun",
+        "EventShortName": "Gustav Klingbiel Nature Reserve",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Gustav Klingbiel Nature Reserve",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.za/gustavklingbielnaturereserve",
+        "Country": "South Africa",
+        "State": "Mpumalanga",
+        "County": "Ehlanzeni District",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Gustav Klingbiel Nature Reserve parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/gustavklingbielnaturereserve\">parkrun.co.za/gustavklingbielnaturereserve</a></td></tr></table>",
         "Special Days": {}
       }
     }
