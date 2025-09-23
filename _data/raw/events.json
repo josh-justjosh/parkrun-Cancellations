@@ -55412,6 +55412,46 @@
           "seriesid": 1,
           "EventLocation": "Gustav Klingbiel Nature Reserve"
         }
+      },
+      {
+        "id": 3762,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.843246,
+            52.559294
+          ]
+        },
+        "properties": {
+          "eventname": "suttonpark-juniors",
+          "EventLongName": "Sutton Park junior parkrun",
+          "EventShortName": "Sutton Park juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Sutton Park juniors"
+        }
+      },
+      {
+        "id": 3763,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -2.353546,
+            53.422166
+          ]
+        },
+        "properties": {
+          "eventname": "goodwoodfield-juniors",
+          "EventLongName": "Goodwood Field junior parkrun",
+          "EventShortName": "Goodwood Field juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Goodwood Field juniors"
+        }
       }
     ]
   }
