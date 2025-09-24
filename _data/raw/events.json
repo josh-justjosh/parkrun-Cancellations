@@ -55452,6 +55452,46 @@
           "seriesid": 2,
           "EventLocation": "Goodwood Field juniors"
         }
+      },
+      {
+        "id": 3764,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -2.600926,
+            56.552117
+          ]
+        },
+        "properties": {
+          "eventname": "westlinks-juniors",
+          "EventLongName": "West Links junior parkrun",
+          "EventShortName": "West Links juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "West Links juniors"
+        }
+      },
+      {
+        "id": 3768,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            130.336809,
+            33.579802
+          ]
+        },
+        "properties": {
+          "eventname": "muromikahankoen",
+          "EventLongName": "Muromi kahan koen parkrun",
+          "EventShortName": "Muromi kahan koen",
+          "LocalisedEventLongName": "\u5ba4\u898b\u6cb3\u7554\u516c\u5712parkrun",
+          "countrycode": 46,
+          "seriesid": 1,
+          "EventLocation": "Muromi kahan koen"
+        }
       }
     ]
   }
