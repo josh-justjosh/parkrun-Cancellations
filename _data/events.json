@@ -53434,13 +53434,18 @@
         "countrycode": 3,
         "seriesid": 2,
         "EventLocation": "Eynesbury Heritage Trail",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-09-28",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/eynesburyheritagetrail-juniors",
         "Country": "Australia",
         "State": "Victoria",
         "County": "Melton",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Eynesbury Heritage Trail junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/eynesburyheritagetrail-juniors\">parkrun.com.au/eynesburyheritagetrail-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Eynesbury Heritage Trail junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 28&nbsp;September&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/eynesburyheritagetrail-juniors\">parkrun.com.au/eynesburyheritagetrail-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -77743,6 +77748,34 @@
         "State": "Fukuoka",
         "County": "Fukuoka City",
         "description": "<h4 style=\"margin: 0 0 8px;\">Muromi kahan koen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/muromikahankoen\">parkrun.jp/muromikahankoen</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3769,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.45552,
+          44.054998
+        ]
+      },
+      "properties": {
+        "eventname": "tomtaylortrail",
+        "EventLongName": "Tom Taylor Trail parkrun",
+        "EventShortName": "Tom Taylor Trail",
+        "LocalisedEventLongName": null,
+        "countrycode": 14,
+        "seriesid": 1,
+        "EventLocation": "Tom Taylor Trail",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.ca/tomtaylortrail",
+        "Country": "Canada",
+        "State": "Ontario",
+        "County": "York",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Tom Taylor Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ca/tomtaylortrail\">parkrun.ca/tomtaylortrail</a></td></tr></table>",
         "Special Days": {}
       }
     }
