@@ -3784,9 +3784,9 @@
           ]
         },
         "properties": {
-          "eventname": "newbury",
-          "EventLongName": "Newbury parkrun",
-          "EventShortName": "Newbury",
+          "eventname": "greenhamcommon",
+          "EventLongName": "Greenham Common parkrun, Newbury",
+          "EventShortName": "Greenham Common, Newbury",
           "LocalisedEventLongName": null,
           "countrycode": 97,
           "seriesid": 1,
@@ -55374,6 +55374,46 @@
         }
       },
       {
+        "id": 3747,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151.015305,
+            -33.859877
+          ]
+        },
+        "properties": {
+          "eventname": "auburnbotanicgardens",
+          "EventLongName": "Auburn Botanic Gardens parkrun",
+          "EventShortName": "Auburn Botanic Gardens",
+          "LocalisedEventLongName": null,
+          "countrycode": 3,
+          "seriesid": 1,
+          "EventLocation": "Auburn Botanic Gardens"
+        }
+      },
+      {
+        "id": 3748,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            142.616196,
+            -37.145642
+          ]
+        },
+        "properties": {
+          "eventname": "lakefyanswalkingtrack",
+          "EventLongName": "Lake Fyans Walking Track parkrun",
+          "EventShortName": "Lake Fyans Walking Track",
+          "LocalisedEventLongName": null,
+          "countrycode": 3,
+          "seriesid": 1,
+          "EventLocation": "Lake Fyans Walking Track"
+        }
+      },
+      {
         "id": 3749,
         "type": "Feature",
         "geometry": {
@@ -55631,6 +55671,26 @@
           "countrycode": 74,
           "seriesid": 1,
           "EventLocation": "Faktoria"
+        }
+      },
+      {
+        "id": 3774,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.456276,
+            52.045036
+          ]
+        },
+        "properties": {
+          "eventname": "balijbos",
+          "EventLongName": "Balijbos parkrun",
+          "EventShortName": "Balijbos",
+          "LocalisedEventLongName": null,
+          "countrycode": 64,
+          "seriesid": 1,
+          "EventLocation": "Balijbos"
         }
       }
     ]
