@@ -61638,13 +61638,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "The Great Field",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-10-19",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/thegreatfield-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Dorset",
-        "description": "<h4 style=\"margin: 0 0 8px;\">The Great Field junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/thegreatfield-juniors\">parkrun.org.uk/thegreatfield-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">The Great Field junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 19&nbsp;October&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/thegreatfield-juniors\">parkrun.org.uk/thegreatfield-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
