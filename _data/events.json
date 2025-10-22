@@ -23368,13 +23368,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Hamilton Island",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-10-25",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/hamiltonisland",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Whitsunday",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hamilton Island parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/hamiltonisland\">parkrun.com.au/hamiltonisland</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hamilton Island parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 25&nbsp;October&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/hamiltonisland\">parkrun.com.au/hamiltonisland</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -78472,6 +78477,34 @@
         "State": "Leinster",
         "County": "County Wicklow",
         "description": "<h4 style=\"margin: 0 0 8px;\">Baltinglass Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/baltinglasspark-juniors\">parkrun.ie/baltinglasspark-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3783,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.591894,
+          53.006218
+        ]
+      },
+      "properties": {
+        "eventname": "camrosscommunitypark-juniors",
+        "EventLongName": "Camross Community Park junior parkrun",
+        "EventShortName": "Camross Community Park juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 42,
+        "seriesid": 2,
+        "EventLocation": "Camross Community Park juniors",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.ie/camrosscommunitypark-juniors",
+        "Country": "Ireland",
+        "State": "Leinster",
+        "County": "Laois",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Camross Community Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/camrosscommunitypark-juniors\">parkrun.ie/camrosscommunitypark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     }
