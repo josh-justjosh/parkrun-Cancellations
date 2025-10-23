@@ -13452,39 +13452,6 @@
       }
     },
     {
-      "id": 555,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.82902,
-          -33.995078
-        ]
-      },
-      "properties": {
-        "eventname": "root44",
-        "EventLongName": "Root 44 parkrun",
-        "EventShortName": "Root 44",
-        "LocalisedEventLongName": null,
-        "countrycode": 85,
-        "seriesid": 1,
-        "EventLocation": "Audacia Wine Farm",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2025-10-25",
-            "ReasonCancelled": "Permission issue"
-          }
-        ],
-        "Website": "https://www.parkrun.co.za/root44",
-        "Country": "South Africa",
-        "State": "Western Cape",
-        "County": "Cape Winelands District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Root 44 parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 25&nbsp;October&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Permission issue</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/root44\">parkrun.co.za/root44</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
       "id": 556,
       "type": "Feature",
       "geometry": {
@@ -68068,39 +68035,6 @@
       }
     },
     {
-      "id": 3396,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          30.987455,
-          -25.732858
-        ]
-      },
-      "properties": {
-        "eventname": "aronicasnursery",
-        "EventLongName": "Aronica\u2019s Nursery parkrun",
-        "EventShortName": "Aronica\u2019s Nursery",
-        "LocalisedEventLongName": null,
-        "countrycode": 85,
-        "seriesid": 1,
-        "EventLocation": "Aronica\u2019s Nursery",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2025-10-25",
-            "ReasonCancelled": "Shortage of volunteers"
-          }
-        ],
-        "Website": "https://www.parkrun.co.za/aronicasnursery",
-        "Country": "South Africa",
-        "State": "Mpumalanga",
-        "County": "Ehlanzeni District",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Aronica\u2019s Nursery parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 25&nbsp;October&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/aronicasnursery\">parkrun.co.za/aronicasnursery</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
       "id": 3398,
       "type": "Feature",
       "geometry": {
@@ -71877,13 +71811,18 @@
         "countrycode": 65,
         "seriesid": 1,
         "EventLocation": "Hanmer Forest",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-10-25",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.co.nz/hanmerforest",
         "Country": "New Zealand",
         "State": "Canterbury",
         "County": "Hurunui District",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hanmer Forest parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/hanmerforest\">parkrun.co.nz/hanmerforest</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hanmer Forest parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 25&nbsp;October&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/hanmerforest\">parkrun.co.nz/hanmerforest</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -77434,39 +77373,6 @@
       }
     },
     {
-      "id": 3742,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          28.076087,
-          -26.106266
-        ]
-      },
-      "properties": {
-        "eventname": "innesfreepark",
-        "EventLongName": "Innesfree Park parkrun",
-        "EventShortName": "Innesfree Park",
-        "LocalisedEventLongName": null,
-        "countrycode": 85,
-        "seriesid": 1,
-        "EventLocation": "Innesfree Park",
-        "Status": "5k Cancellation",
-        "Cancellations": [
-          {
-            "DateCancelled": "2025-10-25",
-            "ReasonCancelled": "Venue unavailable"
-          }
-        ],
-        "Website": "https://www.parkrun.co.za/innesfreepark",
-        "Country": "South Africa",
-        "State": "Gauteng",
-        "County": "City of Johannesburg Metropolitan Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Innesfree Park parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 25&nbsp;October&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/innesfreepark\">parkrun.co.za/innesfreepark</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
       "id": 3743,
       "type": "Feature",
       "geometry": {
@@ -78312,6 +78218,34 @@
       }
     },
     {
+      "id": 3773,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.630589,
+          -36.904598
+        ]
+      },
+      "properties": {
+        "eventname": "parrspark",
+        "EventLongName": "Parrs Park parkrun",
+        "EventShortName": "Parrs Park",
+        "LocalisedEventLongName": null,
+        "countrycode": 65,
+        "seriesid": 1,
+        "EventLocation": "Parrs Park",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.nz/parrspark",
+        "Country": "New Zealand",
+        "State": "Auckland",
+        "County": "Auckland",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Parrs Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/parrspark\">parkrun.co.nz/parrspark</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 3774,
       "type": "Feature",
       "geometry": {
@@ -78560,6 +78494,62 @@
         "State": "Leinster",
         "County": "Laois",
         "description": "<h4 style=\"margin: 0 0 8px;\">Camross Community Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/camrosscommunitypark-juniors\">parkrun.ie/camrosscommunitypark-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3784,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.333911,
+          -25.646781
+        ]
+      },
+      "properties": {
+        "eventname": "bladeshotel",
+        "EventLongName": "Blades Hotel parkrun",
+        "EventShortName": "Blades Hotel",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "Blades Hotel",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.za/bladeshotel",
+        "Country": "South Africa",
+        "State": "Gauteng",
+        "County": "City of Tshwane Metropolitan Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Blades Hotel parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/bladeshotel\">parkrun.co.za/bladeshotel</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3785,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.32339,
+          55.737389
+        ]
+      },
+      "properties": {
+        "eventname": "kulturosirpoilsioparkas",
+        "EventLongName": "parkrun Kult\u016bros Ir Poilsio Parkas",
+        "EventShortName": "Kult\u016bros Ir Poilsio Parkas",
+        "LocalisedEventLongName": null,
+        "countrycode": 54,
+        "seriesid": 1,
+        "EventLocation": "Kult\u016bros Ir Poilsio Parkas",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.lt/kulturosirpoilsioparkas",
+        "Country": "Lithuania",
+        "State": "-Unknown-",
+        "County": "-Unknown-",
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Kult\u016bros Ir Poilsio Parkas</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.lt/kulturosirpoilsioparkas\">parkrun.lt/kulturosirpoilsioparkas</a></td></tr></table>",
         "Special Days": {}
       }
     }
