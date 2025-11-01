@@ -8119,8 +8119,8 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            -2.07824,
-            51.911754
+            -2.075153,
+            51.908452
           ]
         },
         "properties": {
@@ -55934,6 +55934,26 @@
         }
       },
       {
+        "id": 3779,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.304006,
+            51.432026
+          ]
+        },
+        "properties": {
+          "eventname": "whitecliffelake",
+          "EventLongName": "Whitecliffe Lake parkrun",
+          "EventShortName": "Whitecliffe Lake",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 1,
+          "EventLocation": "Whitecliffe Lake"
+        }
+      },
+      {
         "id": 3780,
         "type": "Feature",
         "geometry": {
@@ -56091,6 +56111,46 @@
           "countrycode": 85,
           "seriesid": 1,
           "EventLocation": "Dorothy Nyembe"
+        }
+      },
+      {
+        "id": 3791,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            13.065903,
+            55.597979
+          ]
+        },
+        "properties": {
+          "eventname": "bulltofta",
+          "EventLongName": "Bulltofta parkrun",
+          "EventShortName": "Bulltofta",
+          "LocalisedEventLongName": null,
+          "countrycode": 88,
+          "seriesid": 1,
+          "EventLocation": "Bulltofta"
+        }
+      },
+      {
+        "id": 3793,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            134.182153,
+            35.500336
+          ]
+        },
+        "properties": {
+          "eventname": "yamatasportspark",
+          "EventLongName": "Yamata Sports Park parkrun",
+          "EventShortName": "Yamata Sports Park",
+          "LocalisedEventLongName": "\u30e4\u30de\u30bf\u30b9\u30dd\u30fc\u30c4\u30d1\u30fc\u30afparkrun",
+          "countrycode": 46,
+          "seriesid": 1,
+          "EventLocation": "Yamata Sports Park"
         }
       }
     ]
