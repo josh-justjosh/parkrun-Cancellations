@@ -23405,13 +23405,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Hamilton Island",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-11-08",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/hamiltonisland",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Whitsunday",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hamilton Island parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/hamiltonisland\">parkrun.com.au/hamiltonisland</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hamilton Island parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;November&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/hamiltonisland\">parkrun.com.au/hamiltonisland</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -74003,13 +74008,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Biki Byte",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-11-08",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/bikibyte",
         "Country": "South Africa",
         "State": "North West",
         "County": "Dr Kenneth Kaunda District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Biki Byte parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/bikibyte\">parkrun.co.za/bikibyte</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Biki Byte parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;November&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/bikibyte\">parkrun.co.za/bikibyte</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -78627,6 +78637,90 @@
         "State": "Tottori",
         "County": "Tottori Shi",
         "description": "<h4 style=\"margin: 0 0 8px;\">Yamata Sports Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/yamatasportspark\">parkrun.jp/yamatasportspark</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3794,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.162167,
+          55.726773
+        ]
+      },
+      "properties": {
+        "eventname": "danesdviraciutakas",
+        "EventLongName": "parkrun Dan\u0117s dvira\u010di\u0173 takas",
+        "EventShortName": "Dan\u0117s dvira\u010di\u0173 takas",
+        "LocalisedEventLongName": null,
+        "countrycode": 54,
+        "seriesid": 1,
+        "EventLocation": "Dan\u0117s dvira\u010di\u0173 takas",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.lt/danesdviraciutakas",
+        "Country": "Lithuania",
+        "State": "Klaip\u0117da County",
+        "County": "Klaip\u0117da City Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Dan\u0117s dvira\u010di\u0173 takas</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.lt/danesdviraciutakas\">parkrun.lt/danesdviraciutakas</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3796,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.051534,
+          52.283422
+        ]
+      },
+      "properties": {
+        "eventname": "westernpark-juniors",
+        "EventLongName": "Western Park junior parkrun",
+        "EventShortName": "Western Park juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Western Park juniors",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/westernpark-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Cambridgeshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Western Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/westernpark-juniors\">parkrun.org.uk/westernpark-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3797,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.637755,
+          53.552725
+        ]
+      },
+      "properties": {
+        "eventname": "mesnespark-juniors",
+        "EventLongName": "Mesnes Park junior parkrun",
+        "EventShortName": "Mesnes Park junior parkrun",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Mesnes Park junior parkrun",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/mesnespark-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Wigan",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Mesnes Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/mesnespark-juniors\">parkrun.org.uk/mesnespark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     }
