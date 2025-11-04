@@ -78714,11 +78714,11 @@
       "properties": {
         "eventname": "mesnespark-juniors",
         "EventLongName": "Mesnes Park junior parkrun",
-        "EventShortName": "Mesnes Park junior parkrun",
+        "EventShortName": "Mesnes Park juniors",
         "LocalisedEventLongName": null,
         "countrycode": 97,
         "seriesid": 2,
-        "EventLocation": "Mesnes Park junior parkrun",
+        "EventLocation": "Mesnes Park",
         "Status": "junior parkrunning",
         "Cancellations": [],
         "Website": "https://www.parkrun.org.uk/mesnespark-juniors",
@@ -78726,6 +78726,34 @@
         "State": "England",
         "County": "Wigan",
         "description": "<h4 style=\"margin: 0 0 8px;\">Mesnes Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/mesnespark-juniors\">parkrun.org.uk/mesnespark-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3798,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.509961,
+          37.760326
+        ]
+      },
+      "properties": {
+        "eventname": "sunsetdunes",
+        "EventLongName": "Sunset Dunes parkrun",
+        "EventShortName": "Sunset Dunes",
+        "LocalisedEventLongName": null,
+        "countrycode": 98,
+        "seriesid": 1,
+        "EventLocation": "Sunset Dunes",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.us/sunsetdunes",
+        "Country": "USA",
+        "State": "California",
+        "County": "San Francisco County",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Sunset Dunes parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/sunsetdunes\">parkrun.us/sunsetdunes</a></td></tr></table>",
         "Special Days": {}
       }
     }
