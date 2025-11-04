@@ -37661,13 +37661,18 @@
         "countrycode": 44,
         "seriesid": 1,
         "EventLocation": "Foro Umberto I\u00b0",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-11-08",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.it/foroitalico",
         "Country": "Italy",
         "State": "Sicily",
         "County": "Province of Palermo",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Foro Italico parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.it/foroitalico\">parkrun.it/foroitalico</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Foro Italico parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday,  8&nbsp;November&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.it/foroitalico\">parkrun.it/foroitalico</a></td></tr></table>",
         "Special Days": {}
       }
     },
