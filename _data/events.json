@@ -37576,13 +37576,18 @@
         "countrycode": 44,
         "seriesid": 1,
         "EventLocation": "Foro Umberto I\u00b0",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-11-15",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.it/foroitalico",
         "Country": "Italy",
         "State": "Sicily",
         "County": "Province of Palermo",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Foro Italico parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.it/foroitalico\">parkrun.it/foroitalico</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Foro Italico parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 15&nbsp;November&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.it/foroitalico\">parkrun.it/foroitalico</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -78672,6 +78677,34 @@
         "State": "Bavaria",
         "County": "Swabia",
         "description": "<h4 style=\"margin: 0 0 8px;\">Illerufer parkrun, Kempten</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/illeruferkempten\">parkrun.com.de/illeruferkempten</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3807,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.115661,
+          -32.960761
+        ]
+      },
+      "properties": {
+        "eventname": "westcoastfossilpark",
+        "EventLongName": "West Coast Fossil Park parkrun",
+        "EventShortName": "West Coast Fossil Park",
+        "LocalisedEventLongName": null,
+        "countrycode": 85,
+        "seriesid": 1,
+        "EventLocation": "West Coast Fossil Park",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.za/westcoastfossilpark",
+        "Country": "South Africa",
+        "State": "Western Cape",
+        "County": "West Coast District Municipality",
+        "description": "<h4 style=\"margin: 0 0 8px;\">West Coast Fossil Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/westcoastfossilpark\">parkrun.co.za/westcoastfossilpark</a></td></tr></table>",
         "Special Days": {}
       }
     }
