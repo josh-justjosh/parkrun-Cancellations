@@ -5639,8 +5639,8 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            -0.327823,
-            51.066497
+            -0.348479,
+            51.022348
           ]
         },
         "properties": {
@@ -10145,12 +10145,12 @@
         },
         "properties": {
           "eventname": "greenpoint",
-          "EventLongName": "Greenpoint parkrun",
-          "EventShortName": "Greenpoint",
+          "EventLongName": "Green Point parkrun",
+          "EventShortName": "Green Point",
           "LocalisedEventLongName": null,
           "countrycode": 85,
           "seriesid": 1,
-          "EventLocation": "Greenpoint Park"
+          "EventLocation": "Green Point Park"
         }
       },
       {
@@ -56371,6 +56371,26 @@
           "countrycode": 42,
           "seriesid": 2,
           "EventLocation": "The Manor Fields juniors"
+        }
+      },
+      {
+        "id": 3813,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -2.424009,
+            51.527271
+          ]
+        },
+        "properties": {
+          "eventname": "qeiiplayingfields-juniors",
+          "EventLongName": "QEII Playing Fields junior parkrun",
+          "EventShortName": "QEII Playing Fields juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "QEII Playing Fields juniors"
         }
       }
     ]
