@@ -14389,13 +14389,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Renton",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-12-27",
+            "ReasonCancelled": "Course unsafe or blocked"
+          }
+        ],
         "Website": "https://www.parkrun.us/renton",
         "Country": "USA",
         "State": "Washington",
         "County": "King",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Renton parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/renton\">parkrun.us/renton</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Renton parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 27&nbsp;December&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Course unsafe or blocked</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/renton\">parkrun.us/renton</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -38744,13 +38749,18 @@
         "countrycode": 42,
         "seriesid": 2,
         "EventLocation": "John Murphy Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-12-28",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.ie/cobh-juniors",
         "Country": "Ireland",
         "State": "Munster",
         "County": "Cork",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Cobh junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/cobh-juniors\">parkrun.ie/cobh-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cobh junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 28&nbsp;December&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/cobh-juniors\">parkrun.ie/cobh-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -54772,13 +54782,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "Waterloo Plains Environmental Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-12-25",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/waterlooplains",
         "Country": "Australia",
         "State": "Queensland",
         "County": "Western Downs",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Waterloo Plains parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/waterlooplains\">parkrun.com.au/waterlooplains</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Waterloo Plains parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Thursday, 25&nbsp;December&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/waterlooplains\">parkrun.com.au/waterlooplains</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -63908,13 +63923,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Seotlong Agriculture and Hotel School",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2025-12-27",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/seotlongagricultureschool",
         "Country": "South Africa",
         "State": "Orange Free State",
         "County": "Thabo Mofutsanyana District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Seotlong Agriculture School parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/seotlongagricultureschool\">parkrun.co.za/seotlongagricultureschool</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Seotlong Agriculture School parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 27&nbsp;December&nbsp;2025</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/seotlongagricultureschool\">parkrun.co.za/seotlongagricultureschool</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -79770,6 +79790,62 @@
         "State": "Kujawsko-Pomorskie",
         "County": "\u015awiecie County",
         "description": "<h4 style=\"margin: 0 0 8px;\">parkrun Bory Tucholskie, Tle\u0144</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.pl/borytucholskietlen\">parkrun.pl/borytucholskietlen</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3823,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.496642,
+          50.903383
+        ]
+      },
+      "properties": {
+        "eventname": "westexerec-juniors",
+        "EventLongName": "Westexe Rec junior parkrun",
+        "EventShortName": "Westexe Rec juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Westexe Rec juniors",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/westexerec-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Devon",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Westexe Rec junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/westexerec-juniors\">parkrun.org.uk/westexerec-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3824,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.069143,
+          51.273871
+        ]
+      },
+      "properties": {
+        "eventname": "stjohnsprimaryschool-juniors",
+        "EventLongName": "St John\u2019s Primary School junior parkrun",
+        "EventShortName": "St John\u2019s Primary School juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "St John\u2019s Primary School juniors",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/stjohnsprimaryschool-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Surrey",
+        "description": "<h4 style=\"margin: 0 0 8px;\">St John\u2019s Primary School junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/stjohnsprimaryschool-juniors\">parkrun.org.uk/stjohnsprimaryschool-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     }
