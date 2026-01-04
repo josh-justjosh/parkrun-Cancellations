@@ -71326,13 +71326,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Omagh Leisure Complex juniors",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2026-01-04",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/omaghleisurecomplex-juniors",
         "Country": "United Kingdom",
         "State": "Northern Ireland",
         "County": "Tyrone",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Omagh Leisure Complex junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/omaghleisurecomplex-juniors\">parkrun.org.uk/omaghleisurecomplex-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Omagh Leisure Complex junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday,  4&nbsp;January&nbsp;2026</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/omaghleisurecomplex-juniors\">parkrun.org.uk/omaghleisurecomplex-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
