@@ -31613,13 +31613,18 @@
         "countrycode": 85,
         "seriesid": 1,
         "EventLocation": "Kroonstad",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2026-02-28",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.co.za/kroonstad",
         "Country": "South Africa",
         "State": "Orange Free State",
         "County": "Fezile Dabi District Municipality",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Kroonstad parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kroonstad\">parkrun.co.za/kroonstad</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Kroonstad parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 28&nbsp;February&nbsp;2026</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/kroonstad\">parkrun.co.za/kroonstad</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -45713,13 +45718,18 @@
         "countrycode": 3,
         "seriesid": 1,
         "EventLocation": "The Shiraz Trail",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2026-02-28",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.com.au/shiraztrail",
         "Country": "Australia",
         "State": "South Australia",
         "County": "Onkaparinga",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Shiraz Trail parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/shiraztrail\">parkrun.com.au/shiraztrail</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Shiraz Trail parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 28&nbsp;February&nbsp;2026</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/shiraztrail\">parkrun.com.au/shiraztrail</a></td></tr></table>",
         "Special Days": {}
       }
     },
