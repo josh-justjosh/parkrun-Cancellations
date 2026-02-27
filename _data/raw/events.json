@@ -56994,6 +56994,26 @@
         }
       },
       {
+        "id": 3841,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.269984,
+            51.84594
+          ]
+        },
+        "properties": {
+          "eventname": "waltonpromenade",
+          "EventLongName": "Walton Promenade parkrun",
+          "EventShortName": "Walton Promenade",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 1,
+          "EventLocation": "Walton Promenade"
+        }
+      },
+      {
         "id": 3842,
         "type": "Feature",
         "geometry": {
@@ -57031,6 +57051,46 @@
           "countrycode": 97,
           "seriesid": 2,
           "EventLocation": "Southwark juniors"
+        }
+      },
+      {
+        "id": 3845,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            172.533266,
+            -43.387793
+          ]
+        },
+        "properties": {
+          "eventname": "mandeville",
+          "EventLongName": "Mandeville parkrun",
+          "EventShortName": "Mandeville",
+          "LocalisedEventLongName": null,
+          "countrycode": 65,
+          "seriesid": 1,
+          "EventLocation": "Mandeville"
+        }
+      },
+      {
+        "id": 3847,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            173.022733,
+            -41.136117
+          ]
+        },
+        "properties": {
+          "eventname": "motuekabeachreserve",
+          "EventLongName": "Motueka Beach Reserve parkrun",
+          "EventShortName": "Motueka Beach Reserve",
+          "LocalisedEventLongName": null,
+          "countrycode": 65,
+          "seriesid": 1,
+          "EventLocation": "Motueka Beach Reserve"
         }
       }
     ]
