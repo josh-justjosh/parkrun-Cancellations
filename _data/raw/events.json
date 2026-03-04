@@ -7899,8 +7899,8 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            -81.770446,
-            28.557404
+            -81.779228,
+            28.570116
           ]
         },
         "properties": {
@@ -57111,6 +57111,26 @@
           "countrycode": 32,
           "seriesid": 1,
           "EventLocation": "Kulturpark Neubrandenburg"
+        }
+      },
+      {
+        "id": 3850,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -2.455618,
+            56.724586
+          ]
+        },
+        "properties": {
+          "eventname": "broomfieldpark-juniors",
+          "EventLongName": "Broomfield Park junior parkrun",
+          "EventShortName": "Broomfield Park juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Broomfield Park juniors"
         }
       }
     ]
