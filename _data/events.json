@@ -38147,13 +38147,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Des Moines Beach Park Event Center",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2026-03-14",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.us/desmoinescreek",
         "Country": "USA",
         "State": "Washington",
         "County": "King",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Des Moines Creek parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/desmoinescreek\">parkrun.us/desmoinescreek</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Des Moines Creek parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 14&nbsp;March&nbsp;2026</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/desmoinescreek\">parkrun.us/desmoinescreek</a></td></tr></table>",
         "Special Days": {}
       }
     },
