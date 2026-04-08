@@ -1,10 +1,13 @@
+import html
 import json
 import os
+import re
 import time
 import csv
 import datetime
 import collections
 import xml.etree.ElementTree as ET
+from urllib.parse import urlparse
 from zoneinfo import ZoneInfo
 
 import requests
@@ -50,6 +53,7 @@ _DEBUG_LOG_PATH = os.path.join(
 def _agent_debug_log(message, data, hypothesis_id):
     # #region agent log
     try:
+        os.makedirs(os.path.dirname(_DEBUG_LOG_PATH), exist_ok=True)
         line = json.dumps(
             {
                 'sessionId': '877ec8',
@@ -62,6 +66,7 @@ def _agent_debug_log(message, data, hypothesis_id):
             ensure_ascii=False)
         with open(_DEBUG_LOG_PATH, 'a', encoding='utf-8') as _df:
             _df.write(line + '\n')
+            _df.flush()
     except OSError:
         pass
     # #endregion
@@ -97,6 +102,196 @@ def same_week(date_string):
     d1 = datetime.datetime.strptime(date_string, '%Y-%m-%d').replace(tzinfo=tz)
     d2 = datetime.datetime.now(tz)
     return d1.isocalendar()[:2] == d2.isocalendar()[:2]
+
+
+_PUBLIC_CANCEL_DATE_RE = re.compile(
+    r'^[A-Za-z]+,\s+([A-Za-z]+)\s+(\d{1,2}),\s*(\d{4})\s*$')
+
+_PUBLIC_MONTH_NUM = {
+    'January': 1,
+    'February': 2,
+    'March': 3,
+    'April': 4,
+    'May': 5,
+    'June': 6,
+    'July': 7,
+    'August': 8,
+    'September': 9,
+    'October': 10,
+    'November': 11,
+    'December': 12,
+}
+
+_PUBLIC_SITE_HOST_TO_COUNTRY = {
+    'www.parkrun.com.au': 'Australia',
+    'www.parkrun.co.at': 'Austria',
+    'www.parkrun.ca': 'Canada',
+    'www.parkrun.dk': 'Denmark',
+    'www.parkrun.fi': 'Finland',
+    'www.parkrun.fr': 'France',
+    'www.parkrun.com.de': 'Germany',
+    'www.parkrun.ie': 'Ireland',
+    'www.parkrun.it': 'Italy',
+    'www.parkrun.jp': 'Japan',
+    'www.parkrun.lt': 'Lithuania',
+    'www.parkrun.my': 'Malaysia',
+    'www.parkrun.co.nl': 'Netherlands',
+    'www.parkrun.co.nz': 'New Zealand',
+    'www.parkrun.no': 'Norway',
+    'www.parkrun.pl': 'Poland',
+    'www.parkrun.ru': 'Russia',
+    'www.parkrun.sg': 'Singapore',
+    'www.parkrun.co.za': 'South Africa',
+    'www.parkrun.se': 'Sweden',
+    'www.parkrun.org.uk': 'United Kingdom',
+    'www.parkrun.us': 'USA',
+}
+
+
+def _parse_public_heading_date(h2_text):
+    m = _PUBLIC_CANCEL_DATE_RE.match(h2_text.strip())
+    if not m:
+        return None
+    mon_s, day_s, year_s = m.group(1), m.group(2), m.group(3)
+    mon = _PUBLIC_MONTH_NUM.get(mon_s)
+    if not mon:
+        return None
+    return f'{int(year_s):04d}-{mon:02d}-{int(day_s):02d}'
+
+
+def _country_from_event_properties(props):
+    cc = props['countrycode']
+    eln = props['EventLongName']
+    if cc == 85:
+        if eln in ('Windhoek parkrun', 'Omeya parkrun', 'Swakopmund parkrun',
+                   'Walvis Bay parkrun'):
+            return 'Namibia'
+        if eln in ('Mbabane parkrun', 'Manzini parkrun'):
+            return 'Eswatini'
+        return 'South Africa'
+    return {
+        3: 'Australia',
+        4: 'Austria',
+        14: 'Canada',
+        23: 'Denmark',
+        30: 'Finland',
+        31: 'France',
+        32: 'Germany',
+        42: 'Ireland',
+        44: 'Italy',
+        46: 'Japan',
+        54: 'Lithuania',
+        57: 'Malaysia',
+        65: 'New Zealand',
+        67: 'Norway',
+        74: 'Poland',
+        79: 'Russia',
+        82: 'Singapore',
+        88: 'Sweden',
+        97: 'United Kingdom',
+        98: 'USA',
+        64: 'Netherlands',
+    }.get(cc, '')
+
+
+def _region_lookup_states_list(event_name, states_list):
+    for row in states_list:
+        if row[0] == event_name:
+            return row[2]
+    return ''
+
+
+def _parse_public_cancellations_wysiwyg(page_html, event_by_name, states_list):
+    soup = BeautifulSoup(page_html, 'html.parser')
+    wys = soup.select_one('div.wysiwyg')
+    if not wys:
+        return None
+    rows = []
+    cur_date = None
+    for child in wys.children:
+        name = getattr(child, 'name', None)
+        if name == 'h2':
+            cur_date = _parse_public_heading_date(child.get_text())
+        elif name == 'ul' and cur_date:
+            for li in child.find_all('li', recursive=False):
+                a = li.find('a')
+                if not a or not a.get('href'):
+                    continue
+                event_long = a.get_text(strip=True)
+                full = li.get_text(strip=True)
+                if full.startswith(event_long):
+                    note = full[len(event_long):].lstrip().lstrip(':').strip()
+                else:
+                    note = ''
+                feat = event_by_name.get(event_long)
+                host = urlparse(a['href']).netloc.lower()
+                if feat:
+                    country = _country_from_event_properties(feat['properties'])
+                    if not country:
+                        country = _PUBLIC_SITE_HOST_TO_COUNTRY.get(host, '')
+                else:
+                    country = _PUBLIC_SITE_HOST_TO_COUNTRY.get(host, '')
+                region = _region_lookup_states_list(event_long, states_list)
+                rows.append([cur_date, event_long, region, country, note])
+    return rows or None
+
+
+def _wikitable_html_from_cancellation_rows(rows):
+    parts = [
+        '<html><body><table class="wikitable sortable">\n',
+        '<tr><th> Date of cancellation<br />(YYYY-MM-DD)</th>'
+        '<th> Event</th><th> Region</th><th> Country</th>'
+        '<th> Cancellation<br />Note</th></tr>\n',
+    ]
+    for date, ev, reg, ctry, note in rows:
+        parts.append(
+            '<tr><td> {}</td><td> {}</td><td> {}</td><td> {}</td><td> {}</td></tr>\n'
+            .format(
+                html.escape(str(date)),
+                html.escape(str(ev)),
+                html.escape(str(reg)),
+                html.escape(str(ctry)),
+                html.escape(str(note)),
+            ))
+    parts.append(
+        '<tr><td> </td>'
+        '<td colspan="4"> This table contains Auto generated content</td></tr>\n'
+        '</table></body></html>')
+    return ''.join(parts)
+
+
+def _try_parkrun_com_cancellations_html(http_sess, events_body_str, states_list):
+    url = 'https://www.parkrun.com/cancellations/'
+    r = http_sess.get(url, timeout=60)
+    _agent_debug_log(
+        'parkrun.com public cancellations page',
+        {
+            'status_code': r.status_code,
+            'body_len': len(r.text),
+        },
+        'H5',
+    )
+    if r.status_code != 200:
+        return None
+    try:
+        features = json.loads(events_body_str)['events']['features']
+    except (json.JSONDecodeError, KeyError, TypeError):
+        return None
+    event_by_name = {}
+    for f in features:
+        name = f['properties'].get('EventLongName')
+        if name and name not in event_by_name:
+            event_by_name[name] = f
+    rows = _parse_public_cancellations_wysiwyg(r.text, event_by_name,
+                                               states_list)
+    _agent_debug_log(
+        'parkrun.com cancellations parse',
+        {'row_count': len(rows) if rows else 0},
+        'H5',
+    )
+    if not rows:
+        return None
+    return _wikitable_html_from_cancellation_rows(rows)
 
 
 events_response = http.get(
@@ -223,6 +418,24 @@ for attempt in range(10):
             now(),
             'cancellations via MediaWiki API (index.php returned',
             cr.status_code,
+            ')',
+        )
+        break
+    pc_html = _try_parkrun_com_cancellations_html(http, events_body,
+                                                  states_list)
+    if pc_html:
+        cancellations = pc_html
+        _agent_debug_log(
+            'cancellations html source',
+            {'source': 'parkrun.com', 'len': len(cancellations)},
+            'H5',
+        )
+        print(
+            now(),
+            'cancellations via parkrun.com (wiki',
+            cr.status_code,
+            'api',
+            api_r.status_code,
             ')',
         )
         break

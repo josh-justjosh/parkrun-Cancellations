@@ -38,6 +38,14 @@ jobs:
         GEONAMES_USERNAME: ${{ secrets.GEONAMES_USERNAME }}
       run: python parkrun_data.py
       # continue-on-error: true
+
+    - name: Upload parkrun_data debug log
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: parkrun-data-debug
+        path: .cursor/debug-877ec8.log
+        if-no-files-found: ignore
     
     - name: Get Current Time
       uses: josStorer/get-current-time@v2.1.2
