@@ -4,6 +4,7 @@ import csv
 import datetime
 import collections
 import xml.etree.ElementTree as ET
+from zoneinfo import ZoneInfo
 
 import requests
 from bs4 import BeautifulSoup
@@ -47,10 +48,11 @@ states_list.remove(['Event', 'Country', 'State', 'County'])
 
 
 def same_week(date_string):
-    '''returns true if a date_string in %Y%m%d format is part of the current week'''
-    d1 = datetime.datetime.strptime(date_string, '%Y-%m-%d')
-    d2 = datetime.datetime.today()
-    return d1.isocalendar()[1] == d2.isocalendar()[1]
+    '''True if date_string (YYYY-MM-DD) is in the same ISO week as now in Europe/Dublin.'''
+    tz = ZoneInfo('Europe/Dublin')
+    d1 = datetime.datetime.strptime(date_string, '%Y-%m-%d').replace(tzinfo=tz)
+    d2 = datetime.datetime.now(tz)
+    return d1.isocalendar()[:2] == d2.isocalendar()[:2]
 
 
 events = requests.get('https://images.parkrun.com/events.json',
@@ -674,10 +676,11 @@ if FETCH_UPDATES:
         f.write(json.dumps(special_events, indent=2))
         print(now(), "special_events.json saved")
 
-for parkrun in events['features']:
-    if parkrun['properties']['EventLongName'] in upcoming_events:
-        # print(now(),parkrun)
-        events['features'].remove(parkrun)
+upcoming_set = set(upcoming_events)
+events['features'] = [
+    f for f in events['features']
+    if f['properties']['EventLongName'] not in upcoming_set
+]
 
 for parkrun in events['features']:
     # print(now(),parkrun['properties']['EventLongName'])

@@ -22,9 +22,9 @@ jobs:
         fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
 
     - name: setup python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v5
       with:
-        python-version: 3.8 #install the python needed
+        python-version: '3.12'
 
     - name: install dependencies
       run: |
@@ -58,8 +58,12 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add _data/
         git add _posts/'Cancellation Updates'
-        git commit -m "Update parkrun Data [Bot]" -a
-        
+        if git diff --staged --quiet; then
+          echo "No data changes to commit."
+          exit 0
+        fi
+        git commit -m "Update parkrun Data [Bot]"
+
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
