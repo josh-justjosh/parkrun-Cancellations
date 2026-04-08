@@ -25,7 +25,19 @@ def now():
 print(now(), 'Script Start')
 
 headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
+    'User-Agent':
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
+    'Accept':
+    'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+    'Accept-Language': 'en-GB,en;q=0.9',
+    'Accept-Encoding': 'gzip, deflate, br',
+    'DNT': '1',
+    'Connection': 'keep-alive',
+    'Upgrade-Insecure-Requests': '1',
+    'Sec-Fetch-Dest': 'document',
+    'Sec-Fetch-Mode': 'navigate',
+    'Sec-Fetch-Site': 'none',
+    'Sec-Fetch-User': '?1',
 }
 
 
@@ -260,6 +272,31 @@ def _wikitable_html_from_cancellation_rows(rows):
     return ''.join(parts)
 
 
+_WAF_OR_CHALLENGE_HTML_MARKERS = (
+    'Human Verification',
+    'awsWaf',
+    'captcha-container',
+    '.awswaf.com',
+    'gokuProps',
+    'CaptchaScript',
+)
+
+
+def _committed_cancellations_snapshot_usable(html_text):
+    '''True if committed file looks like wiki/table cancellations, not WAF/CAPTCHA HTML.'''
+    if not html_text or len(html_text) < 8000:
+        return False
+    for m in _WAF_OR_CHALLENGE_HTML_MARKERS:
+        if m in html_text:
+            return False
+    low = html_text.lower()
+    if 'wikitable' in low:
+        return True
+    if '<table' in low and re.search(r'\d{4}-\d{2}-\d{2}', html_text):
+        return True
+    return False
+
+
 def _try_parkrun_com_cancellations_html(http_sess, events_body_str, states_list):
     url = 'https://www.parkrun.com/cancellations/'
     r = http_sess.get(url, timeout=60)
@@ -451,17 +488,20 @@ if cancellations is None:
     if os.path.isfile(_committed_cancellations_path):
         with open(_committed_cancellations_path, 'r', encoding='utf-8',
                   errors='replace') as _ccf:
-            cancellations = _ccf.read()
+            _snap = _ccf.read()
+        _snap_ok = _committed_cancellations_snapshot_usable(_snap)
         _agent_debug_log(
             'fallback committed cancellations snapshot',
             {
                 'path': '_data/raw/cancellations.html',
-                'len': len(cancellations),
+                'len': len(_snap),
+                'usable': _snap_ok,
                 'last_index_status': cr.status_code if cr is not None else None,
             },
             'H6',
         )
-        if len(cancellations) >= 500:
+        if _snap_ok:
+            cancellations = _snap
             print(
                 now(),
                 'WARNING: live cancellation sources blocked (see debug log);',
@@ -557,9 +597,8 @@ special_events = []
 if FETCH_UPDATES:
     # Australia
     if FETCH_UPDATES:
-        se_au = requests.get('https://www.parkrun.com.au/special-events',
-                             headers=headers,
-                             timeout=10).text
+        se_au = http.get('https://www.parkrun.com.au/special-events',
+                         timeout=10).text
         with open('_data/special_events/au.html',
                   'wt',
                   encoding='utf-8',
@@ -577,9 +616,8 @@ if FETCH_UPDATES:
 
     # Canada
     if FETCH_UPDATES:
-        se_ca = requests.get('https://www.parkrun.ca/special-events',
-                             headers=headers,
-                             timeout=10).text
+        se_ca = http.get('https://www.parkrun.ca/special-events',
+                         timeout=10).text
         with open('_data/special_events/ca.html',
                   'wt',
                   encoding='utf-8',
@@ -597,9 +635,8 @@ if FETCH_UPDATES:
 
     # Denmark
     if FETCH_UPDATES:
-        se_dk = requests.get('https://www.parkrun.dk/special-events',
-                             headers=headers,
-                             timeout=10).text
+        se_dk = http.get('https://www.parkrun.dk/special-events',
+                         timeout=10).text
         with open('_data/special_events/dk.html', 'wt', encoding='utf-8', newline='') as f:
             f.write(se_dk)
             print(now(), "_data/special_events/dk.html saved")
@@ -614,9 +651,8 @@ if FETCH_UPDATES:
 
     # Finland
     if FETCH_UPDATES:
-        se_fi = requests.get('https://www.parkrun.fi/special-events',
-                             headers=headers,
-                             timeout=10).text
+        se_fi = http.get('https://www.parkrun.fi/special-events',
+                         timeout=10).text
         with open('_data/special_events/fi.html', 'wt', encoding='utf-8', newline='') as f:
             f.write(se_fi)
             print(now(), "_data/special_events/fi.html saved")
@@ -631,9 +667,8 @@ if FETCH_UPDATES:
 
     # France
     if FETCH_UPDATES:
-        se_fr = requests.get('https://www.parkrun.fr/special-events',
-                             headers=headers,
-                             timeout=10).text
+        se_fr = http.get('https://www.parkrun.fr/special-events',
+                         timeout=10).text
         with open('_data/special_events/fr.html',
                   'wt',
                   encoding='utf-8',
@@ -654,9 +689,8 @@ if FETCH_UPDATES:
 
     # Germany
     if FETCH_UPDATES:
-        se_de = requests.get('https://www.parkrun.com.de/special-events',
-                             headers=headers,
-                             timeout=10).text
+        se_de = http.get('https://www.parkrun.com.de/special-events',
+                         timeout=10).text
         with open('_data/special_events/de.html',
                   'wt',
                   encoding='utf-8',
@@ -677,9 +711,8 @@ if FETCH_UPDATES:
 
     # Ireland
     if FETCH_UPDATES:
-        se_ie = requests.get('https://www.parkrun.ie/special-events',
-                             headers=headers,
-                             timeout=10).text
+        se_ie = http.get('https://www.parkrun.ie/special-events',
+                         timeout=10).text
         with open('_data/special_events/ie.html',
                   'wt',
                   encoding='utf-8',
@@ -700,9 +733,8 @@ if FETCH_UPDATES:
 
     # Italy
     if FETCH_UPDATES:
-        se_it = requests.get('https://www.parkrun.it/special-events',
-                             headers=headers,
-                             timeout=10).text
+        se_it = http.get('https://www.parkrun.it/special-events',
+                         timeout=10).text
         with open('_data/special_events/it.html',
                   'wt',
                   encoding='utf-8',
@@ -723,9 +755,8 @@ if FETCH_UPDATES:
 
     # Japan
     if FETCH_UPDATES:
-        se_jp = requests.get('https://www.parkrun.jp/special-events',
-                             headers=headers,
-                             timeout=10).text
+        se_jp = http.get('https://www.parkrun.jp/special-events',
+                         timeout=10).text
         with open('_data/special_events/jp.html',
                   'wt',
                   encoding='utf-8',
@@ -746,9 +777,8 @@ if FETCH_UPDATES:
 
     # Lithuania
     if FETCH_UPDATES:
-        se_lt = requests.get('https://www.parkrun.lt/special-events',
-                             headers=headers,
-                             timeout=10).text
+        se_lt = http.get('https://www.parkrun.lt/special-events',
+                         timeout=10).text
         with open('_data/special_events/lt.html',
                   'wt',
                   encoding='utf-8',
@@ -769,9 +799,8 @@ if FETCH_UPDATES:
 
     # Malaysia
     if FETCH_UPDATES:
-        se_my = requests.get('https://www.parkrun.my/special-events',
-                             headers=headers,
-                             timeout=10).text
+        se_my = http.get('https://www.parkrun.my/special-events',
+                         timeout=10).text
         with open('_data/special_events/my.html',
                   'wt',
                   encoding='utf-8',
@@ -792,9 +821,8 @@ if FETCH_UPDATES:
 
     # Netherlands
     if FETCH_UPDATES:
-        se_nl = requests.get('https://www.parkrun.co.nl/special-events',
-                             headers=headers,
-                             timeout=10).text
+        se_nl = http.get('https://www.parkrun.co.nl/special-events',
+                         timeout=10).text
         with open('_data/special_events/nl.html', 'wt', encoding='utf-8', newline='') as f:
             f.write(se_nl)
             print(now(), "_data/special_events/nl.html saved")
@@ -809,9 +837,8 @@ if FETCH_UPDATES:
 
     # New Zeland
     if FETCH_UPDATES:
-        se_nz = requests.get('https://www.parkrun.co.nz/special-events',
-                             headers=headers,
-                             timeout=10).text
+        se_nz = http.get('https://www.parkrun.co.nz/special-events',
+                         timeout=10).text
         with open('_data/special_events/nz.html', 'wt', encoding='utf-8', newline='') as f:
             f.write(se_nz)
             print(now(), "_data/special_events/nz.html saved")
@@ -826,9 +853,8 @@ if FETCH_UPDATES:
 
     # Norway
     if FETCH_UPDATES:
-        se_no = requests.get('https://www.parkrun.no/special-events',
-                             headers=headers,
-                             timeout=10).text
+        se_no = http.get('https://www.parkrun.no/special-events',
+                         timeout=10).text
         with open('_data/special_events/no.html', 'wt', encoding='utf-8', newline='') as f:
             f.write(se_no)
             print(now(), "_data/special_events/no.html saved")
@@ -843,9 +869,8 @@ if FETCH_UPDATES:
 
     # Poland
     if FETCH_UPDATES:
-        se_pl = requests.get('https://www.parkrun.pl/special-events',
-                             headers=headers,
-                             timeout=10).text
+        se_pl = http.get('https://www.parkrun.pl/special-events',
+                         timeout=10).text
         with open('_data/special_events/pl.html', 'wt', encoding='utf-8', newline='') as f:
             f.write(se_pl)
             print(now(), "_data/special_events/pl.html saved")
@@ -860,9 +885,8 @@ if FETCH_UPDATES:
 
     # Singapore
     if FETCH_UPDATES:
-        se_sg = requests.get('https://www.parkrun.sg/special-events',
-                             headers=headers,
-                             timeout=10).text
+        se_sg = http.get('https://www.parkrun.sg/special-events',
+                         timeout=10).text
         with open('_data/special_events/sg.html', 'wt', encoding='utf-8', newline='') as f:
             f.write(se_sg)
             print(now(), "_data/special_events/sg.html saved")
@@ -877,9 +901,8 @@ if FETCH_UPDATES:
 
     # South Africa
     if FETCH_UPDATES:
-        se_za = requests.get('https://www.parkrun.co.za/special-events',
-                             headers=headers,
-                             timeout=10).text
+        se_za = http.get('https://www.parkrun.co.za/special-events',
+                         timeout=10).text
         with open('_data/special_events/za.html', 'wt', encoding='utf-8', newline='') as f:
             f.write(se_za)
             print(now(), "_data/special_events/za.html saved")
@@ -894,9 +917,8 @@ if FETCH_UPDATES:
 
     # Sweden
     if FETCH_UPDATES:
-        se_se = requests.get('https://www.parkrun.se/special-events',
-                             headers=headers,
-                             timeout=10).text
+        se_se = http.get('https://www.parkrun.se/special-events',
+                         timeout=10).text
         with open('_data/special_events/se.html', 'wt', encoding='utf-8', newline='') as f:
             f.write(se_se)
             print(now(), "_data/special_events/se.html saved")
@@ -911,9 +933,8 @@ if FETCH_UPDATES:
 
     # United Kingdom
     if FETCH_UPDATES:
-        se_uk = requests.get('https://www.parkrun.org.uk/special-events',
-                             headers=headers,
-                             timeout=10).text
+        se_uk = http.get('https://www.parkrun.org.uk/special-events',
+                         timeout=10).text
         with open('_data/special_events/uk.html', 'wt', encoding='utf-8', newline='') as f:
             f.write(se_uk)
             print(now(), "_data/special_events/uk.html saved")
@@ -928,9 +949,8 @@ if FETCH_UPDATES:
 
     # United States
     if FETCH_UPDATES:
-        se_us = requests.get('https://www.parkrun.us/special-events',
-                             headers=headers,
-                             timeout=10).text
+        se_us = http.get('https://www.parkrun.us/special-events',
+                         timeout=10).text
         with open('_data/special_events/us.html', 'wt', encoding='utf-8', newline='') as f:
             f.write(se_us)
             print(now(), "_data/special_events/us.html saved")
