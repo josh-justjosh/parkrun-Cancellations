@@ -1,10 +1,12 @@
 import json
+import os
 import re
 import time
 
 import requests
 from bs4 import BeautifulSoup
 
+from . import config
 from .http_headers import headers
 from .time_utils import now
 
@@ -13,6 +15,32 @@ WIKI_API_URL = 'https://wiki.parkrun.com/api.php'
 WIKI_CANCELLATIONS_INDEX_URL = (
     'https://wiki.parkrun.com/index.php/Cancellations/Global')
 _CANCELLATION_DATE_CELL = re.compile(r'^\d{4}-\d{2}-\d{2}$')
+
+
+def _wiki_api_request(api_params):
+    """GET first; some edges (e.g. CI / WAF) return 405 on GET — MediaWiki accepts POST."""
+    r = requests.get(
+        WIKI_API_URL, params=api_params, headers=headers, timeout=60
+    )
+    if r.status_code == 405:
+        r = requests.post(
+            WIKI_API_URL, data=api_params, headers=headers, timeout=60
+        )
+    return r
+
+
+def _load_committed_cancellations_html():
+    """Last-resort HTML checked into the repo (used when live wiki is unreachable in CI)."""
+    path = config.RAW_CANCELLATIONS_HTML
+    if not path.is_file():
+        return None
+    try:
+        text = path.read_text(encoding="utf-8")
+    except OSError:
+        return None
+    if len(text) < 500 or "wikitable" not in text:
+        return None
+    return text
 
 
 def _cancellations_html_looks_like_waf(html):
@@ -63,11 +91,7 @@ def fetch_cancellations_wiki_html():
         'format': 'json',
     }
     for attempt in range(10):
-        api_response = requests.get(
-            WIKI_API_URL,
-            params=api_params,
-            headers=headers,
-            timeout=60)
+        api_response = _wiki_api_request(api_params)
         if api_response.status_code != 200:
             print(now(), 'wiki API', api_response.status_code,
                   '- waiting 10s to retry', attempt)
@@ -127,5 +151,16 @@ def fetch_cancellations_wiki_html():
         print(now(), 'index.php: no wikitable found, retry', attempt)
         time.sleep(10)
 
+    if os.environ.get("GITHUB_ACTIONS") == "true":
+        cached = _load_committed_cancellations_html()
+        if cached:
+            print(
+                now(),
+                "wiki unreachable in CI; using committed",
+                str(config.RAW_CANCELLATIONS_HTML),
+            )
+            return cached, "cached_raw"
+
     raise RuntimeError(
-        'Failed to load Cancellations/Global from wiki (API and index fallback)')
+        "Failed to load Cancellations/Global from wiki (API and index fallback)"
+    )
