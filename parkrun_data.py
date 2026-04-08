@@ -1,20 +1,14 @@
-import html
 import json
-import os
-import re
 import time
 import csv
 import datetime
 import collections
 import xml.etree.ElementTree as ET
-from urllib.parse import urlparse
 from zoneinfo import ZoneInfo
 
 import requests
 from bs4 import BeautifulSoup
 from html_table_extractor.extractor import Extractor
-from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
 
 
 def now():
@@ -25,63 +19,8 @@ def now():
 print(now(), 'Script Start')
 
 headers = {
-    'User-Agent':
-    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
-    'Accept':
-    'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
-    'Accept-Language': 'en-GB,en;q=0.9',
-    'Accept-Encoding': 'gzip, deflate, br',
-    'DNT': '1',
-    'Connection': 'keep-alive',
-    'Upgrade-Insecure-Requests': '1',
-    'Sec-Fetch-Dest': 'document',
-    'Sec-Fetch-Mode': 'navigate',
-    'Sec-Fetch-Site': 'none',
-    'Sec-Fetch-User': '?1',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
 }
-
-
-def _make_http_session():
-    s = requests.Session()
-    s.headers.update(headers)
-    retries = Retry(
-        total=5,
-        backoff_factor=0.6,
-        status_forcelist=(500, 502, 503, 504),
-        allowed_methods=('GET',),
-    )
-    adapter = HTTPAdapter(max_retries=retries)
-    s.mount('https://', adapter)
-    s.mount('http://', adapter)
-    return s
-
-
-http = _make_http_session()
-
-_DEBUG_LOG_PATH = os.path.join(
-    os.path.dirname(os.path.abspath(__file__)), '.cursor', 'debug-877ec8.log')
-
-
-def _agent_debug_log(message, data, hypothesis_id):
-    # #region agent log
-    try:
-        os.makedirs(os.path.dirname(_DEBUG_LOG_PATH), exist_ok=True)
-        line = json.dumps(
-            {
-                'sessionId': '877ec8',
-                'timestamp': int(time.time() * 1000),
-                'location': 'parkrun_data.py',
-                'message': message,
-                'data': data,
-                'hypothesisId': hypothesis_id,
-            },
-            ensure_ascii=False)
-        with open(_DEBUG_LOG_PATH, 'a', encoding='utf-8') as _df:
-            _df.write(line + '\n')
-            _df.flush()
-    except OSError:
-        pass
-    # #endregion
 
 
 def rem_dups(data_with_dups):
@@ -116,228 +55,11 @@ def same_week(date_string):
     return d1.isocalendar()[:2] == d2.isocalendar()[:2]
 
 
-_PUBLIC_CANCEL_DATE_RE = re.compile(
-    r'^[A-Za-z]+,\s+([A-Za-z]+)\s+(\d{1,2}),\s*(\d{4})\s*$')
-
-_PUBLIC_MONTH_NUM = {
-    'January': 1,
-    'February': 2,
-    'March': 3,
-    'April': 4,
-    'May': 5,
-    'June': 6,
-    'July': 7,
-    'August': 8,
-    'September': 9,
-    'October': 10,
-    'November': 11,
-    'December': 12,
-}
-
-_PUBLIC_SITE_HOST_TO_COUNTRY = {
-    'www.parkrun.com.au': 'Australia',
-    'www.parkrun.co.at': 'Austria',
-    'www.parkrun.ca': 'Canada',
-    'www.parkrun.dk': 'Denmark',
-    'www.parkrun.fi': 'Finland',
-    'www.parkrun.fr': 'France',
-    'www.parkrun.com.de': 'Germany',
-    'www.parkrun.ie': 'Ireland',
-    'www.parkrun.it': 'Italy',
-    'www.parkrun.jp': 'Japan',
-    'www.parkrun.lt': 'Lithuania',
-    'www.parkrun.my': 'Malaysia',
-    'www.parkrun.co.nl': 'Netherlands',
-    'www.parkrun.co.nz': 'New Zealand',
-    'www.parkrun.no': 'Norway',
-    'www.parkrun.pl': 'Poland',
-    'www.parkrun.ru': 'Russia',
-    'www.parkrun.sg': 'Singapore',
-    'www.parkrun.co.za': 'South Africa',
-    'www.parkrun.se': 'Sweden',
-    'www.parkrun.org.uk': 'United Kingdom',
-    'www.parkrun.us': 'USA',
-}
-
-
-def _parse_public_heading_date(h2_text):
-    m = _PUBLIC_CANCEL_DATE_RE.match(h2_text.strip())
-    if not m:
-        return None
-    mon_s, day_s, year_s = m.group(1), m.group(2), m.group(3)
-    mon = _PUBLIC_MONTH_NUM.get(mon_s)
-    if not mon:
-        return None
-    return f'{int(year_s):04d}-{mon:02d}-{int(day_s):02d}'
-
-
-def _country_from_event_properties(props):
-    cc = props['countrycode']
-    eln = props['EventLongName']
-    if cc == 85:
-        if eln in ('Windhoek parkrun', 'Omeya parkrun', 'Swakopmund parkrun',
-                   'Walvis Bay parkrun'):
-            return 'Namibia'
-        if eln in ('Mbabane parkrun', 'Manzini parkrun'):
-            return 'Eswatini'
-        return 'South Africa'
-    return {
-        3: 'Australia',
-        4: 'Austria',
-        14: 'Canada',
-        23: 'Denmark',
-        30: 'Finland',
-        31: 'France',
-        32: 'Germany',
-        42: 'Ireland',
-        44: 'Italy',
-        46: 'Japan',
-        54: 'Lithuania',
-        57: 'Malaysia',
-        65: 'New Zealand',
-        67: 'Norway',
-        74: 'Poland',
-        79: 'Russia',
-        82: 'Singapore',
-        88: 'Sweden',
-        97: 'United Kingdom',
-        98: 'USA',
-        64: 'Netherlands',
-    }.get(cc, '')
-
-
-def _region_lookup_states_list(event_name, states_list):
-    for row in states_list:
-        if row[0] == event_name:
-            return row[2]
-    return ''
-
-
-def _parse_public_cancellations_wysiwyg(page_html, event_by_name, states_list):
-    soup = BeautifulSoup(page_html, 'html.parser')
-    wys = soup.select_one('div.wysiwyg')
-    if not wys:
-        return None
-    rows = []
-    cur_date = None
-    for child in wys.children:
-        name = getattr(child, 'name', None)
-        if name == 'h2':
-            cur_date = _parse_public_heading_date(child.get_text())
-        elif name == 'ul' and cur_date:
-            for li in child.find_all('li', recursive=False):
-                a = li.find('a')
-                if not a or not a.get('href'):
-                    continue
-                event_long = a.get_text(strip=True)
-                full = li.get_text(strip=True)
-                if full.startswith(event_long):
-                    note = full[len(event_long):].lstrip().lstrip(':').strip()
-                else:
-                    note = ''
-                feat = event_by_name.get(event_long)
-                host = urlparse(a['href']).netloc.lower()
-                if feat:
-                    country = _country_from_event_properties(feat['properties'])
-                    if not country:
-                        country = _PUBLIC_SITE_HOST_TO_COUNTRY.get(host, '')
-                else:
-                    country = _PUBLIC_SITE_HOST_TO_COUNTRY.get(host, '')
-                region = _region_lookup_states_list(event_long, states_list)
-                rows.append([cur_date, event_long, region, country, note])
-    return rows or None
-
-
-def _wikitable_html_from_cancellation_rows(rows):
-    parts = [
-        '<html><body><table class="wikitable sortable">\n',
-        '<tr><th> Date of cancellation<br />(YYYY-MM-DD)</th>'
-        '<th> Event</th><th> Region</th><th> Country</th>'
-        '<th> Cancellation<br />Note</th></tr>\n',
-    ]
-    for date, ev, reg, ctry, note in rows:
-        parts.append(
-            '<tr><td> {}</td><td> {}</td><td> {}</td><td> {}</td><td> {}</td></tr>\n'
-            .format(
-                html.escape(str(date)),
-                html.escape(str(ev)),
-                html.escape(str(reg)),
-                html.escape(str(ctry)),
-                html.escape(str(note)),
-            ))
-    parts.append(
-        '<tr><td> </td>'
-        '<td colspan="4"> This table contains Auto generated content</td></tr>\n'
-        '</table></body></html>')
-    return ''.join(parts)
-
-
-_WAF_OR_CHALLENGE_HTML_MARKERS = (
-    'Human Verification',
-    'awsWaf',
-    'captcha-container',
-    '.awswaf.com',
-    'gokuProps',
-    'CaptchaScript',
-)
-
-
-def _committed_cancellations_snapshot_usable(html_text):
-    '''True if committed file looks like wiki/table cancellations, not WAF/CAPTCHA HTML.'''
-    if not html_text or len(html_text) < 8000:
-        return False
-    for m in _WAF_OR_CHALLENGE_HTML_MARKERS:
-        if m in html_text:
-            return False
-    low = html_text.lower()
-    if 'wikitable' in low:
-        return True
-    if '<table' in low and re.search(r'\d{4}-\d{2}-\d{2}', html_text):
-        return True
-    return False
-
-
-def _try_parkrun_com_cancellations_html(http_sess, events_body_str, states_list):
-    url = 'https://www.parkrun.com/cancellations/'
-    r = http_sess.get(url, timeout=60)
-    _agent_debug_log(
-        'parkrun.com public cancellations page',
-        {
-            'status_code': r.status_code,
-            'body_len': len(r.text),
-        },
-        'H5',
-    )
-    if r.status_code != 200:
-        return None
-    try:
-        features = json.loads(events_body_str)['events']['features']
-    except (json.JSONDecodeError, KeyError, TypeError):
-        return None
-    event_by_name = {}
-    for f in features:
-        name = f['properties'].get('EventLongName')
-        if name and name not in event_by_name:
-            event_by_name[name] = f
-    rows = _parse_public_cancellations_wysiwyg(r.text, event_by_name,
-                                               states_list)
-    _agent_debug_log(
-        'parkrun.com cancellations parse',
-        {'row_count': len(rows) if rows else 0},
-        'H5',
-    )
-    if not rows:
-        return None
-    return _wikitable_html_from_cancellation_rows(rows)
-
-
-events_response = http.get(
-    'https://images.parkrun.com/events.json', timeout=10)
-events_response.raise_for_status()
-events_body = events_response.text
+events = requests.get('https://images.parkrun.com/events.json',
+                      headers=headers, timeout=10).text
 
 with open('_data/raw/events.json', 'wt', encoding='utf-8', newline='') as f:
-    f.write(json.dumps(json.loads(events_body), indent=2))
+    f.write(json.dumps(json.loads(events), indent=2))
     print(now(), "raw/events.json saved")
 
 # This data has been removed from the wiki
@@ -386,137 +108,33 @@ print(now(), 'Upcoming Events:', upcoming_events)
 print(now(),
       'getting cancellations data from https://wiki.parkrun.com/index.php/Cancellations/Global')
 
-wiki_url = 'https://wiki.parkrun.com/index.php/Cancellations/Global'
-wiki_api_url = 'https://wiki.parkrun.com/api.php'
-cancellations = None
-cr = None
-for attempt in range(3):
-    cr = http.get(wiki_url, timeout=60)
-    _agent_debug_log(
-        'index.php cancellations fetch',
-        {
-            'attempt': attempt,
-            'status_code': cr.status_code,
-            'server': cr.headers.get('Server'),
-            'allow': cr.headers.get('Allow'),
-        },
-        'H1',
-    )
-    if cr.status_code == 200:
-        cancellations = cr.text
-        _agent_debug_log(
-            'cancellations html source',
-            {'source': 'index.php', 'len': len(cancellations)},
-            'H3',
-        )
-        if attempt > 0:
-            print(now(), cr)
-        break
-    api_r = http.get(
-        wiki_api_url,
-        params={
-            'action': 'parse',
-            'page': 'Cancellations/Global',
-            'prop': 'text',
-            'format': 'json',
-        },
-        timeout=60,
-    )
-    api_body = None
-    api_parse_len = None
-    if api_r.status_code == 200:
-        try:
-            api_body = api_r.json()
-            chunk = api_body.get('parse', {}).get('text', {}).get('*')
-            if chunk:
-                api_parse_len = len(chunk)
-                cancellations = chunk
-        except (json.JSONDecodeError, TypeError, AttributeError):
-            pass
-    _agent_debug_log(
-        'api.php parse fallback',
-        {
-            'attempt': attempt,
-            'index_status': cr.status_code,
-            'api_status': api_r.status_code,
-            'api_has_parse': bool(
-                api_body and 'parse' in api_body) if api_body is not None else None,
-            'api_html_len': api_parse_len,
-        },
-        'H2',
-    )
-    if cancellations is not None:
-        _agent_debug_log(
-            'cancellations html source',
-            {'source': 'api.php', 'len': len(cancellations)},
-            'H3',
-        )
-        print(
-            now(),
-            'cancellations via MediaWiki API (index.php returned',
-            cr.status_code,
-            ')',
-        )
-        break
-    pc_html = _try_parkrun_com_cancellations_html(http, events_body,
-                                                  states_list)
-    if pc_html:
-        cancellations = pc_html
-        _agent_debug_log(
-            'cancellations html source',
-            {'source': 'parkrun.com', 'len': len(cancellations)},
-            'H5',
-        )
-        print(
-            now(),
-            'cancellations via parkrun.com (wiki',
-            cr.status_code,
-            'api',
-            api_r.status_code,
-            ')',
-        )
-        break
-    print(now(), cr, '- waiting 10s to retry')
+cancellations_request = requests.get(
+    'https://wiki.parkrun.com/index.php/Cancellations/Global',
+    headers=headers,
+    timeout=60)
+
+
+
+if cancellations_request.status_code != 200:
+    print(now(), cancellations_request, '- waiting 10s to retry')
     time.sleep(10)
-if cancellations is None:
-    _committed_cancellations_path = os.path.join(
-        os.path.dirname(os.path.abspath(__file__)),
-        '_data',
-        'raw',
-        'cancellations.html',
-    )
-    if os.path.isfile(_committed_cancellations_path):
-        with open(_committed_cancellations_path, 'r', encoding='utf-8',
-                  errors='replace') as _ccf:
-            _snap = _ccf.read()
-        _snap_ok = _committed_cancellations_snapshot_usable(_snap)
-        _agent_debug_log(
-            'fallback committed cancellations snapshot',
-            {
-                'path': '_data/raw/cancellations.html',
-                'len': len(_snap),
-                'usable': _snap_ok,
-                'last_index_status': cr.status_code if cr is not None else None,
-            },
-            'H6',
-        )
-        if _snap_ok:
-            cancellations = _snap
-            print(
-                now(),
-                'WARNING: live cancellation sources blocked (see debug log);',
-                'using committed _data/raw/cancellations.html until fetches succeed again.',
-            )
-        else:
-            cancellations = None
-    if cancellations is None:
-        cr.raise_for_status()
+    for i in range(9):
+        cancellations_request = requests.get(
+    'https://wiki.parkrun.com/index.php/Cancellations/Global',
+    headers=headers,
+    timeout=60)
+        if cancellations_request.status_code == 200:
+            print(now(), cancellations_request)
+            break
+            
+
+cancellations = cancellations_request.text
 
 with open('_data/raw/cancellations.html', 'wt', encoding='utf-8', newline='') as f:
     f.write(cancellations)
     print(now(), "raw/cancellations.html saved")
 
-events = json.loads(events_body)['events']
+events = json.loads(events)['events']
 
 soup = BeautifulSoup(cancellations, 'html.parser')
 
@@ -597,8 +215,9 @@ special_events = []
 if FETCH_UPDATES:
     # Australia
     if FETCH_UPDATES:
-        se_au = http.get('https://www.parkrun.com.au/special-events',
-                         timeout=10).text
+        se_au = requests.get('https://www.parkrun.com.au/special-events',
+                             headers=headers,
+                             timeout=10).text
         with open('_data/special_events/au.html',
                   'wt',
                   encoding='utf-8',
@@ -616,8 +235,9 @@ if FETCH_UPDATES:
 
     # Canada
     if FETCH_UPDATES:
-        se_ca = http.get('https://www.parkrun.ca/special-events',
-                         timeout=10).text
+        se_ca = requests.get('https://www.parkrun.ca/special-events',
+                             headers=headers,
+                             timeout=10).text
         with open('_data/special_events/ca.html',
                   'wt',
                   encoding='utf-8',
@@ -635,8 +255,9 @@ if FETCH_UPDATES:
 
     # Denmark
     if FETCH_UPDATES:
-        se_dk = http.get('https://www.parkrun.dk/special-events',
-                         timeout=10).text
+        se_dk = requests.get('https://www.parkrun.dk/special-events',
+                             headers=headers,
+                             timeout=10).text
         with open('_data/special_events/dk.html', 'wt', encoding='utf-8', newline='') as f:
             f.write(se_dk)
             print(now(), "_data/special_events/dk.html saved")
@@ -651,8 +272,9 @@ if FETCH_UPDATES:
 
     # Finland
     if FETCH_UPDATES:
-        se_fi = http.get('https://www.parkrun.fi/special-events',
-                         timeout=10).text
+        se_fi = requests.get('https://www.parkrun.fi/special-events',
+                             headers=headers,
+                             timeout=10).text
         with open('_data/special_events/fi.html', 'wt', encoding='utf-8', newline='') as f:
             f.write(se_fi)
             print(now(), "_data/special_events/fi.html saved")
@@ -667,8 +289,9 @@ if FETCH_UPDATES:
 
     # France
     if FETCH_UPDATES:
-        se_fr = http.get('https://www.parkrun.fr/special-events',
-                         timeout=10).text
+        se_fr = requests.get('https://www.parkrun.fr/special-events',
+                             headers=headers,
+                             timeout=10).text
         with open('_data/special_events/fr.html',
                   'wt',
                   encoding='utf-8',
@@ -689,8 +312,9 @@ if FETCH_UPDATES:
 
     # Germany
     if FETCH_UPDATES:
-        se_de = http.get('https://www.parkrun.com.de/special-events',
-                         timeout=10).text
+        se_de = requests.get('https://www.parkrun.com.de/special-events',
+                             headers=headers,
+                             timeout=10).text
         with open('_data/special_events/de.html',
                   'wt',
                   encoding='utf-8',
@@ -711,8 +335,9 @@ if FETCH_UPDATES:
 
     # Ireland
     if FETCH_UPDATES:
-        se_ie = http.get('https://www.parkrun.ie/special-events',
-                         timeout=10).text
+        se_ie = requests.get('https://www.parkrun.ie/special-events',
+                             headers=headers,
+                             timeout=10).text
         with open('_data/special_events/ie.html',
                   'wt',
                   encoding='utf-8',
@@ -733,8 +358,9 @@ if FETCH_UPDATES:
 
     # Italy
     if FETCH_UPDATES:
-        se_it = http.get('https://www.parkrun.it/special-events',
-                         timeout=10).text
+        se_it = requests.get('https://www.parkrun.it/special-events',
+                             headers=headers,
+                             timeout=10).text
         with open('_data/special_events/it.html',
                   'wt',
                   encoding='utf-8',
@@ -755,8 +381,9 @@ if FETCH_UPDATES:
 
     # Japan
     if FETCH_UPDATES:
-        se_jp = http.get('https://www.parkrun.jp/special-events',
-                         timeout=10).text
+        se_jp = requests.get('https://www.parkrun.jp/special-events',
+                             headers=headers,
+                             timeout=10).text
         with open('_data/special_events/jp.html',
                   'wt',
                   encoding='utf-8',
@@ -777,8 +404,9 @@ if FETCH_UPDATES:
 
     # Lithuania
     if FETCH_UPDATES:
-        se_lt = http.get('https://www.parkrun.lt/special-events',
-                         timeout=10).text
+        se_lt = requests.get('https://www.parkrun.lt/special-events',
+                             headers=headers,
+                             timeout=10).text
         with open('_data/special_events/lt.html',
                   'wt',
                   encoding='utf-8',
@@ -799,8 +427,9 @@ if FETCH_UPDATES:
 
     # Malaysia
     if FETCH_UPDATES:
-        se_my = http.get('https://www.parkrun.my/special-events',
-                         timeout=10).text
+        se_my = requests.get('https://www.parkrun.my/special-events',
+                             headers=headers,
+                             timeout=10).text
         with open('_data/special_events/my.html',
                   'wt',
                   encoding='utf-8',
@@ -821,8 +450,9 @@ if FETCH_UPDATES:
 
     # Netherlands
     if FETCH_UPDATES:
-        se_nl = http.get('https://www.parkrun.co.nl/special-events',
-                         timeout=10).text
+        se_nl = requests.get('https://www.parkrun.co.nl/special-events',
+                             headers=headers,
+                             timeout=10).text
         with open('_data/special_events/nl.html', 'wt', encoding='utf-8', newline='') as f:
             f.write(se_nl)
             print(now(), "_data/special_events/nl.html saved")
@@ -837,8 +467,9 @@ if FETCH_UPDATES:
 
     # New Zeland
     if FETCH_UPDATES:
-        se_nz = http.get('https://www.parkrun.co.nz/special-events',
-                         timeout=10).text
+        se_nz = requests.get('https://www.parkrun.co.nz/special-events',
+                             headers=headers,
+                             timeout=10).text
         with open('_data/special_events/nz.html', 'wt', encoding='utf-8', newline='') as f:
             f.write(se_nz)
             print(now(), "_data/special_events/nz.html saved")
@@ -853,8 +484,9 @@ if FETCH_UPDATES:
 
     # Norway
     if FETCH_UPDATES:
-        se_no = http.get('https://www.parkrun.no/special-events',
-                         timeout=10).text
+        se_no = requests.get('https://www.parkrun.no/special-events',
+                             headers=headers,
+                             timeout=10).text
         with open('_data/special_events/no.html', 'wt', encoding='utf-8', newline='') as f:
             f.write(se_no)
             print(now(), "_data/special_events/no.html saved")
@@ -869,8 +501,9 @@ if FETCH_UPDATES:
 
     # Poland
     if FETCH_UPDATES:
-        se_pl = http.get('https://www.parkrun.pl/special-events',
-                         timeout=10).text
+        se_pl = requests.get('https://www.parkrun.pl/special-events',
+                             headers=headers,
+                             timeout=10).text
         with open('_data/special_events/pl.html', 'wt', encoding='utf-8', newline='') as f:
             f.write(se_pl)
             print(now(), "_data/special_events/pl.html saved")
@@ -885,8 +518,9 @@ if FETCH_UPDATES:
 
     # Singapore
     if FETCH_UPDATES:
-        se_sg = http.get('https://www.parkrun.sg/special-events',
-                         timeout=10).text
+        se_sg = requests.get('https://www.parkrun.sg/special-events',
+                             headers=headers,
+                             timeout=10).text
         with open('_data/special_events/sg.html', 'wt', encoding='utf-8', newline='') as f:
             f.write(se_sg)
             print(now(), "_data/special_events/sg.html saved")
@@ -901,8 +535,9 @@ if FETCH_UPDATES:
 
     # South Africa
     if FETCH_UPDATES:
-        se_za = http.get('https://www.parkrun.co.za/special-events',
-                         timeout=10).text
+        se_za = requests.get('https://www.parkrun.co.za/special-events',
+                             headers=headers,
+                             timeout=10).text
         with open('_data/special_events/za.html', 'wt', encoding='utf-8', newline='') as f:
             f.write(se_za)
             print(now(), "_data/special_events/za.html saved")
@@ -917,8 +552,9 @@ if FETCH_UPDATES:
 
     # Sweden
     if FETCH_UPDATES:
-        se_se = http.get('https://www.parkrun.se/special-events',
-                         timeout=10).text
+        se_se = requests.get('https://www.parkrun.se/special-events',
+                             headers=headers,
+                             timeout=10).text
         with open('_data/special_events/se.html', 'wt', encoding='utf-8', newline='') as f:
             f.write(se_se)
             print(now(), "_data/special_events/se.html saved")
@@ -933,8 +569,9 @@ if FETCH_UPDATES:
 
     # United Kingdom
     if FETCH_UPDATES:
-        se_uk = http.get('https://www.parkrun.org.uk/special-events',
-                         timeout=10).text
+        se_uk = requests.get('https://www.parkrun.org.uk/special-events',
+                             headers=headers,
+                             timeout=10).text
         with open('_data/special_events/uk.html', 'wt', encoding='utf-8', newline='') as f:
             f.write(se_uk)
             print(now(), "_data/special_events/uk.html saved")
@@ -949,8 +586,9 @@ if FETCH_UPDATES:
 
     # United States
     if FETCH_UPDATES:
-        se_us = http.get('https://www.parkrun.us/special-events',
-                         timeout=10).text
+        se_us = requests.get('https://www.parkrun.us/special-events',
+                             headers=headers,
+                             timeout=10).text
         with open('_data/special_events/us.html', 'wt', encoding='utf-8', newline='') as f:
             f.write(se_us)
             print(now(), "_data/special_events/us.html saved")
@@ -1166,47 +804,26 @@ for parkrun in events['features']:
     if NEW:
         print(now(), parkrun['properties']
               ['EventShortName'], 'not saved state')
-        geonames_user = os.environ.get('GEONAMES_USERNAME')
-        geo_params = {
-            'lat': parkrun['geometry']['coordinates'][1],
-            'lng': parkrun['geometry']['coordinates'][0],
-            'radius': 1.5,
-            'maxRows': 1,
-            'level': 2,
-            'username': geonames_user,
-        }
-        geo_url = 'https://api.geonames.org/countrySubdivision'
+        GEONAME_USERNAME = '_josh_justjosh'
+        URL = "http://api.geonames.org/countrySubdivision?lat="
+        URL += str(parkrun['geometry']['coordinates'][1])
+        URL += "&lng=" + str(parkrun['geometry']['coordinates'][0])
+        URL += "&radius=1.5&maxRows=1&level=2&username="
+        URL += GEONAME_USERNAME
+        root = ET.fromstring(requests.get(
+            URL, headers=headers, timeout=10).text.strip())
         try:
-            gn_resp = http.get(geo_url, params=geo_params, timeout=10)
-            gn_resp.raise_for_status()
-            root = ET.fromstring(gn_resp.text.strip())
-        except (requests.RequestException, ET.ParseError):
-            state = '-Unknown-'
-            county = '-Unknown-'
-            print(now(), parkrun['properties']['EventLongName'],
-                  '- Geonames request or parse failed -', geo_url)
-        else:
-            subdiv = root.find('countrySubdivision')
-            if subdiv is None:
-                state = '-Unknown-'
-                county = '-Unknown-'
-                print(now(), parkrun['properties']['EventLongName'],
-                      '- State not Found -', geo_url)
-            else:
-                admin1 = subdiv.find('adminName1')
-                admin2 = subdiv.find('adminName2')
-                state = (
-                    admin1.text if admin1 is not None and admin1.text
-                    else '-Unknown-')
-                county = (
-                    admin2.text if admin2 is not None and admin2.text
-                    else '-Unknown-')
-                if state == '-Unknown-':
-                    print(now(), parkrun['properties']['EventLongName'],
-                          '- State not Found -', geo_url)
-                if county == '-Unknown-':
-                    print(now(), parkrun['properties']['EventLongName'],
-                          '- County not found -', geo_url)
+            state = root.find('countrySubdivision').find('adminName1').text
+        except BaseException:
+            state = "-Unknown-"
+            print(now(), parkrun['properties']
+                  ['EventLongName'], "- State not Found -", URL)
+        try:
+            county = root.find('countrySubdivision').find('adminName2').text
+        except BaseException:
+            county = "-Unknown-"
+            print(now(), parkrun['properties']
+                  ['EventLongName'], '- County not found -', URL)
         parkrun['properties']['State'] = state
         parkrun['properties']['County'] = county
         add = [parkrun['properties']['EventLongName'],
@@ -2241,7 +1858,7 @@ with open('_data/counties/scotland.tsv', 'wt', encoding='utf-8', newline='') as 
                 for x in range(4):
                     out.append('')
             tsv_writer.writerow(out)
-print(now(), "counties/scotland.tsv saved")
+print(now(), "counties/scotalnd.tsv saved")
 
 with open('_data/counties/wales.tsv', 'wt', encoding='utf-8', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')
