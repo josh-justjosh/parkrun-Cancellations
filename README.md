@@ -9,5 +9,5 @@ You can visit the webpage that this git produces at [parkruncancellations.com](h
 ## Development
 
 - **Site (local):** `bundle install` then `bundle exec jekyll serve`
-- **Data script (local):** `pip install -r requirements.txt` then `python parkrun_data.py` from the repo root (expects `_data/` layout as in git)
+- **Data script (local):** `pip install -r requirements.txt` then `python parkrun_data.py` or `python -m parkrun_etl` from the repo root (expects `_data/` layout as in git; implementation lives under `parkrun_etl/`)
 - **GitHub Actions:** the data workflow uses **`API_TOKEN_GITHUB`** to push commits. Optional **`GEONAMES_USERNAME`** (repository secret) overrides the Geonames user for new event lookups; if unset, a built-in fallback username is used
