@@ -353,7 +353,7 @@ wiki_url = 'https://wiki.parkrun.com/index.php/Cancellations/Global'
 wiki_api_url = 'https://wiki.parkrun.com/api.php'
 cancellations = None
 cr = None
-for attempt in range(10):
+for attempt in range(3):
     cr = http.get(wiki_url, timeout=60)
     _agent_debug_log(
         'index.php cancellations fetch',
@@ -442,7 +442,35 @@ for attempt in range(10):
     print(now(), cr, '- waiting 10s to retry')
     time.sleep(10)
 if cancellations is None:
-    cr.raise_for_status()
+    _committed_cancellations_path = os.path.join(
+        os.path.dirname(os.path.abspath(__file__)),
+        '_data',
+        'raw',
+        'cancellations.html',
+    )
+    if os.path.isfile(_committed_cancellations_path):
+        with open(_committed_cancellations_path, 'r', encoding='utf-8',
+                  errors='replace') as _ccf:
+            cancellations = _ccf.read()
+        _agent_debug_log(
+            'fallback committed cancellations snapshot',
+            {
+                'path': '_data/raw/cancellations.html',
+                'len': len(cancellations),
+                'last_index_status': cr.status_code if cr is not None else None,
+            },
+            'H6',
+        )
+        if len(cancellations) >= 500:
+            print(
+                now(),
+                'WARNING: live cancellation sources blocked (see debug log);',
+                'using committed _data/raw/cancellations.html until fetches succeed again.',
+            )
+        else:
+            cancellations = None
+    if cancellations is None:
+        cr.raise_for_status()
 
 with open('_data/raw/cancellations.html', 'wt', encoding='utf-8', newline='') as f:
     f.write(cancellations)
