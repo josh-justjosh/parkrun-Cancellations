@@ -43,6 +43,29 @@ def _make_http_session():
 
 http = _make_http_session()
 
+_DEBUG_LOG_PATH = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), '.cursor', 'debug-877ec8.log')
+
+
+def _agent_debug_log(message, data, hypothesis_id):
+    # #region agent log
+    try:
+        line = json.dumps(
+            {
+                'sessionId': '877ec8',
+                'timestamp': int(time.time() * 1000),
+                'location': 'parkrun_data.py',
+                'message': message,
+                'data': data,
+                'hypothesisId': hypothesis_id,
+            },
+            ensure_ascii=False)
+        with open(_DEBUG_LOG_PATH, 'a', encoding='utf-8') as _df:
+            _df.write(line + '\n')
+    except OSError:
+        pass
+    # #endregion
+
 
 def rem_dups(data_with_dups):
     '''removes duplicates from a list'''
@@ -132,19 +155,81 @@ print(now(),
       'getting cancellations data from https://wiki.parkrun.com/index.php/Cancellations/Global')
 
 wiki_url = 'https://wiki.parkrun.com/index.php/Cancellations/Global'
-cancellations_request = None
+wiki_api_url = 'https://wiki.parkrun.com/api.php'
+cancellations = None
+cr = None
 for attempt in range(10):
     cr = http.get(wiki_url, timeout=60)
+    _agent_debug_log(
+        'index.php cancellations fetch',
+        {
+            'attempt': attempt,
+            'status_code': cr.status_code,
+            'server': cr.headers.get('Server'),
+            'allow': cr.headers.get('Allow'),
+        },
+        'H1',
+    )
     if cr.status_code == 200:
-        cancellations_request = cr
+        cancellations = cr.text
+        _agent_debug_log(
+            'cancellations html source',
+            {'source': 'index.php', 'len': len(cancellations)},
+            'H3',
+        )
         if attempt > 0:
             print(now(), cr)
         break
+    api_r = http.get(
+        wiki_api_url,
+        params={
+            'action': 'parse',
+            'page': 'Cancellations/Global',
+            'prop': 'text',
+            'format': 'json',
+        },
+        timeout=60,
+    )
+    api_body = None
+    api_parse_len = None
+    if api_r.status_code == 200:
+        try:
+            api_body = api_r.json()
+            chunk = api_body.get('parse', {}).get('text', {}).get('*')
+            if chunk:
+                api_parse_len = len(chunk)
+                cancellations = chunk
+        except (json.JSONDecodeError, TypeError, AttributeError):
+            pass
+    _agent_debug_log(
+        'api.php parse fallback',
+        {
+            'attempt': attempt,
+            'index_status': cr.status_code,
+            'api_status': api_r.status_code,
+            'api_has_parse': bool(
+                api_body and 'parse' in api_body) if api_body is not None else None,
+            'api_html_len': api_parse_len,
+        },
+        'H2',
+    )
+    if cancellations is not None:
+        _agent_debug_log(
+            'cancellations html source',
+            {'source': 'api.php', 'len': len(cancellations)},
+            'H3',
+        )
+        print(
+            now(),
+            'cancellations via MediaWiki API (index.php returned',
+            cr.status_code,
+            ')',
+        )
+        break
     print(now(), cr, '- waiting 10s to retry')
     time.sleep(10)
-if cancellations_request is None:
+if cancellations is None:
     cr.raise_for_status()
-cancellations = cancellations_request.text
 
 with open('_data/raw/cancellations.html', 'wt', encoding='utf-8', newline='') as f:
     f.write(cancellations)
