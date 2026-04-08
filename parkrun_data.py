@@ -1,4 +1,5 @@
 import json
+import os
 import time
 import csv
 import datetime
@@ -9,6 +10,8 @@ from zoneinfo import ZoneInfo
 import requests
 from bs4 import BeautifulSoup
 from html_table_extractor.extractor import Extractor
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 
 def now():
@@ -21,6 +24,24 @@ print(now(), 'Script Start')
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
 }
+
+
+def _make_http_session():
+    s = requests.Session()
+    s.headers.update(headers)
+    retries = Retry(
+        total=5,
+        backoff_factor=0.6,
+        status_forcelist=(500, 502, 503, 504),
+        allowed_methods=('GET',),
+    )
+    adapter = HTTPAdapter(max_retries=retries)
+    s.mount('https://', adapter)
+    s.mount('http://', adapter)
+    return s
+
+
+http = _make_http_session()
 
 
 def rem_dups(data_with_dups):
@@ -55,11 +76,13 @@ def same_week(date_string):
     return d1.isocalendar()[:2] == d2.isocalendar()[:2]
 
 
-events = requests.get('https://images.parkrun.com/events.json',
-                      headers=headers, timeout=10).text
+events_response = http.get(
+    'https://images.parkrun.com/events.json', timeout=10)
+events_response.raise_for_status()
+events_body = events_response.text
 
 with open('_data/raw/events.json', 'wt', encoding='utf-8', newline='') as f:
-    f.write(json.dumps(json.loads(events), indent=2))
+    f.write(json.dumps(json.loads(events_body), indent=2))
     print(now(), "raw/events.json saved")
 
 # This data has been removed from the wiki
@@ -108,33 +131,26 @@ print(now(), 'Upcoming Events:', upcoming_events)
 print(now(),
       'getting cancellations data from https://wiki.parkrun.com/index.php/Cancellations/Global')
 
-cancellations_request = requests.get(
-    'https://wiki.parkrun.com/index.php/Cancellations/Global',
-    headers=headers,
-    timeout=60)
-
-
-
-if cancellations_request.status_code != 200:
-    print(now(), cancellations_request, '- waiting 10s to retry')
+wiki_url = 'https://wiki.parkrun.com/index.php/Cancellations/Global'
+cancellations_request = None
+for attempt in range(10):
+    cr = http.get(wiki_url, timeout=60)
+    if cr.status_code == 200:
+        cancellations_request = cr
+        if attempt > 0:
+            print(now(), cr)
+        break
+    print(now(), cr, '- waiting 10s to retry')
     time.sleep(10)
-    for i in range(9):
-        cancellations_request = requests.get(
-    'https://wiki.parkrun.com/index.php/Cancellations/Global',
-    headers=headers,
-    timeout=60)
-        if cancellations_request.status_code == 200:
-            print(now(), cancellations_request)
-            break
-            
-
+if cancellations_request is None:
+    cr.raise_for_status()
 cancellations = cancellations_request.text
 
 with open('_data/raw/cancellations.html', 'wt', encoding='utf-8', newline='') as f:
     f.write(cancellations)
     print(now(), "raw/cancellations.html saved")
 
-events = json.loads(events)['events']
+events = json.loads(events_body)['events']
 
 soup = BeautifulSoup(cancellations, 'html.parser')
 
@@ -804,26 +820,47 @@ for parkrun in events['features']:
     if NEW:
         print(now(), parkrun['properties']
               ['EventShortName'], 'not saved state')
-        GEONAME_USERNAME = '_josh_justjosh'
-        URL = "http://api.geonames.org/countrySubdivision?lat="
-        URL += str(parkrun['geometry']['coordinates'][1])
-        URL += "&lng=" + str(parkrun['geometry']['coordinates'][0])
-        URL += "&radius=1.5&maxRows=1&level=2&username="
-        URL += GEONAME_USERNAME
-        root = ET.fromstring(requests.get(
-            URL, headers=headers, timeout=10).text.strip())
+        geonames_user = os.environ.get('GEONAMES_USERNAME')
+        geo_params = {
+            'lat': parkrun['geometry']['coordinates'][1],
+            'lng': parkrun['geometry']['coordinates'][0],
+            'radius': 1.5,
+            'maxRows': 1,
+            'level': 2,
+            'username': geonames_user,
+        }
+        geo_url = 'https://api.geonames.org/countrySubdivision'
         try:
-            state = root.find('countrySubdivision').find('adminName1').text
-        except BaseException:
-            state = "-Unknown-"
-            print(now(), parkrun['properties']
-                  ['EventLongName'], "- State not Found -", URL)
-        try:
-            county = root.find('countrySubdivision').find('adminName2').text
-        except BaseException:
-            county = "-Unknown-"
-            print(now(), parkrun['properties']
-                  ['EventLongName'], '- County not found -', URL)
+            gn_resp = http.get(geo_url, params=geo_params, timeout=10)
+            gn_resp.raise_for_status()
+            root = ET.fromstring(gn_resp.text.strip())
+        except (requests.RequestException, ET.ParseError):
+            state = '-Unknown-'
+            county = '-Unknown-'
+            print(now(), parkrun['properties']['EventLongName'],
+                  '- Geonames request or parse failed -', geo_url)
+        else:
+            subdiv = root.find('countrySubdivision')
+            if subdiv is None:
+                state = '-Unknown-'
+                county = '-Unknown-'
+                print(now(), parkrun['properties']['EventLongName'],
+                      '- State not Found -', geo_url)
+            else:
+                admin1 = subdiv.find('adminName1')
+                admin2 = subdiv.find('adminName2')
+                state = (
+                    admin1.text if admin1 is not None and admin1.text
+                    else '-Unknown-')
+                county = (
+                    admin2.text if admin2 is not None and admin2.text
+                    else '-Unknown-')
+                if state == '-Unknown-':
+                    print(now(), parkrun['properties']['EventLongName'],
+                          '- State not Found -', geo_url)
+                if county == '-Unknown-':
+                    print(now(), parkrun['properties']['EventLongName'],
+                          '- County not found -', geo_url)
         parkrun['properties']['State'] = state
         parkrun['properties']['County'] = county
         add = [parkrun['properties']['EventLongName'],
@@ -1858,7 +1895,7 @@ with open('_data/counties/scotland.tsv', 'wt', encoding='utf-8', newline='') as 
                 for x in range(4):
                     out.append('')
             tsv_writer.writerow(out)
-print(now(), "counties/scotalnd.tsv saved")
+print(now(), "counties/scotland.tsv saved")
 
 with open('_data/counties/wales.tsv', 'wt', encoding='utf-8', newline='') as f:
     tsv_writer = csv.writer(f, delimiter='\t')

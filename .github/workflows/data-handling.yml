@@ -34,6 +34,8 @@ jobs:
         pip install -r requirements.txt
 
     - name: execute py script
+      env:
+        GEONAMES_USERNAME: ${{ secrets.GEONAMES_USERNAME }}
       run: python parkrun_data.py
       # continue-on-error: true
     
@@ -47,18 +49,22 @@ jobs:
         echo ${{ steps.current-time.outputs.time }} >> _data/raw/time.tsv
 
     - name: Commit files
+      id: data_commit
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add _data/
         git add _posts/'Cancellation Updates'
         if git diff --staged --quiet; then
+          echo "committed=false" >> "$GITHUB_OUTPUT"
           echo "No data changes to commit."
           exit 0
         fi
         git commit -m "Update parkrun Data [Bot]"
+        echo "committed=true" >> "$GITHUB_OUTPUT"
 
     - name: Push changes
+      if: steps.data_commit.outputs.committed == 'true'
       uses: ad-m/github-push-action@v1.0.0
       with:
         github_token: ${{ secrets.API_TOKEN_GITHUB }}
