@@ -10949,8 +10949,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.642374,
-          50.808363
+          -1.567476,
+          50.821853
         ]
       },
       "properties": {
@@ -28740,13 +28740,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Betteshanger Country Park",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2026-05-10",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/betteshanger-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Kent",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Betteshanger junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/betteshanger-juniors\">parkrun.org.uk/betteshanger-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Betteshanger junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 10&nbsp;May&nbsp;2026</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/betteshanger-juniors\">parkrun.org.uk/betteshanger-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
