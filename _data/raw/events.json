@@ -58114,6 +58114,26 @@
         }
       },
       {
+        "id": 3900,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -7.159437,
+            54.906352
+          ]
+        },
+        "properties": {
+          "eventname": "claudycountrypark",
+          "EventLongName": "Claudy Country Park parkrun",
+          "EventShortName": "Claudy Country Park",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 1,
+          "EventLocation": "Claudy Country Park"
+        }
+      },
+      {
         "id": 3901,
         "type": "Feature",
         "geometry": {
@@ -58311,6 +58331,46 @@
           "countrycode": 46,
           "seriesid": 1,
           "EventLocation": "Miyagawa Love River koen"
+        }
+      },
+      {
+        "id": 3913,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.886209,
+            48.359944
+          ]
+        },
+        "properties": {
+          "eventname": "wittelsbacher",
+          "EventLongName": "Wittelsbacher parkrun",
+          "EventShortName": "Wittelsbacher",
+          "LocalisedEventLongName": null,
+          "countrycode": 32,
+          "seriesid": 1,
+          "EventLocation": "Wittelsbacher"
+        }
+      },
+      {
+        "id": 3914,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.654358,
+            -36.389602
+          ]
+        },
+        "properties": {
+          "eventname": "warkworthshowgrounds",
+          "EventLongName": "Warkworth Showgrounds parkrun",
+          "EventShortName": "Warkworth Showgrounds",
+          "LocalisedEventLongName": null,
+          "countrycode": 65,
+          "seriesid": 1,
+          "EventLocation": "Warkworth Showgrounds"
         }
       }
     ]
