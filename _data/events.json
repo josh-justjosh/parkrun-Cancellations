@@ -3699,13 +3699,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "Hemlington Lake",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2026-05-24",
+            "ReasonCancelled": "Shortage of volunteers"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/hemlingtonlake-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Middlesbrough",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Hemlington Lake junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hemlingtonlake-juniors\">parkrun.org.uk/hemlingtonlake-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Hemlington Lake junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 24&nbsp;May&nbsp;2026</td></tr><tr><th>Cancellation Note:</th><td>Shortage of volunteers</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/hemlingtonlake-juniors\">parkrun.org.uk/hemlingtonlake-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
@@ -75664,13 +75669,18 @@
         "countrycode": 98,
         "seriesid": 1,
         "EventLocation": "Jenkins Park",
-        "Status": "parkrunning",
-        "Cancellations": [],
+        "Status": "5k Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2026-05-23",
+            "ReasonCancelled": "Weather"
+          }
+        ],
         "Website": "https://www.parkrun.us/jenkinspark",
         "Country": "USA",
         "State": "Texas",
         "County": "Harris",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Jenkins Park parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/jenkinspark\">parkrun.us/jenkinspark</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Jenkins Park parkrun</h4><table><tr><th>Status:</th><td>5k Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Saturday, 23&nbsp;May&nbsp;2026</td></tr><tr><th>Cancellation Note:</th><td>Weather</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.us/jenkinspark\">parkrun.us/jenkinspark</a></td></tr></table>",
         "Special Days": {}
       }
     },
