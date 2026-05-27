@@ -58412,6 +58412,46 @@
           "seriesid": 1,
           "EventLocation": "Zonnestraal"
         }
+      },
+      {
+        "id": 3919,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            23.275153,
+            55.917825
+          ]
+        },
+        "properties": {
+          "eventname": "dainai",
+          "EventLongName": "parkrun Dainai",
+          "EventShortName": "Dainai",
+          "LocalisedEventLongName": null,
+          "countrycode": 54,
+          "seriesid": 1,
+          "EventLocation": "Dainai"
+        }
+      },
+      {
+        "id": 3920,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -64.76324,
+            46.061925
+          ]
+        },
+        "properties": {
+          "eventname": "millcreeknature",
+          "EventLongName": "Mill Creek Nature parkrun",
+          "EventShortName": "Mill Creek Nature",
+          "LocalisedEventLongName": null,
+          "countrycode": 14,
+          "seriesid": 1,
+          "EventLocation": "Mill Creek Nature"
+        }
       }
     ]
   }
