@@ -38,7 +38,7 @@ jobs:
       # continue-on-error: true
     
     - name: Get Current Time
-      uses: josStorer/get-current-time@v2.1.2
+      uses: josStorer/get-current-time@v2.1.3
       id: current-time
     
     - name: Write Time to File
