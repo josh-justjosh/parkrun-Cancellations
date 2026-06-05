@@ -58414,6 +58414,26 @@
         }
       },
       {
+        "id": 3915,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.724143,
+            52.30484
+          ]
+        },
+        "properties": {
+          "eventname": "queensway",
+          "EventLongName": "Queensway parkrun",
+          "EventShortName": "Queensway",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 1,
+          "EventLocation": "Queensway"
+        }
+      },
+      {
         "id": 3917,
         "type": "Feature",
         "geometry": {
@@ -58571,6 +58591,46 @@
           "countrycode": 32,
           "seriesid": 1,
           "EventLocation": "Rabenauer Grund"
+        }
+      },
+      {
+        "id": 3925,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -3.387514,
+            50.853303
+          ]
+        },
+        "properties": {
+          "eventname": "ccafields-juniors",
+          "EventLongName": "CCA Fields junior parkrun",
+          "EventShortName": "CCA Fields juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "CCA Fields juniors"
+        }
+      },
+      {
+        "id": 3928,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5.389645,
+            52.136747
+          ]
+        },
+        "properties": {
+          "eventname": "nimmerdor",
+          "EventLongName": "Nimmerdor parkrun",
+          "EventShortName": "Nimmerdor",
+          "LocalisedEventLongName": null,
+          "countrycode": 64,
+          "seriesid": 1,
+          "EventLocation": "Nimmerdor"
         }
       }
     ]
