@@ -53694,26 +53694,6 @@
         }
       },
       {
-        "id": 3671,
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            23.895822,
-            -33.977205
-          ]
-        },
-        "properties": {
-          "eventname": "plaatbosnaturereserve",
-          "EventLongName": "Plaatbos Nature Reserve parkrun",
-          "EventShortName": "Plaatbos Nature Reserve",
-          "LocalisedEventLongName": null,
-          "countrycode": 85,
-          "seriesid": 1,
-          "EventLocation": "Plaatbos Nature Reserve"
-        }
-      },
-      {
         "id": 3672,
         "type": "Feature",
         "geometry": {
@@ -58651,6 +58631,46 @@
           "countrycode": 42,
           "seriesid": 1,
           "EventLocation": "Ballymount"
+        }
+      },
+      {
+        "id": 3934,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.237017,
+            36.082105
+          ]
+        },
+        "properties": {
+          "eventname": "happyhill",
+          "EventLongName": "Happy Hill parkrun",
+          "EventShortName": "Happy Hill",
+          "LocalisedEventLongName": null,
+          "countrycode": 98,
+          "seriesid": 1,
+          "EventLocation": "Happy Hill"
+        }
+      },
+      {
+        "id": 3935,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -83.062277,
+            40.306738
+          ]
+        },
+        "properties": {
+          "eventname": "mingo",
+          "EventLongName": "Mingo parkrun",
+          "EventShortName": "Mingo",
+          "LocalisedEventLongName": null,
+          "countrycode": 98,
+          "seriesid": 1,
+          "EventLocation": "Mingo"
         }
       }
     ]
