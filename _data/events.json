@@ -77541,13 +77541,18 @@
         "countrycode": 97,
         "seriesid": 2,
         "EventLocation": "GWR Park juniors",
-        "Status": "junior parkrunning",
-        "Cancellations": [],
+        "Status": "junior Cancellation",
+        "Cancellations": [
+          {
+            "DateCancelled": "2026-06-28",
+            "ReasonCancelled": "Venue unavailable"
+          }
+        ],
         "Website": "https://www.parkrun.org.uk/gwrpark-juniors",
         "Country": "United Kingdom",
         "State": "England",
         "County": "Swindon",
-        "description": "<h4 style=\"margin: 0 0 8px;\">GWR Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/gwrpark-juniors\">parkrun.org.uk/gwrpark-juniors</a></td></tr></table>",
+        "description": "<h4 style=\"margin: 0 0 8px;\">GWR Park junior parkrun</h4><table><tr><th>Status:</th><td>junior Cancellation</td></tr><tr><th>Date Cancelled:</th><td>Sunday, 28&nbsp;June&nbsp;2026</td></tr><tr><th>Cancellation Note:</th><td>Venue unavailable</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/gwrpark-juniors\">parkrun.org.uk/gwrpark-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     },
