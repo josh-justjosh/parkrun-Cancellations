@@ -58752,6 +58752,46 @@
           "seriesid": 1,
           "EventLocation": "Jagersplas"
         }
+      },
+      {
+        "id": 3941,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.193939,
+            51.39122
+          ]
+        },
+        "properties": {
+          "eventname": "mordenrecreationground-juniors",
+          "EventLongName": "Morden Recreation Ground junior parkrun",
+          "EventShortName": "Morden Recreation Ground juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Morden Recreation Ground juniors"
+        }
+      },
+      {
+        "id": 3942,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -3.316899,
+            53.115964
+          ]
+        },
+        "properties": {
+          "eventname": "ruthinmemorialpf-juniors",
+          "EventLongName": "Ruthin Memorial Playing Field junior parkrun",
+          "EventShortName": "Ruthin Memorial Playing Field juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Ruthin Memorial Playing Field juniors"
+        }
       }
     ]
   }
