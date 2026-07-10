@@ -58774,6 +58774,26 @@
         }
       },
       {
+        "id": 3937,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -2.193208,
+            53.04901
+          ]
+        },
+        "properties": {
+          "eventname": "valeparkburslem",
+          "EventLongName": "Vale Park parkrun, Burslem",
+          "EventShortName": "Vale Park, Burslem",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 1,
+          "EventLocation": "Vale Park, Burslem"
+        }
+      },
+      {
         "id": 3938,
         "type": "Feature",
         "geometry": {
@@ -58931,6 +58951,46 @@
           "countrycode": 3,
           "seriesid": 1,
           "EventLocation": "Spinnaker"
+        }
+      },
+      {
+        "id": 3952,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.649699,
+            52.394434
+          ]
+        },
+        "properties": {
+          "eventname": "lavenderhall-juniors",
+          "EventLongName": "Lavender Hall junior parkrun",
+          "EventShortName": "Lavender Hall juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Lavender Hall juniors"
+        }
+      },
+      {
+        "id": 3953,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.27026,
+            51.664182
+          ]
+        },
+        "properties": {
+          "eventname": "meadowpark-juniors",
+          "EventLongName": "Meadow Park junior parkrun",
+          "EventShortName": "Meadow Park juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Meadow Park juniors"
         }
       }
     ]
