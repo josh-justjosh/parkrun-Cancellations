@@ -59052,6 +59052,66 @@
           "seriesid": 1,
           "EventLocation": "Stadtpark Rotehorn"
         }
+      },
+      {
+        "id": 3958,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -74.090257,
+            40.917058
+          ]
+        },
+        "properties": {
+          "eventname": "saddlerivercounty",
+          "EventLongName": "Saddle River County parkrun",
+          "EventShortName": "Saddle River County",
+          "LocalisedEventLongName": null,
+          "countrycode": 98,
+          "seriesid": 1,
+          "EventLocation": "Saddle River County"
+        }
+      },
+      {
+        "id": 3959,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            101.435332,
+            3.30622
+          ]
+        },
+        "properties": {
+          "eventname": "tamantasikkotaputeri",
+          "EventLongName": "Taman Tasik Kota Puteri parkrun",
+          "EventShortName": "Taman Tasik Kota Puteri",
+          "LocalisedEventLongName": null,
+          "countrycode": 57,
+          "seriesid": 1,
+          "EventLocation": "Taman Tasik Kota Puteri"
+        }
+      },
+      {
+        "id": 3960,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.75774,
+            55.569412
+          ]
+        },
+        "properties": {
+          "eventname": "fredericiavold",
+          "EventLongName": "Fredericia Vold parkrun",
+          "EventShortName": "Fredericia Vold",
+          "LocalisedEventLongName": null,
+          "countrycode": 23,
+          "seriesid": 1,
+          "EventLocation": "Fredericia Vold"
+        }
       }
     ]
   }
