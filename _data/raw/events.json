@@ -59112,6 +59112,66 @@
           "seriesid": 1,
           "EventLocation": "Fredericia Vold"
         }
+      },
+      {
+        "id": 3962,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            15.618091,
+            60.61662
+          ]
+        },
+        "properties": {
+          "eventname": "kalgarden",
+          "EventLongName": "K\u00e5lg\u00e5rden parkrun",
+          "EventShortName": "K\u00e5lg\u00e5rden",
+          "LocalisedEventLongName": null,
+          "countrycode": 88,
+          "seriesid": 1,
+          "EventLocation": "K\u00e5lg\u00e5rden"
+        }
+      },
+      {
+        "id": 3963,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            18.023466,
+            40.018345
+          ]
+        },
+        "properties": {
+          "eventname": "sirenhello",
+          "EventLongName": "Sirenhello parkrun",
+          "EventShortName": "Sirenhello",
+          "LocalisedEventLongName": null,
+          "countrycode": 44,
+          "seriesid": 1,
+          "EventLocation": "Sirenhello"
+        }
+      },
+      {
+        "id": 3964,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.668984,
+            34.18562
+          ]
+        },
+        "properties": {
+          "eventname": "upperlasvirgenescanyon",
+          "EventLongName": "Upper Las Virgenes Canyon parkrun",
+          "EventShortName": "Upper Las Virgenes Canyon",
+          "LocalisedEventLongName": null,
+          "countrycode": 98,
+          "seriesid": 1,
+          "EventLocation": "Upper Las Virgenes Canyon"
+        }
       }
     ]
   }
