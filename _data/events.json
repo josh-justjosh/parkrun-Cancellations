@@ -82740,6 +82740,62 @@
         "description": "<h4 style=\"margin: 0 0 8px;\">Festival Green parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/festivalgreen\">parkrun.org.uk/festivalgreen</a></td></tr></table>",
         "Special Days": {}
       }
+    },
+    {
+      "id": 3969,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.483217,
+          51.180149
+        ]
+      },
+      "properties": {
+        "eventname": "schlossrheydt",
+        "EventLongName": "Schloss Rheydt parkrun",
+        "EventShortName": "Schloss Rheydt",
+        "LocalisedEventLongName": null,
+        "countrycode": 32,
+        "seriesid": 1,
+        "EventLocation": "Schloss Rheydt",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.de/schlossrheydt",
+        "Country": "Germany",
+        "State": "North Rhine-Westphalia",
+        "County": "D\u00fcsseldorf District",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Schloss Rheydt parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/schlossrheydt\">parkrun.com.de/schlossrheydt</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 3970,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.474372,
+          54.01087
+        ]
+      },
+      "properties": {
+        "eventname": "conynghamhall-juniors",
+        "EventLongName": "Conyngham Hall junior parkrun",
+        "EventShortName": "Conyngham Hall juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Conyngham Hall juniors",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/conynghamhall-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "North Yorkshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Conyngham Hall junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/conynghamhall-juniors\">parkrun.org.uk/conynghamhall-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
     }
   ]
 }
