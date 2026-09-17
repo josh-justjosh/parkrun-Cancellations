@@ -59652,6 +59652,26 @@
           "seriesid": 1,
           "EventLocation": "Red Willow Trail"
         }
+      },
+      {
+        "id": 4000,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            135.008025,
+            34.642379
+          ]
+        },
+        "properties": {
+          "eventname": "okurakaigankoen",
+          "EventLongName": "Okura kaigan koen parkrun",
+          "EventShortName": "Okura kaigan koen",
+          "LocalisedEventLongName": "\u5927\u8535\u6d77\u5cb8\u516c\u5712 parkrun",
+          "countrycode": 46,
+          "seriesid": 1,
+          "EventLocation": "Okura kaigan koen"
+        }
       }
     ]
   }
