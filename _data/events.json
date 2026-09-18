@@ -83272,6 +83272,62 @@
         "description": "<h4 style=\"margin: 0 0 8px;\">Okura kaigan koen parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.jp/okurakaigankoen\">parkrun.jp/okurakaigankoen</a></td></tr></table>",
         "Special Days": {}
       }
+    },
+    {
+      "id": 4002,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.600773,
+          51.6763
+        ]
+      },
+      "properties": {
+        "eventname": "kgvamersham-juniors",
+        "EventLongName": "KGV junior parkrun, Amersham",
+        "EventShortName": "KGV juniors, Amersham",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "KGV juniors, Amersham",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/kgvamersham-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Buckinghamshire",
+        "description": "<h4 style=\"margin: 0 0 8px;\">KGV junior parkrun, Amersham</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/kgvamersham-juniors\">parkrun.org.uk/kgvamersham-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 4003,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.164824,
+          52.546411
+        ]
+      },
+      "properties": {
+        "eventname": "grosserspektesee",
+        "EventLongName": "Gro\u00dfer Spektesee parkrun",
+        "EventShortName": "Gro\u00dfer Spektesee",
+        "LocalisedEventLongName": null,
+        "countrycode": 32,
+        "seriesid": 1,
+        "EventLocation": "Gro\u00dfer Spektesee",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.de/grosserspektesee",
+        "Country": "Germany",
+        "State": "State of Berlin",
+        "County": "-Unknown-",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Gro\u00dfer Spektesee parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/grosserspektesee\">parkrun.com.de/grosserspektesee</a></td></tr></table>",
+        "Special Days": {}
+      }
     }
   ]
 }

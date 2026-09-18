@@ -59672,6 +59672,46 @@
           "seriesid": 1,
           "EventLocation": "Okura kaigan koen"
         }
+      },
+      {
+        "id": 4002,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.600773,
+            51.6763
+          ]
+        },
+        "properties": {
+          "eventname": "kgvamersham-juniors",
+          "EventLongName": "KGV junior parkrun, Amersham",
+          "EventShortName": "KGV juniors, Amersham",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "KGV juniors, Amersham"
+        }
+      },
+      {
+        "id": 4003,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            13.164824,
+            52.546411
+          ]
+        },
+        "properties": {
+          "eventname": "grosserspektesee",
+          "EventLongName": "Gro\u00dfer Spektesee parkrun",
+          "EventShortName": "Gro\u00dfer Spektesee",
+          "LocalisedEventLongName": null,
+          "countrycode": 32,
+          "seriesid": 1,
+          "EventLocation": "Gro\u00dfer Spektesee"
+        }
       }
     ]
   }
