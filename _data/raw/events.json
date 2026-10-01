@@ -59832,6 +59832,46 @@
           "seriesid": 2,
           "EventLocation": "Forge Field juniors"
         }
+      },
+      {
+        "id": 4015,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            103.723335,
+            1.340802
+          ]
+        },
+        "properties": {
+          "eventname": "juronglakegardens",
+          "EventLongName": "Jurong Lake Gardens parkrun",
+          "EventShortName": "Jurong Lake Gardens",
+          "LocalisedEventLongName": null,
+          "countrycode": 82,
+          "seriesid": 1,
+          "EventLocation": "Jurong Lake Gardens"
+        }
+      },
+      {
+        "id": 4016,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            175.641091,
+            -40.32319
+          ]
+        },
+        "properties": {
+          "eventname": "linklaterreserve",
+          "EventLongName": "Linklater Reserve parkrun",
+          "EventShortName": "Linklater Reserve",
+          "LocalisedEventLongName": null,
+          "countrycode": 65,
+          "seriesid": 1,
+          "EventLocation": "Linklater Reserve"
+        }
       }
     ]
   }

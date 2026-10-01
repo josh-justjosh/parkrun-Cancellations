@@ -83496,6 +83496,62 @@
         "description": "<h4 style=\"margin: 0 0 8px;\">Forge Field junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/forgefield-juniors\">parkrun.ie/forgefield-juniors</a></td></tr></table>",
         "Special Days": {}
       }
+    },
+    {
+      "id": 4015,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.723335,
+          1.340802
+        ]
+      },
+      "properties": {
+        "eventname": "juronglakegardens",
+        "EventLongName": "Jurong Lake Gardens parkrun",
+        "EventShortName": "Jurong Lake Gardens",
+        "LocalisedEventLongName": null,
+        "countrycode": 82,
+        "seriesid": 1,
+        "EventLocation": "Jurong Lake Gardens",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.sg/juronglakegardens",
+        "Country": "Singapore",
+        "State": "-Unknown-",
+        "County": "-Unknown-",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Jurong Lake Gardens parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.sg/juronglakegardens\">parkrun.sg/juronglakegardens</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 4016,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.641091,
+          -40.32319
+        ]
+      },
+      "properties": {
+        "eventname": "linklaterreserve",
+        "EventLongName": "Linklater Reserve parkrun",
+        "EventShortName": "Linklater Reserve",
+        "LocalisedEventLongName": null,
+        "countrycode": 65,
+        "seriesid": 1,
+        "EventLocation": "Linklater Reserve",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.co.nz/linklaterreserve",
+        "Country": "New Zealand",
+        "State": "Manawatu-Wanganui",
+        "County": "Palmerston North City",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Linklater Reserve parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.nz/linklaterreserve\">parkrun.co.nz/linklaterreserve</a></td></tr></table>",
+        "Special Days": {}
+      }
     }
   ]
 }
