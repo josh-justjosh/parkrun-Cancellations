@@ -5019,8 +5019,8 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            -1.143079,
-            50.725879
+            -1.287028,
+            50.711871
           ]
         },
         "properties": {
@@ -25299,8 +25299,8 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            -1.142443,
-            50.727911
+            -1.287427,
+            50.7096
           ]
         },
         "properties": {
@@ -59894,6 +59894,26 @@
         }
       },
       {
+        "id": 4006,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -7.563808,
+            52.100642
+          ]
+        },
+        "properties": {
+          "eventname": "dungarvangreenway",
+          "EventLongName": "Dungarvan Greenway parkrun",
+          "EventShortName": "Dungarvan Greenway",
+          "LocalisedEventLongName": null,
+          "countrycode": 42,
+          "seriesid": 1,
+          "EventLocation": "Dungarvan Greenway"
+        }
+      },
+      {
         "id": 4007,
         "type": "Feature",
         "geometry": {
@@ -59931,6 +59951,46 @@
           "countrycode": 97,
           "seriesid": 2,
           "EventLocation": "Cambuslang Park juniors"
+        }
+      },
+      {
+        "id": 4009,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -8.370587,
+            51.811322
+          ]
+        },
+        "properties": {
+          "eventname": "corkharbourgreenwaycarrigaline",
+          "EventLongName": "Cork Harbour Greenway parkrun, Carrigaline",
+          "EventShortName": "Cork Harbour Greenway, Carrigaline",
+          "LocalisedEventLongName": null,
+          "countrycode": 42,
+          "seriesid": 1,
+          "EventLocation": "Cork Harbour Greenway, Carrigaline"
+        }
+      },
+      {
+        "id": 4010,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -3.029152,
+            54.335839
+          ]
+        },
+        "properties": {
+          "eventname": "grizedaleforest",
+          "EventLongName": "Grizedale Forest parkrun",
+          "EventShortName": "Grizedale Forest",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 1,
+          "EventLocation": "Grizedale Forest"
         }
       },
       {

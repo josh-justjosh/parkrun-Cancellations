@@ -6755,8 +6755,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.143079,
-          50.725879
+          -1.287028,
+          50.711871
         ]
       },
       "properties": {
@@ -35147,8 +35147,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.142443,
-          50.727911
+          -1.287427,
+          50.7096
         ]
       },
       "properties": {
@@ -83582,6 +83582,34 @@
       }
     },
     {
+      "id": 4006,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.563808,
+          52.100642
+        ]
+      },
+      "properties": {
+        "eventname": "dungarvangreenway",
+        "EventLongName": "Dungarvan Greenway parkrun",
+        "EventShortName": "Dungarvan Greenway",
+        "LocalisedEventLongName": null,
+        "countrycode": 42,
+        "seriesid": 1,
+        "EventLocation": "Dungarvan Greenway",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.ie/dungarvangreenway",
+        "Country": "Ireland",
+        "State": "Munster",
+        "County": "Waterford",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Dungarvan Greenway parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/dungarvangreenway\">parkrun.ie/dungarvangreenway</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
       "id": 4007,
       "type": "Feature",
       "geometry": {
@@ -83634,6 +83662,62 @@
         "State": "Scotland",
         "County": "South Lanarkshire",
         "description": "<h4 style=\"margin: 0 0 8px;\">Cambuslang Park junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/cambuslangpark-juniors\">parkrun.org.uk/cambuslangpark-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 4009,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.370587,
+          51.811322
+        ]
+      },
+      "properties": {
+        "eventname": "corkharbourgreenwaycarrigaline",
+        "EventLongName": "Cork Harbour Greenway parkrun, Carrigaline",
+        "EventShortName": "Cork Harbour Greenway, Carrigaline",
+        "LocalisedEventLongName": null,
+        "countrycode": 42,
+        "seriesid": 1,
+        "EventLocation": "Cork Harbour Greenway, Carrigaline",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.ie/corkharbourgreenwaycarrigaline",
+        "Country": "Ireland",
+        "State": "Munster",
+        "County": "Cork",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Cork Harbour Greenway parkrun, Carrigaline</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.ie/corkharbourgreenwaycarrigaline\">parkrun.ie/corkharbourgreenwaycarrigaline</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 4010,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.029152,
+          54.335839
+        ]
+      },
+      "properties": {
+        "eventname": "grizedaleforest",
+        "EventLongName": "Grizedale Forest parkrun",
+        "EventShortName": "Grizedale Forest",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 1,
+        "EventLocation": "Grizedale Forest",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/grizedaleforest",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Cumbria",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Grizedale Forest parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/grizedaleforest\">parkrun.org.uk/grizedaleforest</a></td></tr></table>",
         "Special Days": {}
       }
     },
