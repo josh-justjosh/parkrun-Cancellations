@@ -46487,8 +46487,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.352561,
-          51.419922
+          0.354337,
+          51.419402
         ]
       },
       "properties": {
@@ -65774,34 +65774,6 @@
       }
     },
     {
-      "id": 3335,
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          114.15228,
-          -27.733275
-        ]
-      },
-      "properties": {
-        "eventname": "jakespoint",
-        "EventLongName": "Jakes Point parkrun",
-        "EventShortName": "Jakes Point",
-        "LocalisedEventLongName": null,
-        "countrycode": 3,
-        "seriesid": 1,
-        "EventLocation": "Jakes Point Lookout",
-        "Status": "parkrunning",
-        "Cancellations": [],
-        "Website": "https://www.parkrun.com.au/jakespoint",
-        "Country": "Australia",
-        "State": "Western Australia",
-        "County": "Northampton",
-        "description": "<h4 style=\"margin: 0 0 8px;\">Jakes Point parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.au/jakespoint\">parkrun.com.au/jakespoint</a></td></tr></table>",
-        "Special Days": {}
-      }
-    },
-    {
       "id": 3337,
       "type": "Feature",
       "geometry": {
@@ -84222,6 +84194,34 @@
         "State": "North Rhine-Westphalia",
         "County": "D\u00fcsseldorf District",
         "description": "<h4 style=\"margin: 0 0 8px;\">Mondscheinwiese parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/mondscheinwiese\">parkrun.com.de/mondscheinwiese</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 4034,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.331399,
+          51.235109
+        ]
+      },
+      "properties": {
+        "eventname": "meadowbank-juniors",
+        "EventLongName": "Meadowbank junior parkrun",
+        "EventShortName": "Meadowbank juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "Meadowbank juniors",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/meadowbank-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Surrey",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Meadowbank junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/meadowbank-juniors\">parkrun.org.uk/meadowbank-juniors</a></td></tr></table>",
         "Special Days": {}
       }
     }
