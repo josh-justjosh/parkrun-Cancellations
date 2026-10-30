@@ -60412,6 +60412,46 @@
           "seriesid": 1,
           "EventLocation": "Provo River Delta Gateway"
         }
+      },
+      {
+        "id": 4036,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            16.319424,
+            48.189546
+          ]
+        },
+        "properties": {
+          "eventname": "auerwelsbachpark",
+          "EventLongName": "Auer-Welsbach-Park parkrun",
+          "EventShortName": "Auer-Welsbach-Park",
+          "LocalisedEventLongName": null,
+          "countrycode": 4,
+          "seriesid": 1,
+          "EventLocation": "Auer-Welsbach-Park"
+        }
+      },
+      {
+        "id": 4037,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -79.299261,
+            43.867445
+          ]
+        },
+        "properties": {
+          "eventname": "austindrive",
+          "EventLongName": "Austin Drive parkrun",
+          "EventShortName": "Austin Drive",
+          "LocalisedEventLongName": null,
+          "countrycode": 14,
+          "seriesid": 1,
+          "EventLocation": "Austin Drive"
+        }
       }
     ]
   }
