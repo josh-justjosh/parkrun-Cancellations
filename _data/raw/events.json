@@ -60452,6 +60452,46 @@
           "seriesid": 1,
           "EventLocation": "Dundee Golf Club"
         }
+      },
+      {
+        "id": 4040,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8.918972,
+            49.139229
+          ]
+        },
+        "properties": {
+          "eventname": "elsenzufer",
+          "EventLongName": "Elsenzufer parkrun",
+          "EventShortName": "Elsenzufer",
+          "LocalisedEventLongName": null,
+          "countrycode": 32,
+          "seriesid": 1,
+          "EventLocation": "Elsenzufer"
+        }
+      },
+      {
+        "id": 4041,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -2.309763,
+            51.236053
+          ]
+        },
+        "properties": {
+          "eventname": "theoldshowfield-juniors",
+          "EventLongName": "The Old Showfield junior parkrun",
+          "EventShortName": "The Old Showfield juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "The Old Showfield juniors"
+        }
       }
     ]
   }

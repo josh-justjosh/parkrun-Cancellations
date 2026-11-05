@@ -84364,6 +84364,62 @@
         "description": "<h4 style=\"margin: 0 0 8px;\">Dundee Golf Club parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.co.za/dundeegolfclub\">parkrun.co.za/dundeegolfclub</a></td></tr></table>",
         "Special Days": {}
       }
+    },
+    {
+      "id": 4040,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.918972,
+          49.139229
+        ]
+      },
+      "properties": {
+        "eventname": "elsenzufer",
+        "EventLongName": "Elsenzufer parkrun",
+        "EventShortName": "Elsenzufer",
+        "LocalisedEventLongName": null,
+        "countrycode": 32,
+        "seriesid": 1,
+        "EventLocation": "Elsenzufer",
+        "Status": "parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.com.de/elsenzufer",
+        "Country": "Germany",
+        "State": "Baden-Wurttemberg",
+        "County": "Regierungsbezirk Stuttgart",
+        "description": "<h4 style=\"margin: 0 0 8px;\">Elsenzufer parkrun</h4><table><tr><th>Status:</th><td>parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.com.de/elsenzufer\">parkrun.com.de/elsenzufer</a></td></tr></table>",
+        "Special Days": {}
+      }
+    },
+    {
+      "id": 4041,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.309763,
+          51.236053
+        ]
+      },
+      "properties": {
+        "eventname": "theoldshowfield-juniors",
+        "EventLongName": "The Old Showfield junior parkrun",
+        "EventShortName": "The Old Showfield juniors",
+        "LocalisedEventLongName": null,
+        "countrycode": 97,
+        "seriesid": 2,
+        "EventLocation": "The Old Showfield juniors",
+        "Status": "junior parkrunning",
+        "Cancellations": [],
+        "Website": "https://www.parkrun.org.uk/theoldshowfield-juniors",
+        "Country": "United Kingdom",
+        "State": "England",
+        "County": "Somerset",
+        "description": "<h4 style=\"margin: 0 0 8px;\">The Old Showfield junior parkrun</h4><table><tr><th>Status:</th><td>junior parkrunning</td></tr><tr><th>Website:</th><td><a href=\"https://www.parkrun.org.uk/theoldshowfield-juniors\">parkrun.org.uk/theoldshowfield-juniors</a></td></tr></table>",
+        "Special Days": {}
+      }
     }
   ]
 }
