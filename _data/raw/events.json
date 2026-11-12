@@ -60310,7 +60310,7 @@
           "LocalisedEventLongName": null,
           "countrycode": 3,
           "seriesid": 2,
-          "EventLocation": "Mary Kinross juniors"
+          "EventLocation": "Mary Kinross Park"
         }
       },
       {
@@ -60551,6 +60551,26 @@
           "countrycode": 85,
           "seriesid": 1,
           "EventLocation": "Cathcart Golf Club"
+        }
+      },
+      {
+        "id": 4044,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -2.192818,
+            53.436256
+          ]
+        },
+        "properties": {
+          "eventname": "cringlepark-juniors",
+          "EventLongName": "Cringle Park junior parkrun",
+          "EventShortName": "Cringle Park juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Cringle Park juniors"
         }
       }
     ]
