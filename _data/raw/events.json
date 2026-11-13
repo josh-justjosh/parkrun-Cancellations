@@ -60374,6 +60374,26 @@
         }
       },
       {
+        "id": 4031,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -3.061683,
+            55.903639
+          ]
+        },
+        "properties": {
+          "eventname": "dalkeithcountrypark",
+          "EventLongName": "Dalkeith Country Park parkrun",
+          "EventShortName": "Dalkeith Country Park",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 1,
+          "EventLocation": "Dalkeith Country Park"
+        }
+      },
+      {
         "id": 4032,
         "type": "Feature",
         "geometry": {
@@ -60571,6 +60591,86 @@
           "countrycode": 97,
           "seriesid": 2,
           "EventLocation": "Cringle Park juniors"
+        }
+      },
+      {
+        "id": 4045,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            28.165013,
+            -26.145256
+          ]
+        },
+        "properties": {
+          "eventname": "horwoodsfarm",
+          "EventLongName": "Horwoods Farm parkrun",
+          "EventShortName": "Horwoods Farm",
+          "LocalisedEventLongName": null,
+          "countrycode": 85,
+          "seriesid": 1,
+          "EventLocation": "Horwoods Farm"
+        }
+      },
+      {
+        "id": 4046,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.46892,
+            53.750985
+          ]
+        },
+        "properties": {
+          "eventname": "springheadpark-juniors",
+          "EventLongName": "Springhead Park junior parkrun",
+          "EventShortName": "Springhead Park juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Springhead Park juniors"
+        }
+      },
+      {
+        "id": 4047,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -2.6866,
+            52.968334
+          ]
+        },
+        "properties": {
+          "eventname": "jubileeparkwhitchurch-juniors",
+          "EventLongName": "Jubilee Park junior parkrun, Whitchurch",
+          "EventShortName": "Jubilee Park juniors, Whitchurch",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Jubilee Park juniors, Whitchurch"
+        }
+      },
+      {
+        "id": 4048,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -9.109058,
+            51.715006
+          ]
+        },
+        "properties": {
+          "eventname": "sammaguire-juniors",
+          "EventLongName": "Sam Maguire junior parkrun",
+          "EventShortName": "Sam Maguire juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 42,
+          "seriesid": 2,
+          "EventLocation": "Sam Maguire juniors"
         }
       }
     ]
