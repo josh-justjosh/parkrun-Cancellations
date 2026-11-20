@@ -16739,18 +16739,18 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            22.024823,
-            -33.214602
+            22.022301,
+            -33.220607
           ]
         },
         "properties": {
-          "eventname": "odendaalstadium",
-          "EventLongName": "Odendaal Stadium parkrun",
-          "EventShortName": "Odendaal Stadium",
+          "eventname": "princealbert",
+          "EventLongName": "Prince Albert parkrun",
+          "EventShortName": "Prince Albert",
           "LocalisedEventLongName": null,
           "countrycode": 85,
           "seriesid": 1,
-          "EventLocation": "Odendaal Stadium"
+          "EventLocation": "Off Magrieta Prinsloo Street"
         }
       },
       {
@@ -60731,6 +60731,46 @@
           "countrycode": 97,
           "seriesid": 2,
           "EventLocation": "Auldcathie District junior"
+        }
+      },
+      {
+        "id": 4052,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -3.235112,
+            50.977653
+          ]
+        },
+        "properties": {
+          "eventname": "wellingtonpark-juniors",
+          "EventLongName": "Wellington Park junior parkrun",
+          "EventShortName": "Wellington Park juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Wellington Park juniors"
+        }
+      },
+      {
+        "id": 4053,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            28.18648,
+            -25.947993
+          ]
+        },
+        "properties": {
+          "eventname": "primeview",
+          "EventLongName": "Prime View parkrun",
+          "EventShortName": "Prime View",
+          "LocalisedEventLongName": null,
+          "countrycode": 85,
+          "seriesid": 1,
+          "EventLocation": "Prime View"
         }
       }
     ]
