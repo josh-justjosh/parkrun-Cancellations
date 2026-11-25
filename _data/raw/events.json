@@ -2954,26 +2954,6 @@
         }
       },
       {
-        "id": 152,
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -1.778156,
-            53.706086
-          ]
-        },
-        "properties": {
-          "eventname": "wellholmepark",
-          "EventLongName": "Wellholme Park parkrun",
-          "EventShortName": "Wellholme Park",
-          "LocalisedEventLongName": null,
-          "countrycode": 97,
-          "seriesid": 1,
-          "EventLocation": "Wellholme Park"
-        }
-      },
-      {
         "id": 153,
         "type": "Feature",
         "geometry": {
@@ -60751,6 +60731,26 @@
           "countrycode": 85,
           "seriesid": 1,
           "EventLocation": "Prime View"
+        }
+      },
+      {
+        "id": 4057,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.779289,
+            51.566607
+          ]
+        },
+        "properties": {
+          "eventname": "higginsonpark-juniors",
+          "EventLongName": "Higginson Park junior parkrun",
+          "EventShortName": "Higginson Park juniors",
+          "LocalisedEventLongName": null,
+          "countrycode": 97,
+          "seriesid": 2,
+          "EventLocation": "Higginson Park juniors"
         }
       }
     ]
